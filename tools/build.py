@@ -804,7 +804,7 @@ def people_index(labs_by_id):
     return head("People · Open Labs Atlas", f"{n} people behind open AI: founders, researchers, maintainers and independent builders, with their public GitHub, Hugging Face and research activity.", "/people/") + f"""<main id="main">
   <section class="intro" style="padding-bottom:20px">
     <p class="eyebrow">People</p>
-    <h1>The people building the open frontier in intelligence.</h1>
+    <h1>The people building the open frontier of intelligence.</h1>
     <p class="lede">Founders, researchers, maintainers and independent builders, with what they have shipped in public.</p>
   </section>
   <div class="toolbar"><div class="wrap">
