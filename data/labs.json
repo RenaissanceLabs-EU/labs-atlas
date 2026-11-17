@@ -1365,7 +1365,7 @@
      "url": "https://huggingface.co/datasets/ai21labs/LIFTBench",
      "date": "2026-10-15",
      "kind": "dataset",
-     "days": 32
+     "days": 33
     },
     "recent_repos_90d": 2,
     "latest_repo": {
@@ -3514,9 +3514,9 @@
     },
     "recent_repos_90d": 89,
     "latest_repo": {
-     "name": "fastllm",
-     "url": "https://github.com/AnswerDotAI/fastllm",
-     "pushed": "2026-11-17T09:38:31Z"
+     "name": "mdhtml",
+     "url": "https://github.com/AnswerDotAI/mdhtml",
+     "pushed": "2026-11-17T11:21:12Z"
     }
    }
   },
@@ -4524,7 +4524,7 @@
     "latest_repo": {
      "name": "nac",
      "url": "https://github.com/arcee-ai/nac",
-     "pushed": "2026-11-17T10:51:03Z"
+     "pushed": "2026-11-17T11:25:02Z"
     }
    }
   },
@@ -12559,11 +12559,11 @@
    "logo": true,
    "lic": {
     "weights": {
-     "status": "mixed",
+     "status": "open",
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 14,
+       "count": 16,
        "cls": "permissive"
       },
       {
@@ -12575,11 +12575,6 @@
        "name": "MIT",
        "count": 3,
        "cls": "permissive"
-      },
-      {
-       "name": "Not stated",
-       "count": 2,
-       "cls": "unstated"
       }
      ],
      "n": 36,
@@ -13509,7 +13504,7 @@
     "latest_repo": {
      "name": "haystack",
      "url": "https://github.com/deepset-ai/haystack",
-     "pushed": "2026-11-17T10:54:52Z"
+     "pushed": "2026-11-17T11:26:54Z"
     }
    }
   },
@@ -14696,7 +14691,7 @@
      "url": "https://huggingface.co/datasets/EdinburghNLP/CIRCUS",
      "date": "2026-11-02",
      "kind": "dataset",
-     "days": 14
+     "days": 15
     },
     "recent_repos_90d": 3,
     "latest_repo": {
@@ -18361,7 +18356,7 @@
      "kind": "dataset",
      "days": 146
     },
-    "recent_repos_90d": 6,
+    "recent_repos_90d": 7,
     "latest_repo": {
      "name": "giskard-docs",
      "url": "https://github.com/Giskard-AI/giskard-docs",
@@ -20089,7 +20084,7 @@
      "kind": "model",
      "days": 32
     },
-    "recent_repos_90d": 14,
+    "recent_repos_90d": 13,
     "latest_repo": {
      "name": "MARMoT",
      "url": "https://github.com/Helsinki-NLP/MARMoT",
@@ -21436,11 +21431,11 @@
      "kind": "dataset",
      "days": 12
     },
-    "recent_repos_90d": 39,
+    "recent_repos_90d": 36,
     "latest_repo": {
-     "name": "kernels",
-     "url": "https://github.com/huggingface/kernels",
-     "pushed": "2026-11-17T11:16:37Z"
+     "name": "tokenizers",
+     "url": "https://github.com/huggingface/tokenizers",
+     "pushed": "2026-11-17T11:30:05Z"
     }
    }
   },
@@ -27543,7 +27538,7 @@
     "latest_repo": {
      "name": "lightly-studio",
      "url": "https://github.com/lightly-ai/lightly-studio",
-     "pushed": "2026-11-17T11:06:39Z"
+     "pushed": "2026-11-17T11:28:48Z"
     }
    }
   },
@@ -28281,9 +28276,9 @@
     },
     "recent_repos_90d": 58,
     "latest_repo": {
-     "name": "twake-ui",
-     "url": "https://github.com/linagora/twake-ui",
-     "pushed": "2026-11-17T11:15:11Z"
+     "name": "twake-on-matrix",
+     "url": "https://github.com/linagora/twake-on-matrix",
+     "pushed": "2026-11-17T11:32:00Z"
     }
    }
   },
@@ -28770,11 +28765,11 @@
      "kind": "dataset",
      "days": 4
     },
-    "recent_repos_90d": 19,
+    "recent_repos_90d": 18,
     "latest_repo": {
      "name": "simple-evals-mm",
      "url": "https://github.com/llm-jp/simple-evals-mm",
-     "pushed": "2026-11-17T11:16:04Z"
+     "pushed": "2026-11-17T11:21:06Z"
     }
    }
   },
@@ -29016,7 +29011,7 @@
      "kind": "dataset",
      "days": 4
     },
-    "recent_repos_90d": 1,
+    "recent_repos_90d": 0,
     "latest_repo": {
      "name": "lm-sys.github.io",
      "url": "https://github.com/lm-sys/lm-sys.github.io",
@@ -29614,9 +29609,9 @@
     },
     "recent_repos_90d": 10,
     "latest_repo": {
-     "name": "marin",
-     "url": "https://github.com/marin-community/marin",
-     "pushed": "2026-11-17T11:19:06Z"
+     "name": "marin-logbooks",
+     "url": "https://github.com/marin-community/marin-logbooks",
+     "pushed": "2026-11-17T11:34:23Z"
     }
    }
   },
@@ -30573,7 +30568,7 @@
     "latest_repo": {
      "name": "hawk",
      "url": "https://github.com/METR/hawk",
-     "pushed": "2026-11-17T11:08:45Z"
+     "pushed": "2026-11-17T11:23:48Z"
     }
    }
   },
@@ -31053,11 +31048,11 @@
      "kind": "model",
      "days": 8
     },
-    "recent_repos_90d": 20,
+    "recent_repos_90d": 21,
     "latest_repo": {
      "name": "MiniMax-Code-MiniApps",
      "url": "https://github.com/MiniMax-AI/MiniMax-Code-MiniApps",
-     "pushed": "2026-11-17T10:28:29Z"
+     "pushed": "2026-11-17T11:31:48Z"
     }
    }
   },
@@ -32795,11 +32790,11 @@
      "kind": "model",
      "days": 15
     },
-    "recent_repos_90d": 6,
+    "recent_repos_90d": 7,
     "latest_repo": {
      "name": "kimi-code",
      "url": "https://github.com/MoonshotAI/kimi-code",
-     "pushed": "2026-11-17T10:32:46Z"
+     "pushed": "2026-11-17T11:35:13Z"
     }
    }
   },
@@ -33242,11 +33237,11 @@
      "kind": "model",
      "days": 60
     },
-    "recent_repos_90d": 29,
+    "recent_repos_90d": 28,
     "latest_repo": {
      "name": "otari",
      "url": "https://github.com/mozilla-ai/otari",
-     "pushed": "2026-11-17T11:12:32Z"
+     "pushed": "2026-11-17T11:29:16Z"
     }
    }
   },
@@ -35109,7 +35104,7 @@
     "latest_repo": {
      "name": "hermes-agent",
      "url": "https://github.com/NousResearch/hermes-agent",
-     "pushed": "2026-11-17T11:20:51Z"
+     "pushed": "2026-11-17T11:37:36Z"
     }
    }
   },
@@ -35680,11 +35675,11 @@
      "kind": "model",
      "days": 0
     },
-    "recent_repos_90d": 1,
+    "recent_repos_90d": 4,
     "latest_repo": {
-     "name": "barney",
-     "url": "https://github.com/NVIDIA/barney",
-     "pushed": "2026-11-17T11:09:45Z"
+     "name": "cuda-quantum",
+     "url": "https://github.com/NVIDIA/cuda-quantum",
+     "pushed": "2026-11-17T11:35:25Z"
     }
    }
   },
@@ -36644,7 +36639,7 @@
      "kind": "model",
      "days": 661
     },
-    "recent_repos_90d": 17,
+    "recent_repos_90d": 18,
     "latest_repo": {
      "name": "site-forecast-app",
      "url": "https://github.com/openclimatefix/site-forecast-app",
@@ -37167,11 +37162,11 @@
      "kind": "model",
      "days": 0
     },
-    "recent_repos_90d": 13,
+    "recent_repos_90d": 12,
     "latest_repo": {
-     "name": "csgclaw",
-     "url": "https://github.com/OpenCSGs/csgclaw",
-     "pushed": "2026-11-17T11:14:08Z"
+     "name": "csglite",
+     "url": "https://github.com/OpenCSGs/csglite",
+     "pushed": "2026-11-17T11:36:07Z"
     }
    }
   },
@@ -37853,7 +37848,7 @@
      "kind": "dataset",
      "days": 172
     },
-    "recent_repos_90d": 18,
+    "recent_repos_90d": 13,
     "latest_repo": {
      "name": "enterprise",
      "url": "https://github.com/OpenHands/enterprise",
@@ -41904,11 +41899,11 @@
      "kind": "model",
      "days": 68
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 8,
     "latest_repo": {
-     "name": "tabpfn-client",
-     "url": "https://github.com/PriorLabs/tabpfn-client",
-     "pushed": "2026-11-17T11:12:18Z"
+     "name": "TabPFN",
+     "url": "https://github.com/PriorLabs/TabPFN",
+     "pushed": "2026-11-17T11:35:20Z"
     }
    }
   },
@@ -44586,7 +44581,7 @@
     "as_of": "2026-11-17"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-17",
     "days": 0,
     "status": "active",
     "latest": {
@@ -44600,7 +44595,7 @@
     "latest_repo": {
      "name": "AI-Scientist-v3",
      "url": "https://github.com/SakanaAI/AI-Scientist-v3",
-     "pushed": "2026-11-16T12:58:24Z"
+     "pushed": "2026-11-17T11:24:08Z"
     }
    }
   },
@@ -45142,7 +45137,7 @@
      "url": "https://huggingface.co/sarvamai/prism",
      "date": "2026-11-02",
      "kind": "model",
-     "days": 14
+     "days": 15
     },
     "recent_repos_90d": 7,
     "latest_repo": {
@@ -46283,7 +46278,7 @@
     "days": 0,
     "status": "active",
     "latest": null,
-    "recent_repos_90d": 39,
+    "recent_repos_90d": 41,
     "latest_repo": {
      "name": "metadata",
      "url": "https://github.com/spraakbanken/metadata",
@@ -52418,11 +52413,11 @@
      "kind": "model",
      "days": 294
     },
-    "recent_repos_90d": 47,
+    "recent_repos_90d": 46,
     "latest_repo": {
-     "name": "skills",
-     "url": "https://github.com/ultralytics/skills",
-     "pushed": "2026-11-17T11:10:13Z"
+     "name": "ultralytics",
+     "url": "https://github.com/ultralytics/ultralytics",
+     "pushed": "2026-11-17T11:40:12Z"
     }
    }
   },
@@ -52667,11 +52662,11 @@
      "kind": "model",
      "days": 4
     },
-    "recent_repos_90d": 3,
+    "recent_repos_90d": 2,
     "latest_repo": {
      "name": "unsloth",
      "url": "https://github.com/unslothai/unsloth",
-     "pushed": "2026-11-17T11:24:30Z"
+     "pushed": "2026-11-17T11:41:38Z"
     }
    }
   },
@@ -54938,7 +54933,7 @@
      "kind": "model",
      "days": 136
     },
-    "recent_repos_90d": 47,
+    "recent_repos_90d": 46,
     "latest_repo": {
      "name": "linpipe",
      "url": "https://github.com/ufal/linpipe",
