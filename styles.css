@@ -484,3 +484,16 @@ body.fullmap { overflow: hidden; }
 .pcard h3 a.stretch::after { content: ''; position: absolute; inset: 0; border-radius: 10px; }
 .pcard .lablink { position: relative; z-index: 2; color: var(--ink-soft); text-underline-offset: 3px; }
 .pcard .lablink:hover { color: var(--gold); }
+
+.peek-head { text-decoration: none; color: inherit; }
+.peek-head:hover h3 { text-decoration: underline; text-decoration-color: var(--gold); text-underline-offset: 4px; }
+.peek { cursor: pointer; }
+@media (max-width: 760px) {
+  .map { min-height: 58vh; min-height: 58svh; }
+  .map .peek, .map.full .peek { position: fixed; left: 12px; right: 12px; bottom: calc(12px + env(safe-area-inset-bottom)); width: auto; z-index: 40; }
+}
+@media (max-width: 560px) {
+  .bar nav { gap: 14px; font-size: 14px; }
+  .bar nav a { white-space: nowrap; }
+  .bar nav a[href="https://renaissancelabs.eu/"] { display: none; }
+}

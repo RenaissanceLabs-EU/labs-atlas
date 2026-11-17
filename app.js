@@ -151,7 +151,7 @@
       pins[l.id] = { node: pin, inner: inner, lg: lg, img: im, p: p, lab: l, loaded: false };
     });
 
-    var k = 1, tf = d3.zoomIdentity, flying = false, flyT = null, logosOn = false;
+    var k = 1, tf = d3.zoomIdentity, flying = false, flyT = null, logosOn = false, peekUrl = null, selectedAt = 0;
     function loadLogos() {
       for (var id in pins) { var o = pins[id]; if (o.img && !o.loaded) { o.loaded = true; o.img.setAttribute('href', '/assets/logos/' + id + '.png'); } }
     }
@@ -172,7 +172,9 @@
       hideTip();
     });
     d3.select(svg).call(zoom).on('dblclick.zoom', null);
-    svg.addEventListener('click', function () { closePeek(); });
+    svg.addEventListener('click', function () { if (Date.now() - selectedAt < 600) return; closePeek(); });
+    ['click', 'mousedown', 'touchstart', 'pointerdown', 'wheel'].forEach(function (evt) { peek.addEventListener(evt, function (e) { e.stopPropagation(); }, { passive: true }); });
+    peek.addEventListener('click', function (e) { if (!e.target.closest('a, button') && peekUrl) location.href = peekUrl; });
 
     function px(p) { return tf.apply(p); }
     function showTip(l, p) {
@@ -199,7 +201,7 @@
       var eye = h('div', 'loc'); var bd = h('span', 'badge ' + l.type); eye.appendChild(bd); eye.appendChild(document.createTextNode((TYPES[l.type] || l.type) + ' · ' + l.city + ', ' + l.country));
       eye.style.cssText = 'font-size:12.5px;color:#958c80;letter-spacing:.04em';
       var t = h('h3', null, l.name); var p = h('p', null, l.tagline || l.summary);
-      var head = h('div', 'peek-head'); var col = h('div', 'peek-col'); col.appendChild(eye); col.appendChild(t);
+      var head = h('a', 'peek-head'); head.href = '/labs/' + l.id + '/'; var col = h('div', 'peek-col'); col.appendChild(eye); col.appendChild(t);
       head.appendChild(logoNode(l, 'md')); head.appendChild(col);
       var row = h('div', 'row');
       var a1 = h('a', 'btn small', 'Open lab page'); a1.href = '/labs/' + l.id + '/';
@@ -207,6 +209,7 @@
       row.appendChild(a1); if (l.website) row.appendChild(a2);
       [x, head, p, row].forEach(function (n) { peek.appendChild(n); });
       peek.classList.add('show');
+      peekUrl = '/labs/' + l.id + '/'; selectedAt = Date.now();
       hideTip();
       if (fly) flyTo(o.p, Math.max(k, spreadScale(o)));
       var card = document.querySelector('.card[data-id="' + id + '"]');
@@ -217,10 +220,10 @@
       var dmin = Infinity;
       for (var id in pins) { var q2 = pins[id]; if (q2 === o) continue; var dx = q2.p[0] - o.p[0], dy = q2.p[1] - o.p[1], d = Math.sqrt(dx * dx + dy * dy); if (d > 1e-6 && d < dmin) dmin = d; }
       var ppu = host.clientWidth / width;
-      return Math.min(900, Math.max(5, 38 / (dmin * ppu)));
+      return Math.min(260, Math.max(5, 38 / (dmin * ppu)));
     }
     function flyTo(p, scale) {
-      var cy = host.clientWidth < 760 ? height * 0.34 : height / 2;
+      var cy = height / 2;
       var t = d3.zoomIdentity.translate(width / 2, cy).scale(scale).translate(-p[0], -p[1]);
       flying = true; hideTip(); host.classList.add('flying');
       clearTimeout(flyT); flyT = setTimeout(function () { flying = false; host.classList.remove('flying'); }, 960);

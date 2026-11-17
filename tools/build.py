@@ -869,7 +869,7 @@ def main():
     for g in groups.values():
         if len(g) < 2: continue
         g.sort(key=lambda x: x["id"])
-        r = min(0.12, 0.025 * math.sqrt(len(g)))
+        r = min(0.3, 0.04 * math.sqrt(len(g)))
         for i, l in enumerate(g):
             ang = 2 * math.pi * i / len(g) - math.pi / 2
             l["mlat"] = round(l["lat"] + r * math.sin(ang), 5)
