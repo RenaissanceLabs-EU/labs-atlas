@@ -1,0 +1,48 @@
+{
+ "id": "hannaneh-hajishirzi",
+ "name": "Hannaneh Hajishirzi",
+ "display": "Hannaneh Hajishirzi",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": "HannaHajishirzi",
+  "openalex": "A5082305994",
+  "orcid": "0000-0002-1055-6657",
+  "scholar": "https://scholar.google.com/citations?user=LOV6_WIAAAAJ&hl=en",
+  "website": "https://hannaneh.ai",
+  "linkedin": "https://www.linkedin.com/in/hanna-hajishirzi-83359816b/"
+ },
+ "affiliations": [
+  {
+   "lab": "ai2",
+   "org": "Allen Institute for AI (Ai2)",
+   "role": "Senior Director, co-lead of OLMo and Tulu",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "University of Washington",
+   "role": "Professor, Paul G. Allen School of Computer Science & Engineering",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Hannaneh Hajishirzi is a professor at the University of Washington's Allen School and a senior director at Ai2. Hajishirzi works on natural language processing and co-leads Ai2's OLMo open language model effort and the Tulu post-training project, and co-authored the Self-Instruct paper.",
+ "known_for": [
+  "Co-leading the fully open OLMo language models at Ai2",
+  "Tulu open post-training and reasoning recipes",
+  "Co-author of Self-Instruct instruction-generation method",
+  "Co-PI on NSF and NVIDIA funded open AI infrastructure"
+ ],
+ "bio_sources": [
+  "https://hannaneh.ai",
+  "https://www.cs.washington.edu/people/faculty/nasmith",
+  "https://api.openalex.org/authors/A5082305994",
+  "https://www.geekwire.com/2024/uncommon-thinkers-hanna-hajishirzis-open-approach-to-ai-challenges-the-industrys-norms/"
+ ],
+ "confidence": "high"
+}

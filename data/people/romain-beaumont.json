@@ -1,0 +1,48 @@
+{
+ "id": "romain-beaumont",
+ "name": "Romain Beaumont",
+ "display": "Romain Beaumont",
+ "kind": "person",
+ "handles": {
+  "github": "rom1504",
+  "huggingface": "rom1504",
+  "x": "rom1504",
+  "openalex": "A5091825919",
+  "orcid": null,
+  "scholar": null,
+  "website": "http://rom1504.fr/",
+  "linkedin": "https://www.linkedin.com/in/romain-beaumont-b731a669/"
+ },
+ "affiliations": [
+  {
+   "lab": "laion",
+   "org": "LAION",
+   "role": "Core contributor",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Google",
+   "role": "Engineer (per GitHub profile)",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Romain Beaumont is a machine learning engineer and core contributor to LAION, known as rom1504 on GitHub. Beaumont wrote the open-source img2dataset and clip-retrieval tools used to build LAION-400M and LAION-5B, and co-authored both dataset papers.",
+ "known_for": [
+  "img2dataset large-scale image downloading tool",
+  "clip-retrieval and autofaiss tooling",
+  "Co-author of LAION-400M and LAION-5B",
+  "OpenCLIP model training"
+ ],
+ "bio_sources": [
+  "http://rom1504.fr/",
+  "https://github.com/rom1504",
+  "https://arxiv.org/pdf/2111.02114",
+  "https://api.openalex.org/authors/A5091825919"
+ ],
+ "confidence": "medium"
+}

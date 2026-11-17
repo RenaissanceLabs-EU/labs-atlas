@@ -1,0 +1,48 @@
+{
+ "id": "guillaume-lample",
+ "name": "Guillaume Lample",
+ "display": "Guillaume Lample",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5054371148",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mistral-ai",
+   "org": "Mistral AI",
+   "role": "Co-founder and Chief Science Officer",
+   "current": true,
+   "since": 2023
+  },
+  {
+   "lab": null,
+   "org": "Meta AI (FAIR)",
+   "role": "Research scientist",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Guillaume Lample is a French AI researcher and co-founder and Chief Science Officer of Mistral AI. Before Mistral, Lample was a research scientist at Facebook AI Research (Meta) in Paris, working on natural language processing and machine translation. Lample is a co-author of the original LLaMA and Mistral 7B papers.",
+ "known_for": [
+  "Co-founding Mistral AI in 2023",
+  "Co-author of the LLaMA paper at Meta",
+  "Co-author of the Mistral 7B paper",
+  "Research on neural named entity recognition and machine translation"
+ ],
+ "bio_sources": [
+  "https://mistral.ai/company",
+  "https://en.wikipedia.org/wiki/Mistral_AI",
+  "https://api.openalex.org/authors/A5054371148",
+  "https://aiwiki.ai/wiki/guillaume_lample"
+ ],
+ "confidence": "medium"
+}

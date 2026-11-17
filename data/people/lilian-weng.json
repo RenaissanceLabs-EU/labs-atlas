@@ -1,0 +1,54 @@
+{
+ "id": "lilian-weng",
+ "name": "Lilian Weng",
+ "display": "Lilian Weng",
+ "kind": "person",
+ "handles": {
+  "github": "lilianweng",
+  "huggingface": null,
+  "x": "lilianweng",
+  "openalex": "A5103810699",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=dCa-pW8AAAAJ&hl=en",
+  "website": "https://lilianweng.github.io/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": null,
+   "org": "OpenAI",
+   "role": "Researcher (recursive self-improvement)",
+   "current": true,
+   "since": 2026
+  },
+  {
+   "lab": null,
+   "org": "Thinking Machines Lab",
+   "role": "Co-founder",
+   "current": false,
+   "since": 2025
+  },
+  {
+   "lab": null,
+   "org": "OpenAI",
+   "role": "Vice President of Research and Safety (earlier tenure)",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": true,
+ "fame_basis": "Author of Lil'Log, a widely read technical blog on deep learning, agents and LLM topics since 2017 (about 12,500 GitHub followers); OpenAI research leader and Thinking Machines Lab co-founder.",
+ "bio": "Lilian Weng is an AI researcher who has written the Lil'Log blog since 2017, covering topics such as agents, reinforcement learning and generative models. They held research and safety leadership roles at OpenAI, co-founded Thinking Machines Lab in 2025, and per press reports rejoined OpenAI in July 2026 to work on recursive self-improvement.",
+ "known_for": [
+  "Lil'Log technical blog posts",
+  "LLM-powered autonomous agents overview",
+  "Research and safety leadership at OpenAI",
+  "Co-founder of Thinking Machines Lab"
+ ],
+ "bio_sources": [
+  "https://lilianweng.github.io/",
+  "https://thenextweb.com/news/lilian-weng-thinking-machines-openai-recursive-self-improvement",
+  "https://api.openalex.org/authors/A5103810699"
+ ],
+ "confidence": "medium"
+}

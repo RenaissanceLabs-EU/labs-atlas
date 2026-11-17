@@ -1,0 +1,40 @@
+{
+ "id": "clement-delangue",
+ "name": "Clément Delangue",
+ "display": "Clément Delangue",
+ "kind": "person",
+ "handles": {
+  "github": "clmnt",
+  "huggingface": "clem",
+  "x": "clementdelangue",
+  "openalex": "A5009717413",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": "https://www.linkedin.com/in/clementdelangue"
+ },
+ "affiliations": [
+  {
+   "lab": "hugging-face",
+   "org": "Hugging Face",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": 2016
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Clément Delangue is a co-founder and the chief executive of Hugging Face, the company behind the Hugging Face Hub and the Transformers library. The company was founded in 2016 and began as a chatbot app before becoming a machine learning platform. Delangue is a co-author of the Transformers and Datasets library papers.",
+ "known_for": [
+  "Co-founding and leading Hugging Face",
+  "Growing the Hugging Face Hub for models and datasets",
+  "Open-source machine learning advocacy"
+ ],
+ "bio_sources": [
+  "https://huggingface.co/clem",
+  "https://en.wikipedia.org/wiki/Hugging_Face",
+  "https://github.com/clmnt",
+  "https://api.openalex.org/authors?search=Clement%20Delangue"
+ ],
+ "confidence": "high"
+}

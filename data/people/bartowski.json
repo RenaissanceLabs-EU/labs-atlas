@@ -1,0 +1,39 @@
+{
+ "id": "bartowski",
+ "name": null,
+ "display": "bartowski",
+ "kind": "handle",
+ "handles": {
+  "github": "bartowski1182",
+  "huggingface": "bartowski",
+  "x": "bartowski1182",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": null,
+   "org": "Red Hat",
+   "role": "Senior Machine Learning Engineer (per Hugging Face profile)",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": true,
+ "fame_basis": "Hugging Face account with about 17,000 followers and more than 2,500 models, a major source of GGUF quantizations released within days of new open models.",
+ "bio": "bartowski is a Hugging Face account known for publishing GGUF and other quantizations of newly released open models, often shortly after release. The account is active as of November 2026, and its profile lists a senior machine learning engineer role at Red Hat.",
+ "known_for": [
+  "GGUF quantizations of new open models",
+  "Over 2,500 quantized models on Hugging Face",
+  "Collections tracking recent large models and quants"
+ ],
+ "bio_sources": [
+  "https://huggingface.co/bartowski",
+  "https://huggingface.co/api/users/bartowski/overview",
+  "https://huggingface.co/api/models?author=bartowski&sort=lastModified&direction=-1&limit=2"
+ ],
+ "confidence": "medium"
+}

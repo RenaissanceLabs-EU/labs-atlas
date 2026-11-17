@@ -1,0 +1,48 @@
+{
+ "id": "arthur-mensch",
+ "name": "Arthur Mensch",
+ "display": "Arthur Mensch",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5061701877",
+  "orcid": "0000-0001-7866-0461",
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mistral-ai",
+   "org": "Mistral AI",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": 2023
+  },
+  {
+   "lab": null,
+   "org": "Google DeepMind",
+   "role": "Research scientist",
+   "current": false,
+   "since": 2020
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Arthur Mensch is a French AI researcher and co-founder and chief executive of Mistral AI. Before founding the company in 2023 with Guillaume Lample and Timothée Lacroix, Mensch worked at DeepMind Paris on large language models. Earlier research covered optimization, optimal transport and brain imaging analysis.",
+ "known_for": [
+  "Co-founding Mistral AI in 2023",
+  "Co-author of the Mistral 7B paper",
+  "Co-author of the Chinchilla compute-optimal training paper",
+  "Research on stochastic optimization and functional MRI analysis"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Arthur_Mensch",
+  "https://en.wikipedia.org/wiki/Mistral_AI",
+  "https://mistral.ai/company",
+  "https://api.openalex.org/authors/A5061701877"
+ ],
+ "confidence": "high"
+}

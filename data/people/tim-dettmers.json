@@ -1,0 +1,47 @@
+{
+ "id": "tim-dettmers",
+ "name": "Tim Dettmers",
+ "display": "Tim Dettmers",
+ "kind": "person",
+ "handles": {
+  "github": "TimDettmers",
+  "huggingface": "timdettmers",
+  "x": "tim_dettmers",
+  "openalex": "A5067514564",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=lHI3w5kAAAAJ&hl=en",
+  "website": "https://timdettmers.com/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": null,
+   "org": "Carnegie Mellon University",
+   "role": "Assistant Professor",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "ai2",
+   "org": "Allen Institute for AI (Ai2)",
+   "role": "Research Scientist",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": true,
+ "fame_basis": "Creator and maintainer of bitsandbytes and first author of QLoRA and LLM.int8(), widely used for low-memory LLM finetuning and inference; academic researcher with about 1,500 GitHub followers.",
+ "bio": "Tim Dettmers is an assistant professor at Carnegie Mellon University and a research scientist at the Allen Institute for AI. They created and maintain the bitsandbytes library and work on making large models cheaper to train and run, with a current focus on agents.",
+ "known_for": [
+  "bitsandbytes quantization library",
+  "QLoRA efficient finetuning of quantized LLMs",
+  "LLM.int8() and k-bit inference scaling laws",
+  "Petals and SWARM decentralized training and inference"
+ ],
+ "bio_sources": [
+  "https://timdettmers.com/about/",
+  "https://api.openalex.org/authors/A5067514564",
+  "https://huggingface.co/timdettmers"
+ ],
+ "confidence": "high"
+}

@@ -1,0 +1,54 @@
+{
+ "id": "connor-leahy",
+ "name": "Connor Leahy",
+ "display": "Connor Leahy",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": "NPCollapse",
+  "openalex": "A5060025182",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://www.ettf.land/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "eleutherai",
+   "org": "EleutherAI",
+   "role": "Co-founder",
+   "current": false,
+   "since": 2020
+  },
+  {
+   "lab": null,
+   "org": "Conjecture",
+   "role": "Co-founder and CEO until 2026",
+   "current": false,
+   "since": 2022
+  },
+  {
+   "lab": null,
+   "org": "ControlAI",
+   "role": "US Director",
+   "current": true,
+   "since": 2026
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Connor Leahy is a German-American AI researcher and entrepreneur who co-founded EleutherAI in 2020 and the AI safety company Conjecture in 2022. Leahy led Conjecture as CEO until 2026 and is now US Director of ControlAI, a nonprofit focused on extinction risk from superintelligent AI.",
+ "known_for": [
+  "Co-founding EleutherAI and its early GPT-Neo and GPT-J models",
+  "Co-author of The Pile",
+  "Founding Conjecture, an AI alignment company",
+  "Public advocacy on advanced AI risk"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Connor_Leahy",
+  "https://en.wikipedia.org/wiki/EleutherAI",
+  "https://api.openalex.org/authors/A5060025182"
+ ],
+ "confidence": "high"
+}

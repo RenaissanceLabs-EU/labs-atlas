@@ -1,0 +1,40 @@
+{
+ "id": "maxime-labonne",
+ "name": "Maxime Labonne",
+ "display": "Maxime Labonne",
+ "kind": "person",
+ "handles": {
+  "github": "mlabonne",
+  "huggingface": "mlabonne",
+  "x": "maximelabonne",
+  "openalex": "A5073274232",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://mlabonne.github.io/blog/",
+  "linkedin": "https://linkedin.com/in/maxime-labonne/"
+ },
+ "affiliations": [
+  {
+   "lab": null,
+   "org": "Liquid AI",
+   "role": "Head of Post-Training",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": true,
+ "fame_basis": "Author of the widely starred LLM Course on GitHub and of the books LLM Engineer's Handbook and Hands-On Graph Neural Networks Using Python; about 7,400 GitHub and 9,200 Hugging Face followers.",
+ "bio": "Maxime Labonne is Head of Post-Training at Liquid AI and holds a PhD in machine learning from the Polytechnic Institute of Paris. They publish open models and educational material, including the LLM Course and several books.",
+ "known_for": [
+  "LLM Course on GitHub",
+  "LLM Engineer's Handbook",
+  "LFM2 model family post-training",
+  "Open merged and abliterated models on Hugging Face"
+ ],
+ "bio_sources": [
+  "https://mlabonne.github.io/blog/about.html",
+  "https://huggingface.co/mlabonne",
+  "https://api.openalex.org/authors/A5073274232"
+ ],
+ "confidence": "high"
+}

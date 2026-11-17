@@ -1,0 +1,41 @@
+{
+ "id": "christoph-schuhmann",
+ "name": "Christoph Schuhmann",
+ "display": "Christoph Schuhmann",
+ "kind": "person",
+ "handles": {
+  "github": "christophschuhmann",
+  "huggingface": "ChristophSchuhmann",
+  "x": null,
+  "openalex": "A5109076838",
+  "orcid": null,
+  "scholar": null,
+  "website": "http://christoph-schuhmann.de/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "laion",
+   "org": "LAION",
+   "role": "Co-founder and organizational lead",
+   "current": true,
+   "since": 2021
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Christoph Schuhmann is a co-founder and organizational lead of LAION, the German nonprofit that released the LAION-400M and LAION-5B image-text datasets. As of 2023, press reports described Schuhmann as also teaching physics and computer science at a high school, and Schuhmann helped organize the OpenAssistant project.",
+ "known_for": [
+  "Co-founding LAION",
+  "LAION-400M and LAION-5B open datasets",
+  "Organizing the OpenAssistant chat assistant project",
+  "Community-driven open data efforts"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/LAION",
+  "https://mlconference.ai/blog/ai-as-a-superpower-laion-and-the-role-of-open-source-in-artificial-intelligence/",
+  "https://www.bloomberg.com/news/features/2023-04-24/a-high-school-teacher-s-free-image-database-powers-ai-unicorns",
+  "https://api.openalex.org/authors/A5109076838"
+ ],
+ "confidence": "medium"
+}

@@ -1,0 +1,47 @@
+{
+ "id": "llion-jones",
+ "name": "Llion Jones",
+ "display": "Llion Jones",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5023448834",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "sakana-ai",
+   "org": "Sakana AI",
+   "role": "Co-founder and CTO",
+   "current": true,
+   "since": 2023
+  },
+  {
+   "lab": null,
+   "org": "Google",
+   "role": "Software engineer and researcher",
+   "current": false,
+   "since": 2011
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Llion Jones is a Welsh-born computer scientist and co-founder and chief technology officer of Sakana AI. Jones studied at the University of Birmingham and worked at Google, first at YouTube and later in Google Research, before leaving in 2023. Jones is a co-author of the 2017 paper that introduced the Transformer architecture.",
+ "known_for": [
+  "Co-author of Attention Is All You Need",
+  "Co-founding Sakana AI in 2023",
+  "Natural Language Processing research at Google Research",
+  "Co-author of the Natural Questions benchmark"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Llion_Jones",
+  "https://en.wikipedia.org/wiki/Sakana_AI",
+  "https://api.openalex.org/authors/A5023448834"
+ ],
+ "confidence": "high"
+}

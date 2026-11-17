@@ -1,0 +1,48 @@
+{
+ "id": "alexandre-defossez",
+ "name": "Alexandre Défossez",
+ "display": "Alexandre Défossez",
+ "kind": "person",
+ "handles": {
+  "github": "adefossez",
+  "huggingface": "adefossez",
+  "x": "honualx",
+  "openalex": "A5133100705",
+  "orcid": null,
+  "scholar": "https://scholar.google.fr/citations?user=DubNUU0AAAAJ",
+  "website": "https://ai.honu.io",
+  "linkedin": "https://www.linkedin.com/in/alexandre-d%C3%A9fossez-b099ba7b/"
+ },
+ "affiliations": [
+  {
+   "lab": "kyutai",
+   "org": "Kyutai",
+   "role": "Head of Research (co-founder)",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Gradium",
+   "role": "Co-founder and Chief Science Officer",
+   "current": true,
+   "since": 2025
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alexandre Défossez is an AI researcher in Paris working on generative music and speech models for low-latency use. They co-founded Kyutai, where they lead research projects, and spent three years at FAIR Paris leading MusicGen and co-leading AudioCraft. They also co-founded the voice AI company Gradium.",
+ "known_for": [
+  "Moshi real-time spoken dialogue model and Mimi codec",
+  "Demucs music source separation",
+  "EnCodec neural audio codec",
+  "MusicGen and AudioCraft at FAIR Paris"
+ ],
+ "bio_sources": [
+  "https://ai.honu.io",
+  "https://kyutai.org/team",
+  "https://github.com/adefossez",
+  "https://huggingface.co/adefossez"
+ ],
+ "confidence": "high"
+}

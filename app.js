@@ -40,6 +40,27 @@
     if (document.getElementById('map')) bigMap(labs, land, borders);
   }).catch(function (e) { console.error('atlas failed', e); });
 
+
+  /* ---------- people index: search and group filter ---------- */
+  (function () {
+    var grid = document.getElementById('pgrid');
+    if (!grid) return;
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('.pcard'));
+    var q = document.getElementById('pq'), btns = document.querySelectorAll('[data-pk]'), count = document.getElementById('pcount');
+    var st = { q: '', k: 'all' };
+    function apply() {
+      var n = 0, t = st.q.trim().toLowerCase();
+      cards.forEach(function (c) {
+        var ok = (st.k === 'all' || c.dataset.kind === st.k) && (!t || c.dataset.search.indexOf(t) > -1);
+        c.hidden = !ok; if (ok) n++;
+      });
+      count.textContent = n + (n === 1 ? ' person' : ' people');
+      document.getElementById('pempty').hidden = n !== 0;
+    }
+    q.addEventListener('input', function () { st.q = q.value; apply(); });
+    btns.forEach(function (b) { b.addEventListener('click', function () { st.k = b.dataset.pk; btns.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }); apply(); }); });
+  })();
+
   /* ---------- lab page: highlight current section in the contents list ---------- */
   function tocSpy() {
     var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));

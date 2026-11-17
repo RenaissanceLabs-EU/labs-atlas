@@ -1,0 +1,48 @@
+{
+ "id": "tri-dao",
+ "name": "Tri Dao",
+ "display": "Tri Dao",
+ "kind": "person",
+ "handles": {
+  "github": "tridao",
+  "huggingface": null,
+  "x": "tri_dao",
+  "openalex": "A5091734792",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=NQRw0bQAAAAJ",
+  "website": "https://tridao.me",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "together-ai",
+   "org": "Together AI",
+   "role": "Co-founder and Chief Scientist",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Princeton University",
+   "role": "Assistant Professor of Computer Science",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tri Dao is an assistant professor of computer science at Princeton, where they lead the Dao AI Lab, and the chief scientist of Together AI. Their research covers efficient training and inference, hardware-aware algorithms, and sequence models. They hold a PhD from Stanford.",
+ "known_for": [
+  "FlashAttention series of fast exact attention kernels",
+  "Mamba and structured state space duality",
+  "Monarch structured matrices",
+  "COLM 2024 Outstanding Paper award for Mamba"
+ ],
+ "bio_sources": [
+  "https://tridao.me",
+  "https://github.com/tridao",
+  "https://en.wikipedia.org/wiki/Mamba_(deep_learning_architecture)",
+  "https://api.openalex.org/authors?search=Tri%20Dao"
+ ],
+ "confidence": "high"
+}

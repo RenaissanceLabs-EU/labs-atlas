@@ -208,6 +208,50 @@ def load():
     return labs, skipped
 
 
+PEOPLE = {}        # id -> person record (public fields only)
+PEOPLE_BY_NAME = {}  # normalised real name -> id
+
+
+def norm(s):
+    return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
+
+
+def load_people(labs):
+    lab_ids = {l["id"] for l in labs}
+    PEOPLE.clear(); PEOPLE_BY_NAME.clear()
+    for path in sorted(glob.glob("data/people/*.json")):
+        try:
+            r = json.load(open(path, encoding="utf-8"))
+        except Exception as ex:
+            print("!! cannot parse", path, ex, file=sys.stderr); continue
+        pid = slug(r.get("id") or os.path.basename(path)[:-5])
+        display = s_or_none(r.get("display") or r.get("name"), 80)
+        if not display or not r.get("bio"): continue
+        h = r.get("handles") or {}
+        handles = {k: s_or_none(h.get(k), 200) for k in ("github", "huggingface", "x", "openalex", "orcid")}
+        for k in ("scholar", "website", "linkedin"):
+            handles[k] = clean_url(h.get(k))
+        aff = []
+        for a in (r.get("affiliations") or []):
+            if isinstance(a, dict) and (a.get("org") or a.get("lab")):
+                lab = a.get("lab") if a.get("lab") in lab_ids else None
+                aff.append({"lab": lab, "org": s_or_none(a.get("org"), 120), "role": s_or_none(a.get("role"), 160),
+                            "current": bool(a.get("current", True)), "since": a.get("since") if isinstance(a.get("since"), int) else None})
+        act = {}
+        ap = f"data/activity/{pid}.json"
+        if os.path.exists(ap):
+            try: act = json.load(open(ap, encoding="utf-8"))
+            except Exception: act = {}
+        p = {"id": pid, "name": s_or_none(r.get("name"), 80), "display": display, "kind": "handle" if r.get("kind") == "handle" else "person",
+             "handles": handles, "affiliations": aff, "independent": bool(r.get("independent")), "fame_basis": s_or_none(r.get("fame_basis"), 300),
+             "bio": str(r["bio"]).strip()[:900], "known_for": [str(x).strip()[:140] for x in (r.get("known_for") or []) if str(x).strip()][:5],
+             "sources": [u for u in (clean_url(s) for s in (r.get("bio_sources") or [])) if u][:8], "activity": act,
+             "avatar": os.path.exists(f"assets/people/{pid}.png")}
+        PEOPLE[pid] = p
+        if p["name"]: PEOPLE_BY_NAME[norm(p["name"])] = pid
+    return PEOPLE
+
+
 def esc(s):
     return html.escape(str(s if s is not None else ""), quote=True)
 
@@ -292,6 +336,7 @@ def head(title, desc, path, extra="", image_id="home", image_alt=None, body_clas
   <nav aria-label="Main">
     <a href="/">Atlas</a>
     <a href="/map/">Full map</a>
+    <a href="/people/">People</a>
     <a href="/about/">About</a>
     <a href="https://renaissancelabs.eu/">Main site</a>
   </nav>
@@ -410,14 +455,24 @@ def lab_page(l, labs):
     if l["openness"]:
         add("openness", "Openness", f'<p class="open-note">{esc(l["openness"])}</p>')
 
-    if l["key_people"]:
+    if l["key_people"] or any(a["lab"] == l["id"] and a["current"] for pr in PEOPLE.values() for a in pr["affiliations"]):
         cards = ""
         for p in l["key_people"]:
             av = f'<span class="avatar" aria-hidden="true">{esc(monogram(p["name"]))}</span>'
-            nm = ext(p["url"], esc(p["name"]), "pname") if p.get("url") else f'<span class="pname">{esc(p["name"])}</span>'
+            pid = PEOPLE_BY_NAME.get(norm(p["name"]))
+            if pid:
+                nm = f'<a class="pname" href="/people/{esc(pid)}/">{esc(p["name"])}</a>'
+            else:
+                nm = ext(p["url"], esc(p["name"]), "pname") if p.get("url") else f'<span class="pname">{esc(p["name"])}</span>'
             role = f'<small>{esc(p["role"])}</small>' if p.get("role") else ""
             note = f'<p>{esc(p["note"])}</p>' if p.get("note") else ""
             cards += f'<li>{av}<div>{nm}{role}{note}</div></li>'
+        seen = {norm(p["name"]) for p in l["key_people"]}
+        for pr in PEOPLE.values():
+            if any(a["lab"] == l["id"] and a["current"] for a in pr["affiliations"]) and norm(pr["name"] or "") not in seen:
+                a = next(a for a in pr["affiliations"] if a["lab"] == l["id"] and a["current"])
+                tag = "handle" if pr["kind"] == "handle" else None
+                cards += f'<li><span class="avatar" aria-hidden="true">{esc(monogram(pr["display"]))}</span><div><a class="pname" href="/people/{esc(pr["id"])}/">{esc(pr["display"])}</a>' + (f'<small>{esc(a["role"])}</small>' if a.get("role") else "") + '</div></li>'
         add("people", "People", f'<ul class="people-grid">{cards}</ul><p class="fine">Listed from the lab\'s own pages and public profiles.</p>')
 
     tiles = []
@@ -597,6 +652,173 @@ def about_page(labs):
 """ + foot()
 
 
+SHADES = ["#efe6d2", "#f3e3b6", "#e6c46f", "#c79a3f", "#8c6a2a"]
+
+
+def heatmap(cal):
+    weeks = cal.get("weeks") or []
+    if not weeks: return ""
+    vals = sorted(v for w in weeks for v in w if v)
+    def level(v):
+        if not v: return 0
+        if not vals: return 0
+        q = [vals[int(len(vals) * x)] for x in (0.25, 0.5, 0.75)]
+        return 1 if v <= q[0] else 2 if v <= q[1] else 3 if v <= q[2] else 4
+    cell, gap, top = 11, 3, 16
+    w = len(weeks) * (cell + gap)
+    rects = []
+    try:
+        start = datetime.date.fromisoformat(cal.get("start"))
+    except Exception:
+        start = None
+    last_m = None
+    for x, wk in enumerate(weeks):
+        if start:
+            d = start + datetime.timedelta(days=7 * x)
+            if d.month != last_m and (last_m is not None or d.day <= 7):
+                rects.append(f'<text x="{x*(cell+gap)}" y="10" font-size="10" fill="#958c80">{d.strftime("%b")}</text>')
+            last_m = d.month
+        for y, v in enumerate(wk):
+            rects.append(f'<rect x="{x*(cell+gap)}" y="{top + y*(cell+gap)}" width="{cell}" height="{cell}" rx="2.5" fill="{SHADES[level(v)]}"><title>{v} contributions</title></rect>')
+    h = top + 7 * (cell + gap)
+    return f'<svg class="heat" viewBox="0 0 {w} {h}" role="img" aria-label="GitHub contributions over the past year">{"".join(rects)}</svg>'
+
+
+def bars(data, label):
+    items = sorted((k, v) for k, v in (data or {}).items() if str(k).isdigit())[-10:]
+    if not items: return ""
+    mx = max(v for _, v in items) or 1
+    bw, gap, hh = 34, 10, 86
+    w = len(items) * (bw + gap)
+    out = []
+    for i, (k, v) in enumerate(items):
+        bh = max(3, int(hh * v / mx))
+        x = i * (bw + gap)
+        out.append(f'<rect x="{x}" y="{hh-bh}" width="{bw}" height="{bh}" rx="4" fill="#c79a3f"><title>{k}: {v}</title></rect><text x="{x+bw/2}" y="{hh+16}" text-anchor="middle" font-size="11" fill="#958c80">{str(k)[2:]}</text>')
+    return f'<svg class="bars" viewBox="0 0 {w} {hh+22}" role="img" aria-label="{esc(label)}">{"".join(out)}</svg>'
+
+
+def fmt(n):
+    try: n = int(n)
+    except Exception: return "0"
+    return f"{n/1000:.1f}k".replace(".0k", "k") if n >= 1000 else str(n)
+
+
+def person_page(p, labs_by_id):
+    a = p["activity"] or {}
+    gh, hf, pp = a.get("github"), a.get("huggingface"), a.get("papers")
+    h = p["handles"]
+    primary = next((x for x in p["affiliations"] if x["current"]), p["affiliations"][0] if p["affiliations"] else None)
+    sub = []
+    for x in p["affiliations"][:3]:
+        lab = labs_by_id.get(x["lab"]) if x["lab"] else None
+        org = x["org"] or ""
+        org_html = f'<a href="/labs/{esc(lab["id"])}/">{esc(lab["name"])}</a>' if lab else ("" if org.strip().lower() in ("independent", "independent researcher", "") else esc(org))
+        label = esc(x["role"] or "") + (" at " if x.get("role") and org_html else "") + org_html
+        if not label.strip(): label = "Independent"
+        sub.append(label)
+    kind_badge = '<span class="pill">Handle</span>' if p["kind"] == "handle" else ('<span class="pill alt">Independent</span>' if p["independent"] else "")
+    av = f'<span class="logo"><img src="/assets/people/{esc(p["id"])}.png" alt="" width="96" height="96"></span>' if p["avatar"] else f'<span class="logo mono" style="--h:{sum(ord(c) for c in p["display"]) % 40 + 28}" aria-hidden="true">{esc(monogram(p["display"]))}</span>'
+    links = []
+    def lk(ic, label, url):
+        if url: links.append(ext(url, f'{icon(ic, 16)} {label}', "btn ghost"))
+    if h.get("github"): lk("github", "GitHub", f'https://github.com/{h["github"]}')
+    if h.get("huggingface"): lk("hf", "Hugging Face", f'https://huggingface.co/{h["huggingface"]}')
+    if h.get("scholar"): lk("paper", "Scholar", h["scholar"])
+    if h.get("x"): lk("x", "X", f'https://x.com/{h["x"]}')
+    lk("globe", "Website", h.get("website")); lk("linkedin", "LinkedIn", h.get("linkedin"))
+    sections = []
+    sents = p["bio"].split(". ")
+    about_text = ". ".join(sents[1:]) if len(sents) > 1 else p["bio"]
+    sections.append(f'<section class="blk" id="about"><h2>About</h2><div class="prose-lg"><p>{esc(about_text)}</p></div>' + (f'<p class="fine" style="margin-top:14px">{esc(p["fame_basis"])}</p>' if p["independent"] and p["fame_basis"] else "") + '</section>')
+    if p["known_for"]:
+        sections.append('<section class="blk" id="known-for"><h2>Known for</h2><ol class="famous">' + "".join(f'<li><span class="n">{i:02d}</span><p>{esc(k)}</p></li>' for i, k in enumerate(p["known_for"], 1)) + "</ol></section>")
+    act_html = ""
+    if gh and gh.get("calendar") and gh["calendar"].get("weeks"):
+        c = gh["calendar"]
+        repos = "".join(f'<li><div class="row-top">{ext(r["url"], esc(r["name"]), "row-name")}<span class="kind">&#9733; {fmt(r["stars"])}</span></div>' + (f'<p>{esc(r["description"])}</p>' if r.get("description") else "") + "</li>" for r in gh["top_repos"][:5] if r.get("stars"))
+        langs = "".join(f'<span class="tag">{esc(x)}</span>' for x in gh.get("languages", []))
+        act_html += f'<div class="act-card"><div class="act-head">{icon("github", 22)}<div><b>GitHub</b><small>{fmt(c["total"])} public contributions in the past year · {fmt(gh["followers"])} followers</small></div></div>{heatmap(c)}' + (f'<div class="tags" style="margin-top:14px">{langs}</div>' if langs else "") + (f'<ul class="mini-list">{repos}</ul>' if repos else "") + "</div>"
+    if hf:
+        top = "".join(f'<li><div class="row-top">{ext(t["url"], esc(t["name"]), "row-name")}<span class="kind">{esc(t["kind"])}</span></div><p>{fmt(t.get("downloads"))} downloads · {fmt(t.get("likes"))} likes</p></li>' for t in hf.get("top", [])[:4])
+        act_html += f'<div class="act-card"><div class="act-head">{icon("hf", 22)}<div><b>Hugging Face</b><small>{fmt(hf.get("models"))} models · {fmt(hf.get("datasets"))} datasets · {fmt(hf.get("spaces"))} spaces · {fmt(hf.get("followers"))} followers</small></div></div>{bars(hf.get("created_by_year"), "Repositories created per year")}<p class="fine" style="margin-top:6px">Repositories created per year</p>' + (f'<ul class="mini-list">{top}</ul>' if top else "") + "</div>"
+    if pp and pp.get("works"):
+        tw = "".join(f'<li><div class="row-top">' + (ext(t["url"], esc(t["title"]), "row-name") if t.get("url") else f'<span class="row-name">{esc(t["title"])}</span>') + f'<span class="kind">{esc(t.get("year") or "")}</span></div><p>{fmt(t.get("cited_by"))} citations</p></li>' for t in pp.get("top_works", [])[:4] if t.get("title"))
+        act_html += f'<div class="act-card"><div class="act-head">{icon("paper", 22)}<div><b>Research</b><small>{fmt(pp["works"])} works · {fmt(pp["cited_by"])} citations · h-index {pp.get("h_index") or "n/a"} (OpenAlex)</small></div></div>{bars(pp.get("works_by_year"), "Works per year")}<p class="fine" style="margin-top:6px">Works per year</p>' + (f'<ul class="mini-list">{tw}</ul>' if tw else "") + "</div>"
+    if act_html:
+        sections.append(f'<section class="blk" id="activity"><h2>Activity</h2><div class="acts">{act_html}</div><p class="fine">Public data only, fetched {esc(a.get("fetched") or "")}. GitHub counts cover public contributions; Hugging Face counts are repositories created; research data comes from OpenAlex.</p></section>')
+    labs_html = ""
+    rel = [x for x in p["affiliations"] if x["lab"] and x["lab"] in labs_by_id]
+    if rel:
+        labs_html = '<section class="blk" id="labs"><h2>Labs</h2><div class="nb-grid">' + "".join(
+            f'<a class="nb" href="/labs/{esc(x["lab"])}/">{logo_html(labs_by_id[x["lab"]], "logo sm")}<span><b>{esc(labs_by_id[x["lab"]]["name"])}</b><small>{esc(x.get("role") or "")}{(" · since " + str(x["since"])) if x.get("since") else ""}</small></span></a>' for x in rel) + "</div></section>"
+        sections.append(labs_html)
+    srcs = "".join(ext(s, esc(s)) for s in p["sources"])
+    sections.append(f'<section class="blk" id="sources"><h2>Sources</h2><div class="srcs">{srcs}</div><p class="fine">Compiled from public sources. Something wrong, or would you like this page changed or removed? Tell us on <a href="https://discord.gg/6JUezWZbAm">Discord</a> or open an issue on <a href="https://github.com/RenaissanceLabs-EU/labs-atlas/issues">GitHub</a> and we will act promptly.</p></section>')
+    toc = [("about", "About")] + ([("known-for", "Known for")] if p["known_for"] else []) + ([("activity", "Activity")] if act_html else []) + ([("labs", "Labs")] if rel else []) + [("sources", "Sources")]
+    toc_html = "".join(f'<a href="#{i}">{esc(t)}</a>' for i, t in toc)
+    ld = {"@context": "https://schema.org", "@type": "Person", "name": p["name"] or p["display"], "description": p["bio"][:300],
+          "sameAs": [u for u in ([f'https://github.com/{h["github"]}'] if h.get("github") else []) + ([f'https://huggingface.co/{h["huggingface"]}'] if h.get("huggingface") else []) + [h.get("scholar"), h.get("website"), h.get("linkedin")] if u]}
+    if primary and primary.get("org"): ld["jobTitle"] = primary.get("role") or None
+    extra = '<script type="application/ld+json">' + json.dumps(ld, ensure_ascii=False).replace("<", "\\u003c") + "</script>\n"
+    handle_line = f'<span class="handle">@{esc(h.get("github") or h.get("huggingface"))}</span>' if p["kind"] == "handle" and (h.get("github") or h.get("huggingface")) else ""
+    return head(f'{p["display"]} · Open Labs Atlas', p["bio"][:200], f'/people/{p["id"]}/', extra) + f"""<main id="main">
+  <section class="lab-hero person-hero">
+    <div class="wrap" style="padding-top:clamp(28px,5vh,56px);padding-bottom:clamp(28px,5vh,48px)">
+      <p class="crumbs"><a href="/people/">People</a></p>
+      <div class="id-row">{av}<p class="eyebrow">{" · ".join(sub) if sub else "Independent"}</p></div>
+      <h1>{esc(p["display"])} {kind_badge}</h1>
+      {handle_line}
+      <p class="lede">{esc(p["bio"].split(". ")[0].rstrip(".") + ".")}</p>
+      <div class="actions">{"".join(links)}</div>
+    </div>
+  </section>
+  <div class="wrap lab-layout">
+    <nav class="toc" aria-label="On this page"><span class="eyebrow">On this page</span>{toc_html}</nav>
+    <div class="lab-body">{"".join(sections)}</div>
+  </div>
+</main>
+""" + foot()
+
+
+def people_index(labs_by_id):
+    cards = []
+    for p in sorted(PEOPLE.values(), key=lambda x: x["display"].lower()):
+        a = (p["activity"] or {})
+        aff = next((x for x in p["affiliations"] if x["current"]), p["affiliations"][0] if p["affiliations"] else None)
+        lab = labs_by_id.get(aff["lab"]) if aff and aff["lab"] else None
+        where = (lab["name"] if lab else (aff["org"] if aff else "")) or ""
+        role = (aff or {}).get("role") or ""
+        kind = "handle" if p["kind"] == "handle" else "independent" if p["independent"] else "lab"
+        av = f'<span class="logo sm"><img src="/assets/people/{esc(p["id"])}.png" alt="" width="46" height="46" loading="lazy"></span>' if p["avatar"] else f'<span class="logo sm mono" style="--h:{sum(ord(c) for c in p["display"]) % 40 + 28}" aria-hidden="true">{esc(monogram(p["display"]))}</span>'
+        spark = ""
+        cal = (a.get("github") or {}).get("calendar")
+        if cal and cal.get("weeks"):
+            tot = [sum(w) for w in cal["weeks"]]
+            mx = max(tot) or 1
+            pts = " ".join(f"{i*3},{22 - int(20*t/mx)}" for i, t in enumerate(tot))
+            spark = f'<svg class="spark" viewBox="0 0 {len(tot)*3} 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="{pts}" fill="none" stroke="#c79a3f" stroke-width="1.6"/></svg>'
+        hay = " ".join([p["display"], p["name"] or "", where, role, p["bio"], " ".join(p["known_for"])]).lower()
+        cards.append(f'<a class="card pcard" href="/people/{esc(p["id"])}/" data-kind="{kind}" data-search="{esc(hay)}"><span class="card-top">{av}<span class="loc">{esc(where) or "Independent"}<br>{esc(role)[:60]}</span></span><h3>{esc(p["display"])}</h3><p>{esc(p["bio"])}</p>{spark}</a>')
+    n = len(PEOPLE)
+    return head("People · Open Labs Atlas", f"{n} people behind open AI: founders, researchers, maintainers and independent builders, with their public GitHub, Hugging Face and research activity.", "/people/") + f"""<main id="main">
+  <section class="intro" style="padding-bottom:20px">
+    <p class="eyebrow">People</p>
+    <h1>The people behind open AI.</h1>
+    <p class="lede">Founders, researchers, maintainers and independent builders, with what they have shipped in public.</p>
+  </section>
+  <div class="toolbar"><div class="wrap">
+    <div class="search"><input id="pq" type="search" placeholder="Search people, labs, topics" aria-label="Search people"></div>
+    <div class="chips" role="group" aria-label="Group">
+      <button class="chip" data-pk="all" aria-pressed="true">All</button><button class="chip" data-pk="lab" aria-pressed="false">At a lab</button><button class="chip" data-pk="independent" aria-pressed="false">Independent</button><button class="chip" data-pk="handle" aria-pressed="false">Handles</button>
+    </div>
+    <span class="count" id="pcount">{n} people</span>
+  </div></div>
+  <section class="list wrap"><div class="grid" id="pgrid">{"".join(cards)}</div><p class="empty" id="pempty" hidden>No one matches.</p></section>
+</main>
+""" + foot()
+
+
 def write(path, text):
     os.makedirs(os.path.dirname(path) or ".", exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
@@ -608,6 +830,8 @@ def main():
     if not labs:
         print("no labs found in data/regions/*.json"); sys.exit(1)
     shutil.rmtree("labs", ignore_errors=True)
+    shutil.rmtree("people", ignore_errors=True)
+    load_people(labs)
     # labs that share (almost) the same city point get a small ring offset for the map only (mlat/mlon)
     import collections
     groups = collections.defaultdict(list)
@@ -633,15 +857,20 @@ def main():
     write("index.html", index_page(labs))
     write("about/index.html", about_page(labs))
     write("map/index.html", map_page(labs))
+    labs_by_id = {l["id"]: l for l in labs}
+    if PEOPLE:
+        write("people/index.html", people_index(labs_by_id))
+        for p in PEOPLE.values():
+            write(f"people/{p['id']}/index.html", person_page(p, labs_by_id))
     for l in labs:
         write(f"labs/{l['id']}/index.html", lab_page(l, labs))
-    urls = ["/", "/map/", "/about/"] + [f"/labs/{l['id']}/" for l in labs]
+    urls = ["/", "/map/", "/about/"] + (["/people/"] + [f"/people/{i}/" for i in PEOPLE] if PEOPLE else []) + [f"/labs/{l['id']}/" for l in labs]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
           "".join(f"<url><loc>{SITE}{u}</loc><lastmod>{TODAY}</lastmod></url>\n" for u in urls) + "</urlset>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
     write("llms.txt", "# Open Labs Atlas\n\n> Directory of independent AI labs committed to open source, by Renaissance Labs.\n\n" +
           "".join(f"- [{l['name']}]({SITE}/labs/{l['id']}/): {(l['tagline'] or l['summary'])[:140]}\n" for l in labs))
-    write("CNAME", DOMAIN + "\n")
+    write("CNAME", DOMAIN)
     write("_headers", "/*\n  X-Content-Type-Options: nosniff\n  Referrer-Policy: strict-origin-when-cross-origin\n  Content-Security-Policy: default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'self'; form-action 'none'; frame-ancestors 'none'\n")
     print(f"built {len(labs)} labs; skipped {len(skipped)}")
     for n, why in skipped:

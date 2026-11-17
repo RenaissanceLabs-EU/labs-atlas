@@ -1,0 +1,56 @@
+{
+ "id": "ali-farhadi",
+ "name": "Ali Farhadi",
+ "display": "Ali Farhadi",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5101576595",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://homes.cs.washington.edu/~ali/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai2",
+   "org": "Allen Institute for AI (Ai2)",
+   "role": "CEO",
+   "current": false,
+   "since": 2023
+  },
+  {
+   "lab": null,
+   "org": "Microsoft",
+   "role": "Corporate Vice President of AI, Microsoft Superintelligence",
+   "current": true,
+   "since": 2026
+  },
+  {
+   "lab": null,
+   "org": "University of Washington",
+   "role": "Professor, Paul G. Allen School of Computer Science & Engineering",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ali Farhadi is a computer scientist and professor at the University of Washington's Allen School. Farhadi was CEO of the Allen Institute for AI from July 2023 until stepping down in March 2026, and then joined Microsoft's superintelligence group as a corporate vice president. Research areas include computer vision, language and vision, and machine learning.",
+ "known_for": [
+  "Co-author of the YOLO real-time object detection papers",
+  "CEO of Ai2 during the OLMo open model releases",
+  "Computer vision and visual reasoning research at UW",
+  "2017 Sloan Research Fellowship"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Ali_Farhadi",
+  "https://www.cs.washington.edu/people/faculty/ali-farhadi/",
+  "https://geekwire.com/2026/allen-institute-for-ai-ceo-ali-farhadi-steps-down-as-nonprofit-navigates-shifting-ai-landscape",
+  "https://letsdatascience.com/news/microsoft-hires-former-ai2-ceo-farhadi-c69797ea",
+  "https://api.openalex.org/authors/A5101576595"
+ ],
+ "confidence": "high"
+}

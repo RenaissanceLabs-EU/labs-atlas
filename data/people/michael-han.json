@@ -1,0 +1,40 @@
+{
+ "id": "michael-han",
+ "name": "Michael Han",
+ "display": "Michael Han",
+ "kind": "person",
+ "handles": {
+  "github": "shimmyshimmer",
+  "huggingface": "shimmyshimmer",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "unsloth",
+   "org": "Unsloth",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Michael Han is a co-founder of Unsloth, a company that makes fine-tuning and local running of open models easier. They are credited alongside Daniel Han as an author of the Unsloth project. Their Hugging Face profile shows long-running activity in community discussions and membership in the Unsloth, Qwen, and IBM Granite organizations.",
+ "known_for": [
+  "Co-founding Unsloth",
+  "Co-author credit on the Unsloth project",
+  "Community support for fine-tuning open models"
+ ],
+ "bio_sources": [
+  "https://www.ycombinator.com/companies/unsloth-ai",
+  "https://github.com/unslothai/unsloth",
+  "https://github.com/shimmyshimmer",
+  "https://huggingface.co/shimmyshimmer"
+ ],
+ "confidence": "medium"
+}

@@ -1,0 +1,54 @@
+{
+ "id": "sebastian-raschka",
+ "name": "Sebastian Raschka",
+ "display": "Sebastian Raschka",
+ "kind": "person",
+ "handles": {
+  "github": "rasbt",
+  "huggingface": "rasbt",
+  "x": "rasbt",
+  "openalex": "A5053156269",
+  "orcid": "0000-0001-6989-4493",
+  "scholar": "https://scholar.google.com/citations?user=X4RCC0IAAAAJ",
+  "website": "https://sebastianraschka.com",
+  "linkedin": "https://www.linkedin.com/in/sebastianraschka"
+ },
+ "affiliations": [
+  {
+   "lab": null,
+   "org": "Independent",
+   "role": "LLM research engineer and author",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Lightning AI",
+   "role": "Senior research engineer",
+   "current": false,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "University of Wisconsin-Madison",
+   "role": "Assistant professor of statistics",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": true,
+ "fame_basis": "Author of Build a Large Language Model (From Scratch), Python Machine Learning and the Ahead of AI newsletter; the open source LLMs-from-scratch repository is widely used for learning how LLMs are built.",
+ "bio": "Sebastian Raschka is an LLM research engineer and author with a PhD. Raschka previously worked at Lightning AI and was a statistics professor at the University of Wisconsin-Madison. Raschka writes books, a newsletter and open source code that explain how LLMs are built.",
+ "known_for": [
+  "Build a Large Language Model (From Scratch) book",
+  "LLMs-from-scratch open source repository",
+  "Ahead of AI newsletter",
+  "Python Machine Learning book and scikit-learn ecosystem work"
+ ],
+ "bio_sources": [
+  "https://sebastianraschka.com",
+  "https://github.com/rasbt",
+  "https://api.openalex.org/authors/A5053156269"
+ ],
+ "confidence": "high"
+}

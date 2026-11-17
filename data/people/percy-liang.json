@@ -1,0 +1,48 @@
+{
+ "id": "percy-liang",
+ "name": "Percy Liang",
+ "display": "Percy Liang",
+ "kind": "person",
+ "handles": {
+  "github": "percyliang",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5025255782",
+  "orcid": "0000-0002-0458-6139",
+  "scholar": "https://scholar.google.com/citations?user=pouyVyUAAAAJ&hl=en",
+  "website": "https://cs.stanford.edu/~pliang/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "together-ai",
+   "org": "Together AI",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Stanford University",
+   "role": "Professor of Computer Science; founding director of CRFM",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Percy Liang is a professor of computer science at Stanford and the founding director of its Center for Research on Foundation Models. Their research spans machine learning, natural language processing, and foundation models, and they teach the Language Models from Scratch course. They also lead Marin, an open model-development effort, and co-developed CodaLab Worksheets.",
+ "known_for": [
+  "Founding director of Stanford CRFM",
+  "Marin open model development",
+  "CS336 Language Models from Scratch course",
+  "CodaLab Worksheets for reproducible experiments"
+ ],
+ "bio_sources": [
+  "https://cs.stanford.edu/~pliang/",
+  "https://en.wikipedia.org/wiki/Percy_Liang",
+  "https://github.com/percyliang",
+  "https://api.openalex.org/authors?search=Percy%20Liang"
+ ],
+ "confidence": "high"
+}

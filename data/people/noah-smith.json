@@ -1,0 +1,47 @@
+{
+ "id": "noah-smith",
+ "name": "Noah Smith",
+ "display": "Noah Smith",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": "nlpnoah",
+  "openalex": "A5088517824",
+  "orcid": "0000-0002-2310-6380",
+  "scholar": "https://scholar.google.com/citations?user=TjdFs3EAAAAJ&hl=en",
+  "website": "https://nasmith.github.io/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai2",
+   "org": "Allen Institute for AI (Ai2)",
+   "role": "Senior Director of NLP Research, co-director of OLMo",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "University of Washington",
+   "role": "Professor and Vice Provost for Artificial Intelligence",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Noah A. Smith is a professor at the University of Washington's Allen School, its inaugural vice provost for artificial intelligence, and a senior director of NLP research at Ai2. Smith works on natural language processing and machine learning, directs the OLMo open language model effort with Hannaneh Hajishirzi, and was previously on the faculty at Carnegie Mellon University.",
+ "known_for": [
+  "Co-directing the OLMo open language model effort at Ai2",
+  "Author of Language Models: A Guide for the Perplexed",
+  "Research on evaluation methodology and NLP",
+  "Co-author of Don't Stop Pretraining and Self-Instruct"
+ ],
+ "bio_sources": [
+  "https://nasmith.github.io/",
+  "https://www.cs.washington.edu/people/faculty/nasmith",
+  "https://api.openalex.org/authors/A5088517824"
+ ],
+ "confidence": "high"
+}

@@ -1,0 +1,32 @@
+{
+ "id": "lucidrains",
+ "name": "Phil Wang",
+ "display": "lucidrains",
+ "kind": "handle",
+ "handles": {
+  "github": "lucidrains",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": "https://lucidrains.github.io",
+  "linkedin": null
+ },
+ "affiliations": [],
+ "independent": true,
+ "fame_basis": "GitHub account with about 61,000 followers, known for many widely starred open source PyTorch implementations of research papers.",
+ "bio": "lucidrains is a GitHub account, whose owner uses the name Phil Wang publicly, that publishes open source implementations of recently released machine learning papers, mostly in PyTorch. Repositories cover attention and transformer variants, diffusion models, audio models and protein structure prediction.",
+ "known_for": [
+  "audiolm-pytorch",
+  "alphafold3-pytorch and alphafold2 reimplementations",
+  "Reference implementations of attention and transformer papers",
+  "Large library of PyTorch paper reimplementations"
+ ],
+ "bio_sources": [
+  "https://lucidrains.github.io",
+  "https://github.com/lucidrains",
+  "https://api.github.com/users/lucidrains/repos"
+ ],
+ "confidence": "high"
+}

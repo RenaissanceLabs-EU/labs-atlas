@@ -1,0 +1,41 @@
+{
+ "id": "andrej-karpathy",
+ "name": "Andrej Karpathy",
+ "display": "Andrej Karpathy",
+ "kind": "person",
+ "handles": {
+  "github": "karpathy",
+  "huggingface": null,
+  "x": "karpathy",
+  "openalex": "A5009290031",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://karpathy.ai",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": null,
+   "org": "Eureka Labs",
+   "role": "Founder",
+   "current": true,
+   "since": 2024
+  }
+ ],
+ "independent": true,
+ "fame_basis": "Founding member of OpenAI and former Director of AI at Tesla, with a Wikipedia article; widely followed educator whose YouTube lectures and open projects such as micrograd, nanoGPT and llm.c are widely used for learning how LLMs work.",
+ "bio": "Andrej Karpathy is an AI researcher and educator who completed a PhD at Stanford under Fei-Fei Li. Karpathy was a founding member of OpenAI, led computer vision for Autopilot at Tesla, and later founded the education company Eureka Labs. Karpathy also publishes educational videos and open source code on neural networks and language models.",
+ "known_for": [
+  "Designing and teaching Stanford CS231n",
+  "Neural Networks: Zero to Hero video series",
+  "Open source educational projects micrograd, nanoGPT and llm.c",
+  "Founding Eureka Labs for AI education"
+ ],
+ "bio_sources": [
+  "https://karpathy.ai",
+  "https://en.wikipedia.org/wiki/Andrej_Karpathy",
+  "https://api.openalex.org/authors/A5009290031",
+  "https://github.com/karpathy"
+ ],
+ "confidence": "high"
+}

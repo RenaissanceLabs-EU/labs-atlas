@@ -1,0 +1,54 @@
+{
+ "id": "nathan-lambert",
+ "name": "Nathan Lambert",
+ "display": "Nathan Lambert",
+ "kind": "person",
+ "handles": {
+  "github": "natolambert",
+  "huggingface": "natolambert",
+  "x": "natolambert",
+  "openalex": "A5083548887",
+  "orcid": "0000-0002-9997-6817",
+  "scholar": "https://scholar.google.com/citations?hl=en&user=O4jW7BsAAAAJ&view_op=list_works&sortby=pubdate",
+  "website": "https://natolambert.com",
+  "linkedin": "https://www.linkedin.com/in/natolambert/"
+ },
+ "affiliations": [
+  {
+   "lab": null,
+   "org": "Trillium Labs",
+   "role": "Co-founder and Executive Director",
+   "current": true,
+   "since": 2026
+  },
+  {
+   "lab": "ai2",
+   "org": "Allen Institute for AI (Ai2)",
+   "role": "Researcher, post-training",
+   "current": false,
+   "since": null
+  },
+  {
+   "lab": "hugging-face",
+   "org": "Hugging Face",
+   "role": "Research scientist",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": true,
+ "fame_basis": "Author of the Interconnects newsletter and the RLHF Book; lead author on Tulu 3 and Zephyr; co-founder of Trillium Labs, a nonprofit for open frontier AI science.",
+ "bio": "Nathan Lambert is co-founder and executive director of Trillium Labs, a nonprofit focused on the open science of frontier AI. They write the Interconnects newsletter and the RLHF Book, and previously worked on open model post-training at Ai2 and Hugging Face.",
+ "known_for": [
+  "Interconnects newsletter",
+  "RLHF Book and post-training course",
+  "Tulu 3 and Zephyr open post-training work",
+  "ATOM Project and open model adoption tracking"
+ ],
+ "bio_sources": [
+  "https://natolambert.com",
+  "https://blog.trilliumlabs.org/p/introducing-trillium-labs",
+  "https://api.openalex.org/authors/A5083548887"
+ ],
+ "confidence": "high"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "teknium",
+ "name": null,
+ "display": "Teknium",
+ "kind": "handle",
+ "handles": {
+  "github": "teknium1",
+  "huggingface": "teknium",
+  "x": "Teknium1",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nous-research",
+   "org": "Nous Research",
+   "role": "Co-founder, head of post-training",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Teknium is the handle of a co-founder of Nous Research who leads post-training there. The account is known for the Hermes series of instruction-tuned models, the OpenHermes and GPTeacher datasets, and later for building and maintaining the open-source Hermes Agent.",
+ "known_for": [
+  "Creating the Hermes open model line",
+  "OpenHermes and GPTeacher instruction datasets",
+  "Lead maintainer of Hermes Agent",
+  "Hermes 3 and Hermes 4 post-training"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Nous_Research",
+  "https://developer.nvidia.com/blog/author/teknium/",
+  "https://arxiv.org/pdf/2508.18255",
+  "https://huggingface.co/api/users/teknium/overview",
+  "https://github.com/teknium1"
+ ],
+ "confidence": "medium"
+}

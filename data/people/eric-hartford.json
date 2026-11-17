@@ -1,0 +1,40 @@
+{
+ "id": "eric-hartford",
+ "name": "Eric Hartford",
+ "display": "Eric Hartford",
+ "kind": "person",
+ "handles": {
+  "github": "ehartford",
+  "huggingface": "ehartford",
+  "x": "quixiai",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": "https://erichartford.com",
+  "linkedin": "https://www.linkedin.com/in/ehartford/"
+ },
+ "affiliations": [
+  {
+   "lab": null,
+   "org": "Quixi AI (formerly Cognitive Computations)",
+   "role": "Founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": true,
+ "fame_basis": "Creator of the Dolphin and Samantha open models; about 6,600 Hugging Face followers and widely downloaded finetunes.",
+ "bio": "Eric Hartford is an applied AI researcher who founded Cognitive Computations, now called Quixi AI. They create and release open finetuned models such as Dolphin and Samantha, along with related datasets, and write about their work on a personal blog.",
+ "known_for": [
+  "Dolphin series of instruction-tuned open models",
+  "Samantha conversational models",
+  "Dolphin-R1 reasoning dataset",
+  "Cognitive Computations / Quixi AI community"
+ ],
+ "bio_sources": [
+  "https://erichartford.com",
+  "https://huggingface.co/QuixiAI",
+  "https://huggingface.co/ehartford"
+ ],
+ "confidence": "medium"
+}

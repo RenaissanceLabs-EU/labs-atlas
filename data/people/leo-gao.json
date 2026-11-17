@@ -1,0 +1,49 @@
+{
+ "id": "leo-gao",
+ "name": "Leo Gao",
+ "display": "Leo Gao",
+ "kind": "person",
+ "handles": {
+  "github": "leogao2",
+  "huggingface": null,
+  "x": "nabla_theta",
+  "openalex": "A5057062066",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://leogao.dev",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "eleutherai",
+   "org": "EleutherAI",
+   "role": "Co-founder",
+   "current": false,
+   "since": 2020
+  },
+  {
+   "lab": null,
+   "org": "OpenAI",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Leo Gao is a machine learning researcher and one of the three founding members of EleutherAI, alongside Connor Leahy and Sid Black. Gao was lead author of The Pile and later published interpretability research at OpenAI, including work on weight-sparse transformers.",
+ "known_for": [
+  "Co-founding EleutherAI in 2020",
+  "Lead author of The Pile dataset",
+  "Weight-sparse transformers with interpretable circuits",
+  "Writing on AI alignment and scaling"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/EleutherAI",
+  "https://leogao.dev",
+  "https://proceedings.mlr.press/v306/gao26w.html",
+  "https://arxiv.org/html/2511.13653v1",
+  "https://api.openalex.org/authors/A5057062066"
+ ],
+ "confidence": "medium"
+}

@@ -1,0 +1,31 @@
+{
+ "id": "thebloke",
+ "name": "Tom Jobbins",
+ "display": "TheBloke",
+ "kind": "handle",
+ "handles": {
+  "github": "TheBloke",
+  "huggingface": "TheBloke",
+  "x": "TheBlokeAI",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [],
+ "independent": true,
+ "fame_basis": "Hugging Face account with about 27,500 followers and more than 3,800 models, the main early source of quantized (GPTQ, AWQ, GGUF) community model releases.",
+ "bio": "TheBloke is a Hugging Face account, shown on its profile as Tom Jobbins, that published quantized versions of open language models in GPTQ, AWQ and GGML/GGUF formats, making many models usable on consumer hardware. The account has been inactive for new model uploads since January 2024; its last upload was CapybaraHermes-2.5-Mistral-7B.",
+ "known_for": [
+  "Quantized GPTQ, AWQ and GGUF releases of open LLMs",
+  "Over 3,800 models on Hugging Face",
+  "Making local LLM use practical on consumer hardware"
+ ],
+ "bio_sources": [
+  "https://huggingface.co/TheBloke",
+  "https://huggingface.co/api/users/TheBloke/overview",
+  "https://huggingface.co/api/models?author=TheBloke&sort=lastModified&direction=-1&limit=2"
+ ],
+ "confidence": "medium"
+}

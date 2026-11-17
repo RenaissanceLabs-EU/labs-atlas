@@ -1,0 +1,41 @@
+{
+ "id": "daniel-han",
+ "name": "Daniel Han",
+ "display": "Daniel Han",
+ "kind": "person",
+ "handles": {
+  "github": "danielhanchen",
+  "huggingface": "danielhanchen",
+  "x": "danielhanchen",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": "https://www.linkedin.com/in/danielhanchen"
+ },
+ "affiliations": [
+  {
+   "lab": "unsloth",
+   "org": "Unsloth",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2023
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Daniel Han is a co-founder of Unsloth, which builds tools for fine-tuning, compressing, and running open models locally. They previously worked at NVIDIA on GPU-accelerated machine learning in the RAPIDS ecosystem. They have reported and fixed bugs in several open models and maintain the HyperLearn library.",
+ "known_for": [
+  "Co-founding Unsloth and its Triton training kernels",
+  "Bug fixes in Gemma, Llama, Mistral, and Phi implementations",
+  "Dynamic quantization of open models",
+  "HyperLearn faster machine learning library"
+ ],
+ "bio_sources": [
+  "https://www.ai.engineer/speakers/daniel-han",
+  "https://www.ycombinator.com/companies/unsloth-ai",
+  "https://github.com/unslothai/unsloth",
+  "https://huggingface.co/danielhanchen"
+ ],
+ "confidence": "high"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "karan-malhotra",
+ "name": "Karan Malhotra",
+ "display": "Karan Malhotra",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "karan4d",
+  "x": "karan4d",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nous-research",
+   "org": "Nous Research",
+   "role": "Co-founder, head of behavior",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Karan Malhotra is a co-founder of Nous Research and an author of the Hermes 4 technical report. Malhotra worked with Teknium on the first Hermes model and is described in press coverage as head of behavior at the company, and is associated with the Hermes Agent project and the WorldSim simulation environment.",
+ "known_for": [
+  "Co-founding Nous Research",
+  "Early work on the Hermes model line",
+  "Author of the Hermes 4 technical report",
+  "Hermes Agent and WorldSim"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Nous_Research",
+  "https://arxiv.org/pdf/2508.18255",
+  "https://creatoreconomy.so/p/hermes-co-founder-on-building-an-ai-agent-that-improves-itself-karan-malhotra",
+  "https://huggingface.co/api/users/karan4d/overview"
+ ],
+ "confidence": "medium"
+}

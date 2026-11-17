@@ -1,0 +1,48 @@
+{
+ "id": "neil-zeghidour",
+ "name": "Neil Zeghidour",
+ "display": "Neil Zeghidour",
+ "kind": "person",
+ "handles": {
+  "github": "neilz",
+  "huggingface": null,
+  "x": "neilzegh",
+  "openalex": "A5047639590",
+  "orcid": "0000-0001-6896-3987",
+  "scholar": "https://scholar.google.com/citations?user=fiJamZ0AAAAJ",
+  "website": null,
+  "linkedin": "https://www.linkedin.com/in/neil-zeghidour-a838aaa7"
+ },
+ "affiliations": [
+  {
+   "lab": "kyutai",
+   "org": "Kyutai",
+   "role": "Audio Research Advisor",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Gradium",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": 2025
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Neil Zeghidour is a speech and audio researcher who helped create Kyutai and is its audio research advisor. They are first author of Google's SoundStream neural audio codec, a co-author of AudioLM, and a co-author of Kyutai's Moshi and Hibiki. In 2025 they co-founded Gradium, a voice AI company, and serve as its CEO.",
+ "known_for": [
+  "SoundStream neural audio codec at Google",
+  "AudioLM and MusicLM audio generation work",
+  "Moshi and Hibiki at Kyutai",
+  "Co-founding Gradium voice AI"
+ ],
+ "bio_sources": [
+  "https://www.ai.engineer/speakers/neil-zeghidour",
+  "https://kyutai.org/team",
+  "https://api.openalex.org/authors?search=Neil%20Zeghidour",
+  "https://www.coval.dev/blog/the-future-of-speech-to-speech-ai-inside-gradium-and-kyutai-s-approach-to-full-duplex-conversation"
+ ],
+ "confidence": "high"
+}

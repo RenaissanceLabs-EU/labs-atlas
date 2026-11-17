@@ -1,0 +1,55 @@
+{
+ "id": "david-ha",
+ "name": "David Ha",
+ "display": "David Ha",
+ "kind": "person",
+ "handles": {
+  "github": "hardmaru",
+  "huggingface": "hardmaru",
+  "x": "hardmaru",
+  "openalex": "A5001419875",
+  "orcid": "0000-0001-8765-8574",
+  "scholar": "https://scholar.google.com/citations?user=N7X-kbUAAAAJ",
+  "website": "https://otoro.net/ml/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "sakana-ai",
+   "org": "Sakana AI",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": 2023
+  },
+  {
+   "lab": null,
+   "org": "Stability AI",
+   "role": "Head of Strategy",
+   "current": false,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Google Brain",
+   "role": "Research scientist",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "David Ha, known online as hardmaru, is a co-founder and CEO of Sakana AI, a Tokyo-based research company founded in 2023. Ha previously worked at Google and Stability AI. Research interests include world models, evolutionary computation and generative models, and Sakana AI has published work such as The AI Scientist.",
+ "known_for": [
+  "Co-founding Sakana AI in Tokyo",
+  "Recurrent World Models Facilitate Policy Evolution",
+  "sketch-rnn sketch generation project",
+  "Co-author of The AI Scientist paper"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Sakana_AI",
+  "https://en.wikipedia.org/wiki/Llion_Jones",
+  "https://otoro.net",
+  "https://api.openalex.org/authors/A5001419875"
+ ],
+ "confidence": "high"
+}

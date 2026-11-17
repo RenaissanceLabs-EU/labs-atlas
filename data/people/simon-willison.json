@@ -1,0 +1,47 @@
+{
+ "id": "simon-willison",
+ "name": "Simon Willison",
+ "display": "Simon Willison",
+ "kind": "person",
+ "handles": {
+  "github": "simonw",
+  "huggingface": "simonw",
+  "x": "simonw",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": "https://simonwillison.net/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": null,
+   "org": "Independent",
+   "role": "Open source developer and writer",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Prime Radiant",
+   "role": "Part-time (one day a week)",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": true,
+ "fame_basis": "Co-creator of the Django web framework with a Wikipedia article; creator of Datasette and the LLM command line tool; his blog is a widely read source on LLMs, and he coined the term prompt injection.",
+ "bio": "Simon Willison is a British programmer and independent open source developer. Willison co-created the Django web framework, created Datasette and the LLM command line tool, and has written a blog since 2002. Recent writing focuses on LLMs, coding agents and AI security, including the terms prompt injection and the lethal trifecta.",
+ "known_for": [
+  "Co-creating the Django web framework",
+  "Creating Datasette and the LLM CLI tool",
+  "Coining the term prompt injection",
+  "Long-running blog on LLMs and AI security"
+ ],
+ "bio_sources": [
+  "https://simonwillison.net/about/",
+  "https://en.wikipedia.org/wiki/Simon_Willison",
+  "https://github.com/simonw"
+ ],
+ "confidence": "high"
+}

@@ -1,0 +1,41 @@
+{
+ "id": "julien-chaumond",
+ "name": "Julien Chaumond",
+ "display": "Julien Chaumond",
+ "kind": "person",
+ "handles": {
+  "github": "julien-c",
+  "huggingface": "julien-c",
+  "x": "julien_c",
+  "openalex": "A5038505596",
+  "orcid": "0000-0003-3188-1616",
+  "scholar": null,
+  "website": null,
+  "linkedin": "https://www.linkedin.com/in/julienchaumond"
+ },
+ "affiliations": [
+  {
+   "lab": "hugging-face",
+   "org": "Hugging Face",
+   "role": "Co-founder and CTO",
+   "current": true,
+   "since": 2016
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Julien Chaumond is a co-founder and the chief technology officer of Hugging Face. They are active on the Hugging Face Hub and belong to organizations such as Safetensors and TRL. Chaumond is a co-author of the Transformers library paper and the DistilBERT paper.",
+ "known_for": [
+  "Co-founding Hugging Face and building the Hub",
+  "Transformers library paper co-author",
+  "DistilBERT paper co-author",
+  "Safetensors organization membership"
+ ],
+ "bio_sources": [
+  "https://huggingface.co/julien-c",
+  "https://en.wikipedia.org/wiki/Hugging_Face",
+  "https://github.com/julien-c",
+  "https://api.openalex.org/authors?search=Julien%20Chaumond"
+ ],
+ "confidence": "high"
+}

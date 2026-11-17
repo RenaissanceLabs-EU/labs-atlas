@@ -1,0 +1,42 @@
+{
+ "id": "jeffrey-quesnelle",
+ "name": "Jeffrey Quesnelle",
+ "display": "Jeffrey Quesnelle",
+ "kind": "person",
+ "handles": {
+  "github": "jquesnelle",
+  "huggingface": "emozilla",
+  "x": "theemozilla",
+  "openalex": "A5088634142",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=7jZjfZ8AAAAJ&hl=en",
+  "website": "https://jeffq.com",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nous-research",
+   "org": "Nous Research",
+   "role": "Co-founder and CTO",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jeffrey Quesnelle is a co-founder of Nous Research, where his own site lists him as CTO, and goes by emozilla online. Quesnelle co-authored YaRN, a method for extending the context window of language models, and the Hermes 3 technical report, and holds an M.S. in computer science from the University of Michigan-Dearborn.",
+ "known_for": [
+  "Co-founding Nous Research",
+  "Co-author of the YaRN context extension method",
+  "Co-author of the Hermes 3 technical report",
+  "Earlier research on Zcash transaction anonymity"
+ ],
+ "bio_sources": [
+  "https://jeffq.com/",
+  "https://en.wikipedia.org/wiki/Nous_Research",
+  "https://arxiv.org/abs/2309.00071",
+  "https://arxiv.org/pdf/2508.18255",
+  "https://api.openalex.org/authors/A5088634142"
+ ],
+ "confidence": "high"
+}

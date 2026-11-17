@@ -1,0 +1,41 @@
+{
+ "id": "thomas-wolf",
+ "name": "Thomas Wolf",
+ "display": "Thomas Wolf",
+ "kind": "person",
+ "handles": {
+  "github": "thomwolf",
+  "huggingface": "thomwolf",
+  "x": "Thom_Wolf",
+  "openalex": "A5055402965",
+  "orcid": "0000-0002-9781-3459",
+  "scholar": "https://scholar.google.com/citations?hl=fr&user=D2H5EFEAAAAJ",
+  "website": "https://thomwolf.io",
+  "linkedin": "https://www.linkedin.com/in/thomas-wolf-a056857/"
+ },
+ "affiliations": [
+  {
+   "lab": "hugging-face",
+   "org": "Hugging Face",
+   "role": "Co-founder and Chief Science Officer",
+   "current": true,
+   "since": 2016
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Thomas Wolf is a co-founder and the Chief Science Officer of Hugging Face. Trained in physics, with a PhD in statistical and quantum physics, he moved into machine learning around 2015 and has worked on open-source libraries and open-science projects such as BigScience. He co-authored the book Natural Language Processing with Transformers.",
+ "known_for": [
+  "Co-creating the Transformers and Datasets libraries",
+  "DistilBERT and TransferTransfo papers",
+  "BigScience, BLOOM, and FineWeb open-science work",
+  "Co-authoring Natural Language Processing with Transformers"
+ ],
+ "bio_sources": [
+  "https://thomwolf.io",
+  "https://huggingface.co/thomwolf",
+  "https://en.wikipedia.org/wiki/Hugging_Face",
+  "https://api.openalex.org/authors?search=Thomas%20Wolf"
+ ],
+ "confidence": "high"
+}

@@ -1,0 +1,42 @@
+{
+ "id": "stella-biderman",
+ "name": "Stella Biderman",
+ "display": "Stella Biderman",
+ "kind": "person",
+ "handles": {
+  "github": "StellaAthena",
+  "huggingface": "StellaAthena",
+  "x": "BlancheMinerva",
+  "openalex": "A5076733732",
+  "orcid": "0000-0001-8228-1042",
+  "scholar": null,
+  "website": "https://www.stellabiderman.com",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "eleutherai",
+   "org": "EleutherAI",
+   "role": "Executive Director",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Stella Biderman is the executive director of EleutherAI, the nonprofit research institute behind GPT-Neo, GPT-NeoX and the Pythia model suite. Biderman co-authored The Pile dataset and works on open language models, evaluation and training dynamics, and has also held a lead scientist role at Booz Allen Hamilton.",
+ "known_for": [
+  "Leading EleutherAI as executive director",
+  "Co-author of The Pile and the Pythia suite",
+  "GPT-NeoX training library",
+  "Co-author of the BLOOM open multilingual model paper"
+ ],
+ "bio_sources": [
+  "https://github.com/StellaAthena",
+  "https://en.wikipedia.org/wiki/EleutherAI",
+  "https://mediacenter.boozallen.com/news-releases/news-release-details/making-ai-research-transparent-and-accessible",
+  "https://huggingface.co/api/users/stellaathena/overview",
+  "https://api.openalex.org/authors/A5076733732"
+ ],
+ "confidence": "high"
+}

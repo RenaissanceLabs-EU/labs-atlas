@@ -1,0 +1,41 @@
+{
+ "id": "georgi-gerganov",
+ "name": "Georgi Gerganov",
+ "display": "Georgi Gerganov",
+ "kind": "person",
+ "handles": {
+  "github": "ggerganov",
+  "huggingface": "ggerganov",
+  "x": "ggerganov",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": "https://ggerganov.com",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hugging-face",
+   "org": "Hugging Face (ggml and llama.cpp team)",
+   "role": "Creator and maintainer of llama.cpp and ggml",
+   "current": true,
+   "since": 2026
+  }
+ ],
+ "independent": true,
+ "fame_basis": "Creator of llama.cpp, ggml and whisper.cpp, among the most widely used open source projects for running LLMs locally; the ggml team joined Hugging Face in February 2026.",
+ "bio": "Georgi Gerganov is a software developer who builds open source tools for running machine learning models efficiently in C and C++. Gerganov created llama.cpp, whisper.cpp and the ggml tensor library, which are widely used for local inference. In 2026 the ggml team announced it was joining Hugging Face while keeping control of the projects' technical direction.",
+ "known_for": [
+  "Creating llama.cpp for local LLM inference",
+  "Creating the ggml tensor library",
+  "Creating whisper.cpp for speech recognition",
+  "ggwave data-over-sound library"
+ ],
+ "bio_sources": [
+  "https://ggerganov.com",
+  "https://huggingface.co/blog/ggml-joins-hf",
+  "https://github.com/ggerganov",
+  "https://huggingface.co/ggerganov"
+ ],
+ "confidence": "high"
+}
