@@ -1,0 +1,36 @@
+{
+ "id": "oobabooga",
+ "name": null,
+ "display": "oobabooga",
+ "kind": "handle",
+ "handles": {
+  "github": "oobabooga",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "unsloth",
+   "org": "Unsloth",
+   "role": "Top contributor to unsloth",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "oobabooga is one of the most active contributors to Unsloth's open source work on GitHub, with 379 contributions to unsloth.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/oobabooga",
+  "https://github.com/unslothai/unsloth"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

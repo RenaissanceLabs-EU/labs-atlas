@@ -1,0 +1,36 @@
+{
+ "id": "jake-poznanski",
+ "name": "Jake Poznanski",
+ "display": "Jake Poznanski",
+ "kind": "person",
+ "handles": {
+  "github": "jakep-allenai",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai2",
+   "org": "Allen Institute for AI",
+   "role": "Top contributor to olmocr",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jake Poznanski is one of the most active contributors to Allen Institute for AI's open source work on GitHub, with 1,997 contributions to olmocr.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jakep-allenai",
+  "https://github.com/allenai/olmocr"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

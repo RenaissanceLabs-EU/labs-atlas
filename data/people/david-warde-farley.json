@@ -1,0 +1,37 @@
+{
+ "id": "david-warde-farley",
+ "name": "David Warde-Farley",
+ "display": "David Warde-Farley",
+ "kind": "person",
+ "handles": {
+  "github": "dwf",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mila-quebec-ai-institute",
+   "org": "Mila - Quebec AI Institute",
+   "role": "Top contributor to blocks",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "David Warde-Farley is one of the most active contributors to Mila - Quebec AI Institute's open source work on GitHub, with 451 contributions to blocks, fuel.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/dwf",
+  "https://github.com/mila-iqia/blocks",
+  "https://github.com/mila-iqia/fuel"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

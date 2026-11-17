@@ -1,0 +1,42 @@
+{
+ "id": "xipeng-qiu",
+ "name": "Xipeng Qiu",
+ "display": "Xipeng Qiu",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5044665993",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openmoss",
+   "org": "OpenMOSS",
+   "role": "Professor, Fudan University",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Xipeng Qiu is a professor in the School of Computer Science at Fudan University and heads the OpenMOSS team at the Shanghai Innovation Institute. The team's work covers the MOSS conversational language models and the NEX agent platform. Qiu also helped create the FastNLP and FudanNLP toolkits and wrote the textbook Neural Networks and Deep Learning.",
+ "known_for": [
+  "Leads OpenMOSS and the open MOSS model series",
+  "FastNLP and FudanNLP open-source NLP toolkits",
+  "Textbook Neural Networks and Deep Learning"
+ ],
+ "bio_sources": [
+  "https://xpqiu.github.io/",
+  "http://openmoss.sii.edu.cn/",
+  "https://arxiv.org/abs/2402.12226",
+  "https://api.openalex.org/authors/A5044665993"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

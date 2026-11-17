@@ -1,0 +1,48 @@
+{
+ "id": "karan-goel",
+ "name": "Karan Goel",
+ "display": "Karan Goel",
+ "kind": "person",
+ "handles": {
+  "github": "krandiash",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=1i3X2GgAAAAJ",
+  "website": "https://krandiash.github.io",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "cartesia",
+   "org": "Cartesia",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Stanford University",
+   "role": "PhD student, Hazy Research",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Karan Goel is a co-founder and CEO of Cartesia, a company building fast sequence models for real-time voice and multimodal applications. They completed graduate work at Stanford with Chris Ré and are an author of S4, a structured state space sequence model.",
+ "known_for": [
+  "Co-founder and CEO of Cartesia",
+  "S4 structured state space models",
+  "Data-centric AI and model robustness"
+ ],
+ "bio_sources": [
+  "https://krandiash.github.io",
+  "https://github.com/krandiash",
+  "https://cartesia.ai"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "luis-espinosa-anke",
+ "name": "Luis Espinosa Anke",
+ "display": "Luis Espinosa Anke",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5002661723",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "cardiff-nlp",
+   "org": "Cardiff NLP",
+   "role": "Academic staff, Cardiff University",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Luis Espinosa Anke is listed by Cardiff NLP as academic staff, Cardiff University.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.cardiffnlp.org",
+  "https://arxiv.org/abs/2202.03829"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

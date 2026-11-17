@@ -1,0 +1,37 @@
+{
+ "id": "raphael-sourty",
+ "name": "Raphael Sourty",
+ "display": "Raphael Sourty",
+ "kind": "person",
+ "handles": {
+  "github": "raphaelsty",
+  "huggingface": null,
+  "x": "raphaelsrty",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lighton",
+   "org": "LightOn",
+   "role": "Top contributor to next-plaid",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Raphael Sourty is one of the most active contributors to LightOn's open source work on GitHub, with 815 contributions to next-plaid, fast-plaid.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/raphaelsty",
+  "https://github.com/lightonai/next-plaid",
+  "https://github.com/lightonai/fast-plaid"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

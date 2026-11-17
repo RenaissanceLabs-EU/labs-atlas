@@ -1,0 +1,36 @@
+{
+ "id": "nick-sweeting",
+ "name": "Nick Sweeting",
+ "display": "Nick Sweeting",
+ "kind": "person",
+ "handles": {
+  "github": "pirate",
+  "huggingface": null,
+  "x": "theSquashSH",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "browser-use",
+   "org": "Browser Use",
+   "role": "Top contributor to browser-use",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Nick Sweeting is one of the most active contributors to Browser Use's open source work on GitHub, with 1,810 contributions to browser-use.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/pirate",
+  "https://github.com/browser-use/browser-use"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

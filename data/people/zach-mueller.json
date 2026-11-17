@@ -1,0 +1,36 @@
+{
+ "id": "zach-mueller",
+ "name": "Zach Mueller",
+ "display": "Zach Mueller",
+ "kind": "person",
+ "handles": {
+  "github": "muellerzr",
+  "huggingface": null,
+  "x": "TheZachMueller",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "fast-ai",
+   "org": "fast.ai",
+   "role": "Top contributor to fastai",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Zach Mueller is one of the most active contributors to fast.ai's open source work on GitHub, with 170 contributions to fastai. Their public GitHub profile reads: “Passionate about Open Source and Deep Learning, working on 🤗 Accelerate”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/muellerzr",
+  "https://github.com/fastai/fastai"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,48 @@
+{
+ "id": "herve-bredin",
+ "name": "Hervé Bredin",
+ "display": "Hervé Bredin",
+ "kind": "person",
+ "handles": {
+  "github": "hbredin",
+  "huggingface": null,
+  "x": "hbredin",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=obEwWjZOI0cC",
+  "website": "https://herve.niderb.fr/",
+  "linkedin": "https://www.linkedin.com/in/herve-bredin"
+ },
+ "affiliations": [
+  {
+   "lab": "pyannoteai",
+   "org": "pyannoteAI",
+   "role": "Creator of pyannote.audio and chief science officer",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "CNRS (IRIT)",
+   "role": "Research scientist (on leave)",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Hervé Bredin is co-founder and chief science officer of pyannoteAI and a tenured CNRS research scientist at IRIT in Toulouse, currently on leave. They are the lead developer of pyannote.audio, a widely used open-source toolkit for speaker diarization. Bredin also leads pyannote.video and pyannote.metrics.",
+ "known_for": [
+  "Creator of pyannote.audio",
+  "Co-founder of pyannoteAI",
+  "Speaker diarization research at CNRS"
+ ],
+ "bio_sources": [
+  "https://herve.niderb.fr/",
+  "https://api.github.com/users/hbredin",
+  "https://www.pyannote.ai"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,37 @@
+{
+ "id": "carenthomas",
+ "name": null,
+ "display": "carenthomas",
+ "kind": "handle",
+ "handles": {
+  "github": "carenthomas",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "letta",
+   "org": "Letta",
+   "role": "Top contributor to letta",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "carenthomas is one of the most active contributors to Letta's open source work on GitHub, with 2,468 contributions to letta, letta-code.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/carenthomas",
+  "https://github.com/letta-ai/letta",
+  "https://github.com/letta-ai/letta-code"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

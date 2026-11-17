@@ -1,0 +1,42 @@
+{
+ "id": "andriy-mulyar",
+ "name": "Andriy Mulyar",
+ "display": "Andriy Mulyar",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5014529173",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nomic-ai",
+   "org": "Nomic AI",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2022
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Andriy Mulyar is a co-founder of Nomic AI, founded in 2022, and an author of the 2023 GPT4All paper on locally runnable open language models. Nomic also released the open nomic-embed-text embedding models and the Atlas data visualization platform.",
+ "known_for": [
+  "Co-founder of Nomic AI",
+  "GPT4All local open language models",
+  "Nomic Embed open embedding models"
+ ],
+ "bio_sources": [
+  "https://yespress.io/nomic-ai",
+  "https://www.catalyzex.com/author/Andriy%20Mulyar",
+  "https://arxiv.org/abs/2402.01613"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "flag": "role conflict: lab page says CEO, other sources say CTO (Brandon Duderstadt as CEO); verify",
+ "enriched": true
+}

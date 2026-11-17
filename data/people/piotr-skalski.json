@@ -1,0 +1,37 @@
+{
+ "id": "piotr-skalski",
+ "name": "Piotr Skalski",
+ "display": "Piotr Skalski",
+ "kind": "person",
+ "handles": {
+  "github": "SkalskiP",
+  "huggingface": null,
+  "x": "skalskip92",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "roboflow",
+   "org": "Roboflow",
+   "role": "Top contributor to supervision",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Piotr Skalski is one of the most active contributors to Roboflow's open source work on GitHub, with 1,755 contributions to supervision, notebooks.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/SkalskiP",
+  "https://github.com/roboflow/supervision",
+  "https://github.com/roboflow/notebooks"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

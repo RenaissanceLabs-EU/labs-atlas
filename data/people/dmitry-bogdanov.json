@@ -1,0 +1,36 @@
+{
+ "id": "dmitry-bogdanov",
+ "name": "Dmitry Bogdanov",
+ "display": "Dmitry Bogdanov",
+ "kind": "person",
+ "handles": {
+  "github": "dbogdanov",
+  "huggingface": null,
+  "x": "di_bogdanov",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "music-technology-group",
+   "org": "Music Technology Group",
+   "role": "Top contributor to essentia",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Dmitry Bogdanov is one of the most active contributors to Music Technology Group's open source work on GitHub, with 1,899 contributions to essentia. Their public GitHub profile reads: “Music technology researcher and software engineer”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/dbogdanov",
+  "https://github.com/MTG/essentia"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

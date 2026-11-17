@@ -1,0 +1,36 @@
+{
+ "id": "claudio-michaelis",
+ "name": "Claudio Michaelis",
+ "display": "Claudio Michaelis",
+ "kind": "person",
+ "handles": {
+  "github": "michaelisc",
+  "huggingface": null,
+  "x": "clmich",
+  "openalex": "A5076080916",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bethge-lab",
+   "org": "Bethge Lab",
+   "role": "Detection robustness benchmark author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Claudio Michaelis is listed by Bethge Lab as detection robustness benchmark author.",
+ "known_for": [],
+ "bio_sources": [
+  "https://bethgelab.org",
+  "https://github.com/michaelisc",
+  "https://arxiv.org/abs/1907.07484"
+ ],
+ "confidence": "high",
+ "auto": true
+}

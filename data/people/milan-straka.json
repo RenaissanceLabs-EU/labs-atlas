@@ -1,0 +1,36 @@
+{
+ "id": "milan-straka",
+ "name": "Milan Straka",
+ "display": "Milan Straka",
+ "kind": "person",
+ "handles": {
+  "github": "foxik",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "fal",
+   "org": "ÚFAL",
+   "role": "Top contributor to udpipe",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Milan Straka is one of the most active contributors to ÚFAL's open source work on GitHub, with 619 contributions to udpipe.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/foxik",
+  "https://github.com/ufal/udpipe"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

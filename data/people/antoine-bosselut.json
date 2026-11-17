@@ -1,0 +1,48 @@
+{
+ "id": "antoine-bosselut",
+ "name": "Antoine Bosselut",
+ "display": "Antoine Bosselut",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "atcbosselut",
+  "x": null,
+  "openalex": "A5088410008",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=XD9hkJwAAAAJ",
+  "website": "https://atcbosselut.github.io/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "epfl-llm-team",
+   "org": "EPFL LLM Team",
+   "role": "Senior author of MEDITRON",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "swiss-ai-initiative",
+   "org": "Swiss AI Initiative",
+   "role": "Co-lead of the Apertus project, EPFL",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Antoine Bosselut is a professor at EPFL who heads its Natural Language Processing Laboratory and co-leads the Swiss AI Initiative. Bosselut was principal investigator of MEDITRON, an open medical language model released in 2023, and co-leads the Apertus open multilingual models released by EPFL, ETH Zurich and CSCS in 2025.",
+ "known_for": [
+  "Head of EPFL NLP Laboratory",
+  "Principal investigator of MEDITRON",
+  "Co-lead of Apertus open model"
+ ],
+ "bio_sources": [
+  "https://ai.epfl.ch/apertus-a-fully-open-transparent-multilingual-language-model",
+  "https://actu.epfl.ch/news/epfl-s-new-large-language-model-for-medical-knowle",
+  "https://atcbosselut.github.io/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,55 @@
+{
+ "id": "mathias-lechner",
+ "name": "Mathias Lechner",
+ "display": "Mathias Lechner",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5036588940",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "liquid-ai",
+   "org": "Liquid AI",
+   "role": "Co-founder and CTO",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "MIT CSAIL",
+   "role": "Research affiliate",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Institute of Science and Technology Austria (ISTA)",
+   "role": "PhD student",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mathias Lechner is co-founder and chief technology officer of Liquid AI and a research affiliate at MIT CSAIL. Lechner completed a PhD at the Institute of Science and Technology Austria in 2022 and co-authored the Nature Machine Intelligence paper on neural circuit policies and the work on liquid time-constant networks.",
+ "known_for": [
+  "Co-founder and CTO of Liquid AI",
+  "Neural circuit policies for auditable autonomy",
+  "Liquid time-constant networks"
+ ],
+ "bio_sources": [
+  "https://www.liquid.ai/en/team/mathias-lechner",
+  "https://nextomoro.com/mathias-lechner/",
+  "https://siecledigital.fr/?p=364203"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

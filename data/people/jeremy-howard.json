@@ -1,0 +1,63 @@
+{
+ "id": "jeremy-howard",
+ "name": "Jeremy Howard",
+ "display": "Jeremy Howard",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5007075789",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "answer-ai",
+   "org": "Answer.AI",
+   "role": "Founder and CEO",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "fast-ai",
+   "org": "fast.ai",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Kaggle",
+   "role": "President and chief scientist",
+   "current": false,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Enlitic",
+   "role": "Founder",
+   "current": false,
+   "since": 2014
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jeremy Howard is the founder and CEO of Answer.AI and a co-founder of fast.ai, where he builds open courses and software such as the fastai library. Earlier, Howard was president and chief scientist of Kaggle and founded Enlitic. The ULMFiT method for text classification came from fast.ai research.",
+ "known_for": [
+  "Co-founder of fast.ai",
+  "Co-author of ULMFiT",
+  "Founder of Answer.AI"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Jeremy_Howard_(entrepreneur)",
+  "https://api.openalex.org/authors/A5007075789",
+  "https://arxiv.org/abs/1801.06146",
+  "https://www.answer.ai/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

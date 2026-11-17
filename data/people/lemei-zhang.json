@@ -1,0 +1,41 @@
+{
+ "id": "lemei-zhang",
+ "name": "Lemei Zhang",
+ "display": "Lemei Zhang",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5122185261",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "norwai",
+   "org": "NorwAI",
+   "role": "Postdoctoral fellow, NTNU",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Lemei Zhang is a postdoctoral researcher at NorwAI at NTNU, working on natural language processing, recommender systems and user modeling, with a current focus on foundation language models and their use in recommendation. Zhang co-authored a survey on language modeling paradigm adaptations in recommender systems.",
+ "known_for": [
+  "Recommender systems and user modeling",
+  "Foundation language models at NorwAI",
+  "Survey of language models in recommenders"
+ ],
+ "bio_sources": [
+  "https://ntnu.edu/employees/lemeiz",
+  "https://www.ntnu.edu/norwai/researchers-lemei-and-peng-to-share-their-ai-competence",
+  "https://arxiv.org/abs/2404.03788"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

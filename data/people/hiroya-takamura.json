@@ -1,0 +1,41 @@
+{
+ "id": "hiroya-takamura",
+ "name": "Hiroya Takamura",
+ "display": "Hiroya Takamura",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5042127858",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "swallow-llm",
+   "org": "Swallow LLM",
+   "role": "AIST team leader; project manager",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Hiroya Takamura is a research team leader at the Artificial Intelligence Research Center (AIRC) of AIST in Japan, working on natural language processing and machine learning. Takamura serves as project manager of the Swallow open Japanese LLM project. Their publications include work on numeral-aware language understanding and on unusual word usage detection.",
+ "known_for": [
+  "Project manager of the Swallow LLM project",
+  "Natural language processing at AIST AIRC",
+  "Numeral-aware language understanding tasks"
+ ],
+ "bio_sources": [
+  "https://swallow-llm.github.io/index.en.html",
+  "https://www.airc.aist.go.jp/en/teams/",
+  "https://researchmap.jp/read0163475"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "jeremy-wohlwend",
+ "name": "Jeremy Wohlwend",
+ "display": "Jeremy Wohlwend",
+ "kind": "person",
+ "handles": {
+  "github": "jwohlwend",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "boltz",
+   "org": "Boltz",
+   "role": "Top contributor to boltz",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jeremy Wohlwend is one of the most active contributors to Boltz's open source work on GitHub, with 142 contributions to boltz.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jwohlwend",
+  "https://github.com/jwohlwend/boltz"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

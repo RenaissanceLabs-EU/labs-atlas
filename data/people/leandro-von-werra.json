@@ -1,0 +1,49 @@
+{
+ "id": "leandro-von-werra",
+ "name": "Leandro von Werra",
+ "display": "Leandro von Werra",
+ "kind": "person",
+ "handles": {
+  "github": "lvwerra",
+  "huggingface": null,
+  "x": "lvwerra",
+  "openalex": "A5008355834",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bigcode",
+   "org": "BigCode",
+   "role": "Co-lead of BigCode",
+   "current": true,
+   "since": 2022
+  },
+  {
+   "lab": null,
+   "org": "Hugging Face",
+   "role": "Research lead",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Leandro von Werra is a research lead at Hugging Face and co-leads the BigCode project. von Werra created the TRL library for reinforcement learning with transformers and was corresponding author on the StarCoder code model paper.",
+ "known_for": [
+  "Co-lead of BigCode and StarCoder",
+  "Creator of the TRL library",
+  "Open research at Hugging Face"
+ ],
+ "bio_sources": [
+  "https://thesequence.substack.com/p/the-sequence-chat-hugging-faces-leandro",
+  "https://www.arxiv.org/pdf/2402.19173",
+  "https://techcrunch.com/2023/05/04/hugging-face-and-servicenow-release-a-free-code-generating-model/amp",
+  "https://api.openalex.org/authors/A5008355834"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

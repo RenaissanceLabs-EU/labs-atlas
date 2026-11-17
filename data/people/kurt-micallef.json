@@ -1,0 +1,36 @@
+{
+ "id": "kurt-micallef",
+ "name": "Kurt Micallef",
+ "display": "Kurt Micallef",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5051863994",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mlrs",
+   "org": "MLRS",
+   "role": "Researcher on Maltese language models",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Kurt Micallef is listed by MLRS as researcher on Maltese language models.",
+ "known_for": [],
+ "bio_sources": [
+  "https://mlrs.research.um.edu.mt",
+  "https://huggingface.co/MLRS",
+  "https://arxiv.org/abs/2205.10517"
+ ],
+ "confidence": "high",
+ "auto": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "mario-zechner",
+ "name": "Mario Zechner",
+ "display": "Mario Zechner",
+ "kind": "person",
+ "handles": {
+  "github": "badlogic",
+  "huggingface": null,
+  "x": "badlogicgames",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "prime-intellect",
+   "org": "Prime Intellect",
+   "role": "Top contributor to prime-agent",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mario Zechner is one of the most active contributors to Prime Intellect's open source work on GitHub, with 3,071 contributions to prime-agent.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/badlogic",
+  "https://github.com/PrimeIntellect-ai/prime-agent"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,45 @@
+{
+ "id": "julie-hunter",
+ "name": "Julie Hunter",
+ "display": "Julie Hunter",
+ "kind": "person",
+ "handles": {
+  "github": "jhunter19",
+  "huggingface": "juliehunter",
+  "x": null,
+  "openalex": "A5086390529",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "linagora",
+   "org": "LINAGORA",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "openllm-france",
+   "org": "OpenLLM France",
+   "role": "Public org member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Julie Hunter is listed by LINAGORA as researcher. They are also listed at OpenLLM France.",
+ "known_for": [],
+ "bio_sources": [
+  "https://linagora.com",
+  "https://www.openllm-france.fr",
+  "https://huggingface.co/juliehunter",
+  "https://github.com/jhunter19",
+  "https://arxiv.org/abs/2503.12294"
+ ],
+ "confidence": "high",
+ "auto": true
+}

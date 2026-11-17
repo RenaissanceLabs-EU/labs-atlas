@@ -1,0 +1,41 @@
+{
+ "id": "abhik-bhattacharjee",
+ "name": "Abhik Bhattacharjee",
+ "display": "Abhik Bhattacharjee",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5015510710",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "buet-cse-nlp-group",
+   "org": "BUET CSE NLP Group",
+   "role": "Research assistant, BUET CSE",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Abhik Bhattacharjee is a research assistant in the BUET Department of Computer Science and Engineering NLP group. They are the first author of BanglaBERT and co-first author of XL-Sum, a multilingual summarization dataset.",
+ "known_for": [
+  "First author of BanglaBERT",
+  "Co-first author of XL-Sum",
+  "Bangla language model benchmarks"
+ ],
+ "bio_sources": [
+  "https://csebuetnlp.github.io/",
+  "https://arxiv.org/abs/2101.00204",
+  "https://aclanthology.org/people/abhik-bhattacharjee/unverified/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

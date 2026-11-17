@@ -1,0 +1,35 @@
+{
+ "id": "nikolay-bogoychev",
+ "name": "Nikolay Bogoychev",
+ "display": "Nikolay Bogoychev",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "XapaJIaMnu",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hplt",
+   "org": "HPLT",
+   "role": "HPLT member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Nikolay Bogoychev is listed by HPLT as hPLT member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://hplt-project.org",
+  "https://huggingface.co/XapaJIaMnu"
+ ],
+ "confidence": "high",
+ "auto": true
+}

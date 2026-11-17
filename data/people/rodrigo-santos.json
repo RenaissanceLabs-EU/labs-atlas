@@ -1,0 +1,36 @@
+{
+ "id": "rodrigo-santos",
+ "name": "Rodrigo Santos",
+ "display": "Rodrigo Santos",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5100646991",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nlx-group",
+   "org": "NLX Group",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Rodrigo Santos is listed by NLX Group as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "http://nlx.di.fc.ul.pt",
+  "https://huggingface.co/PORTULAN",
+  "https://arxiv.org/abs/2305.06721"
+ ],
+ "confidence": "high",
+ "auto": true
+}

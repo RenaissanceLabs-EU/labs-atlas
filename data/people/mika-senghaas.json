@@ -1,0 +1,37 @@
+{
+ "id": "mika-senghaas",
+ "name": "Mika Senghaas",
+ "display": "Mika Senghaas",
+ "kind": "person",
+ "handles": {
+  "github": "mikasenghaas",
+  "huggingface": null,
+  "x": "mikasenghaas",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "prime-intellect",
+   "org": "Prime Intellect",
+   "role": "Top contributor to verifiers",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mika Senghaas is one of the most active contributors to Prime Intellect's open source work on GitHub, with 1,212 contributions to prime-rl, verifiers.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/mikasenghaas",
+  "https://github.com/PrimeIntellect-ai/verifiers",
+  "https://github.com/PrimeIntellect-ai/prime-rl"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

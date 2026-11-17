@@ -1,0 +1,35 @@
+{
+ "id": "pierpaolo-basile",
+ "name": "Pierpaolo Basile",
+ "display": "Pierpaolo Basile",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5070784701",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "swap-research-group",
+   "org": "SWAP Research Group",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pierpaolo Basile is listed by SWAP Research Group as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/swapUniba",
+  "https://arxiv.org/abs/2405.07101"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

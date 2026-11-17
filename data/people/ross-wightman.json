@@ -1,0 +1,36 @@
+{
+ "id": "ross-wightman",
+ "name": "Ross Wightman",
+ "display": "Ross Wightman",
+ "kind": "person",
+ "handles": {
+  "github": "rwightman",
+  "huggingface": null,
+  "x": "wightmanr",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hugging-face",
+   "org": "Hugging Face",
+   "role": "Top contributor to pytorch-image-models",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ross Wightman is one of the most active contributors to Hugging Face's open source work on GitHub, with 2,760 contributions to pytorch-image-models. Their public GitHub profile reads: “AI, Computer Vision. Always learning, constantly curious. Building ML/AI systems, watching loss curves”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/rwightman",
+  "https://github.com/huggingface/pytorch-image-models"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

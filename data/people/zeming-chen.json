@@ -1,0 +1,41 @@
+{
+ "id": "zeming-chen",
+ "name": "Zeming Chen",
+ "display": "Zeming Chen",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "zechen-nlp",
+  "x": null,
+  "openalex": "A5021574351",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "epfl-llm-team",
+   "org": "EPFL LLM Team",
+   "role": "Lead author of MEDITRON",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Zeming Chen is a researcher in the NLP laboratory at EPFL led by Antoine Bosselut and lead author of MEDITRON-70B, an open large language model for medicine released in 2023. Research interests include reasoning and knowledge in language models.",
+ "known_for": [
+  "Lead author of MEDITRON-70B",
+  "Open medical language models",
+  "Reasoning in language models"
+ ],
+ "bio_sources": [
+  "https://actu.epfl.ch/news/epfl-s-new-large-language-model-for-medical-knowle",
+  "https://techxplore.com/news/2023-11-large-language-medical-knowledge.amp",
+  "https://api.openalex.org/authors/A5021574351"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

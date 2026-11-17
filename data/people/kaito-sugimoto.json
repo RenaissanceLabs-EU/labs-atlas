@@ -1,0 +1,36 @@
+{
+ "id": "kaito-sugimoto",
+ "name": "Kaito Sugimoto",
+ "display": "Kaito Sugimoto",
+ "kind": "person",
+ "handles": {
+  "github": "kaisugi",
+  "huggingface": null,
+  "x": "_kaisugi",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "llm-jp",
+   "org": "LLM-jp",
+   "role": "Top contributor to awesome-japanese-llm",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Kaito Sugimoto is one of the most active contributors to LLM-jp's open source work on GitHub, with 635 contributions to awesome-japanese-llm. Their public GitHub profile reads: “Founder and lead maintainer of llm-jp/awesome-japanese-llm”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/kaisugi",
+  "https://github.com/llm-jp/awesome-japanese-llm"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

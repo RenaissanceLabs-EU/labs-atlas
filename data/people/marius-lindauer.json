@@ -1,0 +1,49 @@
+{
+ "id": "marius-lindauer",
+ "name": "Marius Lindauer",
+ "display": "Marius Lindauer",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5045511267",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "automl-groups",
+   "org": "AutoML Groups",
+   "role": "Professor at Leibniz University Hannover",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Leibniz University Hannover",
+   "role": "Professor; head of Institute of AI",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Marius Lindauer is a professor at Leibniz University Hannover and leads its Institute of Artificial Intelligence. He works on AutoML and algorithm configuration, is first author of the SMAC3 Bayesian optimization package and co-created Auto-sklearn 2.0.",
+ "known_for": [
+  "First author of SMAC3",
+  "Co-creator of Auto-sklearn 2.0",
+  "AutoML and algorithm configuration"
+ ],
+ "bio_sources": [
+  "https://www.alphaxiv.org/researchers/marius-lindauer",
+  "https://arxiv.org/abs/2109.09831",
+  "https://api.openalex.org/authors/A5045511267",
+  "https://arxiv.org/abs/2007.04074"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

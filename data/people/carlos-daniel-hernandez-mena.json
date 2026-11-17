@@ -1,0 +1,35 @@
+{
+ "id": "carlos-daniel-hernandez-mena",
+ "name": "Carlos Daniel Hernández Mena",
+ "display": "Carlos Daniel Hernández Mena",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "carlosdanielhernandezmena",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "language-and-voice-lab",
+   "org": "Language and Voice Lab",
+   "role": "Speech researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Carlos Daniel Hernández Mena is listed by Language and Voice Lab as speech researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://lvl.ru.is",
+  "https://huggingface.co/carlosdanielhernandezmena"
+ ],
+ "confidence": "high",
+ "auto": true
+}

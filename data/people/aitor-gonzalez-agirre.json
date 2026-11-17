@@ -1,0 +1,41 @@
+{
+ "id": "aitor-gonzalez-agirre",
+ "name": "Aitor Gonzalez-Agirre",
+ "display": "Aitor Gonzalez-Agirre",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5080796123",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bsc-language-technologies-lab",
+   "org": "BSC Language Technologies Lab",
+   "role": "Lead of the Language Modelling team",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Aitor Gonzalez-Agirre leads the Language Modelling team in the Language Technologies Unit at the Barcelona Supercomputing Center. They are the first author of the Salamandra Technical Report, which describes open 2B, 7B and 40B parameter models trained on 35 European languages, and earlier co-authored the SemEval semantic textual similarity tasks.",
+ "known_for": [
+  "First author of the Salamandra Technical Report",
+  "Leads BSC language modelling team",
+  "SemEval semantic textual similarity shared tasks"
+ ],
+ "bio_sources": [
+  "https://bsc.es/user/2289",
+  "https://arxiv.org/abs/2502.08489",
+  "https://langtech.bsc.es"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

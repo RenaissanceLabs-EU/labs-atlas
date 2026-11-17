@@ -1,0 +1,41 @@
+{
+ "id": "luisa-bentivogli",
+ "name": "Luisa Bentivogli",
+ "display": "Luisa Bentivogli",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5066183817",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "fbk-machine-translation-unit",
+   "org": "FBK Machine Translation Unit",
+   "role": "Head of Unit",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Luisa Bentivogli heads the Machine Translation research unit at Fondazione Bruno Kessler in Trento, where Bentivogli has worked since 1999. Research covers speech translation and evaluation of machine translation, including gender bias. Bentivogli co-created the MuST-C corpus for speech translation and the MuST-SHE gender bias evaluation set.",
+ "known_for": [
+  "Head of FBK Machine Translation unit",
+  "MuST-C speech translation corpus",
+  "MuST-SHE gender bias evaluation"
+ ],
+ "bio_sources": [
+  "https://www.alphaxiv.org/researchers/luisa-bentivogli",
+  "https://mt.fbk.eu/author/bentivogli",
+  "https://trasparenza.fbk.eu/ocmultibinary/download/76655/1245628/4/77683b63b41a4ecfd6e9484740527d6e.pdf/file/BENTIVOGLI+Luisa_CV.pdf"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

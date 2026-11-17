@@ -1,0 +1,41 @@
+{
+ "id": "mirella-lapata",
+ "name": "Mirella Lapata",
+ "display": "Mirella Lapata",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5041024491",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "edinburghnlp",
+   "org": "EdinburghNLP",
+   "role": "Professor of natural language processing",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mirella Lapata is a professor of natural language processing in the School of Informatics at the University of Edinburgh and a member of its EdinburghNLP group. Research covers semantics, summarization and generating text from multiple modalities, supported by a European Research Council grant for the TransModal project. Lapata is a Fellow of the Royal Society of Edinburgh and a member of Academia Europaea.",
+ "known_for": [
+  "Natural language processing and semantics",
+  "ERC TransModal project on text generation",
+  "Fellow of the Royal Society of Edinburgh"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Mirella_Lapata",
+  "https://api.openalex.org/authors/A5041024491",
+  "https://homepages.inf.ed.ac.uk/mlap/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

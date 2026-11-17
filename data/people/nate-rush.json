@@ -1,0 +1,42 @@
+{
+ "id": "nate-rush",
+ "name": "Nate Rush",
+ "display": "Nate Rush",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5119791472",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "metr",
+   "org": "METR",
+   "role": "CTO",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Nate Rush works at METR on evaluating AI agents and is an author of the 2025 METR papers on measuring AI ability to complete long tasks, the HCAST benchmark, and a study of AI's impact on experienced open-source developer productivity.",
+ "known_for": [
+  "AI agent evaluation at METR",
+  "HCAST benchmark co-author",
+  "Developer productivity study with AI tools"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2503.14499",
+  "https://arxiv.org/abs/2503.17354",
+  "https://www.longtermwiki.com/organizations/metr/people"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "flag": "thin sources; CTO title not corroborated (one wiki says CTO, another lists technical staff)",
+ "enriched": true
+}

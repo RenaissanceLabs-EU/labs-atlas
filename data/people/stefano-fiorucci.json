@@ -1,0 +1,37 @@
+{
+ "id": "stefano-fiorucci",
+ "name": "Stefano Fiorucci",
+ "display": "Stefano Fiorucci",
+ "kind": "person",
+ "handles": {
+  "github": "anakin87",
+  "huggingface": null,
+  "x": "theanakin87",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "deepset",
+   "org": "deepset",
+   "role": "Top contributor to haystack",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Stefano Fiorucci is one of the most active contributors to deepset's open source work on GitHub, with 853 contributions to haystack, haystack-cookbook. Their public GitHub profile reads: “AI/SW Engineer/Explorer 🧑‍🚀”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/anakin87",
+  "https://github.com/deepset-ai/haystack",
+  "https://github.com/deepset-ai/haystack-cookbook"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,49 @@
+{
+ "id": "michel-marie-maudet",
+ "name": "Michel-Marie Maudet",
+ "display": "Michel-Marie Maudet",
+ "kind": "person",
+ "handles": {
+  "github": "mmaudet",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "linagora",
+   "org": "LINAGORA",
+   "role": "Co-founder and managing director (CEO)",
+   "current": true,
+   "since": 2000
+  },
+  {
+   "lab": "openllm-france",
+   "org": "OpenLLM France",
+   "role": "Founder of the community (via LINAGORA)",
+   "current": true,
+   "since": 2023
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Michel-Marie Maudet is co-founder and managing director (directeur général) of LINAGORA, the French open-source software company founded in 2000. Maudet launched the OpenLLM France community in 2023, which led to Lucie-7B, an open French-focused language model, and the associated Lucie training dataset.",
+ "known_for": [
+  "Co-founder and managing director of LINAGORA",
+  "Founder of the OpenLLM France community",
+  "Open-source Lucie-7B language model"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Linagora",
+  "https://pretalx.ow2.org/ow2con-2025/speaker/9BUHME",
+  "https://arxiv.org/abs/2503.12294",
+  "https://github.com/mmaudet"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

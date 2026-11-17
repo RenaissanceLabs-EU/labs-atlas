@@ -1,0 +1,35 @@
+{
+ "id": "danijel-korzinek",
+ "name": "Danijel Koržinek",
+ "display": "Danijel Koržinek",
+ "kind": "person",
+ "handles": {
+  "github": "danijel3",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "clarin-pl",
+   "org": "CLARIN-PL",
+   "role": "Member of the CLARIN-PL GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Danijel Koržinek is listed by CLARIN-PL as member of the CLARIN-PL GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://clarin-pl.eu",
+  "https://github.com/danijel3"
+ ],
+ "confidence": "high",
+ "auto": true
+}

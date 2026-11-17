@@ -1,0 +1,36 @@
+{
+ "id": "philipp-dufter",
+ "name": "Philipp Dufter",
+ "display": "Philipp Dufter",
+ "kind": "person",
+ "handles": {
+  "github": "pdufter",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5012225484",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "cis-lmu-munich",
+   "org": "CIS, LMU Munich",
+   "role": "Member of the cisnlp GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Philipp Dufter is listed by CIS, LMU Munich as member of the cisnlp GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.cis.uni-muenchen.de",
+  "https://github.com/pdufter",
+  "https://arxiv.org/abs/2004.08728"
+ ],
+ "confidence": "high",
+ "auto": true
+}

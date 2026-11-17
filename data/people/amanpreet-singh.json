@@ -1,0 +1,42 @@
+{
+ "id": "amanpreet-singh",
+ "name": "Amanpreet Singh",
+ "display": "Amanpreet Singh",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": "https://apsdehal.in",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "contextual-ai",
+   "org": "Contextual AI",
+   "role": "Co-founder; former CTO",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Amanpreet Singh is a co-founder and former CTO of Contextual AI. They previously led research and engineering teams at Hugging Face and Meta AI Research, and are first author of FLAVA, a vision-and-language alignment model, and a co-author of the MMF multimodal framework and GRIT.",
+ "known_for": [
+  "FLAVA vision-and-language model",
+  "MMF multimodal framework",
+  "Co-founder of Contextual AI"
+ ],
+ "bio_sources": [
+  "https://apsdehal.in",
+  "https://contextual.ai",
+  "https://arxiv.org/abs/2402.09906"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true,
+ "flag": "OpenAlex profile A5100672984 appears to merge works of a different author (robotics papers); handle kept but should be re-checked"
+}

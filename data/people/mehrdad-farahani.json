@@ -1,0 +1,48 @@
+{
+ "id": "mehrdad-farahani",
+ "name": "Mehrdad Farahani",
+ "display": "Mehrdad Farahani",
+ "kind": "person",
+ "handles": {
+  "github": "m3hrdadfi",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hooshvare-research-lab",
+   "org": "Hooshvare Research Lab",
+   "role": "Lead author of ParsBERT",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Chalmers University of Technology",
+   "role": "Researcher (per GitHub profile)",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mehrdad Farahani is a machine learning researcher and the lead author of ParsBERT, a monolingual BERT model for Persian released through the Hooshvare research group. The ParsBERT paper (arXiv 2005.12515) reports results on Persian sentiment analysis, text classification and named entity recognition, and the model family was published in several versions on Hugging Face. Farahani's GitHub profile lists an affiliation with Chalmers University of Technology.",
+ "known_for": [
+  "Lead author of ParsBERT, a Persian BERT model",
+  "Persian NLP models and benchmarks",
+  "Open-source Hugging Face model releases"
+ ],
+ "bio_sources": [
+  "https://github.com/hooshvare/parsbert",
+  "https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased",
+  "https://github.com/m3hrdadfi"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

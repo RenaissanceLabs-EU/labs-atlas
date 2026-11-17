@@ -1,0 +1,37 @@
+{
+ "id": "jacob-prince-bieker",
+ "name": "Jacob Prince-Bieker",
+ "display": "Jacob Prince-Bieker",
+ "kind": "person",
+ "handles": {
+  "github": "jacobbieker",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "open-climate-fix",
+   "org": "Open Climate Fix",
+   "role": "Top contributor to graph_weather",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jacob Prince-Bieker is one of the most active contributors to Open Climate Fix's open source work on GitHub, with 332 contributions to skillful_nowcasting, graph_weather. Their public GitHub profile reads: “ML Researcher. Previously Open Climate Fix, BrightBand, Jua, SecondLaw, VIDA. Interested in  applications of AI to large-scale datasets, especially for weather”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jacobbieker",
+  "https://github.com/openclimatefix/graph_weather",
+  "https://github.com/openclimatefix/metnet"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

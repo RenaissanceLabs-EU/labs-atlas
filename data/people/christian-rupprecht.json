@@ -1,0 +1,48 @@
+{
+ "id": "christian-rupprecht",
+ "name": "Christian Rupprecht",
+ "display": "Christian Rupprecht",
+ "kind": "person",
+ "handles": {
+  "github": "chrirupp",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5083153177",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=IrYlproAAAAJ",
+  "website": "https://chrirupp.github.io",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "visual-geometry-group",
+   "org": "Visual Geometry Group",
+   "role": "Principal researcher",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Third Dimension AI",
+   "role": "Chief Research Officer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Christian Rupprecht is an Associate Professor of Computer Science at the University of Oxford and a lead of the Visual Geometry Group. Rupprecht works on computer vision and machine learning, particularly 3D reconstruction, generative models and visual understanding, and holds an ERC Starting Grant for the Volute project on learning from unlabeled data.",
+ "known_for": [
+  "3D reconstruction and generative models",
+  "Self-supervised visual learning",
+  "ERC Starting Grant project Volute"
+ ],
+ "bio_sources": [
+  "https://chrirupp.github.io",
+  "https://github.com/chrirupp",
+  "http://www.robots.ox.ac.uk/~vedaldi/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

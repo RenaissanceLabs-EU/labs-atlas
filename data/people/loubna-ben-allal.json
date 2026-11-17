@@ -1,0 +1,36 @@
+{
+ "id": "loubna-ben-allal",
+ "name": "Loubna Ben Allal",
+ "display": "Loubna Ben Allal",
+ "kind": "person",
+ "handles": {
+  "github": "loubnabnl",
+  "huggingface": null,
+  "x": "Loubnabenallal1",
+  "openalex": "A5072906919",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bigcode",
+   "org": "BigCode",
+   "role": "Contributor, StarCoder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Loubna Ben Allal is listed by BigCode as contributor, StarCoder.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.bigcode-project.org",
+  "https://github.com/loubnabnl",
+  "https://arxiv.org/abs/2305.06161"
+ ],
+ "confidence": "high",
+ "auto": true
+}

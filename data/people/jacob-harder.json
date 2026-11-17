@@ -1,0 +1,35 @@
+{
+ "id": "jacob-harder",
+ "name": "Jacob Harder",
+ "display": "Jacob Harder",
+ "kind": "person",
+ "handles": {
+  "github": "harderj",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "alexandra-institute",
+   "org": "Alexandra Institute",
+   "role": "Member of the alexandrainst GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jacob Harder is listed by Alexandra Institute as member of the alexandrainst GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://alexandra.dk",
+  "https://github.com/harderj"
+ ],
+ "confidence": "high",
+ "auto": true
+}

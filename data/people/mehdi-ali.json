@@ -1,0 +1,48 @@
+{
+ "id": "mehdi-ali",
+ "name": "Mehdi Ali",
+ "display": "Mehdi Ali",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5011914487",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "opengpt-x",
+   "org": "OpenGPT-X",
+   "role": "Researcher; lead author, Teuken-7B paper",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Lamarr Institute",
+   "role": "Innovation group leader, foundation model research",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mehdi Ali is innovation group leader for foundation model research at the Lamarr Institute and works with Fraunhofer IAIS. Ali is first author of the Teuken-7B paper, which describes multilingual models covering all 24 official EU languages, and is the founder of the PyKEEN knowledge graph embedding library.",
+ "known_for": [
+  "Teuken-7B first author",
+  "Foundation model research at Lamarr Institute",
+  "PyKEEN knowledge graph embeddings"
+ ],
+ "bio_sources": [
+  "https://lamarr-institute.org/person/ali-mehdi/",
+  "https://arxiv.org/abs/2410.03730",
+  "https://www.iais.fraunhofer.de/opengpt-x-en"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

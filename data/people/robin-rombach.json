@@ -1,0 +1,49 @@
+{
+ "id": "robin-rombach",
+ "name": "Robin Rombach",
+ "display": "Robin Rombach",
+ "kind": "person",
+ "handles": {
+  "github": "rromb",
+  "huggingface": null,
+  "x": "robrombach",
+  "openalex": "A5022021439",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "black-forest-labs",
+   "org": "Black Forest Labs",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2024
+  },
+  {
+   "lab": "compvis",
+   "org": "CompVis",
+   "role": "Research assistant; first author of latent diffusion",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Robin Rombach is a co-founder of Black Forest Labs, the company behind the FLUX image models. They are first author of the latent diffusion paper, which underlies Stable Diffusion, written while working in Björn Ommer's group at LMU Munich.",
+ "known_for": [
+  "First author of latent diffusion models",
+  "Co-author of Taming Transformers (VQGAN)",
+  "Co-founder of Black Forest Labs and FLUX"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+  "https://bfl.ai",
+  "https://ommer-lab.com/people/ommer/",
+  "https://github.com/rromb"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

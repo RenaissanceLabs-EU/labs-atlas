@@ -1,0 +1,35 @@
+{
+ "id": "leon-englander",
+ "name": "Leon Engländer",
+ "display": "Leon Engländer",
+ "kind": "person",
+ "handles": {
+  "github": "lenglaender",
+  "huggingface": null,
+  "x": "LeonEnglaender",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "adapterhub",
+   "org": "AdapterHub",
+   "role": "Author of the Adapters library paper",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Leon Engländer is listed by AdapterHub as author of the Adapters library paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://adapterhub.ml",
+  "https://github.com/lenglaender"
+ ],
+ "confidence": "high",
+ "auto": true
+}

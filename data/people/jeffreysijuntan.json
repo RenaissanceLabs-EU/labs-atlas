@@ -1,0 +1,36 @@
+{
+ "id": "jeffreysijuntan",
+ "name": null,
+ "display": "jeffreysijuntan",
+ "kind": "handle",
+ "handles": {
+  "github": "jeffreysijuntan",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "agentica",
+   "org": "Agentica",
+   "role": "Top contributor to rllm",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "jeffreysijuntan is one of the most active contributors to Agentica's open source work on GitHub, with 249 contributions to rllm.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jeffreysijuntan",
+  "https://github.com/agentica-project/rllm"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

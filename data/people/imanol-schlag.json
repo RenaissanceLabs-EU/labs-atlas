@@ -1,0 +1,41 @@
+{
+ "id": "imanol-schlag",
+ "name": "Imanol Schlag",
+ "display": "Imanol Schlag",
+ "kind": "person",
+ "handles": {
+  "github": "ischlag",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5019167028",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=nFQJEskAAAAJ",
+  "website": "https://ischlag.github.io/",
+  "linkedin": "https://www.linkedin.com/in/imanol-schlag-609b65b0"
+ },
+ "affiliations": [
+  {
+   "lab": "swiss-ai-initiative",
+   "org": "Swiss AI Initiative",
+   "role": "Researcher, ETH AI Center; Apertus senior author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Imanol Schlag is an AI research scientist at the ETH AI Center and co-lead of Apertus, the open large language model of the Swiss AI Initiative. Their research covers efficient architectures, scaling and generalization. Schlag co-invented DeltaNet in the paper \"Linear Transformers are Secretly Fast Weight Programmers\".",
+ "known_for": [
+  "Co-lead of the Apertus open LLM",
+  "DeltaNet fast weight programmers",
+  "Efficient neural architectures"
+ ],
+ "bio_sources": [
+  "https://ischlag.github.io/",
+  "https://github.com/ischlag",
+  "https://arxiv.org/abs/2102.11174"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

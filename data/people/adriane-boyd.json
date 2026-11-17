@@ -1,0 +1,37 @@
+{
+ "id": "adriane-boyd",
+ "name": "Adriane Boyd",
+ "display": "Adriane Boyd",
+ "kind": "person",
+ "handles": {
+  "github": "adrianeboyd",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "explosion",
+   "org": "Explosion",
+   "role": "Top contributor to spaCy",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Adriane Boyd is one of the most active contributors to Explosion's open source work on GitHub, with 1,194 contributions to spaCy, thinc.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/adrianeboyd",
+  "https://github.com/explosion/spaCy",
+  "https://github.com/explosion/thinc"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

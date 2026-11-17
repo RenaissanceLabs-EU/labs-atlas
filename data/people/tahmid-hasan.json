@@ -1,0 +1,41 @@
+{
+ "id": "tahmid-hasan",
+ "name": "Tahmid Hasan",
+ "display": "Tahmid Hasan",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5069644647",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "buet-cse-nlp-group",
+   "org": "BUET CSE NLP Group",
+   "role": "Faculty member (lecturer or assistant professor), BUET CSE",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tahmid Hasan is a faculty member in the Department of Computer Science and Engineering at BUET and a member of its NLP group. They are co-first author of XL-Sum, a multilingual abstractive summarization dataset covering 44 languages, and a lead author of CrossSum.",
+ "known_for": [
+  "Co-first author of XL-Sum",
+  "Lead author of CrossSum",
+  "Low-resource multilingual NLP"
+ ],
+ "bio_sources": [
+  "https://cse.buet.ac.bd/faculty/faculty_detail/tahmid",
+  "https://csebuetnlp.github.io/",
+  "https://arxiv.org/abs/2106.13822"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

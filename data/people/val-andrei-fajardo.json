@@ -1,0 +1,36 @@
+{
+ "id": "val-andrei-fajardo",
+ "name": "Val Andrei Fajardo",
+ "display": "Val Andrei Fajardo",
+ "kind": "person",
+ "handles": {
+  "github": "nerdai",
+  "huggingface": null,
+  "x": "_nerdai_",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "vector-institute",
+   "org": "Vector Institute",
+   "role": "Top contributor to fed-rag",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Val Andrei Fajardo is one of the most active contributors to Vector Institute's open source work on GitHub, with 306 contributions to fed-rag.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/nerdai",
+  "https://github.com/VectorInstitute/fed-rag"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "zhengfu-he",
+ "name": "Zhengfu He",
+ "display": "Zhengfu He",
+ "kind": "person",
+ "handles": {
+  "github": "Hzfinfdu",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openmoss",
+   "org": "OpenMOSS",
+   "role": "Public org member, SII",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Zhengfu He is listed by OpenMOSS as public org member, SII.",
+ "known_for": [],
+ "bio_sources": [
+  "http://openmoss.sii.edu.cn/",
+  "https://github.com/Hzfinfdu"
+ ],
+ "confidence": "high",
+ "auto": true
+}

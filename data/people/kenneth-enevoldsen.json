@@ -1,0 +1,48 @@
+{
+ "id": "kenneth-enevoldsen",
+ "name": "Kenneth Enevoldsen",
+ "display": "Kenneth Enevoldsen",
+ "kind": "person",
+ "handles": {
+  "github": "KennethEnevoldsen",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5087151587",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://kennethenevoldsen.com",
+  "linkedin": "https://www.linkedin.com/in/kennethenevoldsen"
+ },
+ "affiliations": [
+  {
+   "lab": "center-for-humanities-computing",
+   "org": "Center for Humanities Computing",
+   "role": "Researcher, Aarhus University",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "danish-foundation-models",
+   "org": "Danish Foundation Models",
+   "role": "Contributor, Aarhus University",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Kenneth Enevoldsen is a researcher at the Center for Humanities Computing at Aarhus University, working on Danish and Scandinavian NLP. They are first author of the Scandinavian Embedding Benchmarks, published at NeurIPS 2024, and a developer of Python tools for Danish language processing.",
+ "known_for": [
+  "Scandinavian Embedding Benchmarks (SEB)",
+  "Danish NLP tooling and open models",
+  "Text embedding evaluation"
+ ],
+ "bio_sources": [
+  "https://chc.au.dk",
+  "https://arxiv.org/abs/2406.02396",
+  "https://github.com/KennethEnevoldsen"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

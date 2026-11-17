@@ -1,0 +1,35 @@
+{
+ "id": "amelie-royer",
+ "name": "Amélie Royer",
+ "display": "Amélie Royer",
+ "kind": "person",
+ "handles": {
+  "github": "ameroyer",
+  "huggingface": null,
+  "x": "royaleerieme",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=P9-oT8AAAAAJ",
+  "website": "https://ameroyer.github.io",
+  "linkedin": "https://www.linkedin.com/in/am%C3%A9lie-royer-aa4582168"
+ },
+ "affiliations": [
+  {
+   "lab": "kyutai",
+   "org": "Kyutai",
+   "role": "Technical staff",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Amélie Royer is listed by Kyutai as technical staff.",
+ "known_for": [],
+ "bio_sources": [
+  "https://kyutai.org",
+  "https://ameroyer.github.io"
+ ],
+ "confidence": "high",
+ "auto": true
+}

@@ -1,0 +1,37 @@
+{
+ "id": "james-braza",
+ "name": "James Braza",
+ "display": "James Braza",
+ "kind": "person",
+ "handles": {
+  "github": "jamesbraza",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "futurehouse",
+   "org": "FutureHouse",
+   "role": "Top contributor to paper-qa",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "James Braza is one of the most active contributors to FutureHouse's open source work on GitHub, with 633 contributions to paper-qa, aviary. Their public GitHub profile reads: “Just a man eating spaghetti”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jamesbraza",
+  "https://github.com/Future-House/paper-qa",
+  "https://github.com/Future-House/aviary"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

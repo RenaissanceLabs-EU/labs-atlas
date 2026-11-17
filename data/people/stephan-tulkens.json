@@ -1,0 +1,35 @@
+{
+ "id": "stephan-tulkens",
+ "name": "Stephan Tulkens",
+ "display": "Stephan Tulkens",
+ "kind": "person",
+ "handles": {
+  "github": "stephantul",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=pvoqmHQAAAAJ",
+  "website": "http://stephantul.github.io/",
+  "linkedin": "https://www.linkedin.com/in/stephantulkens"
+ },
+ "affiliations": [
+  {
+   "lab": "clips",
+   "org": "CLiPS",
+   "role": "Member of the clips GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Stephan Tulkens is listed by CLiPS as member of the clips GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.uantwerpen.be/en/research-groups/clips/",
+  "http://stephantul.github.io/"
+ ],
+ "confidence": "high",
+ "auto": true
+}

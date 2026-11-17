@@ -1,0 +1,44 @@
+{
+ "id": "hailey-schoelkopf",
+ "name": "Hailey Schoelkopf",
+ "display": "Hailey Schoelkopf",
+ "kind": "person",
+ "handles": {
+  "github": "haileyschoelkopf",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "eleutherai",
+   "org": "EleutherAI",
+   "role": "Top contributor to lm-evaluation-harness",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "occiglot",
+   "org": "Occiglot",
+   "role": "Top contributor to euro-lm-evaluation-harness",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Hailey Schoelkopf is one of the most active contributors to EleutherAI's open source work on GitHub, with 672 contributions to lm-evaluation-harness, pythia.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/haileyschoelkopf",
+  "https://github.com/EleutherAI/lm-evaluation-harness",
+  "https://github.com/EleutherAI/pythia"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

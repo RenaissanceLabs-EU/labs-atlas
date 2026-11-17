@@ -1,0 +1,62 @@
+{
+ "id": "frank-hutter",
+ "name": "Frank Hutter",
+ "display": "Frank Hutter",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5031002895",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "automl-groups",
+   "org": "AutoML Groups",
+   "role": "Co-lead of the AutoML groups",
+   "current": true,
+   "since": 2013
+  },
+  {
+   "lab": "prior-labs",
+   "org": "Prior Labs",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": 2024
+  },
+  {
+   "lab": null,
+   "org": "University of Freiburg",
+   "role": "Professor of machine learning",
+   "current": true,
+   "since": 2013
+  },
+  {
+   "lab": null,
+   "org": "ELLIS Institute Tübingen",
+   "role": "Hector-endowed fellow and PI",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Frank Hutter is a professor of machine learning at the University of Freiburg, a PI at the ELLIS Institute Tubingen and a co-founder of Prior Labs. Hutter helped establish AutoML as a research field, led Auto-WEKA and Auto-sklearn, and has focused on tabular foundation models such as TabPFN.",
+ "known_for": [
+  "Co-founder of Prior Labs",
+  "Led Auto-sklearn and Auto-WEKA",
+  "TabPFN tabular foundation model"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Frank_Hutter",
+  "https://api.openalex.org/authors/A5031002895",
+  "https://www.automl.org/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

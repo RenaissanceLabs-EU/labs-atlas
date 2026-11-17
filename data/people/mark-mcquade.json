@@ -1,0 +1,50 @@
+{
+ "id": "mark-mcquade",
+ "name": "Mark McQuade",
+ "display": "Mark McQuade",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5024992475",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "arcee-ai",
+   "org": "Arcee AI",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": 2023
+  },
+  {
+   "lab": null,
+   "org": "Hugging Face",
+   "role": "Commercial roles",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mark McQuade is co-founder and CEO of Arcee AI, a company founded in 2023 that builds small language models and open-weight models. Earlier, McQuade held client-facing roles at Hugging Face and Roboflow. McQuade is a co-author of the MergeKit paper, which covers a toolkit for merging language models.",
+ "known_for": [
+  "Co-founder and CEO of Arcee AI",
+  "Co-author of the MergeKit paper",
+  "Small and open-weight language models"
+ ],
+ "bio_sources": [
+  "https://www.arcee.ai/about/about-us",
+  "https://www.interconnects.ai/p/arcee-ai-goes-all-in-on-open-models",
+  "https://ar5iv.labs.arxiv.org/html/2403.13257",
+  "https://emcap.com/portfolio/arcee-ai"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true,
+ "flag": "OpenAlex author A5024992475 returned no profile details to the API; works appear correct."
+}

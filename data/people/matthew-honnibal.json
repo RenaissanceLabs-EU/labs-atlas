@@ -1,0 +1,37 @@
+{
+ "id": "matthew-honnibal",
+ "name": "Matthew Honnibal",
+ "display": "Matthew Honnibal",
+ "kind": "person",
+ "handles": {
+  "github": "honnibal",
+  "huggingface": null,
+  "x": "honnibal",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "explosion",
+   "org": "Explosion",
+   "role": "Top contributor to spaCy",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Matthew Honnibal is one of the most active contributors to Explosion's open source work on GitHub, with 6,903 contributions to spaCy, thinc. Their public GitHub profile reads: “Computational linguist from Sydney and Berlin. Author of the spaCy NLP library”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/honnibal",
+  "https://github.com/explosion/spaCy",
+  "https://github.com/explosion/thinc"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

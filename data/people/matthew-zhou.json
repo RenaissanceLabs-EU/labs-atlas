@@ -1,0 +1,36 @@
+{
+ "id": "matthew-zhou",
+ "name": "Matthew Zhou",
+ "display": "Matthew Zhou",
+ "kind": "person",
+ "handles": {
+  "github": "mattzh72",
+  "huggingface": null,
+  "x": "Mattzh1314",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "letta",
+   "org": "Letta",
+   "role": "Top contributor to letta",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Matthew Zhou is one of the most active contributors to Letta's open source work on GitHub, with 1,209 contributions to letta.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/mattzh72",
+  "https://github.com/letta-ai/letta"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

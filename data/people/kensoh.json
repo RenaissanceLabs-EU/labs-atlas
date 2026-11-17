@@ -1,0 +1,36 @@
+{
+ "id": "kensoh",
+ "name": null,
+ "display": "kensoh",
+ "kind": "handle",
+ "handles": {
+  "github": "kensoh",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai-singapore",
+   "org": "AI Singapore",
+   "role": "Top contributor to TagUI",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "kensoh is one of the most active contributors to AI Singapore's open source work on GitHub, with 757 contributions to TagUI. Their public GitHub profile reads: “交易员, 十三街投资”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/kensoh",
+  "https://github.com/aisingapore/TagUI"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

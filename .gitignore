@@ -1,2 +1,5 @@
 data/batches/
 .DS_Store
+data/cache/
+data/people-candidates.json
+data/people-resolved.json

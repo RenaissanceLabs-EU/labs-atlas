@@ -242,11 +242,14 @@ def load_people(labs):
         if os.path.exists(ap):
             try: act = json.load(open(ap, encoding="utf-8"))
             except Exception: act = {}
+            used = act.get("handles")
+            if used is not None and any((used.get(k) or "").lower() != (handles.get(k) or "").lower() for k in ("github", "huggingface", "openalex")):
+                act = {}  # handles changed since the data was fetched: do not show another account's activity
         p = {"id": pid, "name": s_or_none(r.get("name"), 80), "display": display, "kind": "handle" if r.get("kind") == "handle" else "person",
              "handles": handles, "affiliations": aff, "independent": bool(r.get("independent")), "fame_basis": s_or_none(r.get("fame_basis"), 300),
              "bio": str(r["bio"]).strip()[:900], "known_for": [str(x).strip()[:140] for x in (r.get("known_for") or []) if str(x).strip()][:5],
              "sources": [u for u in (clean_url(s) for s in (r.get("bio_sources") or [])) if u][:8], "activity": act,
-             "avatar": os.path.exists(f"assets/people/{pid}.png")}
+             "avatar": os.path.exists(f"assets/people/{pid}.png"), "contributor": bool(r.get("contributor")), "auto": bool(r.get("auto")), "enriched": bool(r.get("enriched"))}
         PEOPLE[pid] = p
         if p["name"]: PEOPLE_BY_NAME[norm(p["name"])] = pid
     return PEOPLE
@@ -468,7 +471,7 @@ def lab_page(l, labs):
             note = f'<p>{esc(p["note"])}</p>' if p.get("note") else ""
             cards += f'<li>{av}<div>{nm}{role}{note}</div></li>'
         seen = {norm(p["name"]) for p in l["key_people"]}
-        for pr in PEOPLE.values():
+        for pr in sorted(PEOPLE.values(), key=lambda x: (1 if x.get("contributor") else 0, x["display"].lower())):
             if any(a["lab"] == l["id"] and a["current"] for a in pr["affiliations"]) and norm(pr["name"] or "") not in seen:
                 a = next(a for a in pr["affiliations"] if a["lab"] == l["id"] and a["current"])
                 tag = "handle" if pr["kind"] == "handle" else None
@@ -659,14 +662,13 @@ def heatmap(cal):
     weeks = cal.get("weeks") or []
     if not weeks: return ""
     vals = sorted(v for w in weeks for v in w if v)
+    qs = [vals[int(len(vals) * x)] for x in (0.25, 0.5, 0.75)] if vals else [0, 0, 0]
     def level(v):
         if not v: return 0
-        if not vals: return 0
-        q = [vals[int(len(vals) * x)] for x in (0.25, 0.5, 0.75)]
-        return 1 if v <= q[0] else 2 if v <= q[1] else 3 if v <= q[2] else 4
+        return 1 if v <= qs[0] else 2 if v <= qs[1] else 3 if v <= qs[2] else 4
     cell, gap, top = 11, 3, 16
     w = len(weeks) * (cell + gap)
-    rects = []
+    out = []
     try:
         start = datetime.date.fromisoformat(cal.get("start"))
     except Exception:
@@ -676,12 +678,14 @@ def heatmap(cal):
         if start:
             d = start + datetime.timedelta(days=7 * x)
             if d.month != last_m and (last_m is not None or d.day <= 7):
-                rects.append(f'<text x="{x*(cell+gap)}" y="10" font-size="10" fill="#958c80">{d.strftime("%b")}</text>')
+                out.append(f'<text x="{x*(cell+gap)}" y="10" font-size="10" fill="#958c80">{d.strftime("%b")}</text>')
             last_m = d.month
         for y, v in enumerate(wk):
-            rects.append(f'<rect x="{x*(cell+gap)}" y="{top + y*(cell+gap)}" width="{cell}" height="{cell}" rx="2.5" fill="{SHADES[level(v)]}"><title>{v} contributions</title></rect>')
+            lv = level(v)
+            xy = f'x="{x*(cell+gap)}" y="{top + y*(cell+gap)}"'
+            out.append(f'<rect class="c{lv}" {xy}><title>{v}</title></rect>' if v else f'<rect class="c0" {xy}/>')
     h = top + 7 * (cell + gap)
-    return f'<svg class="heat" viewBox="0 0 {w} {h}" role="img" aria-label="GitHub contributions over the past year">{"".join(rects)}</svg>'
+    return f'<svg class="heat" viewBox="0 0 {w} {h}" role="img" aria-label="GitHub contributions over the past year">{"".join(out)}</svg>'
 
 
 def bars(data, label):
@@ -783,13 +787,16 @@ def person_page(p, labs_by_id):
 
 def people_index(labs_by_id):
     cards = []
-    for p in sorted(PEOPLE.values(), key=lambda x: x["display"].lower()):
+    def rank(x):
+        if x.get("contributor"): return 2
+        return 0 if (x.get("enriched") or not x.get("auto")) else 1
+    for p in sorted(PEOPLE.values(), key=lambda x: (rank(x), x["display"].lower())):
         a = (p["activity"] or {})
         aff = next((x for x in p["affiliations"] if x["current"]), p["affiliations"][0] if p["affiliations"] else None)
         lab = labs_by_id.get(aff["lab"]) if aff and aff["lab"] else None
         where = (lab["name"] if lab else (aff["org"] if aff else "")) or ""
         role = (aff or {}).get("role") or ""
-        kind = "handle" if p["kind"] == "handle" else "independent" if p["independent"] else "lab"
+        kind = "handle" if p["kind"] == "handle" else "independent" if p["independent"] else "contributor" if p.get("contributor") else "lab"
         av = f'<span class="logo sm"><img src="/assets/people/{esc(p["id"])}.png" alt="" width="46" height="46" loading="lazy"></span>' if p["avatar"] else f'<span class="logo sm mono" style="--h:{sum(ord(c) for c in p["display"]) % 40 + 28}" aria-hidden="true">{esc(monogram(p["display"]))}</span>'
         spark = ""
         cal = (a.get("github") or {}).get("calendar")
@@ -810,11 +817,11 @@ def people_index(labs_by_id):
   <div class="toolbar"><div class="wrap">
     <div class="search"><input id="pq" type="search" placeholder="Search people, labs, topics" aria-label="Search people"></div>
     <div class="chips" role="group" aria-label="Group">
-      <button class="chip" data-pk="all" aria-pressed="true">All</button><button class="chip" data-pk="lab" aria-pressed="false">At a lab</button><button class="chip" data-pk="independent" aria-pressed="false">Independent</button><button class="chip" data-pk="handle" aria-pressed="false">Handles</button>
+      <button class="chip" data-pk="all" aria-pressed="true">All</button><button class="chip" data-pk="lab" aria-pressed="false">Leaders and researchers</button><button class="chip" data-pk="contributor" aria-pressed="false">Contributors</button><button class="chip" data-pk="independent" aria-pressed="false">Independent</button><button class="chip" data-pk="handle" aria-pressed="false">Handles</button>
     </div>
     <span class="count" id="pcount">{n} people</span>
   </div></div>
-  <section class="list wrap"><div class="grid" id="pgrid">{"".join(cards)}</div><p class="empty" id="pempty" hidden>No one matches.</p></section>
+  <section class="list wrap"><div class="grid" id="pgrid">{"".join(cards)}</div><p class="empty" id="pempty" hidden>No one matches.</p><p style="text-align:center;margin-top:28px"><button class="btn ghost" id="pmore" type="button" hidden>Show more people</button></p></section>
 </main>
 """ + foot()
 

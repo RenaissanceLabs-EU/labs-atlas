@@ -1,0 +1,36 @@
+{
+ "id": "the-dude",
+ "name": "The Dude",
+ "display": "The Dude",
+ "kind": "person",
+ "handles": {
+  "github": "kartik4949",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bespoke-labs",
+   "org": "Bespoke Labs",
+   "role": "Top contributor to curator",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "The Dude is one of the most active contributors to Bespoke Labs's open source work on GitHub, with 179 contributions to curator. Their public GitHub profile reads: “Post training data”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/kartik4949",
+  "https://github.com/bespokelabsai/curator"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

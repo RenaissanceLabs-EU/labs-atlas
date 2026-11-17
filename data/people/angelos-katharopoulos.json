@@ -1,0 +1,36 @@
+{
+ "id": "angelos-katharopoulos",
+ "name": "Angelos Katharopoulos",
+ "display": "Angelos Katharopoulos",
+ "kind": "person",
+ "handles": {
+  "github": "angeloskath",
+  "huggingface": null,
+  "x": "angeloskath",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "idiap-research-institute",
+   "org": "Idiap Research Institute",
+   "role": "Top contributor to importance-sampling",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Angelos Katharopoulos is one of the most active contributors to Idiap Research Institute's open source work on GitHub, with 139 contributions to importance-sampling.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/angeloskath",
+  "https://github.com/idiap/importance-sampling"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "jon-saad-falcon",
+ "name": "Jon Saad-Falcon",
+ "display": "Jon Saad-Falcon",
+ "kind": "person",
+ "handles": {
+  "github": "jonsaadfalcon",
+  "huggingface": null,
+  "x": "JonSaadFalcon",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=zCVmjboAAAAJ",
+  "website": "https://jonsaadfalcon.com/",
+  "linkedin": "https://www.linkedin.com/in/jonsaadfalcon"
+ },
+ "affiliations": [
+  {
+   "lab": "hazy-research",
+   "org": "Hazy Research",
+   "role": "PhD student",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jon Saad-Falcon is listed by Hazy Research as phD student.",
+ "known_for": [],
+ "bio_sources": [
+  "https://hazyresearch.stanford.edu",
+  "https://jonsaadfalcon.com/"
+ ],
+ "confidence": "high",
+ "auto": true
+}

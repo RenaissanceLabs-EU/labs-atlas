@@ -1,0 +1,49 @@
+{
+ "id": "mohan-kankanhalli",
+ "name": "Mohan Kankanhalli",
+ "display": "Mohan Kankanhalli",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=6Lx_eowAAAAJ",
+  "website": "https://www.comp.nus.edu.sg/~mohan/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai-singapore",
+   "org": "AI Singapore",
+   "role": "Deputy Executive Chairman; Director, NUS AI Institute",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "National University of Singapore",
+   "role": "Provost's Chair Professor, School of Computing",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mohan Kankanhalli is Provost's Chair Professor of computer science at the National University of Singapore, director of the NUS AI Institute and Deputy Executive Chairman of AI Singapore. His research covers multimedia computing, computer vision and trustworthy AI.",
+ "known_for": [
+  "Multimedia computing and computer vision research",
+  "Trustworthy AI",
+  "Leadership of NUS AI Institute and AI Singapore"
+ ],
+ "bio_sources": [
+  "https://www.comp.nus.edu.sg/~mohan/",
+  "https://scholar.google.com/citations?user=6Lx_eowAAAAJ",
+  "https://www.comp.nus.edu.sg/people/"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true,
+ "flag": "LinkedIn handle ('ashrafabdul') does not look like this person; removed. Scholar ID not independently verified."
+}

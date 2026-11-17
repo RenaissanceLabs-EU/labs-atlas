@@ -1,0 +1,37 @@
+{
+ "id": "brian-moore",
+ "name": "Brian Moore",
+ "display": "Brian Moore",
+ "kind": "person",
+ "handles": {
+  "github": "brimoor",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "voxel51",
+   "org": "Voxel51",
+   "role": "Top contributor to fiftyone",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Brian Moore is one of the most active contributors to Voxel51's open source work on GitHub, with 9,299 contributions to fiftyone, voxelgpt.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/brimoor",
+  "https://github.com/voxel51/fiftyone",
+  "https://github.com/voxel51/voxelgpt"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

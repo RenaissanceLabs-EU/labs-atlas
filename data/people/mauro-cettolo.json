@@ -1,0 +1,41 @@
+{
+ "id": "mauro-cettolo",
+ "name": "Mauro Cettolo",
+ "display": "Mauro Cettolo",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5034851858",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "fbk-machine-translation-unit",
+   "org": "FBK Machine Translation Unit",
+   "role": "Senior Research Scientist",
+   "current": true,
+   "since": 1992
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mauro Cettolo is a senior research scientist at Fondazione Bruno Kessler in Trento, where Cettolo has worked since 1992 and focused on machine translation since 2004. Cettolo co-organized the IWSLT shared tasks in several years and serves as an Action Editor for Transactions of the ACL. Earlier work covered speech recognition.",
+ "known_for": [
+  "Machine translation research at FBK",
+  "Co-organizer of IWSLT evaluation campaigns",
+  "Action Editor for TACL"
+ ],
+ "bio_sources": [
+  "https://magazine.fbk.eu/en/spotlight/mauro-cettolo/",
+  "https://mt.fbk.eu/author/cettolo/",
+  "https://aclanthology.org/people/mauro-cettolo"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

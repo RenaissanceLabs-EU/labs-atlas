@@ -1,0 +1,36 @@
+{
+ "id": "colin-chivers",
+ "name": "Colin Chivers",
+ "display": "Colin Chivers",
+ "kind": "person",
+ "handles": {
+  "github": "colinchivers",
+  "huggingface": null,
+  "x": "norabelrose",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "far-ai",
+   "org": "FAR.AI",
+   "role": "Top contributor to tuned-lens",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Colin Chivers is one of the most active contributors to FAR.AI's open source work on GitHub, with 80 contributions to tuned-lens.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/colinchivers",
+  "https://github.com/AlignmentResearch/tuned-lens"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

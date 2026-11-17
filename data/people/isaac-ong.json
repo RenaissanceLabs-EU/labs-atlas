@@ -1,0 +1,36 @@
+{
+ "id": "isaac-ong",
+ "name": "Isaac Ong",
+ "display": "Isaac Ong",
+ "kind": "person",
+ "handles": {
+  "github": "iojw",
+  "huggingface": null,
+  "x": "isaacongjw",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lmarena",
+   "org": "LMArena",
+   "role": "Top contributor to RouteLLM",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Isaac Ong is one of the most active contributors to LMArena's open source work on GitHub, with 162 contributions to RouteLLM.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/iojw",
+  "https://github.com/lm-sys/RouteLLM"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

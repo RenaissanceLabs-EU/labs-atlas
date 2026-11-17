@@ -1,0 +1,35 @@
+{
+ "id": "pierre-colombo",
+ "name": "Pierre Colombo",
+ "display": "Pierre Colombo",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5103969906",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "eurollm",
+   "org": "EuroLLM",
+   "role": "Key person named on the project site",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pierre Colombo is listed by EuroLLM as key person named on the project site.",
+ "known_for": [],
+ "bio_sources": [
+  "https://eurollm.io",
+  "https://arxiv.org/abs/2506.04079"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

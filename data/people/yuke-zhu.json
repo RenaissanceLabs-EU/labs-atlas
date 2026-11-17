@@ -1,0 +1,48 @@
+{
+ "id": "yuke-zhu",
+ "name": "Yuke Zhu",
+ "display": "Yuke Zhu",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5030826237",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nvidia",
+   "org": "NVIDIA",
+   "role": "Project lead, GR00T N1",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "University of Texas at Austin",
+   "role": "Associate professor, Robot Perception and Learning Lab",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Yuke Zhu is an associate professor of computer science at UT Austin, where Zhu directs the Robot Perception and Learning Lab, and a director and distinguished research scientist at NVIDIA Research who co-leads the GEAR lab. Zhu was a project lead on GR00T N1 and is known for open-source robot learning platforms.",
+ "known_for": [
+  "Co-lead of NVIDIA GEAR",
+  "Director of UT Austin Robot Perception and Learning Lab",
+  "GR00T N1 and open robot learning software"
+ ],
+ "bio_sources": [
+  "https://research.nvidia.com/labs/gear",
+  "https://rpl.cs.utexas.edu/talks/2024_11_04_data_pyramid_and_data_flywheel_for_robotic_foundation_models.pdf",
+  "https://arxiv.org/abs/2503.14734"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

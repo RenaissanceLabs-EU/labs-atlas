@@ -1,0 +1,41 @@
+{
+ "id": "noah-hollmann",
+ "name": "Noah Hollmann",
+ "display": "Noah Hollmann",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5081550394",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "prior-labs",
+   "org": "Prior Labs",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Noah Hollmann is a co-founder of Prior Labs, which develops tabular foundation models. They are first author of the TabPFN paper and of the Nature 2025 paper on accurate predictions on small data with a tabular foundation model. Hollmann has research ties to Charite in Berlin.",
+ "known_for": [
+  "Co-founder of Prior Labs",
+  "First author of TabPFN",
+  "First author of Nature tabular foundation model paper"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2207.01848",
+  "https://fortune.com/2025/02/05/prior-labs-9-million-euro-preseed-funding-tabular-data-ai/",
+  "https://arxiv.org/abs/2511.08667"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

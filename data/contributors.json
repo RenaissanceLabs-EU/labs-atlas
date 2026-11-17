@@ -1,0 +1,5354 @@
+[
+ {
+  "login": "brimoor",
+  "name": "Brian Moore",
+  "bio": "",
+  "company": "Co-Founder and CEO @voxel51 ",
+  "followers": 49,
+  "blog": "https://voxel51.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "voxel51",
+    "contributions": 9299,
+    "repos": [
+     {
+      "repo": "voxel51/fiftyone",
+      "contributions": 9101
+     },
+     {
+      "repo": "voxel51/voxelgpt",
+      "contributions": 198
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "AngledLuffa",
+  "name": "John Bauer",
+  "bio": "",
+  "company": null,
+  "followers": 80,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "stanford-nlp-group",
+    "contributions": 8796,
+    "repos": [
+     {
+      "repo": "stanfordnlp/CoreNLP",
+      "contributions": 4704
+     },
+     {
+      "repo": "stanfordnlp/stanza",
+      "contributions": 4092
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "benjaminpkane",
+  "name": "Benjamin Kane",
+  "bio": "",
+  "company": "@voxel51 ",
+  "followers": 21,
+  "blog": "fiftyone.ai",
+  "x": null,
+  "labs": [
+   {
+    "lab": "voxel51",
+    "contributions": 7182,
+    "repos": [
+     {
+      "repo": "voxel51/fiftyone",
+      "contributions": 7182
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "glenn-jocher",
+  "name": "Glenn Jocher",
+  "bio": "YOLO 🚀 and Vision AI ⭐",
+  "company": "@ultralytics",
+  "followers": 4177,
+  "blog": "https://ultralytics.com",
+  "x": "ultralytics",
+  "labs": [
+   {
+    "lab": "ultralytics",
+    "contributions": 7162,
+    "repos": [
+     {
+      "repo": "ultralytics/ultralytics",
+      "contributions": 2118
+     },
+     {
+      "repo": "ultralytics/yolov5",
+      "contributions": 2236
+     },
+     {
+      "repo": "ultralytics/yolov3",
+      "contributions": 2808
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "honnibal",
+  "name": "Matthew Honnibal",
+  "bio": "Computational linguist from Sydney and Berlin. Author of the spaCy NLP library.",
+  "company": "Founder @explosion ",
+  "followers": 2023,
+  "blog": "https://explosion.ai",
+  "x": "honnibal",
+  "labs": [
+   {
+    "lab": "explosion",
+    "contributions": 6903,
+    "repos": [
+     {
+      "repo": "explosion/spaCy",
+      "contributions": 3899
+     },
+     {
+      "repo": "explosion/thinc",
+      "contributions": 3004
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "kshitijk4poor",
+  "name": "kshitij",
+  "bio": "agents @NousResearch | gsoc'24 @honeynet ",
+  "company": "@NousResearch",
+  "followers": 454,
+  "blog": "www.kshitij.md",
+  "x": null,
+  "labs": [
+   {
+    "lab": "nous-research",
+    "contributions": 5761,
+    "repos": [
+     {
+      "repo": "NousResearch/hermes-agent",
+      "contributions": 5761
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "OutThisLife",
+  "name": "brooklyn!",
+  "bio": "",
+  "company": null,
+  "followers": 512,
+  "blog": "https://brooklyn.sh/",
+  "x": "imbabybrooklyn",
+  "labs": [
+   {
+    "lab": "nous-research",
+    "contributions": 4581,
+    "repos": [
+     {
+      "repo": "NousResearch/hermes-agent",
+      "contributions": 4581
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "peregilk",
+  "name": "Per E Kummervold",
+  "bio": "Per Egil Kummervold, PhD, is a Reasearch Professor at the National Library of Norway. Main research area is language adaptation in LLMs.",
+  "company": null,
+  "followers": 31,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "nb-ai-lab",
+    "contributions": 4158,
+    "repos": [
+     {
+      "repo": "NbAiLab/notram",
+      "contributions": 1092
+     },
+     {
+      "repo": "NbAiLab/nb-whisper",
+      "contributions": 1765
+     },
+     {
+      "repo": "NbAiLab/nostram",
+      "contributions": 1301
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jaumeortola",
+  "name": "Jaume Ortolà",
+  "bio": "",
+  "company": null,
+  "followers": 66,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "softcatala",
+    "contributions": 4003,
+    "repos": [
+     {
+      "repo": "Softcatala/catalan-dict-tools",
+      "contributions": 4003
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "PawelPeczek-Roboflow",
+  "name": "Paweł Pęczek",
+  "bio": "",
+  "company": "Roboflow",
+  "followers": 26,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "roboflow",
+    "contributions": 3991,
+    "repos": [
+     {
+      "repo": "roboflow/inference",
+      "contributions": 3991
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sashankaryal",
+  "name": "Sashank",
+  "bio": "",
+  "company": "Voxel51",
+  "followers": 19,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "voxel51",
+    "contributions": 3900,
+    "repos": [
+     {
+      "repo": "voxel51/fiftyone",
+      "contributions": 3900
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jph00",
+  "name": "Jeremy Howard",
+  "bio": "CEO / R&D @ answer.ai; Founder fast.ai",
+  "company": "@answerdotai",
+  "followers": 7739,
+  "blog": "https://jeremy.fast.ai/",
+  "x": "jeremyphoward",
+  "labs": [
+   {
+    "lab": "answer-ai",
+    "contributions": 2192,
+    "repos": [
+     {
+      "repo": "AnswerDotAI/fasthtml",
+      "contributions": 1059
+     },
+     {
+      "repo": "AnswerDotAI/nbdev",
+      "contributions": 1133
+     }
+    ]
+   },
+   {
+    "lab": "fast-ai",
+    "contributions": 1124,
+    "repos": [
+     {
+      "repo": "fastai/fastai",
+      "contributions": 979
+     },
+     {
+      "repo": "fastai/fastbook",
+      "contributions": 145
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "syllog1sm",
+  "name": "Matthew Honnibal",
+  "bio": "My main profile is @honnibal",
+  "company": "Founder @explosion",
+  "followers": 366,
+  "blog": "https://github.com/honnibal",
+  "x": null,
+  "labs": [
+   {
+    "lab": "explosion",
+    "contributions": 3121,
+    "repos": [
+     {
+      "repo": "explosion/spaCy",
+      "contributions": 2300
+     },
+     {
+      "repo": "explosion/thinc",
+      "contributions": 821
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "vthorsteinsson",
+  "name": "Vilhjalmur Thorsteinsson",
+  "bio": "Software designer and developer. Founder/Chairman of @mideind. Got hooked on programming on the Commodore PET in BASIC and 6502 assembler, and never looked back",
+  "company": "@mideind ",
+  "followers": 75,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "mi-eind",
+    "contributions": 3103,
+    "repos": [
+     {
+      "repo": "mideind/GreynirEngine",
+      "contributions": 895
+     },
+     {
+      "repo": "mideind/GreynirServer",
+      "contributions": 1128
+     },
+     {
+      "repo": "mideind/Netskrafl",
+      "contributions": 1080
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "badlogic",
+  "name": "Mario Zechner",
+  "bio": "",
+  "company": null,
+  "followers": 8116,
+  "blog": "https://mariozechner.at",
+  "x": "badlogicgames",
+  "labs": [
+   {
+    "lab": "prime-intellect",
+    "contributions": 3071,
+    "repos": [
+     {
+      "repo": "PrimeIntellect-ai/prime-agent",
+      "contributions": 3071
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "hbredin",
+  "name": "Hervé BREDIN",
+  "bio": "The \"pyannote\" guy. Co-Founder and CSO of @pyannoteai. Currently on leave from CNRS",
+  "company": "@pyannoteai and CNRS",
+  "followers": 505,
+  "blog": "herve.niderb.fr/",
+  "x": "hbredin",
+  "labs": [
+   {
+    "lab": "pyannoteai",
+    "contributions": 2989,
+    "repos": [
+     {
+      "repo": "pyannote/pyannote-audio",
+      "contributions": 2358
+     },
+     {
+      "repo": "pyannote/pyannote-video",
+      "contributions": 233
+     },
+     {
+      "repo": "pyannote/pyannote-metrics",
+      "contributions": 398
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "rwightman",
+  "name": "Ross Wightman",
+  "bio": "AI, Computer Vision. Always learning, constantly curious. Building ML/AI systems, watching loss curves.",
+  "company": null,
+  "followers": 7164,
+  "blog": "rwightman.com",
+  "x": "wightmanr",
+  "labs": [
+   {
+    "lab": "hugging-face",
+    "contributions": 2760,
+    "repos": [
+     {
+      "repo": "huggingface/pytorch-image-models",
+      "contributions": 2760
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "manning",
+  "name": "Christopher Manning",
+  "bio": "",
+  "company": null,
+  "followers": 1433,
+  "blog": "http://nlp.stanford.edu/~manning/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "stanford-nlp-group",
+    "contributions": 2551,
+    "repos": [
+     {
+      "repo": "stanfordnlp/CoreNLP",
+      "contributions": 2551
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "carenthomas",
+  "name": "cthomas",
+  "bio": "",
+  "company": null,
+  "followers": 66,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "letta",
+    "contributions": 2468,
+    "repos": [
+     {
+      "repo": "letta-ai/letta",
+      "contributions": 2012
+     },
+     {
+      "repo": "letta-ai/letta-code",
+      "contributions": 456
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "grzegorz-roboflow",
+  "name": "Grzegorz Klimaszewski",
+  "bio": "Love building things.",
+  "company": null,
+  "followers": 10,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "roboflow",
+    "contributions": 2415,
+    "repos": [
+     {
+      "repo": "roboflow/inference",
+      "contributions": 2415
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ethernet8023",
+  "name": "ethernet",
+  "bio": "hii im a gal who writes code for computer. i make llms, pretty websites, 3d graphics, games, distributed systems, crypto, hardware, and a billion more things",
+  "company": "@nousresearch",
+  "followers": 286,
+  "blog": "https://ethernet.computer",
+  "x": null,
+  "labs": [
+   {
+    "lab": "nous-research",
+    "contributions": 2367,
+    "repos": [
+     {
+      "repo": "NousResearch/hermes-agent",
+      "contributions": 2367
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "williamFalcon",
+  "name": "William Falcon",
+  "bio": "PyTorch Lightning Creator. CEO @Lightning-AI . AI PhD Researcher @nyu. \r\n\r\nFormer @facebookresearch, Goldman Sachs, Columbia, NextGenVest (co-founder, acquired)",
+  "company": "Lightning AI",
+  "followers": 2501,
+  "blog": "https://lightning.ai",
+  "x": "williamfalcon",
+  "labs": [
+   {
+    "lab": "lightning-ai",
+    "contributions": 2329,
+    "repos": [
+     {
+      "repo": "Lightning-AI/pytorch-lightning",
+      "contributions": 2329
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "cpacker",
+  "name": "Charles Packer",
+  "bio": "building the machine that learns // co-founder & ceo @letta-ai ",
+  "company": "@letta-ai ",
+  "followers": 1098,
+  "blog": "charlespacker.com",
+  "x": "charlespacker",
+  "labs": [
+   {
+    "lab": "letta",
+    "contributions": 2325,
+    "repos": [
+     {
+      "repo": "letta-ai/letta",
+      "contributions": 957
+     },
+     {
+      "repo": "letta-ai/letta-code",
+      "contributions": 1368
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "anjos",
+  "name": "André Anjos",
+  "bio": "I'm a scientific researcher who is also passionate about software. My current interests float around Health, Machine Learning and Reproducibility.",
+  "company": "@idiap",
+  "followers": 59,
+  "blog": "https://anjos.ai",
+  "x": null,
+  "labs": [
+   {
+    "lab": "idiap-research-institute",
+    "contributions": 2234,
+    "repos": [
+     {
+      "repo": "idiap/bob",
+      "contributions": 2234
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "andreybavt",
+  "name": "Andrey Avtomonov",
+  "bio": "",
+  "company": "CTO @ Kaelio",
+  "followers": 54,
+  "blog": "kaelio.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "giskard",
+    "contributions": 2161,
+    "repos": [
+     {
+      "repo": "Giskard-AI/giskard-oss",
+      "contributions": 2161
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "J38",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 31,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "stanford-nlp-group",
+    "contributions": 2154,
+    "repos": [
+     {
+      "repo": "stanfordnlp/CoreNLP",
+      "contributions": 1677
+     },
+     {
+      "repo": "stanfordnlp/stanza",
+      "contributions": 477
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "netj",
+  "name": "Jaeho Shin",
+  "bio": "hungry, foolish, curious",
+  "company": null,
+  "followers": 155,
+  "blog": "http://cs.stanford.edu/~netj",
+  "x": null,
+  "labs": [
+   {
+    "lab": "hazy-research",
+    "contributions": 2054,
+    "repos": [
+     {
+      "repo": "HazyResearch/deepdive",
+      "contributions": 2054
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sveinbjornt",
+  "name": "Sveinbjorn Thordarson",
+  "bio": "Open source software developer.",
+  "company": null,
+  "followers": 609,
+  "blog": "https://sveinbjorn.org/software",
+  "x": null,
+  "labs": [
+   {
+    "lab": "mi-eind",
+    "contributions": 2040,
+    "repos": [
+     {
+      "repo": "mideind/GreynirEngine",
+      "contributions": 115
+     },
+     {
+      "repo": "mideind/GreynirServer",
+      "contributions": 1925
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "mfeurer",
+  "name": "Matthias Feurer",
+  "bio": "",
+  "company": "TU Dortmund University",
+  "followers": 162,
+  "blog": "https://matthiasfeurer.de",
+  "x": "__mfeurer__",
+  "labs": [
+   {
+    "lab": "automl-groups",
+    "contributions": 2039,
+    "repos": [
+     {
+      "repo": "automl/auto-sklearn",
+      "contributions": 1562
+     },
+     {
+      "repo": "automl/SMAC3",
+      "contributions": 477
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jakep-allenai",
+  "name": "Jake Poznanski",
+  "bio": "",
+  "company": null,
+  "followers": 71,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "ai2",
+    "contributions": 1997,
+    "repos": [
+     {
+      "repo": "allenai/olmocr",
+      "contributions": 1997
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sgugger",
+  "name": "Sylvain Gugger",
+  "bio": "All things Machine Learning\r\nprev Hugging Face/fast.ai",
+  "company": null,
+  "followers": 3897,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "fast-ai",
+    "contributions": 699,
+    "repos": [
+     {
+      "repo": "fastai/fastai",
+      "contributions": 583
+     },
+     {
+      "repo": "fastai/fastbook",
+      "contributions": 116
+     }
+    ]
+   },
+   {
+    "lab": "hugging-face",
+    "contributions": 1250,
+    "repos": [
+     {
+      "repo": "huggingface/transformers",
+      "contributions": 1250
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ko3n1g",
+  "name": "oliver könig",
+  "bio": "automations and test systems for AI/ML",
+  "company": "Nvidia",
+  "followers": 333,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "nvidia",
+    "contributions": 1905,
+    "repos": [
+     {
+      "repo": "NVIDIA/Megatron-LM",
+      "contributions": 1905
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "dbogdanov",
+  "name": "Dmitry Bogdanov",
+  "bio": "Music technology researcher and software engineer",
+  "company": "Music Technology Group (@MTG)",
+  "followers": 224,
+  "blog": "https://dbogdanov.com",
+  "x": "di_bogdanov",
+  "labs": [
+   {
+    "lab": "music-technology-group",
+    "contributions": 1899,
+    "repos": [
+     {
+      "repo": "MTG/essentia",
+      "contributions": 1899
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "MartinHammarstedt",
+  "name": "Martin Hammarstedt",
+  "bio": "",
+  "company": null,
+  "followers": 3,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "sprakbanken-text",
+    "contributions": 1855,
+    "repos": [
+     {
+      "repo": "spraakbanken/sparv",
+      "contributions": 1400
+     },
+     {
+      "repo": "spraakbanken/korp-backend",
+      "contributions": 455
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "pirate",
+  "name": "Nick Sweeting",
+  "bio": "@ArchiveBox ⑊  @Monadical-SAS ⑊ Python + JS ⑊ browsers ⑊ devops + systems + networking + security ⑊ bicycles + motorbikes",
+  "company": null,
+  "followers": 2254,
+  "blog": "https://sweeting.me",
+  "x": "theSquashSH",
+  "labs": [
+   {
+    "lab": "browser-use",
+    "contributions": 1810,
+    "repos": [
+     {
+      "repo": "browser-use/browser-use",
+      "contributions": 1810
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "patrickvonplaten",
+  "name": "Patrick von Platen",
+  "bio": "",
+  "company": null,
+  "followers": 2142,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "hugging-face",
+    "contributions": 1801,
+    "repos": [
+     {
+      "repo": "huggingface/transformers",
+      "contributions": 793
+     },
+     {
+      "repo": "huggingface/diffusers",
+      "contributions": 1008
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "lintangsutawika",
+  "name": "Lintang Sutawika",
+  "bio": "PhD at LTI-CMU,\r\n\r\nPreviously @EleutherAI, Datasaur, KonvergenAI",
+  "company": "Language Technologies Institute, CMU",
+  "followers": 109,
+  "blog": "https://lintang.sutawika.com",
+  "x": "lintangsutawika",
+  "labs": [
+   {
+    "lab": "eleutherai",
+    "contributions": 908,
+    "repos": [
+     {
+      "repo": "EleutherAI/lm-evaluation-harness",
+      "contributions": 908
+     }
+    ]
+   },
+   {
+    "lab": "occiglot",
+    "contributions": 891,
+    "repos": [
+     {
+      "repo": "occiglot/euro-lm-evaluation-harness",
+      "contributions": 891
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "c2h5oh",
+  "name": "Maciej Lisiewski",
+  "bio": "",
+  "company": "Modna Inc.",
+  "followers": 41,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "nous-research",
+    "contributions": 1779,
+    "repos": [
+     {
+      "repo": "NousResearch/hermes-agent",
+      "contributions": 1779
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "SkalskiP",
+  "name": "Piotr Skalski",
+  "bio": "Open Source Lead @roboflow | Founder @ makesense.ai",
+  "company": "@roboflow",
+  "followers": 7172,
+  "blog": "https://huggingface.co/SkalskiP",
+  "x": "skalskip92",
+  "labs": [
+   {
+    "lab": "roboflow",
+    "contributions": 1755,
+    "repos": [
+     {
+      "repo": "roboflow/supervision",
+      "contributions": 1350
+     },
+     {
+      "repo": "roboflow/notebooks",
+      "contributions": 405
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "teetone",
+  "name": "Tony Lee",
+  "bio": "CS PhD at Stanford",
+  "company": "Stanford University",
+  "followers": 54,
+  "blog": "",
+  "x": "tonyh_lee",
+  "labs": [
+   {
+    "lab": "stanford-crfm",
+    "contributions": 1695,
+    "repos": [
+     {
+      "repo": "stanford-crfm/helm",
+      "contributions": 1695
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "rjpower",
+  "name": "Russell Power",
+  "bio": "",
+  "company": null,
+  "followers": 215,
+  "blog": "http://rjp.io",
+  "x": null,
+  "labs": [
+   {
+    "lab": "marin",
+    "contributions": 1628,
+    "repos": [
+     {
+      "repo": "marin-community/marin",
+      "contributions": 1628
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ydshieh",
+  "name": "Yih-Dar",
+  "bio": "Machine Learning Engineer",
+  "company": null,
+  "followers": 428,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "hugging-face",
+    "contributions": 1625,
+    "repos": [
+     {
+      "repo": "huggingface/transformers",
+      "contributions": 1625
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "yifanmai",
+  "name": "Yifan Mai",
+  "bio": "",
+  "company": null,
+  "followers": 63,
+  "blog": "https://yifanmai.com/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "stanford-crfm",
+    "contributions": 1513,
+    "repos": [
+     {
+      "repo": "stanford-crfm/helm",
+      "contributions": 1513
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "gangeli",
+  "name": "Gabor Angeli",
+  "bio": "AI @ Resolve.ai",
+  "company": "Resolve.ai",
+  "followers": 249,
+  "blog": "https://gabor.dev/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "stanford-nlp-group",
+    "contributions": 1442,
+    "repos": [
+     {
+      "repo": "stanfordnlp/CoreNLP",
+      "contributions": 1442
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "carmocca",
+  "name": "Carlos Mocholí",
+  "bio": "Research Engineer",
+  "company": null,
+  "followers": 1638,
+  "blog": "",
+  "x": "carmocca",
+  "labs": [
+   {
+    "lab": "lightning-ai",
+    "contributions": 1420,
+    "repos": [
+     {
+      "repo": "Lightning-AI/pytorch-lightning",
+      "contributions": 1014
+     },
+     {
+      "repo": "Lightning-AI/litgpt",
+      "contributions": 406
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "dirkgr",
+  "name": "Dirk Groeneveld",
+  "bio": "",
+  "company": null,
+  "followers": 164,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "ai2",
+    "contributions": 1411,
+    "repos": [
+     {
+      "repo": "allenai/OLMo",
+      "contributions": 1411
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Borda",
+  "name": "Jirka Borovec",
+  "bio": "Computer Vision\r\n & Machine Learning\r\n & Bio-Medical Imaging\r\n & #DeepLearn\r\n & Kaggle Master",
+  "company": null,
+  "followers": 4084,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "lightning-ai",
+    "contributions": 1405,
+    "repos": [
+     {
+      "repo": "Lightning-AI/pytorch-lightning",
+      "contributions": 1405
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sarahwooders",
+  "name": "Sarah Wooders",
+  "bio": "",
+  "company": "Letta",
+  "followers": 226,
+  "blog": "https://swooders.com/",
+  "x": "sarahwooders",
+  "labs": [
+   {
+    "lab": "letta",
+    "contributions": 1398,
+    "repos": [
+     {
+      "repo": "letta-ai/letta",
+      "contributions": 1215
+     },
+     {
+      "repo": "letta-ai/letta-code",
+      "contributions": 183
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "kevinmessiaen",
+  "name": "Kevin Messiaen",
+  "bio": "",
+  "company": "Giskard",
+  "followers": 22,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "giskard",
+    "contributions": 1394,
+    "repos": [
+     {
+      "repo": "Giskard-AI/giskard-oss",
+      "contributions": 1394
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "awaelchli",
+  "name": "Adrian Wälchli",
+  "bio": "",
+  "company": "NVIDIA",
+  "followers": 2789,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "lightning-ai",
+    "contributions": 1378,
+    "repos": [
+     {
+      "repo": "Lightning-AI/pytorch-lightning",
+      "contributions": 1218
+     },
+     {
+      "repo": "Lightning-AI/litgpt",
+      "contributions": 160
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jack89roberts",
+  "name": "Jack Roberts",
+  "bio": "Lead Data Scientist",
+  "company": "The Alan Turing Institute",
+  "followers": 23,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "the-alan-turing-institute",
+    "contributions": 1378,
+    "repos": [
+     {
+      "repo": "alan-turing-institute/AIrsenal",
+      "contributions": 1378
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "bartvm",
+  "name": "Bart van Merriënboer",
+  "bio": "",
+  "company": "@google",
+  "followers": 183,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "mila-quebec-ai-institute",
+    "contributions": 1269,
+    "repos": [
+     {
+      "repo": "mila-iqia/blocks",
+      "contributions": 1065
+     },
+     {
+      "repo": "mila-iqia/fuel",
+      "contributions": 204
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "mikasenghaas",
+  "name": "Mika Senghaas",
+  "bio": "",
+  "company": "Prime Intellect",
+  "followers": 95,
+  "blog": "mikasenghaas.de",
+  "x": "mikasenghaas",
+  "labs": [
+   {
+    "lab": "prime-intellect",
+    "contributions": 1212,
+    "repos": [
+     {
+      "repo": "PrimeIntellect-ai/verifiers",
+      "contributions": 482
+     },
+     {
+      "repo": "PrimeIntellect-ai/prime-rl",
+      "contributions": 730
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ehofesmann",
+  "name": "Eric Hofesmann",
+  "bio": "Founding MLE at Voxel51 working on open-source tooling for data engines",
+  "company": "Voxel51",
+  "followers": 70,
+  "blog": "https://www.linkedin.com/in/eric-hofesmann/",
+  "x": "ehofesmann",
+  "labs": [
+   {
+    "lab": "voxel51",
+    "contributions": 1211,
+    "repos": [
+     {
+      "repo": "voxel51/fiftyone",
+      "contributions": 1211
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "hijohnnylin",
+  "name": "johnny",
+  "bio": "",
+  "company": "neuronpedia.org",
+  "followers": 135,
+  "blog": "johnnylin.co",
+  "x": null,
+  "labs": [
+   {
+    "lab": "neuronpedia",
+    "contributions": 1210,
+    "repos": [
+     {
+      "repo": "hijohnnylin/neuronpedia",
+      "contributions": 1210
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "mattzh72",
+  "name": "Matthew Zhou",
+  "bio": "",
+  "company": null,
+  "followers": 73,
+  "blog": "mattzh72.github.io",
+  "x": "Mattzh1314",
+  "labs": [
+   {
+    "lab": "letta",
+    "contributions": 1209,
+    "repos": [
+     {
+      "repo": "letta-ai/letta",
+      "contributions": 1209
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jaredcasper",
+  "name": "Jared Casper",
+  "bio": "",
+  "company": "NVIDIA",
+  "followers": 121,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "bigscience",
+    "contributions": 165,
+    "repos": [
+     {
+      "repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "contributions": 165
+     }
+    ]
+   },
+   {
+    "lab": "nvidia",
+    "contributions": 1039,
+    "repos": [
+     {
+      "repo": "NVIDIA/Megatron-LM",
+      "contributions": 1039
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "adrianeboyd",
+  "name": "Adriane Boyd",
+  "bio": "",
+  "company": null,
+  "followers": 134,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "explosion",
+    "contributions": 1194,
+    "repos": [
+     {
+      "repo": "explosion/spaCy",
+      "contributions": 1055
+     },
+     {
+      "repo": "explosion/thinc",
+      "contributions": 139
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "svlandeg",
+  "name": "Sofie Van Landeghem",
+  "bio": "I'm a dedicated open-source maintainer and software engineer with deep expertise in Python, data, and AI (NLP/ML/LLMs).",
+  "company": "OxyKodit",
+  "followers": 991,
+  "blog": "https://oxykodit.com/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "explosion",
+    "contributions": 1193,
+    "repos": [
+     {
+      "repo": "explosion/spaCy",
+      "contributions": 1036
+     },
+     {
+      "repo": "explosion/thinc",
+      "contributions": 157
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "haileyschoelkopf",
+  "name": "Hailey Schoelkopf",
+  "bio": "",
+  "company": null,
+  "followers": 265,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "eleutherai",
+    "contributions": 672,
+    "repos": [
+     {
+      "repo": "EleutherAI/lm-evaluation-harness",
+      "contributions": 536
+     },
+     {
+      "repo": "EleutherAI/pythia",
+      "contributions": 136
+     }
+    ]
+   },
+   {
+    "lab": "occiglot",
+    "contributions": 461,
+    "repos": [
+     {
+      "repo": "occiglot/euro-lm-evaluation-harness",
+      "contributions": 461
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "epwalsh",
+  "name": "Pete Walsh",
+  "bio": "Research engineer working on open source LLMs | Python | Rust | Neovim | Life is a changelog, change your life and keep a changelog",
+  "company": null,
+  "followers": 1044,
+  "blog": "",
+  "x": "epwalsh",
+  "labs": [
+   {
+    "lab": "ai2",
+    "contributions": 1121,
+    "repos": [
+     {
+      "repo": "allenai/OLMo",
+      "contributions": 1121
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "henchaves",
+  "name": "Henrique Chaves",
+  "bio": "Building solutions to scan & evaluate agentic systems 😊",
+  "company": "giskard.ai",
+  "followers": 31,
+  "blog": "henriquechav.es",
+  "x": null,
+  "labs": [
+   {
+    "lab": "giskard",
+    "contributions": 1118,
+    "repos": [
+     {
+      "repo": "Giskard-AI/giskard-oss",
+      "contributions": 1118
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "thelinuxmaniac",
+  "name": "Abhishek Dutta",
+  "bio": "",
+  "company": null,
+  "followers": 10,
+  "blog": "http://abhishekdutta.org",
+  "x": null,
+  "labs": [
+   {
+    "lab": "visual-geometry-group",
+    "contributions": 1077,
+    "repos": [
+     {
+      "repo": "ox-vgg/via",
+      "contributions": 881
+     },
+     {
+      "repo": "ox-vgg/vise",
+      "contributions": 196
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "rizar",
+  "name": "Dzmitry Bahdanau",
+  "bio": "",
+  "company": "Periodic Labs",
+  "followers": 559,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "mila-quebec-ai-institute",
+    "contributions": 1004,
+    "repos": [
+     {
+      "repo": "mila-iqia/blocks",
+      "contributions": 1004
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "onuralpszr",
+  "name": "Onuralp SEZER",
+  "bio": "Senior ML&CV Engineer @ultralytics  - Fedora KDE-SIG Member",
+  "company": "@ultralytics ",
+  "followers": 828,
+  "blog": "https://gravatar.com/onuralpsezer",
+  "x": "onuralpszr",
+  "labs": [
+   {
+    "lab": "roboflow",
+    "contributions": 847,
+    "repos": [
+     {
+      "repo": "roboflow/supervision",
+      "contributions": 847
+     }
+    ]
+   },
+   {
+    "lab": "ultralytics",
+    "contributions": 141,
+    "repos": [
+     {
+      "repo": "ultralytics/ultralytics",
+      "contributions": 141
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "willccbb",
+  "name": "will brown",
+  "bio": "",
+  "company": null,
+  "followers": 1032,
+  "blog": "willcb.com",
+  "x": "willccbb",
+  "labs": [
+   {
+    "lab": "prime-intellect",
+    "contributions": 954,
+    "repos": [
+     {
+      "repo": "PrimeIntellect-ai/verifiers",
+      "contributions": 954
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "rabah-khalek",
+  "name": "Rabah Khalek",
+  "bio": "ML Researcher && Particle Physicist.",
+  "company": null,
+  "followers": 28,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "giskard",
+    "contributions": 945,
+    "repos": [
+     {
+      "repo": "Giskard-AI/giskard-oss",
+      "contributions": 945
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "arildm",
+  "name": "Arild",
+  "bio": "",
+  "company": "Språkbanken",
+  "followers": 10,
+  "blog": "https://arild.klavaro.se/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "sprakbanken-text",
+    "contributions": 937,
+    "repos": [
+     {
+      "repo": "spraakbanken/korp-frontend",
+      "contributions": 937
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Silleellie",
+  "name": "Antonio Silletti",
+  "bio": "",
+  "company": null,
+  "followers": 8,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "swap-research-group",
+    "contributions": 928,
+    "repos": [
+     {
+      "repo": "swapUniba/ClayRS",
+      "contributions": 928
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "manyoso",
+  "name": "AT",
+  "bio": "",
+  "company": null,
+  "followers": 151,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "nomic-ai",
+    "contributions": 919,
+    "repos": [
+     {
+      "repo": "nomic-ai/gpt4all",
+      "contributions": 919
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "samsja",
+  "name": "samsja",
+  "bio": "leading research @PrimeIntellect-ai ",
+  "company": "@PrimeIntellect-ai",
+  "followers": 378,
+  "blog": "",
+  "x": "samsja19",
+  "labs": [
+   {
+    "lab": "prime-intellect",
+    "contributions": 886,
+    "repos": [
+     {
+      "repo": "PrimeIntellect-ai/prime-rl",
+      "contributions": 886
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "HaystackBot",
+  "name": "Haystack Bot",
+  "bio": "Grew up on a FARM. Love finding the needle in Haystack's CI.",
+  "company": "@deepset-ai ",
+  "followers": 6,
+  "blog": "https://haystack.deepset.ai",
+  "x": null,
+  "labs": [
+   {
+    "lab": "deepset",
+    "contributions": 884,
+    "repos": [
+     {
+      "repo": "deepset-ai/haystack",
+      "contributions": 884
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "XkunW",
+  "name": "Marshall Wang",
+  "bio": "MTS@AutoInference",
+  "company": "@autoinference",
+  "followers": 12,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "vector-institute",
+    "contributions": 877,
+    "repos": [
+     {
+      "repo": "VectorInstitute/vector-inference",
+      "contributions": 877
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jorgtied",
+  "name": "tiedemann",
+  "bio": "",
+  "company": null,
+  "followers": 46,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "helsinki-nlp",
+    "contributions": 856,
+    "repos": [
+     {
+      "repo": "Helsinki-NLP/Opus-MT",
+      "contributions": 246
+     },
+     {
+      "repo": "Helsinki-NLP/Tatoeba-Challenge",
+      "contributions": 276
+     },
+     {
+      "repo": "Helsinki-NLP/OPUS-MT-train",
+      "contributions": 334
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "anakin87",
+  "name": "Stefano Fiorucci",
+  "bio": "AI/SW Engineer/Explorer 🧑‍🚀",
+  "company": "@deepset-ai",
+  "followers": 545,
+  "blog": "",
+  "x": "theanakin87",
+  "labs": [
+   {
+    "lab": "deepset",
+    "contributions": 853,
+    "repos": [
+     {
+      "repo": "deepset-ai/haystack",
+      "contributions": 670
+     },
+     {
+      "repo": "deepset-ai/haystack-cookbook",
+      "contributions": 183
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "anne17",
+  "name": "Anne Schumacher",
+  "bio": "",
+  "company": "@spraakbanken ",
+  "followers": 6,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "sprakbanken-text",
+    "contributions": 843,
+    "repos": [
+     {
+      "repo": "spraakbanken/sparv",
+      "contributions": 843
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sauravpanda",
+  "name": "Saurav Panda",
+  "bio": "Building AI-powered devtools to make my life easy! \r\n",
+  "company": "@replit",
+  "followers": 356,
+  "blog": "https://sauravpanda.com",
+  "x": "sauravpanda",
+  "labs": [
+   {
+    "lab": "browser-use",
+    "contributions": 840,
+    "repos": [
+     {
+      "repo": "browser-use/browser-use",
+      "contributions": 730
+     },
+     {
+      "repo": "browser-use/browser-harness",
+      "contributions": 110
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "GjjvdBurg",
+  "name": "Gertjan van den Burg",
+  "bio": "Machine Learning Research Scientist.",
+  "company": null,
+  "followers": 75,
+  "blog": "gertjanvandenburg.com",
+  "x": "GjjvdBurg",
+  "labs": [
+   {
+    "lab": "the-alan-turing-institute",
+    "contributions": 831,
+    "repos": [
+     {
+      "repo": "alan-turing-institute/CleverCSV",
+      "contributions": 831
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "mertunsall",
+  "name": "Mert Unsal",
+  "bio": "AI Researcher.",
+  "company": null,
+  "followers": 150,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "browser-use",
+    "contributions": 817,
+    "repos": [
+     {
+      "repo": "browser-use/browser-use",
+      "contributions": 817
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "raphaelsty",
+  "name": "Raphael Sourty",
+  "bio": "Machine Learning @lightonai  \r\n",
+  "company": "LightOn",
+  "followers": 242,
+  "blog": "https://knowledge-web.org/search",
+  "x": "raphaelsrty",
+  "labs": [
+   {
+    "lab": "lighton",
+    "contributions": 815,
+    "repos": [
+     {
+      "repo": "lightonai/next-plaid",
+      "contributions": 666
+     },
+     {
+      "repo": "lightonai/fast-plaid",
+      "contributions": 149
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "NilayYadav",
+  "name": "Nilay",
+  "bio": "@unslothai ",
+  "company": null,
+  "followers": 20,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "unsloth",
+    "contributions": 774,
+    "repos": [
+     {
+      "repo": "unslothai/unsloth",
+      "contributions": 774
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "kensoh",
+  "name": "苏昭鸣",
+  "bio": "交易员, 十三街投资",
+  "company": null,
+  "followers": 453,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "ai-singapore",
+    "contributions": 757,
+    "repos": [
+     {
+      "repo": "aisingapore/TagUI",
+      "contributions": 757
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "majsan",
+  "name": "Maria Öhrman",
+  "bio": "",
+  "company": null,
+  "followers": 11,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "sprakbanken-text",
+    "contributions": 749,
+    "repos": [
+     {
+      "repo": "spraakbanken/korp-frontend",
+      "contributions": 749
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "hieptl",
+  "name": "Hiep",
+  "bio": "Full-stack engineer building AI agents and LLM products. Core maintainer of OpenHands.",
+  "company": null,
+  "followers": 96,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "openhands",
+    "contributions": 729,
+    "repos": [
+     {
+      "repo": "OpenHands/OpenHands",
+      "contributions": 729
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "palonso",
+  "name": "Pablo Alonso",
+  "bio": "Senior machine learning research engineer at @ableton",
+  "company": "@ableton",
+  "followers": 90,
+  "blog": "https://palonso.me/",
+  "x": "pablo__alonso",
+  "labs": [
+   {
+    "lab": "music-technology-group",
+    "contributions": 727,
+    "repos": [
+     {
+      "repo": "MTG/essentia",
+      "contributions": 727
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "lalital",
+  "name": "Lalita Lowphansirikul",
+  "bio": "",
+  "company": null,
+  "followers": 24,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "vistec-depa-ai-research-institute-of-thailand",
+    "contributions": 725,
+    "repos": [
+     {
+      "repo": "vistec-AI/thai2transformers",
+      "contributions": 725
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "BabyChouSr",
+  "name": "Christopher Chou",
+  "bio": "stanford | cal",
+  "company": "chillin",
+  "followers": 81,
+  "blog": "https://chrischou.netlify.app/",
+  "x": "chrischou03",
+  "labs": [
+   {
+    "lab": "marin",
+    "contributions": 712,
+    "repos": [
+     {
+      "repo": "marin-community/marin",
+      "contributions": 712
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "feiranwang",
+  "name": "Feiran Wang",
+  "bio": "",
+  "company": "Stanford University",
+  "followers": 12,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "hazy-research",
+    "contributions": 696,
+    "repos": [
+     {
+      "repo": "HazyResearch/deepdive",
+      "contributions": 696
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "rolandtannous",
+  "name": "Roland Tannous",
+  "bio": "Passionate about everything to do with Big Data, Machine Learning and Artificial Intelligence. ",
+  "company": "GravityQ",
+  "followers": 135,
+  "blog": "https://gravityq.ai",
+  "x": "rolandtannous",
+  "labs": [
+   {
+    "lab": "unsloth",
+    "contributions": 683,
+    "repos": [
+     {
+      "repo": "unslothai/unsloth",
+      "contributions": 683
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "hamelsmu",
+  "name": "Hamel Husain",
+  "bio": "https://hamel.dev",
+  "company": "Parlance Labs",
+  "followers": 2941,
+  "blog": "http://hamel.dev",
+  "x": "HamelHusain",
+  "labs": [
+   {
+    "lab": "answer-ai",
+    "contributions": 669,
+    "repos": [
+     {
+      "repo": "AnswerDotAI/nbdev",
+      "contributions": 669
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "tofarr",
+  "name": "Tim O'Farrell",
+  "bio": "",
+  "company": null,
+  "followers": 48,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "openhands",
+    "contributions": 664,
+    "repos": [
+     {
+      "repo": "OpenHands/OpenHands",
+      "contributions": 664
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "AndriyMulyar",
+  "name": "Andriy Mulyar",
+  "bio": "Merging humans with latent spaces at @nomic-ai ",
+  "company": "Nomic AI",
+  "followers": 441,
+  "blog": "andriymulyar.com",
+  "x": "andriy_mulyar",
+  "labs": [
+   {
+    "lab": "nomic-ai",
+    "contributions": 662,
+    "repos": [
+     {
+      "repo": "nomic-ai/gpt4all",
+      "contributions": 170
+     },
+     {
+      "repo": "nomic-ai/nomic",
+      "contributions": 492
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jordimas",
+  "name": "Jordi Mas",
+  "bio": "",
+  "company": null,
+  "followers": 181,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "softcatala",
+    "contributions": 660,
+    "repos": [
+     {
+      "repo": "Softcatala/whisper-ctranslate2",
+      "contributions": 257
+     },
+     {
+      "repo": "Softcatala/nmt-softcatala",
+      "contributions": 403
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "lbeurerkellner",
+  "name": "Luca Beurer-Kellner",
+  "bio": "Building secure and reliable agentic systems at Invariant Labs.",
+  "company": null,
+  "followers": 126,
+  "blog": "https://invariantlabs.ai",
+  "x": null,
+  "labs": [
+   {
+    "lab": "sri-lab",
+    "contributions": 660,
+    "repos": [
+     {
+      "repo": "eth-sri/lmql",
+      "contributions": 660
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "lukewys",
+  "name": "Yusong Wu",
+  "bio": "lukewys.github.io",
+  "company": "University of Montreal",
+  "followers": 141,
+  "blog": "lukewys.github.io",
+  "x": null,
+  "labs": [
+   {
+    "lab": "laion",
+    "contributions": 649,
+    "repos": [
+     {
+      "repo": "LAION-AI/CLAP",
+      "contributions": 649
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "xingyaoww",
+  "name": "Xingyao Wang",
+  "bio": "Co-founder & CAIO @All-Hands-AI. PhD candidate in CS @Illinois. B.S. in CS & DS @umich. Ex-Intern @Google @Microsoft @ByteDance @Tencent.",
+  "company": "OpenHands / All Hands AI",
+  "followers": 1489,
+  "blog": "xwang.dev",
+  "x": "xingyaow_",
+  "labs": [
+   {
+    "lab": "openhands",
+    "contributions": 642,
+    "repos": [
+     {
+      "repo": "OpenHands/OpenHands",
+      "contributions": 642
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "liyier90",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 5,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "ai-singapore",
+    "contributions": 639,
+    "repos": [
+     {
+      "repo": "aisingapore/PeekingDuck",
+      "contributions": 639
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jelmervdl",
+  "name": "Jelmer",
+  "bio": "Likes to talk to computers. Currently at @EIT-AI. Previously @meta-llama , @EdinburghNLP, @hplt-project , @paracrawl, @geodienst, @rug-compling.",
+  "company": null,
+  "followers": 74,
+  "blog": "https://jelmervanderlinde.nl/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "hplt",
+    "contributions": 637,
+    "repos": [
+     {
+      "repo": "hplt-project/OpusCleaner",
+      "contributions": 479
+     },
+     {
+      "repo": "hplt-project/OpusTrainer",
+      "contributions": 158
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "enyst",
+  "name": "Engel Nyst",
+  "bio": "Software developer & copyright nerd.\r\n\r\nOpen Source AI is too important.",
+  "company": null,
+  "followers": 189,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "openhands",
+    "contributions": 637,
+    "repos": [
+     {
+      "repo": "OpenHands/OpenHands",
+      "contributions": 637
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Jeronymous",
+  "name": "Jérôme Louradour",
+  "bio": "Support me at https://buymeacoffee.com/jeronymous\r\n",
+  "company": null,
+  "followers": 30,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "openllm-france",
+    "contributions": 637,
+    "repos": [
+     {
+      "repo": "OpenLLM-France/Lucie-Training",
+      "contributions": 359
+     },
+     {
+      "repo": "OpenLLM-France/Lit-Claire",
+      "contributions": 278
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "kaisugi",
+  "name": "Kaito Sugimoto",
+  "bio": "Founder and lead maintainer of llm-jp/awesome-japanese-llm",
+  "company": null,
+  "followers": 166,
+  "blog": "https://kaisugi.me",
+  "x": "_kaisugi",
+  "labs": [
+   {
+    "lab": "llm-jp",
+    "contributions": 635,
+    "repos": [
+     {
+      "repo": "llm-jp/awesome-japanese-llm",
+      "contributions": 635
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jamesbraza",
+  "name": "James Braza",
+  "bio": "Just a man eating spaghetti",
+  "company": "EECS PhD Student @ MIT",
+  "followers": 109,
+  "blog": "jamesbraza.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "futurehouse",
+    "contributions": 633,
+    "repos": [
+     {
+      "repo": "Future-House/paper-qa",
+      "contributions": 476
+     },
+     {
+      "repo": "Future-House/aviary",
+      "contributions": 157
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "nbarlowATI",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 24,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "the-alan-turing-institute",
+    "contributions": 630,
+    "repos": [
+     {
+      "repo": "alan-turing-institute/AIrsenal",
+      "contributions": 630
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "foxik",
+  "name": "Milan Straka",
+  "bio": "",
+  "company": "Charles University, Institue of Formal and Applied Linguistics",
+  "followers": 170,
+  "blog": "https://ufal.mff.cuni.cz/milan-straka",
+  "x": null,
+  "labs": [
+   {
+    "lab": "fal",
+    "contributions": 619,
+    "repos": [
+     {
+      "repo": "ufal/udpipe",
+      "contributions": 619
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "bmschmidt",
+  "name": "Benjamin Schmidt",
+  "bio": "",
+  "company": "Nomic",
+  "followers": 378,
+  "blog": "benschmidt.org",
+  "x": "benmschmidt",
+  "labs": [
+   {
+    "lab": "nomic-ai",
+    "contributions": 609,
+    "repos": [
+     {
+      "repo": "nomic-ai/nomic",
+      "contributions": 105
+     },
+     {
+      "repo": "nomic-ai/deepscatter",
+      "contributions": 504
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "dennybritz",
+  "name": "Denny Britz",
+  "bio": "",
+  "company": null,
+  "followers": 9852,
+  "blog": "https://dennybritz.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "hazy-research",
+    "contributions": 601,
+    "repos": [
+     {
+      "repo": "HazyResearch/deepdive",
+      "contributions": 601
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jart",
+  "name": "Justin Tunney",
+  "bio": "",
+  "company": null,
+  "followers": 12189,
+  "blog": "https://justine.lol",
+  "x": "jartine",
+  "labs": [
+   {
+    "lab": "mozilla-ai",
+    "contributions": 600,
+    "repos": [
+     {
+      "repo": "mozilla-ai/llamafile",
+      "contributions": 600
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "FrankLeeeee",
+  "name": "Shenggui Li",
+  "bio": "Stay Hungry, Stay Foolish.",
+  "company": "Nanyang Technological University",
+  "followers": 412,
+  "blog": "https://franklee.xyz/",
+  "x": "frankkklee",
+  "labs": [
+   {
+    "lab": "hpc-ai-tech",
+    "contributions": 572,
+    "repos": [
+     {
+      "repo": "hpcaitech/ColossalAI",
+      "contributions": 477
+     },
+     {
+      "repo": "hpcaitech/Open-Sora",
+      "contributions": 95
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "abhinavg4",
+  "name": "Abhinav Garg",
+  "bio": "",
+  "company": "Stanford University; IIT Kanpur",
+  "followers": 27,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "marin",
+    "contributions": 569,
+    "repos": [
+     {
+      "repo": "marin-community/marin",
+      "contributions": 569
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "vdumoulin",
+  "name": null,
+  "bio": "",
+  "company": "@google-deepmind ",
+  "followers": 815,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "mila-quebec-ai-institute",
+    "contributions": 569,
+    "repos": [
+     {
+      "repo": "mila-iqia/blocks",
+      "contributions": 114
+     },
+     {
+      "repo": "mila-iqia/fuel",
+      "contributions": 455
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "oelachqar",
+  "name": "Oussama Elachqar",
+  "bio": "",
+  "company": "oumi.ai",
+  "followers": 37,
+  "blog": "elachqar.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "oumi",
+    "contributions": 568,
+    "repos": [
+     {
+      "repo": "oumi-ai/oumi",
+      "contributions": 568
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "benjaminfspector",
+  "name": "Benjamin Spector",
+  "bio": "Pilot. Former grad student.",
+  "company": null,
+  "followers": 194,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "hazy-research",
+    "contributions": 564,
+    "repos": [
+     {
+      "repo": "HazyResearch/ThunderKittens",
+      "contributions": 564
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "noahho",
+  "name": "Noah Hollmann",
+  "bio": "Co-founder @ Prior Labs | Building AI for tabular data",
+  "company": "@PriorLabs ",
+  "followers": 75,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "prior-labs",
+    "contributions": 547,
+    "repos": [
+     {
+      "repo": "PriorLabs/TabPFN",
+      "contributions": 306
+     },
+     {
+      "repo": "PriorLabs/tabpfn-extensions",
+      "contributions": 241
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "2015aroras",
+  "name": "Shane A",
+  "bio": "",
+  "company": null,
+  "followers": 21,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "ai2",
+    "contributions": 534,
+    "repos": [
+     {
+      "repo": "allenai/OLMo",
+      "contributions": 534
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sebastian-nagel",
+  "name": "Sebastian Nagel",
+  "bio": "",
+  "company": "@commoncrawl ",
+  "followers": 131,
+  "blog": "https://de.linkedin.com/pub/sebastian-nagel/35/320/8b4",
+  "x": null,
+  "labs": [
+   {
+    "lab": "common-crawl-foundation",
+    "contributions": 519,
+    "repos": [
+     {
+      "repo": "commoncrawl/cc-pyspark",
+      "contributions": 133
+     },
+     {
+      "repo": "commoncrawl/news-crawl",
+      "contributions": 162
+     },
+     {
+      "repo": "commoncrawl/cc-crawl-statistics",
+      "contributions": 224
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "marcenacp",
+  "name": "Pierre Marcenac",
+  "bio": "Software engineer",
+  "company": "@google",
+  "followers": 34,
+  "blog": "",
+  "x": "marcenac",
+  "labs": [
+   {
+    "lab": "mlcommons",
+    "contributions": 518,
+    "repos": [
+     {
+      "repo": "mlcommons/croissant",
+      "contributions": 518
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "PicoCreator",
+  "name": "Eugene Cheah",
+  "bio": "Helping build AI LLM for opensource and specialized use cases - and is part of the RWKV team ( https://wiki.rwkv.com )",
+  "company": "recursal.ai",
+  "followers": 182,
+  "blog": "https://recursal.ai",
+  "x": "picocreator",
+  "labs": [
+   {
+    "lab": "rwkv",
+    "contributions": 512,
+    "repos": [
+     {
+      "repo": "RWKV/RWKV-infctx-trainer",
+      "contributions": 512
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ikergarcia1996",
+  "name": "Iker García-Ferrero",
+  "bio": "LLM Researcher",
+  "company": "Multiverse Computing",
+  "followers": 333,
+  "blog": "ikergarcia1996.github.io",
+  "x": "iker_garciaf",
+  "labs": [
+   {
+    "lab": "hitz-basque-center-for-language-technology",
+    "contributions": 511,
+    "repos": [
+     {
+      "repo": "hitz-zentroa/GoLLIE",
+      "contributions": 511
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "s-mizuki-nlp",
+  "name": "Sakae Mizuki",
+  "bio": "",
+  "company": "Okazaki Lab, Tokyo Institute of Technology",
+  "followers": 2,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "swallow-llm",
+    "contributions": 506,
+    "repos": [
+     {
+      "repo": "swallow-llm/swallow-evaluation-instruct",
+      "contributions": 506
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "yk",
+  "name": "Yannic Kilcher",
+  "bio": "",
+  "company": null,
+  "followers": 2366,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "laion",
+    "contributions": 501,
+    "repos": [
+     {
+      "repo": "LAION-AI/Open-Assistant",
+      "contributions": 501
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ahmeda14960",
+  "name": "Ahmed Ahmed",
+  "bio": "",
+  "company": null,
+  "followers": 14,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "marin",
+    "contributions": 497,
+    "repos": [
+     {
+      "repo": "marin-community/marin",
+      "contributions": 373
+     },
+     {
+      "repo": "marin-community/levanter",
+      "contributions": 124
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "raimbekovm",
+  "name": "Murat Raimbekov",
+  "bio": "Democratizing vision AI 🚀@ultralytics ",
+  "company": "@ultralytics ",
+  "followers": 47,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "ultralytics",
+    "contributions": 482,
+    "repos": [
+     {
+      "repo": "ultralytics/ultralytics",
+      "contributions": 482
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "leeping-ng",
+  "name": "Lee Ping Ng",
+  "bio": "Software Engineering | Computer Vision",
+  "company": null,
+  "followers": 14,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "ai-singapore",
+    "contributions": 474,
+    "repos": [
+     {
+      "repo": "aisingapore/PeekingDuck",
+      "contributions": 474
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sjrl",
+  "name": "Sebastian Husch Lee",
+  "bio": "Lead Product Engineer",
+  "company": "@deepset-ai ",
+  "followers": 69,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "deepset",
+    "contributions": 472,
+    "repos": [
+     {
+      "repo": "deepset-ai/haystack",
+      "contributions": 472
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "guarin",
+  "name": null,
+  "bio": "ML @huggingface 🤗 ",
+  "company": "Hugging Face",
+  "followers": 34,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "lightly",
+    "contributions": 472,
+    "repos": [
+     {
+      "repo": "lightly-ai/lightly",
+      "contributions": 248
+     },
+     {
+      "repo": "lightly-ai/lightly-train",
+      "contributions": 224
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "nikg4",
+  "name": "Nikolai",
+  "bio": "",
+  "company": null,
+  "followers": 0,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "oumi",
+    "contributions": 469,
+    "repos": [
+     {
+      "repo": "oumi-ai/oumi",
+      "contributions": 469
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "wasimysaid",
+  "name": "Wasim Yousef Said",
+  "bio": "",
+  "company": null,
+  "followers": 44,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "unsloth",
+    "contributions": 465,
+    "repos": [
+     {
+      "repo": "unslothai/unsloth",
+      "contributions": 465
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "michal-lightly",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 9,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "lightly",
+    "contributions": 458,
+    "repos": [
+     {
+      "repo": "lightly-ai/lightly-studio",
+      "contributions": 458
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "pakapaka333",
+  "name": "Koshiro Saito",
+  "bio": "",
+  "company": null,
+  "followers": 2,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "swallow-llm",
+    "contributions": 455,
+    "repos": [
+     {
+      "repo": "swallow-llm/swallow-evaluation-instruct",
+      "contributions": 262
+     },
+     {
+      "repo": "swallow-llm/swallow-evaluation",
+      "contributions": 193
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "RizwanMunawar",
+  "name": "Muhammad Rizwan Munawar",
+  "bio": "Solving real-world problems using computer vision | Influencer | Open source contributor | Technical writer VisionAI | Computer vision engineer | LLMs | Open FC",
+  "company": "@ultralytics",
+  "followers": 1118,
+  "blog": "https://rizwanai.com/",
+  "x": "muhammdrizwanmr",
+  "labs": [
+   {
+    "lab": "ultralytics",
+    "contributions": 453,
+    "repos": [
+     {
+      "repo": "ultralytics/ultralytics",
+      "contributions": 453
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "dwf",
+  "name": "David Warde-Farley",
+  "bio": "",
+  "company": null,
+  "followers": 338,
+  "blog": "http://dwf.name/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "mila-quebec-ai-institute",
+    "contributions": 451,
+    "repos": [
+     {
+      "repo": "mila-iqia/blocks",
+      "contributions": 306
+     },
+     {
+      "repo": "mila-iqia/fuel",
+      "contributions": 145
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Y-T-G",
+  "name": "Mohammed Yasin",
+  "bio": "GPU-less and working on computer vision.",
+  "company": "@ultralytics",
+  "followers": 202,
+  "blog": "https://Y-T-G.github.io",
+  "x": null,
+  "labs": [
+   {
+    "lab": "ultralytics",
+    "contributions": 447,
+    "repos": [
+     {
+      "repo": "ultralytics/ultralytics",
+      "contributions": 447
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "abhinadduri",
+  "name": "Abhinav Adduri",
+  "bio": "",
+  "company": null,
+  "followers": 31,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "arc-institute",
+    "contributions": 446,
+    "repos": [
+     {
+      "repo": "ArcInstitute/state",
+      "contributions": 446
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "IgorSusmelj",
+  "name": "Igor Susmelj",
+  "bio": "Co-founder at Lightly\r\nDegree from ETH Zurich with a focus on embedded computing and machine learning.",
+  "company": "Lightly",
+  "followers": 151,
+  "blog": "https://data-annotation.com/",
+  "x": "ISusmelj",
+  "labs": [
+   {
+    "lab": "lightly",
+    "contributions": 446,
+    "repos": [
+     {
+      "repo": "lightly-ai/lightly",
+      "contributions": 265
+     },
+     {
+      "repo": "lightly-ai/lightly-studio",
+      "contributions": 181
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ongtw",
+  "name": "David Ong Tat-Wee",
+  "bio": "s/w dev 10+yrs: C++, Java, C#.Net, Python;\r\nQuant fund manager 13+yrs: Octagon Capital;\r\nCurrent: Head of Engineering, AI Singapore, SEA-LION team",
+  "company": "AI Singapore",
+  "followers": 14,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "ai-singapore",
+    "contributions": 444,
+    "repos": [
+     {
+      "repo": "aisingapore/PeekingDuck",
+      "contributions": 444
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ver217",
+  "name": "Hongxin Liu",
+  "bio": "",
+  "company": null,
+  "followers": 189,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "hpc-ai-tech",
+    "contributions": 435,
+    "repos": [
+     {
+      "repo": "hpcaitech/ColossalAI",
+      "contributions": 435
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "cebtenzzre",
+  "name": "Jared Van Bortel",
+  "bio": "",
+  "company": "Nomic AI",
+  "followers": 181,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "nomic-ai",
+    "contributions": 435,
+    "repos": [
+     {
+      "repo": "nomic-ai/gpt4all",
+      "contributions": 435
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "xserra",
+  "name": "Xavier Serra",
+  "bio": "",
+  "company": "Universitat Pompeu Fabra",
+  "followers": 265,
+  "blog": "https://www.upf.edu/web/xavier-serra",
+  "x": null,
+  "labs": [
+   {
+    "lab": "music-technology-group",
+    "contributions": 428,
+    "repos": [
+     {
+      "repo": "MTG/sms-tools",
+      "contributions": 428
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "lmcafee-nvidia",
+  "name": "Lawrence McAfee",
+  "bio": "",
+  "company": "Nvidia Corporation",
+  "followers": 27,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "nvidia",
+    "contributions": 421,
+    "repos": [
+     {
+      "repo": "NVIDIA/Megatron-LM",
+      "contributions": 421
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "lvhan028",
+  "name": "Lyu Han",
+  "bio": "",
+  "company": null,
+  "followers": 142,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "shanghai-ai-laboratory",
+    "contributions": 421,
+    "repos": [
+     {
+      "repo": "InternLM/lmdeploy",
+      "contributions": 421
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sdtblck",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 91,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "eleutherai",
+    "contributions": 419,
+    "repos": [
+     {
+      "repo": "EleutherAI/gpt-neox",
+      "contributions": 419
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "hanhainebula",
+  "name": "Jianlyu Chen",
+  "bio": "A student studying at USTC.",
+  "company": "University of Science and Technology of China",
+  "followers": 27,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "baai",
+    "contributions": 416,
+    "repos": [
+     {
+      "repo": "FlagOpen/FlagEmbedding",
+      "contributions": 416
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "markus-beuckelmann",
+  "name": "Markus Beuckelmann",
+  "bio": "On the way to the future.",
+  "company": null,
+  "followers": 50,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "clips",
+    "contributions": 415,
+    "repos": [
+     {
+      "repo": "clips/pattern",
+      "contributions": 415
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "shanmugamr1992",
+  "name": "Shanmugam Ramasamy",
+  "bio": "",
+  "company": "Nvidia",
+  "followers": 18,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "nvidia",
+    "contributions": 410,
+    "repos": [
+     {
+      "repo": "NVIDIA/Megatron-LM",
+      "contributions": 410
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "thomass-dev",
+  "name": "Thomas S.",
+  "bio": "Senior Software Engineer & Pythonista",
+  "company": "@probabl-ai ",
+  "followers": 15,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "probabl",
+    "contributions": 410,
+    "repos": [
+     {
+      "repo": "probabl-ai/skore",
+      "contributions": 410
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "mlindauer",
+  "name": "Marius Lindauer",
+  "bio": "Prof. for ML at the LUH (Germany)",
+  "company": "@automl",
+  "followers": 55,
+  "blog": "https://www.ai.uni-hannover.de/de/institut/team/lindauer",
+  "x": null,
+  "labs": [
+   {
+    "lab": "automl-groups",
+    "contributions": 401,
+    "repos": [
+     {
+      "repo": "automl/SMAC3",
+      "contributions": 401
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "njbrake",
+  "name": "Nathan Brake",
+  "bio": "Product Builder @CompanyCam.\r\n\r\nPrev. Senior MLE @mozilla.ai",
+  "company": "@CompanyCam",
+  "followers": 899,
+  "blog": "",
+  "x": "natebrake",
+  "labs": [
+   {
+    "lab": "mozilla-ai",
+    "contributions": 390,
+    "repos": [
+     {
+      "repo": "mozilla-ai/any-llm",
+      "contributions": 390
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "oobabooga",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 5032,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "unsloth",
+    "contributions": 379,
+    "repos": [
+     {
+      "repo": "unslothai/unsloth",
+      "contributions": 379
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "julian-risch",
+  "name": "Julian Risch",
+  "bio": "Engineering Team Lead @deepset-ai \r\nworking on Haystack, the production-ready open source AI framework",
+  "company": "@deepset-ai",
+  "followers": 157,
+  "blog": "https://www.deepset.ai/",
+  "x": "Julian_Risch",
+  "labs": [
+   {
+    "lab": "deepset",
+    "contributions": 370,
+    "repos": [
+     {
+      "repo": "deepset-ai/haystack",
+      "contributions": 370
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "RyanMarten",
+  "name": "Ryan Marten",
+  "bio": "watching machines learn",
+  "company": null,
+  "followers": 302,
+  "blog": "ryanmarten.com",
+  "x": "ryan_marten",
+  "labs": [
+   {
+    "lab": "bespoke-labs",
+    "contributions": 369,
+    "repos": [
+     {
+      "repo": "bespokelabsai/curator",
+      "contributions": 369
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "mikemccabe210",
+  "name": "Michael McCabe",
+  "bio": "ML Research scientist interested in modeling large scale dynamical systems! ",
+  "company": "Google Research",
+  "followers": 153,
+  "blog": "https://mikemccabe210.github.io/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "polymathic-ai",
+    "contributions": 369,
+    "repos": [
+     {
+      "repo": "PolymathicAI/the_well",
+      "contributions": 369
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "tonywu71",
+  "name": "Tony Wu",
+  "bio": "AI-curious.\r\nResearch interests: LLM, Multimodal, Agents, Speech\r\n\r\nCentraleSupélec 🇫🇷 \r\nMLMI, Cambridge 🇬🇧",
+  "company": "@hcompai",
+  "followers": 115,
+  "blog": "",
+  "x": "tonywu_71",
+  "labs": [
+   {
+    "lab": "illuin-technology",
+    "contributions": 365,
+    "repos": [
+     {
+      "repo": "illuin-tech/colpali",
+      "contributions": 108
+     },
+     {
+      "repo": "illuin-tech/vidore-benchmark",
+      "contributions": 257
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sailist",
+  "name": "Haozhe",
+  "bio": "open source for my dream",
+  "company": null,
+  "followers": 136,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "moonshot-ai",
+    "contributions": 365,
+    "repos": [
+     {
+      "repo": "MoonshotAI/kimi-code",
+      "contributions": 365
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "fozziethebeat",
+  "name": "Keith Stevens",
+  "bio": "Making AI Silly",
+  "company": null,
+  "followers": 175,
+  "blog": "https://fozziethebeat.com/",
+  "x": "fozziethebeat",
+  "labs": [
+   {
+    "lab": "laion",
+    "contributions": 362,
+    "repos": [
+     {
+      "repo": "LAION-AI/Open-Assistant",
+      "contributions": 362
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "rsennrich",
+  "name": "Rico Sennrich",
+  "bio": "",
+  "company": "University of Zurich",
+  "followers": 473,
+  "blog": "https://www.cl.uzh.ch/sennrich",
+  "x": null,
+  "labs": [
+   {
+    "lab": "edinburghnlp",
+    "contributions": 356,
+    "repos": [
+     {
+      "repo": "EdinburghNLP/nematus",
+      "contributions": 356
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jon-tow",
+  "name": "Jonathan Tow",
+  "bio": "",
+  "company": null,
+  "followers": 81,
+  "blog": "https://jon-tow.github.io",
+  "x": null,
+  "labs": [
+   {
+    "lab": "eleutherai",
+    "contributions": 178,
+    "repos": [
+     {
+      "repo": "EleutherAI/lm-evaluation-harness",
+      "contributions": 178
+     }
+    ]
+   },
+   {
+    "lab": "occiglot",
+    "contributions": 178,
+    "repos": [
+     {
+      "repo": "occiglot/euro-lm-evaluation-harness",
+      "contributions": 178
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "grimoire",
+  "name": "Q.Yao",
+  "bio": "https://reurl.cc/aLxR2Y",
+  "company": null,
+  "followers": 442,
+  "blog": "https://grimoire.github.io/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "shanghai-ai-laboratory",
+    "contributions": 351,
+    "repos": [
+     {
+      "repo": "InternLM/lmdeploy",
+      "contributions": 351
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "andreaskoepf",
+  "name": "Andreas Köpf",
+  "bio": "",
+  "company": "Roboteur GmbH",
+  "followers": 595,
+  "blog": "http://www.roboteur.de/",
+  "x": "neurosp1ke",
+  "labs": [
+   {
+    "lab": "laion",
+    "contributions": 350,
+    "repos": [
+     {
+      "repo": "LAION-AI/Open-Assistant",
+      "contributions": 350
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "feifeibear",
+  "name": "Jiarui Fang（方佳瑞）",
+  "bio": "Democratizing AGI",
+  "company": "ByteDance",
+  "followers": 1915,
+  "blog": "https://fangjiarui.github.io/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "hpc-ai-tech",
+    "contributions": 347,
+    "repos": [
+     {
+      "repo": "hpcaitech/ColossalAI",
+      "contributions": 347
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "michaelzhiluo",
+  "name": "Michael Luo",
+  "bio": "UC Berkeley PhD\r\n",
+  "company": "UC Berkeley",
+  "followers": 164,
+  "blog": "www.michaelzhiluo.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "agentica",
+    "contributions": 345,
+    "repos": [
+     {
+      "repo": "agentica-project/rllm",
+      "contributions": 345
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jacobbieker",
+  "name": "Jacob Prince-Bieker",
+  "bio": "ML Researcher. Previously Open Climate Fix, BrightBand, Jua, SecondLaw, VIDA. Interested in  applications of AI to large-scale datasets, especially for weather",
+  "company": "@TipplyAI",
+  "followers": 158,
+  "blog": "https://www.jacobbieker.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "open-climate-fix",
+    "contributions": 332,
+    "repos": [
+     {
+      "repo": "openclimatefix/graph_weather",
+      "contributions": 98
+     },
+     {
+      "repo": "openclimatefix/metnet",
+      "contributions": 92
+     },
+     {
+      "repo": "openclimatefix/skillful_nowcasting",
+      "contributions": 142
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "liruifengv",
+  "name": null,
+  "bio": "I'm a web developer. @withastro maintainer.",
+  "company": null,
+  "followers": 602,
+  "blog": "https://liruifengv.com",
+  "x": "liruifengv",
+  "labs": [
+   {
+    "lab": "moonshot-ai",
+    "contributions": 331,
+    "repos": [
+     {
+      "repo": "MoonshotAI/kimi-code",
+      "contributions": 331
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "BlinkDL",
+  "name": "PENG Bo",
+  "bio": "RWKV is all you need",
+  "company": null,
+  "followers": 2773,
+  "blog": "https://rwkv.com/",
+  "x": "BlinkDL_AI",
+  "labs": [
+   {
+    "lab": "rwkv",
+    "contributions": 328,
+    "repos": [
+     {
+      "repo": "RWKV/RWKV-infctx-trainer",
+      "contributions": 328
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "asahi417",
+  "name": "Asahi Ushio",
+  "bio": "AI research.",
+  "company": null,
+  "followers": 96,
+  "blog": "https://asahiushio.com",
+  "x": "asahiushio",
+  "labs": [
+   {
+    "lab": "cardiff-nlp",
+    "contributions": 145,
+    "repos": [
+     {
+      "repo": "cardiffnlp/tweetnlp",
+      "contributions": 145
+     }
+    ]
+   },
+   {
+    "lab": "kotoba-technologies",
+    "contributions": 180,
+    "repos": [
+     {
+      "repo": "kotoba-tech/kotoba-whisper",
+      "contributions": 180
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "albincorreya",
+  "name": "Albin Correya",
+  "bio": "ML Engineering + Audio/Music Processing",
+  "company": null,
+  "followers": 78,
+  "blog": "",
+  "x": "albincorreya",
+  "labs": [
+   {
+    "lab": "music-technology-group",
+    "contributions": 319,
+    "repos": [
+     {
+      "repo": "MTG/essentia.js",
+      "contributions": 319
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "glemaitre",
+  "name": "Guillaume Lemaitre",
+  "bio": "",
+  "company": "VP of Engineering / OSS Engineer @probabl-ai ",
+  "followers": 938,
+  "blog": "https://glemaitre.github.io/",
+  "x": "glemaitre58",
+  "labs": [
+   {
+    "lab": "probabl",
+    "contributions": 319,
+    "repos": [
+     {
+      "repo": "probabl-ai/skore",
+      "contributions": 234
+     },
+     {
+      "repo": "probabl-ai/skore-skills",
+      "contributions": 85
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "wbxl2000",
+  "name": "qer",
+  "bio": "",
+  "company": "@MoonShotAI",
+  "followers": 139,
+  "blog": "qer.im",
+  "x": "wbxl2000",
+  "labs": [
+   {
+    "lab": "moonshot-ai",
+    "contributions": 318,
+    "repos": [
+     {
+      "repo": "MoonshotAI/kimi-code",
+      "contributions": 318
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jonasrauber",
+  "name": "Jonas Rauber",
+  "bio": "Machine Learning Researcher and Engineer",
+  "company": "Apple",
+  "followers": 175,
+  "blog": "https://jonasrauber.de/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "bethge-lab",
+    "contributions": 310,
+    "repos": [
+     {
+      "repo": "bethgelab/foolbox",
+      "contributions": 310
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "SumanthRH",
+  "name": "Sumanth R Hegde",
+  "bio": "Software Engineer, Anyscale. Intensity is all you need.\r\n",
+  "company": "Anyscale",
+  "followers": 114,
+  "blog": "sumanthrh.com",
+  "x": "sumanthrh",
+  "labs": [
+   {
+    "lab": "novasky",
+    "contributions": 306,
+    "repos": [
+     {
+      "repo": "NovaSky-AI/SkyRL",
+      "contributions": 306
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "nerdai",
+  "name": "Val Andrei Fajardo",
+  "bio": "AI Researcher/Engineer ✦ Ex Founding Engineer @run-llama (LlamaIndex) ✦ PhD (UWaterloo)\r\n",
+  "company": "nerdai solutions inc.",
+  "followers": 296,
+  "blog": "https://masfromscratch.com",
+  "x": "_nerdai_",
+  "labs": [
+   {
+    "lab": "vector-institute",
+    "contributions": 306,
+    "repos": [
+     {
+      "repo": "VectorInstitute/fed-rag",
+      "contributions": 306
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "CharlieJCJ",
+  "name": "Charlie Cheng-Jie Ji",
+  "bio": "Member of Technical Staff at Resolve AI | @gorilla-llm  | UC Berkeley 25' CS + DS | Research Assistant @ucbsky | Ex @bespokelabsai, AWS, Tencent AI, TA @DS-100 ",
+  "company": "Resolve AI",
+  "followers": 110,
+  "blog": "https://charliejcj.github.io/",
+  "x": "charlie_jcj02",
+  "labs": [
+   {
+    "lab": "bespoke-labs",
+    "contributions": 304,
+    "repos": [
+     {
+      "repo": "bespokelabsai/curator",
+      "contributions": 304
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "alvations",
+  "name": null,
+  "bio": "Homepage: http://alvations.com",
+  "company": null,
+  "followers": 345,
+  "blog": "https://www.buymeacoffee.com/alvations",
+  "x": null,
+  "labs": [
+   {
+    "lab": "hplt",
+    "contributions": 299,
+    "repos": [
+     {
+      "repo": "hplt-project/sacremoses",
+      "contributions": 299
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "fginter",
+  "name": "Filip Ginter",
+  "bio": "See primarily https://github.com/turkunlp",
+  "company": "University of Turku",
+  "followers": 62,
+  "blog": "http://fginter.github.io",
+  "x": null,
+  "labs": [
+   {
+    "lab": "turkunlp",
+    "contributions": 286,
+    "repos": [
+     {
+      "repo": "TurkuNLP/Turku-neural-parser-pipeline",
+      "contributions": 197
+     },
+     {
+      "repo": "TurkuNLP/Finnish-dep-parser",
+      "contributions": 89
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ShawnPana",
+  "name": "shawn pana",
+  "bio": "building oss",
+  "company": "@phone-harness ",
+  "followers": 210,
+  "blog": "shawnpana.com",
+  "x": "shawn_pana",
+  "labs": [
+   {
+    "lab": "browser-use",
+    "contributions": 284,
+    "repos": [
+     {
+      "repo": "browser-use/browser-use",
+      "contributions": 284
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "rubenohana",
+  "name": "Ruben Ohana",
+  "bio": "AI Senior Research Scientist @ NVIDIA",
+  "company": "NVIDIA",
+  "followers": 92,
+  "blog": "https://rubenohana.github.io/",
+  "x": "oharub",
+  "labs": [
+   {
+    "lab": "polymathic-ai",
+    "contributions": 281,
+    "repos": [
+     {
+      "repo": "PolymathicAI/the_well",
+      "contributions": 281
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "merrymercy",
+  "name": "Lianmin Zheng",
+  "bio": "Engineer",
+  "company": "Meta",
+  "followers": 4260,
+  "blog": "http://lmzheng.net",
+  "x": "lm_zheng",
+  "labs": [
+   {
+    "lab": "lmarena",
+    "contributions": 270,
+    "repos": [
+     {
+      "repo": "lm-sys/FastChat",
+      "contributions": 270
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Nkluge-correa",
+  "name": "Nicholas Kluge Corrêa",
+  "bio": "",
+  "company": "University of Bonn",
+  "followers": 88,
+  "blog": "https://nkluge-correa.github.io/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "polygl0t",
+    "contributions": 269,
+    "repos": [
+     {
+      "repo": "Polygl0t/llm-foundry",
+      "contributions": 269
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "yiranyyu",
+  "name": "Tianyu Yu",
+  "bio": "",
+  "company": "Tsinghua University",
+  "followers": 175,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "openbmb-modelbest",
+    "contributions": 265,
+    "repos": [
+     {
+      "repo": "OpenBMB/MiniCPM-V",
+      "contributions": 265
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "cg123",
+  "name": "Charles O. Goddard",
+  "bio": "",
+  "company": null,
+  "followers": 289,
+  "blog": "goddard.blog",
+  "x": null,
+  "labs": [
+   {
+    "lab": "arcee-ai",
+    "contributions": 252,
+    "repos": [
+     {
+      "repo": "arcee-ai/mergekit",
+      "contributions": 252
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "rishibommasani",
+  "name": "Rishi Bommasani",
+  "bio": "Ph.D. at Stanford NLP, Stanford CS             \r\nAdvisers: Percy Liang and Dan Jurafsky  \r\nPast: B.A. '19, M.S. '20 at Cornell CS",
+  "company": "Stanford University",
+  "followers": 96,
+  "blog": "rishibommasani.github.io",
+  "x": null,
+  "labs": [
+   {
+    "lab": "stanford-crfm",
+    "contributions": 250,
+    "repos": [
+     {
+      "repo": "stanford-crfm/helm",
+      "contributions": 250
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jeffreysijuntan",
+  "name": "Sijun",
+  "bio": "CS PhD @ UC Berkeley",
+  "company": "University of California, Berkeley",
+  "followers": 127,
+  "blog": "jeffreysijuntan.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "agentica",
+    "contributions": 249,
+    "repos": [
+     {
+      "repo": "agentica-project/rllm",
+      "contributions": 249
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "borzunov",
+  "name": "Alexander Borzunov",
+  "bio": "",
+  "company": null,
+  "followers": 349,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "bigscience",
+    "contributions": 243,
+    "repos": [
+     {
+      "repo": "bigscience-workshop/petals",
+      "contributions": 243
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "kawine",
+  "name": "Kawin",
+  "bio": "Grad student in NLP. I make contributions here sporadically.",
+  "company": null,
+  "followers": 63,
+  "blog": "https://kawine.github.io/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "contextual-ai",
+    "contributions": 234,
+    "repos": [
+     {
+      "repo": "ContextualAI/HALOs",
+      "contributions": 234
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "dtsip",
+  "name": "Dimitris Tsipras",
+  "bio": "",
+  "company": null,
+  "followers": 102,
+  "blog": "https://dtsipras.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "stanford-crfm",
+    "contributions": 234,
+    "repos": [
+     {
+      "repo": "stanford-crfm/helm",
+      "contributions": 234
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sophiamyang",
+  "name": "Sophia Yang",
+  "bio": "",
+  "company": "Mistral AI",
+  "followers": 610,
+  "blog": "",
+  "x": "sophiamyang",
+  "labs": [
+   {
+    "lab": "mistral-ai",
+    "contributions": 231,
+    "repos": [
+     {
+      "repo": "mistralai/cookbook",
+      "contributions": 231
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "duzx16",
+  "name": "Zhengxiao Du",
+  "bio": "",
+  "company": "Tsinghua University",
+  "followers": 801,
+  "blog": "https://duzx16.github.io/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "z-ai",
+    "contributions": 225,
+    "repos": [
+     {
+      "repo": "zai-org/ChatGLM-6B",
+      "contributions": 225
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "7Sageer",
+  "name": null,
+  "bio": "I'm absolutely right. ",
+  "company": "@MoonshotAI",
+  "followers": 148,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "moonshot-ai",
+    "contributions": 221,
+    "repos": [
+     {
+      "repo": "MoonshotAI/kimi-code",
+      "contributions": 221
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "daavoo",
+  "name": "David de la Iglesia Castro",
+  "bio": "",
+  "company": "@mozilla-ai",
+  "followers": 311,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "mozilla-ai",
+    "contributions": 217,
+    "repos": [
+     {
+      "repo": "mozilla-ai/any-llm",
+      "contributions": 217
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "zimmerrol",
+  "name": "Roland Zimmermann",
+  "bio": "PhD candidate in Machine Learning, previously @google",
+  "company": "University of Tübingen",
+  "followers": 108,
+  "blog": "rzimmermann.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "bethge-lab",
+    "contributions": 214,
+    "repos": [
+     {
+      "repo": "bethgelab/foolbox",
+      "contributions": 214
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "zRzRzRzRzRzRzR",
+  "name": "Yuxuan Zhang",
+  "bio": "Working at @zai-org, focusing on algorithms and open-source contributions.",
+  "company": "Z.ai",
+  "followers": 1751,
+  "blog": "https://zrbridge.top",
+  "x": "zRdianjiao",
+  "labs": [
+   {
+    "lab": "z-ai",
+    "contributions": 213,
+    "repos": [
+     {
+      "repo": "zai-org/ChatGLM3",
+      "contributions": 213
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "zhengzangw",
+  "name": "Zangwei Zheng",
+  "bio": "Full Stack Developer & AI Researcher | Ph.D. @NUS",
+  "company": "Nation University of Singapore",
+  "followers": 428,
+  "blog": "zangwei.dev",
+  "x": "zangweizheng",
+  "labs": [
+   {
+    "lab": "hpc-ai-tech",
+    "contributions": 212,
+    "repos": [
+     {
+      "repo": "hpcaitech/Open-Sora",
+      "contributions": 212
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "vikhyat",
+  "name": "vik",
+  "bio": "",
+  "company": null,
+  "followers": 768,
+  "blog": "",
+  "x": "vikhyatk",
+  "labs": [
+   {
+    "lab": "moondream",
+    "contributions": 210,
+    "repos": [
+     {
+      "repo": "m87-labs/moondream",
+      "contributions": 210
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "seeM",
+  "name": "Wasim Lorgat",
+  "bio": "",
+  "company": null,
+  "followers": 190,
+  "blog": "wasimlorgat.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "answer-ai",
+    "contributions": 206,
+    "repos": [
+     {
+      "repo": "AnswerDotAI/nbdev",
+      "contributions": 206
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Muennighoff",
+  "name": "Niklas",
+  "bio": "",
+  "company": null,
+  "followers": 475,
+  "blog": "muennighoff.com",
+  "x": "Muennighoff",
+  "labs": [
+   {
+    "lab": "bigcode",
+    "contributions": 193,
+    "repos": [
+     {
+      "repo": "bigcode-project/bigcode-evaluation-harness",
+      "contributions": 193
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "justheuristic",
+  "name": "justheuristic",
+  "bio": "building the hivemind",
+  "company": "YSDA",
+  "followers": 503,
+  "blog": "https://github.com/learning-at-home/hivemind",
+  "x": null,
+  "labs": [
+   {
+    "lab": "bigscience",
+    "contributions": 191,
+    "repos": [
+     {
+      "repo": "bigscience-workshop/petals",
+      "contributions": 191
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "AllentDan",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 250,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "shanghai-ai-laboratory",
+    "contributions": 190,
+    "repos": [
+     {
+      "repo": "InternLM/lmdeploy",
+      "contributions": 190
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "NohTow",
+  "name": "Antoine Chaffin",
+  "bio": "CS engineer & ML PhD @lightonai ",
+  "company": "@lightonai ",
+  "followers": 95,
+  "blog": "https://antoine.chaffin.fr",
+  "x": "antoine_chaffin",
+  "labs": [
+   {
+    "lab": "lighton",
+    "contributions": 188,
+    "repos": [
+     {
+      "repo": "lightonai/pylate",
+      "contributions": 188
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "eddiebergman",
+  "name": "Eddie Bergman",
+  "bio": "Some dude @dbtuneai",
+  "company": "dbtune.com",
+  "followers": 95,
+  "blog": "https://www.linkedin.com/in/eddie-bergman-356736153/",
+  "x": "Edberg_Wardman",
+  "labs": [
+   {
+    "lab": "automl-groups",
+    "contributions": 183,
+    "repos": [
+     {
+      "repo": "automl/auto-sklearn",
+      "contributions": 183
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "staoxiao",
+  "name": "Shitao Xiao",
+  "bio": "",
+  "company": null,
+  "followers": 115,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "baai",
+    "contributions": 182,
+    "repos": [
+     {
+      "repo": "FlagOpen/FlagEmbedding",
+      "contributions": 182
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "arjunsuresh",
+  "name": "Arjun Suresh",
+  "bio": "Developing MLCFlow for MLPerf and SPEC benchmarking",
+  "company": "@AMD",
+  "followers": 208,
+  "blog": "https://www.linkedin.com/in/arjunsuresh/",
+  "x": "arjunsuresh1987",
+  "labs": [
+   {
+    "lab": "mlcommons",
+    "contributions": 182,
+    "repos": [
+     {
+      "repo": "mlcommons/inference",
+      "contributions": 182
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "kartik4949",
+  "name": "The Dude",
+  "bio": "Post training data",
+  "company": "Bespokelabs AI",
+  "followers": 109,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "bespoke-labs",
+    "contributions": 179,
+    "repos": [
+     {
+      "repo": "bespokelabsai/curator",
+      "contributions": 179
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "RunningLeon",
+  "name": "RunningLeon",
+  "bio": "You are special.",
+  "company": "openmmlab",
+  "followers": 68,
+  "blog": "https://runningleon.github.io",
+  "x": null,
+  "labs": [
+   {
+    "lab": "shanghai-ai-laboratory",
+    "contributions": 174,
+    "repos": [
+     {
+      "repo": "InternLM/lmdeploy",
+      "contributions": 174
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "pydanny",
+  "name": "Daniel Roy Greenfeld",
+  "bio": "Husband of @audreyfeldroy 💘, father of Uma 🛴, Co-Author of Two Scoops of Django, formerly @nasa and @kraken-tech ",
+  "company": null,
+  "followers": 4436,
+  "blog": "https://daniel.feldroy.com",
+  "x": "pydanny",
+  "labs": [
+   {
+    "lab": "answer-ai",
+    "contributions": 170,
+    "repos": [
+     {
+      "repo": "AnswerDotAI/fasthtml",
+      "contributions": 170
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "muellerzr",
+  "name": "Zach Mueller",
+  "bio": "Passionate about Open Source and Deep Learning, working on 🤗 Accelerate",
+  "company": "@HuggingFace",
+  "followers": 1508,
+  "blog": "https://muellerminutes.substack.com/",
+  "x": "TheZachMueller",
+  "labs": [
+   {
+    "lab": "fast-ai",
+    "contributions": 170,
+    "repos": [
+     {
+      "repo": "fastai/fastai",
+      "contributions": 170
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "iojw",
+  "name": "Isaac Ong",
+  "bio": "",
+  "company": null,
+  "followers": 181,
+  "blog": "https://isaacong.me",
+  "x": "isaacongjw",
+  "labs": [
+   {
+    "lab": "lmarena",
+    "contributions": 162,
+    "repos": [
+     {
+      "repo": "lm-sys/RouteLLM",
+      "contributions": 162
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "blefaudeux",
+  "name": "Benjamin Lefaudeux",
+  "bio": "",
+  "company": "Mistral.ai",
+  "followers": 130,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "photoroom",
+    "contributions": 155,
+    "repos": [
+     {
+      "repo": "Photoroom/datago",
+      "contributions": 155
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "HuanzhiMao",
+  "name": "Huanzhi Mao",
+  "bio": "CS PhD @ UC Berkeley | Leading Berkeley Function Calling Leaderboard (BFCL) Project ",
+  "company": "UC Berkeley EECS",
+  "followers": 120,
+  "blog": "",
+  "x": "HuanzhiMao",
+  "labs": [
+   {
+    "lab": "gorilla",
+    "contributions": 147,
+    "repos": [
+     {
+      "repo": "ShishirPatil/gorilla",
+      "contributions": 147
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "okoge-kaz",
+  "name": "Kazuki Fujii",
+  "bio": "CS PhD student at the Institute of Science Tokyo\r\n",
+  "company": "Institute of Science Tokyo",
+  "followers": 128,
+  "blog": "https://okoge-kaz.github.io/",
+  "x": "okoge_kaz",
+  "labs": [
+   {
+    "lab": "kotoba-technologies",
+    "contributions": 147,
+    "repos": [
+     {
+      "repo": "kotoba-tech/kotomamba",
+      "contributions": 147
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "w-zz-w-zz-w",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 111,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "rwkv",
+    "contributions": 143,
+    "repos": [
+     {
+      "repo": "RWKV/RWKV-infctx-trainer",
+      "contributions": 143
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jwohlwend",
+  "name": "Jeremy Wohlwend",
+  "bio": "PhD Student @ MIT, CSAIL",
+  "company": "MIT",
+  "followers": 350,
+  "blog": "jeremywohlwend.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "boltz",
+    "contributions": 142,
+    "repos": [
+     {
+      "repo": "jwohlwend/boltz",
+      "contributions": 142
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "angeloskath",
+  "name": "Angelos Katharopoulos",
+  "bio": "",
+  "company": "Apple",
+  "followers": 454,
+  "blog": "https://angeloskath.github.io/",
+  "x": "angeloskath",
+  "labs": [
+   {
+    "lab": "idiap-research-institute",
+    "contributions": 139,
+    "repos": [
+     {
+      "repo": "idiap/importance-sampling",
+      "contributions": 139
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "CharlieFRuan",
+  "name": "Charlie Ruan",
+  "bio": "",
+  "company": "UC Berkeley",
+  "followers": 208,
+  "blog": "https://www.charlieruan.com",
+  "x": "charlie_ruan",
+  "labs": [
+   {
+    "lab": "novasky",
+    "contributions": 139,
+    "repos": [
+     {
+      "repo": "NovaSky-AI/SkyRL",
+      "contributions": 139
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "mowentian",
+  "name": "Huang Panpan",
+  "bio": "",
+  "company": "@HFAiLab @deepseek-ai ",
+  "followers": 1105,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "deepseek",
+    "contributions": 137,
+    "repos": [
+     {
+      "repo": "deepseek-ai/awesome-deepseek-integration",
+      "contributions": 137
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "pminervini",
+  "name": "Pasquale Minervini",
+  "bio": "\r\n    https://www.neuralnoise.com @pminervini\r\n",
+  "company": "@EdinburghNLP",
+  "followers": 247,
+  "blog": "https://www.neuralnoise.com",
+  "x": "pminervini",
+  "labs": [
+   {
+    "lab": "edinburghnlp",
+    "contributions": 136,
+    "repos": [
+     {
+      "repo": "EdinburghNLP/awesome-hallucination-detection",
+      "contributions": 136
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "LeoGrin",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 67,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "prior-labs",
+    "contributions": 135,
+    "repos": [
+     {
+      "repo": "PriorLabs/TabPFN",
+      "contributions": 135
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "alexeib",
+  "name": "Alexei Baevski",
+  "bio": "",
+  "company": "Google",
+  "followers": 166,
+  "blog": "",
+  "x": "alexei_baevski",
+  "labs": [
+   {
+    "lab": "fbk-machine-translation-unit",
+    "contributions": 134,
+    "repos": [
+     {
+      "repo": "hlt-mt/FBK-fairseq",
+      "contributions": 134
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "pcmoritz",
+  "name": "Philipp Moritz",
+  "bio": "",
+  "company": "Anyscale",
+  "followers": 251,
+  "blog": "http://www.cs.berkeley.edu/~pcmoritz/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "novasky",
+    "contributions": 131,
+    "repos": [
+     {
+      "repo": "NovaSky-AI/SkyRL",
+      "contributions": 131
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Zerthox",
+  "name": null,
+  "bio": "Lazy perfectionist.",
+  "company": null,
+  "followers": 124,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "aiml-lab",
+    "contributions": 128,
+    "repos": [
+     {
+      "repo": "ml-research/liground",
+      "contributions": 128
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ChanganVR",
+  "name": "Changan Chen",
+  "bio": "Pursuing physical AGI.",
+  "company": null,
+  "followers": 256,
+  "blog": "changan.io",
+  "x": "changanvr",
+  "labs": [
+   {
+    "lab": "vita",
+    "contributions": 128,
+    "repos": [
+     {
+      "repo": "vita-epfl/CrowdNav",
+      "contributions": 128
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "VictorSanh",
+  "name": "Victor SANH",
+  "bio": "AI Builder | Prev @huggingface",
+  "company": "@rilixai",
+  "followers": 448,
+  "blog": "https://twitter.com/SanhEstPasMoi",
+  "x": "SanhEstPasMoi",
+  "labs": [
+   {
+    "lab": "bigscience",
+    "contributions": 127,
+    "repos": [
+     {
+      "repo": "bigscience-workshop/promptsource",
+      "contributions": 127
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "profvjreddi",
+  "name": "Vijay Janapa Reddi",
+  "bio": "",
+  "company": null,
+  "followers": 529,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "mlcommons",
+    "contributions": 126,
+    "repos": [
+     {
+      "repo": "mlcommons/inference",
+      "contributions": 126
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "muupan",
+  "name": "Yasuhiro Fujita",
+  "bio": "Engineer at @pfnet",
+  "company": "@pfnet ",
+  "followers": 221,
+  "blog": "https://github.com/muupan/resume",
+  "x": null,
+  "labs": [
+   {
+    "lab": "preferred-networks",
+    "contributions": 125,
+    "repos": [
+     {
+      "repo": "pfnet/pfrl",
+      "contributions": 125
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "jenperson",
+  "name": "Jen Person",
+  "bio": "",
+  "company": "@mistralai",
+  "followers": 241,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "mistral-ai",
+    "contributions": 123,
+    "repos": [
+     {
+      "repo": "mistralai/cookbook",
+      "contributions": 123
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Rolv-Arild",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 83,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "nb-ai-lab",
+    "contributions": 122,
+    "repos": [
+     {
+      "repo": "NbAiLab/nostram",
+      "contributions": 122
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "freeman-jiang",
+  "name": "Freeman Jiang",
+  "bio": "cs @ uwaterloo. @recursecenter alum.",
+  "company": null,
+  "followers": 283,
+  "blog": "https://freemanjiang.com/",
+  "x": "freemanjiangg",
+  "labs": [
+   {
+    "lab": "sesame",
+    "contributions": 120,
+    "repos": [
+     {
+      "repo": "SesameAILabs/turnbench",
+      "contributions": 120
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "stas00",
+  "name": "Stas Bekman",
+  "bio": "Toolmaker. Author. Software creator, optimizer and harmonizer. Makes things work.\r\n\r\nCurrent domains: LLM/Training/Inference/Scalability/Machine Learning",
+  "company": "Stasosphere Online Inc. / ",
+  "followers": 2647,
+  "blog": "https://stasosphere.com/machine-learning/",
+  "x": "StasBekman",
+  "labs": [
+   {
+    "lab": "bigscience",
+    "contributions": 119,
+    "repos": [
+     {
+      "repo": "bigscience-workshop/Megatron-DeepSpeed",
+      "contributions": 119
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "BlankCheng",
+  "name": "Cheng",
+  "bio": "CS Ph.D. @UCSD | alumni @SJTU @xlang-ai @microsoft",
+  "company": "UC San Diego",
+  "followers": 140,
+  "blog": "blankcheng.github.io",
+  "x": "ChengZhoujun",
+  "labs": [
+   {
+    "lab": "institute-of-foundation-models",
+    "contributions": 114,
+    "repos": [
+     {
+      "repo": "LLM360/Reasoning360",
+      "contributions": 114
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "sylvaincom",
+  "name": "Sylvain Combettes",
+  "bio": "Co-founding CEO at Formel AI • PhD from ENS Paris-Saclay",
+  "company": null,
+  "followers": 92,
+  "blog": "https://sylvaincom.github.io",
+  "x": "sylvaincom",
+  "labs": [
+   {
+    "lab": "probabl",
+    "contributions": 114,
+    "repos": [
+     {
+      "repo": "probabl-ai/skore",
+      "contributions": 114
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "noamteyssier",
+  "name": "Noam Teyssier",
+  "bio": "Bioinformatics at the intersection of systems biology, machine learning, and functional genomics. ",
+  "company": "insitro",
+  "followers": 187,
+  "blog": "noamteyssier.github.io",
+  "x": "noamteyssier",
+  "labs": [
+   {
+    "lab": "arc-institute",
+    "contributions": 113,
+    "repos": [
+     {
+      "repo": "ArcInstitute/state",
+      "contributions": 113
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Riccorl",
+  "name": "Riccardo Orlando",
+  "bio": "Senior AI Engineer @ Principled Intelligence",
+  "company": "Principled Intelligence",
+  "followers": 113,
+  "blog": "https://riccardorlando.xyz",
+  "x": null,
+  "labs": [
+   {
+    "lab": "sapienza-nlp",
+    "contributions": 103,
+    "repos": [
+     {
+      "repo": "SapienzaNLP/relik",
+      "contributions": 103
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "ManuelFay",
+  "name": "Manuel Faysse",
+  "bio": "PhD student & Research Data Scientist. Interested in NLP amongst many things.",
+  "company": null,
+  "followers": 104,
+  "blog": "https://manuelfay.github.io/",
+  "x": null,
+  "labs": [
+   {
+    "lab": "illuin-technology",
+    "contributions": 102,
+    "repos": [
+     {
+      "repo": "illuin-tech/colpali",
+      "contributions": 102
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "namespace-Pt",
+  "name": null,
+  "bio": "",
+  "company": "Renmin University of China",
+  "followers": 79,
+  "blog": "namespace-pt.com",
+  "x": null,
+  "labs": [
+   {
+    "lab": "baai",
+    "contributions": 101,
+    "repos": [
+     {
+      "repo": "FlagOpen/FlagEmbedding",
+      "contributions": 101
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "lambda7xx",
+  "name": "Xiao",
+  "bio": "千里之行, 始于足下  |\r\nBuild Systems |                                  \r\nThink AI in System, Think System in AI.",
+  "company": "Shanghai Jiao Tong University",
+  "followers": 365,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "agentica",
+    "contributions": 97,
+    "repos": [
+     {
+      "repo": "agentica-project/rllm",
+      "contributions": 97
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "taizan",
+  "name": "TaiYama",
+  "bio": "Robot Engineer of Preferred Networks\r\nAuthor of PaintsChainer",
+  "company": "Preferred Networks",
+  "followers": 123,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "preferred-networks",
+    "contributions": 96,
+    "repos": [
+     {
+      "repo": "pfnet/PaintsChainer",
+      "contributions": 96
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Paulescu",
+  "name": "Pau Labarta Bajo",
+  "bio": "",
+  "company": null,
+  "followers": 1671,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "liquid-ai",
+    "contributions": 94,
+    "repos": [
+     {
+      "repo": "Liquid4All/cookbook",
+      "contributions": 94
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "txsun1997",
+  "name": "Tianxiang Sun",
+  "bio": "NLP/LLM Researcher.",
+  "company": "@analemmaai",
+  "followers": 726,
+  "blog": "txsun1997.github.io",
+  "x": "TianxiangSun",
+  "labs": [
+   {
+    "lab": "openmoss",
+    "contributions": 92,
+    "repos": [
+     {
+      "repo": "OpenMOSS/MOSS",
+      "contributions": 92
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "warner-benjamin",
+  "name": "Benjamin Warner",
+  "bio": "",
+  "company": null,
+  "followers": 160,
+  "blog": "benjaminwarner.dev",
+  "x": "benjamin_warner",
+  "labs": [
+   {
+    "lab": "fast-ai",
+    "contributions": 85,
+    "repos": [
+     {
+      "repo": "fastai/fastai",
+      "contributions": 85
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "Ber666",
+  "name": "Shibo Hao",
+  "bio": "Ph.D. student at UC San Diego; \r\n\r\nB.S. in Computer Science at Peking University",
+  "company": "UC San Diego",
+  "followers": 258,
+  "blog": "https://ber666.github.io/",
+  "x": "Ber18791531",
+  "labs": [
+   {
+    "lab": "institute-of-foundation-models",
+    "contributions": 85,
+    "repos": [
+     {
+      "repo": "LLM360/Reasoning360",
+      "contributions": 85
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "gkamradt",
+  "name": null,
+  "bio": "",
+  "company": null,
+  "followers": 1546,
+  "blog": "",
+  "x": null,
+  "labs": [
+   {
+    "lab": "arc-prize-foundation",
+    "contributions": 81,
+    "repos": [
+     {
+      "repo": "arcprize/arc-agi-benchmarking",
+      "contributions": 81
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "login": "colinchivers",
+  "name": "Colin Chivers",
+  "bio": "",
+  "company": null,
+  "followers": 228,
+  "blog": "",
+  "x": "norabelrose",
+  "labs": [
+   {
+    "lab": "far-ai",
+    "contributions": 80,
+    "repos": [
+     {
+      "repo": "AlignmentResearch/tuned-lens",
+      "contributions": 80
+     }
+    ]
+   }
+  ]
+ }
+]

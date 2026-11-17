@@ -1,0 +1,36 @@
+{
+ "id": "abhinav-garg",
+ "name": "Abhinav Garg",
+ "display": "Abhinav Garg",
+ "kind": "person",
+ "handles": {
+  "github": "abhinavg4",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "marin",
+   "org": "Marin",
+   "role": "Top contributor to marin",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Abhinav Garg is one of the most active contributors to Marin's open source work on GitHub, with 569 contributions to marin.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/abhinavg4",
+  "https://github.com/marin-community/marin"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

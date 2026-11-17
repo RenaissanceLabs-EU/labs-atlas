@@ -1,0 +1,35 @@
+{
+ "id": "lucie-flek",
+ "name": "Lucie Flek",
+ "display": "Lucie Flek",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5120003583",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "polygl0t",
+   "org": "Polygl0t",
+   "role": "Co-author of Tucano 2",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Lucie Flek is listed by Polygl0t as co-author of Tucano 2.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/Polygl0t",
+  "https://arxiv.org/abs/2603.03543"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

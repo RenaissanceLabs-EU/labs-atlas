@@ -1,0 +1,56 @@
+{
+ "id": "stephan-oepen",
+ "name": "Stephan Oepen",
+ "display": "Stephan Oepen",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "oepen",
+  "x": null,
+  "openalex": "A5058412010",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hplt",
+   "org": "HPLT",
+   "role": "HPLT member (University of Oslo)",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "language-technology-group-university-of-oslo",
+   "org": "Language Technology Group, University of Oslo",
+   "role": "Professor",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "openeurollm",
+   "org": "OpenEuroLLM",
+   "role": "University of Oslo partner representative; lead author of the initial training data catalogue",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Stephan Oepen is a professor in the Language Technology Group at the University of Oslo. Oepen is a member of the HPLT project, was first author of the HPLT 3.0 paper describing a multilingual pre-training dataset covering close to 200 language and script combinations, and leads data work in the OpenEuroLLM project at the University of Oslo. Oepen's earlier research includes grammar engineering and semantic parsing.",
+ "known_for": [
+  "First author of HPLT 3.0 multilingual dataset paper",
+  "University of Oslo lead in OpenEuroLLM data work",
+  "Grammar engineering and semantic parsing"
+ ],
+ "bio_sources": [
+  "https://mn.uio.no/ifi/english/people/aca/oe",
+  "https://arxiv.org/abs/2511.01066",
+  "https://www.openeurollm.eu/reports/D3_1__Initial_Training_Data_Catalogue.pdf",
+  "https://huggingface.co/oepen"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

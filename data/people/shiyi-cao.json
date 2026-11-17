@@ -1,0 +1,36 @@
+{
+ "id": "shiyi-cao",
+ "name": "Shiyi Cao",
+ "display": "Shiyi Cao",
+ "kind": "person",
+ "handles": {
+  "github": "caoshiyi",
+  "huggingface": null,
+  "x": "shiyi_c98",
+  "openalex": "A5039788110",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=NR59_v4AAAAJ",
+  "website": "https://shiyicao.com",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "novasky",
+   "org": "NovaSky",
+   "role": "Public org member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shiyi Cao is listed by NovaSky as public org member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://novasky-ai.github.io",
+  "https://shiyicao.com",
+  "https://arxiv.org/abs/2502.07374"
+ ],
+ "confidence": "high",
+ "auto": true
+}

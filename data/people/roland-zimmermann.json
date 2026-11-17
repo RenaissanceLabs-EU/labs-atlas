@@ -1,0 +1,36 @@
+{
+ "id": "roland-zimmermann",
+ "name": "Roland Zimmermann",
+ "display": "Roland Zimmermann",
+ "kind": "person",
+ "handles": {
+  "github": "zimmerrol",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bethge-lab",
+   "org": "Bethge Lab",
+   "role": "Top contributor to foolbox",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Roland Zimmermann is one of the most active contributors to Bethge Lab's open source work on GitHub, with 214 contributions to foolbox.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/zimmerrol",
+  "https://github.com/bethgelab/foolbox"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

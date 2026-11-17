@@ -1,0 +1,36 @@
+{
+ "id": "thomas-s",
+ "name": "Thomas S.",
+ "display": "Thomas S.",
+ "kind": "person",
+ "handles": {
+  "github": "thomass-dev",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "probabl",
+   "org": "probabl",
+   "role": "Top contributor to skore",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Thomas S. is one of the most active contributors to probabl's open source work on GitHub, with 410 contributions to skore. Their public GitHub profile reads: “Senior Software Engineer & Pythonista”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/thomass-dev",
+  "https://github.com/probabl-ai/skore"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

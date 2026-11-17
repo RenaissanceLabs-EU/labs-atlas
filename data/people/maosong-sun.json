@@ -1,0 +1,41 @@
+{
+ "id": "maosong-sun",
+ "name": "Maosong Sun",
+ "display": "Maosong Sun",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5046448314",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openbmb-modelbest",
+   "org": "OpenBMB / ModelBest",
+   "role": "Professor, Tsinghua University",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Maosong Sun is a professor of computer science at Tsinghua University who leads the THUNLP natural language processing group and is a senior principal investigator of OpenBMB. Recent co-authored work includes the Densing Law paper on LLM efficiency and the MiniCPM technical report.",
+ "known_for": [
+  "Leads Tsinghua THUNLP",
+  "OpenBMB principal investigator",
+  "Densing Law on LLM efficiency"
+ ],
+ "bio_sources": [
+  "https://www.tsinghua.edu.cn/en/info/1245/14611.htm",
+  "https://labindex.pages.dev/people/maosong-sun",
+  "https://arxiv.org/abs/2404.06395"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

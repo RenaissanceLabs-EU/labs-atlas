@@ -1,0 +1,36 @@
+{
+ "id": "william-falcon",
+ "name": "William Falcon",
+ "display": "William Falcon",
+ "kind": "person",
+ "handles": {
+  "github": "williamFalcon",
+  "huggingface": null,
+  "x": "williamfalcon",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lightning-ai",
+   "org": "Lightning AI",
+   "role": "Top contributor to pytorch-lightning",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "William Falcon is one of the most active contributors to Lightning AI's open source work on GitHub, with 2,329 contributions to pytorch-lightning.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/williamFalcon",
+  "https://github.com/Lightning-AI/pytorch-lightning"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

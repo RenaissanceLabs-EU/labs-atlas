@@ -1,0 +1,48 @@
+{
+ "id": "lilja-vrelid",
+ "name": "Lilja Øvrelid",
+ "display": "Lilja Øvrelid",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5080614776",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "language-technology-group-university-of-oslo",
+   "org": "Language Technology Group, University of Oslo",
+   "role": "Professor and group leader",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Integreat Center of Excellence",
+   "role": "Co-director",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Lilja Øvrelid is a professor and leader of the Language Technology Group at the University of Oslo's Department of Informatics, and a co-director of the Integreat Center of Excellence. Øvrelid's research covers syntactic and semantic processing of text with machine learning, and Øvrelid co-authored NorBench, a benchmark for Norwegian language models.",
+ "known_for": [
+  "Leader of the Language Technology Group, Oslo",
+  "Syntactic and semantic processing research",
+  "Co-author of NorBench"
+ ],
+ "bio_sources": [
+  "https://www.mn.uio.no/ifi/english/people/aca/liljao/index.html",
+  "https://jus.no/om-jus/vaare-forelesere/lilja-ovrelid",
+  "https://arxiv.org/abs/2305.03880"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "shu-liu",
+ "name": "Shu Liu",
+ "display": "Shu Liu",
+ "kind": "person",
+ "handles": {
+  "github": "lynnliu030",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5023175954",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=DB50KvcAAAAJ",
+  "website": "https://shulynnliu.com/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "novasky",
+   "org": "NovaSky",
+   "role": "Public org member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shu Liu is listed by NovaSky as public org member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://novasky-ai.github.io",
+  "https://shulynnliu.com/",
+  "https://arxiv.org/abs/2502.07374"
+ ],
+ "confidence": "high",
+ "auto": true
+}

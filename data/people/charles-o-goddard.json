@@ -1,0 +1,36 @@
+{
+ "id": "charles-o-goddard",
+ "name": "Charles O. Goddard",
+ "display": "Charles O. Goddard",
+ "kind": "person",
+ "handles": {
+  "github": "cg123",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "arcee-ai",
+   "org": "Arcee AI",
+   "role": "Top contributor to mergekit",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Charles O. Goddard is one of the most active contributors to Arcee AI's open source work on GitHub, with 252 contributions to mergekit.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/cg123",
+  "https://github.com/arcee-ai/mergekit"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

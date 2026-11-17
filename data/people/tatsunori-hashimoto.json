@@ -1,0 +1,48 @@
+{
+ "id": "tatsunori-hashimoto",
+ "name": "Tatsunori Hashimoto",
+ "display": "Tatsunori Hashimoto",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5015518638",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=5ygiTwsAAAAJ",
+  "website": "https://thashim.github.io/",
+  "linkedin": "https://www.linkedin.com/in/tatsunori-hashimoto-383231a"
+ },
+ "affiliations": [
+  {
+   "lab": "stanford-crfm",
+   "org": "Stanford CRFM",
+   "role": "Faculty researcher",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "stanford-nlp-group",
+   "org": "Stanford NLP Group",
+   "role": "Assistant Professor of Computer Science",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tatsunori Hashimoto is an Assistant Professor of Computer Science at Stanford University. Their work uses statistical tools to make machine learning systems, especially large language models, more robust and trustworthy. Hashimoto was a researcher on the Stanford Alpaca project and led work on AlpacaFarm and the AlpacaEval length-controlled evaluator.",
+ "known_for": [
+  "Stanford Alpaca instruction-following model",
+  "AlpacaFarm simulator for learning from human feedback",
+  "Length-controlled AlpacaEval"
+ ],
+ "bio_sources": [
+  "https://thashim.github.io/",
+  "https://stanforddaily.com/2023/04/02/how-stanford-researchers-attempted-to-make-a-new-chatgpt-with-less-than-600/",
+  "https://neurips.cc/virtual/2023/84383"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,41 @@
+{
+ "id": "husein-zolkepli",
+ "name": "Husein Zolkepli",
+ "display": "Husein Zolkepli",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "huseinzol05",
+  "x": null,
+  "openalex": "A5069687224",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mesolitica",
+   "org": "Mesolitica",
+   "role": "Co-founder and CTO",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Husein Zolkepli is co-founder and CTO of Mesolitica, a Malaysian company building language and speech models for Malaysian languages. Zolkepli is first author of the 2024 MaLLaM paper describing Malaysia-focused language models of 1.1B to 5B parameters, and publishes many open models and datasets on Hugging Face.",
+ "known_for": [
+  "Co-founder and CTO of Mesolitica",
+  "MaLLaM Malaysian language models",
+  "Open Malaysian speech and text datasets"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2401.14680",
+  "https://huggingface.co/huseinzol05",
+  "https://www.tatlerasia.com/power-purpose/innovation/mesolitica-ai-mallam-llm-khalil-nooh"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

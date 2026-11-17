@@ -1,0 +1,36 @@
+{
+ "id": "keith-stevens",
+ "name": "Keith Stevens",
+ "display": "Keith Stevens",
+ "kind": "person",
+ "handles": {
+  "github": "fozziethebeat",
+  "huggingface": null,
+  "x": "fozziethebeat",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "laion",
+   "org": "LAION",
+   "role": "Top contributor to Open-Assistant",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Keith Stevens is one of the most active contributors to LAION's open source work on GitHub, with 362 contributions to Open-Assistant. Their public GitHub profile reads: “Making AI Silly”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/fozziethebeat",
+  "https://github.com/LAION-AI/Open-Assistant"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

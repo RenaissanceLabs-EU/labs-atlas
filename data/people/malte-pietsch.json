@@ -1,0 +1,42 @@
+{
+ "id": "malte-pietsch",
+ "name": "Malte Pietsch",
+ "display": "Malte Pietsch",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5022118036",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "deepset",
+   "org": "deepset",
+   "role": "CTO and co-founder",
+   "current": true,
+   "since": 2018
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Malte Pietsch is co-founder and CTO of deepset, the Berlin company behind the open-source Haystack framework. Pietsch previously did NLP research at Carnegie Mellon University and created the FARM and Haystack frameworks. Published work includes GermanQuAD and GermanDPR, datasets for German question answering and passage retrieval, and the COVID-QA dataset.",
+ "known_for": [
+  "Co-founder and CTO of deepset",
+  "Creator of the Haystack and FARM frameworks",
+  "GermanQuAD and COVID-QA datasets"
+ ],
+ "bio_sources": [
+  "https://deepset.ai/about",
+  "https://neuronfeed.com/people/malte-pietsch",
+  "https://datasciencedojo.com/instructors-and-speakers/malte-pietsch/",
+  "https://api.openalex.org/authors/A5022118036"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

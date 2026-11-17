@@ -1,0 +1,36 @@
+{
+ "id": "ruben-ohana",
+ "name": "Ruben Ohana",
+ "display": "Ruben Ohana",
+ "kind": "person",
+ "handles": {
+  "github": "rubenohana",
+  "huggingface": null,
+  "x": "oharub",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "polymathic-ai",
+   "org": "Polymathic AI",
+   "role": "Top contributor to the_well",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ruben Ohana is one of the most active contributors to Polymathic AI's open source work on GitHub, with 281 contributions to the_well.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/rubenohana",
+  "https://github.com/PolymathicAI/the_well"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

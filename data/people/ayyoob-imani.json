@@ -1,0 +1,35 @@
+{
+ "id": "ayyoob-imani",
+ "name": "Ayyoob Imani",
+ "display": "Ayyoob Imani",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5047234847",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "cis-lmu-munich",
+   "org": "CIS, LMU Munich",
+   "role": "Glot500 and GlotLID author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ayyoob Imani is listed by CIS, LMU Munich as glot500 and GlotLID author.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.cis.uni-muenchen.de",
+  "https://arxiv.org/abs/2305.12182"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

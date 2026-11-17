@@ -1,0 +1,49 @@
+{
+ "id": "jacob-solawetz",
+ "name": "Jacob Solawetz",
+ "display": "Jacob Solawetz",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5098788742",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "arcee-ai",
+   "org": "Arcee AI",
+   "role": "Co-founder and CTO",
+   "current": true,
+   "since": 2023
+  },
+  {
+   "lab": null,
+   "org": "Roboflow",
+   "role": "Head of machine learning",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jacob Solawetz is a co-founder of Arcee AI and serves as its chief technology officer. Before Arcee, Solawetz was head of machine learning at Roboflow. Solawetz is a co-author of the MergeKit toolkit paper and of the Roboflow 100 object detection benchmark.",
+ "known_for": [
+  "Co-founder and CTO of Arcee AI",
+  "Co-author of MergeKit paper",
+  "Co-author of Roboflow 100 benchmark"
+ ],
+ "bio_sources": [
+  "https://www.arcee.ai/about/about-us",
+  "https://techcrunch.com/2024/01/24/arcee-is-a-secure-enterprise-focused-platform-for-building-genai",
+  "https://activeloop.ai/resources/jacobsolawetz",
+  "https://ar5iv.labs.arxiv.org/html/2403.13257"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

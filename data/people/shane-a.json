@@ -1,0 +1,36 @@
+{
+ "id": "shane-a",
+ "name": "Shane A",
+ "display": "Shane A",
+ "kind": "person",
+ "handles": {
+  "github": "2015aroras",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai2",
+   "org": "Allen Institute for AI",
+   "role": "Top contributor to OLMo",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shane A is one of the most active contributors to Allen Institute for AI's open source work on GitHub, with 534 contributions to OLMo.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/2015aroras",
+  "https://github.com/allenai/OLMo"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,49 @@
+{
+ "id": "clifton-poth",
+ "name": "Clifton Poth",
+ "display": "Clifton Poth",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5089105283",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "adapterhub",
+   "org": "AdapterHub",
+   "role": "First author of the Adapters library paper; co-developer of AdapterHub",
+   "current": false,
+   "since": 2021
+  },
+  {
+   "lab": null,
+   "org": "Cohere",
+   "role": "Machine learning engineer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Clifton Poth is a machine learning engineer at Cohere who works on multilingual retrieval and reranking. Poth was first author of the 2023 Adapters library paper and earlier co-developed AdapterHub as a research assistant at the UKP Lab at TU Darmstadt.",
+ "known_for": [
+  "First author of the Adapters library paper",
+  "Co-developer of AdapterHub",
+  "Multilingual retrieval and reranking"
+ ],
+ "bio_sources": [
+  "https://adapterhub.ml/",
+  "https://arxiv.org/pdf/2311.11077",
+  "https://aclanthology.org/people/c/clifton-poth",
+  "https://www.alphaxiv.org/@clifton-poth"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

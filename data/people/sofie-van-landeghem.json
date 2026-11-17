@@ -1,0 +1,37 @@
+{
+ "id": "sofie-van-landeghem",
+ "name": "Sofie Van Landeghem",
+ "display": "Sofie Van Landeghem",
+ "kind": "person",
+ "handles": {
+  "github": "svlandeg",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "explosion",
+   "org": "Explosion",
+   "role": "Top contributor to spaCy",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sofie Van Landeghem is one of the most active contributors to Explosion's open source work on GitHub, with 1,193 contributions to spaCy, thinc. Their public GitHub profile reads: “I'm a dedicated open-source maintainer and software engineer with deep expertise in Python, data, and AI (NLP/ML/LLMs)”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/svlandeg",
+  "https://github.com/explosion/spaCy",
+  "https://github.com/explosion/thinc"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

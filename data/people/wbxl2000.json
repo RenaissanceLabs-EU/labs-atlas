@@ -1,0 +1,36 @@
+{
+ "id": "wbxl2000",
+ "name": null,
+ "display": "wbxl2000",
+ "kind": "handle",
+ "handles": {
+  "github": "wbxl2000",
+  "huggingface": null,
+  "x": "wbxl2000",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "moonshot-ai",
+   "org": "Moonshot AI",
+   "role": "Top contributor to kimi-code",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "wbxl2000 is one of the most active contributors to Moonshot AI's open source work on GitHub, with 318 contributions to kimi-code.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/wbxl2000",
+  "https://github.com/MoonshotAI/kimi-code"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

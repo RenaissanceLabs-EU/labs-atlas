@@ -1,0 +1,211 @@
+[
+ {
+  "id": "magnus-muller-2",
+  "name": "Magnus Müller",
+  "labs": [
+   "Browser Use"
+  ],
+  "role": "Co-founder",
+  "handles": {
+   "github": "MagMueller",
+   "huggingface": null,
+   "x": "mamagnus00",
+   "openalex": null,
+   "orcid": null,
+   "scholar": null,
+   "website": null,
+   "linkedin": null
+  },
+  "evidence": [
+   "linked on lab page: https://github.com/MagMueller",
+   "github profile name matches: Magnus Müller"
+  ],
+  "sources": [
+   "https://browser-use.com",
+   "https://github.com/MagMueller"
+  ]
+ },
+ {
+  "id": "gregor-zunic-2",
+  "name": "Gregor Žunič",
+  "labs": [
+   "Browser Use"
+  ],
+  "role": "Co-founder",
+  "handles": {
+   "github": "gregpr07",
+   "huggingface": null,
+   "x": "gregpr07",
+   "openalex": null,
+   "orcid": null,
+   "scholar": null,
+   "website": null,
+   "linkedin": null
+  },
+  "evidence": [
+   "linked on lab page: https://github.com/gregpr07",
+   "github profile name matches: Gregor Žunič"
+  ],
+  "sources": [
+   "https://browser-use.com",
+   "https://github.com/gregpr07"
+  ]
+ },
+ {
+  "id": "tamas-varadi-2",
+  "name": "Tamás Váradi",
+  "labs": [
+   "Hungarian Research Centre for Linguistics"
+  ],
+  "role": "Director and senior research fellow",
+  "handles": {
+   "github": null,
+   "huggingface": "VarTamas",
+   "x": null,
+   "openalex": null,
+   "orcid": null,
+   "scholar": null,
+   "website": null,
+   "linkedin": null
+  },
+  "evidence": [
+   "linked on lab page: https://huggingface.co/VarTamas",
+   "hugging face profile name matches: Tamas Varadi"
+  ],
+  "sources": [
+   "https://nlp.nytud.hu",
+   "https://huggingface.co/VarTamas"
+  ]
+ },
+ {
+  "id": "patrick-perez-2",
+  "name": "Patrick Pérez",
+  "labs": [
+   "Kyutai"
+  ],
+  "role": "Chief Executive Officer",
+  "handles": {
+   "github": null,
+   "huggingface": null,
+   "x": null,
+   "openalex": null,
+   "orcid": null,
+   "scholar": "https://scholar.google.com/citations?user=8Cph5uQAAAAJ",
+   "website": "https://ptrckprz.github.io/",
+   "linkedin": null
+  },
+  "evidence": [
+   "personal page: https://ptrckprz.github.io/"
+  ],
+  "sources": [
+   "https://kyutai.org",
+   "https://ptrckprz.github.io/"
+  ]
+ },
+ {
+  "id": "laurent-mazare-2",
+  "name": "Laurent Mazaré",
+  "labs": [
+   "Kyutai"
+  ],
+  "role": "Head of Engineering",
+  "handles": {
+   "github": "LaurentMazare",
+   "huggingface": null,
+   "x": "lmazare",
+   "openalex": null,
+   "orcid": null,
+   "scholar": null,
+   "website": null,
+   "linkedin": null
+  },
+  "evidence": [
+   "linked on lab page: https://github.com/LaurentMazare",
+   "github profile name matches: Laurent Mazare"
+  ],
+  "sources": [
+   "https://kyutai.org",
+   "https://github.com/LaurentMazare"
+  ]
+ },
+ {
+  "id": "nicholas-kluge-correa-2",
+  "name": "Nicholas Kluge Corrêa",
+  "labs": [
+   "Polygl0t"
+  ],
+  "role": "Lead author of Tucano",
+  "handles": {
+   "github": "Nkluge-correa",
+   "huggingface": null,
+   "x": null,
+   "openalex": null,
+   "orcid": null,
+   "scholar": null,
+   "website": null,
+   "linkedin": null
+  },
+  "evidence": [
+   "linked on lab page: https://github.com/Nkluge-correa",
+   "github profile name matches: Nicholas Kluge Corrêa"
+  ],
+  "sources": [
+   "https://github.com/Polygl0t",
+   "https://github.com/Nkluge-correa"
+  ]
+ },
+ {
+  "id": "gael-varoquaux-2",
+  "name": "Gaël Varoquaux",
+  "labs": [
+   "probabl"
+  ],
+  "role": "Co-founder and chief science officer",
+  "handles": {
+   "github": "GaelVaroquaux",
+   "huggingface": null,
+   "x": "gaelVaroquaux",
+   "openalex": null,
+   "orcid": null,
+   "scholar": "https://scholar.google.com/citations?user=OGGu384AAAAJ",
+   "website": "https://gael-varoquaux.info/",
+   "linkedin": null
+  },
+  "evidence": [
+   "personal page: https://gael-varoquaux.info/",
+   "github link on personal page",
+   "github profile name matches: Gael Varoquaux"
+  ],
+  "sources": [
+   "https://probabl.ai",
+   "https://gael-varoquaux.info/"
+  ]
+ },
+ {
+  "id": "herve-bredin-2",
+  "name": "Hervé Bredin",
+  "labs": [
+   "pyannoteAI"
+  ],
+  "role": "Creator of pyannote.audio and chief science officer",
+  "handles": {
+   "github": "hbredin",
+   "huggingface": null,
+   "x": "hbredin",
+   "openalex": null,
+   "orcid": null,
+   "scholar": "https://scholar.google.com/citations?user=obEwWjZOI0cC",
+   "website": "https://herve.niderb.fr/",
+   "linkedin": "https://www.linkedin.com/in/herve-bredin"
+  },
+  "evidence": [
+   "personal page: https://herve.niderb.fr/",
+   "github link on personal page",
+   "github profile name matches: Hervé BREDIN"
+  ],
+  "sources": [
+   "https://www.pyannote.ai",
+   "https://herve.niderb.fr/"
+  ]
+ }
+]

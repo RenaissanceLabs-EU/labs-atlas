@@ -1,0 +1,36 @@
+{
+ "id": "7sageer",
+ "name": null,
+ "display": "7Sageer",
+ "kind": "handle",
+ "handles": {
+  "github": "7Sageer",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "moonshot-ai",
+   "org": "Moonshot AI",
+   "role": "Top contributor to kimi-code",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "7Sageer is one of the most active contributors to Moonshot AI's open source work on GitHub, with 221 contributions to kimi-code. Their public GitHub profile reads: “I'm absolutely right”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/7Sageer",
+  "https://github.com/MoonshotAI/kimi-code"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

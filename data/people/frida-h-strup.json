@@ -1,0 +1,35 @@
+{
+ "id": "frida-h-strup",
+ "name": "Frida Hæstrup",
+ "display": "Frida Hæstrup",
+ "kind": "person",
+ "handles": {
+  "github": "frillecode",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "center-for-humanities-computing",
+   "org": "Center for Humanities Computing",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Frida Hæstrup is listed by Center for Humanities Computing as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://chc.au.dk",
+  "https://github.com/frillecode"
+ ],
+ "confidence": "high",
+ "auto": true
+}

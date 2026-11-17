@@ -1,0 +1,42 @@
+{
+ "id": "igor-susmelj",
+ "name": "Igor Susmelj",
+ "display": "Igor Susmelj",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "igor-lightly",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lightly",
+   "org": "Lightly",
+   "role": "Co-founder and CTO",
+   "current": true,
+   "since": 2019
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Igor Susmelj is co-founder and chief technology officer of Lightly, a Swiss company founded in 2019 out of ETH Zurich research that builds data-curation and self-supervised training tools for computer vision, including the open-source LightlyTrain. Susmelj holds BSc and MSc degrees in electrical engineering from ETH Zurich and previously worked as a software engineer at the Swiss stock exchange.",
+ "known_for": [
+  "Co-founder and CTO of Lightly",
+  "LightlyTrain self-supervised pretraining",
+  "Data curation for computer vision"
+ ],
+ "bio_sources": [
+  "https://lightly.ai/about-us",
+  "https://www.ycombinator.com/companies/lightly",
+  "https://crunchbase.com/person/igor-susmelj",
+  "https://huggingface.co/igor-lightly"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

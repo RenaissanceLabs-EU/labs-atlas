@@ -1,0 +1,35 @@
+{
+ "id": "domen-vres",
+ "name": "Domen Vres",
+ "display": "Domen Vres",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5013906492",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "cjvt",
+   "org": "CJVT",
+   "role": "Researcher, GaMS first author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Domen Vres is listed by CJVT as researcher, GaMS first author. First author of the GaMS 1B paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.cjvt.si",
+  "https://arxiv.org/abs/2410.06898"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

@@ -1,0 +1,41 @@
+{
+ "id": "peter-schneider-kamp",
+ "name": "Peter Schneider-Kamp",
+ "display": "Peter Schneider-Kamp",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5058200123",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "danish-foundation-models",
+   "org": "Danish Foundation Models",
+   "role": "Co-lead; Professor, University of Southern Denmark",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Peter Schneider-Kamp is a professor in the Data Science section of the University of Southern Denmark's Department of Mathematics and Computer Science and a co-lead of the Danish Foundation Models project. They are a co-author of Danish Dynaword and have earlier work on automated termination proofs, including AProVE.",
+ "known_for": [
+  "Co-lead of Danish Foundation Models",
+  "Danish Dynaword open text dataset",
+  "Automated termination proving (AProVE)"
+ ],
+ "bio_sources": [
+  "https://www.sdu.dk/en/om-sdu/institutter-centre/imada_matematik_og_datalogi/nyt_fra_imada/dansk-sprogmodels-projekt",
+  "https://arxiv.org/abs/2508.02271",
+  "https://foundationmodels.dk"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "pinzhen-chen",
+ "name": "Pinzhen Chen",
+ "display": "Pinzhen Chen",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "pinzhenchen",
+  "x": null,
+  "openalex": "A5023609587",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hplt",
+   "org": "HPLT",
+   "role": "HPLT member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pinzhen Chen is listed by HPLT as hPLT member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://hplt-project.org",
+  "https://huggingface.co/pinzhenchen",
+  "https://arxiv.org/abs/2503.10267"
+ ],
+ "confidence": "high",
+ "auto": true
+}

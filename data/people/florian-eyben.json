@@ -1,0 +1,42 @@
+{
+ "id": "florian-eyben",
+ "name": "Florian Eyben",
+ "display": "Florian Eyben",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5023264395",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "audeering",
+   "org": "audEERING",
+   "role": "Co-founder and CTO; openSMILE author",
+   "current": true,
+   "since": 2012
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Florian Eyben is a co-founder of audEERING and its chief technology officer, and the lead developer of the openSMILE toolkit for audio feature extraction. The toolkit began at TU Munich and its development continued at audEERING from 2013.",
+ "known_for": [
+  "Co-founder of audEERING",
+  "Author of openSMILE",
+  "Speech emotion recognition"
+ ],
+ "bio_sources": [
+  "https://www.munich-startup.de/en/36422/audeering-7-questions/",
+  "https://en.everybodywiki.com/Audeering",
+  "https://www.wikipedia.org/wiki/OpenSMILE",
+  "https://api.openalex.org/authors/A5023264395"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

@@ -149,7 +149,7 @@ def main():
         if os.path.exists(out_path) and not FORCE:
             continue
         h = p.get("handles") or {}
-        act = {"fetched": TODAY}
+        act = {"fetched": TODAY, "handles": {"github": h.get("github"), "huggingface": h.get("huggingface"), "openalex": h.get("openalex")}}
         if h.get("github"):
             g = github(h["github"]); act["github"] = g
         if h.get("huggingface"):

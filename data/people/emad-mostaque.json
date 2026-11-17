@@ -1,0 +1,48 @@
+{
+ "id": "emad-mostaque",
+ "name": "Emad Mostaque",
+ "display": "Emad Mostaque",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5096908518",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "stability-ai",
+   "org": "Stability AI",
+   "role": "Founder; CEO until March 2024",
+   "current": false,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Intelligent Internet",
+   "role": "Founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Emad Mostaque co-founded Stability AI in 2020 and served as its CEO until resigning in March 2024. The company supported the release of Stable Diffusion in 2022. Mostaque is the founder of Intelligent Internet and an author on the Stable LM 2 1.6B technical report.",
+ "known_for": [
+  "Co-founder and former CEO of Stability AI",
+  "Stability AI Stable Diffusion releases",
+  "Founder of Intelligent Internet"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Emad_Mostaque",
+  "https://arxiv.org/abs/2402.17834",
+  "https://stability.ai"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "jenna-kanerva",
+ "name": "Jenna Kanerva",
+ "display": "Jenna Kanerva",
+ "kind": "person",
+ "handles": {
+  "github": "jmnybl",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5048932608",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "turkunlp",
+   "org": "TurkuNLP",
+   "role": "University Lecturer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jenna Kanerva is listed by TurkuNLP as university Lecturer. Researcher on Finnish language technology.",
+ "known_for": [],
+ "bio_sources": [
+  "https://turkunlp.org",
+  "https://github.com/jmnybl",
+  "https://arxiv.org/abs/1912.07076"
+ ],
+ "confidence": "high",
+ "auto": true
+}

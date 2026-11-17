@@ -1,0 +1,41 @@
+{
+ "id": "sakae-mizuki",
+ "name": "Sakae Mizuki",
+ "display": "Sakae Mizuki",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5091303934",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "swallow-llm",
+   "org": "Swallow LLM",
+   "role": "Researcher; instruction tuning and evaluation leader",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sakae Mizuki is a researcher affiliated with AIST and Science Tokyo. In the Swallow project, Mizuki leads the instruction tuning and LLM evaluation teams. Mizuki co-authored work on building Japanese instruction-tuning datasets from human-written instructions.",
+ "known_for": [
+  "Swallow instruction tuning lead",
+  "Swallow LLM evaluation lead",
+  "Japanese instruction-tuning datasets"
+ ],
+ "bio_sources": [
+  "https://swallow-llm.github.io/index.en.html",
+  "https://swallow-llm.github.io/llama3.1-swallow-8B-v0.5.en",
+  "https://www.arxiv.org/pdf/2503.23714"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "stefan-kesselheim",
+ "name": "Stefan Kesselheim",
+ "display": "Stefan Kesselheim",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5053642050",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "opengpt-x",
+   "org": "OpenGPT-X",
+   "role": "Researcher, Jülich Supercomputing Centre",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Stefan Kesselheim is listed by OpenGPT-X as researcher, Jülich Supercomputing Centre. Co-author of the Teuken-7B paper; Jülich supplied the training compute.",
+ "known_for": [],
+ "bio_sources": [
+  "https://opengpt-x.de",
+  "https://arxiv.org/abs/2410.03730"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

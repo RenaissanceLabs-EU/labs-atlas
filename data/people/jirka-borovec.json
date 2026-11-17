@@ -1,0 +1,36 @@
+{
+ "id": "jirka-borovec",
+ "name": "Jirka Borovec",
+ "display": "Jirka Borovec",
+ "kind": "person",
+ "handles": {
+  "github": "Borda",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lightning-ai",
+   "org": "Lightning AI",
+   "role": "Top contributor to pytorch-lightning",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jirka Borovec is one of the most active contributors to Lightning AI's open source work on GitHub, with 1,405 contributions to pytorch-lightning. Their public GitHub profile reads: “Computer Vision\r\n & Machine Learning\r\n & Bio-Medical Imaging\r\n & #DeepLearn\r\n & Kaggle Master”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/Borda",
+  "https://github.com/Lightning-AI/pytorch-lightning"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

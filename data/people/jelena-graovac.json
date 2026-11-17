@@ -1,0 +1,35 @@
+{
+ "id": "jelena-graovac",
+ "name": "Jelena Graovac",
+ "display": "Jelena Graovac",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "jgraovac",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "jerteh",
+   "org": "JeRTeh",
+   "role": "Member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jelena Graovac is listed by JeRTeh as member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://jerteh.rs",
+  "https://huggingface.co/jgraovac"
+ ],
+ "confidence": "high",
+ "auto": true
+}

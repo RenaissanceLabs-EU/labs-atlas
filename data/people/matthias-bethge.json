@@ -1,0 +1,42 @@
+{
+ "id": "matthias-bethge",
+ "name": "Matthias Bethge",
+ "display": "Matthias Bethge",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5061457780",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bethge-lab",
+   "org": "Bethge Lab",
+   "role": "Professor and lab head, director of the Tübingen AI Center",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Matthias Bethge is a professor of computational neuroscience and machine learning at the University of Tubingen and a director of the Tubingen AI Center. His group authored A Neural Algorithm of Artistic Style, an early neural style transfer method, and the Foolbox robustness toolbox.",
+ "known_for": [
+  "Neural style transfer co-author",
+  "Director of Tübingen AI Center",
+  "Robustness research and Foolbox"
+ ],
+ "bio_sources": [
+  "https://bethgelab.org/publication/2015_08_gatys",
+  "https://www.swissre.com/profile/Matthias_Bethge/ep_ff7094",
+  "https://api.openalex.org/authors/A5061457780",
+  "https://falling-walls.com/foundation/people/matthias-bethge"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

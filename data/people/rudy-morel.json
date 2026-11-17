@@ -1,0 +1,35 @@
+{
+ "id": "rudy-morel",
+ "name": "Rudy Morel",
+ "display": "Rudy Morel",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5067305449",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "polymathic-ai",
+   "org": "Polymathic AI",
+   "role": "Team member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Rudy Morel is listed by Polymathic AI as team member. Co-author of The Well.",
+ "known_for": [],
+ "bio_sources": [
+  "https://polymathic-ai.org",
+  "https://arxiv.org/abs/2412.00568"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

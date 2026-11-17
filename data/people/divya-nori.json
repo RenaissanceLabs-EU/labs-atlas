@@ -1,0 +1,35 @@
+{
+ "id": "divya-nori",
+ "name": "Divya Nori",
+ "display": "Divya Nori",
+ "kind": "person",
+ "handles": {
+  "github": "divnori",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": "https://divnori.github.io/",
+  "linkedin": "https://www.linkedin.com/in/divyanori"
+ },
+ "affiliations": [
+  {
+   "lab": "hazy-research",
+   "org": "Hazy Research",
+   "role": "PhD student",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Divya Nori is listed by Hazy Research as phD student.",
+ "known_for": [],
+ "bio_sources": [
+  "https://hazyresearch.stanford.edu",
+  "https://divnori.github.io/"
+ ],
+ "confidence": "high",
+ "auto": true
+}

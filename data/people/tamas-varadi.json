@@ -1,0 +1,42 @@
+{
+ "id": "tamas-varadi",
+ "name": "Tamás Váradi",
+ "display": "Tamás Váradi",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "VarTamas",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hungarian-research-centre-for-linguistics",
+   "org": "Hungarian Research Centre for Linguistics",
+   "role": "Director and senior research fellow",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tamás Váradi is a computational linguist at the Hungarian Research Centre for Linguistics. Váradi is the national coordinator of Hungary's participation in the CLARIN language resources infrastructure and co-authored the 2008 CLARIN overview paper.",
+ "known_for": [
+  "Hungarian national coordinator for CLARIN",
+  "Language resources and corpus linguistics",
+  "Co-author of the CLARIN infrastructure overview"
+ ],
+ "bio_sources": [
+  "https://iframe-www.clarin.eu/blog/tour-de-clarin-hungary",
+  "https://aclanthology.org/L08-1008/",
+  "https://huggingface.co/VarTamas"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "flag": "thin sources; the director title could not be verified (an older source lists Deputy Director of the predecessor institute)",
+ "enriched": true
+}

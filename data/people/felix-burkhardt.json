@@ -1,0 +1,36 @@
+{
+ "id": "felix-burkhardt",
+ "name": "Felix Burkhardt",
+ "display": "Felix Burkhardt",
+ "kind": "person",
+ "handles": {
+  "github": "felixbur",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5019602951",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "audeering",
+   "org": "audEERING",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Felix Burkhardt is listed by audEERING as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.audeering.com",
+  "https://github.com/felixbur",
+  "https://arxiv.org/abs/2203.07378"
+ ],
+ "confidence": "high",
+ "auto": true
+}

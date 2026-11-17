@@ -1,0 +1,48 @@
+{
+ "id": "alex-dimakis",
+ "name": "Alex Dimakis",
+ "display": "Alex Dimakis",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=JSFmVQEAAAAJ",
+  "website": "https://people.eecs.berkeley.edu/~alexdimakis/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bespoke-labs",
+   "org": "Bespoke Labs",
+   "role": "Co-founder and Chief Scientist; professor at UC Berkeley",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "UC Berkeley",
+   "role": "Professor of EECS",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alex Dimakis is a professor of EECS at UC Berkeley, co-director of the NSF AI Institute for Foundations of Machine Learning, and co-founder of Bespoke Labs. His work covers generative models for inverse problems, coding theory for distributed learning, and open data curation for reasoning models such as OpenThoughts and DataComp-LM.",
+ "known_for": [
+  "Co-founder of Bespoke Labs",
+  "OpenThoughts and DataComp-LM data curation",
+  "Generative models for compressed sensing"
+ ],
+ "bio_sources": [
+  "https://people.eecs.berkeley.edu/~alexdimakis/",
+  "https://scholar.google.com/citations?user=JSFmVQEAAAAJ",
+  "https://www.bespokelabs.ai/"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,49 @@
+{
+ "id": "ramin-hasani",
+ "name": "Ramin Hasani",
+ "display": "Ramin Hasani",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5025684214",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "liquid-ai",
+   "org": "Liquid AI",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "MIT CSAIL",
+   "role": "Postdoctoral associate and research affiliate",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ramin Hasani is co-founder and chief executive officer of Liquid AI, a company spun out of MIT CSAIL. Hasani holds a PhD from TU Wien and was a postdoctoral associate at MIT CSAIL, where Hasani co-developed liquid neural networks, a class of continuous-time models inspired by the nervous system of a small worm. Liquid AI builds efficient foundation models for on-device use.",
+ "known_for": [
+  "Co-inventor of liquid neural networks",
+  "CEO and co-founder of Liquid AI",
+  "Efficient on-device foundation models"
+ ],
+ "bio_sources": [
+  "https://www.liquid.ai/team/ramin-hasani",
+  "https://www.csail.mit.edu/person/ramin-hasani",
+  "https://event.technologyreview.com/emtech-digital-2025/speaker/1316117/ramin-hasani",
+  "https://www.snexplores.org/article/the-brain-of-a-tiny-worm-inspired-a-new-type-of-ai-liquid-neural-network"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

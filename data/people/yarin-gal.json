@@ -1,0 +1,55 @@
+{
+ "id": "yarin-gal",
+ "name": "Yarin Gal",
+ "display": "Yarin Gal",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5029186201",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://cs.ox.ac.uk/people/yarin.gal/website",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "oatml",
+   "org": "OATML",
+   "role": "Head of group, Associate Professor",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "UK AI Security Institute",
+   "role": "Expert advisor",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Alan Turing Institute",
+   "role": "Turing AI Fellow",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Yarin Gal is a professor of machine learning at the University of Oxford and head of the OATML group. Gal is also a Turing AI Fellow and an expert advisor to the UK AI Security Institute, and previously was research director of the government's Frontier AI Taskforce, where the Safeguards team was founded. Research covers Bayesian deep learning, uncertainty and AI safety.",
+ "known_for": [
+  "Head of the OATML group at Oxford",
+  "Bayesian deep learning and uncertainty",
+  "UK AI Security Institute advisor"
+ ],
+ "bio_sources": [
+  "https://cs.ox.ac.uk/people/yarin.gal/website",
+  "https://oatml.cs.ox.ac.uk",
+  "https://arxiv.org/abs/2106.02584"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

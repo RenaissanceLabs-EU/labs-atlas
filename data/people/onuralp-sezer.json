@@ -1,0 +1,43 @@
+{
+ "id": "onuralp-sezer",
+ "name": "Onuralp SEZER",
+ "display": "Onuralp SEZER",
+ "kind": "person",
+ "handles": {
+  "github": "onuralpszr",
+  "huggingface": null,
+  "x": "onuralpszr",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "roboflow",
+   "org": "Roboflow",
+   "role": "Top contributor to supervision",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "ultralytics",
+   "org": "Ultralytics",
+   "role": "Top contributor to ultralytics",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Onuralp SEZER is one of the most active contributors to Roboflow's open source work on GitHub, with 847 contributions to supervision.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/onuralpszr",
+  "https://github.com/roboflow/supervision"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

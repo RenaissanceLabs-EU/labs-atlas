@@ -1,0 +1,41 @@
+{
+ "id": "matteo-negri",
+ "name": "Matteo Negri",
+ "display": "Matteo Negri",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5015363344",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "fbk-machine-translation-unit",
+   "org": "FBK Machine Translation Unit",
+   "role": "Senior Research Scientist",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Matteo Negri is a senior research scientist in the Machine Translation group at Fondazione Bruno Kessler in Trento. Research centers on speech translation, subtitling and gender-inclusive machine translation. Negri co-authored the MuST-C corpus paper and FBK's submissions to the IWSLT shared tasks.",
+ "known_for": [
+  "Speech translation research at FBK",
+  "MuST-C corpus co-author",
+  "Subtitling and gender-inclusive MT"
+ ],
+ "bio_sources": [
+  "https://mt.fbk.eu/author/negri",
+  "https://mt.fbk.eu/?p=1328",
+  "https://newx.sg/scholar/NTTQbJsAAAAJ"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

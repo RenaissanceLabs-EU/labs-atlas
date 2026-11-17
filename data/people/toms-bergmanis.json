@@ -1,0 +1,41 @@
+{
+ "id": "toms-bergmanis",
+ "name": "Toms Bergmanis",
+ "display": "Toms Bergmanis",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5036980337",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "tilde",
+   "org": "Tilde",
+   "role": "Lead author, TildeOpen",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Toms Bergmanis is an AI researcher at Tilde in Latvia. Bergmanis is lead author of the TildeOpen LLM paper, which describes a 30-billion-parameter open-weight model for 34 European languages trained with a curriculum that alternates between uniform and natural language distributions.",
+ "known_for": [
+  "Lead author of TildeOpen LLM",
+  "Multilingual LLMs for smaller European languages",
+  "Curriculum learning for language equity"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2603.08182",
+  "https://aclanthology.org/2026.lrec-1.834/",
+  "https://www.amd.com/en/blogs/2025/tilde-trains-30b--balto-slavic-llm-on-amd-instinct---gpus.html"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -462,3 +462,6 @@ body.fullmap { overflow: hidden; }
 .mini-list p { margin-top: 3px; font-size: 14px; color: var(--ink-soft); }
 .pcard .spark { width: 100%; height: 26px; margin-top: auto; opacity: 0.9; }
 .pcard p { -webkit-line-clamp: 3; }
+
+.heat rect { width: 11px; height: 11px; rx: 2.5px; }
+.heat .c0 { fill: #efe6d2; } .heat .c1 { fill: #f3e3b6; } .heat .c2 { fill: #e6c46f; } .heat .c3 { fill: #c79a3f; } .heat .c4 { fill: #8c6a2a; }

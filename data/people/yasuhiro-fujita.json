@@ -1,0 +1,36 @@
+{
+ "id": "yasuhiro-fujita",
+ "name": "Yasuhiro Fujita",
+ "display": "Yasuhiro Fujita",
+ "kind": "person",
+ "handles": {
+  "github": "muupan",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "preferred-networks",
+   "org": "Preferred Networks",
+   "role": "Top contributor to pfrl",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Yasuhiro Fujita is one of the most active contributors to Preferred Networks's open source work on GitHub, with 125 contributions to pfrl.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/muupan",
+  "https://github.com/pfnet/pfrl"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

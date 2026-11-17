@@ -1,0 +1,48 @@
+{
+ "id": "sadao-kurohashi",
+ "name": "Sadao Kurohashi",
+ "display": "Sadao Kurohashi",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5028836340",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "llm-jp",
+   "org": "LLM-jp",
+   "role": "Director, NII LLM R&D Center; NII Director-General",
+   "current": true,
+   "since": 2024
+  },
+  {
+   "lab": null,
+   "org": "Kyoto University",
+   "role": "Program-specific professor",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sadao Kurohashi is Director-General of Japan's National Institute of Informatics (NII) since April 2023 and director of its Research and Development Center for Large Language Models (LLMC), created in April 2024. Kurohashi also holds an appointment at Kyoto University, where the PhD was earned in 1994. Kurohashi works on natural language processing and has promoted open, team-based development of Japanese LLMs through the LLM-jp group.",
+ "known_for": [
+  "Director-General of NII",
+  "Director of the NII LLM R&D Center",
+  "Japanese natural language processing research"
+ ],
+ "bio_sources": [
+  "https://www.nii.ac.jp/en/about/introduction/director/",
+  "https://www.nii.ac.jp/en/news/release/2024/0401.html",
+  "https://llmc.nii.ac.jp/llmc_sympo2025/speakers/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

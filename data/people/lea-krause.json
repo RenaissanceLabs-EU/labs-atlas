@@ -1,0 +1,35 @@
+{
+ "id": "lea-krause",
+ "name": "Lea Krause",
+ "display": "Lea Krause",
+ "kind": "person",
+ "handles": {
+  "github": "lkra",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=TwfRn4IAAAAJ",
+  "website": "https://lkra.github.io",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "cltl",
+   "org": "CLTL",
+   "role": "Member of the cltl GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Lea Krause is listed by CLTL as member of the cltl GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://cltl.nl",
+  "https://lkra.github.io"
+ ],
+ "confidence": "high",
+ "auto": true
+}

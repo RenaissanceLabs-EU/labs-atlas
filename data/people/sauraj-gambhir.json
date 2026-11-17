@@ -1,0 +1,42 @@
+{
+ "id": "sauraj-gambhir",
+ "name": "Sauraj Gambhir",
+ "display": "Sauraj Gambhir",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5120353288",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "prior-labs",
+   "org": "Prior Labs",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sauraj Gambhir is a co-founder of Prior Labs, a company building tabular foundation models based on TabPFN. They are a listed author on the TabPFN-2.5 technical report and later TabPFN reports. The sources opened give little further detail on their background.",
+ "known_for": [
+  "Co-founder of Prior Labs",
+  "Author on TabPFN-2.5 report",
+  "Work on tabular foundation models"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2511.08667",
+  "https://fortune.com/2025/02/05/prior-labs-9-million-euro-preseed-funding-tabular-data-ai/",
+  "https://priorlabs.ai"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "flag": "thin sources",
+ "enriched": true
+}

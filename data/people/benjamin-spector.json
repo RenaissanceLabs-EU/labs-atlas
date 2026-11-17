@@ -1,0 +1,36 @@
+{
+ "id": "benjamin-spector",
+ "name": "Benjamin Spector",
+ "display": "Benjamin Spector",
+ "kind": "person",
+ "handles": {
+  "github": "benjaminfspector",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hazy-research",
+   "org": "Hazy Research",
+   "role": "Top contributor to ThunderKittens",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Benjamin Spector is one of the most active contributors to Hazy Research's open source work on GitHub, with 564 contributions to ThunderKittens. Their public GitHub profile reads: “Pilot. Former grad student”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/benjaminfspector",
+  "https://github.com/HazyResearch/ThunderKittens"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

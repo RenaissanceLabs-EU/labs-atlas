@@ -1,0 +1,35 @@
+{
+ "id": "julen-etxaniz",
+ "name": "Julen Etxaniz",
+ "display": "Julen Etxaniz",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5016315389",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hitz-basque-center-for-language-technology",
+   "org": "HiTZ Basque Center for Language Technology",
+   "role": "First author of Latxa",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Julen Etxaniz is listed by HiTZ Basque Center for Language Technology as first author of Latxa. Led the Basque model and evaluation suite paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.hitz.eus",
+  "https://arxiv.org/abs/2403.20266"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

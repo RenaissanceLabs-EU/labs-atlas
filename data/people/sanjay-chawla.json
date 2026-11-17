@@ -1,0 +1,35 @@
+{
+ "id": "sanjay-chawla",
+ "name": "Sanjay Chawla",
+ "display": "Sanjay Chawla",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5037947876",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "qatar-computing-research-institute",
+   "org": "Qatar Computing Research Institute",
+   "role": "Co-author of the Fanar report",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sanjay Chawla is listed by Qatar Computing Research Institute as co-author of the Fanar report. Linked page is the Fanar paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.hbku.edu.qa/en/qcri",
+  "https://arxiv.org/abs/2501.13944"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

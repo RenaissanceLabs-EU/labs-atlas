@@ -1,0 +1,36 @@
+{
+ "id": "tianyu-yu",
+ "name": "Tianyu Yu",
+ "display": "Tianyu Yu",
+ "kind": "person",
+ "handles": {
+  "github": "yiranyyu",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openbmb-modelbest",
+   "org": "OpenBMB / ModelBest",
+   "role": "Top contributor to MiniCPM-V",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tianyu Yu is one of the most active contributors to OpenBMB / ModelBest's open source work on GitHub, with 265 contributions to MiniCPM-V.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/yiranyyu",
+  "https://github.com/OpenBMB/MiniCPM-V"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

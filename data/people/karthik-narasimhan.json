@@ -1,0 +1,48 @@
+{
+ "id": "karthik-narasimhan",
+ "name": "Karthik Narasimhan",
+ "display": "Karthik Narasimhan",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5025205227",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "princeton-nlp-group",
+   "org": "Princeton NLP Group",
+   "role": "Associate professor, co-author of SWE-bench and Tree of Thoughts",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Sierra",
+   "role": "Head of research",
+   "current": false,
+   "since": 2023
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Karthik Narasimhan is an associate professor of computer science at Princeton University, working on language agents. They are a co-author of SWE-bench, a benchmark of real GitHub issues for software engineering agents, and of ReAct and Tree of Thoughts. Narasimhan also served as head of research at Sierra.",
+ "known_for": [
+  "Co-author of SWE-bench",
+  "Co-author of ReAct and Tree of Thoughts",
+  "Research on language agents at Princeton"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2310.06770",
+  "https://sierra.ai/author/karthik-narasimhan",
+  "https://nlp.cs.princeton.edu"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,37 @@
+{
+ "id": "benjamin-schmidt",
+ "name": "Benjamin Schmidt",
+ "display": "Benjamin Schmidt",
+ "kind": "person",
+ "handles": {
+  "github": "bmschmidt",
+  "huggingface": null,
+  "x": "benmschmidt",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nomic-ai",
+   "org": "Nomic AI",
+   "role": "Top contributor to nomic",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Benjamin Schmidt is one of the most active contributors to Nomic AI's open source work on GitHub, with 609 contributions to deepscatter, nomic.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/bmschmidt",
+  "https://github.com/nomic-ai/nomic",
+  "https://github.com/nomic-ai/deepscatter"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

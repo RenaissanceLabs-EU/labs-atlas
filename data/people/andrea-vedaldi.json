@@ -1,0 +1,48 @@
+{
+ "id": "andrea-vedaldi",
+ "name": "Andrea Vedaldi",
+ "display": "Andrea Vedaldi",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5060511349",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=bRT7t28AAAAJ",
+  "website": "http://www.vlfeat.org/~vedaldi/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "visual-geometry-group",
+   "org": "Visual Geometry Group",
+   "role": "Professor",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Amazon",
+   "role": "Amazon Scholar, Frontier AI & Robotics",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Andrea Vedaldi is a Professor of Computer Vision and Machine Learning at the University of Oxford and co-lead of the Visual Geometry Group, and an Amazon Scholar in Amazon's Frontier AI and Robotics lab. Vedaldi works on spatial intelligence and 3D reconstruction. Vedaldi co-developed MatConvNet with Karel Lenc.",
+ "known_for": [
+  "MatConvNet deep learning toolbox",
+  "Feed-forward 3D reconstruction (VGGT-Omega)",
+  "Spatial intelligence research"
+ ],
+ "bio_sources": [
+  "http://www.robots.ox.ac.uk/~vedaldi/",
+  "https://arxiv.org/abs/1412.4564",
+  "https://chrirupp.github.io"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

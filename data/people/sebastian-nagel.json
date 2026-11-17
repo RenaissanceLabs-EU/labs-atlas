@@ -1,0 +1,37 @@
+{
+ "id": "sebastian-nagel",
+ "name": "Sebastian Nagel",
+ "display": "Sebastian Nagel",
+ "kind": "person",
+ "handles": {
+  "github": "sebastian-nagel",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "common-crawl-foundation",
+   "org": "Common Crawl Foundation",
+   "role": "Top contributor to cc-pyspark",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sebastian Nagel is one of the most active contributors to Common Crawl Foundation's open source work on GitHub, with 519 contributions to cc-crawl-statistics, news-crawl.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/sebastian-nagel",
+  "https://github.com/commoncrawl/cc-pyspark",
+  "https://github.com/commoncrawl/news-crawl"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

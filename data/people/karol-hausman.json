@@ -1,0 +1,55 @@
+{
+ "id": "karol-hausman",
+ "name": "Karol Hausman",
+ "display": "Karol Hausman",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5088777896",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=yy0UFOwAAAAJ",
+  "website": "https://karolhausman.github.io/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "physical-intelligence",
+   "org": "Physical Intelligence",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Google DeepMind",
+   "role": "Staff research scientist",
+   "current": false,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Stanford University",
+   "role": "Adjunct professor",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Karol Hausman is co-founder and CEO of Physical Intelligence, a company building robot foundation models. Before that, Hausman was a staff research scientist at Google DeepMind and an adjunct professor at Stanford. Hausman contributed to RT-1, RT-2, SayCan and PaLM-E, and to the Open X-Embodiment collaboration.",
+ "known_for": [
+  "Co-founder and CEO of Physical Intelligence",
+  "RT-1, RT-2 and SayCan robot learning work",
+  "Open X-Embodiment cross-robot dataset"
+ ],
+ "bio_sources": [
+  "https://karolhausman.github.io/",
+  "https://arxiv.org/abs/2410.24164",
+  "https://www.pi.website"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

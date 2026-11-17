@@ -1,0 +1,35 @@
+{
+ "id": "andreas-ruckle",
+ "name": "Andreas Rücklé",
+ "display": "Andreas Rücklé",
+ "kind": "person",
+ "handles": {
+  "github": "arueckle",
+  "huggingface": null,
+  "x": "arueckle",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=CdIEAd0AAAAJ",
+  "website": "http://rueckle.net",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "adapterhub",
+   "org": "AdapterHub",
+   "role": "Member of the adapter-hub GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Andreas Rücklé is listed by AdapterHub as member of the adapter-hub GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://adapterhub.ml",
+  "http://rueckle.net"
+ ],
+ "confidence": "high",
+ "auto": true
+}

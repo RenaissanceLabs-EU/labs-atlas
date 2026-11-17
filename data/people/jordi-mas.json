@@ -1,0 +1,37 @@
+{
+ "id": "jordi-mas",
+ "name": "Jordi Mas",
+ "display": "Jordi Mas",
+ "kind": "person",
+ "handles": {
+  "github": "jordimas",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "softcatala",
+   "org": "Softcatala",
+   "role": "Top contributor to whisper-ctranslate2",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jordi Mas is one of the most active contributors to Softcatala's open source work on GitHub, with 660 contributions to nmt-softcatala, whisper-ctranslate2.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jordimas",
+  "https://github.com/Softcatala/whisper-ctranslate2",
+  "https://github.com/Softcatala/nmt-softcatala"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

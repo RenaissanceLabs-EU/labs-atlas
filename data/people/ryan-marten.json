@@ -1,0 +1,35 @@
+{
+ "id": "ryan-marten",
+ "name": "Ryan Marten",
+ "display": "Ryan Marten",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5051599878",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openthoughts",
+   "org": "OpenThoughts",
+   "role": "Co-author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ryan Marten is listed by OpenThoughts as co-author. Second author of the OpenThoughts paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.openthoughts.ai",
+  "https://arxiv.org/abs/2506.04178"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "mert-unsal",
+ "name": "Mert Unsal",
+ "display": "Mert Unsal",
+ "kind": "person",
+ "handles": {
+  "github": "mertunsall",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "browser-use",
+   "org": "Browser Use",
+   "role": "Top contributor to browser-use",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mert Unsal is one of the most active contributors to Browser Use's open source work on GitHub, with 817 contributions to browser-use. Their public GitHub profile reads: “AI Researcher”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/mertunsall",
+  "https://github.com/browser-use/browser-use"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

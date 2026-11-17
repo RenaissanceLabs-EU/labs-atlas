@@ -1,0 +1,36 @@
+{
+ "id": "moritz-plenz",
+ "name": "Moritz Plenz",
+ "display": "Moritz Plenz",
+ "kind": "person",
+ "handles": {
+  "github": "MoritzPlenz",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5086376630",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "heidelberg-nlp",
+   "org": "Heidelberg NLP",
+   "role": "Graph Language Models first author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Moritz Plenz is listed by Heidelberg NLP as graph Language Models first author.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.cl.uni-heidelberg.de",
+  "https://github.com/MoritzPlenz",
+  "https://arxiv.org/abs/2401.07105"
+ ],
+ "confidence": "high",
+ "auto": true
+}

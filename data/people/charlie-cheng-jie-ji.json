@@ -1,0 +1,36 @@
+{
+ "id": "charlie-cheng-jie-ji",
+ "name": "Charlie Cheng-Jie Ji",
+ "display": "Charlie Cheng-Jie Ji",
+ "kind": "person",
+ "handles": {
+  "github": "CharlieJCJ",
+  "huggingface": null,
+  "x": "charlie_jcj02",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bespoke-labs",
+   "org": "Bespoke Labs",
+   "role": "Top contributor to curator",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Charlie Cheng-Jie Ji is one of the most active contributors to Bespoke Labs's open source work on GitHub, with 304 contributions to curator.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/CharlieJCJ",
+  "https://github.com/bespokelabsai/curator"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

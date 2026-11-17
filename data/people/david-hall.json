@@ -1,0 +1,35 @@
+{
+ "id": "david-hall",
+ "name": "David Hall",
+ "display": "David Hall",
+ "kind": "person",
+ "handles": {
+  "github": "dlwh",
+  "huggingface": null,
+  "x": "dlwh",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=6GpZV0YAAAAJ",
+  "website": "https://dlwh.org/",
+  "linkedin": "https://www.linkedin.com/in/dlwhall"
+ },
+ "affiliations": [
+  {
+   "lab": "marin",
+   "org": "Marin",
+   "role": "Leads Marin at Open Athena",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "David Hall is listed by Marin as leads Marin at Open Athena. Created the Levanter and Haliax JAX libraries; co-founded Semantic Machines.",
+ "known_for": [],
+ "bio_sources": [
+  "https://marin.community",
+  "https://dlwh.org/"
+ ],
+ "confidence": "high",
+ "auto": true
+}

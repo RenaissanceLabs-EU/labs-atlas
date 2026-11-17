@@ -1,0 +1,36 @@
+{
+ "id": "lianmin-zheng",
+ "name": "Lianmin Zheng",
+ "display": "Lianmin Zheng",
+ "kind": "person",
+ "handles": {
+  "github": "merrymercy",
+  "huggingface": null,
+  "x": "lm_zheng",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lmarena",
+   "org": "LMArena",
+   "role": "Top contributor to FastChat",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Lianmin Zheng is one of the most active contributors to LMArena's open source work on GitHub, with 270 contributions to FastChat. Their public GitHub profile reads: “Engineer”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/merrymercy",
+  "https://github.com/lm-sys/FastChat"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

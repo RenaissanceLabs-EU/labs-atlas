@@ -1,0 +1,48 @@
+{
+ "id": "rishi-bommasani",
+ "name": "Rishi Bommasani",
+ "display": "Rishi Bommasani",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5069576651",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=WMBXw1EAAAAJ",
+  "website": "https://rishibommasani.github.io/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "stanford-crfm",
+   "org": "Stanford CRFM",
+   "role": "Society lead and researcher",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Stanford HAI",
+   "role": "Senior Research Scholar",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Rishi Bommasani is a Senior Research Scholar at Stanford HAI and leads the society work at Stanford CRFM. Their research centers on the economic and societal impacts of frontier AI and on evidence-based AI policy. Bommasani was the lead author of the report \"On the Opportunities and Risks of Foundation Models\" and of the Foundation Model Transparency Index.",
+ "known_for": [
+  "Lead author of the foundation models report",
+  "Foundation Model Transparency Index",
+  "Evidence-based frontier AI policy research"
+ ],
+ "bio_sources": [
+  "https://rishibommasani.github.io/",
+  "https://crfm.stanford.edu",
+  "https://arxiv.org/abs/2108.07258"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,55 @@
+{
+ "id": "yoshua-bengio",
+ "name": "Yoshua Bengio",
+ "display": "Yoshua Bengio",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5086198262",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mila-quebec-ai-institute",
+   "org": "Mila - Quebec AI Institute",
+   "role": "Founder; scientific director until 2025",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "LawZero",
+   "role": "Co-president and scientific director",
+   "current": true,
+   "since": 2025
+  },
+  {
+   "lab": null,
+   "org": "Universite de Montreal",
+   "role": "Professor",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Yoshua Bengio is a professor at Universite de Montreal, founder of Mila (Quebec AI Institute) and its scientific director until 2025, and co-president of the nonprofit LawZero launched in 2025. Bengio shared the 2018 ACM A.M. Turing Award with Geoffrey Hinton and Yann LeCun, and chaired the International AI Safety Report.",
+ "known_for": [
+  "Deep learning pioneer and 2018 Turing Award co-recipient",
+  "Founder of Mila",
+  "Chair of the International AI Safety Report"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Yoshua_Bengio",
+  "https://mila.quebec",
+  "https://arxiv.org/abs/1409.0473"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

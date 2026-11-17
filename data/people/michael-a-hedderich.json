@@ -1,0 +1,42 @@
+{
+ "id": "michael-a-hedderich",
+ "name": "Michael A. Hedderich",
+ "display": "Michael A. Hedderich",
+ "kind": "person",
+ "handles": {
+  "github": "m-hedderich",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mainlp",
+   "org": "MaiNLP",
+   "role": "Junior research group leader",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Michael A. Hedderich is a junior research group leader at LMU Munich, affiliated with the MaiNLP group and the Munich Center for Machine Learning. Hedderich is also a member of the ELLIS Society.",
+ "known_for": [
+  "Junior research group leader at LMU Munich",
+  "MaiNLP group member",
+  "Natural language processing research"
+ ],
+ "bio_sources": [
+  "https://mainlp.github.io",
+  "https://github.com/m-hedderich",
+  "https://mygateway.pages.dev/p/https://michael-hedderich.de"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "flag": "thin sources",
+ "enriched": true
+}

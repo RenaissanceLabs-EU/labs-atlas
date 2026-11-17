@@ -1,0 +1,35 @@
+{
+ "id": "magnus-sahlgren",
+ "name": "Magnus Sahlgren",
+ "display": "Magnus Sahlgren",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5058048696",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai-sweden",
+   "org": "AI Sweden",
+   "role": "Researcher, GPT-SW3 co-author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Magnus Sahlgren is listed by AI Sweden as researcher, GPT-SW3 co-author.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.ai.se",
+  "https://arxiv.org/abs/2305.12987"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

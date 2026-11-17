@@ -1,0 +1,36 @@
+{
+ "id": "dzmitry-bahdanau",
+ "name": "Dzmitry Bahdanau",
+ "display": "Dzmitry Bahdanau",
+ "kind": "person",
+ "handles": {
+  "github": "rizar",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mila-quebec-ai-institute",
+   "org": "Mila - Quebec AI Institute",
+   "role": "Top contributor to blocks",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Dzmitry Bahdanau is one of the most active contributors to Mila - Quebec AI Institute's open source work on GitHub, with 1,004 contributions to blocks.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/rizar",
+  "https://github.com/mila-iqia/blocks"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

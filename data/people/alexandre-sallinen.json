@@ -1,0 +1,36 @@
+{
+ "id": "alexandre-sallinen",
+ "name": "Alexandre Sallinen",
+ "display": "Alexandre Sallinen",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "alexsallinen",
+  "x": null,
+  "openalex": "A5109698843",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "epfl-llm-team",
+   "org": "EPFL LLM Team",
+   "role": "MEDITRON co-author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alexandre Sallinen is listed by EPFL LLM Team as mEDITRON co-author.",
+ "known_for": [],
+ "bio_sources": [
+  "https://huggingface.co/epfl-llm",
+  "https://huggingface.co/alexsallinen",
+  "https://arxiv.org/abs/2311.16079"
+ ],
+ "confidence": "high",
+ "auto": true
+}

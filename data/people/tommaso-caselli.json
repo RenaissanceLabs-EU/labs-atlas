@@ -1,0 +1,41 @@
+{
+ "id": "tommaso-caselli",
+ "name": "Tommaso Caselli",
+ "display": "Tommaso Caselli",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5064384923",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "gronlp",
+   "org": "GroNLP",
+   "role": "HateBERT lead author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tommaso Caselli is a senior assistant professor in computational semantics at the University of Groningen's Center for Language and Cognition. Caselli is lead author of HateBERT, a BERT model retrained for abusive language detection in English, presented at WOAH 2021, and also contributed to the Dutch BERTje model.",
+ "known_for": [
+  "HateBERT abusive language model",
+  "Computational semantics",
+  "Co-developer of BERTje"
+ ],
+ "bio_sources": [
+  "https://www.alphaxiv.org/researchers/tommaso-caselli",
+  "https://huggingface.co/GroNLP/hateBERT",
+  "https://aclweb.org/anthology/2021.woah-1.3.pdf"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

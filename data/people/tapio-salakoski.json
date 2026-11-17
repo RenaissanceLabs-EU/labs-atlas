@@ -1,0 +1,41 @@
+{
+ "id": "tapio-salakoski",
+ "name": "Tapio Salakoski",
+ "display": "Tapio Salakoski",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5105839982",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://www.utu.fi/en/people/tapio-salakoski",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "turkunlp",
+   "org": "TurkuNLP",
+   "role": "Professor",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tapio Salakoski is Vice Rector for University Management at the University of Turku and a professor whose research areas include language technology, machine learning, bio and health informatics and learning analytics. Salakoski has co-authored work including the Universal Lemmatizer for Universal Dependencies treebanks.",
+ "known_for": [
+  "Language technology and machine learning",
+  "Bio and health informatics",
+  "Universal Lemmatizer co-author"
+ ],
+ "bio_sources": [
+  "https://www.utu.fi/en/people/tapio-salakoski",
+  "https://utu.fi/en/news/news/ai-watson-learns-finnish-in-turku",
+  "https://fginter.github.io/"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

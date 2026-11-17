@@ -1,0 +1,35 @@
+{
+ "id": "robin-ru",
+ "name": "Robin Ru",
+ "display": "Robin Ru",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=4piw-XMAAAAJ",
+  "website": "https://www.cs.ox.ac.uk/oatml/members/robin_ru/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "oatml",
+   "org": "OATML",
+   "role": "Member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Robin Ru is listed by OATML as member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://oatml.cs.ox.ac.uk",
+  "https://www.cs.ox.ac.uk/oatml/members/robin_ru/"
+ ],
+ "confidence": "high",
+ "auto": true
+}

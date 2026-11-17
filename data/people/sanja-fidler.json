@@ -1,0 +1,35 @@
+{
+ "id": "sanja-fidler",
+ "name": "Sanja Fidler",
+ "display": "Sanja Fidler",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5070642269",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nvidia",
+   "org": "NVIDIA",
+   "role": "Researcher, Cosmos",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sanja Fidler is listed by NVIDIA as researcher, Cosmos.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.nvidia.com",
+  "https://arxiv.org/abs/2501.03575"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

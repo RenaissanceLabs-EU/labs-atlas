@@ -1,0 +1,36 @@
+{
+ "id": "letitia-parcalabescu",
+ "name": "Letitia Parcalabescu",
+ "display": "Letitia Parcalabescu",
+ "kind": "person",
+ "handles": {
+  "github": "LetiP",
+  "huggingface": null,
+  "x": "AICoffeeBreak",
+  "openalex": "A5059410015",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "heidelberg-nlp",
+   "org": "Heidelberg NLP",
+   "role": "VALSE first author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Letitia Parcalabescu is listed by Heidelberg NLP as vALSE first author.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.cl.uni-heidelberg.de",
+  "https://github.com/LetiP",
+  "https://arxiv.org/abs/2112.07566"
+ ],
+ "confidence": "high",
+ "auto": true
+}

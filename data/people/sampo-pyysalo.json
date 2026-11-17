@@ -1,0 +1,41 @@
+{
+ "id": "sampo-pyysalo",
+ "name": "Sampo Pyysalo",
+ "display": "Sampo Pyysalo",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5066925770",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=GUHpTS0AAAAJ",
+  "website": "https://www.utu.fi/en/people/sampo-pyysalo",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "turkunlp",
+   "org": "TurkuNLP",
+   "role": "Senior Research Fellow",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sampo Pyysalo is a University Research Fellow in Data Analytics at the University of Turku in the TurkuNLP group. Pyysalo works on machine learning for natural language processing, scientific text mining and Finnish and multilingual language models. Publications include Poro 34B and the HPLT multilingual dataset.",
+ "known_for": [
+  "Biomedical and scientific text mining",
+  "Poro 34B Finnish-English LLM",
+  "HPLT multilingual datasets"
+ ],
+ "bio_sources": [
+  "https://www.utu.fi/en/people/sampo-pyysalo",
+  "https://arxiv.org/abs/2404.01856",
+  "https://fginter.github.io/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

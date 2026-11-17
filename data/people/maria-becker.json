@@ -1,0 +1,35 @@
+{
+ "id": "maria-becker",
+ "name": "Maria Becker",
+ "display": "Maria Becker",
+ "kind": "person",
+ "handles": {
+  "github": "maria-becker",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "heidelberg-nlp",
+   "org": "Heidelberg NLP",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Maria Becker is listed by Heidelberg NLP as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.cl.uni-heidelberg.de",
+  "https://github.com/maria-becker"
+ ],
+ "confidence": "high",
+ "auto": true
+}

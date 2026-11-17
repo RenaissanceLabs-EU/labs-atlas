@@ -1,0 +1,41 @@
+{
+ "id": "eneko-agirre",
+ "name": "Eneko Agirre",
+ "display": "Eneko Agirre",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5047151336",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=kSuqts0AAAAJ",
+  "website": "https://eagirre.github.io/",
+  "linkedin": "https://www.linkedin.com/in/enekoagirre"
+ },
+ "affiliations": [
+  {
+   "lab": "hitz-basque-center-for-language-technology",
+   "org": "HiTZ Basque Center for Language Technology",
+   "role": "Director of HiTZ; Professor, University of the Basque Country",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Eneko Agirre is a full professor at the University of the Basque Country and director of HiTZ, the Basque Center for Language Technology. Agirre is an ACL Fellow known for work on word sense disambiguation and semantic textual similarity. HiTZ released Latxa, an open large language model for Basque.",
+ "known_for": [
+  "Director of HiTZ language technology center",
+  "Word sense disambiguation",
+  "ACL Fellow, Basque Latxa models"
+ ],
+ "bio_sources": [
+  "https://eagirre.github.io/",
+  "https://www.hitz.eus/sites/default/files/HiTZ_2025_report.pdf",
+  "https://www.hitz.eus/sites/default/files/HiTZ_2024_report.pdf"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

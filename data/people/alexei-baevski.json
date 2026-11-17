@@ -1,0 +1,36 @@
+{
+ "id": "alexei-baevski",
+ "name": "Alexei Baevski",
+ "display": "Alexei Baevski",
+ "kind": "person",
+ "handles": {
+  "github": "alexeib",
+  "huggingface": null,
+  "x": "alexei_baevski",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "fbk-machine-translation-unit",
+   "org": "FBK Machine Translation Unit",
+   "role": "Top contributor to FBK-fairseq",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alexei Baevski is one of the most active contributors to FBK Machine Translation Unit's open source work on GitHub, with 134 contributions to FBK-fairseq.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/alexeib",
+  "https://github.com/hlt-mt/FBK-fairseq"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

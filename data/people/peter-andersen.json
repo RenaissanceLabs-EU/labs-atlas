@@ -1,0 +1,35 @@
+{
+ "id": "peter-andersen",
+ "name": "Peter Andersen",
+ "display": "Peter Andersen",
+ "kind": "person",
+ "handles": {
+  "github": "datpete",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "alexandra-institute",
+   "org": "Alexandra Institute",
+   "role": "Member of the alexandrainst GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Peter Andersen is listed by Alexandra Institute as member of the alexandrainst GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://alexandra.dk",
+  "https://github.com/datpete"
+ ],
+ "confidence": "high",
+ "auto": true
+}

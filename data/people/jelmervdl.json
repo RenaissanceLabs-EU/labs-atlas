@@ -1,0 +1,37 @@
+{
+ "id": "jelmervdl",
+ "name": null,
+ "display": "jelmervdl",
+ "kind": "handle",
+ "handles": {
+  "github": "jelmervdl",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hplt",
+   "org": "HPLT",
+   "role": "Top contributor to OpusCleaner",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "jelmervdl is one of the most active contributors to HPLT's open source work on GitHub, with 637 contributions to OpusCleaner, OpusTrainer.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jelmervdl",
+  "https://github.com/hplt-project/OpusCleaner",
+  "https://github.com/hplt-project/OpusTrainer"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

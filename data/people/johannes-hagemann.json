@@ -1,0 +1,41 @@
+{
+ "id": "johannes-hagemann",
+ "name": "Johannes Hagemann",
+ "display": "Johannes Hagemann",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5101430093",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "prime-intellect",
+   "org": "Prime Intellect",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Johannes Hagemann is a co-founder of Prime Intellect, a company working on open and decentralized AI training. They are an author of the INTELLECT-1 technical report, covering a 10-billion-parameter model trained across several continents with the PRIME fault-tolerant framework. The run reported a roughly 400x reduction in communication bandwidth.",
+ "known_for": [
+  "Co-founder of Prime Intellect",
+  "Author of INTELLECT-1 decentralized training report",
+  "PRIME fault-tolerant distributed training framework"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2412.01152",
+  "https://primeintellect.ai/blog/intellect-1-release",
+  "https://api.openalex.org/authors/A5101430093"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "noemi-ligeti-nagy",
+ "name": "Noémi Ligeti-Nagy",
+ "display": "Noémi Ligeti-Nagy",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "ligetinagy",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hungarian-research-centre-for-linguistics",
+   "org": "Hungarian Research Centre for Linguistics",
+   "role": "Research fellow",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Noémi Ligeti-Nagy is listed by Hungarian Research Centre for Linguistics as research fellow.",
+ "known_for": [],
+ "bio_sources": [
+  "https://nlp.nytud.hu",
+  "https://huggingface.co/ligetinagy"
+ ],
+ "confidence": "high",
+ "auto": true
+}

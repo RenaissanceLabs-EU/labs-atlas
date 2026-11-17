@@ -1,0 +1,37 @@
+{
+ "id": "ahmed-ahmed",
+ "name": "Ahmed Ahmed",
+ "display": "Ahmed Ahmed",
+ "kind": "person",
+ "handles": {
+  "github": "ahmeda14960",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "marin",
+   "org": "Marin",
+   "role": "Top contributor to marin",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ahmed Ahmed is one of the most active contributors to Marin's open source work on GitHub, with 497 contributions to marin, levanter.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/ahmeda14960",
+  "https://github.com/marin-community/marin",
+  "https://github.com/marin-community/levanter"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

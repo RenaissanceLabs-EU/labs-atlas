@@ -1,0 +1,41 @@
+{
+ "id": "harm-de-vries",
+ "name": "Harm de Vries",
+ "display": "Harm de Vries",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5103854790",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bigcode",
+   "org": "BigCode",
+   "role": "Co-lead of BigCode; lead of the LLM Lab at ServiceNow Research",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Harm de Vries leads the Large Language Model Lab at ServiceNow Research and co-leads the BigCode project with Hugging Face. BigCode's StarCoder, a 15 billion parameter open code model released in 2023, was a joint ServiceNow Research and Hugging Face effort, and de Vries is a corresponding author on its paper.",
+ "known_for": [
+  "Co-lead of the BigCode open code-LLM project",
+  "StarCoder open code model",
+  "Visual reasoning (FiLM conditioning layer)"
+ ],
+ "bio_sources": [
+  "https://www.bigcode-project.org",
+  "https://arxiv.org/abs/2305.06161",
+  "https://techcrunch.com/2023/05/04/hugging-face-and-servicenow-release-a-free-code-generating-model/amp"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

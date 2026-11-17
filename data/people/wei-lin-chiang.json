@@ -1,0 +1,48 @@
+{
+ "id": "wei-lin-chiang",
+ "name": "Wei-Lin Chiang",
+ "display": "Wei-Lin Chiang",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5009640963",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lmarena",
+   "org": "LMArena",
+   "role": "Co-founder and CTO",
+   "current": true,
+   "since": 2025
+  },
+  {
+   "lab": null,
+   "org": "UC Berkeley",
+   "role": "PhD student, EECS",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Wei-Lin Chiang is a co-founder of LMArena (later branded Arena), the company that grew out of the Chatbot Arena project at UC Berkeley's LMSYS research group. Chiang was a Berkeley EECS PhD student when the platform launched in 2023, and is reported as the company's CTO. The platform collects crowdsourced human preference votes to rank language models.",
+ "known_for": [
+  "Co-founder of LMArena",
+  "Chatbot Arena human-preference model ranking",
+  "Berkeley LMSYS research"
+ ],
+ "bio_sources": [
+  "https://research.contrary.com/company/lmarena",
+  "https://www.felicis.com/insight/lmarena-announcement",
+  "https://www.maginative.com/article/chatbot-arena-rebrands-as-lmarena-becomes-a-company/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

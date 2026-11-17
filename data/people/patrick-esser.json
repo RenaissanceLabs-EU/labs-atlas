@@ -1,0 +1,51 @@
+{
+ "id": "patrick-esser",
+ "name": "Patrick Esser",
+ "display": "Patrick Esser",
+ "kind": "person",
+ "handles": {
+  "github": "pesser",
+  "huggingface": null,
+  "x": "pess_r",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "black-forest-labs",
+   "org": "Black Forest Labs",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2024
+  },
+  {
+   "lab": "compvis",
+   "org": "CompVis",
+   "role": "Research assistant; co-author of Taming Transformers and latent diffusion",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Patrick Esser is a co-founder of Black Forest Labs. They previously worked on generative models at LMU Munich and later at Runway, and are an author of Taming Transformers (VQGAN) and the latent diffusion paper.",
+ "known_for": [
+  "Co-author of Taming Transformers (VQGAN)",
+  "Co-author of latent diffusion models",
+  "Co-founder of Black Forest Labs"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+  "https://bfl.ai",
+  "https://ommer-lab.com/people/ommer/",
+  "https://latent.space/wiki/patrick-esser/",
+  "https://github.com/pesser"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true,
+ "flag": "OpenAlex and Scholar not linked; Runway/Stability roles from wiki-style sources only, not stated in bio"
+}

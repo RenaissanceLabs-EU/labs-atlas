@@ -1,0 +1,41 @@
+{
+ "id": "malvina-nissim",
+ "name": "Malvina Nissim",
+ "display": "Malvina Nissim",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5040564747",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "gronlp",
+   "org": "GroNLP",
+   "role": "Professor, group member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Malvina Nissim is professor of computational linguistics and society at the University of Groningen, appointed in 2020, and part of the Computational Linguistics group at the Center for Language and Cognition. Research covers author profiling, bias and interpretability in language models, including the Inseq toolkit for explaining sequence generation.",
+ "known_for": [
+  "Computational linguistics and society",
+  "Author profiling and gender bias",
+  "Interpretability, Inseq toolkit"
+ ],
+ "bio_sources": [
+  "https://www.rug.nl/let/onze-faculteit/actueel/nieuwsberichten-2020/malvina-nissim-appointed-professor-of-computational-linguistics-and-society?lang=en",
+  "https://rug.nl/staff/m.nissim/research?lang=en",
+  "https://malvinanissim.github.io/assets/cv-MN-1page.pdf"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

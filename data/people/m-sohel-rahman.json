@@ -1,0 +1,41 @@
+{
+ "id": "m-sohel-rahman",
+ "name": "M. Sohel Rahman",
+ "display": "M. Sohel Rahman",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5029174615",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "buet-cse-nlp-group",
+   "org": "BUET CSE NLP Group",
+   "role": "Professor, BUET CSE",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "M. Sohel Rahman is a professor in the Department of Computer Science and Engineering at BUET, with research in algorithms, stringology and computational biology. They are a co-author of BanglaBERT and XL-Sum from BUET's NLP group.",
+ "known_for": [
+  "Algorithms and stringology",
+  "Computational biology and bioinformatics",
+  "Co-author of BanglaBERT and XL-Sum"
+ ],
+ "bio_sources": [
+  "https://msrahman.buet.ac.bd",
+  "https://cse.buet.ac.bd/faculty/faculty_detail/msrahman",
+  "https://csebuetnlp.github.io/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

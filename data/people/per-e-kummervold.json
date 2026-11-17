@@ -1,0 +1,37 @@
+{
+ "id": "per-e-kummervold",
+ "name": "Per E Kummervold",
+ "display": "Per E Kummervold",
+ "kind": "person",
+ "handles": {
+  "github": "peregilk",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nb-ai-lab",
+   "org": "NB AI-Lab",
+   "role": "Top contributor to notram",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Per E Kummervold is one of the most active contributors to NB AI-Lab's open source work on GitHub, with 4,158 contributions to nb-whisper, nostram. Their public GitHub profile reads: “Per Egil Kummervold, PhD, is a Reasearch Professor at the National Library of Norway. Main research area is language adaptation in LLMs”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/peregilk",
+  "https://github.com/NbAiLab/notram",
+  "https://github.com/NbAiLab/nb-whisper"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

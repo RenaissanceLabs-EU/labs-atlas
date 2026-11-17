@@ -1,0 +1,49 @@
+{
+ "id": "mary-anne-hartley",
+ "name": "Mary-Anne Hartley",
+ "display": "Mary-Anne Hartley",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5063796208",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "epfl-llm-team",
+   "org": "EPFL LLM Team",
+   "role": "Senior author of MEDITRON",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Yale School of Medicine",
+   "role": "Assistant professor, biomedical informatics and data science",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mary-Anne Hartley is a physician and researcher who leads the LiGHT lab, working across EPFL and Yale School of Medicine, where Hartley is an assistant professor of biomedical informatics and data science. The group builds open medical AI for low-resource settings, including the MEDITRON models, and works with humanitarian organizations such as the ICRC.",
+ "known_for": [
+  "Leads LiGHT lab for global health AI",
+  "Senior author of MEDITRON",
+  "Open medical AI for low-resource settings"
+ ],
+ "bio_sources": [
+  "https://medicine.yale.edu/yupr/profile/mary-anne-hartley",
+  "https://people.epfl.ch/mary-anne.hartley?lang=en",
+  "https://bioalps.org/ai-meditronfo-epfl-health/",
+  "https://ecocloud.epfl.ch/meditron"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

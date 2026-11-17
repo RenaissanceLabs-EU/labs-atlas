@@ -1,0 +1,48 @@
+{
+ "id": "jacob-steinhardt",
+ "name": "Jacob Steinhardt",
+ "display": "Jacob Steinhardt",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5060196069",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=LKv32bgAAAAJ",
+  "website": "https://jsteinhardt.stat.berkeley.edu/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "transluce",
+   "org": "Transluce",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "UC Berkeley",
+   "role": "Associate Professor, Statistics and EECS",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jacob Steinhardt is co-founder and CEO of Transluce, a nonprofit AI research lab building open tools for auditing AI systems, and an associate professor of statistics and EECS at UC Berkeley. Their research covers AI safety, robustness and interpretability. Steinhardt co-founded Transluce in 2024 with Sarah Schwettmann.",
+ "known_for": [
+  "Co-founded Transluce nonprofit AI lab",
+  "AI safety and robustness research",
+  "Tools for auditing AI systems"
+ ],
+ "bio_sources": [
+  "https://jsteinhardt.stat.berkeley.edu/",
+  "https://statistics.berkeley.edu/node/8673",
+  "https://www.matsprogram.org/mentor/steinhardt"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

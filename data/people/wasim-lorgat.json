@@ -1,0 +1,36 @@
+{
+ "id": "wasim-lorgat",
+ "name": "Wasim Lorgat",
+ "display": "Wasim Lorgat",
+ "kind": "person",
+ "handles": {
+  "github": "seeM",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "answer-ai",
+   "org": "Answer.AI",
+   "role": "Top contributor to nbdev",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Wasim Lorgat is one of the most active contributors to Answer.AI's open source work on GitHub, with 206 contributions to nbdev.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/seeM",
+  "https://github.com/AnswerDotAI/nbdev"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

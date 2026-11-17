@@ -1,0 +1,41 @@
+{
+ "id": "ludwig-schmidt",
+ "name": "Ludwig Schmidt",
+ "display": "Ludwig Schmidt",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5110578233",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=SWMKy70AAAAJ",
+  "website": "https://people.csail.mit.edu/ludwigs/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openthoughts",
+   "org": "OpenThoughts",
+   "role": "Assistant professor, Stanford; LAION member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ludwig Schmidt is an assistant professor at Stanford with appointments in computer science and Stanford Data Science, and a member of LAION. Their research covers machine learning datasets, multimodal models, reliable generalization and language models. Schmidt co-authored LAION-5B and DataComp, and is last author of the OpenThoughts paper.",
+ "known_for": [
+  "Co-author of LAION-5B and DataComp datasets",
+  "OpenCLIP and OpenFlamingo open-source model code",
+  "Last author of OpenThoughts reasoning data recipes"
+ ],
+ "bio_sources": [
+  "https://people.csail.mit.edu/ludwigs/",
+  "https://arxiv.org/abs/2506.04178",
+  "https://www.openthoughts.ai"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

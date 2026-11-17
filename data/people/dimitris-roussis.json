@@ -1,0 +1,35 @@
+{
+ "id": "dimitris-roussis",
+ "name": "Dimitris Roussis",
+ "display": "Dimitris Roussis",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5045571670",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ilsp-athena-research-center",
+   "org": "ILSP / Athena Research Center",
+   "role": "Co-author of the Meltemi paper",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Dimitris Roussis is listed by ILSP / Athena Research Center as co-author of the Meltemi paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.athenarc.gr",
+  "https://arxiv.org/abs/2407.20743"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

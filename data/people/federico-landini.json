@@ -1,0 +1,42 @@
+{
+ "id": "federico-landini",
+ "name": "Federico Landini",
+ "display": "Federico Landini",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5084170554",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "but-speech-fit",
+   "org": "BUT Speech@FIT",
+   "role": "Researcher; PhD graduate (2024)",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Federico Landini is a speech researcher who completed a PhD at Brno University of Technology's Faculty of Information Technology in 2024, on speaker diarization. They are the first author of VBx, a Bayesian HMM clustering method for x-vectors, and a co-author of MS-VBx.",
+ "known_for": [
+  "VBx Bayesian HMM speaker diarization",
+  "Modular versus end-to-end diarization",
+  "MS-VBx multi-stream diarization"
+ ],
+ "bio_sources": [
+  "https://fit.vut.cz/study/phd-thesis/1357/.en",
+  "https://arxiv.org/abs/2012.14952",
+  "https://speech.fit.vut.cz"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true,
+ "flag": "Current employer not verified; OpenAlex lists Meta and Universidad de Buenos Aires"
+}

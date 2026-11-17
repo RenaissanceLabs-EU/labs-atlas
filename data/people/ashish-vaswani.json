@@ -1,0 +1,48 @@
+{
+ "id": "ashish-vaswani",
+ "name": "Ashish Vaswani",
+ "display": "Ashish Vaswani",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5103024730",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "essential-ai",
+   "org": "Essential AI",
+   "role": "CEO",
+   "current": true,
+   "since": 2022
+  },
+  {
+   "lab": null,
+   "org": "Google Brain",
+   "role": "Research scientist",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ashish Vaswani is co-founder and CEO of Essential AI and a co-author of the 2017 paper \"Attention Is All You Need,\" which introduced the Transformer. Vaswani previously worked at Google Brain and co-founded Adept AI. Essential AI released its first open model, the 8B-parameter Rnj-1, under an Apache 2.0 license in December 2025.",
+ "known_for": [
+  "Co-author of the Transformer paper",
+  "Co-founder and CEO of Essential AI",
+  "Rnj-1 open model release"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Ashish_Vaswani",
+  "https://the-decoder.com/transformer-co-creator-vaswani-unveils-high-performance-rnj-1-coding-model/",
+  "https://www.lmstudio.ai/essentialai/rnj-1"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

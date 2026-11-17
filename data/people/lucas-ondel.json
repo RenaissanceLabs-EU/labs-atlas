@@ -1,0 +1,35 @@
+{
+ "id": "lucas-ondel",
+ "name": "Lucas Ondel",
+ "display": "Lucas Ondel",
+ "kind": "person",
+ "handles": {
+  "github": "lucasondel",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=8MS-5vkAAAAJ",
+  "website": "https://lucasondel.github.io/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "but-speech-fit",
+   "org": "BUT Speech@FIT",
+   "role": "Member of the BUTSpeechFIT GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Lucas Ondel is listed by BUT Speech@FIT as member of the BUTSpeechFIT GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://speech.fit.vut.cz",
+  "https://lucasondel.github.io/"
+ ],
+ "confidence": "high",
+ "auto": true
+}

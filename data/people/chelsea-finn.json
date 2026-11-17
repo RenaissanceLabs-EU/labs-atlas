@@ -1,0 +1,48 @@
+{
+ "id": "chelsea-finn",
+ "name": "Chelsea Finn",
+ "display": "Chelsea Finn",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5005431772",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "physical-intelligence",
+   "org": "Physical Intelligence",
+   "role": "Co-founder; professor at Stanford",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Stanford University",
+   "role": "Assistant professor, IRIS Lab",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Chelsea Finn is an assistant professor at Stanford University, where they lead the IRIS Lab, and a co-founder of Physical Intelligence. Their research focuses on how robots can learn to learn through interaction. Finn is a co-author of Model-Agnostic Meta-Learning (MAML) and received the 2018 ACM Doctoral Dissertation Award.",
+ "known_for": [
+  "Co-author of MAML meta-learning",
+  "Leads Stanford IRIS Lab on robot learning",
+  "Co-founder of Physical Intelligence"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Chelsea_Finn",
+  "https://arxiv.org/abs/2410.24164",
+  "https://www.pi.website"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,41 @@
+{
+ "id": "gregor-zunic",
+ "name": "Gregor Žunič",
+ "display": "Gregor Žunič",
+ "kind": "person",
+ "handles": {
+  "github": "gregpr07",
+  "huggingface": null,
+  "x": "gregpr07",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "browser-use",
+   "org": "Browser Use",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2024
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Gregor Žunič is a co-founder of Browser Use, an open source library for web-browsing AI agents. They studied physics and data science at ETH Zurich, and the company was part of Y Combinator's Winter 2025 batch.",
+ "known_for": [
+  "Co-founder of Browser Use",
+  "Open source browser agent library",
+  "ETH Zurich physics and data science background"
+ ],
+ "bio_sources": [
+  "https://techcrunch.com/2025/03/23/browser-use-the-tool-making-it-easier-for-ai-agents-to-navigate-websites-raises-17m",
+  "https://ycombinator.com/companies/browser-use",
+  "https://github.com/gregpr07"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

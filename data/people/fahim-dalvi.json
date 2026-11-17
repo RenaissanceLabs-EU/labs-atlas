@@ -1,0 +1,36 @@
+{
+ "id": "fahim-dalvi",
+ "name": "Fahim Dalvi",
+ "display": "Fahim Dalvi",
+ "kind": "person",
+ "handles": {
+  "github": "fdalvi",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5002245931",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=uQGCv10AAAAJ",
+  "website": "https://fdalvi.github.io",
+  "linkedin": "https://www.linkedin.com/in/fdalvi"
+ },
+ "affiliations": [
+  {
+   "lab": "qatar-computing-research-institute",
+   "org": "Qatar Computing Research Institute",
+   "role": "Researcher working on large language models at QCRI",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Fahim Dalvi is listed by Qatar Computing Research Institute as researcher working on large language models at QCRI. Writes on the Fanar releases.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.hbku.edu.qa/en/qcri",
+  "https://fdalvi.github.io",
+  "https://arxiv.org/abs/2501.13944"
+ ],
+ "confidence": "high",
+ "auto": true
+}

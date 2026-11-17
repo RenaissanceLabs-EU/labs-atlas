@@ -1,0 +1,56 @@
+{
+ "id": "benjamin-rosman",
+ "name": "Benjamin Rosman",
+ "display": "Benjamin Rosman",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5068297734",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lelapa-ai",
+   "org": "Lelapa AI",
+   "role": "Chief Science Officer and co-founder",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "University of the Witwatersrand",
+   "role": "Professor; Director of the MIND Institute",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Deep Learning Indaba",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Benjamin Rosman is a professor at the University of the Witwatersrand, director of the Wits MIND Institute and of its robotics and learning lab, and chief science officer of Lelapa AI. Rosman is a co-founder of Lelapa AI and of the Deep Learning Indaba, and research focuses on reinforcement learning and robotics. TIME named Rosman to its 2025 list of the 100 most influential people in AI.",
+ "known_for": [
+  "Director of the Wits MIND Institute",
+  "Co-founder of Lelapa AI and Deep Learning Indaba",
+  "Reinforcement learning and robot learning research"
+ ],
+ "bio_sources": [
+  "https://www.wits.ac.za/mind/full-profile/",
+  "https://lelapa.ai/about/the-team",
+  "https://techcentral.co.za/wits-professor-time-ai-benjamin-rosman/269678/",
+  "https://www.wits.ac.za/news/latest-news/research-news/2025/2025-07/mind-director-named-coveted-cifar-fellow.html"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

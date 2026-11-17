@@ -1,0 +1,56 @@
+{
+ "id": "francois-chollet",
+ "name": "Francois Chollet",
+ "display": "Francois Chollet",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5123306600",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "arc-prize-foundation",
+   "org": "ARC Prize Foundation",
+   "role": "Co-founder and board member; creator of ARC-AGI",
+   "current": true,
+   "since": 2025
+  },
+  {
+   "lab": null,
+   "org": "Google",
+   "role": "Software engineer and researcher",
+   "current": false,
+   "since": 2015
+  },
+  {
+   "lab": null,
+   "org": "Ndea",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2024
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Francois Chollet is an AI researcher who created the Keras deep learning library and the ARC-AGI benchmark. After more than nine years at Google, Chollet left in 2024 to co-found a program-synthesis AGI startup with Mike Knoop and is a co-founder of the ARC Prize Foundation.",
+ "known_for": [
+  "Creator of Keras",
+  "Creator of the ARC-AGI benchmark",
+  "Co-founder of ARC Prize Foundation"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Chollet",
+  "https://api.openalex.org/authors/A5123306600",
+  "https://www.startuphub.ai/news/claudes-corner-ndea-yc-w2026",
+  "https://sequoiacap.com/podcast/training-data-mike-knoop"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

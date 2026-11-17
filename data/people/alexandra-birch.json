@@ -1,0 +1,35 @@
+{
+ "id": "alexandra-birch",
+ "name": "Alexandra Birch",
+ "display": "Alexandra Birch",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5038456766",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "eurollm",
+   "org": "EuroLLM",
+   "role": "University of Edinburgh",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alexandra Birch is listed by EuroLLM as university of Edinburgh.",
+ "known_for": [],
+ "bio_sources": [
+  "https://eurollm.io",
+  "https://arxiv.org/abs/2506.04079"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

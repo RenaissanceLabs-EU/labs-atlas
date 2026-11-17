@@ -1,0 +1,35 @@
+{
+ "id": "negin-raoof",
+ "name": "Negin Raoof",
+ "display": "Negin Raoof",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5123510378",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bespoke-labs",
+   "org": "Bespoke Labs",
+   "role": "Researcher, OpenThoughts co-author (UC Berkeley)",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Negin Raoof is listed by Bespoke Labs as researcher, OpenThoughts co-author (UC Berkeley).",
+ "known_for": [],
+ "bio_sources": [
+  "https://bespokelabs.ai",
+  "https://arxiv.org/abs/2506.04178"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

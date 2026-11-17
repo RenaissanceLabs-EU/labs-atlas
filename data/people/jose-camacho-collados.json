@@ -1,0 +1,41 @@
+{
+ "id": "jose-camacho-collados",
+ "name": "Jose Camacho-Collados",
+ "display": "Jose Camacho-Collados",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5086289154",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=NP4KdQQAAAAJ",
+  "website": "http://josecamachocollados.com/",
+  "linkedin": "https://www.linkedin.com/in/jose-camacho-collados-9b347469"
+ },
+ "affiliations": [
+  {
+   "lab": "cardiff-nlp",
+   "org": "Cardiff NLP",
+   "role": "Professor, Cardiff University; co-founder of Cardiff NLP",
+   "current": true,
+   "since": 2020
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "José Camacho-Collados is a professor at the School of Computer Science and Informatics at Cardiff University and a UKRI Future Leaders Fellow, and co-founded the Cardiff NLP group in 2020. Their work covers lexical semantics, language models and social media NLP, including the TweetEval benchmark and the WiC dataset.",
+ "known_for": [
+  "TweetEval social media benchmark",
+  "WiC Word-in-Context dataset",
+  "Co-founder of Cardiff NLP"
+ ],
+ "bio_sources": [
+  "http://josecamachocollados.com/",
+  "https://www.cardiffnlp.org",
+  "https://arxiv.org/abs/2010.12421"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

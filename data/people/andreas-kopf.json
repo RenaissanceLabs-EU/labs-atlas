@@ -1,0 +1,36 @@
+{
+ "id": "andreas-kopf",
+ "name": "Andreas Köpf",
+ "display": "Andreas Köpf",
+ "kind": "person",
+ "handles": {
+  "github": "andreaskoepf",
+  "huggingface": null,
+  "x": "neurosp1ke",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "laion",
+   "org": "LAION",
+   "role": "Top contributor to Open-Assistant",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Andreas Köpf is one of the most active contributors to LAION's open source work on GitHub, with 350 contributions to Open-Assistant.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/andreaskoepf",
+  "https://github.com/LAION-AI/Open-Assistant"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

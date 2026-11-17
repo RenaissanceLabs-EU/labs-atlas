@@ -1,0 +1,49 @@
+{
+ "id": "jade-abbott",
+ "name": "Jade Abbott",
+ "display": "Jade Abbott",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5087385370",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lelapa-ai",
+   "org": "Lelapa AI",
+   "role": "Co-founder and Chief Technology Officer",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Masakhane",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jade Abbott is co-founder and chief technology officer of Lelapa AI, which builds language technology for African languages, and a co-founder of the Masakhane community for African language NLP. Abbott was named to MIT Technology Review's Innovators Under 35 list in 2024.",
+ "known_for": [
+  "CTO and co-founder of Lelapa AI",
+  "Co-founder of Masakhane NLP community",
+  "MIT Technology Review Innovator Under 35 (2024)"
+ ],
+ "bio_sources": [
+  "https://techcabal.com/?p=167006",
+  "https://innovatorsunder35.com/the-list/jade-abbott",
+  "https://www.infoq.com/presentations/llm-ai-africa/",
+  "https://lelapa.ai/about/the-team"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

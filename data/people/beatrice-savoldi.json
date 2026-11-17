@@ -1,0 +1,35 @@
+{
+ "id": "beatrice-savoldi",
+ "name": "Beatrice Savoldi",
+ "display": "Beatrice Savoldi",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5000054128",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "fbk-machine-translation-unit",
+   "org": "FBK Machine Translation Unit",
+   "role": "Researcher, gender bias in NLP",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Beatrice Savoldi is listed by FBK Machine Translation Unit as researcher, gender bias in NLP.",
+ "known_for": [],
+ "bio_sources": [
+  "https://mt.fbk.eu",
+  "https://arxiv.org/abs/2507.19634"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

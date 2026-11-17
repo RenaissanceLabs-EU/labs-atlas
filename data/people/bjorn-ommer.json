@@ -1,0 +1,41 @@
+{
+ "id": "bjorn-ommer",
+ "name": "Bjorn Ommer",
+ "display": "Bjorn Ommer",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5084415727",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "compvis",
+   "org": "CompVis",
+   "role": "Professor and head of the Computer Vision and Learning group, LMU Munich",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Björn Ommer is a full professor at LMU Munich, where he heads the Computer Vision and Learning group (CompVis). Their group developed latent diffusion models, the basis of Stable Diffusion, and Ommer received the German AI Prize 2024 for this work.",
+ "known_for": [
+  "Head of the CompVis group at LMU Munich",
+  "Latent diffusion and Stable Diffusion",
+  "Taming Transformers (VQGAN)"
+ ],
+ "bio_sources": [
+  "https://ommer-lab.com/people/ommer/",
+  "https://www.lmu.de/de/newsroom/newsuebersicht/news/bjoern-ommer-erhaelt-den-deutschen-ki-preis.html",
+  "https://arxiv.org/abs/2112.10752"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

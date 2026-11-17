@@ -1,0 +1,48 @@
+{
+ "id": "vijay-janapa-reddi",
+ "name": "Vijay Janapa Reddi",
+ "display": "Vijay Janapa Reddi",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5000635267",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mlcommons",
+   "org": "MLCommons",
+   "role": "Co-founder, Vice President and board member; Research co-chair",
+   "current": true,
+   "since": 2018
+  },
+  {
+   "lab": null,
+   "org": "Harvard University",
+   "role": "Professor of engineering and applied sciences",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Vijay Janapa Reddi is a professor of engineering and applied sciences at Harvard and a co-founder and Vice President of MLCommons, where Reddi sits on the board and oversees MLCommons Research. Reddi co-led development of the MLPerf benchmarks and co-chaired MLPerf Inference.",
+ "known_for": [
+  "Co-founder of MLCommons",
+  "MLPerf benchmark co-chair",
+  "TinyML and ML systems research"
+ ],
+ "bio_sources": [
+  "https://salatainstitute.harvard.edu/?p=16393",
+  "https://vijay.seas.harvard.edu/documents/cv.pdf",
+  "https://arxiv.org/abs/1911.02549"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

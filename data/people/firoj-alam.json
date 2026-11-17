@@ -1,0 +1,41 @@
+{
+ "id": "firoj-alam",
+ "name": "Firoj Alam",
+ "display": "Firoj Alam",
+ "kind": "person",
+ "handles": {
+  "github": "firojalam",
+  "huggingface": null,
+  "x": "firojalam04",
+  "openalex": "A5053436179",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=j-RtwDQAAAAJ",
+  "website": "https://firojalam.one",
+  "linkedin": "https://www.linkedin.com/in/firoj-alam-0a96206"
+ },
+ "affiliations": [
+  {
+   "lab": "qatar-computing-research-institute",
+   "org": "Qatar Computing Research Institute",
+   "role": "Senior scientist at QCRI",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Firoj Alam is a senior scientist at the Qatar Computing Research Institute (HBKU), with a PhD in computer science from the University of Trento. Their research covers multilingual and low-resource language models, social media analysis and benchmarking. Alam is an author of the Fanar Arabic-centric generative AI platform report and of the LLMeBench framework.",
+ "known_for": [
+  "Author of the Fanar Arabic AI platform",
+  "LLMeBench open LLM benchmarking framework",
+  "Multilingual and propaganda detection datasets"
+ ],
+ "bio_sources": [
+  "https://firojalam.one",
+  "https://arxiv.org/abs/2501.13944",
+  "https://www.hbku.edu.qa/en/qcri"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

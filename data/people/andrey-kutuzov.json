@@ -1,0 +1,35 @@
+{
+ "id": "andrey-kutuzov",
+ "name": "Andrey Kutuzov",
+ "display": "Andrey Kutuzov",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5071409817",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "language-technology-group-university-of-oslo",
+   "org": "Language Technology Group, University of Oslo",
+   "role": "Researcher, NorBERT author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Andrey Kutuzov is listed by Language Technology Group, University of Oslo as researcher, NorBERT author.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.mn.uio.no/ifi/english/research/groups/ltg/",
+  "https://arxiv.org/abs/2305.03880"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

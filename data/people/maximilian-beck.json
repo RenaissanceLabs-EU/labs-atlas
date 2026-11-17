@@ -1,0 +1,49 @@
+{
+ "id": "maximilian-beck",
+ "name": "Maximilian Beck",
+ "display": "Maximilian Beck",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "institute-for-machine-learning-jku-linz",
+   "org": "Institute for Machine Learning, JKU Linz",
+   "role": "First author of xLSTM",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "nxai",
+   "org": "NXAI",
+   "role": "Lead author of xLSTM",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Maximilian Beck is a researcher at the Institute for Machine Learning at Johannes Kepler University Linz and at NXAI. Beck is first author of xLSTM: Extended Long Short-Term Memory (NeurIPS 2024) and of xLSTM 7B (ICML 2025), a recurrent language model designed for fast inference. Beck also co-authored work on efficient linear RNN kernels.",
+ "known_for": [
+  "First author of the xLSTM paper",
+  "First author of xLSTM 7B",
+  "Efficient recurrent and linear-attention kernels"
+ ],
+ "bio_sources": [
+  "https://papers.nips.cc/paper_files/paper/2024/hash/c2ce2f2701c10a2b2f2ea0bfa43cfaa3-Abstract-Conference.html",
+  "https://proceedings.mlr.press/v267/beck25b.html",
+  "https://arxiv.org/abs/2503.13427"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "flag": "OpenAlex profile A5013704531 mixes works by other authors with the same name (e.g. unrelated political and security papers); handle kept for the xLSTM works",
+ "enriched": true
+}

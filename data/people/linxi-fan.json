@@ -1,0 +1,41 @@
+{
+ "id": "linxi-fan",
+ "name": "Linxi Fan",
+ "display": "Linxi Fan",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5054905472",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nvidia",
+   "org": "NVIDIA",
+   "role": "Project lead, GR00T N1",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Linxi \"Jim\" Fan is a research leader at NVIDIA who co-leads the Generalist Embodied Agent Research (GEAR) group with Yuke Zhu. Fan led the MineDojo project, which won a NeurIPS 2022 Outstanding Paper Award, and was a project lead on GR00T N1, an open foundation model for humanoid robots.",
+ "known_for": [
+  "Co-lead of NVIDIA GEAR",
+  "MineDojo and Voyager Minecraft agents",
+  "GR00T N1 humanoid foundation model"
+ ],
+ "bio_sources": [
+  "https://research.nvidia.com/person/linxi-jim-fan.md",
+  "https://blogs.nvidia.com/blog/ai-jim-fan/",
+  "https://arxiv.org/abs/2503.14734"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

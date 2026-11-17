@@ -1,0 +1,36 @@
+{
+ "id": "anne-schumacher",
+ "name": "Anne Schumacher",
+ "display": "Anne Schumacher",
+ "kind": "person",
+ "handles": {
+  "github": "anne17",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "sprakbanken-text",
+   "org": "Sprakbanken Text",
+   "role": "Top contributor to sparv",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Anne Schumacher is one of the most active contributors to Sprakbanken Text's open source work on GitHub, with 843 contributions to sparv.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/anne17",
+  "https://github.com/spraakbanken/sparv"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

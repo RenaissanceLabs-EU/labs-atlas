@@ -1,0 +1,35 @@
+{
+ "id": "vaclav-volhejn",
+ "name": "Václav Volhejn",
+ "display": "Václav Volhejn",
+ "kind": "person",
+ "handles": {
+  "github": "vvolhejn",
+  "huggingface": null,
+  "x": "vvolhejn",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": "https://vvolhejn.com/",
+  "linkedin": "https://www.linkedin.com/in/vaclav-volhejn"
+ },
+ "affiliations": [
+  {
+   "lab": "kyutai",
+   "org": "Kyutai",
+   "role": "Technical staff",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Václav Volhejn is listed by Kyutai as technical staff.",
+ "known_for": [],
+ "bio_sources": [
+  "https://kyutai.org",
+  "https://vvolhejn.com/"
+ ],
+ "confidence": "high",
+ "auto": true
+}

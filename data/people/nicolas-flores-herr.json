@@ -1,0 +1,41 @@
+{
+ "id": "nicolas-flores-herr",
+ "name": "Nicolas Flores-Herr",
+ "display": "Nicolas Flores-Herr",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5071393532",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "opengpt-x",
+   "org": "OpenGPT-X",
+   "role": "Project lead, Fraunhofer IAIS",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Nicolas Flores-Herr was project lead of OpenGPT-X at Fraunhofer IAIS, a German consortium project funded by the economics ministry that released the multilingual Teuken-7B models in November 2024. Flores-Herr also leads the Foundation Models and Generative AI Systems team and manages the IAIS site in Dresden.",
+ "known_for": [
+  "Project lead of OpenGPT-X",
+  "Teuken-7B multilingual models",
+  "Fraunhofer IAIS Dresden site manager"
+ ],
+ "bio_sources": [
+  "https://tu-dresden.de/zih/das-department/news/opengpt-x-veroeffentlicht-ki-sprachmodell",
+  "https://www.telekom.com/en/newsroom/latest-updates/media-information/2024/12/boost-for-digital-sovereignty",
+  "https://silicon-saxony.de/en/wp-json/wp/v2/posts/456449"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

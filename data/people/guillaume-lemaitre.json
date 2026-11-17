@@ -1,0 +1,37 @@
+{
+ "id": "guillaume-lemaitre",
+ "name": "Guillaume Lemaitre",
+ "display": "Guillaume Lemaitre",
+ "kind": "person",
+ "handles": {
+  "github": "glemaitre",
+  "huggingface": null,
+  "x": "glemaitre58",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "probabl",
+   "org": "probabl",
+   "role": "Top contributor to skore",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Guillaume Lemaitre is one of the most active contributors to probabl's open source work on GitHub, with 319 contributions to skore, skore-skills.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/glemaitre",
+  "https://github.com/probabl-ai/skore",
+  "https://github.com/probabl-ai/skore-skills"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,49 @@
+{
+ "id": "jonas-rauber",
+ "name": "Jonas Rauber",
+ "display": "Jonas Rauber",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5051569122",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bethge-lab",
+   "org": "Bethge Lab",
+   "role": "Foolbox lead author; PhD at Bethge Lab",
+   "current": false,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Apple",
+   "role": "ML researcher and engineer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jonas Rauber is a machine learning researcher and engineer who did a PhD in Matthias Bethge's lab at the University of Tubingen. Rauber is lead author of Foolbox, a Python toolbox for benchmarking model robustness, and creator of EagerPy. OpenAlex lists Apple as a recent affiliation.",
+ "known_for": [
+  "Lead author of Foolbox",
+  "Creator of EagerPy",
+  "Adversarial robustness research"
+ ],
+ "bio_sources": [
+  "https://bethgelab.org/publication/2017_07_rauber",
+  "https://joss.theoj.org/papers/10.21105/joss.02607.pdf",
+  "https://www.alphaxiv.org/researchers/jonas-rauber",
+  "https://api.openalex.org/authors/A5051569122"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

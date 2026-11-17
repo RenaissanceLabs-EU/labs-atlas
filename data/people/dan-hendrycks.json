@@ -1,0 +1,55 @@
+{
+ "id": "dan-hendrycks",
+ "name": "Dan Hendrycks",
+ "display": "Dan Hendrycks",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5020400986",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=czyretsAAAAJ",
+  "website": "https://danhendrycks.com",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "center-for-ai-safety",
+   "org": "Center for AI Safety",
+   "role": "Executive director and research director",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "xAI",
+   "role": "Safety adviser",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Scale AI",
+   "role": "Advisor",
+   "current": true,
+   "since": 2024
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Dan Hendrycks is executive director of the Center for AI Safety and holds a PhD in computer science from UC Berkeley. They are lead author of the GELU activation function and of the MMLU benchmark, and also advise xAI and Scale AI.",
+ "known_for": [
+  "GELU activation function",
+  "MMLU benchmark",
+  "Center for AI Safety leadership"
+ ],
+ "bio_sources": [
+  "https://danhendrycks.com",
+  "https://en.wikipedia.org/wiki/Dan_Hendrycks",
+  "https://safe.ai"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

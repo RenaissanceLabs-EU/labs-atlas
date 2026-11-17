@@ -1,0 +1,35 @@
+{
+ "id": "shaltiel-shmidman",
+ "name": "Shaltiel Shmidman",
+ "display": "Shaltiel Shmidman",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5041361841",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "dicta-israel-center-for-text-analysis",
+   "org": "DICTA: Israel Center for Text Analysis",
+   "role": "Researcher, DICTA",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shaltiel Shmidman is listed by DICTA: Israel Center for Text Analysis as researcher, DICTA. First author of DictaBERT and DictaLM 2.0.",
+ "known_for": [],
+ "bio_sources": [
+  "https://dicta.org.il/",
+  "https://arxiv.org/abs/2308.16687"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

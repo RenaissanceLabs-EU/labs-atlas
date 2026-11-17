@@ -1,0 +1,42 @@
+{
+ "id": "ben-fielding",
+ "name": "Ben Fielding",
+ "display": "Ben Fielding",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5120692342",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "gensyn",
+   "org": "Gensyn",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2020
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ben Fielding is a co-founder of Gensyn, a decentralized machine learning compute protocol founded in 2020 with Harry Grieve. Fielding holds a PhD in computer science focused on evolutionary optimization of neural architectures. Gensyn has released open-source code for RL Swarm, a peer-to-peer framework for collaborative reinforcement learning.",
+ "known_for": [
+  "Co-founder of Gensyn",
+  "Decentralized machine learning compute",
+  "RL Swarm collaborative reinforcement learning"
+ ],
+ "bio_sources": [
+  "https://blog.gensyn.ai/rl-swarm-a-framework-for-collaborative-rl/",
+  "https://consensus2024.coindesk.com/agenda/speaker/-ben-fielding",
+  "https://hotfix.coindesk.com/consensus-toronto-2025-coverage/2025/04/02/ben-fielding-decentralizing-machine-intelligence",
+  "https://arxiv.org/html/2509.08721v1"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

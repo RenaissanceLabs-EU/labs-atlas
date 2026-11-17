@@ -1,0 +1,35 @@
+{
+ "id": "gruffudd-prys",
+ "name": "Gruffudd Prys",
+ "display": "Gruffudd Prys",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "GruffPrys",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "language-technologies-unit",
+   "org": "Language Technologies Unit",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Gruffudd Prys is listed by Language Technologies Unit as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://techiaith.cymru",
+  "https://huggingface.co/GruffPrys"
+ ],
+ "confidence": "high",
+ "auto": true
+}

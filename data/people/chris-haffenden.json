@@ -1,0 +1,35 @@
+{
+ "id": "chris-haffenden",
+ "name": "Chris Haffenden",
+ "display": "Chris Haffenden",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5068616379",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "kblab",
+   "org": "KBLab",
+   "role": "Author of the KB-BERT paper",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Chris Haffenden is listed by KBLab as author of the KB-BERT paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.kb.se/in-english/research-collaboration/kblab.html",
+  "https://arxiv.org/abs/2007.01658"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

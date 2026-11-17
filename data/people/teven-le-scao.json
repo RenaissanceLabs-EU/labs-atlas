@@ -1,0 +1,35 @@
+{
+ "id": "teven-le-scao",
+ "name": "Teven Le Scao",
+ "display": "Teven Le Scao",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5084957527",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bigscience",
+   "org": "BigScience",
+   "role": "First named author of the BLOOM paper",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Teven Le Scao is listed by BigScience as first named author of the BLOOM paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://bigscience.huggingface.co",
+  "https://arxiv.org/abs/2303.03915"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

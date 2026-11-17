@@ -1,0 +1,41 @@
+{
+ "id": "etash-guha",
+ "name": "Etash Guha",
+ "display": "Etash Guha",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5042004933",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openthoughts",
+   "org": "OpenThoughts",
+   "role": "Lead author, OpenThoughts",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Etash Guha is a researcher affiliated with Stanford University and a lead of the OpenThoughts project. They are first author of the OpenThoughts paper (ICLR 2026), which presents open data recipes for training reasoning models and the OpenThoughts3-7B model. Guha is also an author on DataComp-LM and Terminal-Bench.",
+ "known_for": [
+  "First author of OpenThoughts data recipes paper",
+  "Co-author of DataComp-LM and MINT-1T datasets",
+  "Co-author of Terminal-Bench agent benchmark"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2506.04178",
+  "https://www.openthoughts.ai",
+  "https://api.openalex.org/authors/A5042004933"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,43 @@
+{
+ "id": "jesse-davis",
+ "name": "Jesse Davis",
+ "display": "Jesse Davis",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=gz74XOYAAAAJ",
+  "website": "http://people.cs.kuleuven.be/~jesse.davis/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "dtai",
+   "org": "DTAI",
+   "role": "Professor, DTAI academic staff",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jesse Davis is a professor of computer science at KU Leuven in Belgium, where Davis is part of the DTAI research group and heads its Sports Analytics Lab, founded in 2014. Research covers machine learning for structured data, with a focus on soccer analytics. Davis co-developed the VAEP framework for valuing player actions and co-founded the running-biomechanics spinoff runeasi.",
+ "known_for": [
+  "Machine learning for sports analytics",
+  "Co-developed the VAEP action-valuation framework",
+  "Heads KU Leuven Sports Analytics Lab"
+ ],
+ "bio_sources": [
+  "https://dtai.cs.kuleuven.be/sports/publications",
+  "https://soccerstories.substack.com/p/meet-the-american-running-a-soccer",
+  "https://smash.ung.si/about/supervisors/33/jesse-davis/",
+  "http://people.cs.kuleuven.be/~jesse.davis/"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true,
+ "flag": "thin sources"
+}

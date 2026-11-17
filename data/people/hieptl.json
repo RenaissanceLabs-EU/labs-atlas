@@ -1,0 +1,36 @@
+{
+ "id": "hieptl",
+ "name": null,
+ "display": "hieptl",
+ "kind": "handle",
+ "handles": {
+  "github": "hieptl",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openhands",
+   "org": "OpenHands",
+   "role": "Top contributor to OpenHands",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "hieptl is one of the most active contributors to OpenHands's open source work on GitHub, with 729 contributions to OpenHands. Their public GitHub profile reads: “Full-stack engineer building AI agents and LLM products. Core maintainer of OpenHands”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/hieptl",
+  "https://github.com/OpenHands/OpenHands"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

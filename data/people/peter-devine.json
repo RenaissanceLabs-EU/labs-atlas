@@ -1,0 +1,35 @@
+{
+ "id": "peter-devine",
+ "name": "Peter Devine",
+ "display": "Peter Devine",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5086812532",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lightblue",
+   "org": "Lightblue",
+   "role": "Developer of the Suzume models",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Peter Devine is listed by Lightblue as developer of the Suzume models.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.lightblue-tech.com/",
+  "https://arxiv.org/abs/2501.11929"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

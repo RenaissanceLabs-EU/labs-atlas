@@ -1,0 +1,49 @@
+{
+ "id": "laurent-mazare",
+ "name": "Laurent Mazaré",
+ "display": "Laurent Mazaré",
+ "kind": "person",
+ "handles": {
+  "github": "LaurentMazare",
+  "huggingface": null,
+  "x": "lmazare",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "kyutai",
+   "org": "Kyutai",
+   "role": "Co-founder and Head of Engineering",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Gradium",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2025
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Laurent Mazaré is a co-founder of Kyutai, where Mazaré leads engineering, and a co-founder of the voice AI company Gradium. Mazaré is a listed author of the Moshi technical report and is known for open-source machine learning libraries in Rust, including the Candle framework used in Moshi's Rust implementation.",
+ "known_for": [
+  "Co-author of the Moshi technical report",
+  "Rust machine learning libraries including Candle",
+  "Co-founder of Kyutai and Gradium"
+ ],
+ "bio_sources": [
+  "https://github.com/LaurentMazare",
+  "https://arxiv.org/abs/2410.00037",
+  "https://github.com/kyutai-labs/moshi",
+  "https://www.coval.dev/blog/the-future-of-speech-to-speech-ai-inside-gradium-and-kyutai-s-approach-to-full-duplex-conversation"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

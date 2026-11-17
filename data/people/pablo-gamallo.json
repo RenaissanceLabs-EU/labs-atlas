@@ -1,0 +1,48 @@
+{
+ "id": "pablo-gamallo",
+ "name": "Pablo Gamallo",
+ "display": "Pablo Gamallo",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5063153446",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "proxecto-nos",
+   "org": "Proxecto Nos",
+   "role": "CiTIUS researcher, lead author of the Galician LLM paper",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "CiTIUS, University of Santiago de Compostela",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pablo Gamallo is a researcher at CiTIUS, the University of Santiago de Compostela research center, working on language technologies. They are lead author of the paper introducing the first open generative LLMs for Galician, developed within the Proxecto Nos initiative. Gamallo also led the CarvalhoPT-GL model for Galician and Portuguese.",
+ "known_for": [
+  "Lead author of open Galician LLMs",
+  "Proxecto Nos language models at CiTIUS",
+  "Carvalho bilingual Galician-Portuguese model"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2406.13893",
+  "https://citius.gal/en/news/news/the-international-congress-epia2024-awarded-carvalhopt-gl-an-innovative-generative-model-of-bilingual-language-for-galician-and-portuguese-designed-at-citius/",
+  "https://nos.gal"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

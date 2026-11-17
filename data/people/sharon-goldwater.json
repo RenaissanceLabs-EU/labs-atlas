@@ -1,0 +1,35 @@
+{
+ "id": "sharon-goldwater",
+ "name": "Sharon Goldwater",
+ "display": "Sharon Goldwater",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "sgwater",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "edinburghnlp",
+   "org": "EdinburghNLP",
+   "role": "Faculty member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sharon Goldwater is listed by EdinburghNLP as faculty member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://edinburghnlp.inf.ed.ac.uk",
+  "https://huggingface.co/sgwater"
+ ],
+ "confidence": "high",
+ "auto": true
+}

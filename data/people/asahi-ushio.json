@@ -1,0 +1,43 @@
+{
+ "id": "asahi-ushio",
+ "name": "Asahi Ushio",
+ "display": "Asahi Ushio",
+ "kind": "person",
+ "handles": {
+  "github": "asahi417",
+  "huggingface": null,
+  "x": "asahiushio",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "cardiff-nlp",
+   "org": "Cardiff NLP",
+   "role": "Top contributor to tweetnlp",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "kotoba-technologies",
+   "org": "Kotoba Technologies",
+   "role": "Top contributor to kotoba-whisper",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Asahi Ushio is one of the most active contributors to Kotoba Technologies's open source work on GitHub, with 180 contributions to kotoba-whisper. Their public GitHub profile reads: “AI research”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/asahi417",
+  "https://github.com/kotoba-tech/kotoba-whisper"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

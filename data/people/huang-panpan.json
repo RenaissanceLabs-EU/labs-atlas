@@ -1,0 +1,36 @@
+{
+ "id": "huang-panpan",
+ "name": "Huang Panpan",
+ "display": "Huang Panpan",
+ "kind": "person",
+ "handles": {
+  "github": "mowentian",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "deepseek",
+   "org": "DeepSeek",
+   "role": "Top contributor to awesome-deepseek-integration",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Huang Panpan is one of the most active contributors to DeepSeek's open source work on GitHub, with 137 contributions to awesome-deepseek-integration.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/mowentian",
+  "https://github.com/deepseek-ai/awesome-deepseek-integration"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

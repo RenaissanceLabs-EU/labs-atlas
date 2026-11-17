@@ -1,0 +1,42 @@
+{
+ "id": "samuel-weinbach",
+ "name": "Samuel Weinbach",
+ "display": "Samuel Weinbach",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5055789969",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "aleph-alpha",
+   "org": "Aleph Alpha",
+   "role": "Co-founder and Co-Chief Research Officer",
+   "current": true,
+   "since": 2019
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Samuel Weinbach is a co-founder of Aleph Alpha and its Co-Chief Research Officer, leading Aleph Alpha Research together with a co-lead. Weinbach co-authored the GPT-NeoX-20B open model paper and the MAGMA multimodal paper.",
+ "known_for": [
+  "Co-founder of Aleph Alpha",
+  "Co-author of GPT-NeoX-20B",
+  "Co-author of MAGMA and T-Free"
+ ],
+ "bio_sources": [
+  "https://aleph-alpha.com/",
+  "https://aclanthology.org/people/samuel-weinbach",
+  "https://api.openalex.org/authors/A5055789969",
+  "https://www.wikiwand.com/en/articles/Aleph_Alpha"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

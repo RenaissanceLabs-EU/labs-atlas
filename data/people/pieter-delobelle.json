@@ -1,0 +1,42 @@
+{
+ "id": "pieter-delobelle",
+ "name": "Pieter Delobelle",
+ "display": "Pieter Delobelle",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "pdelobelle",
+  "x": null,
+  "openalex": "A5023938338",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "dtai",
+   "org": "DTAI",
+   "role": "Lead author of RobBERT",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pieter Delobelle is a researcher at KU Leuven's DTAI group whose research centers on fairness and bias in NLP. Delobelle is lead author of RobBERT, a Dutch RoBERTa-based language model introduced in 2020 with Thomas Winters and Bettina Berendt, and its later updates.",
+ "known_for": [
+  "Lead author of RobBERT Dutch language model",
+  "Fairness and bias in NLP",
+  "Open Dutch language models"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2001.06286",
+  "https://dtai.cs.kuleuven.be/stories/post/pieter-delobelle/robbert",
+  "https://huggingface.co/pdelobelle/robbert-2026",
+  "https://huggingface.co/DTAI-KULeuven/models"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

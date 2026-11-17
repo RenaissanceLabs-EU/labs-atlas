@@ -1,0 +1,41 @@
+{
+ "id": "anette-frank",
+ "name": "Anette Frank",
+ "display": "Anette Frank",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5023977688",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "heidelberg-nlp",
+   "org": "Heidelberg NLP",
+   "role": "Professor and principal researcher",
+   "current": true,
+   "since": 2007
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Anette Frank is professor of computational linguistics at Heidelberg University, where Frank has led the NLP group since 2007. Research covers semantics and discourse, argumentation and commonsense reasoning, with recent work on the faithfulness of LLM explanations. Frank developed the SALSA corpus and SALTO annotation tool for German lexical semantics.",
+ "known_for": [
+  "Computational semantics and discourse",
+  "SALSA corpus for German",
+  "Faithfulness of LLM explanations"
+ ],
+ "bio_sources": [
+  "https://www.cl.uni-heidelberg.de/~frank/",
+  "https://www.cl.uni-heidelberg.de/nlpgroup/files/frank/CV_AFrank_Aug25.pdf",
+  "https://www.alphaxiv.org/@anette-frank"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "lalita-lowphansirikul",
+ "name": "Lalita Lowphansirikul",
+ "display": "Lalita Lowphansirikul",
+ "kind": "person",
+ "handles": {
+  "github": "lalital",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "vistec-depa-ai-research-institute-of-thailand",
+   "org": "VISTEC-depa AI Research Institute of Thailand",
+   "role": "Top contributor to thai2transformers",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Lalita Lowphansirikul is one of the most active contributors to VISTEC-depa AI Research Institute of Thailand's open source work on GitHub, with 725 contributions to thai2transformers.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/lalital",
+  "https://github.com/vistec-AI/thai2transformers"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

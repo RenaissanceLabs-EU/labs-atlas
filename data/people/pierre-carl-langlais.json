@@ -1,0 +1,48 @@
+{
+ "id": "pierre-carl-langlais",
+ "name": "Pierre-Carl Langlais",
+ "display": "Pierre-Carl Langlais",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5090355875",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "pleias",
+   "org": "Pleias",
+   "role": "Co-founder and researcher",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "OpSci",
+   "role": "Head of research",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pierre-Carl Langlais is a co-founder of Pleias, a French startup building language models on openly licensed data, and holds a PhD in information and communication from Sorbonne. They are first author of the Common Corpus paper, a roughly two trillion token collection of uncopyrighted and openly licensed text for LLM pretraining. Langlais previously was head of research at OpSci.",
+ "known_for": [
+  "Co-founder of Pleias",
+  "First author of Common Corpus open pretraining dataset",
+  "Pleias model family trained on open data"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2506.01732",
+  "https://huggingface.co/blog/Pclanglais/common-corpus",
+  "https://pleias.fr"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

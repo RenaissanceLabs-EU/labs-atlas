@@ -1,0 +1,48 @@
+{
+ "id": "anoop-kunchukuttan",
+ "name": "Anoop Kunchukuttan",
+ "display": "Anoop Kunchukuttan",
+ "kind": "person",
+ "handles": {
+  "github": "anoopkunchukuttan",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5052909911",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://anoopkunchukuttan.gitlab.io/",
+  "linkedin": "https://www.linkedin.com/in/anoopkunchukuttan"
+ },
+ "affiliations": [
+  {
+   "lab": "ai4bharat",
+   "org": "AI4Bharat",
+   "role": "Founding member and co-lead",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Microsoft",
+   "role": "Principal applied researcher, Machine Translation",
+   "current": true,
+   "since": 2023
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Anoop Kunchukuttan is a principal applied researcher on the Microsoft Machine Translation team in Hyderabad and a founding member and co-lead of AI4Bharat. His work on natural language processing for Indian languages includes the Samanantar corpus and IndicTrans2.",
+ "known_for": [
+  "Co-lead of AI4Bharat",
+  "Samanantar and IndicTrans2",
+  "Machine translation and transliteration"
+ ],
+ "bio_sources": [
+  "https://anoopkunchukuttan.gitlab.io/",
+  "https://api.openalex.org/authors/A5052909911",
+  "https://github.com/anoopkunchukuttan"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

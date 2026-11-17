@@ -1,0 +1,36 @@
+{
+ "id": "nikg4",
+ "name": null,
+ "display": "nikg4",
+ "kind": "handle",
+ "handles": {
+  "github": "nikg4",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "oumi",
+   "org": "Oumi",
+   "role": "Top contributor to oumi",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "nikg4 is one of the most active contributors to Oumi's open source work on GitHub, with 469 contributions to oumi.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/nikg4",
+  "https://github.com/oumi-ai/oumi"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

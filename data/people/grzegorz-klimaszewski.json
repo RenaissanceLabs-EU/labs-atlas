@@ -1,0 +1,36 @@
+{
+ "id": "grzegorz-klimaszewski",
+ "name": "Grzegorz Klimaszewski",
+ "display": "Grzegorz Klimaszewski",
+ "kind": "person",
+ "handles": {
+  "github": "grzegorz-roboflow",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "roboflow",
+   "org": "Roboflow",
+   "role": "Top contributor to inference",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Grzegorz Klimaszewski is one of the most active contributors to Roboflow's open source work on GitHub, with 2,415 contributions to inference. Their public GitHub profile reads: “Love building things”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/grzegorz-roboflow",
+  "https://github.com/roboflow/inference"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "enrique-manjavacas",
+ "name": "Enrique Manjavacas",
+ "display": "Enrique Manjavacas",
+ "kind": "person",
+ "handles": {
+  "github": "emanjavacas",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": "https://emanjavacas.github.io",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "clips",
+   "org": "CLiPS",
+   "role": "Member of the clips GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Enrique Manjavacas is listed by CLiPS as member of the clips GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.uantwerpen.be/en/research-groups/clips/",
+  "https://emanjavacas.github.io"
+ ],
+ "confidence": "high",
+ "auto": true
+}

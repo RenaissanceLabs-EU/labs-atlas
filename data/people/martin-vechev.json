@@ -1,0 +1,55 @@
+{
+ "id": "martin-vechev",
+ "name": "Martin Vechev",
+ "display": "Martin Vechev",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5069901599",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "insait",
+   "org": "INSAIT",
+   "role": "Founder and Scientific Director",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "sri-lab",
+   "org": "SRI Lab",
+   "role": "Professor and head of the lab (ETH Zurich)",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "IBM T.J. Watson Research Center",
+   "role": "Research Staff Member",
+   "current": false,
+   "since": 2007
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Martin Vechev is a professor of computer science at ETH Zurich, where Vechev heads the Secure, Reliable, and Intelligent Systems (SRI) Lab, and the founder and scientific director of INSAIT in Sofia, Bulgaria. INSAIT, set up with ETH Zurich and EPFL, released the BgGPT family of Bulgarian language models. Vechev also co-founded the companies LatticeFlow, DeepCode and ChainSecurity.",
+ "known_for": [
+  "Founder and scientific director of INSAIT",
+  "Head of ETH Zurich SRI Lab",
+  "Co-founder of DeepCode, ChainSecurity and LatticeFlow"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Martin_Vechev",
+  "https://insait.ai/prof-martin-vechev/",
+  "https://actu.epfl.ch/news/new-partnership-with-bulgaria-for-artificial-intel/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

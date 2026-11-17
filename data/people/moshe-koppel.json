@@ -1,0 +1,42 @@
+{
+ "id": "moshe-koppel",
+ "name": "Moshe Koppel",
+ "display": "Moshe Koppel",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5019908505",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://u.cs.biu.ac.il/~koppel/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "dicta-israel-center-for-text-analysis",
+   "org": "DICTA: Israel Center for Text Analysis",
+   "role": "Founder; professor of computer science, Bar-Ilan University",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Moshe Koppel is a professor of computer science at Bar-Ilan University and the founder of DICTA, the Israel Center for Text Analysis. Koppel is known for computational authorship attribution and profiling, and for DICTA's Hebrew language tools such as the Nakdan vocalization system, described in a 2020 ACL paper, and the DictaLM models.",
+ "known_for": [
+  "Authorship attribution and profiling",
+  "Founder of DICTA, Hebrew text analysis",
+  "Nakdan Hebrew vocalization tool"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Moshe_Koppel",
+  "https://en.wikipedia.org/wiki/Dicta_(organization)",
+  "https://huggingface.co/dicta-il/dictalm2.0/raw/main/README.md",
+  "https://u.cs.biu.ac.il/~koppel/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

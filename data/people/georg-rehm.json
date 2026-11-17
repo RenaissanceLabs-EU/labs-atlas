@@ -1,0 +1,35 @@
+{
+ "id": "georg-rehm",
+ "name": "Georg Rehm",
+ "display": "Georg Rehm",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5104366289",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "opengpt-x",
+   "org": "OpenGPT-X",
+   "role": "Researcher, DFKI",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Georg Rehm is listed by OpenGPT-X as researcher, DFKI. Co-author of the Teuken-7B paper and speaker at the 2024 OpenGPT-X Forum.",
+ "known_for": [],
+ "bio_sources": [
+  "https://opengpt-x.de",
+  "https://arxiv.org/abs/2410.03730"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

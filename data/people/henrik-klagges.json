@@ -1,0 +1,48 @@
+{
+ "id": "henrik-klagges",
+ "name": "Henrik Klagges",
+ "display": "Henrik Klagges",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5054415619",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "tng-technology-consulting",
+   "org": "TNG Technology Consulting",
+   "role": "Lead author, Assembly of Experts",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "TNG Technology Consulting",
+   "role": "Co-founder and supervisory board chair",
+   "current": true,
+   "since": 2001
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Henrik Klagges is a co-founder of TNG Technology Consulting, founded in 2001, and chairs its supervisory board. Klagges is first author, with Robert Dahlke, of \"Assembly of Experts\", which describes building the DeepSeek R1T Chimera, a hybrid of two DeepSeek mixture-of-experts models. TNG later released the three-parent R1T2 Chimera under an MIT license.",
+ "known_for": [
+  "Assembly of Experts model construction",
+  "DeepSeek R1T and R1T2 Chimera",
+  "Co-founder of TNG Technology Consulting"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/html/2506.14794v1",
+  "https://www.tngtech.com/en/about-us/news/release-of-deepseek-tng-r1t2-chimera/",
+  "https://website.aws.tngtech.com/en/services/artificial-intelligence/ai-research/"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

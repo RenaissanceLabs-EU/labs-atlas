@@ -1,0 +1,56 @@
+{
+ "id": "pratyush-kumar",
+ "name": "Pratyush Kumar",
+ "display": "Pratyush Kumar",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5101614266",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai4bharat",
+   "org": "AI4Bharat",
+   "role": "Co-founder; adjunct faculty, IIT Madras",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "sarvam-ai",
+   "org": "Sarvam AI",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": 2023
+  },
+  {
+   "lab": null,
+   "org": "IIT Madras",
+   "role": "Adjunct faculty",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pratyush Kumar is co-founder and CEO of Sarvam AI and a co-founder of AI4Bharat, the Indian-language AI lab at IIT Madras, where he remains adjunct faculty. He holds a PhD from ETH Zurich and works on building language models for Indian languages.",
+ "known_for": [
+  "Co-founder and CEO of Sarvam AI",
+  "Co-founder of AI4Bharat",
+  "AI for Indian languages"
+ ],
+ "bio_sources": [
+  "https://www.freepressjournal.in/tech/who-is-pratyush-kumar-founder-of-indian-startup-sarvam-ai-that-beat-chatgpt-google-gemini",
+  "https://www.sarvam.ai/indias-sovereign-large-language-model",
+  "https://api.openalex.org/authors/A5101614266",
+  "https://www.businesstoday.in/technology/news/story/meet-the-minds-behind-sarvam-ai-how-pratyush-kumar-and-vivek-raghavan-are-building-indias-sovereign-ai-stack-515472-2026-02-10"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

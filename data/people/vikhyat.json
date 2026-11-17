@@ -1,0 +1,36 @@
+{
+ "id": "vikhyat",
+ "name": null,
+ "display": "vikhyat",
+ "kind": "handle",
+ "handles": {
+  "github": "vikhyat",
+  "huggingface": null,
+  "x": "vikhyatk",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "moondream",
+   "org": "Moondream",
+   "role": "Top contributor to moondream",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "vikhyat is one of the most active contributors to Moondream's open source work on GitHub, with 210 contributions to moondream.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/vikhyat",
+  "https://github.com/m87-labs/moondream"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

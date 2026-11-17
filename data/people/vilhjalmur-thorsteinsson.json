@@ -1,0 +1,37 @@
+{
+ "id": "vilhjalmur-thorsteinsson",
+ "name": "Vilhjalmur Thorsteinsson",
+ "display": "Vilhjalmur Thorsteinsson",
+ "kind": "person",
+ "handles": {
+  "github": "vthorsteinsson",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mi-eind",
+   "org": "Miðeind",
+   "role": "Top contributor to GreynirEngine",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Vilhjalmur Thorsteinsson is one of the most active contributors to Miðeind's open source work on GitHub, with 3,103 contributions to GreynirServer, Netskrafl.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/vthorsteinsson",
+  "https://github.com/mideind/GreynirEngine",
+  "https://github.com/mideind/GreynirServer"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "adrian-arnaiz-rodriguez",
+ "name": "Adrian Arnaiz-Rodriguez",
+ "display": "Adrian Arnaiz-Rodriguez",
+ "kind": "person",
+ "handles": {
+  "github": "AdrianArnaiz",
+  "huggingface": null,
+  "x": "arnaiztech",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ellis-alicante",
+   "org": "ELLIS Alicante",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Adrian Arnaiz-Rodriguez is listed by ELLIS Alicante as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://ellisalicante.org",
+  "https://github.com/AdrianArnaiz"
+ ],
+ "confidence": "high",
+ "auto": true
+}

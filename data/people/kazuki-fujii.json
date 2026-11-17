@@ -1,0 +1,36 @@
+{
+ "id": "kazuki-fujii",
+ "name": "Kazuki Fujii",
+ "display": "Kazuki Fujii",
+ "kind": "person",
+ "handles": {
+  "github": "okoge-kaz",
+  "huggingface": null,
+  "x": "okoge_kaz",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "kotoba-technologies",
+   "org": "Kotoba Technologies",
+   "role": "Top contributor to kotomamba",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Kazuki Fujii is one of the most active contributors to Kotoba Technologies's open source work on GitHub, with 147 contributions to kotomamba. Their public GitHub profile reads: “CS PhD student at the Institute of Science Tokyo”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/okoge-kaz",
+  "https://github.com/kotoba-tech/kotomamba"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

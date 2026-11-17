@@ -1,0 +1,35 @@
+{
+ "id": "ranka-stankovic",
+ "name": "Ranka Stanković",
+ "display": "Ranka Stanković",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "rankas",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "jerteh",
+   "org": "JeRTeh",
+   "role": "Member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ranka Stanković is listed by JeRTeh as member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://jerteh.rs",
+  "https://huggingface.co/rankas"
+ ],
+ "confidence": "high",
+ "auto": true
+}

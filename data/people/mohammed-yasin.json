@@ -1,0 +1,36 @@
+{
+ "id": "mohammed-yasin",
+ "name": "Mohammed Yasin",
+ "display": "Mohammed Yasin",
+ "kind": "person",
+ "handles": {
+  "github": "Y-T-G",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ultralytics",
+   "org": "Ultralytics",
+   "role": "Top contributor to ultralytics",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mohammed Yasin is one of the most active contributors to Ultralytics's open source work on GitHub, with 447 contributions to ultralytics. Their public GitHub profile reads: “GPU-less and working on computer vision”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/Y-T-G",
+  "https://github.com/ultralytics/ultralytics"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

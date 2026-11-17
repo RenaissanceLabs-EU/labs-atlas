@@ -1,0 +1,35 @@
+{
+ "id": "avi-shmidman",
+ "name": "Avi Shmidman",
+ "display": "Avi Shmidman",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5013212409",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "dicta-israel-center-for-text-analysis",
+   "org": "DICTA: Israel Center for Text Analysis",
+   "role": "Researcher, DICTA and Bar-Ilan University",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Avi Shmidman is listed by DICTA: Israel Center for Text Analysis as researcher, DICTA and Bar-Ilan University. Lead author on DictaBERT and DictaLM papers.",
+ "known_for": [],
+ "bio_sources": [
+  "https://dicta.org.il/",
+  "https://arxiv.org/abs/2308.16687"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

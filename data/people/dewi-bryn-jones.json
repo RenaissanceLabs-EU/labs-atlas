@@ -1,0 +1,35 @@
+{
+ "id": "dewi-bryn-jones",
+ "name": "Dewi Bryn Jones",
+ "display": "Dewi Bryn Jones",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "DewiBrynJones",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "language-technologies-unit",
+   "org": "Language Technologies Unit",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Dewi Bryn Jones is listed by Language Technologies Unit as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://techiaith.cymru",
+  "https://huggingface.co/DewiBrynJones"
+ ],
+ "confidence": "high",
+ "auto": true
+}

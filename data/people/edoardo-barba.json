@@ -1,0 +1,41 @@
+{
+ "id": "edoardo-barba",
+ "name": "Edoardo Barba",
+ "display": "Edoardo Barba",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5026996221",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "sapienza-nlp",
+   "org": "Sapienza NLP",
+   "role": "Minerva project lead",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Edoardo Barba is a researcher in the Sapienza NLP group at Sapienza University of Rome. They are one of the leads of Minerva, a family of Italian-English language models trained on over 500 billion words, together with Roberto Navigli and Simone Conia. Barba is also a co-author of ReLiK for entity linking and relation extraction.",
+ "known_for": [
+  "Co-lead of Minerva Italian LLMs",
+  "Co-author of ReLiK entity linking",
+  "Author of ExtEnD entity disambiguation"
+ ],
+ "bio_sources": [
+  "https://nlp.uniroma1.it/posts/29",
+  "https://arxiv.org/abs/2408.00103",
+  "https://nlp.uniroma1.it"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

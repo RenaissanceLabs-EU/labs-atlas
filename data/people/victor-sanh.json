@@ -1,0 +1,42 @@
+{
+ "id": "victor-sanh",
+ "name": "Victor Sanh",
+ "display": "Victor Sanh",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5049805631",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bigscience",
+   "org": "BigScience",
+   "role": "Working group chair; lead author of T0",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Victor Sanh is a machine learning researcher who was part of the early Hugging Face team and has since moved to a startup building AI agents. They are a lead author of the T0 paper on multitask prompted training from the BigScience workshop and a co-author of DistilBERT.",
+ "known_for": [
+  "T0 multitask prompted training (BigScience)",
+  "DistilBERT model distillation",
+  "Early Hugging Face Transformers library work"
+ ],
+ "bio_sources": [
+  "https://bigscience.huggingface.co",
+  "https://arxiv.org/abs/1910.01108",
+  "https://huggingface.co/bigscience/T0",
+  "https://digg.com/rankings/SanhEstPasMoi"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

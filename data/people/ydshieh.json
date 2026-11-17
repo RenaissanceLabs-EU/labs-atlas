@@ -1,0 +1,36 @@
+{
+ "id": "ydshieh",
+ "name": null,
+ "display": "ydshieh",
+ "kind": "handle",
+ "handles": {
+  "github": "ydshieh",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hugging-face",
+   "org": "Hugging Face",
+   "role": "Top contributor to transformers",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "ydshieh is one of the most active contributors to Hugging Face's open source work on GitHub, with 1,625 contributions to transformers. Their public GitHub profile reads: “Machine Learning Engineer”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/ydshieh",
+  "https://github.com/huggingface/transformers"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

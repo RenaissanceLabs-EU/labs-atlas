@@ -1,0 +1,40 @@
+{
+ "id": "dan-jurafsky",
+ "name": "Dan Jurafsky",
+ "display": "Dan Jurafsky",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=uZg9l58AAAAJ",
+  "website": "https://web.stanford.edu/~jurafsky/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "stanford-nlp-group",
+   "org": "Stanford NLP Group",
+   "role": "Professor of Linguistics and Computer Science",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Dan Jurafsky is a Professor of Linguistics and Computer Science at Stanford University, where they have taught since 2003. Their research covers computational linguistics and natural language processing. Jurafsky co-wrote the textbook Speech and Language Processing with James H. Martin and received a MacArthur Fellowship in 2002.",
+ "known_for": [
+  "Textbook Speech and Language Processing",
+  "Early semantic role labeling systems",
+  "Computational linguistics of language and society"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Dan_Jurafsky"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true,
+ "flag": "thin sources"
+}

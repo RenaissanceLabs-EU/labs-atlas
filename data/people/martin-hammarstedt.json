@@ -1,0 +1,37 @@
+{
+ "id": "martin-hammarstedt",
+ "name": "Martin Hammarstedt",
+ "display": "Martin Hammarstedt",
+ "kind": "person",
+ "handles": {
+  "github": "MartinHammarstedt",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "sprakbanken-text",
+   "org": "Sprakbanken Text",
+   "role": "Top contributor to sparv",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Martin Hammarstedt is one of the most active contributors to Sprakbanken Text's open source work on GitHub, with 1,855 contributions to sparv, korp-backend.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/MartinHammarstedt",
+  "https://github.com/spraakbanken/sparv",
+  "https://github.com/spraakbanken/korp-backend"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

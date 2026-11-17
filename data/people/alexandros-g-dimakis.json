@@ -1,0 +1,41 @@
+{
+ "id": "alexandros-g-dimakis",
+ "name": "Alexandros G. Dimakis",
+ "display": "Alexandros G. Dimakis",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5014141359",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=JSFmVQEAAAAJ",
+  "website": "https://people.eecs.berkeley.edu/~alexdimakis/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openthoughts",
+   "org": "OpenThoughts",
+   "role": "Professor, UC Berkeley; Bespoke Labs co-founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alexandros G. Dimakis is a professor in the EECS department at UC Berkeley and co-director of the National AI Institute for Foundations of Machine Learning. They co-founded Bespoke Labs, a data curation company, and contribute to the OpenThoughts reasoning datasets. Earlier work includes compressed sensing with generative models and gradient coding.",
+ "known_for": [
+  "Co-founder of Bespoke Labs",
+  "Co-author of OpenThoughts and DataComp",
+  "Compressed sensing with generative models"
+ ],
+ "bio_sources": [
+  "https://people.eecs.berkeley.edu/~alexdimakis/",
+  "https://arxiv.org/abs/2506.04178",
+  "https://www.openthoughts.ai"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

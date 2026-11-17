@@ -1,0 +1,37 @@
+{
+ "id": "jorgtied",
+ "name": null,
+ "display": "jorgtied",
+ "kind": "handle",
+ "handles": {
+  "github": "jorgtied",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "helsinki-nlp",
+   "org": "Helsinki-NLP",
+   "role": "Top contributor to Opus-MT",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "jorgtied is one of the most active contributors to Helsinki-NLP's open source work on GitHub, with 856 contributions to OPUS-MT-train, Tatoeba-Challenge.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jorgtied",
+  "https://github.com/Helsinki-NLP/Opus-MT",
+  "https://github.com/Helsinki-NLP/Tatoeba-Challenge"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

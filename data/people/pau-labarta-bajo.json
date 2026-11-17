@@ -1,0 +1,36 @@
+{
+ "id": "pau-labarta-bajo",
+ "name": "Pau Labarta Bajo",
+ "display": "Pau Labarta Bajo",
+ "kind": "person",
+ "handles": {
+  "github": "Paulescu",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "liquid-ai",
+   "org": "Liquid AI",
+   "role": "Top contributor to cookbook",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pau Labarta Bajo is one of the most active contributors to Liquid AI's open source work on GitHub, with 94 contributions to cookbook.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/Paulescu",
+  "https://github.com/Liquid4All/cookbook"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

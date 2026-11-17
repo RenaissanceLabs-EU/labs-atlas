@@ -1,0 +1,35 @@
+{
+ "id": "johannes-baiter",
+ "name": "Johannes Baiter",
+ "display": "Johannes Baiter",
+ "kind": "person",
+ "handles": {
+  "github": "jbaiter",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mdz-digital-library-team",
+   "org": "MDZ Digital Library team",
+   "role": "Developer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Johannes Baiter is listed by MDZ Digital Library team as developer.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/dbmdz",
+  "https://github.com/jbaiter"
+ ],
+ "confidence": "high",
+ "auto": true
+}

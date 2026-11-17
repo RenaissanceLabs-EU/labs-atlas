@@ -1,0 +1,36 @@
+{
+ "id": "kevin-messiaen",
+ "name": "Kevin Messiaen",
+ "display": "Kevin Messiaen",
+ "kind": "person",
+ "handles": {
+  "github": "kevinmessiaen",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "giskard",
+   "org": "Giskard",
+   "role": "Top contributor to giskard-oss",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Kevin Messiaen is one of the most active contributors to Giskard's open source work on GitHub, with 1,394 contributions to giskard-oss.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/kevinmessiaen",
+  "https://github.com/Giskard-AI/giskard-oss"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

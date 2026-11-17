@@ -1,0 +1,35 @@
+{
+ "id": "sungjun-han",
+ "name": "Sungjun Han",
+ "display": "Sungjun Han",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5119770742",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "trillion-labs",
+   "org": "Trillion Labs",
+   "role": "Researcher, first author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sungjun Han is listed by Trillion Labs as researcher, first author. First author of the Trillion 7B report.",
+ "known_for": [],
+ "bio_sources": [
+  "https://trillionlabs.co",
+  "https://arxiv.org/abs/2504.15431"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

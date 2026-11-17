@@ -1,0 +1,37 @@
+{
+ "id": "saurav-panda",
+ "name": "Saurav Panda",
+ "display": "Saurav Panda",
+ "kind": "person",
+ "handles": {
+  "github": "sauravpanda",
+  "huggingface": null,
+  "x": "sauravpanda",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "browser-use",
+   "org": "Browser Use",
+   "role": "Top contributor to browser-use",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Saurav Panda is one of the most active contributors to Browser Use's open source work on GitHub, with 840 contributions to browser-use, browser-harness. Their public GitHub profile reads: “Building AI-powered devtools to make my life easy!”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/sauravpanda",
+  "https://github.com/browser-use/browser-use",
+  "https://github.com/browser-use/browser-harness"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

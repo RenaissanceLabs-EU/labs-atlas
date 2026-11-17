@@ -1,0 +1,41 @@
+{
+ "id": "ines-montani",
+ "name": "Ines Montani",
+ "display": "Ines Montani",
+ "kind": "person",
+ "handles": {
+  "github": "ines",
+  "huggingface": null,
+  "x": "_inesmontani",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": "https://ines.io",
+  "linkedin": "https://www.linkedin.com/in/inesmontani"
+ },
+ "affiliations": [
+  {
+   "lab": "explosion",
+   "org": "Explosion",
+   "role": "CEO and founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ines Montani is co-founder and CEO of Explosion, the Berlin company behind the open-source spaCy NLP library and the Prodigy annotation tool. Montani is a Fellow of the Python Software Foundation and has given keynotes at conferences including PyCon India and EuroPython.",
+ "known_for": [
+  "Co-founder and CEO of Explosion",
+  "spaCy and Prodigy",
+  "Python Software Foundation Fellow"
+ ],
+ "bio_sources": [
+  "https://ines.io",
+  "https://github.com/ines",
+  "https://explosion.ai"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

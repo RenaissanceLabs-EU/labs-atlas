@@ -1,0 +1,35 @@
+{
+ "id": "shengding-hu",
+ "name": "Shengding Hu",
+ "display": "Shengding Hu",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5010557815",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openbmb-modelbest",
+   "org": "OpenBMB / ModelBest",
+   "role": "First author of MiniCPM",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shengding Hu is listed by OpenBMB / ModelBest as first author of MiniCPM. Led the MiniCPM small language model paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.openbmb.cn",
+  "https://arxiv.org/abs/2404.06395"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

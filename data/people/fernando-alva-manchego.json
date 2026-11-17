@@ -1,0 +1,35 @@
+{
+ "id": "fernando-alva-manchego",
+ "name": "Fernando Alva-Manchego",
+ "display": "Fernando Alva-Manchego",
+ "kind": "person",
+ "handles": {
+  "github": "feralvam",
+  "huggingface": null,
+  "x": "feralvam",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=4SnHu7sAAAAJ",
+  "website": "https://feralvam.github.io",
+  "linkedin": "https://www.linkedin.com/in/feralvam"
+ },
+ "affiliations": [
+  {
+   "lab": "cardiff-nlp",
+   "org": "Cardiff NLP",
+   "role": "Member of the cardiffnlp GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Fernando Alva-Manchego is listed by Cardiff NLP as member of the cardiffnlp GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.cardiffnlp.org",
+  "https://feralvam.github.io"
+ ],
+ "confidence": "high",
+ "auto": true
+}

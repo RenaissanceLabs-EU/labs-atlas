@@ -1,0 +1,49 @@
+{
+ "id": "marius-hobbhahn",
+ "name": "Marius Hobbhahn",
+ "display": "Marius Hobbhahn",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5034914617",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "apollo-research",
+   "org": "Apollo Research",
+   "role": "CEO and co-founder",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Epoch AI",
+   "role": "Part-time research fellow",
+   "current": false,
+   "since": 2022
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Marius Hobbhahn is co-founder and CEO of Apollo Research, an organization that evaluates frontier AI systems for scheming and deceptive behavior. Hobbhahn is a lead author of the 2024 paper showing frontier models can scheme in context, and previously worked on AI trend analysis as a research fellow at Epoch.",
+ "known_for": [
+  "Co-founder and CEO of Apollo Research",
+  "In-context scheming evaluations",
+  "Compute and data trend forecasting"
+ ],
+ "bio_sources": [
+  "https://www.matsprogram.org/mentor/hobbhahn",
+  "https://www.cognitiverevolution.ai/ai-deception-interpretability-and-affordances-with-apollo-research-ceo-marius-hobbhahn",
+  "https://www.hsgac.senate.gov/wp-content/uploads/Marius-Hobbhahn-Testimony.pdf",
+  "https://api.openalex.org/authors/A5034914617"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

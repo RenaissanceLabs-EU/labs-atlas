@@ -1,0 +1,41 @@
+{
+ "id": "marko-robnik-sikonja",
+ "name": "Marko Robnik-Sikonja",
+ "display": "Marko Robnik-Sikonja",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5020021079",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "cjvt",
+   "org": "CJVT",
+   "role": "Professor, University of Ljubljana; GaMS author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Marko Robnik-Šikonja is a professor at the Faculty of Computer and Information Science, University of Ljubljana, and heads its Machine Learning and Language Technologies Lab. Their work spans machine learning and NLP, including the ReliefF feature estimation algorithms and the GaMS generative models for Slovene.",
+ "known_for": [
+  "ReliefF and RReliefF feature estimation",
+  "GaMS Slovene generative language models",
+  "Language technologies for less-resourced languages"
+ ],
+ "bio_sources": [
+  "https://theconversation.com/profiles/marko-robnik-sikonja-387584",
+  "https://arxiv.org/abs/2410.06898",
+  "https://ellis.eu/person/marko-robnik-sikonja"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

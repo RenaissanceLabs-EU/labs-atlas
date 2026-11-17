@@ -1,0 +1,36 @@
+{
+ "id": "pawelpeczek-roboflow",
+ "name": null,
+ "display": "PawelPeczek-Roboflow",
+ "kind": "handle",
+ "handles": {
+  "github": "PawelPeczek-Roboflow",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "roboflow",
+   "org": "Roboflow",
+   "role": "Top contributor to inference",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "PawelPeczek-Roboflow is one of the most active contributors to Roboflow's open source work on GitHub, with 3,991 contributions to inference.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/PawelPeczek-Roboflow",
+  "https://github.com/roboflow/inference"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

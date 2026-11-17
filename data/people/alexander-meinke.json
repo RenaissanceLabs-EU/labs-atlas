@@ -1,0 +1,42 @@
+{
+ "id": "alexander-meinke",
+ "name": "Alexander Meinke",
+ "display": "Alexander Meinke",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5084032027",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "apollo-research",
+   "org": "Apollo Research",
+   "role": "Head of Research",
+   "current": true,
+   "since": 2023
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alexander Meinke is Head of Research at Apollo Research, which he joined as a research scientist in late 2023. Meinke is a co-author of the Apollo paper on in-context scheming in frontier models and of work on anti-scheming training and the Situational Awareness Dataset.",
+ "known_for": [
+  "Head of Research at Apollo Research",
+  "Co-author of in-context scheming paper",
+  "Situational Awareness Dataset"
+ ],
+ "bio_sources": [
+  "https://www.apolloresearch.ai/about",
+  "https://theorg.com/org/apollo-research/org-chart/alexander-meinke",
+  "https://api.openalex.org/authors/A5084032027",
+  "https://www.alignmentforum.org/users/alex-meinke"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

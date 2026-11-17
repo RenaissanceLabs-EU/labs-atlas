@@ -1,0 +1,36 @@
+{
+ "id": "antonio-silletti",
+ "name": "Antonio Silletti",
+ "display": "Antonio Silletti",
+ "kind": "person",
+ "handles": {
+  "github": "Silleellie",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "swap-research-group",
+   "org": "SWAP Research Group",
+   "role": "Top contributor to ClayRS",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Antonio Silletti is one of the most active contributors to SWAP Research Group's open source work on GitHub, with 928 contributions to ClayRS.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/Silleellie",
+  "https://github.com/swapUniba/ClayRS"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

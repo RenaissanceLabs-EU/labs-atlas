@@ -1,0 +1,36 @@
+{
+ "id": "liruifengv",
+ "name": null,
+ "display": "liruifengv",
+ "kind": "handle",
+ "handles": {
+  "github": "liruifengv",
+  "huggingface": null,
+  "x": "liruifengv",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "moonshot-ai",
+   "org": "Moonshot AI",
+   "role": "Top contributor to kimi-code",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "liruifengv is one of the most active contributors to Moonshot AI's open source work on GitHub, with 331 contributions to kimi-code.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/liruifengv",
+  "https://github.com/MoonshotAI/kimi-code"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

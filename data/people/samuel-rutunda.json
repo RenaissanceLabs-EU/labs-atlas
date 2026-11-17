@@ -1,0 +1,34 @@
+{
+ "id": "samuel-rutunda",
+ "name": "Samuel Rutunda",
+ "display": "Samuel Rutunda",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "rutsam",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "digital-umuganda",
+   "org": "Digital Umuganda",
+   "role": "Team member, Hugging Face organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Samuel Rutunda is listed by Digital Umuganda as team member, Hugging Face organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://huggingface.co/rutsam"
+ ],
+ "confidence": "high",
+ "auto": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "eugene-cheah",
+ "name": "Eugene Cheah",
+ "display": "Eugene Cheah",
+ "kind": "person",
+ "handles": {
+  "github": "PicoCreator",
+  "huggingface": null,
+  "x": "picocreator",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "rwkv",
+   "org": "RWKV",
+   "role": "Top contributor to RWKV-infctx-trainer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Eugene Cheah is one of the most active contributors to RWKV's open source work on GitHub, with 512 contributions to RWKV-infctx-trainer.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/PicoCreator",
+  "https://github.com/RWKV/RWKV-infctx-trainer"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

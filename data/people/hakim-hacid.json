@@ -1,0 +1,48 @@
+{
+ "id": "hakim-hacid",
+ "name": "Hakim Hacid",
+ "display": "Hakim Hacid",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5013316111",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "technology-innovation-institute",
+   "org": "Technology Innovation Institute",
+   "role": "Chief Researcher, AI Cross Center Unit",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Zayed University",
+   "role": "Associate Professor",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Hakim Hacid is Chief Researcher of the Artificial Intelligence and Digital Science Research Center at the Technology Innovation Institute (TII) in Abu Dhabi, the group behind the Falcon language models. Hacid was appointed to the role in September 2024 after serving as acting chief researcher. Earlier, Hacid was an associate professor at Zayed University and held research roles at Bell Labs.",
+ "known_for": [
+  "Leads the TII AI research center behind Falcon",
+  "Machine learning, databases and NLP research",
+  "Industry research leadership at Bell Labs"
+ ],
+ "bio_sources": [
+  "https://tii.ae/team/dr-hakim-hacid",
+  "https://www.tii.ae/node/3241",
+  "https://tii.ae/node/3999"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

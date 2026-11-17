@@ -1,0 +1,36 @@
+{
+ "id": "marshall-wang",
+ "name": "Marshall Wang",
+ "display": "Marshall Wang",
+ "kind": "person",
+ "handles": {
+  "github": "XkunW",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "vector-institute",
+   "org": "Vector Institute",
+   "role": "Top contributor to vector-inference",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Marshall Wang is one of the most active contributors to Vector Institute's open source work on GitHub, with 877 contributions to vector-inference.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/XkunW",
+  "https://github.com/VectorInstitute/vector-inference"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

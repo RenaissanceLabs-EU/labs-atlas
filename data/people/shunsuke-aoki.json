@@ -1,0 +1,42 @@
+{
+ "id": "shunsuke-aoki",
+ "name": "Shunsuke Aoki",
+ "display": "Shunsuke Aoki",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5023185891",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "turing-inc",
+   "org": "Turing Inc.",
+   "role": "Co-founder and CTO",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shunsuke Aoki is a co-founder of Turing Inc., a Tokyo company developing fully autonomous driving, and has been listed as its CTO and as an assistant professor at the National Institute of Informatics. Turing was founded in 2021 with Issei Yamamoto.",
+ "known_for": [
+  "Co-founded Turing autonomous driving company",
+  "Autonomous driving systems",
+  "Academic research in intelligent vehicles"
+ ],
+ "bio_sources": [
+  "https://theorg.com/org/turing-1/org-chart/shunsuke-aoki",
+  "https://www.thestar.com.my/tech/tech-news/2024/04/22/an-ai-star-seeks-to-bring-self-driving-cars-to-japan-by-2030",
+  "https://geniac.meti.go.jp/english/geniac_magazine/keyperson_4.html"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true,
+ "flag": "Current CTO title unclear: one directory lists another executive as CTO; OpenAlex profile lists Hokkaido University."
+}

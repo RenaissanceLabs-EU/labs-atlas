@@ -1,0 +1,36 @@
+{
+ "id": "muennighoff",
+ "name": null,
+ "display": "Muennighoff",
+ "kind": "handle",
+ "handles": {
+  "github": "Muennighoff",
+  "huggingface": null,
+  "x": "Muennighoff",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bigcode",
+   "org": "BigCode",
+   "role": "Top contributor to bigcode-evaluation-harness",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Muennighoff is one of the most active contributors to BigCode's open source work on GitHub, with 193 contributions to bigcode-evaluation-harness.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/Muennighoff",
+  "https://github.com/bigcode-project/bigcode-evaluation-harness"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,48 @@
+{
+ "id": "andrew-zisserman",
+ "name": "Andrew Zisserman",
+ "display": "Andrew Zisserman",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5057678172",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "visual-geometry-group",
+   "org": "Visual Geometry Group",
+   "role": "Professor, founder",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Google DeepMind",
+   "role": "Research affiliation",
+   "current": true,
+   "since": 2014
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Andrew Zisserman is a Professor of Computer Vision Engineering at the University of Oxford and a Royal Society Research Professor, affiliated with Google DeepMind. Zisserman works on computer vision and co-wrote the textbook Multiple View Geometry in Computer Vision with Richard Hartley. Honors include Fellowship of the Royal Society and the Royal Society Milner Award.",
+ "known_for": [
+  "Multiple View Geometry in Computer Vision",
+  "Visual Geometry Group co-founder",
+  "Visual recognition and video understanding"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Andrew_Zisserman",
+  "https://www.robots.ox.ac.uk/~az/"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true,
+ "flag": "thin sources"
+}

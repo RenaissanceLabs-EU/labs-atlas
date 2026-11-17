@@ -1,0 +1,41 @@
+{
+ "id": "bo-peng",
+ "name": "Bo Peng",
+ "display": "Bo Peng",
+ "kind": "person",
+ "handles": {
+  "github": "BlinkDL",
+  "huggingface": null,
+  "x": "BlinkDL_AI",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "rwkv",
+   "org": "RWKV",
+   "role": "Creator and project lead",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Bo Peng is the creator and lead of RWKV, an open-source RNN-style language model architecture that trains like a transformer. They are lead author of the RWKV-7 Goose paper, which introduces a generalized delta rule with vector-valued gating. The RWKV project operates under the Linux Foundation AI and Data.",
+ "known_for": [
+  "Creator of the RWKV architecture",
+  "Lead author of RWKV-7 Goose",
+  "Maintainer of RWKV-LM and ChatRWKV"
+ ],
+ "bio_sources": [
+  "https://github.com/BlinkDL",
+  "https://arxiv.org/abs/2503.14456",
+  "https://www.rwkv.com/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

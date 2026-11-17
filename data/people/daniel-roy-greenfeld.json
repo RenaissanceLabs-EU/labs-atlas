@@ -1,0 +1,36 @@
+{
+ "id": "daniel-roy-greenfeld",
+ "name": "Daniel Roy Greenfeld",
+ "display": "Daniel Roy Greenfeld",
+ "kind": "person",
+ "handles": {
+  "github": "pydanny",
+  "huggingface": null,
+  "x": "pydanny",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "answer-ai",
+   "org": "Answer.AI",
+   "role": "Top contributor to fasthtml",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Daniel Roy Greenfeld is one of the most active contributors to Answer.AI's open source work on GitHub, with 170 contributions to fasthtml.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/pydanny",
+  "https://github.com/AnswerDotAI/fasthtml"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

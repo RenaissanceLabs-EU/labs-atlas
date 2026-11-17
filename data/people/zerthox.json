@@ -1,0 +1,36 @@
+{
+ "id": "zerthox",
+ "name": null,
+ "display": "Zerthox",
+ "kind": "handle",
+ "handles": {
+  "github": "Zerthox",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "aiml-lab",
+   "org": "AIML Lab",
+   "role": "Top contributor to liground",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Zerthox is one of the most active contributors to AIML Lab's open source work on GitHub, with 128 contributions to liground. Their public GitHub profile reads: “Lazy perfectionist”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/Zerthox",
+  "https://github.com/ml-research/liground"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

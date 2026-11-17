@@ -1,0 +1,36 @@
+{
+ "id": "leogrin",
+ "name": null,
+ "display": "LeoGrin",
+ "kind": "handle",
+ "handles": {
+  "github": "LeoGrin",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "prior-labs",
+   "org": "Prior Labs",
+   "role": "Top contributor to TabPFN",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "LeoGrin is one of the most active contributors to Prior Labs's open source work on GitHub, with 135 contributions to TabPFN.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/LeoGrin",
+  "https://github.com/PriorLabs/TabPFN"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "gautier-viaud",
+ "name": "Gautier Viaud",
+ "display": "Gautier Viaud",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5079512127",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "illuin-technology",
+   "org": "Illuin Technology",
+   "role": "ColPali and ModernVBERT co-author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Gautier Viaud is listed by Illuin Technology as colPali and ModernVBERT co-author.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.illuin.tech",
+  "https://arxiv.org/abs/2407.01449"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "tony-lee",
+ "name": "Tony Lee",
+ "display": "Tony Lee",
+ "kind": "person",
+ "handles": {
+  "github": "teetone",
+  "huggingface": null,
+  "x": "tonyh_lee",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "stanford-crfm",
+   "org": "Stanford CRFM",
+   "role": "Top contributor to helm",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tony Lee is one of the most active contributors to Stanford CRFM's open source work on GitHub, with 1,695 contributions to helm. Their public GitHub profile reads: “CS PhD at Stanford”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/teetone",
+  "https://github.com/stanford-crfm/helm"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

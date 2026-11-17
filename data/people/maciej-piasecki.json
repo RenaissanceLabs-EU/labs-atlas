@@ -1,0 +1,41 @@
+{
+ "id": "maciej-piasecki",
+ "name": "Maciej Piasecki",
+ "display": "Maciej Piasecki",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5136126625",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "clarin-pl",
+   "org": "CLARIN-PL",
+   "role": "Researcher; plWordNet principal investigator",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Maciej Piasecki is a researcher in the G4.19 Language Technology Group at Wrocław University of Science and Technology and a principal investigator of the plWordNet project, a large Polish wordnet. They are a co-author of the LEPISZCZE benchmark for Polish NLP and of the plWordNet 5.0 paper.",
+ "known_for": [
+  "plWordNet Polish wordnet",
+  "LEPISZCZE Polish NLP benchmark",
+  "Lexical semantics and CLARIN-PL resources"
+ ],
+ "bio_sources": [
+  "https://wit.pwr.edu.pl/en/news/the-plwordnet-dictionary-awarded-by-the-polish-academy-of-sciences-71.html",
+  "https://arxiv.org/abs/2211.13112",
+  "https://clarin-pl.eu"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

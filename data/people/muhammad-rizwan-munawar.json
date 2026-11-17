@@ -1,0 +1,36 @@
+{
+ "id": "muhammad-rizwan-munawar",
+ "name": "Muhammad Rizwan Munawar",
+ "display": "Muhammad Rizwan Munawar",
+ "kind": "person",
+ "handles": {
+  "github": "RizwanMunawar",
+  "huggingface": null,
+  "x": "muhammdrizwanmr",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ultralytics",
+   "org": "Ultralytics",
+   "role": "Top contributor to ultralytics",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Muhammad Rizwan Munawar is one of the most active contributors to Ultralytics's open source work on GitHub, with 453 contributions to ultralytics. Their public GitHub profile reads: “Solving real-world problems using computer vision | Influencer | Open source contributor | Technical writer VisionAI | Computer vision engineer | LLMs | Open FC”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/RizwanMunawar",
+  "https://github.com/ultralytics/ultralytics"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

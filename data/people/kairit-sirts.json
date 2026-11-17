@@ -1,0 +1,41 @@
+{
+ "id": "kairit-sirts",
+ "name": "Kairit Sirts",
+ "display": "Kairit Sirts",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5035358986",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "tartunlp",
+   "org": "TartuNLP",
+   "role": "Associate professor",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Kairit Sirts is a researcher at the Institute of Computer Science, University of Tartu, and a member of the TartuNLP group. Their work focuses on natural language processing for Estonian and low-resource languages. Sirts co-authored EstBERT, a pretrained BERT model for Estonian.",
+ "known_for": [
+  "EstBERT pretrained Estonian language model",
+  "Estonian NLP resources and evaluation",
+  "TartuNLP research group"
+ ],
+ "bio_sources": [
+  "https://www.aclweb.org/aclwiki/User:Ksirts",
+  "https://ar5iv.org/html/2011.04784",
+  "https://arxiv.org/html/2405.01159v2"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

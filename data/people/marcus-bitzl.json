@@ -1,0 +1,35 @@
+{
+ "id": "marcus-bitzl",
+ "name": "Marcus Bitzl",
+ "display": "Marcus Bitzl",
+ "kind": "person",
+ "handles": {
+  "github": "bitzl",
+  "huggingface": null,
+  "x": "MarcusBitzl",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mdz-digital-library-team",
+   "org": "MDZ Digital Library team",
+   "role": "Developer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Marcus Bitzl is listed by MDZ Digital Library team as developer.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/dbmdz",
+  "https://github.com/bitzl"
+ ],
+ "confidence": "high",
+ "auto": true
+}

@@ -1,0 +1,49 @@
+{
+ "id": "kellin-pelrine",
+ "name": "Kellin Pelrine",
+ "display": "Kellin Pelrine",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5057950507",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "far-ai",
+   "org": "FAR.AI",
+   "role": "Head of Technology, Frontier Safety",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Mila - Quebec Artificial Intelligence Institute",
+   "role": "PhD student",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Kellin Pelrine works at FAR.AI on red-teaming frontier AI models and is a PhD student at McGill University and Mila. Pelrine's research also covers misinformation and political polarization, and includes an adversarial attack that beat the superhuman Go system KataGo in 14 of 15 games.",
+ "known_for": [
+  "Red-teaming frontier AI models",
+  "Adversarial attacks on KataGo",
+  "Misinformation research at Mila"
+ ],
+ "bio_sources": [
+  "https://far.ai/about/people/kellin-pelrine",
+  "https://kellinpelrine.github.io/bio.html",
+  "https://www.schmidtsciences.org/grantee/kellin-pelrine/",
+  "https://aistories.buzzsprout.com/1861907/12984095-kellin-pelrine-how-he-crushed-a-superhuman-go-playing-ai-14-games-to-1-34"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

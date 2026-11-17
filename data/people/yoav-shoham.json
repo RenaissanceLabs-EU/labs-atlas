@@ -1,0 +1,48 @@
+{
+ "id": "yoav-shoham",
+ "name": "Yoav Shoham",
+ "display": "Yoav Shoham",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5028913764",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai21-labs",
+   "org": "AI21 Labs",
+   "role": "Co-founder and co-CEO",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Stanford University",
+   "role": "Professor emeritus of computer science",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Yoav Shoham is a professor emeritus of computer science at Stanford University and a co-founder of AI21 Labs. His academic work covers AI, logic and multi-agent systems and game theory, and he initiated the AI Index, an annual report tracking AI activity and progress.",
+ "known_for": [
+  "Co-founder of AI21 Labs",
+  "Initiated the Stanford AI Index",
+  "Multi-agent systems and game theory"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Yoav_Shoham",
+  "https://api.openalex.org/authors/A5028913764",
+  "https://www.ai21.com/about"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

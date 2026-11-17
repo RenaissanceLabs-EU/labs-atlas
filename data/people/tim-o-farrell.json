@@ -1,0 +1,36 @@
+{
+ "id": "tim-o-farrell",
+ "name": "Tim O'Farrell",
+ "display": "Tim O'Farrell",
+ "kind": "person",
+ "handles": {
+  "github": "tofarr",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openhands",
+   "org": "OpenHands",
+   "role": "Top contributor to OpenHands",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tim O'Farrell is one of the most active contributors to OpenHands's open source work on GitHub, with 664 contributions to OpenHands.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/tofarr",
+  "https://github.com/OpenHands/OpenHands"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

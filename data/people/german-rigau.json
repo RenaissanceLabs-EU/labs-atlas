@@ -1,0 +1,55 @@
+{
+ "id": "german-rigau",
+ "name": "German Rigau",
+ "display": "German Rigau",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5073264941",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hitz-basque-center-for-language-technology",
+   "org": "HiTZ Basque Center for Language Technology",
+   "role": "Deputy Director",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "University of the Basque Country (UPV/EHU)",
+   "role": "Lecturer (profesor titular)",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Technical University of Catalonia (UPC), TALP Research Center",
+   "role": "Researcher",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "German Rigau is deputy director of HiTZ, the Basque Center for Language Technology in San Sebastian, and a lecturer at the University of the Basque Country (UPV/EHU), where Rigau belongs to the IXA research group. Rigau previously worked in the TALP language and speech research center at the Technical University of Catalonia. Rigau's research is in natural language processing, including lexical semantics and multilingual language models.",
+ "known_for": [
+  "Deputy director of HiTZ Basque language technology center",
+  "Natural language processing and lexical semantics research",
+  "Member of the IXA research group at UPV/EHU"
+ ],
+ "bio_sources": [
+  "https://www.hitz.eus/en/staff",
+  "https://adimen.ehu.eus/~rigau/research.html",
+  "https://elra.info/?p=1557"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

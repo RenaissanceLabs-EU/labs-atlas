@@ -1,0 +1,35 @@
+{
+ "id": "olivier-gouvert",
+ "name": "Olivier Gouvert",
+ "display": "Olivier Gouvert",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "oligou",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "linagora",
+   "org": "LINAGORA",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Olivier Gouvert is listed by LINAGORA as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://linagora.com",
+  "https://huggingface.co/oligou"
+ ],
+ "confidence": "high",
+ "auto": true
+}

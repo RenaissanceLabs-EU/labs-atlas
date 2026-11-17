@@ -1,0 +1,35 @@
+{
+ "id": "stefan-schweter",
+ "name": "Stefan Schweter",
+ "display": "Stefan Schweter",
+ "kind": "person",
+ "handles": {
+  "github": "stefan-it",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mdz-digital-library-team",
+   "org": "MDZ Digital Library team",
+   "role": "Model author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Stefan Schweter is listed by MDZ Digital Library team as model author.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/dbmdz",
+  "https://github.com/stefan-it"
+ ],
+ "confidence": "high",
+ "auto": true
+}

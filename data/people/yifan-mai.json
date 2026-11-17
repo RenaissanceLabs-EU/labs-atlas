@@ -1,0 +1,36 @@
+{
+ "id": "yifan-mai",
+ "name": "Yifan Mai",
+ "display": "Yifan Mai",
+ "kind": "person",
+ "handles": {
+  "github": "yifanmai",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "stanford-crfm",
+   "org": "Stanford CRFM",
+   "role": "Top contributor to helm",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Yifan Mai is one of the most active contributors to Stanford CRFM's open source work on GitHub, with 1,513 contributions to helm.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/yifanmai",
+  "https://github.com/stanford-crfm/helm"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

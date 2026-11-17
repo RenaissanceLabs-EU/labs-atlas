@@ -1,0 +1,48 @@
+{
+ "id": "mehdi-cherti",
+ "name": "Mehdi Cherti",
+ "display": "Mehdi Cherti",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5050394079",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "laion",
+   "org": "LAION",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Jülich Supercomputing Centre, Forschungszentrum Jülich",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mehdi Cherti is a researcher at the Jülich Supercomputing Centre and a LAION co-founder. Cherti is first author of Reproducible Scaling Laws for Contrastive Language-Image Learning (CVPR 2023), which trained OpenCLIP models on LAION data up to two billion image-text pairs and released the models and evaluation workflow.",
+ "known_for": [
+  "First author of the OpenCLIP scaling laws paper",
+  "Open CLIP models trained on LAION data",
+  "Research at Jülich Supercomputing Centre"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2212.07143",
+  "https://openaccess.thecvf.com/content/CVPR2023/papers/Cherti_Reproducible_Scaling_Laws_for_Contrastive_Language-Image_Learning_CVPR_2023_paper.pdf",
+  "https://github.com/LAION-AI/scaling-laws-openclip"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "timothy-baldwin",
+ "name": "Timothy Baldwin",
+ "display": "Timothy Baldwin",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5103085805",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mbzuai",
+   "org": "MBZUAI",
+   "role": "Provost",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Timothy Baldwin is listed by MBZUAI as provost.",
+ "known_for": [],
+ "bio_sources": [
+  "https://mbzuai.ac.ae/",
+  "https://arxiv.org/abs/2308.16149"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

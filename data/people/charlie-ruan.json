@@ -1,0 +1,35 @@
+{
+ "id": "charlie-ruan",
+ "name": "Charlie Ruan",
+ "display": "Charlie Ruan",
+ "kind": "person",
+ "handles": {
+  "github": "CharlieFRuan",
+  "huggingface": null,
+  "x": "charlie_ruan",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=BV1zDskAAAAJ",
+  "website": "https://www.charlieruan.com",
+  "linkedin": "https://www.linkedin.com/in/charlie-ruan"
+ },
+ "affiliations": [
+  {
+   "lab": "novasky",
+   "org": "NovaSky",
+   "role": "Public org member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Charlie Ruan is listed by NovaSky as public org member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://novasky-ai.github.io",
+  "https://www.charlieruan.com"
+ ],
+ "confidence": "high",
+ "auto": true
+}

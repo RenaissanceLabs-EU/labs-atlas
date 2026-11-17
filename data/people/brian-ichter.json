@@ -1,0 +1,48 @@
+{
+ "id": "brian-ichter",
+ "name": "Brian Ichter",
+ "display": "Brian Ichter",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5018507768",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "physical-intelligence",
+   "org": "Physical Intelligence",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Google Brain / Google DeepMind",
+   "role": "Research scientist",
+   "current": false,
+   "since": 2018
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Brian Ichter is a co-founder of Physical Intelligence, where they have worked since 2024. Previously they were a research scientist at Google Brain and Google DeepMind. Ichter co-developed SayCan and RT-2, and is a co-author of the pi0 vision-language-action model.",
+ "known_for": [
+  "Co-founder of Physical Intelligence",
+  "Co-developer of SayCan and RT-2",
+  "Co-author of the pi0 robot policy"
+ ],
+ "bio_sources": [
+  "https://www.alphaxiv.org/@brian-ichter",
+  "https://arxiv.org/abs/2410.24164",
+  "https://www.pi.website"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

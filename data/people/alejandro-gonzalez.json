@@ -1,0 +1,35 @@
+{
+ "id": "alejandro-gonzalez",
+ "name": "Alejandro Gonzalez",
+ "display": "Alejandro Gonzalez",
+ "kind": "person",
+ "handles": {
+  "github": "agpituk",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mozilla-ai",
+   "org": "Mozilla.ai",
+   "role": "VP, Engineering",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alejandro Gonzalez is listed by Mozilla.ai as vP, Engineering.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.mozilla.ai",
+  "https://github.com/agpituk"
+ ],
+ "confidence": "high",
+ "auto": true
+}

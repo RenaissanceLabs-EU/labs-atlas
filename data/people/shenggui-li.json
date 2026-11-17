@@ -1,0 +1,37 @@
+{
+ "id": "shenggui-li",
+ "name": "Shenggui Li",
+ "display": "Shenggui Li",
+ "kind": "person",
+ "handles": {
+  "github": "FrankLeeeee",
+  "huggingface": null,
+  "x": "frankkklee",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hpc-ai-tech",
+   "org": "HPC-AI Tech",
+   "role": "Top contributor to ColossalAI",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shenggui Li is one of the most active contributors to HPC-AI Tech's open source work on GitHub, with 572 contributions to ColossalAI, Open-Sora. Their public GitHub profile reads: “Stay Hungry, Stay Foolish”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/FrankLeeeee",
+  "https://github.com/hpcaitech/ColossalAI",
+  "https://github.com/hpcaitech/Open-Sora"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

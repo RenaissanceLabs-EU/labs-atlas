@@ -1,0 +1,55 @@
+{
+ "id": "joseph-e-gonzalez",
+ "name": "Joseph E. Gonzalez",
+ "display": "Joseph E. Gonzalez",
+ "kind": "person",
+ "handles": {
+  "github": "jegonzal",
+  "huggingface": null,
+  "x": "profjoeyg",
+  "openalex": "A5072427753",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=B96GkdgAAAAJ",
+  "website": "https://people.eecs.berkeley.edu/~jegonzal/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "gorilla",
+   "org": "Gorilla",
+   "role": "Professor, UC Berkeley",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "RunLLM",
+   "role": "Co-founder and Chief AI Officer",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Turi (formerly GraphLab)",
+   "role": "Co-founder",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Joseph E. Gonzalez is a professor of electrical engineering and computer sciences at UC Berkeley and a founding member of the Sky Computing Lab. Gonzalez co-founded Turi, which Apple acquired, and RunLLM, where Gonzalez is chief AI officer. Gonzalez advises the Gorilla and LMSYS projects, behind systems such as Chatbot Arena and vLLM.",
+ "known_for": [
+  "Berkeley professor in ML systems",
+  "Co-founder of Turi and RunLLM",
+  "Gorilla, LMSYS and Chatbot Arena"
+ ],
+ "bio_sources": [
+  "https://people.eecs.berkeley.edu/~jegonzal/bio/",
+  "https://runllm.com/about",
+  "https://superdatascience.com/707"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

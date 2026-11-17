@@ -1,0 +1,36 @@
+{
+ "id": "huanzhi-mao",
+ "name": "Huanzhi Mao",
+ "display": "Huanzhi Mao",
+ "kind": "person",
+ "handles": {
+  "github": "HuanzhiMao",
+  "huggingface": null,
+  "x": "HuanzhiMao",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "gorilla",
+   "org": "Gorilla",
+   "role": "Top contributor to gorilla",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Huanzhi Mao is one of the most active contributors to Gorilla's open source work on GitHub, with 147 contributions to gorilla.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/HuanzhiMao",
+  "https://github.com/ShishirPatil/gorilla"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

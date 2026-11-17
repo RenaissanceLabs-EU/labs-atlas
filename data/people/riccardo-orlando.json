@@ -1,0 +1,36 @@
+{
+ "id": "riccardo-orlando",
+ "name": "Riccardo Orlando",
+ "display": "Riccardo Orlando",
+ "kind": "person",
+ "handles": {
+  "github": "Riccorl",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "sapienza-nlp",
+   "org": "Sapienza NLP",
+   "role": "Top contributor to relik",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Riccardo Orlando is one of the most active contributors to Sapienza NLP's open source work on GitHub, with 103 contributions to relik.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/Riccorl",
+  "https://github.com/SapienzaNLP/relik"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

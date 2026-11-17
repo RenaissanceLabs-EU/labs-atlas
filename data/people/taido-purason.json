@@ -1,0 +1,35 @@
+{
+ "id": "taido-purason",
+ "name": "Taido Purason",
+ "display": "Taido Purason",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5005106713",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "tartunlp",
+   "org": "TartuNLP",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Taido Purason is listed by TartuNLP as researcher. Co-author of EstLLM and Llammas-related work.",
+ "known_for": [],
+ "bio_sources": [
+  "https://tartunlp.ai",
+  "https://arxiv.org/abs/2603.02041"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

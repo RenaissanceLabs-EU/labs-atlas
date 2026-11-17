@@ -1,0 +1,37 @@
+{
+ "id": "carlos-mocholi",
+ "name": "Carlos Mocholí",
+ "display": "Carlos Mocholí",
+ "kind": "person",
+ "handles": {
+  "github": "carmocca",
+  "huggingface": null,
+  "x": "carmocca",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lightning-ai",
+   "org": "Lightning AI",
+   "role": "Top contributor to pytorch-lightning",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Carlos Mocholí is one of the most active contributors to Lightning AI's open source work on GitHub, with 1,420 contributions to pytorch-lightning, litgpt. Their public GitHub profile reads: “Research Engineer”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/carmocca",
+  "https://github.com/Lightning-AI/pytorch-lightning",
+  "https://github.com/Lightning-AI/litgpt"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

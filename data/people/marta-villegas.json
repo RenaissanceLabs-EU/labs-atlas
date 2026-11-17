@@ -1,0 +1,48 @@
+{
+ "id": "marta-villegas",
+ "name": "Marta Villegas",
+ "display": "Marta Villegas",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5046596536",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bsc-language-technologies-lab",
+   "org": "BSC Language Technologies Lab",
+   "role": "Head of the Language Technologies Unit",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "projecte-aina",
+   "org": "Projecte Aina",
+   "role": "Contributor to the AINA project",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Marta Villegas leads the Language Technologies Unit at the Barcelona Supercomputing Center, which works on large language models and open language resources for Spanish and Catalan. They are a co-author of the Salamandra Technical Report and of MarIA, a family of Spanish language models.",
+ "known_for": [
+  "Leads BSC Language Technologies Unit",
+  "MarIA Spanish language models",
+  "Salamandra open multilingual LLMs"
+ ],
+ "bio_sources": [
+  "https://bsc.es/user/2097",
+  "https://arxiv.org/abs/2502.08489",
+  "https://langtech.bsc.es"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

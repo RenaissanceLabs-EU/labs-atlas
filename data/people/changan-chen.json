@@ -1,0 +1,36 @@
+{
+ "id": "changan-chen",
+ "name": "Changan Chen",
+ "display": "Changan Chen",
+ "kind": "person",
+ "handles": {
+  "github": "ChanganVR",
+  "huggingface": null,
+  "x": "changanvr",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "vita",
+   "org": "VITA",
+   "role": "Top contributor to CrowdNav",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Changan Chen is one of the most active contributors to VITA's open source work on GitHub, with 128 contributions to CrowdNav. Their public GitHub profile reads: “Pursuing physical AGI”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/ChanganVR",
+  "https://github.com/vita-epfl/CrowdNav"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

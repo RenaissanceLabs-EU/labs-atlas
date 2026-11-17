@@ -1,0 +1,36 @@
+{
+ "id": "benjamin-lefaudeux",
+ "name": "Benjamin Lefaudeux",
+ "display": "Benjamin Lefaudeux",
+ "kind": "person",
+ "handles": {
+  "github": "blefaudeux",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "photoroom",
+   "org": "Photoroom",
+   "role": "Top contributor to datago",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Benjamin Lefaudeux is one of the most active contributors to Photoroom's open source work on GitHub, with 155 contributions to datago.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/blefaudeux",
+  "https://github.com/Photoroom/datago"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

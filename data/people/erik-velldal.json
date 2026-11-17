@@ -1,0 +1,42 @@
+{
+ "id": "erik-velldal",
+ "name": "Erik Velldal",
+ "display": "Erik Velldal",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5080146945",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "language-technology-group-university-of-oslo",
+   "org": "Language Technology Group, University of Oslo",
+   "role": "Professor",
+   "current": true,
+   "since": 2021
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Erik Velldal is a professor in the Language Technology Group at the University of Oslo, a post held since 2021. Velldal's research covers sentiment analysis, negation resolution and the development of language resources, and Velldal co-authored NorBench, a benchmark for Norwegian language models.",
+ "known_for": [
+  "Sentiment analysis and negation resolution",
+  "Co-author of NorBench",
+  "Norwegian language resources"
+ ],
+ "bio_sources": [
+  "https://mn.uio.no/ifi/personer/vit/erikve",
+  "https://aclanthology.org/people/erik-velldal",
+  "https://arxiv.org/abs/2305.03880",
+  "https://www.alphaxiv.org/@erik-velldal"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

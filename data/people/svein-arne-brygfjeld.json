@@ -1,0 +1,35 @@
+{
+ "id": "svein-arne-brygfjeld",
+ "name": "Svein Arne Brygfjeld",
+ "display": "Svein Arne Brygfjeld",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5037161850",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nb-ai-lab",
+   "org": "NB AI-Lab",
+   "role": "Advisor on AI",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Svein Arne Brygfjeld is listed by NB AI-Lab as advisor on AI.",
+ "known_for": [],
+ "bio_sources": [
+  "https://ai.nb.no",
+  "https://arxiv.org/abs/2104.09617"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

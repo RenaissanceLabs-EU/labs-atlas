@@ -1,0 +1,36 @@
+{
+ "id": "shunyu-yao",
+ "name": "Shunyu Yao",
+ "display": "Shunyu Yao",
+ "kind": "person",
+ "handles": {
+  "github": "ysymyth",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5000577985",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=qJBXk9cAAAAJ",
+  "website": "https://ysymyth.github.io",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "princeton-nlp-group",
+   "org": "Princeton NLP Group",
+   "role": "First author of Tree of Thoughts, formerly a Princeton PhD student",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shunyu Yao is listed by Princeton NLP Group as first author of Tree of Thoughts, formerly a Princeton PhD student. Now a researcher at OpenAI.",
+ "known_for": [],
+ "bio_sources": [
+  "https://nlp.cs.princeton.edu",
+  "https://ysymyth.github.io",
+  "https://arxiv.org/abs/2310.06770"
+ ],
+ "confidence": "high",
+ "auto": true
+}

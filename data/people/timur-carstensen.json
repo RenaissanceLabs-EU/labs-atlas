@@ -1,0 +1,35 @@
+{
+ "id": "timur-carstensen",
+ "name": "Timur Carstensen",
+ "display": "Timur Carstensen",
+ "kind": "person",
+ "handles": {
+  "github": "timurcarstensen",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "automl-groups",
+   "org": "AutoML Groups",
+   "role": "Member of the automl GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Timur Carstensen is listed by AutoML Groups as member of the automl GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.automl.org",
+  "https://github.com/timurcarstensen"
+ ],
+ "confidence": "high",
+ "auto": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "tohid-abedini",
+ "name": "Tohid Abedini",
+ "display": "Tohid Abedini",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5115772367",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "part-ai",
+   "org": "Part AI",
+   "role": "Co-author, TookaBERT",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tohid Abedini is listed by Part AI as co-author, TookaBERT. Researcher at Part AI.",
+ "known_for": [],
+ "bio_sources": [
+  "https://partdp.ai/en",
+  "https://arxiv.org/abs/2407.16382"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

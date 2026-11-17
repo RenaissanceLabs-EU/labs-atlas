@@ -1,0 +1,35 @@
+{
+ "id": "fabian-klemm",
+ "name": "Fabian Klemm",
+ "display": "Fabian Klemm",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5014371566",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "tng-technology-consulting",
+   "org": "TNG Technology Consulting",
+   "role": "Co-author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Fabian Klemm is listed by TNG Technology Consulting as co-author. Co-author of the Chimera paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://tngtech.com",
+  "https://arxiv.org/abs/2506.14794"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

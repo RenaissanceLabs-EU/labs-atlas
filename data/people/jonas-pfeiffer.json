@@ -1,0 +1,49 @@
+{
+ "id": "jonas-pfeiffer",
+ "name": "Jonas Pfeiffer",
+ "display": "Jonas Pfeiffer",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5024983536",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "adapterhub",
+   "org": "AdapterHub",
+   "role": "Lead author of the original AdapterHub paper and co-author of the Adapters library",
+   "current": false,
+   "since": 2020
+  },
+  {
+   "lab": null,
+   "org": "Google DeepMind",
+   "role": "Researcher",
+   "current": true,
+   "since": 2023
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jonas Pfeiffer is a researcher at Google DeepMind who works on modular and parameter-efficient transfer learning for language models. As a lead author of the 2020 AdapterHub paper, written while at TU Darmstadt, and a co-author of the 2023 Adapters library paper, Pfeiffer helped build open tooling for sharing and composing adapter modules.",
+ "known_for": [
+  "Lead author of the AdapterHub framework paper",
+  "Co-author of the Adapters library",
+  "Modular deep learning research"
+ ],
+ "bio_sources": [
+  "https://adapterhub.ml/",
+  "https://arxiv.org/abs/2007.07779",
+  "https://arxiv.org/pdf/2311.11077",
+  "https://api.openalex.org/authors/A5024983536"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

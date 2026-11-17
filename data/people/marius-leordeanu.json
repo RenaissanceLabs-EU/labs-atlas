@@ -1,0 +1,35 @@
+{
+ "id": "marius-leordeanu",
+ "name": "Marius Leordeanu",
+ "display": "Marius Leordeanu",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5086392501",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openllm-ro",
+   "org": "OpenLLM-Ro",
+   "role": "Researcher; co-author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Marius Leordeanu is listed by OpenLLM-Ro as researcher; co-author. Co-author of the founding paper.",
+ "known_for": [],
+ "bio_sources": [
+  "http://openllm.ro/",
+  "https://arxiv.org/abs/2406.18266"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

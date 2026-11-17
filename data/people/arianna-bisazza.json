@@ -1,0 +1,35 @@
+{
+ "id": "arianna-bisazza",
+ "name": "Arianna Bisazza",
+ "display": "Arianna Bisazza",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5019968969",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "gronlp",
+   "org": "GroNLP",
+   "role": "Group member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Arianna Bisazza is listed by GroNLP as group member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.rug.nl/research/clcg/research/cl/",
+  "https://arxiv.org/abs/1912.09582"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

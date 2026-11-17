@@ -1,0 +1,41 @@
+{
+ "id": "liu-zhiyuan",
+ "name": "Liu Zhiyuan",
+ "display": "Liu Zhiyuan",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=dT0v5u0AAAAJ",
+  "website": "http://nlp.csai.tsinghua.edu.cn/~lzy/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openbmb-modelbest",
+   "org": "OpenBMB / ModelBest",
+   "role": "Professor, Tsinghua University; ModelBest co-founder and Chief Scientist",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Zhiyuan Liu is a professor at Tsinghua University working on large language models, NLP and knowledge graphs, and co-founder and chief scientist of ModelBest, the company behind the MiniCPM models. Liu is one of the two principal investigators of the OpenBMB open-source community.",
+ "known_for": [
+  "Co-founder and chief scientist of ModelBest",
+  "OpenBMB principal investigator",
+  "MiniCPM efficient language models"
+ ],
+ "bio_sources": [
+  "http://nlp.csai.tsinghua.edu.cn/~lzy/",
+  "https://aiwiki.ai/wiki/liu_zhiyuan",
+  "https://labindex.pages.dev/people/zhiyuan-liu"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

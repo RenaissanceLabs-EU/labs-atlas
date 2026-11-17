@@ -1,0 +1,37 @@
+{
+ "id": "j38",
+ "name": null,
+ "display": "J38",
+ "kind": "handle",
+ "handles": {
+  "github": "J38",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "stanford-nlp-group",
+   "org": "Stanford NLP Group",
+   "role": "Top contributor to CoreNLP",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "J38 is one of the most active contributors to Stanford NLP Group's open source work on GitHub, with 2,154 contributions to CoreNLP, stanza.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/J38",
+  "https://github.com/stanfordnlp/CoreNLP",
+  "https://github.com/stanfordnlp/stanza"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

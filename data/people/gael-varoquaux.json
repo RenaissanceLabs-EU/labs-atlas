@@ -1,0 +1,48 @@
+{
+ "id": "gael-varoquaux",
+ "name": "Gaël Varoquaux",
+ "display": "Gaël Varoquaux",
+ "kind": "person",
+ "handles": {
+  "github": "GaelVaroquaux",
+  "huggingface": null,
+  "x": "gaelVaroquaux",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=OGGu384AAAAJ",
+  "website": "https://gael-varoquaux.info/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "probabl",
+   "org": "probabl",
+   "role": "Co-founder and chief science officer",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Inria",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Gaël Varoquaux is a researcher at Inria working on AI, statistics and health, and chief science officer of probabl. They co-founded scikit-learn and also work on skrub and table foundation models such as CARTE and TabICL. Varoquaux received France's national order of merit in 2025.",
+ "known_for": [
+  "Co-founder of scikit-learn",
+  "Chief science officer at probabl",
+  "skrub and tabular foundation model research"
+ ],
+ "bio_sources": [
+  "https://gael-varoquaux.info/",
+  "https://api.github.com/users/GaelVaroquaux",
+  "https://probabl.ai"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

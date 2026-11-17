@@ -1,0 +1,48 @@
+{
+ "id": "albert-gu",
+ "name": "Albert Gu",
+ "display": "Albert Gu",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5025386668",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "cartesia",
+   "org": "Cartesia",
+   "role": "Co-founder and chief scientist",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Carnegie Mellon University",
+   "role": "Assistant professor",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Albert Gu is a co-founder and chief scientist of Cartesia and a professor at Carnegie Mellon University. They are an author of the S4 structured state space papers and, with Tri Dao, the developer of Mamba, a linear-time sequence architecture, and Mamba-2.",
+ "known_for": [
+  "Co-developer of the Mamba architecture",
+  "Author of S4 structured state space models",
+  "Structured state space duality (Mamba-2)"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Mamba_(deep_learning_architecture)",
+  "https://arxiv.org/abs/2502.14458",
+  "https://cartesia.ai"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

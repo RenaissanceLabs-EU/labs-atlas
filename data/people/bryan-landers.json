@@ -1,0 +1,35 @@
+{
+ "id": "bryan-landers",
+ "name": "Bryan Landers",
+ "display": "Bryan Landers",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5115057142",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "arc-prize-foundation",
+   "org": "ARC Prize Foundation",
+   "role": "Founding team, design and strategy",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Bryan Landers is listed by ARC Prize Foundation as founding team, design and strategy.",
+ "known_for": [],
+ "bio_sources": [
+  "https://arcprize.org",
+  "https://arxiv.org/abs/2412.04604"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

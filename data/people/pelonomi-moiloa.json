@@ -1,0 +1,43 @@
+{
+ "id": "pelonomi-moiloa",
+ "name": "Pelonomi Moiloa",
+ "display": "Pelonomi Moiloa",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lelapa-ai",
+   "org": "Lelapa AI",
+   "role": "Co-founder and Chief Executive Officer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pelonomi Moiloa is co-founder and chief executive officer of Lelapa AI, a Johannesburg company building language technology for African languages. Lelapa's products include the Vulavula speech and text service and InkubaLM, a small multilingual language model for African languages. Moiloa was named to TIME's list of the 100 most influential people in AI.",
+ "known_for": [
+  "CEO and co-founder of Lelapa AI",
+  "InkubaLM small African language model",
+  "TIME100 AI honoree"
+ ],
+ "bio_sources": [
+  "https://time.com/collection/time100-ai/6309035/pelonomi-moiloa",
+  "https://iafrikan.com/iafrikanbytes68/",
+  "https://lelapa.ai/blog/the-future-of-ai-is-resource-efficient",
+  "https://www.itweb.co.za/article/sa-ai-start-up-in-push-to-meet-diverse-linguistic-needs/xA9PO7NED8Wvo4J8"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "flag": "OpenAlex profile A5010337995 appears to merge in a 2016 Tohoku University paper that is probably by a different author; kept because InkubaLM and Esethu works match",
+ "enriched": true
+}

@@ -1,0 +1,47 @@
+{
+ "id": "shakir-mohamed",
+ "name": "Shakir Mohamed",
+ "display": "Shakir Mohamed",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=cIlDEugAAAAJ",
+  "website": "https://www.shakirm.com",
+  "linkedin": "https://www.linkedin.com/in/shakirm"
+ },
+ "affiliations": [
+  {
+   "lab": "deep-learning-indaba",
+   "org": "Deep Learning Indaba",
+   "role": "Co-founder and chair of the board of trustees",
+   "current": true,
+   "since": 2017
+  },
+  {
+   "lab": null,
+   "org": "Google DeepMind",
+   "role": "Director for research",
+   "current": true,
+   "since": 2013
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shakir Mohamed is a research director at Google DeepMind in London and an honorary professor of computer science at University College London. Mohamed co-founded the Deep Learning Indaba, a non-profit supporting machine learning in Africa, and chairs its board of trustees. Research areas include generative models, variational inference and sociotechnical aspects of AI; Mohamed also served as general chair of ICLR 2021 and co-general chair of NeurIPS 2022.",
+ "known_for": [
+  "Co-founder of the Deep Learning Indaba",
+  "Variational inference and generative models",
+  "General chair of ICLR 2021 and NeurIPS 2022"
+ ],
+ "bio_sources": [
+  "https://www.shakirm.com",
+  "https://deeplearningindaba.com"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

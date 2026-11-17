@@ -1,0 +1,35 @@
+{
+ "id": "laurent-sifre",
+ "name": "Laurent Sifre",
+ "display": "Laurent Sifre",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5053301405",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "h-company",
+   "org": "H Company",
+   "role": "Chair of the Scientific Committee",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Laurent Sifre is listed by H Company as chair of the Scientific Committee.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.hcompany.ai",
+  "https://arxiv.org/abs/2506.02865"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

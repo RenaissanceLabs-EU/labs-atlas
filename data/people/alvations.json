@@ -1,0 +1,36 @@
+{
+ "id": "alvations",
+ "name": null,
+ "display": "alvations",
+ "kind": "handle",
+ "handles": {
+  "github": "alvations",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hplt",
+   "org": "HPLT",
+   "role": "Top contributor to sacremoses",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "alvations is one of the most active contributors to HPLT's open source work on GitHub, with 299 contributions to sacremoses.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/alvations",
+  "https://github.com/hplt-project/sacremoses"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "tianjun-zhang",
+ "name": "Tianjun Zhang",
+ "display": "Tianjun Zhang",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5101571114",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=UE9jz_MAAAAJ",
+  "website": "https://tianjunz.github.io/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "gorilla",
+   "org": "Gorilla",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tianjun Zhang is listed by Gorilla as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://gorilla.cs.berkeley.edu",
+  "https://tianjunz.github.io/",
+  "https://arxiv.org/abs/2305.15334"
+ ],
+ "confidence": "high",
+ "auto": true
+}

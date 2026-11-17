@@ -1,0 +1,35 @@
+{
+ "id": "kevin-meng",
+ "name": "Kevin Meng",
+ "display": "Kevin Meng",
+ "kind": "person",
+ "handles": {
+  "github": "kmeng01",
+  "huggingface": null,
+  "x": "mengk20",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=UcZbFroAAAAJ",
+  "website": "https://mengk.me/",
+  "linkedin": "https://www.linkedin.com/in/kmeng01"
+ },
+ "affiliations": [
+  {
+   "lab": "transluce",
+   "org": "Transluce",
+   "role": "Member of technical staff",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Kevin Meng is listed by Transluce as member of technical staff. Researcher on interpretability tooling.",
+ "known_for": [],
+ "bio_sources": [
+  "https://transluce.org",
+  "https://mengk.me/"
+ ],
+ "confidence": "high",
+ "auto": true
+}

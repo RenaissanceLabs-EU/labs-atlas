@@ -1,0 +1,36 @@
+{
+ "id": "javier-de-la-rosa",
+ "name": "Javier de la Rosa",
+ "display": "Javier de la Rosa",
+ "kind": "person",
+ "handles": {
+  "github": "versae",
+  "huggingface": null,
+  "x": "versae",
+  "openalex": "A5064018105",
+  "orcid": null,
+  "scholar": null,
+  "website": "http://versae.es",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nb-ai-lab",
+   "org": "NB AI-Lab",
+   "role": "Leads AI activity; Research Scientist",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Javier de la Rosa is listed by NB AI-Lab as leads AI activity; Research Scientist.",
+ "known_for": [],
+ "bio_sources": [
+  "https://ai.nb.no",
+  "http://versae.es",
+  "https://arxiv.org/abs/2104.09617"
+ ],
+ "confidence": "high",
+ "auto": true
+}

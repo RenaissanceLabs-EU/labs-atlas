@@ -1,0 +1,36 @@
+{
+ "id": "kyunghyun-cho",
+ "name": "Kyunghyun Cho",
+ "display": "Kyunghyun Cho",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5091175785",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://kyunghyuncho.me/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "polymathic-ai",
+   "org": "Polymathic AI",
+   "role": "Team member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Kyunghyun Cho is listed by Polymathic AI as team member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://polymathic-ai.org",
+  "https://kyunghyuncho.me/",
+  "https://arxiv.org/abs/2310.02994"
+ ],
+ "confidence": "high",
+ "auto": true
+}

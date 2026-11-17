@@ -1,0 +1,48 @@
+{
+ "id": "bryan-catanzaro",
+ "name": "Bryan Catanzaro",
+ "display": "Bryan Catanzaro",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5066242985",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nvidia",
+   "org": "NVIDIA",
+   "role": "Vice President, Applied Deep Learning Research; leads the Nemotron effort",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Baidu",
+   "role": "Researcher, Silicon Valley AI Lab",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Bryan Catanzaro is Vice President of Applied Deep Learning Research at NVIDIA, where the team applies deep learning to areas from graphics to chip design, and is associated with the Nemotron open model effort. Catanzaro co-authored the Deep Speech and Deep Speech 2 speech recognition papers during time at Baidu and helped start the cuDNN library.",
+ "known_for": [
+  "VP of Applied Deep Learning Research at NVIDIA",
+  "Nemotron open models",
+  "Deep Speech and cuDNN"
+ ],
+ "bio_sources": [
+  "https://blogs.nvidia.co.jp/blog/author/bcatanzaro/",
+  "https://www.nvidia.com/content/dam/en-zz/Solutions/ai-podcast/NVIDIA%20AI%20Podcast%20Transcript%20-%20Bryan%20Catanzaro%20&%20Jonathan%20Cohen,%20NVIDIA.pdf",
+  "https://arxiv.org/abs/2406.11704"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,42 @@
+{
+ "id": "jaime-sevilla",
+ "name": "Jaime Sevilla",
+ "display": "Jaime Sevilla",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5006510039",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "epoch-ai",
+   "org": "Epoch AI",
+   "role": "CEO and board member",
+   "current": true,
+   "since": 2022
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jaime Sevilla is co-founder and director of Epoch AI, a research organization that studies trends in AI. Sevilla's work focuses on forecasting the trajectory of AI, including compute trends, data limits and the FrontierMath benchmark effort. Sevilla also co-founded the Observatorio de Riesgos Catastroficos Globales.",
+ "known_for": [
+  "Co-founder and director of Epoch AI",
+  "Forecasting AI compute and data trends",
+  "FrontierMath benchmark effort"
+ ],
+ "bio_sources": [
+  "https://epoch.ai/about/team/jaime-sevilla",
+  "https://jsevillamol.github.io/",
+  "https://axrp.net/episode/2024/10/04/episode-37-jaime-sevilla-forecasting-ai.html",
+  "https://cser.ac.uk/team/jaime-sevilla"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,48 @@
+{
+ "id": "gabriele-corso",
+ "name": "Gabriele Corso",
+ "display": "Gabriele Corso",
+ "kind": "person",
+ "handles": {
+  "github": "gcorso",
+  "huggingface": null,
+  "x": "gabricorso",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=LUrAYgEAAAAJ",
+  "website": "https://gcorso.github.io/",
+  "linkedin": "https://www.linkedin.com/in/gcorso"
+ },
+ "affiliations": [
+  {
+   "lab": "boltz",
+   "org": "Boltz",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": 2025
+  },
+  {
+   "lab": null,
+   "org": "MIT CSAIL",
+   "role": "PhD student",
+   "current": false,
+   "since": 2021
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Gabriele Corso is co-founder and CEO of Boltz, a public benefit corporation developing open biomolecular modeling models. They completed a PhD in computer science at MIT CSAIL in 2025 and are an author of DiffDock, a diffusion-based molecular docking method, and of the Boltz-1 and Boltz-2 models.",
+ "known_for": [
+  "Co-founder and CEO of Boltz",
+  "Boltz-1 and Boltz-2 open biomolecular models",
+  "DiffDock diffusion-based molecular docking"
+ ],
+ "bio_sources": [
+  "https://gcorso.github.io/",
+  "https://boltz.com",
+  "https://github.com/gcorso"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

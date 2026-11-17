@@ -1,0 +1,49 @@
+{
+ "id": "paul-azunre",
+ "name": "Paul Azunre",
+ "display": "Paul Azunre",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5057911516",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://yen.com.gh/education/255014-paul-azunre-nsmq-winner-develops-app-translates-twi-english/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ghana-nlp",
+   "org": "Ghana NLP",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Algorine",
+   "role": "Founder and chief architect",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Paul Azunre is co-founder of Ghana NLP, an initiative building language technology for Ghanaian languages, and founder of Algorine, a research lab spun out of MIT. Azunre holds a computer science PhD from MIT and wrote the book Transfer Learning for Natural Language Processing. Azunre's teams built the Khaya translation app and an English-Twi parallel corpus.",
+ "known_for": [
+  "Co-founder of Ghana NLP",
+  "Khaya translation app for African languages",
+  "Author of Transfer Learning for NLP"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Paul_Azunre",
+  "https://aiport.substack.com/p/talking-ai-in-ghana-and-the-rest",
+  "https://techlabari.com/?p=59788",
+  "https://api.openalex.org/authors/A5057911516"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "robert-dahlke",
+ "name": "Robert Dahlke",
+ "display": "Robert Dahlke",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5062334835",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "tng-technology-consulting",
+   "org": "TNG Technology Consulting",
+   "role": "Co-author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Robert Dahlke is listed by TNG Technology Consulting as co-author. Co-author of the Chimera paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://tngtech.com",
+  "https://arxiv.org/abs/2506.14794"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

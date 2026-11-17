@@ -1,0 +1,43 @@
+{
+ "id": "matthias-feurer",
+ "name": "Matthias Feurer",
+ "display": "Matthias Feurer",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5054262288",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "automl-groups",
+   "org": "AutoML Groups",
+   "role": "Lead author of the auto-sklearn papers",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Matthias Feurer is a researcher in automated machine learning and the lead developer of Auto-sklearn. Feurer is first author of the Auto-sklearn papers and created the OpenML-Python API. OpenAlex lists a recent affiliation with TU Dortmund.",
+ "known_for": [
+  "Lead developer of Auto-sklearn",
+  "Creator of OpenML-Python",
+  "Meta-learning for AutoML"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2007.04074",
+  "https://scite.ai/authors/matthias-feurer-dvemL3",
+  "https://api.openalex.org/authors/A5054262288",
+  "https://ml.informatik.uni-freiburg.de/wp-content/uploads/papers/15-AUTOML-AutoML.pdf"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true,
+ "flag": "Current position not confirmed (OpenAlex suggests TU Dortmund); thin sources."
+}

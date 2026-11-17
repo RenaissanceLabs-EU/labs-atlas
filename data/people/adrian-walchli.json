@@ -1,0 +1,37 @@
+{
+ "id": "adrian-walchli",
+ "name": "Adrian Wälchli",
+ "display": "Adrian Wälchli",
+ "kind": "person",
+ "handles": {
+  "github": "awaelchli",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lightning-ai",
+   "org": "Lightning AI",
+   "role": "Top contributor to pytorch-lightning",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Adrian Wälchli is one of the most active contributors to Lightning AI's open source work on GitHub, with 1,378 contributions to pytorch-lightning, litgpt.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/awaelchli",
+  "https://github.com/Lightning-AI/pytorch-lightning",
+  "https://github.com/Lightning-AI/litgpt"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

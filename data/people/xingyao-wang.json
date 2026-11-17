@@ -1,0 +1,42 @@
+{
+ "id": "xingyao-wang",
+ "name": "Xingyao Wang",
+ "display": "Xingyao Wang",
+ "kind": "person",
+ "handles": {
+  "github": "xingyaoww",
+  "huggingface": null,
+  "x": "xingyaow_",
+  "openalex": "A5023449213",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=F7qq3YcAAAAJ",
+  "website": "http://xwang.dev/",
+  "linkedin": "https://www.linkedin.com/in/xingyao-wang"
+ },
+ "affiliations": [
+  {
+   "lab": "openhands",
+   "org": "OpenHands",
+   "role": "Chief AI Officer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Xingyao Wang is a co-founder of All Hands AI and its chief AI officer, building the open-source software agent OpenHands. They are also a PhD candidate in computer science at the University of Illinois Urbana-Champaign. Wang is first author of the OpenHands platform paper and of CodeAct, which uses executable code as the action space for LLM agents.",
+ "known_for": [
+  "Lead author of the OpenHands agent platform",
+  "First author of CodeAct executable-code agents",
+  "Co-author of SWE-Gym for training software agents"
+ ],
+ "bio_sources": [
+  "http://xwang.dev/",
+  "https://arxiv.org/abs/2407.16741",
+  "https://www.openhands.dev",
+  "https://api.github.com/users/xingyaoww"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

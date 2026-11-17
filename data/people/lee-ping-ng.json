@@ -1,0 +1,36 @@
+{
+ "id": "lee-ping-ng",
+ "name": "Lee Ping Ng",
+ "display": "Lee Ping Ng",
+ "kind": "person",
+ "handles": {
+  "github": "leeping-ng",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai-singapore",
+   "org": "AI Singapore",
+   "role": "Top contributor to PeekingDuck",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Lee Ping Ng is one of the most active contributors to AI Singapore's open source work on GitHub, with 474 contributions to PeekingDuck. Their public GitHub profile reads: “Software Engineering | Computer Vision”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/leeping-ng",
+  "https://github.com/aisingapore/PeekingDuck"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

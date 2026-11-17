@@ -1,0 +1,36 @@
+{
+ "id": "xin-wang",
+ "name": "Xin Wang",
+ "display": "Xin Wang",
+ "kind": "person",
+ "handles": {
+  "github": "xinw1012",
+  "huggingface": null,
+  "x": "xinw_ai",
+  "openalex": "A5092031120",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=e9gUdKwAAAAJ",
+  "website": "https://xinw.ai/",
+  "linkedin": "https://www.linkedin.com/in/xin-wang-aa83a577"
+ },
+ "affiliations": [
+  {
+   "lab": "gorilla",
+   "org": "Gorilla",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Xin Wang is listed by Gorilla as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://gorilla.cs.berkeley.edu",
+  "https://xinw.ai/",
+  "https://arxiv.org/abs/2305.15334"
+ ],
+ "confidence": "high",
+ "auto": true
+}

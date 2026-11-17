@@ -1,0 +1,48 @@
+{
+ "id": "jamin-shin",
+ "name": "Jamin Shin",
+ "display": "Jamin Shin",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5076515960",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "trillion-labs",
+   "org": "Trillion Labs",
+   "role": "Founder and CEO",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "NAVER",
+   "role": "Research Scientist, HyperCLOVA X",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jamin Shin, also known as Jay Shin, is founder and CEO of Trillion Labs, a Seoul-based AI company that released the open Tri-21B model in 2025. Shin previously worked as a research scientist at NAVER on HyperCLOVA X and holds a PhD in computer science from KAIST.",
+ "known_for": [
+  "Founded Trillion Labs",
+  "Tri-21B open model",
+  "Earlier HyperCLOVA X research at NAVER"
+ ],
+ "bio_sources": [
+  "https://www.venturesquare.net/en/995519",
+  "https://www.digitaltoday.co.kr/en/view/4134/trillionlabs-unveils-tri-21b-think-makes-artificial-analysis-global-top-30",
+  "https://www.cbinsights.com/company/trillion-labs/people"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

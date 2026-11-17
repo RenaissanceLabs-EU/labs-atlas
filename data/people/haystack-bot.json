@@ -1,0 +1,36 @@
+{
+ "id": "haystack-bot",
+ "name": "Haystack Bot",
+ "display": "Haystack Bot",
+ "kind": "person",
+ "handles": {
+  "github": "HaystackBot",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "deepset",
+   "org": "deepset",
+   "role": "Top contributor to haystack",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Haystack Bot is one of the most active contributors to deepset's open source work on GitHub, with 884 contributions to haystack. Their public GitHub profile reads: “Grew up on a FARM. Love finding the needle in Haystack's CI”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/HaystackBot",
+  "https://github.com/deepset-ai/haystack"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

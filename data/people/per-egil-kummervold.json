@@ -1,0 +1,41 @@
+{
+ "id": "per-egil-kummervold",
+ "name": "Per Egil Kummervold",
+ "display": "Per Egil Kummervold",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5079331687",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nb-ai-lab",
+   "org": "NB AI-Lab",
+   "role": "Senior Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Per Egil Kummervold is a senior researcher at the National Library of Norway's AI Lab. Kummervold is lead author of the NB-BERT paper on a Norwegian transformer model, helped publish the Norwegian Colossal Corpus, and developed the North-T5 models.",
+ "known_for": [
+  "NB-BERT Norwegian language model",
+  "Norwegian Colossal Corpus",
+  "North-T5 models"
+ ],
+ "bio_sources": [
+  "https://ai.nb.no/?p=18",
+  "https://arxiv.org/abs/2104.09617",
+  "https://github.com/NBAiLab/notram"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

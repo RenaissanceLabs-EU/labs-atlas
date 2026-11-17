@@ -1,0 +1,64 @@
+{
+ "id": "eric-xing",
+ "name": "Eric Xing",
+ "display": "Eric Xing",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=5pKTRxEAAAAJ",
+  "website": "https://www.cs.cmu.edu/~epxing/",
+  "linkedin": "https://www.linkedin.com/in/eric-xing-b34a0b/"
+ },
+ "affiliations": [
+  {
+   "lab": "institute-of-foundation-models",
+   "org": "Institute of Foundation Models",
+   "role": "President of MBZUAI",
+   "current": true,
+   "since": 2021
+  },
+  {
+   "lab": "mbzuai",
+   "org": "MBZUAI",
+   "role": "President",
+   "current": true,
+   "since": 2021
+  },
+  {
+   "lab": null,
+   "org": "Carnegie Mellon University",
+   "role": "Professor of Computer Science",
+   "current": true,
+   "since": 2004
+  },
+  {
+   "lab": null,
+   "org": "Petuum",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2016
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Eric Xing is president of Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), a role effective since January 2021, and a professor of computer science at Carnegie Mellon University, where Xing founded the SAILING Lab. Xing's research covers machine learning systems, probabilistic models and distributed training, and Xing co-founded the machine learning company Petuum in 2016.",
+ "known_for": [
+  "President of MBZUAI since 2021",
+  "Distributed machine learning systems research",
+  "Co-founder of Petuum"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Eric_Xing",
+  "https://www.wam.ae/en/article/hszrbd3z-mbzuai-appoints-world-renowned-academic-professor",
+  "https://xing.mbzuai.ac.ae/",
+  "https://www.cs.cmu.edu/~epxing/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "flag": "Stored LinkedIn (jinyu-hou-uoft) and Scholar (ki5hheQAAAAJ) belong to other people (they appear as student links on the CMU page); replaced with the links given on Xing's own MBZUAI page",
+ "enriched": true
+}

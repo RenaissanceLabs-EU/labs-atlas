@@ -1,0 +1,35 @@
+{
+ "id": "milica-ikonic-nesic",
+ "name": "Milica Ikonić Nešić",
+ "display": "Milica Ikonić Nešić",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "MilicaIK",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "jerteh",
+   "org": "JeRTeh",
+   "role": "Member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Milica Ikonić Nešić is listed by JeRTeh as member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://jerteh.rs",
+  "https://huggingface.co/MilicaIK"
+ ],
+ "confidence": "high",
+ "auto": true
+}

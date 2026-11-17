@@ -41,24 +41,33 @@
   }).catch(function (e) { console.error('atlas failed', e); });
 
 
-  /* ---------- people index: search and group filter ---------- */
+  /* ---------- people index: search, group filter and paging ---------- */
   (function () {
     var grid = document.getElementById('pgrid');
     if (!grid) return;
     var cards = Array.prototype.slice.call(grid.querySelectorAll('.pcard'));
-    var q = document.getElementById('pq'), btns = document.querySelectorAll('[data-pk]'), count = document.getElementById('pcount');
-    var st = { q: '', k: 'all' };
+    var q = document.getElementById('pq'), btns = document.querySelectorAll('[data-pk]'), count = document.getElementById('pcount'), more = document.getElementById('pmore');
+    var st = { q: '', k: 'all' }, PAGE = 60, shown = PAGE, matches = [];
+    function render() {
+      matches.forEach(function (c, i) { c.hidden = i >= shown; });
+      more.hidden = matches.length <= shown;
+    }
     function apply() {
-      var n = 0, t = st.q.trim().toLowerCase();
+      var t = st.q.trim().toLowerCase();
+      matches = [];
       cards.forEach(function (c) {
         var ok = (st.k === 'all' || c.dataset.kind === st.k) && (!t || c.dataset.search.indexOf(t) > -1);
-        c.hidden = !ok; if (ok) n++;
+        if (ok) matches.push(c); else c.hidden = true;
       });
-      count.textContent = n + (n === 1 ? ' person' : ' people');
-      document.getElementById('pempty').hidden = n !== 0;
+      shown = PAGE;
+      count.textContent = matches.length + (matches.length === 1 ? ' person' : ' people');
+      document.getElementById('pempty').hidden = matches.length !== 0;
+      render();
     }
     q.addEventListener('input', function () { st.q = q.value; apply(); });
     btns.forEach(function (b) { b.addEventListener('click', function () { st.k = b.dataset.pk; btns.forEach(function (x) { x.setAttribute('aria-pressed', x === b ? 'true' : 'false'); }); apply(); }); });
+    more.addEventListener('click', function () { shown += PAGE; render(); });
+    apply();
   })();
 
   /* ---------- lab page: highlight current section in the contents list ---------- */

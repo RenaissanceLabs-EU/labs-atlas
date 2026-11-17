@@ -1,0 +1,36 @@
+{
+ "id": "rolv-arild",
+ "name": null,
+ "display": "Rolv-Arild",
+ "kind": "handle",
+ "handles": {
+  "github": "Rolv-Arild",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nb-ai-lab",
+   "org": "NB AI-Lab",
+   "role": "Top contributor to nostram",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Rolv-Arild is one of the most active contributors to NB AI-Lab's open source work on GitHub, with 122 contributions to nostram.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/Rolv-Arild",
+  "https://github.com/NbAiLab/nostram"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

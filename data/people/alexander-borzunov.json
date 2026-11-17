@@ -1,0 +1,36 @@
+{
+ "id": "alexander-borzunov",
+ "name": "Alexander Borzunov",
+ "display": "Alexander Borzunov",
+ "kind": "person",
+ "handles": {
+  "github": "borzunov",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bigscience",
+   "org": "BigScience",
+   "role": "Top contributor to petals",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alexander Borzunov is one of the most active contributors to BigScience's open source work on GitHub, with 243 contributions to petals.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/borzunov",
+  "https://github.com/bigscience-workshop/petals"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "yusong-wu",
+ "name": "Yusong Wu",
+ "display": "Yusong Wu",
+ "kind": "person",
+ "handles": {
+  "github": "lukewys",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "laion",
+   "org": "LAION",
+   "role": "Top contributor to CLAP",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Yusong Wu is one of the most active contributors to LAION's open source work on GitHub, with 649 contributions to CLAP. Their public GitHub profile reads: “lukewys.github.io”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/lukewys",
+  "https://github.com/LAION-AI/CLAP"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,55 @@
+{
+ "id": "alexander-amini",
+ "name": "Alexander Amini",
+ "display": "Alexander Amini",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5010146439",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "liquid-ai",
+   "org": "Liquid AI",
+   "role": "Co-founder and Chief Scientific Officer",
+   "current": true,
+   "since": 2023
+  },
+  {
+   "lab": null,
+   "org": "MIT CSAIL",
+   "role": "Research affiliate",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Themis AI",
+   "role": "Co-founder",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alexander Amini is a co-founder and Chief Scientific Officer of Liquid AI, an MIT CSAIL spinout founded in 2023 to build models based on liquid neural networks. Amini holds MIT degrees through the PhD in computer science, remains an MIT research affiliate, and leads MIT's introductory deep learning course 6.S191. Amini also co-founded Themis AI, which works on uncertainty-aware AI.",
+ "known_for": [
+  "Co-founder of Liquid AI",
+  "Liquid neural networks research at MIT CSAIL",
+  "Leads MIT 6.S191 introductory deep learning course"
+ ],
+ "bio_sources": [
+  "https://www.mit.edu/~amini",
+  "https://www.liquid.ai/team",
+  "https://www.maginative.com/article/mit-spinoff-unveils-new-generation-of-ai-models-with-liquid-neural-network-technology/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

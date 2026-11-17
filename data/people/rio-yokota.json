@@ -1,0 +1,41 @@
+{
+ "id": "rio-yokota",
+ "name": "Rio Yokota",
+ "display": "Rio Yokota",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5024747717",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "swallow-llm",
+   "org": "Swallow LLM",
+   "role": "Professor; LLM training team leader",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Rio Yokota is a Professor at Science Tokyo, formerly Tokyo Institute of Technology, working on high-performance computing and large-scale model training. Yokota leads LLM training for the Swallow project. Yokota also led the Fugaku-LLM effort, which trained a language model on the Fugaku supercomputer using a ported Megatron-DeepSpeed.",
+ "known_for": [
+  "Leads LLM training for Swallow",
+  "Fugaku-LLM training on a supercomputer",
+  "Distributed training on large HPC systems"
+ ],
+ "bio_sources": [
+  "https://swallow-llm.github.io/index.en.html",
+  "https://www.titech.ac.jp/english/news/2024/069223",
+  "https://arxiv.org/abs/2404.17790"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

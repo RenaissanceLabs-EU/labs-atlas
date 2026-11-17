@@ -1,0 +1,48 @@
+{
+ "id": "mitesh-m-khapra",
+ "name": "Mitesh M. Khapra",
+ "display": "Mitesh M. Khapra",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5050036814",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://www.cse.iitm.ac.in/~miteshk/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai4bharat",
+   "org": "AI4Bharat",
+   "role": "Head of AI4Bharat; faculty at IIT Madras",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "IBM Research India",
+   "role": "Researcher",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mitesh M. Khapra is a faculty member in the Department of Data Science and AI at IIT Madras and head of the AI4Bharat research lab, which builds datasets, tools and models for Indian languages. His group's projects include the Samanantar parallel corpus and the IndicTrans2 translation models.",
+ "known_for": [
+  "Head of AI4Bharat",
+  "Samanantar and IndicTrans2 for Indian languages",
+  "Multilingual NLP and speech"
+ ],
+ "bio_sources": [
+  "https://www.cse.iitm.ac.in/~miteshk/",
+  "https://api.openalex.org/authors/A5050036814",
+  "https://ai4bharat.iitm.ac.in/"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

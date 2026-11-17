@@ -1,0 +1,49 @@
+{
+ "id": "david-samuel",
+ "name": "David Samuel",
+ "display": "David Samuel",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "davda54",
+  "x": null,
+  "openalex": "A5008928707",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hplt",
+   "org": "HPLT",
+   "role": "HPLT member",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "language-technology-group-university-of-oslo",
+   "org": "Language Technology Group, University of Oslo",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "David Samuel is a researcher in the Language Technology Group at the University of Oslo, working on language models for Norwegian and other languages. Samuel is first author of NorBench, a benchmark for Norwegian language models, and co-first author of GPT-BERT, a hybrid training approach that combines masked and causal language modeling. Samuel contributes to the NorBERT model family released by the group.",
+ "known_for": [
+  "First author of NorBench Norwegian LM benchmark",
+  "Co-first author of GPT-BERT hybrid pretraining",
+  "NorBERT model family"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2305.03880",
+  "https://arxiv.org/abs/2410.24159",
+  "https://huggingface.co/davda54",
+  "https://github.com/ltgoslo/NorBERT"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

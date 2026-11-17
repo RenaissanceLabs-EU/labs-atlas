@@ -1,0 +1,37 @@
+{
+ "id": "koshiro-saito",
+ "name": "Koshiro Saito",
+ "display": "Koshiro Saito",
+ "kind": "person",
+ "handles": {
+  "github": "pakapaka333",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "swallow-llm",
+   "org": "Swallow LLM",
+   "role": "Top contributor to swallow-evaluation-instruct",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Koshiro Saito is one of the most active contributors to Swallow LLM's open source work on GitHub, with 455 contributions to swallow-evaluation-instruct, swallow-evaluation.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/pakapaka333",
+  "https://github.com/swallow-llm/swallow-evaluation-instruct",
+  "https://github.com/swallow-llm/swallow-evaluation"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

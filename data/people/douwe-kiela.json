@@ -1,0 +1,55 @@
+{
+ "id": "douwe-kiela",
+ "name": "Douwe Kiela",
+ "display": "Douwe Kiela",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5016956470",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=Q0piorUAAAAJ",
+  "website": "https://douwekiela.github.io",
+  "linkedin": "https://www.linkedin.com/in/douwekiela"
+ },
+ "affiliations": [
+  {
+   "lab": "contextual-ai",
+   "org": "Contextual AI",
+   "role": "Co-founder; former CEO",
+   "current": false,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Stanford University",
+   "role": "Adjunct professor, Symbolic Systems",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Hugging Face",
+   "role": "Head of Research",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Douwe Kiela is a co-founder and former CEO of Contextual AI and an adjunct professor of symbolic systems at Stanford. They previously headed research at Hugging Face and worked at Facebook AI Research, and are a co-author of the retrieval-augmented generation paper.",
+ "known_for": [
+  "Retrieval-augmented generation (RAG)",
+  "Co-founder of Contextual AI",
+  "Evaluation and benchmarking of language models"
+ ],
+ "bio_sources": [
+  "https://douwekiela.github.io",
+  "https://contextual.ai",
+  "https://arxiv.org/abs/2402.01306"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

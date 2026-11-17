@@ -1,0 +1,36 @@
+{
+ "id": "andre-anjos",
+ "name": "André Anjos",
+ "display": "André Anjos",
+ "kind": "person",
+ "handles": {
+  "github": "anjos",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "idiap-research-institute",
+   "org": "Idiap Research Institute",
+   "role": "Top contributor to bob",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "André Anjos is one of the most active contributors to Idiap Research Institute's open source work on GitHub, with 2,234 contributions to bob. Their public GitHub profile reads: “I'm a scientific researcher who is also passionate about software. My current interests float around Health, Machine Learning and Reproducibility”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/anjos",
+  "https://github.com/idiap/bob"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

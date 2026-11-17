@@ -1,0 +1,36 @@
+{
+ "id": "hannah-sterz",
+ "name": "Hannah Sterz",
+ "display": "Hannah Sterz",
+ "kind": "person",
+ "handles": {
+  "github": "hSterz",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5080270278",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "adapterhub",
+   "org": "AdapterHub",
+   "role": "Author of the Adapters library paper",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Hannah Sterz is listed by AdapterHub as author of the Adapters library paper.",
+ "known_for": [],
+ "bio_sources": [
+  "https://adapterhub.ml",
+  "https://github.com/hSterz",
+  "https://arxiv.org/abs/2311.11077"
+ ],
+ "confidence": "high",
+ "auto": true
+}

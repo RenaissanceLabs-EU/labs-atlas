@@ -1,0 +1,35 @@
+{
+ "id": "jerome-louradour",
+ "name": "Jérôme Louradour",
+ "display": "Jérôme Louradour",
+ "kind": "person",
+ "handles": {
+  "github": "Jeronymous",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openllm-france",
+   "org": "OpenLLM France",
+   "role": "Public org member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jérôme Louradour is listed by OpenLLM France as public org member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.openllm-france.fr",
+  "https://github.com/Jeronymous"
+ ],
+ "confidence": "high",
+ "auto": true
+}

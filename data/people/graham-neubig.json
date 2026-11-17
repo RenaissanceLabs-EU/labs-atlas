@@ -1,0 +1,48 @@
+{
+ "id": "graham-neubig",
+ "name": "Graham Neubig",
+ "display": "Graham Neubig",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5000692949",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://www.phontron.com/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openhands",
+   "org": "OpenHands",
+   "role": "Chief Scientist",
+   "current": true,
+   "since": 2024
+  },
+  {
+   "lab": null,
+   "org": "Carnegie Mellon University",
+   "role": "Associate professor, Language Technologies Institute",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Graham Neubig is an associate professor at the Language Technologies Institute at Carnegie Mellon University and co-founder and Chief Scientist of All Hands AI, the company behind the open-source OpenHands coding agent. The project began as OpenDevin in 2024 and was renamed OpenHands. Research focuses on NLP and large language models.",
+ "known_for": [
+  "Chief Scientist at All Hands AI",
+  "OpenHands open-source coding agents",
+  "NLP and LLM research at CMU"
+ ],
+ "bio_sources": [
+  "https://www.openhands.dev/about",
+  "https://arxiv.org/abs/2407.16741",
+  "https://www.openhands.dev/blog/one-year-of-openhands-a-journey-of-open-source-ai-development"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

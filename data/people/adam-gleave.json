@@ -1,0 +1,49 @@
+{
+ "id": "adam-gleave",
+ "name": "Adam Gleave",
+ "display": "Adam Gleave",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5067087948",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "far-ai",
+   "org": "FAR.AI",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": 2022
+  },
+  {
+   "lab": null,
+   "org": "Google DeepMind",
+   "role": "Researcher",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Adam Gleave is co-founder and CEO of FAR.AI, a non-profit AI safety research institute. Gleave holds a PhD from UC Berkeley under Stuart Russell and previously worked at Google DeepMind. Gleave co-created Stable-Baselines3 and co-authored work on adversarial policies in deep reinforcement learning.",
+ "known_for": [
+  "Co-founder and CEO of FAR.AI",
+  "Co-created Stable-Baselines3",
+  "Adversarial policies in reinforcement learning"
+ ],
+ "bio_sources": [
+  "https://far.ai/author/adam-gleave/",
+  "https://www.scai.gov.sg/2025/participants-of-scai-2025/adam-gleave/",
+  "https://www.schmidtsciences.org/grantee/adam-gleave/",
+  "https://api.openalex.org/authors/A5067087948"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

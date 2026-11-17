@@ -1,0 +1,36 @@
+{
+ "id": "shibo-hao",
+ "name": "Shibo Hao",
+ "display": "Shibo Hao",
+ "kind": "person",
+ "handles": {
+  "github": "Ber666",
+  "huggingface": null,
+  "x": "Ber18791531",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "institute-of-foundation-models",
+   "org": "Institute of Foundation Models",
+   "role": "Top contributor to Reasoning360",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shibo Hao is one of the most active contributors to Institute of Foundation Models's open source work on GitHub, with 85 contributions to Reasoning360. Their public GitHub profile reads: “Ph.D. student at UC San Diego; \r\n\r\nB.S. in Computer Science at Peking University”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/Ber666",
+  "https://github.com/LLM360/Reasoning360"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "mihailo-skoric",
+ "name": "Mihailo Škorić",
+ "display": "Mihailo Škorić",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "procesaur",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "jerteh",
+   "org": "JeRTeh",
+   "role": "Model developer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mihailo Škorić is listed by JeRTeh as model developer.",
+ "known_for": [],
+ "bio_sources": [
+  "https://jerteh.rs",
+  "https://huggingface.co/procesaur"
+ ],
+ "confidence": "high",
+ "auto": true
+}

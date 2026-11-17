@@ -1,0 +1,49 @@
+{
+ "id": "andreas-blattmann",
+ "name": "Andreas Blattmann",
+ "display": "Andreas Blattmann",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5056884402",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "black-forest-labs",
+   "org": "Black Forest Labs",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2024
+  },
+  {
+   "lab": "compvis",
+   "org": "CompVis",
+   "role": "Research assistant; latent diffusion co-author",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Andreas Blattmann is a co-founder of Black Forest Labs. Before that, they did generative image and video research at LMU Munich under Björn Ommer and are a co-author of the latent diffusion paper and of Stable Video Diffusion work.",
+ "known_for": [
+  "Co-author of latent diffusion models",
+  "Co-author of SDXL and rectified flow transformer papers",
+  "Co-founder of Black Forest Labs"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Black_Forest_Labs",
+  "https://bfl.ai",
+  "https://ommer-lab.com/people/ommer/",
+  "https://arxiv.org/abs/2112.10752"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,35 @@
+{
+ "id": "marco-gaido",
+ "name": "Marco Gaido",
+ "display": "Marco Gaido",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5054564363",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "fbk-machine-translation-unit",
+   "org": "FBK Machine Translation Unit",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Marco Gaido is listed by FBK Machine Translation Unit as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://mt.fbk.eu",
+  "https://arxiv.org/abs/2410.01036"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

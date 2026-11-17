@@ -1,0 +1,36 @@
+{
+ "id": "sashankaryal",
+ "name": null,
+ "display": "sashankaryal",
+ "kind": "handle",
+ "handles": {
+  "github": "sashankaryal",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "voxel51",
+   "org": "Voxel51",
+   "role": "Top contributor to fiftyone",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "sashankaryal is one of the most active contributors to Voxel51's open source work on GitHub, with 3,900 contributions to fiftyone.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/sashankaryal",
+  "https://github.com/voxel51/fiftyone"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

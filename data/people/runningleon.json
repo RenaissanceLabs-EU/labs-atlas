@@ -1,0 +1,36 @@
+{
+ "id": "runningleon",
+ "name": null,
+ "display": "RunningLeon",
+ "kind": "handle",
+ "handles": {
+  "github": "RunningLeon",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "shanghai-ai-laboratory",
+   "org": "Shanghai AI Laboratory",
+   "role": "Top contributor to lmdeploy",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "RunningLeon is one of the most active contributors to Shanghai AI Laboratory's open source work on GitHub, with 174 contributions to lmdeploy. Their public GitHub profile reads: “You are special”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/RunningLeon",
+  "https://github.com/InternLM/lmdeploy"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

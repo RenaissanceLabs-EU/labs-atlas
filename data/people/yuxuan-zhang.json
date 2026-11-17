@@ -1,0 +1,36 @@
+{
+ "id": "yuxuan-zhang",
+ "name": "Yuxuan Zhang",
+ "display": "Yuxuan Zhang",
+ "kind": "person",
+ "handles": {
+  "github": "zRzRzRzRzRzRzR",
+  "huggingface": null,
+  "x": "zRdianjiao",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "z-ai",
+   "org": "Z.ai",
+   "role": "Top contributor to ChatGLM3",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Yuxuan Zhang is one of the most active contributors to Z.ai's open source work on GitHub, with 213 contributions to ChatGLM3.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/zRzRzRzRzRzRzR",
+  "https://github.com/zai-org/ChatGLM3"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

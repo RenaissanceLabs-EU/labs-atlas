@@ -1,0 +1,55 @@
+{
+ "id": "shirley-ho",
+ "name": "Shirley Ho",
+ "display": "Shirley Ho",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5049051097",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "polymathic-ai",
+   "org": "Polymathic AI",
+   "role": "Principal Investigator; Flatiron Institute",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Flatiron Institute",
+   "role": "Group leader, Cosmology X Data Science",
+   "current": true,
+   "since": 2018
+  },
+  {
+   "lab": null,
+   "org": "New York University",
+   "role": "Affiliated faculty, Center for Data Science",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shirley Ho is a group leader at the Flatiron Institute's Center for Computational Astrophysics and principal investigator of Polymathic AI. Their research applies machine learning to cosmology and astrophysics. Ho is senior author of the Multiple Physics Pretraining paper, an early foundation-model approach for physical simulations.",
+ "known_for": [
+  "Principal investigator of Polymathic AI",
+  "Leads Cosmology X Data Science group at Flatiron",
+  "Senior author of Multiple Physics Pretraining"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Shirley_Ho",
+  "https://polymathic-ai.org",
+  "https://arxiv.org/abs/2310.02994"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

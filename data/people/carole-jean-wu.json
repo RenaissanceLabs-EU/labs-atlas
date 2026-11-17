@@ -1,0 +1,55 @@
+{
+ "id": "carole-jean-wu",
+ "name": "Carole-Jean Wu",
+ "display": "Carole-Jean Wu",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5028220093",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mlcommons",
+   "org": "MLCommons",
+   "role": "Founding member and Vice President",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Meta",
+   "role": "Director of AI research (systems and ML)",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Arizona State University",
+   "role": "Professor",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Carole-Jean Wu is a founding member and Vice President of MLCommons and a director of AI research at Meta, where Wu leads systems and machine learning research. Wu chaired the MLPerf Recommendation Benchmark Advisory Board and works on sustainable AI computing, including the ACT carbon modeling tool. Wu previously was a tenured professor at Arizona State University.",
+ "known_for": [
+  "MLPerf benchmark leadership at MLCommons",
+  "Sustainable AI computing research",
+  "Systems and ML research at Meta"
+ ],
+ "bio_sources": [
+  "https://www.usenix.org/conference/atc24/speaker-or-organizer/carole-jean-wu-meta",
+  "https://www.cs.princeton.edu/node/5211",
+  "https://arxiv.org/abs/1911.02549"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

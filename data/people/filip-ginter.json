@@ -1,0 +1,41 @@
+{
+ "id": "filip-ginter",
+ "name": "Filip Ginter",
+ "display": "Filip Ginter",
+ "kind": "person",
+ "handles": {
+  "github": "fginter",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5019929457",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://fginter.github.io/",
+  "linkedin": "https://www.linkedin.com/in/filip-ginter-3519b44"
+ },
+ "affiliations": [
+  {
+   "lab": "turkunlp",
+   "org": "TurkuNLP",
+   "role": "Professor",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Filip Ginter is a Professor of Language Technology at the University of Turku and a leader of the TurkuNLP research group. TurkuNLP works on natural language processing for Finnish and multilingual language models. Ginter's earlier research addressed biomedical information extraction.",
+ "known_for": [
+  "Leads the TurkuNLP group",
+  "Finnish language technology",
+  "Open multilingual language models"
+ ],
+ "bio_sources": [
+  "https://fginter.github.io/",
+  "https://github.com/fginter",
+  "https://utu.fi/en/news/news/ai-watson-learns-finnish-in-turku"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

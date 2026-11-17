@@ -1,0 +1,36 @@
+{
+ "id": "wieland-brendel",
+ "name": "Wieland Brendel",
+ "display": "Wieland Brendel",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5086801305",
+  "orcid": null,
+  "scholar": null,
+  "website": "http://www.wielandbrendel.de",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bethge-lab",
+   "org": "Bethge Lab",
+   "role": "Researcher, Foolbox and robustness papers",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Wieland Brendel is listed by Bethge Lab as researcher, Foolbox and robustness papers.",
+ "known_for": [],
+ "bio_sources": [
+  "https://bethgelab.org",
+  "http://www.wielandbrendel.de",
+  "https://arxiv.org/abs/1707.04131"
+ ],
+ "confidence": "high",
+ "auto": true
+}

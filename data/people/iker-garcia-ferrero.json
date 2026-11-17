@@ -1,0 +1,36 @@
+{
+ "id": "iker-garcia-ferrero",
+ "name": "Iker García-Ferrero",
+ "display": "Iker García-Ferrero",
+ "kind": "person",
+ "handles": {
+  "github": "ikergarcia1996",
+  "huggingface": null,
+  "x": "iker_garciaf",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hitz-basque-center-for-language-technology",
+   "org": "HiTZ Basque Center for Language Technology",
+   "role": "Top contributor to GoLLIE",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Iker García-Ferrero is one of the most active contributors to HiTZ Basque Center for Language Technology's open source work on GitHub, with 511 contributions to GoLLIE. Their public GitHub profile reads: “LLM Researcher”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/ikergarcia1996",
+  "https://github.com/hitz-zentroa/GoLLIE"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

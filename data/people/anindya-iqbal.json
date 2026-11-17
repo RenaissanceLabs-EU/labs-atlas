@@ -1,0 +1,41 @@
+{
+ "id": "anindya-iqbal",
+ "name": "Anindya Iqbal",
+ "display": "Anindya Iqbal",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5027377957",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "buet-cse-nlp-group",
+   "org": "BUET CSE NLP Group",
+   "role": "Professor, BUET CSE",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Anindya Iqbal is a professor in the Department of Computer Science and Engineering at BUET, with research in empirical software engineering and security. They are a co-author of BanglaBERT, a Bangla language understanding model from BUET's NLP group.",
+ "known_for": [
+  "Empirical software engineering",
+  "Co-author of BanglaBERT",
+  "SentiCR code-review sentiment analysis"
+ ],
+ "bio_sources": [
+  "https://cse.buet.ac.bd/faculty/faculty_detail/anindyaiqbal",
+  "https://csebuetnlp.github.io/",
+  "https://arxiv.org/abs/2101.00204"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

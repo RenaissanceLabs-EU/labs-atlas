@@ -1,0 +1,35 @@
+{
+ "id": "peng-li",
+ "name": "Peng Li",
+ "display": "Peng Li",
+ "kind": "person",
+ "handles": {
+  "github": "artpli",
+  "huggingface": null,
+  "x": "artpli_",
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=4puDTtgAAAAJ",
+  "website": "https://artpli.github.io",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openmoss",
+   "org": "OpenMOSS",
+   "role": "Public org member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Peng Li is listed by OpenMOSS as public org member.",
+ "known_for": [],
+ "bio_sources": [
+  "http://openmoss.sii.edu.cn/",
+  "https://artpli.github.io"
+ ],
+ "confidence": "high",
+ "auto": true
+}

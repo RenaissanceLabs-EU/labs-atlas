@@ -1,0 +1,35 @@
+{
+ "id": "sylvain-gugger",
+ "name": "Sylvain Gugger",
+ "display": "Sylvain Gugger",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5041801887",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "fast-ai",
+   "org": "fast.ai",
+   "role": "Key contributor",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sylvain Gugger is listed by fast.ai as key contributor.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.fast.ai",
+  "https://arxiv.org/abs/2002.04688"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

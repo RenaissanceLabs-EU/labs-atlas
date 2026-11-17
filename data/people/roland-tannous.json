@@ -1,0 +1,36 @@
+{
+ "id": "roland-tannous",
+ "name": "Roland Tannous",
+ "display": "Roland Tannous",
+ "kind": "person",
+ "handles": {
+  "github": "rolandtannous",
+  "huggingface": null,
+  "x": "rolandtannous",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "unsloth",
+   "org": "Unsloth",
+   "role": "Top contributor to unsloth",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Roland Tannous is one of the most active contributors to Unsloth's open source work on GitHub, with 683 contributions to unsloth. Their public GitHub profile reads: “Passionate about everything to do with Big Data, Machine Learning and Artificial Intelligence”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/rolandtannous",
+  "https://github.com/unslothai/unsloth"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

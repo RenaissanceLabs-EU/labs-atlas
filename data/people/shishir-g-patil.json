@@ -1,0 +1,41 @@
+{
+ "id": "shishir-g-patil",
+ "name": "Shishir G. Patil",
+ "display": "Shishir G. Patil",
+ "kind": "person",
+ "handles": {
+  "github": "ShishirPatil",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5022259826",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=JTtnJUIAAAAJ",
+  "website": "https://people.eecs.berkeley.edu/~shishirpatil/",
+  "linkedin": "https://www.linkedin.com/in/shishir-patil"
+ },
+ "affiliations": [
+  {
+   "lab": "gorilla",
+   "org": "Gorilla",
+   "role": "Lead researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Shishir G. Patil is a doctoral researcher at UC Berkeley, advised by Joseph Gonzalez, Prabal Dutta and Ion Stoica, in the Sky Computing Lab. Patil leads Gorilla, a model for calling APIs and tools, and its related projects including the Berkeley Function Calling Leaderboard, GoEx and RAFT.",
+ "known_for": [
+  "Leads the Gorilla LLM project",
+  "Berkeley Function Calling Leaderboard",
+  "Tool use and API calling for LLMs"
+ ],
+ "bio_sources": [
+  "https://shishirpatil.github.io/",
+  "https://gorilla.cs.berkeley.edu/blogs/1_gorilla_intro.html",
+  "https://arxiv.org/abs/2305.15334"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

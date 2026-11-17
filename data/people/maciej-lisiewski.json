@@ -1,0 +1,36 @@
+{
+ "id": "maciej-lisiewski",
+ "name": "Maciej Lisiewski",
+ "display": "Maciej Lisiewski",
+ "kind": "person",
+ "handles": {
+  "github": "c2h5oh",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nous-research",
+   "org": "Nous Research",
+   "role": "Top contributor to hermes-agent",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Maciej Lisiewski is one of the most active contributors to Nous Research's open source work on GitHub, with 1,779 contributions to hermes-agent.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/c2h5oh",
+  "https://github.com/NousResearch/hermes-agent"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

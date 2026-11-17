@@ -1,0 +1,36 @@
+{
+ "id": "denny-britz",
+ "name": "Denny Britz",
+ "display": "Denny Britz",
+ "kind": "person",
+ "handles": {
+  "github": "dennybritz",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hazy-research",
+   "org": "Hazy Research",
+   "role": "Top contributor to deepdive",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Denny Britz is one of the most active contributors to Hazy Research's open source work on GitHub, with 601 contributions to deepdive.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/dennybritz",
+  "https://github.com/HazyResearch/deepdive"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

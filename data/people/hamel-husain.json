@@ -1,0 +1,36 @@
+{
+ "id": "hamel-husain",
+ "name": "Hamel Husain",
+ "display": "Hamel Husain",
+ "kind": "person",
+ "handles": {
+  "github": "hamelsmu",
+  "huggingface": null,
+  "x": "HamelHusain",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "answer-ai",
+   "org": "Answer.AI",
+   "role": "Top contributor to nbdev",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Hamel Husain is one of the most active contributors to Answer.AI's open source work on GitHub, with 669 contributions to nbdev.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/hamelsmu",
+  "https://github.com/AnswerDotAI/nbdev"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

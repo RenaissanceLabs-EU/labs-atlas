@@ -1,0 +1,35 @@
+{
+ "id": "freddy-wetjen",
+ "name": "Freddy Wetjen",
+ "display": "Freddy Wetjen",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5067052872",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nb-ai-lab",
+   "org": "NB AI-Lab",
+   "role": "Responsible for early AI development at the library",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Freddy Wetjen is listed by NB AI-Lab as responsible for early AI development at the library.",
+ "known_for": [],
+ "bio_sources": [
+  "https://ai.nb.no",
+  "https://arxiv.org/abs/2104.09617"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

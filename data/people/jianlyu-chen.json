@@ -1,0 +1,36 @@
+{
+ "id": "jianlyu-chen",
+ "name": "Jianlyu Chen",
+ "display": "Jianlyu Chen",
+ "kind": "person",
+ "handles": {
+  "github": "hanhainebula",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "baai",
+   "org": "BAAI",
+   "role": "Top contributor to FlagEmbedding",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jianlyu Chen is one of the most active contributors to BAAI's open source work on GitHub, with 416 contributions to FlagEmbedding. Their public GitHub profile reads: “A student studying at USTC”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/hanhainebula",
+  "https://github.com/FlagOpen/FlagEmbedding"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "david-ong-tat-wee",
+ "name": "David Ong Tat-Wee",
+ "display": "David Ong Tat-Wee",
+ "kind": "person",
+ "handles": {
+  "github": "ongtw",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai-singapore",
+   "org": "AI Singapore",
+   "role": "Top contributor to PeekingDuck",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "David Ong Tat-Wee is one of the most active contributors to AI Singapore's open source work on GitHub, with 444 contributions to PeekingDuck. Their public GitHub profile reads: “s/w dev 10+yrs: C++, Java, C#.Net, Python;\r\nQuant fund manager 13+yrs: Octagon Capital;\r\nCurrent: Head of Engineering, AI Singapore, SEA-LION team”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/ongtw",
+  "https://github.com/aisingapore/PeekingDuck"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

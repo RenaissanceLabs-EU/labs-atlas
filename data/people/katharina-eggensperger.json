@@ -1,0 +1,35 @@
+{
+ "id": "katharina-eggensperger",
+ "name": "Katharina Eggensperger",
+ "display": "Katharina Eggensperger",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5081813991",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "automl-groups",
+   "org": "AutoML Groups",
+   "role": "Co-author of auto-sklearn and SMAC3 work",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Katharina Eggensperger is listed by AutoML Groups as co-author of auto-sklearn and SMAC3 work.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.automl.org",
+  "https://arxiv.org/abs/2109.09831"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

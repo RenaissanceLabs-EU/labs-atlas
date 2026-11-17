@@ -1,0 +1,41 @@
+{
+ "id": "rifat-shahriyar",
+ "name": "Rifat Shahriyar",
+ "display": "Rifat Shahriyar",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5090604535",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://rifatshahriyar.github.io/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "buet-cse-nlp-group",
+   "org": "BUET CSE NLP Group",
+   "role": "Professor, BUET CSE",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Rifat Shahriyar is a professor in the Department of Computer Science and Engineering at BUET and works on memory management, programming languages, software engineering and natural language processing. They are a co-author of BanglaBERT and the XL-Sum multilingual summarization dataset from BUET's NLP group.",
+ "known_for": [
+  "BanglaBERT and BanglaT5 Bangla language models",
+  "XL-Sum multilingual summarization dataset",
+  "Memory management and garbage collection"
+ ],
+ "bio_sources": [
+  "https://rifatshahriyar.github.io/",
+  "https://csebuetnlp.github.io/",
+  "https://arxiv.org/abs/2106.13822"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

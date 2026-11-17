@@ -1,0 +1,48 @@
+{
+ "id": "sergey-levine",
+ "name": "Sergey Levine",
+ "display": "Sergey Levine",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5026322200",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://people.eecs.berkeley.edu/~svlevine/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "physical-intelligence",
+   "org": "Physical Intelligence",
+   "role": "Co-founder; professor at UC Berkeley",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "UC Berkeley",
+   "role": "Professor, EECS",
+   "current": true,
+   "since": 2016
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sergey Levine is a professor in EECS at UC Berkeley, which they joined in 2016, and a co-founder of Physical Intelligence. Their research covers reinforcement learning, imitation learning and scalable robot learning. Levine's group developed guided policy search and end-to-end visuomotor policy training, and contributed to offline RL methods such as CQL and IQL.",
+ "known_for": [
+  "Professor at UC Berkeley, RAIL lab",
+  "Guided policy search and visuomotor policies",
+  "Offline RL methods CQL, AWAC and IQL"
+ ],
+ "bio_sources": [
+  "https://people.eecs.berkeley.edu/~svlevine/",
+  "https://en.wikipedia.org/wiki/Sergey_Levine",
+  "https://arxiv.org/abs/2410.24164"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

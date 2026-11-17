@@ -1,0 +1,49 @@
+{
+ "id": "yang-you",
+ "name": "Yang You",
+ "display": "Yang You",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5100658705",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=jF4dPZwAAAAJ",
+  "website": "https://www.comp.nus.edu.sg/~youy",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hpc-ai-tech",
+   "org": "HPC-AI Tech",
+   "role": "Founder and chairman",
+   "current": true,
+   "since": 2021
+  },
+  {
+   "lab": null,
+   "org": "National University of Singapore",
+   "role": "Presidential Young Professor of Computer Science; director of HPC-AI Lab",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Yang You is a Presidential Young Professor of Computer Science at the National University of Singapore, where Yang directs the HPC-AI Lab, and the founder of HPC-AI Tech. Yang is known for the LARS and LAMB optimizers, which enable large-batch neural network training and appear in the MLPerf benchmark. HPC-AI Tech, founded in 2021, develops the open-source Colossal-AI system for training large models.",
+ "known_for": [
+  "LARS and LAMB large-batch optimizers",
+  "Colossal-AI system for large model training",
+  "Founder of HPC-AI Tech"
+ ],
+ "bio_sources": [
+  "https://www.comp.nus.edu.sg/cs/bio/youy",
+  "https://news.nus.edu.sg/teaching-a-computer-to-think-like-a-human/",
+  "https://ai.comp.nus.edu.sg/",
+  "https://www.imda.gov.sg/resources/innovative-tech-companies-directory/hpc-ai-technology"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

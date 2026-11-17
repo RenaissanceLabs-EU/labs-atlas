@@ -1,0 +1,42 @@
+{
+ "id": "richard-vencu",
+ "name": "Richard Vencu",
+ "display": "Richard Vencu",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5041913086",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "laion",
+   "org": "LAION",
+   "role": "Co-founder and engineering lead",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Richard Vencu is a co-founder of LAION and has served as its engineering lead. Vencu is a co-author of LAION-400M and LAION-5B, the open image-text datasets, and of the DataComp benchmark for multimodal dataset curation. Vencu's background is in electronics and IT systems architecture.",
+ "known_for": [
+  "Co-founder and engineering lead at LAION",
+  "Co-author of LAION-400M and LAION-5B",
+  "Co-author of DataComp"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/LAION",
+  "https://ar5iv.labs.arxiv.org/html/2210.08402",
+  "https://www.deeplearning.ai/the-batch/the-story-of-laion-the-dataset-behind-stable-diffusion",
+  "https://ro.linkedin.com/in/richardvencu"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

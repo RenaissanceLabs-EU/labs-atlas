@@ -1,0 +1,41 @@
+{
+ "id": "iryna-gurevych",
+ "name": "Iryna Gurevych",
+ "display": "Iryna Gurevych",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5027450194",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ukp-lab",
+   "org": "UKP Lab",
+   "role": "Founder and head, Professor at TU Darmstadt",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Iryna Gurevych is a Professor of Computer Science at TU Darmstadt and director of the Ubiquitous Knowledge Processing (UKP) Lab, and was president of the Association for Computational Linguistics in 2023. Their research covers NLP and machine learning, including large language models and AI safety. Gurevych co-developed Sentence-BERT with Nils Reimers and the AdapterHub framework.",
+ "known_for": [
+  "Sentence-BERT sentence embeddings",
+  "AdapterHub and AdapterFusion",
+  "Directs the UKP Lab at TU Darmstadt"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Iryna_Gurevych",
+  "https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp",
+  "https://arxiv.org/abs/1908.10084"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

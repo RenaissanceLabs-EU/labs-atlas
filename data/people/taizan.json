@@ -1,0 +1,36 @@
+{
+ "id": "taizan",
+ "name": null,
+ "display": "taizan",
+ "kind": "handle",
+ "handles": {
+  "github": "taizan",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "preferred-networks",
+   "org": "Preferred Networks",
+   "role": "Top contributor to PaintsChainer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "taizan is one of the most active contributors to Preferred Networks's open source work on GitHub, with 96 contributions to PaintsChainer. Their public GitHub profile reads: “Robot Engineer of Preferred Networks\r\nAuthor of PaintsChainer”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/taizan",
+  "https://github.com/pfnet/PaintsChainer"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

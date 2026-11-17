@@ -1,0 +1,42 @@
+{
+ "id": "christopher-potts",
+ "name": "Christopher Potts",
+ "display": "Christopher Potts",
+ "kind": "person",
+ "handles": {
+  "github": "cgpotts",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=3j08YoAAAAAJ",
+  "website": "https://web.stanford.edu/~cgpotts/",
+  "linkedin": "https://www.linkedin.com/in/christopher-potts-505611321"
+ },
+ "affiliations": [
+  {
+   "lab": "stanford-nlp-group",
+   "org": "Stanford NLP Group",
+   "role": "Professor of Linguistics",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Christopher Potts is a Professor of Linguistics at Stanford University with a courtesy appointment in Computer Science, and chairs the Linguistics department. Their research spans formal semantics and pragmatics and NLP topics such as model interpretability and evaluation. Potts is a co-author of the DSPy paper and of work on interpretability tools such as pyvene.",
+ "known_for": [
+  "Co-author of the DSPy framework paper",
+  "Probabilistic pragmatics and semantics",
+  "Interpretability and evaluation of language models"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Christopher_Potts",
+  "https://hai.stanford.edu/people/christopher-potts",
+  "https://arxiv.org/abs/2310.03714"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true,
+ "flag": "OpenAlex profile A5042601761 mixes in unrelated affiliations (e.g. Tilde Estonia, Marshall University); GitHub and Scholar match."
+}

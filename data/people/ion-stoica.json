@@ -1,0 +1,69 @@
+{
+ "id": "ion-stoica",
+ "name": "Ion Stoica",
+ "display": "Ion Stoica",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5127868466",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "agentica",
+   "org": "Agentica",
+   "role": "Advisor",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "letta",
+   "org": "Letta",
+   "role": "Advisor",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "lmarena",
+   "org": "LMArena",
+   "role": "Co-founder; professor at UC Berkeley",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "UC Berkeley",
+   "role": "Professor of computer science",
+   "current": true,
+   "since": 2000
+  },
+  {
+   "lab": null,
+   "org": "Databricks",
+   "role": "Co-founder and executive chairman",
+   "current": true,
+   "since": 2013
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ion Stoica is a professor of computer science at UC Berkeley and a co-founder of Conviva, Databricks and Anyscale, where he is executive chairman of Databricks. His work spans distributed systems and cloud computing, including Apache Spark, Ray and the Chord lookup protocol, and he is a co-author of the MT-Bench and Chatbot Arena evaluation paper.",
+ "known_for": [
+  "Co-creator of Apache Spark and Ray",
+  "Co-founder of Databricks and Anyscale",
+  "Co-author of the Chatbot Arena paper"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Ion_Stoica",
+  "https://api.openalex.org/authors/A5127868466",
+  "https://arxiv.org/abs/2306.05685"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "luca-beurer-kellner",
+ "name": "Luca Beurer-Kellner",
+ "display": "Luca Beurer-Kellner",
+ "kind": "person",
+ "handles": {
+  "github": "lbeurerkellner",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "sri-lab",
+   "org": "SRI Lab",
+   "role": "Top contributor to lmql",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Luca Beurer-Kellner is one of the most active contributors to SRI Lab's open source work on GitHub, with 660 contributions to lmql. Their public GitHub profile reads: “Building secure and reliable agentic systems at Invariant Labs”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/lbeurerkellner",
+  "https://github.com/eth-sri/lmql"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

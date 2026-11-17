@@ -1,0 +1,41 @@
+{
+ "id": "amir-hossein-kargaran",
+ "name": "Amir Hossein Kargaran",
+ "display": "Amir Hossein Kargaran",
+ "kind": "person",
+ "handles": {
+  "github": "kargaranamir",
+  "huggingface": "kargaranamir",
+  "x": "amir_nlp",
+  "openalex": "A5032918483",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=2idwpjcAAAAJ",
+  "website": "https://kargaranamir.github.io",
+  "linkedin": "https://www.linkedin.com/in/amirkargaran"
+ },
+ "affiliations": [
+  {
+   "lab": "cis-lmu-munich",
+   "org": "CIS, LMU Munich",
+   "role": "PhD student, advised by Hinrich Schütze",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Amir Hossein Kargaran is a PhD student at LMU Munich's Center for Information and Language Processing, advised by Hinrich Schütze. They work on multilingual and low-resource NLP and web data, and are lead author of GlotLID and a co-author of Glot500 and FineWeb2.",
+ "known_for": [
+  "GlotLID language identification",
+  "Glot500 multilingual corpora and models",
+  "Low-resource multilingual NLP"
+ ],
+ "bio_sources": [
+  "https://kargaranamir.github.io",
+  "https://github.com/kargaranamir",
+  "https://huggingface.co/kargaranamir"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

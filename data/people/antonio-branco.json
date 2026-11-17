@@ -1,0 +1,48 @@
+{
+ "id": "antonio-branco",
+ "name": "Antonio Branco",
+ "display": "Antonio Branco",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5034059867",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "nlx-group",
+   "org": "NLX Group",
+   "role": "Group leader",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "PORTULAN CLARIN",
+   "role": "Director General",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Antonio Branco is an associate professor with habilitation at the University of Lisbon, where Branco heads the NLX natural language processing group, and Director General of PORTULAN CLARIN, Portugal's national node of the CLARIN research infrastructure. The NLX group released the Albertina family of open neural encoders for Portuguese.",
+ "known_for": [
+  "Head of NLX group at University of Lisbon",
+  "Director of PORTULAN CLARIN",
+  "Albertina open Portuguese encoder models"
+ ],
+ "bio_sources": [
+  "https://www.di.fc.ul.pt/~ahb/",
+  "https://www.elra.info/?p=1546",
+  "https://arxiv.org/abs/2305.06721"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

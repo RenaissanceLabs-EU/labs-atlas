@@ -1,0 +1,36 @@
+{
+ "id": "justheuristic",
+ "name": null,
+ "display": "justheuristic",
+ "kind": "handle",
+ "handles": {
+  "github": "justheuristic",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bigscience",
+   "org": "BigScience",
+   "role": "Top contributor to petals",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "justheuristic is one of the most active contributors to BigScience's open source work on GitHub, with 191 contributions to petals. Their public GitHub profile reads: “building the hivemind”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/justheuristic",
+  "https://github.com/bigscience-workshop/petals"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

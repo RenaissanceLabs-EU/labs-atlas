@@ -1,0 +1,48 @@
+{
+ "id": "nicholas-kluge-correa",
+ "name": "Nicholas Kluge Corrêa",
+ "display": "Nicholas Kluge Corrêa",
+ "kind": "person",
+ "handles": {
+  "github": "Nkluge-correa",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "polygl0t",
+   "org": "Polygl0t",
+   "role": "Lead author of Tucano",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "University of Bonn",
+   "role": "Postdoctoral researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Nicholas Kluge Corrêa is a postdoctoral researcher at the University of Bonn (b-it and CAISA Lab) and a member of Polygl0t. They lead the Tucano series of open Portuguese language models and its GigaVerbo corpus, and co-led the follow-up Tucano 2 release. Their earlier work includes a systematic review of AI ethics.",
+ "known_for": [
+  "Lead of Tucano open Portuguese LLMs",
+  "GigaVerbo Portuguese pretraining corpus",
+  "Polygl0t multilingual LLM project"
+ ],
+ "bio_sources": [
+  "https://github.com/Nkluge-correa",
+  "https://arxiv.org/abs/2603.03543",
+  "https://www.uni-bonn.de/en/news/138-2025"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

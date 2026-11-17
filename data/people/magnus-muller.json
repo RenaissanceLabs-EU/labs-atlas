@@ -1,0 +1,41 @@
+{
+ "id": "magnus-muller",
+ "name": "Magnus Müller",
+ "display": "Magnus Müller",
+ "kind": "person",
+ "handles": {
+  "github": "MagMueller",
+  "huggingface": null,
+  "x": "mamagnus00",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "browser-use",
+   "org": "Browser Use",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2024
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Magnus Müller is a co-founder of Browser Use, an open source library that lets AI agents control web browsers. They studied data science at ETH Zurich, and the company went through Y Combinator's Winter 2025 batch and raised a $17 million seed round.",
+ "known_for": [
+  "Co-founder of Browser Use",
+  "Open source browser agent library",
+  "ETH Zurich data science background"
+ ],
+ "bio_sources": [
+  "https://techcrunch.com/2025/03/23/browser-use-the-tool-making-it-easier-for-ai-agents-to-navigate-websites-raises-17m",
+  "https://ycombinator.com/companies/browser-use",
+  "https://github.com/MagMueller"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

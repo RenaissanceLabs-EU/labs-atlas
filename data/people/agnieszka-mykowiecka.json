@@ -1,0 +1,35 @@
+{
+ "id": "agnieszka-mykowiecka",
+ "name": "Agnieszka Mykowiecka",
+ "display": "Agnieszka Mykowiecka",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "amykowiecka",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "institute-of-computer-science-pas",
+   "org": "Institute of Computer Science PAS",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Agnieszka Mykowiecka is listed by Institute of Computer Science PAS as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://ipipan.waw.pl",
+  "https://huggingface.co/amykowiecka"
+ ],
+ "confidence": "high",
+ "auto": true
+}

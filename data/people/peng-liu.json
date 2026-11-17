@@ -1,0 +1,42 @@
+{
+ "id": "peng-liu",
+ "name": "Peng Liu",
+ "display": "Peng Liu",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5122151576",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "norwai",
+   "org": "NorwAI",
+   "role": "Postdoctoral fellow (language models), NTNU",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Peng Liu is a researcher at NorwAI at NTNU working on language models. Liu is a co-author of NorwAI's 2026 technical report on its large language models and of a survey on language modeling paradigms in recommender systems.",
+ "known_for": [
+  "NorwAI language model research",
+  "Co-author of NorwAI LLM technical report",
+  "Language models for recommender systems"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2601.03034",
+  "https://www.ntnu.edu/norwai/researchers-lemei-and-peng-to-share-their-ai-competence",
+  "https://arxiv.org/abs/2404.03788"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "flag": "thin sources",
+ "enriched": true
+}

@@ -1,0 +1,37 @@
+{
+ "id": "guarin",
+ "name": null,
+ "display": "guarin",
+ "kind": "handle",
+ "handles": {
+  "github": "guarin",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lightly",
+   "org": "Lightly",
+   "role": "Top contributor to lightly",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "guarin is one of the most active contributors to Lightly's open source work on GitHub, with 472 contributions to lightly, lightly-train.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/guarin",
+  "https://github.com/lightly-ai/lightly",
+  "https://github.com/lightly-ai/lightly-train"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

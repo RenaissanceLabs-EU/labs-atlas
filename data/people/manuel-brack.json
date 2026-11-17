@@ -1,0 +1,52 @@
+{
+ "id": "manuel-brack",
+ "name": "Manuel Brack",
+ "display": "Manuel Brack",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "mbrack",
+  "x": null,
+  "openalex": "A5002883390",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "aiml-lab",
+   "org": "AIML Lab",
+   "role": "Researcher; co-author of Safe Latent Diffusion and LlavaGuard",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "dfki",
+   "org": "DFKI",
+   "role": "Researcher, DFKI Hugging Face organization",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "occiglot",
+   "org": "Occiglot",
+   "role": "Contributor",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Manuel Brack is listed by AIML Lab as researcher; co-author of Safe Latent Diffusion and LlavaGuard. They are also listed at DFKI, Occiglot.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.aiml.informatik.tu-darmstadt.de",
+  "https://www.dfki.de",
+  "https://occiglot.eu",
+  "https://huggingface.co/mbrack",
+  "https://arxiv.org/abs/2406.05113"
+ ],
+ "confidence": "high",
+ "auto": true
+}

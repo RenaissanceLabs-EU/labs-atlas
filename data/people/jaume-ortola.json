@@ -1,0 +1,36 @@
+{
+ "id": "jaume-ortola",
+ "name": "Jaume Ortolà",
+ "display": "Jaume Ortolà",
+ "kind": "person",
+ "handles": {
+  "github": "jaumeortola",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "softcatala",
+   "org": "Softcatala",
+   "role": "Top contributor to catalan-dict-tools",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jaume Ortolà is one of the most active contributors to Softcatala's open source work on GitHub, with 4,003 contributions to catalan-dict-tools.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jaumeortola",
+  "https://github.com/Softcatala/catalan-dict-tools"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

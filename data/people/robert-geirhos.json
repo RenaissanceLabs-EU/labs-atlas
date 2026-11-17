@@ -1,0 +1,36 @@
+{
+ "id": "robert-geirhos",
+ "name": "Robert Geirhos",
+ "display": "Robert Geirhos",
+ "kind": "person",
+ "handles": {
+  "github": "rgeirhos",
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5043113119",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://robertgeirhos.com",
+  "linkedin": "https://www.linkedin.com/in/rgeirhos"
+ },
+ "affiliations": [
+  {
+   "lab": "bethge-lab",
+   "org": "Bethge Lab",
+   "role": "Researcher on shape and texture bias",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Robert Geirhos is listed by Bethge Lab as researcher on shape and texture bias.",
+ "known_for": [],
+ "bio_sources": [
+  "https://bethgelab.org",
+  "https://robertgeirhos.com",
+  "https://arxiv.org/abs/1907.07484"
+ ],
+ "confidence": "high",
+ "auto": true
+}

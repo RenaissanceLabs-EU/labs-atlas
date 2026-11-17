@@ -1,0 +1,42 @@
+{
+ "id": "mihai-masala",
+ "name": "Mihai Masala",
+ "display": "Mihai Masala",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5075638103",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "openllm-ro",
+   "org": "OpenLLM-Ro",
+   "role": "Lead author, \"Vorbeşti Româneşte?\"",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mihai Masala is a researcher at POLITEHNICA Bucharest working on Romanian natural language processing. They are first author of the OpenLLM-Ro papers that introduced RoLlama, the first foundational Romanian LLMs, and the \"Vorbesti Romanesti?\" training recipe accepted at EMNLP 2024 Findings. All data, code and models from the recipe were released openly.",
+ "known_for": [
+  "First author of the OpenLLM-Ro Romanian LLM recipe",
+  "RoLlama open Romanian language models",
+  "Earlier Romanian BERT models, including RoBERT and jurBERT"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2406.18266",
+  "https://arxiv.org/pdf/2405.07703v3.pdf",
+  "http://openllm.ro/",
+  "https://api.openalex.org/authors/A5075638103"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

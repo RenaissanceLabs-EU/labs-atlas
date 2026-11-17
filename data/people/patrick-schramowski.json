@@ -1,0 +1,49 @@
+{
+ "id": "patrick-schramowski",
+ "name": "Patrick Schramowski",
+ "display": "Patrick Schramowski",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "PSaiml",
+  "x": null,
+  "openalex": "A5017166414",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "aiml-lab",
+   "org": "AIML Lab",
+   "role": "Researcher; lead author on Safe Latent Diffusion and LlavaGuard",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "dfki",
+   "org": "DFKI",
+   "role": "Researcher, DFKI Hugging Face organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Patrick Schramowski is a researcher at DFKI and the AIML Lab at TU Darmstadt, working on safety and human-centered generative AI. Schramowski is first author of Safe Latent Diffusion and a senior author of LlavaGuard, a vision-language model framework for safeguarding datasets and models.",
+ "known_for": [
+  "First author of Safe Latent Diffusion",
+  "LlavaGuard vision safety models",
+  "Human-centered generative AI"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2406.05113",
+  "https://ml-research.github.io/human-centered-genai/projects/llavaguard",
+  "https://alphaxiv.org/overview/2211.05105v4",
+  "https://api.openalex.org/authors/A5017166414"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

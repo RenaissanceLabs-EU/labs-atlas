@@ -1,0 +1,35 @@
+{
+ "id": "sami-jaghouar",
+ "name": "Sami Jaghouar",
+ "display": "Sami Jaghouar",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5104431277",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "prime-intellect",
+   "org": "Prime Intellect",
+   "role": "First author, INTELLECT-1",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sami Jaghouar is listed by Prime Intellect as first author, INTELLECT-1. Led the INTELLECT-1 technical report.",
+ "known_for": [],
+ "bio_sources": [
+  "https://primeintellect.ai",
+  "https://arxiv.org/abs/2412.01152"
+ ],
+ "confidence": "medium",
+ "auto": true
+}

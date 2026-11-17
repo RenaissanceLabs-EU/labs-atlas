@@ -1,0 +1,35 @@
+{
+ "id": "aleksander-wawer",
+ "name": "Aleksander Wawer",
+ "display": "Aleksander Wawer",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "aleksanderwawer",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "institute-of-computer-science-pas",
+   "org": "Institute of Computer Science PAS",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Aleksander Wawer is listed by Institute of Computer Science PAS as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://ipipan.waw.pl",
+  "https://huggingface.co/aleksanderwawer"
+ ],
+ "confidence": "high",
+ "auto": true
+}

@@ -1,0 +1,41 @@
+{
+ "id": "veronika-laippala",
+ "name": "Veronika Laippala",
+ "display": "Veronika Laippala",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5036607482",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://www.utu.fi/en/people/veronika-laippala",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "turkunlp",
+   "org": "TurkuNLP",
+   "role": "Professor",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Veronika Laippala is Professor of Digital Language Studies at the University of Turku. Laippala works on computational and corpus linguistics, in particular language variation across text types, and builds tools for using large web-crawled corpora, including massively multilingual register modeling.",
+ "known_for": [
+  "Web register identification across languages",
+  "Finnish Corpus of Online Registers (FinCORE)",
+  "Corpus linguistics of web-scale data"
+ ],
+ "bio_sources": [
+  "https://www.utu.fi/en/people/veronika-laippala",
+  "https://www.cambridge.org/core/journals/nordic-journal-of-linguistics/article/analyzing-the-unrestricted-web-the-finnish-corpus-of-online-registers/BDCA0FE03ABD9087CC5652533880C8C0",
+  "https://arxiv.org/pdf/2406.19892.pdf"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

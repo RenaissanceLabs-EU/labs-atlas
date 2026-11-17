@@ -1,0 +1,41 @@
+{
+ "id": "pierre-le-jeune",
+ "name": "Pierre Le Jeune",
+ "display": "Pierre Le Jeune",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5120395566",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "giskard",
+   "org": "Giskard",
+   "role": "Lead AI researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pierre Le Jeune is an AI researcher at Giskard, where Le Jeune works on LLM safety evaluation. Le Jeune co-authored Phare, a multilingual benchmark covering hallucination, bias and harmful content in language models, as well as RealHarm and StereoTales.",
+ "known_for": [
+  "LLM safety evaluation at Giskard",
+  "Co-author of the Phare benchmark",
+  "RealHarm and StereoTales studies"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2505.11365",
+  "https://phare.giskard.ai/methods",
+  "https://www.plushcap.com/content/huggingface/blog/huggingface-phare-llm-benchmark-v2-reasoning-models-dont-guarantee-better-security"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

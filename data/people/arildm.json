@@ -1,0 +1,36 @@
+{
+ "id": "arildm",
+ "name": null,
+ "display": "arildm",
+ "kind": "handle",
+ "handles": {
+  "github": "arildm",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "sprakbanken-text",
+   "org": "Sprakbanken Text",
+   "role": "Top contributor to korp-frontend",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "arildm is one of the most active contributors to Sprakbanken Text's open source work on GitHub, with 937 contributions to korp-frontend.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/arildm",
+  "https://github.com/spraakbanken/korp-frontend"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

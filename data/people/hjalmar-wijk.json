@@ -1,0 +1,42 @@
+{
+ "id": "hjalmar-wijk",
+ "name": "Hjalmar Wijk",
+ "display": "Hjalmar Wijk",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5091015047",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "metr",
+   "org": "METR",
+   "role": "Chief Scientist",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Hjalmar Wijk is a member of METR, listed on the organization's evaluations site as Chief Scientist; a later source lists the role as technical staff. Wijk is an author of METR's 2025 paper on measuring AI ability to complete long tasks and of the HCAST benchmark.",
+ "known_for": [
+  "AI agent capability evaluation at METR",
+  "Co-author of 'Measuring AI Ability to Complete Long Tasks'",
+  "HCAST benchmark co-author"
+ ],
+ "bio_sources": [
+  "https://evals.alignment.org/team/hjalmar-wijk/",
+  "https://arxiv.org/abs/2503.14499",
+  "https://arxiv.org/abs/2503.17354"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "flag": "title conflict: Chief Scientist on METR evals page, technical staff on a later About page; thin sources",
+ "enriched": true
+}

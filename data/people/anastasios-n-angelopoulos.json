@@ -1,0 +1,48 @@
+{
+ "id": "anastasios-n-angelopoulos",
+ "name": "Anastasios N. Angelopoulos",
+ "display": "Anastasios N. Angelopoulos",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5019661690",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "lmarena",
+   "org": "LMArena",
+   "role": "Co-founder and CEO",
+   "current": true,
+   "since": 2025
+  },
+  {
+   "lab": null,
+   "org": "UC Berkeley",
+   "role": "PhD student, EECS",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Anastasios N. Angelopoulos is a co-founder and CEO of LMArena (later branded Arena). As a Berkeley EECS PhD student, Angelopoulos launched Chatbot Arena in 2023 with Wei-Lin Chiang as a side project of the LMSYS group; it became a company in April 2025. Angelopoulos's research background includes statistics and uncertainty quantification.",
+ "known_for": [
+  "Co-founder and CEO of LMArena",
+  "Chatbot Arena human-preference model ranking",
+  "Statistical uncertainty quantification research"
+ ],
+ "bio_sources": [
+  "https://research.contrary.com/company/lmarena",
+  "https://www.felicis.com/insight/lmarena-announcement",
+  "https://www.maginative.com/article/chatbot-arena-rebrands-as-lmarena-becomes-a-company/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

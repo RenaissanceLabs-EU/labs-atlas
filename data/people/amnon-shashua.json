@@ -1,0 +1,55 @@
+{
+ "id": "amnon-shashua",
+ "name": "Amnon Shashua",
+ "display": "Amnon Shashua",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5075004917",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai21-labs",
+   "org": "AI21 Labs",
+   "role": "Co-founder and chairman",
+   "current": true,
+   "since": 2017
+  },
+  {
+   "lab": null,
+   "org": "Hebrew University of Jerusalem",
+   "role": "Professor of computer science",
+   "current": true,
+   "since": 1996
+  },
+  {
+   "lab": null,
+   "org": "Mobileye",
+   "role": "Co-founder",
+   "current": true,
+   "since": 1999
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Amnon Shashua is a professor of computer science at the Hebrew University of Jerusalem and co-founder of Mobileye, OrCam and AI21 Labs. He has led Mobileye as CEO and works on computer vision for driver assistance and autonomous driving.",
+ "known_for": [
+  "Co-founder of Mobileye",
+  "Co-founder of OrCam and AI21 Labs",
+  "Computer vision research"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Amnon_Shashua",
+  "https://api.openalex.org/authors/A5075004917",
+  "https://www.ai21.com/about"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

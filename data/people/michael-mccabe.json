@@ -1,0 +1,36 @@
+{
+ "id": "michael-mccabe",
+ "name": "Michael McCabe",
+ "display": "Michael McCabe",
+ "kind": "person",
+ "handles": {
+  "github": "mikemccabe210",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "polymathic-ai",
+   "org": "Polymathic AI",
+   "role": "Top contributor to the_well",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Michael McCabe is one of the most active contributors to Polymathic AI's open source work on GitHub, with 369 contributions to the_well. Their public GitHub profile reads: “ML Research scientist interested in modeling large scale dynamical systems!”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/mikemccabe210",
+  "https://github.com/PolymathicAI/the_well"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,41 @@
+{
+ "id": "alexandre-alahi",
+ "name": "Alexandre Alahi",
+ "display": "Alexandre Alahi",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5068504559",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "vita",
+   "org": "VITA",
+   "role": "Head of lab",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Alexandre Alahi is an Associate Professor at EPFL and head of the Visual Intelligence for Transportation laboratory (VITA). The group works on socially aware perception and prediction for transportation and smart spaces. Alahi was a postdoctoral researcher and research scientist at Stanford before joining EPFL in 2017.",
+ "known_for": [
+  "Leads EPFL VITA lab",
+  "Socially aware human trajectory prediction",
+  "Perception for mobility and smart spaces"
+ ],
+ "bio_sources": [
+  "https://people.epfl.ch/alexandre.alahi?lang=en",
+  "https://infoscience.epfl.ch/entities/person/a0f3ddcc-0877-4fd7-9f30-861907b49f18/about",
+  "https://appliedmldays.org/all-time-speakers/alexandre-alahi"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

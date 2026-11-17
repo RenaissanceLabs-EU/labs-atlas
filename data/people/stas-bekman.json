@@ -1,0 +1,36 @@
+{
+ "id": "stas-bekman",
+ "name": "Stas Bekman",
+ "display": "Stas Bekman",
+ "kind": "person",
+ "handles": {
+  "github": "stas00",
+  "huggingface": null,
+  "x": "StasBekman",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bigscience",
+   "org": "BigScience",
+   "role": "Top contributor to Megatron-DeepSpeed",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Stas Bekman is one of the most active contributors to BigScience's open source work on GitHub, with 119 contributions to Megatron-DeepSpeed. Their public GitHub profile reads: “Toolmaker. Author. Software creator, optimizer and harmonizer. Makes things work.\r\n\r\nCurrent domains: LLM/Training/Inference/Scalability/Machine Learning”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/stas00",
+  "https://github.com/bigscience-workshop/Megatron-DeepSpeed"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,55 @@
+{
+ "id": "ce-zhang",
+ "name": "Ce Zhang",
+ "display": "Ce Zhang",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5004750246",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "together-ai",
+   "org": "Together AI",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "University of Chicago",
+   "role": "Neubauer Associate Professor of Computer Science",
+   "current": true,
+   "since": 2024
+  },
+  {
+   "lab": null,
+   "org": "ETH Zurich",
+   "role": "Professor",
+   "current": false,
+   "since": 2016
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ce Zhang is co-founder and CTO of Together AI and a Neubauer Associate Professor of Computer Science at the University of Chicago, having moved there in 2024. Earlier, Zhang was a professor at ETH Zurich, and received a PhD at the University of Wisconsin-Madison followed by a postdoc at Stanford. Zhang works on data-centric machine learning systems and decentralized AI training.",
+ "known_for": [
+  "Co-founder of Together AI",
+  "Machine learning systems and data management",
+  "Decentralized training of large models"
+ ],
+ "bio_sources": [
+  "https://cs.uchicago.edu/people/ce-zhang/",
+  "https://www.alphaxiv.org/@ce-zhang",
+  "https://latent.space/wiki/ce-zhang-b6c1656e/"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

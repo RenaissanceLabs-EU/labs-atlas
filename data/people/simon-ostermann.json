@@ -1,0 +1,35 @@
+{
+ "id": "simon-ostermann",
+ "name": "Simon Ostermann",
+ "display": "Simon Ostermann",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "simonost",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "dfki",
+   "org": "DFKI",
+   "role": "Researcher, DFKI Hugging Face organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Simon Ostermann is listed by DFKI as researcher, DFKI Hugging Face organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://www.dfki.de",
+  "https://huggingface.co/simonost"
+ ],
+ "confidence": "high",
+ "auto": true
+}

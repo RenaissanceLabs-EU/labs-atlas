@@ -1,0 +1,36 @@
+{
+ "id": "marco-polignano",
+ "name": "Marco Polignano",
+ "display": "Marco Polignano",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5014793020",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "swap-research-group",
+   "org": "SWAP Research Group",
+   "role": "Developer of LLaMAntino",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Marco Polignano is listed by SWAP Research Group as developer of LLaMAntino.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/swapUniba",
+  "https://github.com/marcopoli",
+  "https://arxiv.org/abs/2405.07101"
+ ],
+ "confidence": "high",
+ "auto": true
+}

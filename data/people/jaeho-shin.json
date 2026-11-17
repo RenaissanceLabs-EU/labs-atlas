@@ -1,0 +1,36 @@
+{
+ "id": "jaeho-shin",
+ "name": "Jaeho Shin",
+ "display": "Jaeho Shin",
+ "kind": "person",
+ "handles": {
+  "github": "netj",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hazy-research",
+   "org": "Hazy Research",
+   "role": "Top contributor to deepdive",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jaeho Shin is one of the most active contributors to Hazy Research's open source work on GitHub, with 2,054 contributions to deepdive. Their public GitHub profile reads: “hungry, foolish, curious”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/netj",
+  "https://github.com/HazyResearch/deepdive"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

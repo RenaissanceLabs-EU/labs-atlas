@@ -1,0 +1,41 @@
+{
+ "id": "michal-kompan",
+ "name": "Michal Kompan",
+ "display": "Michal Kompan",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5052619773",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "kempelen-institute-of-intelligent-technologies",
+   "org": "Kempelen Institute of Intelligent Technologies",
+   "role": "Chief Research and Innovations Officer",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Michal Kompan is Chief Research and Innovations Officer and a co-founder of the Kempelen Institute of Intelligent Technologies (KInIT) in Slovakia. Kompan's research focuses on recommender systems, user modeling, machine learning and information retrieval.",
+ "known_for": [
+  "Co-founder of KInIT in Slovakia",
+  "Recommender systems research",
+  "User modeling and information retrieval"
+ ],
+ "bio_sources": [
+  "https://kinit.sk/about-us/",
+  "https://kinit.sk/gamechangers-meet-michal-kompan/",
+  "https://kinit.sk/?p=762"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

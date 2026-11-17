@@ -1,0 +1,41 @@
+{
+ "id": "naoaki-okazaki",
+ "name": "Naoaki Okazaki",
+ "display": "Naoaki Okazaki",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5066940046",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "swallow-llm",
+   "org": "Swallow LLM",
+   "role": "Professor; project leader",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Naoaki Okazaki is a Professor of Computer Science at Science Tokyo (formerly Tokyo Institute of Technology) and heads the Okazaki Laboratory, which works on natural language processing. Okazaki leads the Swallow project and its pre-training corpus team. Swallow produces open Japanese-capable large language models by continual pre-training of existing open models, in collaboration with the Yokota lab and AIST.",
+ "known_for": [
+  "Leads the Swallow open Japanese LLM project",
+  "Japanese pre-training corpus construction",
+  "Natural language processing research"
+ ],
+ "bio_sources": [
+  "https://swallow-llm.github.io/index.en.html",
+  "https://www.nlp.comp.isct.ac.jp/research.en.html",
+  "https://aiopeninnovationdayjp24.sched.com/event/1cBcx/keynote-naoaki-okazaki-tokyo-institute-of-technology"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

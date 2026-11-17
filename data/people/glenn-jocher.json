@@ -1,0 +1,41 @@
+{
+ "id": "glenn-jocher",
+ "name": "Glenn Jocher",
+ "display": "Glenn Jocher",
+ "kind": "person",
+ "handles": {
+  "github": "glenn-jocher",
+  "huggingface": null,
+  "x": "ultralytics",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ultralytics",
+   "org": "Ultralytics",
+   "role": "Founder and CEO",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Glenn Jocher is the founder and CEO of Ultralytics, the company behind the open-source YOLOv5, YOLOv8 and YOLO11 computer vision models. Jocher is the main author of the Ultralytics repositories on GitHub and presented YOLO11 at the company's YOLO Vision 2024 event.",
+ "known_for": [
+  "Created Ultralytics YOLOv5 and YOLOv8",
+  "Founder of Ultralytics",
+  "Open-source vision AI tooling"
+ ],
+ "bio_sources": [
+  "https://www.crunchbase.com/person/glenn-jocher",
+  "https://www.hpcwire.com/off-the-wire/ultralytics-closes-30m-series-a-funding-round-to-accelerate-open-source-vision-ai/",
+  "https://pulse2.com/ultralytics-profile-glenn-jocher-interview/"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

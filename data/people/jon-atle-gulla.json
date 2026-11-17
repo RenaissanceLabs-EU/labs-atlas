@@ -1,0 +1,41 @@
+{
+ "id": "jon-atle-gulla",
+ "name": "Jon Atle Gulla",
+ "display": "Jon Atle Gulla",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5055294418",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "norwai",
+   "org": "NorwAI",
+   "role": "Director, NorwAI; Professor, NTNU",
+   "current": true,
+   "since": 2021
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jon Atle Gulla is a professor at NTNU in Trondheim and director of NorwAI, the Norwegian Research Center for AI Innovation. NorwAI trains and releases Norwegian language models such as the NorLLM family; Gulla is an author of the center's 2026 technical report on its language models.",
+ "known_for": [
+  "Director of NorwAI",
+  "NorLLM Norwegian language models",
+  "AI innovation research with industry"
+ ],
+ "bio_sources": [
+  "https://www.ntnu.edu/employees/jag",
+  "https://www.ntnu.edu/norwai/norwai-will-forge-data-to-values",
+  "https://arxiv.org/abs/2601.03034"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

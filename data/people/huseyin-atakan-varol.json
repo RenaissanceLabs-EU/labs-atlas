@@ -1,0 +1,48 @@
+{
+ "id": "huseyin-atakan-varol",
+ "name": "Huseyin Atakan Varol",
+ "display": "Huseyin Atakan Varol",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5044782949",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "issai",
+   "org": "ISSAI",
+   "role": "Founding and General Director",
+   "current": true,
+   "since": 2019
+  },
+  {
+   "lab": null,
+   "org": "Nazarbayev University",
+   "role": "Professor",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Hüseyin Atakan Varol is the founding director of the Institute of Smart Systems and Artificial Intelligence (ISSAI) at Nazarbayev University in Kazakhstan. Varol's background is in robotics and human-machine interfaces, and Varol has led ISSAI's work on Kazakh-language AI, including the KazLLM models delivered in December 2024.",
+ "known_for": [
+  "Founding director of ISSAI at Nazarbayev University",
+  "Led development of the KazLLM Kazakh language model",
+  "Robotics and human-machine interface research"
+ ],
+ "bio_sources": [
+  "https://nu.edu.kz/?p=5245",
+  "https://issai.nu.edu.kz/2024/05/31/elevating-kazakhstans-ai-capabilities-issais-transformation-and-ambitious-kazakh-large-language-model-project/",
+  "https://www.timeshighereducation.com/research/nazarbayev-university/issai-unveils-kazakhstans-next-generation-ai-technologies"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

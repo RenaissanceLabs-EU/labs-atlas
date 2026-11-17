@@ -1,0 +1,42 @@
+{
+ "id": "ariel-ekgren",
+ "name": "Ariel Ekgren",
+ "display": "Ariel Ekgren",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5004578639",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai-sweden",
+   "org": "AI Sweden",
+   "role": "Research scientist and tech lead; lead author of GPT-SW3",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Ariel Ekgren is a research scientist and tech lead at AI Sweden who works on large language models for Swedish and the Nordic languages. Ekgren is the corresponding author of the GPT-SW3 papers, which describe a family of decoder-only models trained on about 320 billion tokens.",
+ "known_for": [
+  "Corresponding author of GPT-SW3",
+  "Large language models for Nordic languages",
+  "Tech lead for language models at AI Sweden"
+ ],
+ "bio_sources": [
+  "https://arxiv.org/abs/2305.12987",
+  "https://aclanthology.org/people/ariel-ekgren",
+  "https://aclanthology.org/2022.lrec-1.376",
+  "https://api.openalex.org/authors/A5004578639"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

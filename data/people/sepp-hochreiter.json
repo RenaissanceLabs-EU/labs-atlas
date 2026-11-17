@@ -1,0 +1,49 @@
+{
+ "id": "sepp-hochreiter",
+ "name": "Sepp Hochreiter",
+ "display": "Sepp Hochreiter",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5053148274",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "institute-for-machine-learning-jku-linz",
+   "org": "Institute for Machine Learning, JKU Linz",
+   "role": "Head of the institute",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "nxai",
+   "org": "NXAI",
+   "role": "Co-founder and Chief Scientist",
+   "current": true,
+   "since": 2024
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sepp Hochreiter heads the Institute for Machine Learning at Johannes Kepler University Linz and is co-founder and chief scientist of NXAI. Hochreiter is a co-inventor of the Long Short-Term Memory (LSTM) network and senior author of xLSTM, a recurrent architecture presented at NeurIPS 2024 as an alternative to transformers. NXAI builds on xLSTM, including the xLSTM 7B language model and the TiRex time-series model.",
+ "known_for": [
+  "Co-inventor of the LSTM network",
+  "Senior author of xLSTM",
+  "Chief scientist of NXAI"
+ ],
+ "bio_sources": [
+  "https://www.bundeskanzleramt.gv.at/themen/stimmen-fuer-den-aufschwung/wir-stellen-vor/sepp-hochreiter.html",
+  "https://papers.nips.cc/paper_files/paper/2024/hash/c2ce2f2701c10a2b2f2ea0bfa43cfaa3-Abstract-Conference.html",
+  "https://www.hannovermesse.de/en/news/news-articles/a-large-language-model-from-europe-for-the-world",
+  "https://www.trendingtopics.eu/nxai-uebertrifft-konkurrenz-mit-ai-zeitreihenanalyse-modell-tirex/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

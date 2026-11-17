@@ -1,0 +1,40 @@
+{
+ "id": "barbara-plank",
+ "name": "Barbara Plank",
+ "display": "Barbara Plank",
+ "kind": "person",
+ "handles": {
+  "github": "bplank",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mainlp",
+   "org": "MaiNLP",
+   "role": "Head of MaiNLP; Professor, LMU Munich",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Barbara Plank is a professor and chair for AI and Computational Linguistics at LMU Munich, where Plank heads the MaiNLP lab and co-directs the Center for Information and Language Processing. Research focuses on human-facing NLP: making models robust to language variation, fairer, and aware of variation in human labels.",
+ "known_for": [
+  "Head of the MaiNLP lab at LMU Munich",
+  "Robust and inclusive NLP",
+  "Human label variation research"
+ ],
+ "bio_sources": [
+  "https://mainlp.github.io",
+  "https://github.com/bplank"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

@@ -1,0 +1,36 @@
+{
+ "id": "gkamradt",
+ "name": null,
+ "display": "gkamradt",
+ "kind": "handle",
+ "handles": {
+  "github": "gkamradt",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "arc-prize-foundation",
+   "org": "ARC Prize Foundation",
+   "role": "Top contributor to arc-agi-benchmarking",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "gkamradt is one of the most active contributors to ARC Prize Foundation's open source work on GitHub, with 81 contributions to arc-agi-benchmarking.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/gkamradt",
+  "https://github.com/arcprize/arc-agi-benchmarking"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

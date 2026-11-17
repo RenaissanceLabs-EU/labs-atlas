@@ -1,0 +1,41 @@
+{
+ "id": "daisuke-okanohara",
+ "name": "Daisuke Okanohara",
+ "display": "Daisuke Okanohara",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5056883370",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "preferred-networks",
+   "org": "Preferred Networks",
+   "role": "Co-founder and COO",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Daisuke Okanohara is a co-founder of Preferred Networks and its chief operating officer; the company grew out of Preferred Infrastructure, founded in 2006. Preferred Networks developed the Chainer deep learning framework and the MN-Core accelerator. Okanohara is an author of the PLaMo-100B report on a Japanese-focused language model.",
+ "known_for": [
+  "Co-founder of Preferred Networks",
+  "Chainer deep learning framework company",
+  "Co-author of PLaMo-100B Japanese LLM"
+ ],
+ "bio_sources": [
+  "https://en.wikipedia.org/wiki/Preferred_Networks",
+  "https://arxiv.org/abs/2410.07563",
+  "https://www.preferred.jp/en/"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

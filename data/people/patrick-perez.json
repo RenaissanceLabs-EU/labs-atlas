@@ -1,0 +1,49 @@
+{
+ "id": "patrick-perez",
+ "name": "Patrick Pérez",
+ "display": "Patrick Pérez",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=8Cph5uQAAAAJ",
+  "website": "https://ptrckprz.github.io/",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "kyutai",
+   "org": "Kyutai",
+   "role": "Chief Executive Officer",
+   "current": true,
+   "since": 2023
+  },
+  {
+   "lab": null,
+   "org": "Valeo",
+   "role": "VP of AI and Scientific Director",
+   "current": false,
+   "since": 2018
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Patrick Pérez is chief executive officer of Kyutai, a non-profit open-science AI lab in Paris. Before Kyutai, Pérez was vice president and scientific director for AI at the automotive supplier Valeo from 2018 to 2023. At Kyutai, Pérez co-authored the technical report on Moshi, a real-time speech-text foundation model released in 2024.",
+ "known_for": [
+  "CEO of Kyutai open-science AI lab",
+  "Co-author of the Moshi speech-text model",
+  "Former AI scientific director at Valeo"
+ ],
+ "bio_sources": [
+  "https://ptrckprz.github.io/",
+  "https://www.maddyness.com/2025/01/15/ia-les-dessous-de-kyutai-avec-patrick-perez-ceo/",
+  "https://arxiv.org/abs/2410.00037",
+  "https://fortune.com/europe/2024/07/04/ai-lab-french-billionaire-xavier-niel-takes-on-chatgpt-reveals-voice-assistant-with-thick-french-accent/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

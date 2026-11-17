@@ -1,0 +1,36 @@
+{
+ "id": "sdtblck",
+ "name": null,
+ "display": "sdtblck",
+ "kind": "handle",
+ "handles": {
+  "github": "sdtblck",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "eleutherai",
+   "org": "EleutherAI",
+   "role": "Top contributor to gpt-neox",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "sdtblck is one of the most active contributors to EleutherAI's open source work on GitHub, with 419 contributions to gpt-neox.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/sdtblck",
+  "https://github.com/EleutherAI/gpt-neox"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

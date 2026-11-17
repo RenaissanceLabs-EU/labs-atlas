@@ -1,0 +1,37 @@
+{
+ "id": "tony-wu",
+ "name": "Tony Wu",
+ "display": "Tony Wu",
+ "kind": "person",
+ "handles": {
+  "github": "tonywu71",
+  "huggingface": null,
+  "x": "tonywu_71",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "illuin-technology",
+   "org": "Illuin Technology",
+   "role": "Top contributor to colpali",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Tony Wu is one of the most active contributors to Illuin Technology's open source work on GitHub, with 365 contributions to vidore-benchmark, colpali. Their public GitHub profile reads: “AI-curious.\r\nResearch interests: LLM, Multimodal, Agents, Speech\r\n\r\nCentraleSupélec 🇫🇷 \r\nMLMI, Cambridge 🇬🇧”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/tonywu71",
+  "https://github.com/illuin-tech/colpali",
+  "https://github.com/illuin-tech/vidore-benchmark"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

@@ -1,0 +1,48 @@
+{
+ "id": "danqi-chen",
+ "name": "Danqi Chen",
+ "display": "Danqi Chen",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5051064208",
+  "orcid": null,
+  "scholar": null,
+  "website": "https://www.cs.princeton.edu/people/profile/danqic",
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "princeton-nlp-group",
+   "org": "Princeton NLP Group",
+   "role": "Associate professor, co-leader of the Princeton NLP Group",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "Princeton Language and Intelligence",
+   "role": "Associate director",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Danqi Chen is an associate professor of computer science at Princeton University, co-leader of the Princeton NLP Group and associate director of Princeton Language and Intelligence. Their research covers natural language processing, question answering and large language models. Chen received the 2022 Samsung AI Researcher of the Year award and an NSF CAREER Award.",
+ "known_for": [
+  "Co-leads Princeton NLP Group",
+  "Associate director of Princeton Language and Intelligence",
+  "Research on question answering and LLMs"
+ ],
+ "bio_sources": [
+  "https://www.cs.princeton.edu/people/profile/danqic",
+  "https://nlp.cs.princeton.edu",
+  "https://arxiv.org/abs/2405.14734"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

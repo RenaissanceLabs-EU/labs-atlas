@@ -1,0 +1,36 @@
+{
+ "id": "eddie-bergman",
+ "name": "Eddie Bergman",
+ "display": "Eddie Bergman",
+ "kind": "person",
+ "handles": {
+  "github": "eddiebergman",
+  "huggingface": null,
+  "x": "Edberg_Wardman",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "automl-groups",
+   "org": "AutoML Groups",
+   "role": "Top contributor to auto-sklearn",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Eddie Bergman is one of the most active contributors to AutoML Groups's open source work on GitHub, with 183 contributions to auto-sklearn.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/eddiebergman",
+  "https://github.com/automl/auto-sklearn"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

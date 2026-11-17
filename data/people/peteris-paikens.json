@@ -1,0 +1,35 @@
+{
+ "id": "peteris-paikens",
+ "name": "Pēteris Paikens",
+ "display": "Pēteris Paikens",
+ "kind": "person",
+ "handles": {
+  "github": "PeterisP",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ailab",
+   "org": "AiLab",
+   "role": "Researcher and member of the LUMII-AILab GitHub organization",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pēteris Paikens is listed by AiLab as researcher and member of the LUMII-AILab GitHub organization.",
+ "known_for": [],
+ "bio_sources": [
+  "https://ailab.lv",
+  "https://github.com/PeterisP"
+ ],
+ "confidence": "high",
+ "auto": true
+}

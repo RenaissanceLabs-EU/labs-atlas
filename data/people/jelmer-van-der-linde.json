@@ -1,0 +1,35 @@
+{
+ "id": "jelmer-van-der-linde",
+ "name": "Jelmer van der Linde",
+ "display": "Jelmer van der Linde",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "jelmervdl",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hplt",
+   "org": "HPLT",
+   "role": "HPLT member",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jelmer van der Linde is listed by HPLT as hPLT member.",
+ "known_for": [],
+ "bio_sources": [
+  "https://hplt-project.org",
+  "https://huggingface.co/jelmervdl"
+ ],
+ "confidence": "high",
+ "auto": true
+}

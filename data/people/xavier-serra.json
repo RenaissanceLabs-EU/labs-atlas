@@ -1,0 +1,36 @@
+{
+ "id": "xavier-serra",
+ "name": "Xavier Serra",
+ "display": "Xavier Serra",
+ "kind": "person",
+ "handles": {
+  "github": "xserra",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "music-technology-group",
+   "org": "Music Technology Group",
+   "role": "Top contributor to sms-tools",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Xavier Serra is one of the most active contributors to Music Technology Group's open source work on GitHub, with 428 contributions to sms-tools.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/xserra",
+  "https://github.com/MTG/sms-tools"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

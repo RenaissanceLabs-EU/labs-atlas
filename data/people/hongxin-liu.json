@@ -1,0 +1,36 @@
+{
+ "id": "hongxin-liu",
+ "name": "Hongxin Liu",
+ "display": "Hongxin Liu",
+ "kind": "person",
+ "handles": {
+  "github": "ver217",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "hpc-ai-tech",
+   "org": "HPC-AI Tech",
+   "role": "Top contributor to ColossalAI",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Hongxin Liu is one of the most active contributors to HPC-AI Tech's open source work on GitHub, with 435 contributions to ColossalAI.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/ver217",
+  "https://github.com/hpcaitech/ColossalAI"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

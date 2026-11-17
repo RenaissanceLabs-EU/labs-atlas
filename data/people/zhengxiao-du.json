@@ -1,0 +1,36 @@
+{
+ "id": "zhengxiao-du",
+ "name": "Zhengxiao Du",
+ "display": "Zhengxiao Du",
+ "kind": "person",
+ "handles": {
+  "github": "duzx16",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "z-ai",
+   "org": "Z.ai",
+   "role": "Top contributor to ChatGLM-6B",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Zhengxiao Du is one of the most active contributors to Z.ai's open source work on GitHub, with 225 contributions to ChatGLM-6B.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/duzx16",
+  "https://github.com/zai-org/ChatGLM-6B"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

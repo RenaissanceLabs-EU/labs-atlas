@@ -1,0 +1,35 @@
+{
+ "id": "stefano-ghazzali",
+ "name": "Stefano Ghazzali",
+ "display": "Stefano Ghazzali",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "stefanoghazzali",
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "language-technologies-unit",
+   "org": "Language Technologies Unit",
+   "role": "Researcher",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Stefano Ghazzali is listed by Language Technologies Unit as researcher.",
+ "known_for": [],
+ "bio_sources": [
+  "https://techiaith.cymru",
+  "https://huggingface.co/stefanoghazzali"
+ ],
+ "confidence": "high",
+ "auto": true
+}

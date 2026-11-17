@@ -1,0 +1,48 @@
+{
+ "id": "sarah-schwettmann",
+ "name": "Sarah Schwettmann",
+ "display": "Sarah Schwettmann",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5074026640",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "transluce",
+   "org": "Transluce",
+   "role": "Co-founder and Chief Scientist",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": null,
+   "org": "MIT CSAIL",
+   "role": "Research Scientist",
+   "current": false,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sarah Schwettmann is co-founder and Chief Scientist of Transluce, a nonprofit lab developing open tools for understanding and overseeing AI systems. Before Transluce, Schwettmann was a research scientist at MIT CSAIL, where they built MAIA, an automated interpretability agent system that underlies Transluce's tools.",
+ "known_for": [
+  "Co-founded Transluce",
+  "MAIA automated interpretability agent",
+  "Interpretability and AI oversight"
+ ],
+ "bio_sources": [
+  "https://www.matsprogram.org/mentor/schwettmann",
+  "https://greaterwrong.com/posts/BFamsq52ctyRziDgE/introducing-transluce-a-letter-from-the-founders",
+  "https://www.far.ai/event-recordings/sarah-schwettmann-scalable-oversight-and-understanding"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

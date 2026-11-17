@@ -1,0 +1,54 @@
+{
+ "id": "kristian-kersting",
+ "name": "Kristian Kersting",
+ "display": "Kristian Kersting",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5037636074",
+  "orcid": null,
+  "scholar": "https://scholar.google.com/citations?user=QY-earAAAAAJ",
+  "website": "https://ml-research.github.io/people/kkersting/",
+  "linkedin": "https://www.linkedin.com/in/kerstingaiml"
+ },
+ "affiliations": [
+  {
+   "lab": "aiml-lab",
+   "org": "AIML Lab",
+   "role": "Professor of AI and Machine Learning, head of the lab",
+   "current": true,
+   "since": 2019
+  },
+  {
+   "lab": null,
+   "org": "hessian.AI",
+   "role": "Founding co-director",
+   "current": true,
+   "since": 2020
+  },
+  {
+   "lab": null,
+   "org": "DFKI",
+   "role": "Head of Foundations of Systems AI department",
+   "current": true,
+   "since": 2022
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Kristian Kersting is professor of AI and machine learning at TU Darmstadt, heading the AIML Lab, and a founding co-director of hessian.AI. He also leads a research department at DFKI. His research covers statistical relational and neuro-symbolic AI, and he received the inaugural German AI Award in 2019.",
+ "known_for": [
+  "Statistical relational and neuro-symbolic AI",
+  "Founding co-director of hessian.AI",
+  "Inaugural German AI Award (2019)"
+ ],
+ "bio_sources": [
+  "https://ml-research.github.io/people/kkersting/",
+  "https://api.openalex.org/authors/A5037636074"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

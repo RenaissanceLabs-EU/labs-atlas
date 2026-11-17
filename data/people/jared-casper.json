@@ -1,0 +1,43 @@
+{
+ "id": "jared-casper",
+ "name": "Jared Casper",
+ "display": "Jared Casper",
+ "kind": "person",
+ "handles": {
+  "github": "jaredcasper",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "bigscience",
+   "org": "BigScience",
+   "role": "Top contributor to Megatron-DeepSpeed",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "nvidia",
+   "org": "NVIDIA",
+   "role": "Top contributor to Megatron-LM",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Jared Casper is one of the most active contributors to NVIDIA's open source work on GitHub, with 1,039 contributions to Megatron-LM.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jaredcasper",
+  "https://github.com/NVIDIA/Megatron-LM"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

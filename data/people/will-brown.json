@@ -1,0 +1,36 @@
+{
+ "id": "will-brown",
+ "name": "will brown",
+ "display": "will brown",
+ "kind": "person",
+ "handles": {
+  "github": "willccbb",
+  "huggingface": null,
+  "x": "willccbb",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "prime-intellect",
+   "org": "Prime Intellect",
+   "role": "Top contributor to verifiers",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "will brown is one of the most active contributors to Prime Intellect's open source work on GitHub, with 954 contributions to verifiers.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/willccbb",
+  "https://github.com/PrimeIntellect-ai/verifiers"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

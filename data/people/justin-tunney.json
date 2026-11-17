@@ -1,0 +1,36 @@
+{
+ "id": "justin-tunney",
+ "name": "Justin Tunney",
+ "display": "Justin Tunney",
+ "kind": "person",
+ "handles": {
+  "github": "jart",
+  "huggingface": null,
+  "x": "jartine",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "mozilla-ai",
+   "org": "Mozilla.ai",
+   "role": "Top contributor to llamafile",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Justin Tunney is one of the most active contributors to Mozilla.ai's open source work on GitHub, with 600 contributions to llamafile.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/jart",
+  "https://github.com/mozilla-ai/llamafile"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

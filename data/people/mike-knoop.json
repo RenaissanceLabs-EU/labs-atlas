@@ -1,0 +1,49 @@
+{
+ "id": "mike-knoop",
+ "name": "Mike Knoop",
+ "display": "Mike Knoop",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5115057140",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "arc-prize-foundation",
+   "org": "ARC Prize Foundation",
+   "role": "Co-founder and board member",
+   "current": true,
+   "since": 2024
+  },
+  {
+   "lab": null,
+   "org": "Zapier",
+   "role": "Co-founder",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Mike Knoop is a co-founder of Zapier, where he led product and engineering before moving to AI research in 2022. With Francois Chollet, Knoop launched the ARC Prize in 2024 and is a co-founder and board member of the ARC Prize Foundation.",
+ "known_for": [
+  "Co-founder of ARC Prize",
+  "Co-founder of Zapier",
+  "Co-author of ARC-AGI-2 paper"
+ ],
+ "bio_sources": [
+  "https://sequoiacap.com/podcast/training-data-mike-knoop",
+  "https://www.cognitiverevolution.ai/the-arc-prize-efficiency-intuition-and-agi-with-mike-knoop-co-founder-of-zapier/",
+  "https://api.openalex.org/authors/A5115057140",
+  "https://www.everydev.ai/developers/arc-prize-foundation"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

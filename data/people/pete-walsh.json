@@ -1,0 +1,36 @@
+{
+ "id": "pete-walsh",
+ "name": "Pete Walsh",
+ "display": "Pete Walsh",
+ "kind": "person",
+ "handles": {
+  "github": "epwalsh",
+  "huggingface": null,
+  "x": "epwalsh",
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "ai2",
+   "org": "Allen Institute for AI",
+   "role": "Top contributor to OLMo",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Pete Walsh is one of the most active contributors to Allen Institute for AI's open source work on GitHub, with 1,121 contributions to OLMo. Their public GitHub profile reads: “Research engineer working on open source LLMs | Python | Rust | Neovim | Life is a changelog, change your life and keep a changelog”.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/epwalsh",
+  "https://github.com/allenai/OLMo"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

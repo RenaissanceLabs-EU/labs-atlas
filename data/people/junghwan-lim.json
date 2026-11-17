@@ -1,0 +1,41 @@
+{
+ "id": "junghwan-lim",
+ "name": "Junghwan Lim",
+ "display": "Junghwan Lim",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5134138753",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "motif-technologies",
+   "org": "Motif Technologies",
+   "role": "CEO",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Junghwan Lim is CEO of Motif Technologies, a Korean AI startup that released the open Motif 2.6B language model in June 2025, followed by a technical report. Lim studied mathematics at KAIST and holds a doctorate from the University of Oxford, and is an author of the Motif technical reports.",
+ "known_for": [
+  "CEO of Motif Technologies",
+  "Motif 2.6B open language model",
+  "Motif technical reports"
+ ],
+ "bio_sources": [
+  "https://www.asiae.co.kr/en/article/2025061016182480623",
+  "https://www.alphaxiv.org/@junghwan-lim",
+  "https://www.digitaltoday.co.kr/en/view/58610/motif-technologies-raises-24-billion-won-series-b-to-boost-proprietary-ai-development"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}

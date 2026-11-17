@@ -1,0 +1,48 @@
+{
+ "id": "martin-jaggi",
+ "name": "Martin Jaggi",
+ "display": "Martin Jaggi",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": "mjaggi",
+  "x": null,
+  "openalex": "A5073756389",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "epfl-llm-team",
+   "org": "EPFL LLM Team",
+   "role": "Senior author of MEDITRON",
+   "current": true,
+   "since": null
+  },
+  {
+   "lab": "swiss-ai-initiative",
+   "org": "Swiss AI Initiative",
+   "role": "Professor, EPFL; Apertus senior author",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Martin Jaggi is a professor of machine learning at EPFL, where the Machine Learning and Optimization Laboratory is based, and sits on the steering committee of the Swiss AI Initiative. Jaggi co-leads the Apertus open language model project with Antoine Bosselut and Imanol Schlag, and is a senior author of MEDITRON.",
+ "known_for": [
+  "Machine learning and optimization at EPFL",
+  "Co-lead of Apertus open model",
+  "Senior author of MEDITRON"
+ ],
+ "bio_sources": [
+  "https://ai.epfl.ch/apertus-a-fully-open-transparent-multilingual-language-model",
+  "https://www.cscs.ch/science/computer-science-hpc/2026/apertus-15-building-the-next-generation-of-open-ai-infrastructure",
+  "https://opendatascience.com/switzerland-launches-apertus-a-fully-open-ai-model-for-research-and-industry/"
+ ],
+ "confidence": "high",
+ "auto": false,
+ "enriched": true
+}

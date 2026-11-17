@@ -1,0 +1,37 @@
+{
+ "id": "abhishek-dutta",
+ "name": "Abhishek Dutta",
+ "display": "Abhishek Dutta",
+ "kind": "person",
+ "handles": {
+  "github": "thelinuxmaniac",
+  "huggingface": null,
+  "x": null,
+  "openalex": null,
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "visual-geometry-group",
+   "org": "Visual Geometry Group",
+   "role": "Top contributor to via",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Abhishek Dutta is one of the most active contributors to Visual Geometry Group's open source work on GitHub, with 1,077 contributions to via, vise.",
+ "known_for": [],
+ "bio_sources": [
+  "https://github.com/thelinuxmaniac",
+  "https://github.com/ox-vgg/via",
+  "https://github.com/ox-vgg/vise"
+ ],
+ "confidence": "medium",
+ "auto": true,
+ "contributor": true
+}

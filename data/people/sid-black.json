@@ -1,0 +1,56 @@
+{
+ "id": "sid-black",
+ "name": "Sid Black",
+ "display": "Sid Black",
+ "kind": "person",
+ "handles": {
+  "github": null,
+  "huggingface": null,
+  "x": null,
+  "openalex": "A5032649426",
+  "orcid": null,
+  "scholar": null,
+  "website": null,
+  "linkedin": null
+ },
+ "affiliations": [
+  {
+   "lab": "eleutherai",
+   "org": "EleutherAI",
+   "role": "Co-founder",
+   "current": true,
+   "since": 2020
+  },
+  {
+   "lab": null,
+   "org": "Conjecture",
+   "role": "Co-founder",
+   "current": false,
+   "since": 2022
+  },
+  {
+   "lab": null,
+   "org": "UK AI Security Institute",
+   "role": "Research scientist",
+   "current": true,
+   "since": null
+  }
+ ],
+ "independent": false,
+ "fame_basis": null,
+ "bio": "Sid Black co-founded EleutherAI in 2020 and co-authored the GPT-Neo, GPT-NeoX-20B and Pile releases from the group. Black later co-founded the alignment startup Conjecture and currently works as a research scientist at the UK AI Security Institute on evaluation work.",
+ "known_for": [
+  "Co-founder of EleutherAI",
+  "Co-author of GPT-NeoX-20B and The Pile",
+  "Co-founder of Conjecture, AI safety"
+ ],
+ "bio_sources": [
+  "https://www.matsprogram.org/mentor/black",
+  "https://www.lesswrong.com/users/sid-black",
+  "https://api.openalex.org/authors/A5032649426",
+  "https://www.longtermwiki.com/kb/record/sid-black"
+ ],
+ "confidence": "medium",
+ "auto": false,
+ "enriched": true
+}
