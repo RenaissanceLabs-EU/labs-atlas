@@ -1,0 +1,122 @@
+[
+ {
+  "id": "01-ai",
+  "_remove": true
+ },
+ {
+  "id": "baichuan",
+  "_remove": true
+ },
+ {
+  "id": "baichuan-intelligence",
+  "_remove": true
+ },
+ {
+  "id": "cerebras",
+  "_remove": true
+ },
+ {
+  "id": "cohere-labs-community",
+  "_remove": true
+ },
+ {
+  "id": "cohere-labs",
+  "_remove": true
+ },
+ {
+  "id": "common-voice",
+  "_remove": true
+ },
+ {
+  "id": "common-voice-mozilla",
+  "_remove": true
+ },
+ {
+  "id": "mozilla-data-collective",
+  "_remove": true
+ },
+ {
+  "id": "zindi",
+  "_remove": true
+ },
+ {
+  "id": "typhoon-scb10x",
+  "_remove": true
+ },
+ {
+  "id": "typhoon",
+  "_remove": true
+ },
+ {
+  "id": "pollen-robotics",
+  "_remove": true
+ },
+ {
+  "id": "maritaca-ai",
+  "_remove": true
+ },
+ {
+  "id": "opendatalab",
+  "_remove": true
+ },
+ {
+  "id": "opengvlab",
+  "_remove": true
+ },
+ {
+  "id": "kotoba-technologies",
+  "notice": "The company's homepage carries a notice dated 16 November 2026 saying that Kotoba Technologies is joining ElevenLabs."
+ },
+ {
+  "id": "moondream",
+  "notice": "Moondream announced on 14 October 2026 that it had been acquired by Prime Intellect, another lab in this atlas."
+ },
+ {
+  "id": "prior-labs",
+  "notice": "SAP announced in May 2026 that it intends to acquire Prior Labs. Prior Labs has said it will remain a separate entity and keep its open-source commitments."
+ },
+ {
+  "id": "alan-turing-institute",
+  "notice": "The institute's direction was reoriented in 2025 toward defence and national security. Its open-source research software and datasets remain public."
+ },
+ {
+  "id": "ai21-labs",
+  "notice": "AI21 is a commercial company. Only some of its Jamba models are released as open weights."
+ },
+ {
+  "id": "black-forest-labs",
+  "notice": "Black Forest Labs is a commercial company. Some FLUX models are open weights under non-commercial licences, while the strongest models are API-only."
+ },
+ {
+  "id": "mozilla-ai",
+  "notice": "Mozilla.ai is a subsidiary of the Mozilla Foundation; its code is open source."
+ },
+ {
+  "id": "hugging-face",
+  "notice": "In September 2026 Nvidia announced a definitive agreement to acquire Hugging Face. The transaction is expected to close in the first half of 2027, and Nvidia has said the platform will remain open and keep operating under the Hugging Face brand."
+ },
+ {
+  "id": "aleph-alpha",
+  "notice": "Cohere and Aleph Alpha signed a definitive combination agreement on 16 September 2026. The combined company is to operate as Cohere, with Aleph Alpha's Heidelberg office focused on research. The deal is expected to close later in 2026, subject to regulatory approval."
+ },
+ {
+  "id": "ucl-dark",
+  "_remove": true
+ },
+ {
+  "id": "gpt-nl",
+  "notice": "GPT-NL's model weights are currently restricted to launch customers. The datasets it has published are open."
+ },
+ {
+  "id": "lightly",
+  "notice": "Lightly is a commercial startup. Some of its research code and models are open source."
+ },
+ {
+  "id": "chai-discovery",
+  "notice": "Chai-1 is released as open source. Later models such as Chai-2 appear to be proprietary."
+ },
+ {
+  "id": "dfki",
+  "notice": "DFKI has industry shareholders and releases some, not all, of its software as open source."
+ }
+]

@@ -1,0 +1,1354 @@
+[
+ {
+  "id": "aalto-speech",
+  "tagline": "Aalto University's speech recognition group, whose open Morfessor and AaltoASR tools have long supported speech and language technology for morphologically rich languages.",
+  "about": [
+   "The speech recognition group sits in the Department of Information and Communications Engineering at Aalto University in Espoo and is part of the Finnish Center for Artificial Intelligence. It works on acoustic modeling of phonemes, statistical language models for large-vocabulary continuous speech recognition, and speech technology for under-resourced languages.",
+   "The group publishes its research software through the aalto-speech GitHub organization, created in 2013. The best known repositories are Morfessor, a tool for unsupervised and semi-supervised morphological segmentation, AaltoASR, a set of recognition tools, and speaker diarization scripts built on that toolkit.",
+   "Professor Mikko Kurimo heads the group and is known internationally for unsupervised subword modeling for languages with rich word inflection, such as Finnish, Estonian, Turkish and Arabic. The software mainly serves other speech and language researchers."
+  ],
+  "mission": "The group aims to improve speech recognition with new algorithms and to make recognition practical for languages with limited data and heavy inflection. It shares its tools openly so that other researchers can reuse and extend them.",
+  "known_for": [
+   "Morfessor morphological segmentation",
+   "AaltoASR recognition toolkit",
+   "Subword modeling for inflected languages",
+   "Open speaker diarization scripts"
+  ],
+  "contributions": [
+   {
+    "title": "Morfessor repository",
+    "note": "The Morfessor tool for unsupervised and semi-supervised morphological segmentation appeared on the group's GitHub organization under a BSD licence.",
+    "year": "2013"
+   },
+   {
+    "title": "AaltoASR toolkit",
+    "note": "The group published the Aalto Automatic Speech Recognition tools as an open repository.",
+    "year": "2013"
+   },
+   {
+    "title": "Speaker diarization scripts",
+    "note": "Diarization scripts based on AaltoASR were released and have drawn close to 200 GitHub stars.",
+    "year": "2016"
+   },
+   {
+    "title": "Subword Kaldi recipes",
+    "note": "A repository showing how to handle position-dependent phones in a subword lexicon FST for Kaldi was published.",
+    "year": "2018"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Mikko Kurimo",
+    "role": "Professor, head of the speech recognition group",
+    "url": "https://www.aalto.fi/en/people/mikko-kurimo"
+   },
+   {
+    "name": "Peter Smit",
+    "role": "Public member of the aalto-speech GitHub organization",
+    "url": "http://petersmit.eu"
+   },
+   {
+    "name": "Mittul Singh",
+    "role": "Research Fellow",
+    "url": "https://www.aalto.fi/en/department-of-signal-processing-and-acoustics/speech-recognition"
+   },
+   {
+    "name": "Anssi Moisio",
+    "role": "Doctoral researcher",
+    "url": "https://www.aalto.fi/en/department-of-signal-processing-and-acoustics/speech-recognition"
+   },
+   {
+    "name": "Yaroslav Getman",
+    "role": "Doctoral researcher",
+    "url": "https://www.aalto.fi/en/department-of-signal-processing-and-acoustics/speech-recognition"
+   }
+  ]
+ },
+ {
+  "id": "adapterhub",
+  "tagline": "AdapterHub maintains the open Adapters library, a modular, parameter-efficient fine-tuning toolkit built on Hugging Face Transformers.",
+  "about": [
+   "AdapterHub began in 2020 as a framework for sharing and composing adapters, small sets of added weights that stand in for full fine-tuning of a pretrained model. The original paper by Pfeiffer and colleagues was presented at EMNLP 2020, and the GitHub organization was created in April 2020.",
+   "In November 2023 the project released the unified Adapters package, replacing the earlier adapter-transformers fork, with a library paper at EMNLP 2023. The library is released under the Apache 2.0 licence and had about 2,800 GitHub stars in 2026.",
+   "Version 1.2.0, announced in May 2025, added a plugin interface for attaching adapter functionality to nearly any Transformer model. The project is run by researchers associated with TU Darmstadt and serves practitioners who need to adapt large models cheaply."
+  ],
+  "mission": "AdapterHub aims to make parameter-efficient and modular transfer learning easy to use, share and combine. It treats adapters as reusable components that the community can publish and compose.",
+  "known_for": [
+   "Adapters library for Transformers",
+   "Parameter-efficient fine-tuning",
+   "Sharing and composing adapter modules",
+   "Origin in adapter-transformers"
+  ],
+  "contributions": [
+   {
+    "title": "AdapterHub framework",
+    "note": "Pfeiffer et al. introduced a framework for sharing and composing adapters, presented at EMNLP 2020.",
+    "year": "2020"
+   },
+   {
+    "title": "adapter-transformers",
+    "note": "The repository for the original adapter extension of Hugging Face Transformers was created in April 2020.",
+    "year": "2020"
+   },
+   {
+    "title": "Adapters library paper",
+    "note": "The unified Adapters package and its library paper were released and presented at EMNLP 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Adapters v1.2.0",
+    "note": "A plugin interface was added so adapter functionality can be attached to nearly any Transformer model.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jonas Pfeiffer",
+    "role": "Lead author of the original AdapterHub paper and library paper",
+    "url": "https://github.com/JoPfeiffer"
+   },
+   {
+    "name": "Clifton Poth",
+    "role": "First author of the Adapters library paper and maintainer",
+    "url": "https://github.com/calpt"
+   },
+   {
+    "name": "Hannah Sterz",
+    "role": "Author of the Adapters library paper",
+    "url": "https://github.com/hSterz"
+   },
+   {
+    "name": "Leon Engländer",
+    "role": "Author of the Adapters library paper",
+    "url": "https://github.com/lenglaender"
+   },
+   {
+    "name": "Andreas Rücklé",
+    "role": "Member of the adapter-hub GitHub organization",
+    "url": "http://rueckle.net"
+   }
+  ],
+  "founded": 2020
+ },
+ {
+  "id": "lumii-ailab",
+  "tagline": "The AI Laboratory at the University of Latvia builds open Latvian language resources, from the Tezaurs lexicon to a multilayer corpus and Latvian BERT models.",
+  "about": [
+   "The Artificial Intelligence Laboratory belongs to the Institute of Mathematics and Computer Science at the University of Latvia in Riga and has conducted research since 1992. Its work covers natural language processing and machine learning, including Latvian speech recognition and synthesis, syntactic and semantic analysis and language models.",
+   "The lab maintains a set of public Latvian resources, among them Tezaurs.lv, Korpuss.lv, the LV-PIPE tools, CLARIN-LV and Balsutalka.lv. Its FullStack-LV repository offers a multilayer corpus with Universal Dependencies, FrameNet, PropBank and AMR layers, released under a Creative Commons licence.",
+   "Funding comes from the European Union, the European Regional Development Fund and Latvian ministries and councils. The lab has partnered with the news agency LETA, Deutsche Welle and the National Library of Latvia."
+  ],
+  "mission": "The lab states that it develops resources and technologies that help Latvian thrive in a multilingual environment. It publishes its tools and data openly for researchers and developers.",
+  "known_for": [
+   "Tezaurs Latvian lexical database",
+   "FullStack-LV multilayer corpus",
+   "LVBERT Latvian language model",
+   "SemEval 2016 and 2017 results"
+  ],
+  "contributions": [
+   {
+    "title": "Tezaurs repository",
+    "note": "The open Latvian lexical database repository was created on GitHub in April 2015.",
+    "year": "2015"
+   },
+   {
+    "title": "SemEval 2016 semantic analysis",
+    "note": "The lab reports the best result in the semantic analysis task at SemEval 2016.",
+    "year": "2016"
+   },
+   {
+    "title": "SemEval 2017 text generation",
+    "note": "The lab reports the best result in the text generation task at SemEval 2017.",
+    "year": "2017"
+   },
+   {
+    "title": "FullStack-LV",
+    "note": "A multilayer Latvian corpus with UD, FrameNet, PropBank and AMR layers was started and published at LREC 2018.",
+    "year": "2018"
+   },
+   {
+    "title": "LVBERT",
+    "note": "A pretrained Latvian BERT model repository was created in July 2020.",
+    "year": "2020"
+   },
+   {
+    "title": "MultiCoNER 2023",
+    "note": "The lab placed third among European teams in the named entity recognition task.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Normunds Grūzītis",
+    "role": "Coordinator of the FullStack-LV project",
+    "url": "http://www.linkedin.com/in/normundsg"
+   },
+   {
+    "name": "Pēteris Paikens",
+    "role": "Researcher and member of the LUMII-AILab GitHub organization",
+    "url": "https://github.com/PeterisP"
+   },
+   {
+    "name": "Lauma Pretkalniņa",
+    "role": "Researcher, enhanced UD from the hybrid treebank",
+    "url": "https://github.com/lauma"
+   }
+  ],
+  "founded": 1992,
+  "summary": "Artificial Intelligence Laboratory at the Institute of Mathematics and Computer Science, University of Latvia, active since 1992 and building open Latvian language resources such as Tezaurs and FullStack-LV."
+ },
+ {
+  "id": "aiml-tuda",
+  "tagline": "The AI and Machine Learning Lab at TU Darmstadt releases open safety tooling and reasoning research, including LlavaGuard and Safe Latent Diffusion.",
+  "about": [
+   "The AIML Lab at TU Darmstadt is led by Professor Kristian Kersting, who joined the university in 2019 and also co-directs hessian.AI. Its stated aims are advancing statistical learning, probabilistic reasoning and collaborative intelligence, with work in statistical relational AI, generative modeling and trustworthy machine learning.",
+   "The lab publishes code on GitHub and models on Hugging Face, where it lists 20 models and 42 datasets. Safety tools include Safe Latent Diffusion, LlavaGuard and QwenGuard, and recent releases cover OlmoLogic reasoning models and the KletterMix German pretraining data.",
+   "Its audience is researchers and developers who need open checks for image-text datasets and generative models."
+  ],
+  "mission": "The lab aims to make machines learn about the world rapidly and flexibly, combining logical and probabilistic methods with deep learning. It emphasises trustworthy and safe generative systems.",
+  "known_for": [
+   "Safe Latent Diffusion",
+   "LlavaGuard vision-language safeguards",
+   "Statistical relational AI",
+   "OlmoLogic reasoning models"
+  ],
+  "contributions": [
+   {
+    "title": "Safe Latent Diffusion",
+    "note": "Released a method and model for mitigating inappropriate image generation (arXiv 2211.05105).",
+    "year": "2022"
+   },
+   {
+    "title": "LlavaGuard",
+    "note": "Released open vision-language safeguards for datasets and models (arXiv 2406.05113).",
+    "year": "2024"
+   },
+   {
+    "title": "QwenGuard",
+    "note": "Published further image-text safety models alongside LlavaGuard on Hugging Face.",
+    "year": "2025"
+   },
+   {
+    "title": "OlmoLogic",
+    "note": "Published reasoning models trained with RLVR and inductive logic programming.",
+    "year": "2026"
+   },
+   {
+    "title": "KletterMix",
+    "note": "Released a German pretraining data collection.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Kristian Kersting",
+    "role": "Professor of AI and Machine Learning, head of the lab",
+    "url": "https://en.wikipedia.org/wiki/Kristian_Kersting"
+   },
+   {
+    "name": "Quentin Delfosse",
+    "role": "Researcher at TU Darmstadt",
+    "url": "https://www.ml.informatik.tu-darmstadt.de/people/qdelfosse/index.html"
+   }
+  ]
+ },
+ {
+  "id": "aleph-alpha",
+  "tagline": "Heidelberg language-model company that built sovereign European models and released part of its research as open weights, now being merged into Cohere.",
+  "about": [
+   "Aleph Alpha was founded in 2019 in Heidelberg by Jonas Andrulis and Samuel Weinbach. It raised a 5.3 million euro seed round in 2020, a further 23 million euros in 2021, and in November 2023 announced a large round led by Schwarz Gruppe and the Dieter Schwarz Foundation.",
+   "The company sells specialised sovereign language models and solutions to organisations, and also publishes research code, datasets and models. Its Hugging Face organization carries the Kolibri model, a German and English mixture-of-experts model released in October 2026 under Apache 2.0.",
+   "In April 2026 Cohere announced that it would acquire Aleph Alpha, and a definitive merger agreement followed in September 2026. The combined company will operate as Cohere, with Heidelberg kept as a research centre, subject to regulatory approval."
+  ],
+  "mission": "The company says it builds specialised sovereign models that give customers control over their data and adapt to their context. Its open releases support German-language and tokenizer research.",
+  "known_for": [
+   "Sovereign European LLMs",
+   "T-FREE tokenizer-free models",
+   "GermanWeb pre-training corpus",
+   "Kolibri open-weight model"
+  ],
+  "contributions": [
+   {
+    "title": "Founding in Heidelberg",
+    "note": "Jonas Andrulis and Samuel Weinbach founded the company.",
+    "year": "2019"
+   },
+   {
+    "title": "Seed funding",
+    "note": "The company secured 5.3 million euros in seed funding.",
+    "year": "2020"
+   },
+   {
+    "title": "T-FREE",
+    "note": "Published a tokenizer-free approach to language models with code (arXiv 2406.19223).",
+    "year": "2024"
+   },
+   {
+    "title": "GermanWeb",
+    "note": "Released a German pre-training corpus and its paper (arXiv 2505.00022).",
+    "year": "2025"
+   },
+   {
+    "title": "Kolibri",
+    "note": "Released a German and English mixture-of-experts model with Apache 2.0 weights.",
+    "year": "2026"
+   },
+   {
+    "title": "Cohere merger",
+    "note": "A definitive agreement was signed to merge the company into Cohere.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jonas Andrulis",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Aleph_Alpha"
+   },
+   {
+    "name": "Samuel Weinbach",
+    "role": "Co-founder and Co-Chief Research Officer",
+    "url": "https://aleph-alpha.com/about-us/"
+   },
+   {
+    "name": "Ilhan Scheer",
+    "role": "Chief Executive Officer",
+    "url": "https://aleph-alpha.com/about-us/"
+   },
+   {
+    "name": "Yasser Jadidi",
+    "role": "Co-Chief Research Officer",
+    "url": "https://aleph-alpha.com/about-us/"
+   }
+  ],
+  "founded": 2019,
+  "_flag": "Cohere announced in April 2026 that it would acquire Aleph Alpha and a merger agreement was signed in September 2026, so the lab is ceasing to be independent."
+ },
+ {
+  "id": "alexandra-institute",
+  "tagline": "Danish non-profit research and technology institute whose open resources include DaNLP and the ScandEval benchmark, now EuroEval.",
+  "about": [
+   "The Alexandra Institute was established in Aarhus in 1999 by business people, researchers and public representatives to link Danish companies with university IT research. It became an approved technological service provider in 2007 and has been owned by the Aarhus University Research Foundation since 2012.",
+   "Its open source work is published on GitHub and Hugging Face. DaNLP collected Danish datasets and models for tagging, named entity recognition, sentiment and hate speech detection, with a NoDaLiDa 2021 paper; the repository was archived in March 2025. The ScandEval benchmark, described in arXiv 2304.00906, later grew into EuroEval.",
+   "The institute serves Danish companies and public bodies and works on language technology, evaluation and responsible AI."
+  ],
+  "mission": "The institute applies IT research to the needs of Danish business and society and publishes language resources so that Danish remains well supported in AI.",
+  "known_for": [
+   "DaNLP Danish NLP resources",
+   "ScandEval and EuroEval benchmark",
+   "Open Danish datasets and models",
+   "Responsible AI research"
+  ],
+  "contributions": [
+   {
+    "title": "Institute founded",
+    "note": "The Alexandra Institute was established in Aarhus to connect business and IT research.",
+    "year": "1999"
+   },
+   {
+    "title": "GTS approval",
+    "note": "It was approved as a technological service provider in Denmark.",
+    "year": "2007"
+   },
+   {
+    "title": "DaNLP repository",
+    "note": "The Danish NLP resource repository was created on GitHub.",
+    "year": "2019"
+   },
+   {
+    "title": "DaNLP paper",
+    "note": "The DaNLP paper by Pauli, Barrett, Lacroix and Hvingelby was presented at NoDaLiDa.",
+    "year": "2021"
+   },
+   {
+    "title": "ScandEval",
+    "note": "The Scandinavian language model benchmark was described in arXiv 2304.00906.",
+    "year": "2023"
+   },
+   {
+    "title": "EuroEval",
+    "note": "The benchmark continued under the EuroEval name, with a repository created in September 2025.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Niels Husted Kjær",
+    "role": "Chief Executive Officer per the GTS institute listing",
+    "url": "https://gts-net.dk/english/the-gts-institutes/alexandra-instituttet-en/"
+   },
+   {
+    "name": "Peter Andersen",
+    "role": "Member of the alexandrainst GitHub organization",
+    "url": "https://github.com/datpete"
+   },
+   {
+    "name": "Jacob Harder",
+    "role": "Member of the alexandrainst GitHub organization",
+    "url": "https://github.com/harderj"
+   },
+   {
+    "name": "Alexandre Alapetite",
+    "role": "Member of the alexandrainst GitHub organization",
+    "url": "https://alexandre.alapetite.fr/"
+   }
+  ],
+  "founded": 1999
+ },
+ {
+  "id": "almanach",
+  "tagline": "Inria Paris research team behind the CamemBERT family of open French language models and work in computational humanities.",
+  "about": [
+   "ALMAnaCH is an Inria team in Paris working on natural language processing and digital humanities. Its members include Benoît Sagot and Djamé Seddah, who are authors of the original CamemBERT paper alongside colleagues from Inria and Sorbonne Université.",
+   "CamemBERT, a RoBERTa-based French model released under an MIT licence in 2019, became a widely adopted reference. CamemBERT 2.0 followed in 2024, and CamemBERTa, by Wissam Antoun, Sagot and Seddah, explored data-efficient training. The team's Hugging Face organization lists 92 models and 43 datasets, including biomedical encoders and Gaperon sparse autoencoders.",
+   "The models serve researchers, companies and public bodies that need open French and biomedical text processing."
+  ],
+  "mission": "The team builds and shares language models and data for French and historical or specialised text. It treats open release as part of academic practice.",
+  "known_for": [
+   "CamemBERT French language model",
+   "CamemBERT 2.0 and CamemBERTa",
+   "French biomedical encoders",
+   "Digital humanities NLP"
+  ],
+  "contributions": [
+   {
+    "title": "CamemBERT",
+    "note": "Martin et al. released the reference open French language model (arXiv 1911.03894).",
+    "year": "2019"
+   },
+   {
+    "title": "CamemBERTa",
+    "note": "Antoun, Sagot and Seddah published a data-efficient French language model.",
+    "year": "2023"
+   },
+   {
+    "title": "CamemBERT 2.0",
+    "note": "Updated French encoders with a refreshed tokenizer and data were released (arXiv 2411.08868).",
+    "year": "2024"
+   },
+   {
+    "title": "Biomedical models and data",
+    "note": "Published French biomedical encoders and datasets such as Biomed-Enriched.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Benoît Sagot",
+    "role": "Researcher, CamemBERT author",
+    "url": "https://huggingface.co/almanach"
+   },
+   {
+    "name": "Djamé Seddah",
+    "role": "Senior researcher at Inria",
+    "url": "https://www.alphaxiv.org/@djame-seddah"
+   },
+   {
+    "name": "Wissam Antoun",
+    "role": "Researcher, CamemBERTa author",
+    "url": "https://github.com/WissamAntoun"
+   },
+   {
+    "name": "Thibault Clérice",
+    "role": "Member of the almanach Hugging Face organization",
+    "url": "https://huggingface.co/almanach"
+   },
+   {
+    "name": "Nathan Godey",
+    "role": "Member of the almanach Hugging Face organization",
+    "url": "https://huggingface.co/almanach"
+   }
+  ]
+ },
+ {
+  "id": "apollo-research",
+  "tagline": "London-based AI safety organisation that evaluates frontier models for scheming and publishes open evaluation and interpretability work.",
+  "about": [
+   "Apollo Research was founded in 2023 and is led by CEO and co-founder Marius Hobbhahn. Its stated goal is to secure frontier AI systems across development, deployment and governance, with a focus on scheming, where advanced systems covertly pursue misaligned objectives.",
+   "In 2023 it presented at the UK AI Safety Summit and advised the Frontier AI Taskforce. In 2024 it tested OpenAI's o1 before release and published early evidence of in-context scheming in frontier models; in 2025 it ran evaluations for major labs and worked with OpenAI on anti-scheming interventions.",
+   "In 2026 the organisation became a Public Benefit Corporation, opened a San Francisco office and began building Watcher, an agent monitoring tool. It publishes code on GitHub, including end-to-end sparse dictionary learning."
+  ],
+  "mission": "Apollo aims to reduce the risk of deceptive and misaligned AI through evaluations, interpretability research and governance advice. It works with developers and governments.",
+  "known_for": [
+   "Scheming evaluations of frontier models",
+   "End-to-end sparse autoencoders",
+   "Pre-deployment testing with OpenAI",
+   "Loss of control playbook"
+  ],
+  "contributions": [
+   {
+    "title": "Presented at AI Safety Summit",
+    "note": "Apollo identified scheming as a serious risk and presented at the UK AI Safety Summit.",
+    "year": "2023"
+   },
+   {
+    "title": "End-to-end SAEs",
+    "note": "Released training code and weights for end-to-end sparse dictionary learning (arXiv 2405.12241).",
+    "year": "2024"
+   },
+   {
+    "title": "o1 pre-deployment testing",
+    "note": "Partnered with OpenAI to test o1 before public release.",
+    "year": "2024"
+   },
+   {
+    "title": "In-context scheming evaluations",
+    "note": "Published evaluations showing frontier models can scheme in context (arXiv 2412.04984).",
+    "year": "2024"
+   },
+   {
+    "title": "Anti-scheming work",
+    "note": "Partnered with OpenAI on anti-scheming interventions and wrote a loss of control playbook for governments.",
+    "year": "2025"
+   },
+   {
+    "title": "Public Benefit Corporation",
+    "note": "Became a PBC, opened a San Francisco office and began building Watcher.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Marius Hobbhahn",
+    "role": "CEO and co-founder",
+    "url": "https://www.linkedin.com/in/marius-hobbhahn-128927175/"
+   },
+   {
+    "name": "Chris Akin",
+    "role": "Chief Operating Officer",
+    "url": "https://www.linkedin.com/in/akinchristopher/"
+   },
+   {
+    "name": "Alexander Meinke",
+    "role": "Head of Research",
+    "url": "https://www.linkedin.com/in/alexmeinke/"
+   },
+   {
+    "name": "Jérémy Scheurer",
+    "role": "Member of Technical Staff",
+    "url": "https://www.linkedin.com/in/j%C3%A9r%C3%A9my-scheurer-927563b0/"
+   },
+   {
+    "name": "Charlotte Stix",
+    "role": "Chief Governance Officer",
+    "url": "https://www.apolloresearch.ai/team"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "audeering",
+  "tagline": "Munich-area audio AI company and maker of the openSMILE toolkit and open speech emotion and age-gender models.",
+  "about": [
+   "audEERING was founded in 2012 as a spin-off of Technical University of Munich research, with Dagmar Schuller, Florian Eyben, Björn Schuller and Martin Wöllmer named as founders in a 2012 report. It is based in Gilching near Munich.",
+   "openSMILE began in 2008 at TUM within the EU SEMAINE project. In 2013 audEERING obtained the rights and published version 2.0 under a research licence. The toolkit is free for research and personal use, while commercial users need a licence, so it is source-available rather than fully open.",
+   "The company also maintains open repositories on audio machine learning, including the w2v2-how-to guide and wav2vec2-based emotion and age-gender models on Hugging Face."
+  ],
+  "mission": "audEERING develops audio analysis and speech emotion technology and shares research tooling with the scientific community while selling commercial products.",
+  "known_for": [
+   "openSMILE feature extraction",
+   "Speech emotion recognition models",
+   "Age and gender audio models",
+   "TUM spin-off audio AI"
+  ],
+  "contributions": [
+   {
+    "title": "openSMILE begins",
+    "note": "Eyben, Wöllmer and Schuller started openSMILE at TUM within the SEMAINE project.",
+    "year": "2008"
+   },
+   {
+    "title": "Company founded",
+    "note": "audEERING was founded in Munich as a TUM spin-off.",
+    "year": "2012"
+   },
+   {
+    "title": "openSMILE 2.0",
+    "note": "The company acquired the code rights and released version 2.0 under a research licence.",
+    "year": "2013"
+   },
+   {
+    "title": "opensmile Python repository",
+    "note": "A new openSMILE repository was created on the audeering GitHub organization.",
+    "year": "2020"
+   },
+   {
+    "title": "w2v2-how-to",
+    "note": "Published a guide and code for wav2vec2 emotion work.",
+    "year": "2022"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Dagmar Schuller",
+    "role": "Co-founder and CEO",
+    "url": "https://innovationorigins.com/speech-recognition-startup-follows-the-legacy-of-star-trek/"
+   },
+   {
+    "name": "Florian Eyben",
+    "role": "Co-founder, openSMILE author",
+    "url": "https://en.wikipedia.org/wiki/OpenSMILE"
+   },
+   {
+    "name": "Björn Schuller",
+    "role": "Co-founder, openSMILE author",
+    "url": "https://en.wikipedia.org/wiki/OpenSMILE"
+   },
+   {
+    "name": "Felix Burkhardt",
+    "role": "Researcher",
+    "url": "https://github.com/felixbur"
+   },
+   {
+    "name": "Hagen Wierstorf",
+    "role": "Researcher",
+    "url": "https://hagenw.github.io"
+   }
+  ],
+  "founded": 2012,
+  "_flag": "openSMILE uses a source-available research licence that requires a commercial licence, so open-source status is partial."
+ },
+ {
+  "id": "automl-freiburg",
+  "tagline": "The AutoML groups of Freiburg and Hannover, creators of auto-sklearn, SMAC3 and Auto-PyTorch.",
+  "about": [
+   "The AutoML groups at the University of Freiburg and Leibniz University Hannover were led by Frank Hutter and Marius Lindauer, with Matthias Feurer and Katharina Eggensperger among close collaborators. The GitHub organization dates from 2014.",
+   "Their system auto-sklearn began as a competition entry and won the first international AutoML challenge in 2015 to 2016 and the second in 2017 to 2018. The 2015 NeurIPS paper introduced it, and auto-sklearn 2.0 appeared in JMLR in 2022. SMAC3 and Auto-PyTorch extend the work to Bayesian optimisation and deep learning.",
+   "In an August 2026 post the group announced the closure of automl.org after a decade. Hutter now leads Prior Labs and Lindauer's Hannover group has broadened beyond AutoML."
+  ],
+  "mission": "The groups aimed to make machine learning accessible by automating model and hyperparameter selection, and released their tools as open source for the community.",
+  "known_for": [
+   "auto-sklearn",
+   "SMAC3 Bayesian optimisation",
+   "Auto-PyTorch",
+   "AutoML challenge wins"
+  ],
+  "contributions": [
+   {
+    "title": "auto-sklearn",
+    "note": "The NeurIPS paper Efficient and Robust Automated Machine Learning introduced the system.",
+    "year": "2015"
+   },
+   {
+    "title": "First AutoML challenge win",
+    "note": "The team won the first international AutoML challenge.",
+    "year": "2016"
+   },
+   {
+    "title": "Second AutoML challenge win",
+    "note": "PoSH-Auto-sklearn won the second challenge against 41 other systems.",
+    "year": "2018"
+   },
+   {
+    "title": "Auto-PyTorch",
+    "note": "Released automated deep learning tooling (arXiv 2006.13799).",
+    "year": "2020"
+   },
+   {
+    "title": "SMAC3",
+    "note": "Published a versatile Bayesian optimisation package (arXiv 2109.09831).",
+    "year": "2021"
+   },
+   {
+    "title": "auto-sklearn 2.0",
+    "note": "The JMLR paper reported stronger results in 10 minutes than version 1.0 in 60.",
+    "year": "2022"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Frank Hutter",
+    "role": "Co-lead, now co-founder and CEO of Prior Labs",
+    "url": "https://automl.org/"
+   },
+   {
+    "name": "Marius Lindauer",
+    "role": "Professor at Leibniz University Hannover",
+    "url": "https://www.alphaxiv.org/researchers/marius-lindauer"
+   },
+   {
+    "name": "Matthias Feurer",
+    "role": "Lead author of the auto-sklearn papers",
+    "url": "https://automl.org/"
+   },
+   {
+    "name": "Katharina Eggensperger",
+    "role": "Co-author of auto-sklearn and SMAC3 work",
+    "url": "https://automl.org/"
+   },
+   {
+    "name": "Timur Carstensen",
+    "role": "Member of the automl GitHub organization",
+    "url": "https://github.com/timurcarstensen"
+   }
+  ],
+  "summary": "AutoML research groups at the Universities of Freiburg and Hannover, creators of auto-sklearn, Auto-PyTorch and SMAC3. The shared automl.org site was closed in August 2026."
+ },
+ {
+  "id": "bethgelab",
+  "tagline": "Tübingen lab studying robustness and human-like vision, known for the Foolbox toolbox and open robustness benchmarks.",
+  "about": [
+   "The Bethge Lab is led by Matthias Bethge, Professor of Computational Neuroscience and Machine Learning at the University of Tübingen and director of the Tübingen AI Center. Its GitHub organization, created in 2014, carries the tagline Perceiving Neural Networks.",
+   "The lab released Foolbox in 2017, a Python toolbox for benchmarking adversarial robustness under an MIT licence, and imagecorruptions and a detection robustness benchmark in 2019. It also published work on ImageNet-C robustness and on comparing machine and human vision.",
+   "Wieland Brendel, Jonas Rauber and Robert Geirhos appear among its public GitHub members and papers, and its code serves vision and robustness researchers."
+  ],
+  "mission": "The lab seeks to understand how neural networks perceive images and to make them robust and more human-like, releasing benchmarks and tools openly.",
+  "known_for": [
+   "Foolbox adversarial toolbox",
+   "Corruption robustness benchmarks",
+   "Human versus machine vision",
+   "ImageNet-C robustness training"
+  ],
+  "contributions": [
+   {
+    "title": "Foolbox",
+    "note": "Released an adversarial robustness toolbox (arXiv 1707.04131).",
+    "year": "2017"
+   },
+   {
+    "title": "Robustness benchmarks",
+    "note": "Released the imagecorruptions package and a detection robustness benchmark (arXiv 1907.07484).",
+    "year": "2019"
+   },
+   {
+    "title": "Noise training baseline",
+    "note": "Rusak et al. showed Gaussian and Speckle noise training is a strong ImageNet-C baseline (arXiv 2001.06057).",
+    "year": "2020"
+   },
+   {
+    "title": "Human versus machine vision",
+    "note": "Released an open benchmark comparing models to humans (arXiv 2106.07411).",
+    "year": "2021"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Matthias Bethge",
+    "role": "Professor and lab head, director of the Tübingen AI Center",
+    "url": "https://bethgelab.org"
+   },
+   {
+    "name": "Wieland Brendel",
+    "role": "Researcher, Foolbox and robustness papers",
+    "url": "http://www.wielandbrendel.de"
+   },
+   {
+    "name": "Jonas Rauber",
+    "role": "Foolbox lead author",
+    "url": "https://jonasrauber.de/"
+   },
+   {
+    "name": "Robert Geirhos",
+    "role": "Researcher on shape and texture bias",
+    "url": "https://robertgeirhos.com"
+   },
+   {
+    "name": "Claudio Michaelis",
+    "role": "Detection robustness benchmark author",
+    "url": "https://github.com/michaelisc"
+   }
+  ],
+  "founded": 2014
+ },
+ {
+  "id": "bigcode",
+  "tagline": "Open scientific collaboration run by Hugging Face and ServiceNow Research that released The Stack and the StarCoder family of code models.",
+  "about": [
+   "BigCode was established in September 2022 as an open scientific collaboration on the responsible development of code language models. It is stewarded by Hugging Face and ServiceNow and has drawn more than 1,100 members.",
+   "The Stack is a permissively licensed code dataset with an opt-out process for developers. StarCoder, trained on 1 trillion tokens, followed in May 2023 and StarCoder2 in early 2024. The project also maintains an evaluation harness.",
+   "Leandro von Werra of Hugging Face and Harm de Vries of ServiceNow Research co-lead the project. Because two companies host it, its independence is partial."
+  ],
+  "mission": "BigCode aims to develop code language models openly and responsibly, with transparent data governance, community participation and reproducible evaluation.",
+  "known_for": [
+   "StarCoder code models",
+   "The Stack dataset with opt-out",
+   "Open data governance",
+   "Code evaluation harness"
+  ],
+  "contributions": [
+   {
+    "title": "Project established",
+    "note": "BigCode began as an open scientific collaboration.",
+    "year": "2022"
+   },
+   {
+    "title": "The Stack",
+    "note": "Released a large permissively licensed code dataset with opt-out governance.",
+    "year": "2022"
+   },
+   {
+    "title": "StarCoder",
+    "note": "Released a model trained on 1 trillion tokens from The Stack.",
+    "year": "2023"
+   },
+   {
+    "title": "StarCoder2",
+    "note": "Released the second generation of models (arXiv 2402.19173).",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Leandro von Werra",
+    "role": "Co-lead, Hugging Face",
+    "url": "https://github.com/lvwerra"
+   },
+   {
+    "name": "Harm de Vries",
+    "role": "Co-lead, ServiceNow Research",
+    "url": "https://arxiv.org/abs/2305.06161"
+   },
+   {
+    "name": "Loubna Ben Allal",
+    "role": "Contributor, StarCoder",
+    "url": "https://github.com/loubnabnl"
+   },
+   {
+    "name": "Arjun Guha",
+    "role": "Contributor to BigCode repositories",
+    "url": "https://github.com/arjunguha"
+   }
+  ],
+  "founded": 2022
+ },
+ {
+  "id": "but-fit",
+  "tagline": "Brno University of Technology's speech group, author of the VBx and DiariZen diarization toolkits and Czech language models.",
+  "about": [
+   "BUT Speech@FIT is the speech and language research group at the Faculty of Information Technology, Brno University of Technology. Its GitHub organization dates from 2019.",
+   "The group released VBx, a Bayesian HMM clustering approach to speaker diarization described by Landini, Profant, Diez and Burget, and DiariZen, a pipeline built on pyannote with WavLM-based models. Jan Černocký and Lukáš Burget are co-authors on its diarization system papers.",
+   "On Hugging Face the group published csmpt7b, a Czech-focused 7B model, in 2024. Its tools serve speech researchers and diarization challenge participants."
+  ],
+  "mission": "The group advances speech processing and shares open recipes and models, especially for diarization and Czech language technology.",
+  "known_for": [
+   "VBx diarization",
+   "DiariZen toolkit",
+   "Czech LLM csmpt7b",
+   "Speech technology challenge systems"
+  ],
+  "contributions": [
+   {
+    "title": "VBx",
+    "note": "Released an open implementation of a widely used diarization recipe.",
+    "year": "2020"
+   },
+   {
+    "title": "csmpt7b",
+    "note": "Published a Czech-focused 7B model on Hugging Face.",
+    "year": "2024"
+   },
+   {
+    "title": "DiariZen",
+    "note": "Released a diarization toolkit with pre-trained WavLM-based models.",
+    "year": "2024"
+   },
+   {
+    "title": "MLC-SLM diarization",
+    "note": "A 2025 paper reported DiariZen outperforming the baseline in multilingual tests.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Lukáš Burget",
+    "role": "Researcher and diarization co-author",
+    "url": "https://speech.fit.vut.cz"
+   },
+   {
+    "name": "Jan Černocký",
+    "role": "Researcher and diarization co-author",
+    "url": "https://speech.fit.vut.cz"
+   },
+   {
+    "name": "Federico Landini",
+    "role": "VBx lead author",
+    "url": "https://arxiv.org/abs/2012.14952"
+   },
+   {
+    "name": "Martin Kocour",
+    "role": "Member of the BUTSpeechFIT GitHub organization",
+    "url": "https://www.vutbr.cz/en/people/martin-kocour-165504"
+   },
+   {
+    "name": "Lucas Ondel",
+    "role": "Member of the BUTSpeechFIT GitHub organization",
+    "url": "https://lucasondel.github.io/"
+   }
+  ]
+ },
+ {
+  "id": "cardiffnlp",
+  "tagline": "Cardiff University's NLP group, known for TweetEval, TweetNLP and the Twitter-RoBERTa models for social media analysis.",
+  "about": [
+   "Cardiff NLP is a research group at Cardiff University whose GitHub organization was created in October 2020. Jose Camacho-Collados is a prominent member and an author on its flagship benchmark.",
+   "TweetEval, presented in Findings of EMNLP 2020, standardises evaluation across tweet classification tasks. The group also released XLM-T and TimeLMs, and the TweetNLP Python platform in 2022, with Twitter-RoBERTa models trained on tens of millions of tweets.",
+   "Its models are widely downloaded from Hugging Face and serve researchers and practitioners analysing social media."
+  ],
+  "mission": "The group aims to build language models and evaluation resources that handle the informal, fast-changing language of social media, and to release them openly.",
+  "known_for": [
+   "TweetEval benchmark",
+   "TweetNLP platform",
+   "Twitter-RoBERTa models",
+   "TimeLMs diachronic models"
+  ],
+  "contributions": [
+   {
+    "title": "TweetEval",
+    "note": "Created a unified benchmark for tweet classification (arXiv 2010.12421).",
+    "year": "2020"
+   },
+   {
+    "title": "XLM-T",
+    "note": "Released multilingual Twitter language models (arXiv 2104.12250).",
+    "year": "2021"
+   },
+   {
+    "title": "TimeLMs",
+    "note": "Released diachronic language models (arXiv 2202.03829).",
+    "year": "2022"
+   },
+   {
+    "title": "TweetNLP",
+    "note": "Released a Python platform for social media NLP built on Twitter-trained models.",
+    "year": "2022"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jose Camacho-Collados",
+    "role": "Researcher, TweetEval author",
+    "url": "http://josecamachocollados.com/"
+   },
+   {
+    "name": "Fernando Alva-Manchego",
+    "role": "Member of the cardiffnlp GitHub organization",
+    "url": "https://feralvam.github.io"
+   }
+  ],
+  "founded": 2020
+ },
+ {
+  "id": "chcaa",
+  "tagline": "Aarhus University centre applying NLP to the humanities, behind DaCy, odyCy and the Scandinavian Embedding Benchmark.",
+  "about": [
+   "The Center for Humanities Computing at Aarhus University was set up by the faculty with Kristoffer Nielbo as its first director, and Nielbo later became the first Danish Professor of Humanities Computing. It runs computational infrastructure for humanities researchers.",
+   "Its NLP work includes DaCy, a unified Danish pipeline built on spaCy by Kenneth Enevoldsen, Lasse Hansen and Nielbo, odyCy for Ancient Greek, and the Scandinavian Embedding Benchmark co-created with partners.",
+   "The centre's GitHub organization has about 188 repositories and its models serve Nordic NLP researchers and humanities scholars."
+  ],
+  "mission": "The centre seeks to make computational methods available across the humanities and to provide open Danish and Scandinavian language tools.",
+  "known_for": [
+   "DaCy Danish NLP pipeline",
+   "Scandinavian Embedding Benchmark",
+   "odyCy Ancient Greek models",
+   "Humanities computing infrastructure"
+  ],
+  "contributions": [
+   {
+    "title": "DaCy",
+    "note": "Built an open Danish NLP pipeline on spaCy (arXiv 2107.05295).",
+    "year": "2021"
+   },
+   {
+    "title": "odyCy",
+    "note": "Released an Ancient Greek spaCy pipeline.",
+    "year": "2023"
+   },
+   {
+    "title": "Scandinavian Embedding Benchmark",
+    "note": "Co-created an open embedding benchmark (arXiv 2406.02396).",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Kristoffer Nielbo",
+    "role": "Centre director and professor",
+    "url": "https://knielbo.github.io"
+   },
+   {
+    "name": "Kenneth Enevoldsen",
+    "role": "Assistant Professor, DaCy author",
+    "url": "https://health.au.dk/en/contact/staff/show/person/kenneth.enevoldsen@cas.au.dk"
+   },
+   {
+    "name": "Ross Deans Kristensen-McLachlan",
+    "role": "Researcher",
+    "url": "https://github.com/rdkm89"
+   },
+   {
+    "name": "Márton Kardos",
+    "role": "Researcher",
+    "url": "https://github.com/x-tabdeveloping"
+   },
+   {
+    "name": "Frida Hæstrup",
+    "role": "Researcher",
+    "url": "https://github.com/frillecode"
+   }
+  ]
+ },
+ {
+  "id": "cis-lmu",
+  "tagline": "LMU Munich's language processing centre, behind SimAlign, Glot500 and GlotLID for massively multilingual NLP.",
+  "about": [
+   "The Center for Information and Language Processing at LMU Munich hosts a deep NLP group led by Hinrich Schütze, whose GitHub organization dates from 2017. Its work targets low-resource and multilingual language technology.",
+   "SimAlign (2020) is a word alignment tool, Glot500 (2023) scales corpora and models to 500 languages, and GlotLID is a language identification model that covered 1665 languages in its first version and over 2,000 labels in v3.0 as of April 2024.",
+   "Authors include Amir Hossein Kargaran, Ayyoob Imani and Schütze, and the data and models are published on GitHub and Hugging Face."
+  ],
+  "mission": "The group aims to extend language technology to many more of the world's languages and to publish the resulting data and models openly.",
+  "known_for": [
+   "GlotLID language identification",
+   "Glot500 multilingual corpus and model",
+   "SimAlign word alignment",
+   "Low-resource language support"
+  ],
+  "contributions": [
+   {
+    "title": "SimAlign",
+    "note": "Released a word alignment tool (arXiv 2004.08728).",
+    "year": "2020"
+   },
+   {
+    "title": "Glot500",
+    "note": "Scaled corpora and language models to 500 languages (arXiv 2305.12182).",
+    "year": "2023"
+   },
+   {
+    "title": "GlotLID",
+    "note": "Released a language identification model for low-resource languages (arXiv 2310.16248).",
+    "year": "2023"
+   },
+   {
+    "title": "GlotLID v3.0",
+    "note": "Updated the model to more than 2,000 labels.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Hinrich Schütze",
+    "role": "Professor, group head",
+    "url": "https://www.cis.lmu.de/~hs/"
+   },
+   {
+    "name": "Amir Hossein Kargaran",
+    "role": "GlotLID lead author",
+    "url": "https://kargaranamir.github.io"
+   },
+   {
+    "name": "Ayyoob Imani",
+    "role": "Glot500 and GlotLID author",
+    "url": "https://arxiv.org/abs/2310.16248"
+   },
+   {
+    "name": "Ehsaneddin Asgari",
+    "role": "Former group member",
+    "url": "http://llp.berkeley.edu/asgari/"
+   },
+   {
+    "name": "Philipp Dufter",
+    "role": "Member of the cisnlp GitHub organization",
+    "url": "https://github.com/pdufter"
+   }
+  ],
+  "founded": 2017
+ },
+ {
+  "id": "clarin-pl",
+  "tagline": "Polish language technology infrastructure at Wrocław University of Science and Technology, publishing Polish NLP tools, corpora and benchmarks.",
+  "about": [
+   "CLARIN-PL is the Polish node of the CLARIN research infrastructure, based at Wrocław University of Science and Technology. Its GitHub organization dates from 2015.",
+   "Its repository hosts plWordNet, led by Maciej Piasecki, with versions 3.0 and 4.0 reaching hundreds of thousands of senses and a licence allowing free use. It also provides the KPWr corpus, the WordnetLoom editor, embeddings tools and the LEPISZCZE benchmark.",
+   "The resources serve linguists, humanities scholars and NLP developers working on Polish."
+  ],
+  "mission": "CLARIN-PL provides language resources and tools for Polish humanities and social science research and shares them through an open repository.",
+  "known_for": [
+   "plWordNet Polish wordnet",
+   "LEPISZCZE Polish benchmark",
+   "KPWr corpus",
+   "CLARIN repository for Polish"
+  ],
+  "contributions": [
+   {
+    "title": "plWordNet",
+    "note": "The Polish wordnet was published in the CLARIN-PL repository with Piasecki as lead author.",
+    "year": "2010"
+   },
+   {
+    "title": "embeddings library",
+    "note": "Released a Polish embeddings toolkit repository.",
+    "year": "2021"
+   },
+   {
+    "title": "plWordNet to Princeton mapping",
+    "note": "Rudnicka, Witkowski and Piasecki described a large-scale mapping to Princeton WordNet.",
+    "year": "2021"
+   },
+   {
+    "title": "LEPISZCZE",
+    "note": "Designed a Polish NLP benchmark (arXiv 2211.13112).",
+    "year": "2022"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Maciej Piasecki",
+    "role": "Lead author of plWordNet",
+    "url": "https://clarin-pl.eu/dspace/handle/11321/29"
+   },
+   {
+    "name": "Danijel Koržinek",
+    "role": "Member of the CLARIN-PL GitHub organization",
+    "url": "https://github.com/danijel3"
+   },
+   {
+    "name": "Jan Kocoń",
+    "role": "Member of the CLARIN-PL GitHub organization",
+    "url": "https://github.com/KoconJan"
+   }
+  ],
+  "founded": 2015
+ },
+ {
+  "id": "classla",
+  "tagline": "CLARIN knowledge centre providing open tools, models and corpora for Slovenian, Croatian, Serbian, Bosnian and Montenegrin.",
+  "about": [
+   "CLASSLA was recognised by CLARIN on 19 March 2019. It is operated by CLARIN.SI, the Institute of Croatian Language and CLADA-BG, with hosting at the Jožef Stefan Institute in Ljubljana.",
+   "It offers a helpdesk, the CLASSLA-Stanza pipeline for South Slavic languages, with an improved version released in September 2023, and the largest general web corpora for these languages. BERTić, a model for BCMS languages, is described in arXiv 2104.09243.",
+   "Recent work includes benchmarks and an LLM evaluation dashboard for South Slavic languages."
+  ],
+  "mission": "The centre provides expertise and open resources for processing South Slavic languages and supports researchers across the region.",
+  "known_for": [
+   "CLASSLA-Stanza pipeline",
+   "South Slavic web corpora",
+   "BERTić BCMS model",
+   "South Slavic LLM benchmarks"
+  ],
+  "contributions": [
+   {
+    "title": "Recognised as knowledge centre",
+    "note": "CLARIN officially recognised CLASSLA.",
+    "year": "2019"
+   },
+   {
+    "title": "CLASSLA-Stanza",
+    "note": "The classla repository for linguistic processing was created.",
+    "year": "2019"
+   },
+   {
+    "title": "BERTić",
+    "note": "Released a language model for BCMS languages (arXiv 2104.09243).",
+    "year": "2021"
+   },
+   {
+    "title": "Improved pipeline",
+    "note": "Released a new state-of-the-art CLASSLA-Stanza version.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Nikola Ljubešić",
+    "role": "Author of CLASSLA papers",
+    "url": "https://www.clarin.eu/blog/tour-de-clarin-clarin-knowledge-centre-south-slavic-languages-classla"
+   },
+   {
+    "name": "Taja Kuzman Pungeršek",
+    "role": "Researcher",
+    "url": "https://www.clarin.eu/blog/tour-de-clarin-clarin-knowledge-centre-south-slavic-languages-classla"
+   },
+   {
+    "name": "Tomaž Erjavec",
+    "role": "Author of CLASSLA overview",
+    "url": "https://www.clarin.eu/blog/tour-de-clarin-clarin-knowledge-centre-south-slavic-languages-classla"
+   },
+   {
+    "name": "Petya Osenova",
+    "role": "Author, CLADA-BG",
+    "url": "https://www.clarin.eu/blog/tour-de-clarin-clarin-knowledge-centre-south-slavic-languages-classla"
+   }
+  ],
+  "founded": 2019
+ },
+ {
+  "id": "clips-antwerp",
+  "tagline": "University of Antwerp computational linguistics group, creator of the Pattern web mining library and Dutch NLP resources.",
+  "about": [
+   "CLiPS is the computational linguistics and psycholinguistics research centre at the University of Antwerp, with a GitHub organization created in 2011.",
+   "Pattern, by Tom De Smedt and Walter Daelemans, is a BSD-licensed Python package for web mining and NLP with Dutch modules, described in a JMLR 2012 paper. The repository holds about 8,800 stars.",
+   "The group also released the multilingual FAQ dataset MFAQ and Dutch embedding models."
+  ],
+  "mission": "CLiPS develops computational models of language and shares software and datasets, with attention to Dutch.",
+  "known_for": [
+   "Pattern web mining library",
+   "Dutch language tools",
+   "MFAQ dataset",
+   "Dutch embeddings"
+  ],
+  "contributions": [
+   {
+    "title": "Pattern repository",
+    "note": "The Pattern web mining module was published on GitHub.",
+    "year": "2011"
+   },
+   {
+    "title": "Pattern JMLR paper",
+    "note": "De Smedt and Daelemans described Pattern in JMLR.",
+    "year": "2012"
+   },
+   {
+    "title": "MFAQ",
+    "note": "Released a multilingual FAQ dataset (arXiv 2109.12870).",
+    "year": "2021"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Tom De Smedt",
+    "role": "Author of Pattern",
+    "url": "https://jmlr2020.csail.mit.edu/papers/volume13/desmedt12a/desmedt12a.pdf"
+   },
+   {
+    "name": "Walter Daelemans",
+    "role": "Co-author of Pattern",
+    "url": "https://jmlr2020.csail.mit.edu/papers/volume13/desmedt12a/desmedt12a.pdf"
+   },
+   {
+    "name": "Enrique Manjavacas",
+    "role": "Member of the clips GitHub organization",
+    "url": "https://emanjavacas.github.io"
+   },
+   {
+    "name": "Stephan Tulkens",
+    "role": "Member of the clips GitHub organization",
+    "url": "http://stephantul.github.io/"
+   },
+   {
+    "name": "Pieter Fivez",
+    "role": "Member of the clips GitHub organization",
+    "url": "https://www.uantwerpen.be/en/core-facilities/textua/"
+   }
+  ],
+  "founded": 2011
+ },
+ {
+  "id": "cltl-vu",
+  "tagline": "VU Amsterdam's Computational Linguistics and Text Mining Lab, publishing open Dutch language resources, MedRoBERTa.nl and teaching material.",
+  "about": [
+   "The Computational Linguistics and Text Mining Lab at Vrije Universiteit Amsterdam is led by Piek Vossen and Antske Fokkens. It takes part in the Global Wordnet Association and contributes to the Dutch Global Wordnet Grid.",
+   "It publishes models, software and resources as open source. MedRoBERTa.nl, introduced in 2021 by Stella Verkijk and Vossen, was pre-trained on nearly 10 million hospital notes from Amsterdam UMC.",
+   "The lab's Python for Text Analysis course, created in 2016, has over 450 GitHub stars."
+  ],
+  "mission": "The lab combines computational linguistics and text mining and releases its models, software and teaching resources openly.",
+  "known_for": [
+   "MedRoBERTa.nl clinical Dutch model",
+   "Dutch wordnet work",
+   "Python for text analysis course",
+   "Open lab software"
+  ],
+  "contributions": [
+   {
+    "title": "Python for Text Analysis",
+    "note": "The open teaching course repository was created.",
+    "year": "2016"
+   },
+   {
+    "title": "MedRoBERTa.nl",
+    "note": "Released a Dutch clinical language model.",
+    "year": "2021"
+   },
+   {
+    "title": "Medical model paper",
+    "note": "An Artificial Intelligence in Medicine article described the model's development and anonymization.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Piek Vossen",
+    "role": "Professor of Computational Lexicology",
+    "url": "https://research.vu.nl/en/persons/piek-vossen/"
+   },
+   {
+    "name": "Antske Fokkens",
+    "role": "Co-lead of the lab",
+    "url": "https://home.cltl.labs.vu.nl/"
+   },
+   {
+    "name": "Stella Verkijk",
+    "role": "MedRoBERTa.nl author",
+    "url": "https://research.vu.nl/en/publications/medrobertanl-a-language-model-for-dutch-electronic-health-records/"
+   },
+   {
+    "name": "Lea Krause",
+    "role": "Member of the cltl GitHub organization",
+    "url": "https://lkra.github.io"
+   },
+   {
+    "name": "Stefan Schouten",
+    "role": "Member of the cltl GitHub organization",
+    "url": "https://sfschouten.github.io"
+   }
+  ]
+ },
+ {
+  "id": "crane-ai-labs",
+  "tagline": "Ugandan AI group building open Luganda and Swahili language models, speech models and datasets on Gemma.",
+  "about": [
+   "Crane AI Labs is a Ugandan group co-founded by Kato Steven Mubiru and CTO Bakunga Bronson. Its Hugging Face organization hosts models, tokenizers and datasets for African languages.",
+   "In 2025 it released Ganda Gemma 1B for Luganda and Swahili Gemma 1B, with GGUF and LiteRT builds. In 2026 it added Luganda education assistants, MedGemma-based health models for offline use by rural health workers and ASR models.",
+   "Datasets such as UCCB, pedagogy benchmarks and a Luganda tokenizer evaluation support evaluation of low-resource languages."
+  ],
+  "mission": "The group describes its aim as culturally relevant AI for the Global South, delivered on small models that can run on-device.",
+  "known_for": [
+   "Ganda Gemma Luganda model",
+   "Swahili Gemma 1B",
+   "Edu-Ganda assistants",
+   "African language datasets"
+  ],
+  "contributions": [
+   {
+    "title": "UCCB dataset",
+    "note": "Released the UCCB dataset on Hugging Face.",
+    "year": "2025"
+   },
+   {
+    "title": "Ganda Gemma 1B",
+    "note": "Released a Gemma-based 1B model for Luganda.",
+    "year": "2025"
+   },
+   {
+    "title": "Swahili Gemma 1B",
+    "note": "Released a Swahili model with GGUF and LiteRT builds.",
+    "year": "2025"
+   },
+   {
+    "title": "Luganda tokenizer evaluation",
+    "note": "Published tokenizer evaluation data.",
+    "year": "2026"
+   },
+   {
+    "title": "Crane ASR models",
+    "note": "Released NeMo-based speech recognition models.",
+    "year": "2026"
+   },
+   {
+    "title": "Edu-Ganda Gemma",
+    "note": "Released experimental Luganda primary-education assistants.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Kato Steven Mubiru",
+    "role": "Co-founder",
+    "url": "https://deepmind.google/models/gemma/gemmaverse/craneai/"
+   },
+   {
+    "name": "Bakunga Bronson",
+    "role": "Co-founder and CTO",
+    "url": "https://deepmind.google/models/gemma/gemmaverse/craneai/"
+   }
+  ]
+ }
+]

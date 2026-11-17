@@ -1,0 +1,694 @@
+[
+ {
+  "id": "norwai",
+  "key_people": [
+   {
+    "name": "Jon Atle Gulla",
+    "role": "Director, NorwAI; Professor, NTNU",
+    "url": "https://www.ntnu.edu/employees/jon.atle.gulla",
+    "note": "Directs the centre and is lead author of its 2026 technical report on the NorLLM models."
+   },
+   {
+    "name": "Peng Liu",
+    "role": "Postdoctoral fellow (language models), NTNU",
+    "url": "https://www.ntnu.edu/employees/penl",
+    "note": "Worked on language models and conversational systems at the centre from 2020; co-author of the technical report."
+   },
+   {
+    "name": "Lemei Zhang",
+    "role": "Postdoctoral fellow, NTNU",
+    "url": "https://www.ntnu.edu/employees/lemei.zhang",
+    "note": "Researcher in streaming data analytics; co-author of the technical report."
+   },
+   {
+    "name": "Lars Bungum",
+    "role": "Postdoctoral fellow, NTNU",
+    "url": "https://www.ntnu.edu/employees/lars.bungum",
+    "note": "Works on evaluating trustworthy and efficient language models."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "NorwAI starts operations",
+    "note": "The centre began work in October 2020.",
+    "year": "2020"
+   },
+   {
+    "title": "Large Norwegian GPT model announced",
+    "note": "In January 2023 NorwAI described plans for a 20-billion-parameter Norwegian model trained on NTNU's Idun cluster, with partners including Schibsted and DnB.",
+    "year": "2023"
+   },
+   {
+    "title": "Norwegian LLM suite launched",
+    "note": "Models adapted from open architectures such as Mistral and Llama were published on Hugging Face, beginning with NorwAI-Llama2-7B.",
+    "year": "2024"
+   },
+   {
+    "title": "Next model planned from Magistral",
+    "note": "In September 2025 the centre said its next, larger model would start from Mistral's 24B Magistral and avoid copyrighted material.",
+    "year": "2025"
+   },
+   {
+    "title": "Technical report on NorwAI LLMs",
+    "note": "Gulla, Liu and Zhang documented the model suite on arXiv in January 2026.",
+    "year": "2026"
+   }
+  ],
+  "papers": [
+   {
+    "title": "NorwAI's Large Language Models: Technical Report",
+    "url": "https://arxiv.org/abs/2601.03034",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "nxai",
+  "key_people": [
+   {
+    "name": "Sepp Hochreiter",
+    "role": "Co-founder and Chief Scientist; head of the Institute for Machine Learning, JKU Linz",
+    "url": "https://en.wikipedia.org/wiki/Sepp_Hochreiter",
+    "note": "Inventor of the LSTM and senior author of the xLSTM and TiRex papers."
+   },
+   {
+    "name": "Albert Ortig",
+    "role": "CEO",
+    "url": "https://www.netural.com/en/news/netural-ai-symposium-report-part-1",
+    "note": "Leads the company, according to press coverage."
+   },
+   {
+    "name": "Maximilian Beck",
+    "role": "Lead author of xLSTM",
+    "url": "https://arxiv.org/abs/2405.04517",
+    "note": "First author of the xLSTM paper from the Hochreiter group."
+   },
+   {
+    "name": "Andreas Auer",
+    "role": "Lead author of TiRex",
+    "url": "https://arxiv.org/abs/2505.23719",
+    "note": "First author of the TiRex forecasting paper presented at NeurIPS 2025."
+   }
+  ]
+ },
+ {
+  "id": "oatml",
+  "key_people": [
+   {
+    "name": "Yarin Gal",
+    "role": "Head of group, Associate Professor",
+    "url": "https://cs.ox.ac.uk/people/yarin.gal/website",
+    "note": null
+   },
+   {
+    "name": "Aidan Gomez",
+    "role": "Member",
+    "url": "https://oatml.cs.ox.ac.uk/members/aidan_gomez/",
+    "note": null
+   },
+   {
+    "name": "Robin Ru",
+    "role": "Member",
+    "url": "https://www.cs.ox.ac.uk/oatml/members/robin_ru/",
+    "note": null
+   },
+   {
+    "name": "Pascal Notin",
+    "role": "Associate member (Senior Research Fellow)",
+    "url": "https://oatml.cs.ox.ac.uk/members/pascal_notin/",
+    "note": "Former group member working on machine learning for biology."
+   },
+   {
+    "name": "Ilia Shumailov",
+    "role": "Associate member (Senior Research Fellow)",
+    "url": "https://oatml.cs.ox.ac.uk/members/ilia_shumailov/",
+    "note": "Associate member listed from 2022."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "OATML announced",
+    "note": "Yarin Gal announced the group on 30 October.",
+    "year": "2018"
+   },
+   {
+    "title": "Group web presence at oatml.cs.ox.ac.uk",
+    "note": "The group publishes members, publications and an application page.",
+    "year": "2019"
+   },
+   {
+    "title": "Member pages for alumni such as Aidan Gomez",
+    "note": "Group site lists collaborators and affiliates.",
+    "year": "2020"
+   },
+   {
+    "title": "Group members span uncertainty and LLM safety",
+    "note": "The 2026 member list covers postdocs and PhD students working on language models, safety and uncertainty under Yarin Gal.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "openbmb",
+  "key_people": [
+   {
+    "name": "Liu Zhiyuan",
+    "role": "Professor, Tsinghua University; ModelBest co-founder and Chief Scientist",
+    "url": "http://nlp.csai.tsinghua.edu.cn/~lzy/",
+    "note": "Associated with the Tsinghua NLP group and ModelBest; co-author of the MiniCPM paper."
+   },
+   {
+    "name": "Maosong Sun",
+    "role": "Professor, Tsinghua University",
+    "url": "https://arxiv.org/abs/2404.06395",
+    "note": "Senior author of the MiniCPM paper; described as a principal investigator of the community."
+   },
+   {
+    "name": "Li Dahai",
+    "role": "CEO, ModelBest",
+    "url": "https://en.wikipedia.org/wiki/ModelBest",
+    "note": "Co-author of the MiniCPM paper and head of the company."
+   },
+   {
+    "name": "Shengding Hu",
+    "role": "First author of MiniCPM",
+    "url": "https://arxiv.org/abs/2404.06395",
+    "note": "Led the MiniCPM small language model paper."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "ModelBest founded",
+    "note": "The company was spun out of Tsinghua's NLP Laboratory in August 2022.",
+    "year": "2022"
+   },
+   {
+    "title": "Luca assistant",
+    "note": "ModelBest launched its multimodal dialogue assistant Luca in November 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "MiniCPM 4.0",
+    "note": "Released in June 2025 alongside the CPM.cu inference framework.",
+    "year": "2025"
+   },
+   {
+    "title": "MiniCPM-o 4.5",
+    "note": "A full-duplex multimodal model for video, audio and text input introduced in early 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "MiniCPM5-2B",
+    "note": "A two-billion-parameter model whose local deployment tests were published in November 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "MiniCPM paper",
+    "note": "The MiniCPM small language models were described in an April 2024 arXiv paper with 25 authors.",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "opengpt-x",
+  "key_people": [
+   {
+    "name": "Nicolas Flores-Herr",
+    "role": "Project lead, Fraunhofer IAIS",
+    "url": "https://arxiv.org/abs/2410.03730",
+    "note": "Identified as OpenGPT-X project lead and co-author of the Teuken-7B paper."
+   },
+   {
+    "name": "Georg Rehm",
+    "role": "Researcher, DFKI",
+    "url": "https://arxiv.org/abs/2410.03730",
+    "note": "Co-author of the Teuken-7B paper and speaker at the 2024 OpenGPT-X Forum."
+   },
+   {
+    "name": "Stefan Kesselheim",
+    "role": "Researcher, Jülich Supercomputing Centre",
+    "url": "https://arxiv.org/abs/2410.03730",
+    "note": "Co-author of the Teuken-7B paper; Jülich supplied the training compute."
+   },
+   {
+    "name": "Mehdi Ali",
+    "role": "Lead author, Teuken-7B paper",
+    "url": "https://arxiv.org/abs/2410.03730",
+    "note": "First author of the Teuken-7B technical paper."
+   }
+  ]
+ },
+ {
+  "id": "openhands",
+  "key_people": [
+   {
+    "name": "Robert Brennan",
+    "role": "CEO",
+    "url": "https://www.openhands.dev/about",
+    "note": "Leads the company."
+   },
+   {
+    "name": "Graham Neubig",
+    "role": "Chief Scientist",
+    "url": "https://www.phontron.com/",
+    "note": "Senior author of the OpenHands paper; Carnegie Mellon professor."
+   },
+   {
+    "name": "Xingyao Wang",
+    "role": "Chief AI Officer",
+    "url": "http://xwang.dev/",
+    "note": "First author of the OpenHands paper; co-founder of All Hands AI."
+   },
+   {
+    "name": "Chuck Butkus",
+    "role": "Principal Engineer",
+    "url": "https://www.openhands.dev/about",
+    "note": "Listed on the team page."
+   },
+   {
+    "name": "Tim O'Farrell",
+    "role": "Founding Principal Engineer",
+    "url": "https://www.openhands.dev/about",
+    "note": "Listed on the team page."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Launched as OpenDevin",
+    "note": "The project started in March 2024 as an open alternative to Devin.",
+    "year": "2024"
+   },
+   {
+    "title": "OpenHands paper",
+    "note": "The platform paper appeared on arXiv in July 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Renamed OpenHands and seed round",
+    "note": "The project was renamed in late summer 2024 and All Hands AI announced a $5 million seed round on September 5, 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Series A",
+    "note": "Press reports an $18.8 million Series A led by Madrona in November 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "90,000 GitHub stars",
+    "note": "The repository passed 90,000 stars.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "openllm-ro",
+  "key_people": [
+   {
+    "name": "Mihai Masala",
+    "role": "Lead author, \"Vorbeşti Româneşte?\"",
+    "url": "https://arxiv.org/abs/2406.18266",
+    "note": "First author of the RoLlama recipe paper (EMNLP 2024 Findings)."
+   },
+   {
+    "name": "Traian Rebedea",
+    "role": "Researcher; co-author",
+    "url": "https://arxiv.org/abs/2511.01090",
+    "note": "Senior author of the Romanian pretraining data quality paper."
+   },
+   {
+    "name": "Mihai Dascalu",
+    "role": "Researcher; co-author",
+    "url": "https://arxiv.org/abs/2406.18266",
+    "note": "Co-author of the founding paper."
+   },
+   {
+    "name": "Marius Leordeanu",
+    "role": "Researcher; co-author",
+    "url": "https://arxiv.org/abs/2406.18266",
+    "note": "Co-author of the founding paper."
+   }
+  ],
+  "papers": [
+   {
+    "title": "\"Vorbeşti Româneşte?\" A Recipe to Train Powerful Romanian LLMs with English Instructions",
+    "url": "https://arxiv.org/abs/2406.18266",
+    "year": "2024"
+   },
+   {
+    "title": "\"Înţelegi Româneşte?\" A Recipe for Romanian Vision-Language Models",
+    "url": "https://arxiv.org/abs/2605.31401",
+    "year": "2026"
+   },
+   {
+    "title": "Improving Romanian LLM Pretraining Data using Diversity and Quality Filtering",
+    "url": "https://arxiv.org/abs/2511.01090",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "open-thoughts",
+  "key_people": [
+   {
+    "name": "Etash Guha",
+    "role": "Lead author, OpenThoughts",
+    "url": "https://arxiv.org/abs/2506.04178",
+    "note": "First author of the OpenThoughts data recipes paper."
+   },
+   {
+    "name": "Ludwig Schmidt",
+    "role": "Assistant professor, Stanford; LAION member",
+    "url": "https://people.csail.mit.edu/ludwigs/",
+    "note": "Last author of the OpenThoughts paper."
+   },
+   {
+    "name": "Alexandros G. Dimakis",
+    "role": "Professor, UC Berkeley; Bespoke Labs co-founder",
+    "url": "https://people.eecs.berkeley.edu/~alexdimakis/",
+    "note": "Co-author of OpenThoughts and OpenThoughts-Agent."
+   },
+   {
+    "name": "Ryan Marten",
+    "role": "Co-author",
+    "url": "https://arxiv.org/abs/2506.04178",
+    "note": "Second author of the OpenThoughts paper."
+   }
+  ]
+ },
+ {
+  "id": "oumi",
+  "contributions": [
+   {
+    "title": "Emerged from stealth",
+    "note": "Oumi launched as a public benefit corporation on January 29, 2025 with a $10 million seed round.",
+    "year": "2025"
+   },
+   {
+    "title": "Public launch of the open platform",
+    "note": "The open-source platform covers data preparation, training, evaluation and deployment.",
+    "year": "2025"
+   },
+   {
+    "title": "HallOumi",
+    "note": "An open claim-verification model for detecting hallucinations, released in April 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Oumi OSS v0.8",
+    "note": "Release in May 2026 accompanied by a case study of a 3B text-to-SQL model.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "part-ai",
+  "key_people": [
+   {
+    "name": "MohammadAli Sadraei Javaheri",
+    "role": "Lead author, TookaBERT",
+    "url": "https://arxiv.org/abs/2407.16382",
+    "note": "First author of the TookaBERT paper."
+   },
+   {
+    "name": "Tohid Abedini",
+    "role": "Co-author, TookaBERT",
+    "url": "https://arxiv.org/abs/2407.16382",
+    "note": "Researcher at Part AI."
+   },
+   {
+    "name": "Amirmohammad Salehoof",
+    "role": "Co-author, TookaBERT",
+    "url": "https://arxiv.org/abs/2407.16382",
+    "note": "Researcher at Part AI."
+   }
+  ],
+  "papers": [
+   {
+    "title": "TookaBERT: A Step Forward for Persian NLU",
+    "url": "https://arxiv.org/abs/2407.16382",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "photoroom",
+  "key_people": [
+   {
+    "name": "Eliot Andres",
+    "role": "Co-founder",
+    "url": "https://www.photoroom.com/about",
+    "note": "Engineer who co-founded the company in 2019."
+   },
+   {
+    "name": "Jon Almazán",
+    "role": "Lead engineer",
+    "url": "https://huggingface.co/blog/Photoroom/prx-open-source-t2i-model",
+    "note": "Author of the PRX release post."
+   },
+   {
+    "name": "David Bertoin",
+    "role": "Researcher",
+    "url": "https://huggingface.co/blog/Photoroom/prx-open-source-t2i-model",
+    "note": "Author of the PRX release post."
+   },
+   {
+    "name": "Roman Frigg",
+    "role": "Researcher",
+    "url": "https://huggingface.co/blog/Photoroom/prx-open-source-t2i-model",
+    "note": "Author of the PRX release post."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Photoroom co-founded",
+    "note": "Matt and Eliot Andres founded the company in Paris.",
+    "year": "2019"
+   },
+   {
+    "title": "PRX open-sourced",
+    "note": "Photoroom released its 1.3B parameter text-to-image model and training process with an Apache 2.0 licence.",
+    "year": "2025"
+   },
+   {
+    "title": "PRX in Diffusers",
+    "note": "The model is supported through a PRX pipeline in Hugging Face Diffusers.",
+    "year": "2025"
+   },
+   {
+    "title": "PRX Pixel published",
+    "note": "A pixel-space image model without VAE was described on the Photoroom blog.",
+    "year": "2026"
+   },
+   {
+    "title": "PRX training series",
+    "note": "Photoroom documented architecture, training and post-training in a multi-part blog series.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "physical-intelligence",
+  "contributions": [
+   {
+    "title": "pi0 announced",
+    "note": "The company presented its first vision-language-action flow model.",
+    "year": "2024"
+   },
+   {
+    "title": "Series A of $400 million",
+    "note": "Reported by secondary sources as raised in November 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "openpi release",
+    "note": "pi0 and training code released on February 4, 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "pi0.5 and PyTorch support",
+    "note": "The openpi README lists pi0.5 checkpoints and PyTorch support among its September 2025 additions.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "polymathic-ai",
+  "key_people": [
+   {
+    "name": "Shirley Ho",
+    "role": "Principal Investigator; Flatiron Institute",
+    "url": "https://polymathic-ai.org/members/shirley-ho/",
+    "note": "Leads the collaboration and is senior author of The Well."
+   },
+   {
+    "name": "Kyunghyun Cho",
+    "role": "Team member",
+    "url": "https://kyunghyuncho.me/",
+    "note": "Listed on the team page."
+   },
+   {
+    "name": "Miles Cranmer",
+    "role": "Team member",
+    "url": "https://astroautomata.com/",
+    "note": "Co-author of The Well."
+   },
+   {
+    "name": "Francois Lanusse",
+    "role": "Team member",
+    "url": "https://flanusse.net/",
+    "note": "Works on astronomy foundation models."
+   },
+   {
+    "name": "Michael McCabe",
+    "role": "Team member",
+    "url": "https://polymathic-ai.org/members/michael-mccabe/",
+    "note": "Second author of The Well."
+   },
+   {
+    "name": "Rudy Morel",
+    "role": "Team member",
+    "url": "https://polymathic-ai.org/members/rudy-morel/",
+    "note": "Co-author of The Well."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Project site launched",
+    "note": "Public project site went live.",
+    "year": "2023"
+   },
+   {
+    "title": "The Well released",
+    "note": "A 15 TB collection of 16 physics simulation datasets, presented at NeurIPS 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Multimodal Universe",
+    "note": "An open astrophysics dataset released alongside The Well in December 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Walrus",
+    "note": "A 1.3B-parameter foundation model for continuum dynamics, trained on The Well and other data, described on arXiv in November 2025.",
+    "year": "2025"
+   }
+  ],
+  "papers": [
+   {
+    "title": "The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning",
+    "url": "https://arxiv.org/abs/2412.00568",
+    "year": "2024"
+   },
+   {
+    "title": "Multiple Physics Pretraining for Physical Surrogate Models",
+    "url": "https://arxiv.org/abs/2310.02994",
+    "year": "2023"
+   },
+   {
+    "title": "AstroCLIP: A Cross-Modal Foundation Model for Galaxies",
+    "url": "https://arxiv.org/abs/2310.03024",
+    "year": "2023"
+   },
+   {
+    "title": "Walrus: A Cross-Domain Foundation Model for Continuum Dynamics",
+    "url": "https://arxiv.org/abs/2511.15684",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "preferred-networks",
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Spun off from Preferred Infrastructure.",
+    "year": "2014"
+   },
+   {
+    "title": "Chainer released",
+    "note": "Open-sourced the Chainer deep learning framework.",
+    "year": "2015"
+   },
+   {
+    "title": "MN-Core announced",
+    "note": "Announced a dedicated deep learning accelerator.",
+    "year": "2018"
+   },
+   {
+    "title": "Chainer moves to PyTorch",
+    "note": "Ended Chainer development and joined the PyTorch ecosystem.",
+    "year": "2019"
+   },
+   {
+    "title": "MN-3 tops Green500",
+    "note": "MN-3 ranked first on the Green500 list.",
+    "year": "2020"
+   },
+   {
+    "title": "Optuna beta",
+    "note": "Hyperparameter optimization framework released in December 2018.",
+    "year": "2018"
+   },
+   {
+    "title": "PLaMo-13B",
+    "note": "First PLaMo language model, released in October 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "PLaMo Prime launched",
+    "note": "Listed on the company milestones page for November 2024.",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "prime-intellect",
+  "key_people": [
+   {
+    "name": "Vincent Weisser",
+    "role": "Co-founder and CEO",
+    "url": "https://www.ai.engineer/speakers/vincent-weisser",
+    "note": null
+   },
+   {
+    "name": "Johannes Hagemann",
+    "role": "Co-founder",
+    "url": "https://arxiv.org/abs/2412.01152",
+    "note": null
+   },
+   {
+    "name": "Sami Jaghouar",
+    "role": "First author, INTELLECT-1",
+    "url": "https://arxiv.org/abs/2412.01152",
+    "note": "Led the INTELLECT-1 technical report."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Seed round",
+    "note": "$5.5 million seed announced in April 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "INTELLECT-1",
+    "note": "Decentralized training of a 10B-parameter model; technical report on arXiv in December 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Series funding and prime-rl",
+    "note": "A $15 million round led by Founders Fund in February 2025; asynchronous RL framework prime-rl open-sourced.",
+    "year": "2025"
+   },
+   {
+    "title": "INTELLECT-3",
+    "note": "A 106B mixture-of-experts model trained with RL on 512 H200 GPUs; code and environments open-sourced in November 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "$130 million Series A",
+    "note": "Reported at a $1 billion valuation in July 2026.",
+    "year": "2026"
+   }
+  ]
+ }
+]

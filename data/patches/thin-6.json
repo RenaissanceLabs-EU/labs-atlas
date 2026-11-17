@@ -1,0 +1,539 @@
+[
+ {
+  "id": "princeton-nlp",
+  "key_people": [
+   {
+    "name": "Karthik Narasimhan",
+    "role": "Associate professor, co-author of SWE-bench and Tree of Thoughts",
+    "url": "https://www.cs.princeton.edu/~karthikn/",
+    "note": "Leads work on language agents."
+   },
+   {
+    "name": "Danqi Chen",
+    "role": "Associate professor, co-leader of the Princeton NLP Group",
+    "url": "https://www.cs.princeton.edu/people/profile/danqic",
+    "note": "Also associate director of Princeton Language and Intelligence."
+   },
+   {
+    "name": "Shunyu Yao",
+    "role": "First author of Tree of Thoughts, formerly a Princeton PhD student",
+    "url": "https://ysymyth.github.io",
+    "note": "Now a researcher at OpenAI."
+   },
+   {
+    "name": "John Yang",
+    "role": "Creator of SWE-bench and SWE-agent",
+    "url": "https://john-b-yang.github.io",
+    "note": "Earlier work done at Princeton; now a PhD student at Stanford."
+   }
+  ],
+  "mission": "The group studies how language models learn, reason and act, and releases the resulting benchmarks, methods and code so that other researchers can reproduce and extend them."
+ },
+ {
+  "id": "probabl",
+  "about": [
+   "Probabl was formed in 2023 and launched publicly in early 2024 to give the scikit-learn ecosystem a sustainable institutional home. Scikit-learn core maintainers who had been employed by Inria joined as co-founders, and Yann Lechelle, formerly of Scaleway, became chief executive.",
+   "Inria and the French state are shareholders, and the company has a mission-driven legal structure. Its stated aim is the sustainable development of a data science commons, with professional services and products built around open-source libraries such as scikit-learn and skrub.",
+   "In October 2025 Sifted reported a 13 million euro seed round. In January 2026 Gaël Varoquaux, a scikit-learn co-founder and Inria researcher, announced he was taking the role of chief science officer."
+  ],
+  "key_people": [
+   {
+    "name": "Yann Lechelle",
+    "role": "Co-founder and CEO",
+    "url": "https://probabl.ai",
+    "note": "Previously ran Scaleway and was an entrepreneur in residence at Inria."
+   },
+   {
+    "name": "Gaël Varoquaux",
+    "role": "Co-founder and chief science officer",
+    "url": "https://gael-varoquaux.info/",
+    "note": "Inria researcher and scikit-learn co-founder; also works on skrub."
+   }
+  ]
+ },
+ {
+  "id": "projecte-aina",
+  "about": [
+   "Projecte Aina is a Catalan government initiative created by the Generalitat de Catalunya's digital policies department to ensure that Catalan is well supported in language technology. The Barcelona Supercomputing Center (BSC) carries out the technical work, with its Language Technologies Unit credited as author of the models.",
+   "The project has built a large Catalan text corpus, started a Catalan speech corpus and published models and datasets on Hugging Face under permissive licenses. Its Salamandra family of 2B, 7B and 40B models, released under Apache 2.0, was trained on the MareNostrum 5 supercomputer with Aina funding.",
+   "Resources are intended for reuse by companies, public bodies and researchers, and the project also runs community programs such as the Aina Challenge."
+  ],
+  "contributions": [
+   {
+    "title": "Project begins",
+    "note": "BSC starts building Catalan corpora and models for the Generalitat de Catalunya.",
+    "year": "2022"
+   },
+   {
+    "title": "Catalan models on Hugging Face",
+    "note": "Open Catalan language, speech and translation models and datasets are published under the projecte-aina organization.",
+    "year": "2023"
+   },
+   {
+    "title": "Salamandra",
+    "note": "Released 2B, 7B and 40B multilingual models under Apache 2.0, with Catalan upsampled in the training data.",
+    "year": "2024"
+   },
+   {
+    "title": "Aina Challenge and territorial intelligence programs",
+    "note": "Programs run in parallel with the model work to encourage reuse of the resources.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "proxecto-nos",
+  "about": [
+   "Proxecto Nós was launched in 2020 by the Xunta de Galicia and entrusted to the University of Santiago de Compostela through CiTIUS and the Instituto da Lingua Galega (ILG). It aims to give Galician openly licensed resources and tools in intelligent technologies.",
+   "It produced CorpusNós, described as the largest openly available collection of Galician text, and the first generative language models focused on Galician, including the 1.3 billion parameter Carballo, adapted from Catalan-Spanish-English models of the Aina project. A 2024 arXiv paper describes the models.",
+   "The project also operates public demonstrators for machine translation, speech synthesis, speech recognition and retrieval-augmented chat. CiTIUS was later selected to lead the Galician model in a Microsoft collaboration with BSC and HiTZ on models for Spain's official languages."
+  ],
+  "contributions": [
+   {
+    "title": "Proxecto Nós starts",
+    "note": "Launched by the Xunta de Galicia and hosted by CiTIUS and the ILG at USC.",
+    "year": "2020"
+   },
+   {
+    "title": "Project paper at TDLE",
+    "note": "Presented the project's aims and resources.",
+    "year": "2022"
+   },
+   {
+    "title": "First Galician LLMs",
+    "note": "Released Carballo models trained on CorpusNós, as described in the arXiv paper.",
+    "year": "2024"
+   },
+   {
+    "title": "Microsoft collaboration",
+    "note": "CiTIUS selected to lead the Galician model in a multilingual initiative with BSC and HiTZ.",
+    "year": "2024"
+   },
+   {
+    "title": "Galician evaluation tool presented",
+    "note": "A tool for evaluating Galician in large AI models was presented at the European Parliament.",
+    "year": "2025"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Open Generative Large Language Models for Galician",
+    "url": "https://arxiv.org/abs/2406.13893",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Pablo Gamallo",
+    "role": "CiTIUS researcher, lead author of the Galician LLM paper",
+    "url": "https://arxiv.org/abs/2406.13893",
+    "note": "Linked page is the paper listing the project team."
+   },
+   {
+    "name": "José Ramom Pichel",
+    "role": "Researcher, co-author of the Galician LLM paper",
+    "url": "https://arxiv.org/abs/2406.13893",
+    "note": "Linked page is the paper listing the project team."
+   }
+  ]
+ },
+ {
+  "id": "pruna-ai",
+  "about": [
+   "Pruna AI was founded in 2023 by Bertrand Charpentier, Rayan Nait Mazi, John Rachwan and Stephan Günnemann, researchers in AI efficiency with ties to the Technical University of Munich. It operates research hubs in Munich and Paris.",
+   "In November 2024 it announced a 6.5 million dollar seed round led by EQT Ventures, with Daphni, Motier and Kima Ventures participating. In March 2025 it open-sourced its optimization framework, which combines caching, pruning, quantization and distillation and checks quality loss.",
+   "The pruna package is MIT-licensed, a paid tier adds further methods, and the company publishes many compressed models on Hugging Face."
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Started by TUM-linked efficiency researchers in Munich and Paris.",
+    "year": "2023"
+   },
+   {
+    "title": "Seed round",
+    "note": "6.5 million dollar round led by EQT Ventures.",
+    "year": "2024"
+   },
+   {
+    "title": "Framework open-sourced",
+    "note": "Released the pruna optimization framework under the MIT license.",
+    "year": "2025"
+   },
+   {
+    "title": "Compressed models on Hugging Face",
+    "note": "Publishes large numbers of optimized open models under the PrunaAI organization.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Bertrand Charpentier",
+    "role": "Co-founder, president and chief scientist",
+    "url": "https://www.pruna.ai/about",
+    "note": ""
+   },
+   {
+    "name": "Rayan Nait Mazi",
+    "role": "Co-founder and CEO",
+    "url": "https://www.pruna.ai/about",
+    "note": ""
+   },
+   {
+    "name": "John Rachwan",
+    "role": "Co-founder and CTO",
+    "url": "https://www.pruna.ai/about",
+    "note": ""
+   },
+   {
+    "name": "Stephan Günnemann",
+    "role": "Co-founder and chief strategy officer",
+    "url": "https://www.pruna.ai/about",
+    "note": "Professor at TUM."
+   }
+  ]
+ },
+ {
+  "id": "qcri",
+  "about": [
+   "The Qatar Computing Research Institute is part of Hamad Bin Khalifa University and focuses on Arabic language technology, multilingual NLP and responsible AI. It is government-linked and not an independent lab.",
+   "It developed Fanar, an Arabic-centric platform covering language, speech and image generation, sponsored by Qatar's Ministry of Communications and Information Technology. The core models, Fanar Star (7B) and Fanar Prime (9B, continued from Gemma-2), are described in a January 2025 technical report, and Fanar 2.0 followed.",
+   "QCRI also released tools such as Farasa for Arabic processing and publishes research code and models on GitHub and Hugging Face."
+  ],
+  "key_people": [
+   {
+    "name": "Fahim Dalvi",
+    "role": "Researcher working on large language models at QCRI",
+    "url": "https://fdalvi.github.io",
+    "note": "Writes on the Fanar releases."
+   },
+   {
+    "name": "Firoj Alam",
+    "role": "Senior scientist at QCRI",
+    "url": "https://firojalam.one",
+    "note": "Co-author of the Fanar report."
+   },
+   {
+    "name": "Sanjay Chawla",
+    "role": "Co-author of the Fanar report",
+    "url": "https://arxiv.org/abs/2501.13944",
+    "note": "Linked page is the Fanar paper."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Fanar: An Arabic-Centric Multimodal Generative AI Platform",
+    "url": "https://arxiv.org/abs/2501.13944",
+    "year": "2025"
+   }
+  ],
+  "_flag": "Government-linked institute within a state university rather than an independent lab."
+ },
+ {
+  "id": "reka-ai",
+  "about": [
+   "Reka was founded in 2022 by researchers formerly at DeepMind and elsewhere in industry, and builds multimodal models. Dani Yogatama, also an associate professor at USC, is cofounder and CEO. Its flagship models are served through its own platform, while selected models are released openly.",
+   "In March 2025 it released Reka Flash 3, a 21B reasoning model trained with reinforcement learning, under Apache 2.0. In July 2025 it open-sourced Reka Flash 3.1 together with the Reka Quant quantization method.",
+   "It also publishes the Vibe-Eval benchmark for multimodal models, and a 2024 technical report describes its Core, Flash and Edge models."
+  ],
+  "key_people": [
+   {
+    "name": "Dani Yogatama",
+    "role": "Cofounder and CEO",
+    "url": "https://dyogatama.github.io",
+    "note": "Associate professor of computer science at USC."
+   }
+  ],
+  "_flag": "Mostly a commercial company; only selected models (Flash 3, Flash 3.1) are open-weight."
+ },
+ {
+  "id": "rinna",
+  "about": [
+   "rinna was established in 2020 when the team behind Microsoft's Japanese Rinna chatbot, launched in 2015, separated from Microsoft to operate independently.",
+   "Its research group releases base models for Japanese text, audio and images, including GPT, BERT, HuBERT, CLIP and Stable Diffusion variants, on Hugging Face and GitHub. Its early Japanese GPT-2 models became common baselines for Japanese NLP.",
+   "The Youri series continues pretraining of Llama 2 on about 40 billion tokens of mixed Japanese and English data, and the Nekomata series builds on Alibaba's Qwen models with a tokenizer that is more efficient for Japanese."
+  ],
+  "contributions": [
+   {
+    "title": "Company established",
+    "note": "Rinna team spun out of Microsoft Japan.",
+    "year": "2020"
+   },
+   {
+    "title": "Japanese GPT-2",
+    "note": "Released small, medium and xsmall Japanese GPT-2 models.",
+    "year": "2021"
+   },
+   {
+    "title": "Youri",
+    "note": "Released Llama 2 based Japanese-English models.",
+    "year": "2023"
+   },
+   {
+    "title": "Nekomata",
+    "note": "Released Qwen-based models with a Japanese-efficient tokenizer.",
+    "year": "2023"
+   }
+  ]
+ },
+ {
+  "id": "roboflow",
+  "papers": [
+   {
+    "title": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+    "url": "https://arxiv.org/abs/2511.09554",
+    "year": "2025"
+   },
+   {
+    "title": "Roboflow 100: A Rich, Multi-Domain Object Detection Benchmark",
+    "url": "https://arxiv.org/abs/2211.13523",
+    "year": "2022"
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Magic Sudoku",
+    "note": "Dwyer and Nelson built the AR app that preceded the company.",
+    "year": "2017"
+   },
+   {
+    "title": "Company founded",
+    "note": "Incorporated in 2019 and launched through Y Combinator in 2020.",
+    "year": "2019"
+   },
+   {
+    "title": "Series B",
+    "note": "40 million dollar round led by GV, announced by the company.",
+    "year": "2024"
+   },
+   {
+    "title": "RF-DETR",
+    "note": "Released a real-time detection transformer; the paper lists Isaac Robinson, Peter Robicheaux, Matvei Popov, Deva Ramanan and Neehar Peri.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "rwkv",
+  "key_people": [
+   {
+    "name": "Bo Peng",
+    "role": "Creator and project lead",
+    "url": "https://github.com/BlinkDL",
+    "note": "First author of the RWKV-7 paper."
+   }
+  ],
+  "papers": [
+   {
+    "title": "RWKV-7 \"Goose\" with Expressive Dynamic State Evolution",
+    "url": "https://arxiv.org/abs/2503.14456",
+    "year": "2025"
+   }
+  ],
+  "contributions": [
+   {
+    "title": "RWKV-4",
+    "note": "First publicly scaled RWKV models.",
+    "year": "2023"
+   },
+   {
+    "title": "Joins Linux Foundation",
+    "note": "Project joined the Linux Foundation in September 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "RWKV-7 Goose",
+    "note": "Released March 2025 under Apache 2.0; the paper has 18 authors including Ruichong Zhang, Daniel Goldstein and Eric Alcaide.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "sarvam-ai",
+  "about": [
+   "Sarvam AI was founded in July 2023 in Bengaluru by Vivek Raghavan and Pratyush Kumar, both previously involved with AI4Bharat. Raghavan's background includes India's Aadhaar digital identity system, and Kumar led AI4Bharat.",
+   "In December 2023 it announced a 41 million dollar Series A led by Lightspeed, with Peak XV Partners and Khosla Ventures. In February 2026 it launched Sarvam 30B and 105B at the India AI Impact Summit, with weights under Apache 2.0.",
+   "The company says the models were trained from scratch on 16T and 12T tokens respectively and target Indian languages. Independent benchmarks from Artificial Analysis place the 105B below several peer open models. Sarvam also builds speech and enterprise products."
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Founded in Bengaluru by Vivek Raghavan and Pratyush Kumar.",
+    "year": "2023"
+   },
+   {
+    "title": "Series A",
+    "note": "41 million dollar round led by Lightspeed.",
+    "year": "2023"
+   },
+   {
+    "title": "Sarvam 30B and 105B launched",
+    "note": "Introduced at the India AI Impact Summit.",
+    "year": "2026"
+   },
+   {
+    "title": "Weights open-sourced",
+    "note": "Released under Apache 2.0 on Hugging Face and AI Kosh.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "sesame",
+  "about": [
+   "Sesame builds conversational voice AI and is co-led by Brendan Iribe, a co-founder of Oculus, and Ankit Kumar. It announced its voice companions in February 2025 and has since pursued voice-driven wearables, raising 250 million dollars in a round led by Sequoia Capital in October 2025.",
+   "In March 2025 it open-sourced CSM-1B, a base speech generation model pairing a Llama backbone with an audio decoder that produces Mimi audio codes. The release is under Apache 2.0 with ethical use guidelines.",
+   "The open checkpoint is a base model that has not been fine-tuned to a specific voice; a fine-tuned version powers the company's demo. The technical post lists Johan Schalkwyk, Ankit Kumar, Dan Lyth, Sefik Emre Eskimez, Zack Hodari, Cinjon Resnick, Ramon Sanabria and Raven Jiang."
+  ],
+  "contributions": [
+   {
+    "title": "Conversational speech announced",
+    "note": "Public research preview of a conversational voice model.",
+    "year": "2025"
+   },
+   {
+    "title": "CSM-1B open-sourced",
+    "note": "Released code and base weights under Apache 2.0.",
+    "year": "2025"
+   },
+   {
+    "title": "250 million dollar round",
+    "note": "Led by Sequoia Capital, to support voice-driven wearables.",
+    "year": "2025"
+   }
+  ],
+  "_flag": "Primarily a commercial product company; only the CSM-1B base model is open."
+ },
+ {
+  "id": "shanghai-ai-lab",
+  "papers": [
+   {
+    "title": "Intern-S1: A Scientific Multimodal Foundation Model",
+    "url": "https://arxiv.org/abs/2508.15763",
+    "year": "2025"
+   },
+   {
+    "title": "InternLM2 Technical Report",
+    "url": "https://arxiv.org/abs/2403.17297",
+    "year": "2024"
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Lab inaugurated",
+    "note": "Opened at the World AI Conference in Shanghai.",
+    "year": "2020"
+   },
+   {
+    "title": "InternLM2 technical report",
+    "note": "Described the open InternLM2 base and chat models.",
+    "year": "2024"
+   },
+   {
+    "title": "Intern-S1",
+    "note": "Released a scientific multimodal foundation model at the 2025 World AI Conference.",
+    "year": "2025"
+   },
+   {
+    "title": "Intern-S1-Pro",
+    "note": "Released a trillion-parameter mixture-of-experts scientific model in February 2026.",
+    "year": "2026"
+   }
+  ],
+  "_flag": "State-backed institution rather than an independent lab."
+ },
+ {
+  "id": "softcatala",
+  "contributions": [
+   {
+    "title": "Softcatala founded",
+    "note": "Volunteers began promoting Catalan in computing.",
+    "year": "1998"
+   },
+   {
+    "title": "Machine translation service",
+    "note": "Launched online Catalan translation.",
+    "year": "2000"
+   },
+   {
+    "title": "Move to Apertium",
+    "note": "Switched the translator to the free Apertium engine.",
+    "year": "2011"
+   },
+   {
+    "title": "Catalan Whisper models",
+    "note": "Fine-tuned whisper-base and whisper-small for Catalan during the Hugging Face Whisper sprint, under Apache 2.0.",
+    "year": "2023"
+   },
+   {
+    "title": "25th anniversary",
+    "note": "Marked 25 years of work.",
+    "year": "2023"
+   }
+  ]
+ },
+ {
+  "id": "speakleash",
+  "about": [
+   "SpeakLeash, also known as Spichlerz, is an open community project founded in 2022 that collects Polish text for language modeling. Sebastian Kondracki is described as co-creator.",
+   "The Bielik family of Polish models, from 1.5B to 11B parameters, was developed with ACK Cyfronet AGH, which provides the Helios supercomputer. Bielik 11B v2 has a technical report on arXiv, and Bielik 11B v3 followed in 2025 under Apache 2.0, with authors including Krzysztof Ociepa, Łukasz Flis, Remigiusz Kinas, Krzysztof Wróbel and Adrian Gwoździej.",
+   "Models and datasets are published on Hugging Face."
+  ],
+  "contributions": [
+   {
+    "title": "GitHub organization created",
+    "note": "Community data collection begins.",
+    "year": "2022"
+   },
+   {
+    "title": "Bielik 7B v0.1",
+    "note": "First Bielik model with a technical report.",
+    "year": "2024"
+   },
+   {
+    "title": "Bielik 11B v2",
+    "note": "Technical report published.",
+    "year": "2025"
+   },
+   {
+    "title": "Bielik 11B v3",
+    "note": "Instruct model released under Apache 2.0 on Hugging Face.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "spraakbanken",
+  "key_people": [
+   {
+    "name": "Lars Borin",
+    "role": "Professor of NLP",
+    "url": "https://spraakbanken.gu.se/en/about/staff",
+    "note": ""
+   },
+   {
+    "name": "Markus Forsberg",
+    "role": "Director of the department and national director of Språkbanken",
+    "url": "https://www.gu.se/en/about/find-staff/markusforsberg",
+    "note": ""
+   },
+   {
+    "name": "Aleksandrs Berdicevskis",
+    "role": "Vice director and associate professor",
+    "url": "https://www.gu.se/en/about/find-staff/aleksandrsberdicevskis",
+    "note": ""
+   },
+   {
+    "name": "Dana Dannélls",
+    "role": "Researcher and vice director",
+    "url": "https://www.gu.se/en/about/find-staff/danadannells",
+    "note": ""
+   }
+  ],
+  "about": [
+   "Språkbanken Text is a research and development unit at the University of Gothenburg, established in 1975 and among the world's oldest language technology units. It is now being renamed simply Språkbanken within a national infrastructure.",
+   "It builds research platforms including Korp (corpus search), Karp (lexicons), Mink, Sparv (text analysis) and Strix, and focuses on Swedish across historical periods. Lexical resources are released under CC-BY.",
+   "It takes part in CLARIN and HumInfra, and the national infrastructure is moving its news and data services to sprakbanken.se."
+  ]
+ }
+]

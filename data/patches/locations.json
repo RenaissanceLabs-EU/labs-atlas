@@ -1,0 +1,182 @@
+[
+ {
+  "id": "eleutherai",
+  "city": "Alexandria",
+  "country": "United States",
+  "lat": 38.8048,
+  "lon": -77.0469,
+  "_note": "Legal base per nonprofit registry profile (EleutherAI Institute, Alexandria VA); other aggregators list Washington DC or New York; team is distributed."
+ },
+ {
+  "id": "nous-research",
+  "city": "New York",
+  "country": "United States",
+  "lat": 40.7128,
+  "lon": -74.006,
+  "_note": "NYC office per company job postings."
+ },
+ {
+  "id": "mozilla-ai",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "_note": "CB Insights lists 2 Harrison St, SF; Dealroom lists Lisbon; remote-first."
+ },
+ {
+  "id": "prime-intellect",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "_note": "Company careers page names San Francisco HQ (501 Folsom St)."
+ },
+ {
+  "id": "cartesia",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194
+ },
+ {
+  "id": "genmo",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194
+ },
+ {
+  "id": "sesame",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194
+ },
+ {
+  "id": "chai-discovery",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194
+ },
+ {
+  "id": "center-for-ai-safety",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "_note": "Wikipedia infobox."
+ },
+ {
+  "id": "arc-prize",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "_note": "Every.org fundraising page lists San Francisco."
+ },
+ {
+  "id": "arc-institute",
+  "city": "Palo Alto",
+  "country": "United States",
+  "lat": 37.4419,
+  "lon": -122.143,
+  "_note": "Stanford Research Park, Palo Alto per Wikipedia."
+ },
+ {
+  "id": "lmarena",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "_note": "Most sources now list SF (earlier Berkeley)."
+ },
+ {
+  "id": "masakhane",
+  "_remove": true,
+  "_note": "Grassroots pan-African community; no registered address found for Masakhane Research Foundation."
+ },
+ {
+  "id": "crane-ai-labs",
+  "city": "Kampala",
+  "country": "Uganda",
+  "lat": 0.3476,
+  "lon": 32.5825,
+  "_note": "Kampala-based per DeepMind Gemmaverse and other pages."
+ },
+ {
+  "id": "joeyllm",
+  "_remove": true,
+  "_note": "Distributed volunteer community; no base found."
+ },
+ {
+  "id": "bigcode",
+  "city": "New York",
+  "country": "United States",
+  "lat": 40.7128,
+  "lon": -74.006,
+  "_note": "Open scientific collaboration hosted by Hugging Face (NYC legal HQ) and ServiceNow Research; no own HQ."
+ },
+ {
+  "id": "mlcommons",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "_note": "649 Mission St, 5th Floor per ISO committee listings; some sources list Beaverton OR."
+ },
+ {
+  "id": "axolotl",
+  "_remove": true,
+  "_note": "Remote company; only an aggregator lists SF, unconfirmed."
+ },
+ {
+  "id": "open-language-data-initiative",
+  "_remove": true,
+  "_note": "Organisers spread over many institutions; no host base."
+ },
+ {
+  "id": "pluralis-research",
+  "city": "San Francisco",
+  "country": "United States",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "_note": "Dealroom and job listings list SF."
+ },
+ {
+  "id": "zindi",
+  "city": "Cape Town",
+  "country": "South Africa",
+  "lat": -33.9249,
+  "lon": 18.4241,
+  "_note": "CB Insights and TechCrunch; some listings say Ebene, Mauritius."
+ },
+ {
+  "id": "digital-umuganda",
+  "city": "Kigali",
+  "country": "Rwanda",
+  "lat": -1.9441,
+  "lon": 30.0619
+ },
+ {
+  "id": "maritaca-ai",
+  "city": "Campinas",
+  "country": "Brazil",
+  "lat": -22.9099,
+  "lon": -47.0626,
+  "_note": "Unicamp spin-out based in Campinas."
+ },
+ {
+  "id": "bigscience",
+  "city": "Paris",
+  "country": "France",
+  "lat": 48.8566,
+  "lon": 2.3522,
+  "_note": "Coordinated by Hugging Face with French compute at IDRIS/GENCI; no own HQ."
+ },
+ {
+  "id": "somosnlp",
+  "_remove": true,
+  "_note": "Online community; no registered seat found."
+ }
+]

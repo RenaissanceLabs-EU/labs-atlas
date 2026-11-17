@@ -1,0 +1,1714 @@
+[
+ {
+  "id": "hooshvare",
+  "tagline": "A small non-profit Persian NLP lab that published ParsBERT, the first widely used monolingual BERT for Persian, along with Persian GPT-2 and NER models.",
+  "about": [
+   "Hooshvare Research Lab is a Tehran-based group that publishes open models and datasets for Persian natural language processing. Its GitHub organization describes it as a platform for sharing information about artificial intelligence concepts with enthusiasts. The lab's work is published through the Hooshvare organizations on GitHub and Hugging Face.",
+   "Its best-known release is ParsBERT, a monolingual BERT-style model for Persian described in a May 2020 preprint by Mehrdad Farahani, Mohammad Gharachorloo, Marzieh Farahani and Mohammad Manthouri. The paper reports gains over multilingual BERT on sentiment analysis, text classification and named entity recognition. The lab later added a Persian GPT-2 model, NER models, a news summarization dataset and workshop materials.",
+   "Code and weights are released under permissive licenses such as MIT and Apache 2.0, which has made the models a common baseline for Persian-language research and applications."
+  ],
+  "mission": "The lab aims to make capable language models and datasets for Persian freely available, so that researchers and developers working in the language are not limited to multilingual models built for other languages.",
+  "known_for": [
+   "ParsBERT, a monolingual Persian BERT",
+   "Persian GPT-2 and NER models",
+   "The pn-summary Persian summarization dataset"
+  ],
+  "contributions": [
+   {
+    "title": "ParsBERT preprint",
+    "note": "Introduced a Persian-specific BERT-Base model that outperformed multilingual BERT on three downstream tasks.",
+    "year": "2020"
+   },
+   {
+    "title": "pn-summary dataset",
+    "note": "Released a Persian news summarization dataset alongside ParsBERT-based summarization work.",
+    "year": "2020"
+   },
+   {
+    "title": "ParsBERT in Neural Processing Letters",
+    "note": "Peer-reviewed journal version of the ParsBERT work published in volume 53.",
+    "year": "2021"
+   },
+   {
+    "title": "Persian GPT-2 and NER models",
+    "note": "Published ParsGPT and ParsNER repositories to extend the Persian model family beyond encoders.",
+    "year": "2021"
+   },
+   {
+    "title": "ParsBERT workshop",
+    "note": "Published workshop material covering ParsBERT's architecture and applications.",
+    "year": "2021"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Mehrdad Farahani",
+    "role": "Lead author of ParsBERT",
+    "url": "https://github.com/m3hrdadfi",
+    "note": "Public member of the Hooshvare GitHub organization"
+   },
+   {
+    "name": "Mohammad Manthouri",
+    "role": "Co-author of the ParsBERT paper",
+    "url": "https://github.com/mmanthouri",
+    "note": "Public member of the Hooshvare GitHub organization"
+   },
+   {
+    "name": "Mohammad Gharachorloo",
+    "role": "Co-author of the ParsBERT paper",
+    "url": "https://arxiv.org/abs/2005.12515"
+   },
+   {
+    "name": "Marzieh Farahani",
+    "role": "Co-author of the ParsBERT paper",
+    "url": "https://arxiv.org/abs/2005.12515"
+   }
+  ]
+ },
+ {
+  "id": "hpc-ai-tech",
+  "tagline": "Singapore company behind Colossal-AI, an open-source stack for large-model training, and the Open-Sora video generation models.",
+  "about": [
+   "HPC-AI Tech was founded by Yang You, a professor at the National University of Singapore who earned his PhD at UC Berkeley. The company grew out of research on efficient distributed training and became known for Colossal-AI, an open-source software stack for training and serving large models. It raised a seed round of about six million dollars in 2022 and a 50 million dollar Series A announced in 2024.",
+   "Its open-source output includes Colossal-AI and Open-Sora, a video generation project that attracted wide attention on GitHub. Alongside these, the company operates a commercial GPU cloud platform and a model platform with OpenAI-compatible and Anthropic-compatible APIs, and offers enterprise services such as fine-tuning and performance optimization.",
+   "The business model combines free open-source infrastructure with paid cloud and services, so the open projects serve as the technical base of the commercial offering."
+  ],
+  "mission": "The company aims to lower the cost and complexity of training and running large AI models, and to keep the core tooling open while selling cloud and enterprise services on top.",
+  "known_for": [
+   "Colossal-AI large-model training stack",
+   "Open-Sora open video generation",
+   "Founded by NUS professor Yang You"
+  ],
+  "contributions": [
+   {
+    "title": "Colossal-AI",
+    "note": "Open-sourced a distributed training system that unifies data, tensor and pipeline parallelism for large models.",
+    "year": "2021"
+   },
+   {
+    "title": "Seed and angel round",
+    "note": "Completed a seed and angel financing round of about six million dollars led by BlueRun Ventures.",
+    "year": "2022"
+   },
+   {
+    "title": "Open-Sora",
+    "note": "Released an open video generation project that reached the top of GitHub trending.",
+    "year": "2024"
+   },
+   {
+    "title": "Series A",
+    "note": "Announced a 50 million dollar Series A to expand video generation and its GPU platform.",
+    "year": "2024"
+   },
+   {
+    "title": "HPC-AI.COM cloud platform",
+    "note": "Offers pay-as-you-go access to datacenter GPUs and a hosted model platform.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Yang You",
+    "role": "Founder; professor at the National University of Singapore",
+    "url": "https://businesswire.com/news/home/20240930418520/en",
+    "note": "Named as founder in company funding coverage"
+   }
+  ]
+ },
+ {
+  "id": "hugging-face",
+  "tagline": "The company behind the Hugging Face Hub and the Transformers, Diffusers and Datasets libraries, the central platform for sharing open models and datasets.",
+  "about": [
+   "Hugging Face was founded in 2016 in New York by Clément Delangue, Julien Chaumond and Thomas Wolf. It began as a chatbot app for teenagers and shifted to machine learning tooling after the team open-sourced the model behind the app. Delangue is chief executive, Chaumond is chief technology officer and Wolf is chief science officer.",
+   "The company's open-source libraries, notably Transformers, became standard tools for working with pretrained models, and the Hub grew into the main place where researchers and companies publish models and datasets. In 2021 it launched the BigScience workshop, which produced the 176-billion-parameter multilingual BLOOM model in 2022. It also has a large presence in Paris and has expanded into robotics through the 2025 acquisition of Pollen Robotics.",
+   "Hugging Face earns revenue from hosted services and enterprise offerings while keeping its libraries and much of its research open. In September 2026 Nvidia announced an agreement to acquire the company, pending regulatory approval."
+  ],
+  "mission": "Hugging Face states its aim as democratizing good machine learning by making models, datasets and tools open and shared by a community.",
+  "known_for": [
+   "The Hugging Face Hub for open models and datasets",
+   "The Transformers library",
+   "Coordinating the BigScience BLOOM project"
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Founded in New York as a chatbot app before pivoting to machine learning infrastructure.",
+    "year": "2016"
+   },
+   {
+    "title": "Transformers library",
+    "note": "Released the library that unified access to pretrained language models across frameworks.",
+    "year": "2019"
+   },
+   {
+    "title": "BigScience workshop",
+    "note": "Launched a year-long open research workshop to build a large multilingual language model.",
+    "year": "2021"
+   },
+   {
+    "title": "BLOOM",
+    "note": "BigScience announced BLOOM, a 176-billion-parameter multilingual open model.",
+    "year": "2022"
+   },
+   {
+    "title": "Series D funding",
+    "note": "Raised 235 million dollars at a 4.5 billion dollar valuation.",
+    "year": "2023"
+   },
+   {
+    "title": "Pollen Robotics acquisition",
+    "note": "Acquired the French humanoid robotics startup Pollen Robotics.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Clément Delangue",
+    "role": "Co-founder and CEO",
+    "url": "https://huggingface.co/clem"
+   },
+   {
+    "name": "Julien Chaumond",
+    "role": "Co-founder and CTO",
+    "url": "https://huggingface.co/julien-c"
+   },
+   {
+    "name": "Thomas Wolf",
+    "role": "Co-founder and Chief Science Officer",
+    "url": "https://huggingface.co/thomwolf"
+   }
+  ],
+  "founded": 2016,
+  "_flag": "Wikipedia reports that in September 2026 Nvidia announced an agreement to acquire Hugging Face for about 12.9 billion dollars, which would end its independence once it closes."
+ },
+ {
+  "id": "idiap",
+  "tagline": "Independent Swiss non-profit research institute in Martigny working on speech, vision and machine learning, and the home of the original Torch library.",
+  "about": [
+   "Idiap Research Institute was created in 1991 as an autonomous non-profit foundation in Martigny, Switzerland, at the initiative of the Dalle Molle Foundation. Its founding partners include the City of Martigny, the Canton of Valais, EPFL, the University of Geneva and Swisscom. The Swiss Confederation recognizes it as an institute of national importance.",
+   "The institute researches speech and audio processing, computer vision, biometrics and machine learning under the tagline Artificial Intelligence for Society. In 2002 researchers there developed Torch, an early machine learning library that is a forerunner of PyTorch. Idiap also coordinated the national research center on interactive multimodal information management from 2001 to 2013, spun out companies such as Klewel in 2007, and has become a certified biometric testing center.",
+   "The institute publishes a large amount of open-source code and datasets on GitHub and Hugging Face. As of 2026 it is led by an interim management team while it recruits a new director."
+  ],
+  "mission": "Idiap aims to advance research, innovation and education in artificial intelligence for the benefit of society, while remaining a non-profit and independent institute.",
+  "known_for": [
+   "Torch, an early forerunner of PyTorch",
+   "Speech, vision and biometrics research",
+   "Extensive open-source research software"
+  ],
+  "contributions": [
+   {
+    "title": "Institute founded",
+    "note": "Created in Martigny as an autonomous non-profit research foundation.",
+    "year": "1991"
+   },
+   {
+    "title": "NCCR IM2",
+    "note": "Began coordinating a Swiss national research center on interactive multimodal information management, which ran until 2013.",
+    "year": "2001"
+   },
+   {
+    "title": "Torch",
+    "note": "Researchers Samy Bengio, Ronan Collobert and Johnny Mariéthoz developed the Torch machine learning library.",
+    "year": "2002"
+   },
+   {
+    "title": "Klewel spin-off",
+    "note": "Founded the institute's first spin-off company.",
+    "year": "2007"
+   },
+   {
+    "title": "Idiap Create Challenge",
+    "note": "Hosted the first nine-day AI entrepreneurship hackathon.",
+    "year": "2011"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Sébastien Marcel",
+    "role": "Member of the interim management team",
+    "url": "https://www.idiap.ch/en/about",
+    "note": "Named on the institute's own about page"
+   },
+   {
+    "name": "Samy Bengio",
+    "role": "Co-developer of Torch",
+    "url": "https://en.wikipedia.org/wiki/Idiap_Research_Institute"
+   },
+   {
+    "name": "Ronan Collobert",
+    "role": "Co-developer of Torch",
+    "url": "https://en.wikipedia.org/wiki/Idiap_Research_Institute"
+   },
+   {
+    "name": "Johnny Mariéthoz",
+    "role": "Co-developer of Torch",
+    "url": "https://en.wikipedia.org/wiki/Idiap_Research_Institute"
+   }
+  ],
+  "founded": 1991
+ },
+ {
+  "id": "ilsp-athena",
+  "tagline": "Greek language technology institute at Athena Research Center that released Meltemi, the first open large language model for Greek, and Llama-Krikri.",
+  "about": [
+   "The Institute for Language and Speech Processing (ILSP) is part of Athena Research Center in Athens and works on language and speech technology. It has recently marked 35 years of activity. Its research covers language resources, speech processing and, more recently, large language models for Greek.",
+   "In March 2024 the institute released Meltemi 7B, trained on a corpus of about 40 billion Greek tokens, and described as the first open large language model for Greek in a July 2024 paper. It followed with Llama-Krikri-8B, built on Llama 3.1 with an extended Greek tokenizer and a 128k context window, trained on about 56.7 billion Greek tokens and supporting polytonic and Ancient Greek.",
+   "Models and instruction-tuned variants are published on Hugging Face under the ilsp organization, giving Greek developers and researchers open alternatives to general multilingual models."
+  ],
+  "mission": "ILSP develops language and speech technology for Greek and openly releases the resulting models and resources so that the language is well supported in modern AI systems.",
+  "known_for": [
+   "Meltemi, the first open Greek LLM",
+   "Llama-Krikri Greek models",
+   "Greek language and speech resources"
+  ],
+  "contributions": [
+   {
+    "title": "Meltemi 7B",
+    "note": "Released the first open large language model for Greek, trained on about 40 billion Greek tokens.",
+    "year": "2024"
+   },
+   {
+    "title": "Meltemi paper",
+    "note": "Published a technical paper describing Meltemi and its evaluation.",
+    "year": "2024"
+   },
+   {
+    "title": "Llama-Krikri-8B",
+    "note": "Released a Greek foundation model based on Llama 3.1 with Greek vocabulary extension and 128k context.",
+    "year": "2025"
+   },
+   {
+    "title": "Krikri Instruct v1.5",
+    "note": "Published an instruction-tuned update of the Krikri family.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Vassilis Katsouros",
+    "role": "Co-author of the Meltemi paper",
+    "url": "https://arxiv.org/abs/2407.20743"
+   },
+   {
+    "name": "Leon Voukoutis",
+    "role": "Co-author of the Meltemi paper",
+    "url": "https://arxiv.org/abs/2407.20743"
+   },
+   {
+    "name": "Dimitris Roussis",
+    "role": "Co-author of the Meltemi paper",
+    "url": "https://arxiv.org/abs/2407.20743"
+   },
+   {
+    "name": "Georgios Paraskevopoulos",
+    "role": "Co-author of the Meltemi paper",
+    "url": "https://arxiv.org/abs/2407.20743"
+   }
+  ]
+ },
+ {
+  "id": "insait",
+  "tagline": "Bulgarian AI and computer science institute at Sofia University, in partnership with ETH Zurich and EPFL, behind the BgGPT and MamayLM open language models.",
+  "about": [
+   "INSAIT, the Institute for Computer Science, Artificial Intelligence and Technology, was created by decree of the Bulgarian Council of Ministers in February 2021 and began operations in April 2022. It is hosted at Sofia University and set up in partnership with ETH Zurich, EPFL and the Government of Bulgaria. Its founder and scientific director is Martin Vechev, a professor at ETH Zurich.",
+   "The Bulgarian government committed about 85 million euros over ten years, and donors include Google, AWS, DeepMind, SiteGround and VMware. Besides foundation models, the institute runs research in computer vision, robotics, security and formal methods, and spins out companies such as LogicStar AI.",
+   "Its open model line includes BgGPT for Bulgarian and MamayLM for Ukrainian, which was developed with ETH Zurich on Gemma 2 9B. In 2024 it also released COMPL-AI, a framework for evaluating models against the EU AI Act."
+  ],
+  "mission": "INSAIT states its mission as achieving excellence in science, research and education, and it applies this to building language technology for under-served European languages.",
+  "known_for": [
+   "BgGPT, open Bulgarian language models",
+   "MamayLM for Ukrainian",
+   "COMPL-AI EU AI Act evaluation framework"
+  ],
+  "contributions": [
+   {
+    "title": "Institute created by decree",
+    "note": "The Bulgarian Council of Ministers formally created INSAIT with ETH Zurich, EPFL and Sofia University.",
+    "year": "2021"
+   },
+   {
+    "title": "Operations begin",
+    "note": "INSAIT officially began operations in Sofia.",
+    "year": "2022"
+   },
+   {
+    "title": "AI Alliance founding member",
+    "note": "Joined the AI Alliance as a founding member.",
+    "year": "2023"
+   },
+   {
+    "title": "COMPL-AI",
+    "note": "Released an evaluation framework for EU AI Act compliance with ETH Zurich and LatticeFlow AI.",
+    "year": "2024"
+   },
+   {
+    "title": "BgGPT public release",
+    "note": "Published the BgGPT open models for Bulgarian.",
+    "year": "2024"
+   },
+   {
+    "title": "MamayLM",
+    "note": "Released the Ukrainian model MamayLM, co-developed with ETH Zurich.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Martin Vechev",
+    "role": "Founder and Scientific Director",
+    "url": "https://insait.ai"
+   },
+   {
+    "name": "Borislav Petrov",
+    "role": "Executive Director",
+    "url": "https://en.wikipedia.org/wiki/INSAIT"
+   },
+   {
+    "name": "Virginia Vassilevska Williams",
+    "role": "Professor listed on INSAIT's site",
+    "url": "https://insait.ai"
+   },
+   {
+    "name": "Andreas Krause",
+    "role": "Professor listed on INSAIT's site",
+    "url": "https://insait.ai"
+   },
+   {
+    "name": "Srdjan Capkun",
+    "role": "Professor listed on INSAIT's site",
+    "url": "https://insait.ai"
+   }
+  ]
+ },
+ {
+  "id": "ml-jku",
+  "tagline": "Johannes Kepler University's machine learning institute, led by Sepp Hochreiter, the inventor of LSTM and a driver of modern Hopfield networks and xLSTM.",
+  "about": [
+   "The Institute for Machine Learning at Johannes Kepler University Linz has been led since 2018 by Sepp Hochreiter. Hochreiter developed the long short-term memory architecture in his 1991 diploma thesis and published it with Jürgen Schmidhuber in 1997. He previously led the university's Institute of Bioinformatics and heads the LIT AI Lab, which he took over in 2017.",
+   "The group works on machine learning and statistical methods. Its researchers introduced modern Hopfield networks with continuous states in 2020 and applied them to immune repertoire classification. In 2024 the group and collaborators published xLSTM, an extended LSTM architecture presented at NeurIPS, and the company NXAI, where Hochreiter is chief scientist, builds industrial models on it.",
+   "Code and models appear on the institute's GitHub and Hugging Face organizations."
+  ],
+  "mission": "The institute develops and applies machine learning and statistical methods, with a stated emphasis on deep learning fundamentals and their use in science and industry.",
+  "known_for": [
+   "Invention of LSTM",
+   "Modern Hopfield networks",
+   "xLSTM architecture"
+  ],
+  "contributions": [
+   {
+    "title": "LSTM",
+    "note": "Hochreiter and Schmidhuber published the long short-term memory architecture in Neural Computation.",
+    "year": "1997"
+   },
+   {
+    "title": "LIT AI Lab",
+    "note": "Hochreiter became head of the Linz Institute of Technology AI Lab.",
+    "year": "2017"
+   },
+   {
+    "title": "Institute for Machine Learning",
+    "note": "Hochreiter began leading the Institute for Machine Learning at JKU.",
+    "year": "2018"
+   },
+   {
+    "title": "Modern Hopfield networks",
+    "note": "Ramsauer and colleagues introduced Hopfield networks with continuous states.",
+    "year": "2020"
+   },
+   {
+    "title": "xLSTM",
+    "note": "Published Extended LSTM at NeurIPS as a scalable alternative to Transformers and state space models.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Sepp Hochreiter",
+    "role": "Head of the institute",
+    "url": "https://en.wikipedia.org/wiki/Sepp_Hochreiter"
+   },
+   {
+    "name": "Günter Klambauer",
+    "role": "Researcher, Hopfield and xLSTM co-author",
+    "url": "https://www.jku.at/en/institute-for-machine-learning/"
+   },
+   {
+    "name": "Maximilian Beck",
+    "role": "First author of xLSTM",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c2ce2f2701c10a2b2f2ea0bfa43cfaa3-Paper-Conference.pdf"
+   },
+   {
+    "name": "Korbinian Pöppel",
+    "role": "Co-author of xLSTM",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c2ce2f2701c10a2b2f2ea0bfa43cfaa3-Paper-Conference.pdf"
+   },
+   {
+    "name": "Johannes Brandstetter",
+    "role": "Co-author of xLSTM",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2024/file/c2ce2f2701c10a2b2f2ea0bfa43cfaa3-Paper-Conference.pdf"
+   }
+  ]
+ },
+ {
+  "id": "institute-of-foundation-models",
+  "tagline": "MBZUAI research institute that sponsors LLM360, the fully open effort behind the Amber, K2 and TxT360 releases, and the K2 Horizon model family.",
+  "about": [
+   "The Institute of Foundation Models (IFM) is a research unit of the Mohamed bin Zayed University of Artificial Intelligence in Abu Dhabi, launched publicly in May 2025. The LLM360 project, which states it is proudly sponsored by the institute, publishes open large language models together with their training data, code and checkpoints. The LLM360 Hugging Face organization notes that its namespace has moved to IFM.",
+   "LLM360's releases include Amber-7B, Crystal-7B, the 65-billion-parameter K2 trained on 1.4 trillion tokens, and TxT360, a pre-training dataset that deduplicates 99 Common Crawl snapshots and 14 other sources. In September 2026 the institute released K2 Horizon, six fully open models from 0.9 to 375 billion parameters.",
+   "The institute also coordinates the Jais Arabic models and operates with a Silicon Valley lab alongside its Abu Dhabi base."
+  ],
+  "mission": "LLM360 aims to enable community-owned AI through open large model research, creating standards and tools for capability and knowledge transfer. The institute releases weights, code, data and training details.",
+  "known_for": [
+   "LLM360 fully open model releases",
+   "K2 and K2 Horizon models",
+   "TxT360 pre-training dataset"
+  ],
+  "contributions": [
+   {
+    "title": "Amber-7B and Crystal-7B",
+    "note": "Released open 7B models with full training artifacts and chat variants.",
+    "year": "2023"
+   },
+   {
+    "title": "K2-65B",
+    "note": "Released a 65B model trained on 1.4 trillion tokens that LLM360 reports matches Llama 2 70B with less compute.",
+    "year": "2024"
+   },
+   {
+    "title": "TxT360",
+    "note": "Released a pre-training dataset globally deduplicating 99 Common Crawl snapshots and 14 other sources.",
+    "year": "2024"
+   },
+   {
+    "title": "Institute launch",
+    "note": "MBZUAI launched the Institute of Foundation Models and a Silicon Valley lab.",
+    "year": "2025"
+   },
+   {
+    "title": "K2 Horizon",
+    "note": "Released six fully open models from 0.9B to 375B parameters with data and methodology.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Eric Xing",
+    "role": "President of MBZUAI, speaking for the institute at launch",
+    "url": "https://mbzuai.ac.ae/news/mbzuai-launches-institute-of-foundation-models-and-establishes-silicon-valley-ai-lab/"
+   }
+  ],
+  "summary": "Research institute at MBZUAI in Abu Dhabi that sponsors LLM360, the open model and data effort. The legacy LLM360 Hugging Face organization notes that its namespace has moved to the Institute of Foundation Models."
+ },
+ {
+  "id": "issai",
+  "tagline": "Nazarbayev University's institute for AI in Kazakhstan, publishing open Kazakh speech corpora, TTS data and the KazLLM language model.",
+  "about": [
+   "The Institute of Smart Systems and Artificial Intelligence (ISSAI) was founded in September 2019 at Nazarbayev University in Astana. It was set up to build national research capacity in artificial intelligence and draws on experience from institutions in Asia, Europe and North America. Its home is the university's campus on Kabanbay Batyr Avenue.",
+   "ISSAI is known for open resources for the Kazakh language, including the Kazakh Speech Corpus, whose second edition holds about 1,200 hours of transcribed speech with Kazakh-Russian code-switching, and the KazakhTTS corpora. It worked with the Ministry of Science and Higher Education on KazLLM, whose open-source version is on Hugging Face.",
+   "The institute also runs applied projects such as the Tilsync partnership offering and publishes code on GitHub under the IS2AI organization."
+  ],
+  "mission": "ISSAI aims to develop a national capacity for artificial intelligence research in Kazakhstan, with a focus on the Kazakh language and open resources.",
+  "known_for": [
+   "Kazakh Speech Corpus",
+   "KazakhTTS corpora",
+   "KazLLM"
+  ],
+  "contributions": [
+   {
+    "title": "ISSAI founded",
+    "note": "Established at Nazarbayev University to build national AI research capacity.",
+    "year": "2019"
+   },
+   {
+    "title": "Kazakh Speech Corpus",
+    "note": "Published a crowdsourced open Kazakh speech corpus with baseline recognition results.",
+    "year": "2021"
+   },
+   {
+    "title": "KazakhTTS2",
+    "note": "Expanded the open Kazakh TTS corpus from 93 to 271 hours with five speakers.",
+    "year": "2022"
+   },
+   {
+    "title": "KSC2",
+    "note": "Released the second Kazakh Speech Corpus of roughly 1,200 hours with code-switched speech.",
+    "year": "2022"
+   },
+   {
+    "title": "KazLLM",
+    "note": "Contributed to a Kazakh large language model built with the Ministry, with an open version on Hugging Face.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Atakan Varol",
+    "role": "Researcher and co-author of Kazakh speech corpora",
+    "url": "https://issai.nu.edu.kz/kz-speech-corpus/"
+   }
+  ],
+  "founded": 2019
+ },
+ {
+  "id": "kblab",
+  "tagline": "Data lab inside the National Library of Sweden that trains open Swedish language and speech models, including KB-BERT and KB-Whisper, on the library's collections.",
+  "about": [
+   "KBLab is a research department within the National Library of Sweden, set up in 2019 as a national research infrastructure for digital humanities and social science. It gives researchers access to the library's collections in structured form. The lab is directed by Love Börjeson.",
+   "Using the legal-deposit and digitized holdings, KBLab trains Swedish models. Its 2020 paper by Martin Malmsten, Love Börjeson and Chris Haffenden introduced KB-BERT. The lab later released KB-Whisper, speech recognition models trained on more than 50,000 hours of Swedish speech, which it reports outperform OpenAI's Whisper at each size on Swedish.",
+   "Models are published on Hugging Face, with the large KB-Whisper model under the Apache 2.0 license."
+  ],
+  "mission": "KBLab aims to make the National Library's collections usable for research through language and speech models and open tools, supporting digital humanities and social science.",
+  "known_for": [
+   "KB-BERT Swedish language model",
+   "KB-Whisper Swedish speech recognition",
+   "Models trained on national library collections"
+  ],
+  "contributions": [
+   {
+    "title": "KBLab established",
+    "note": "The National Library set up an integrated data lab for research.",
+    "year": "2019"
+   },
+   {
+    "title": "KB-BERT",
+    "note": "Published the paper on building a Swedish BERT model from the library's collections.",
+    "year": "2020"
+   },
+   {
+    "title": "KB-Whisper",
+    "note": "Released Swedish Whisper models trained on over 50,000 hours of speech, in sizes from tiny to large.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Love Börjeson",
+    "role": "Director of KBLab",
+    "url": "https://arxiv.org/abs/2007.01658"
+   },
+   {
+    "name": "Martin Malmsten",
+    "role": "Author of the KB-BERT paper",
+    "url": "https://arxiv.org/abs/2007.01658"
+   },
+   {
+    "name": "Chris Haffenden",
+    "role": "Author of the KB-BERT paper",
+    "url": "https://arxiv.org/abs/2007.01658"
+   }
+  ]
+ },
+ {
+  "id": "kinit",
+  "tagline": "Independent Slovak non-profit research institute for intelligent technologies, known for SlovakBERT and open Slovak NLP benchmarks.",
+  "about": [
+   "The Kempelen Institute of Intelligent Technologies (KInIT) is an independent, non-profit institute in Bratislava. It was set up with backing from Slovak companies including ESET, Tatra banka, Innovatrics and Softec, and aims to connect the private and public sectors with multidisciplinary research. Mária Bieliková is Director General.",
+   "Its research areas include web and user data processing and disinformation, natural language processing, data analysis for green energy, information security, and ethics of intelligent technologies. In 2021 its NLP team consulted on and evaluated SlovakBERT, the first public large neural language model for Slovak, trained with partner Gerulata Technologies.",
+   "The institute publishes Slovak models and benchmarks, including the 2025 skLEP benchmark, on Hugging Face and GitHub."
+  ],
+  "mission": "KInIT states that it aims to improve Slovakia's competitiveness through multidisciplinary research on intelligent technologies, connect companies and public bodies, and encourage responsible innovation and talent development.",
+  "known_for": [
+   "SlovakBERT evaluation and release",
+   "Slovak NLP benchmarks such as skLEP",
+   "Disinformation and trustworthy AI research"
+  ],
+  "contributions": [
+   {
+    "title": "SlovakBERT",
+    "note": "Published the first public large Slovak neural language model with Gerulata Technologies, evaluated by KInIT.",
+    "year": "2021"
+   },
+   {
+    "title": "skLEP benchmark",
+    "note": "Co-authored a Slovak language understanding benchmark.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Mária Bieliková",
+    "role": "Director General",
+    "url": "https://www.kinit.sk/about-us/"
+   },
+   {
+    "name": "Marián Šimko",
+    "role": "Deputy Director General",
+    "url": "https://www.kinit.sk/about-us/"
+   },
+   {
+    "name": "Michal Kompan",
+    "role": "Chief Research and Innovations Officer",
+    "url": "https://www.kinit.sk/about-us/"
+   },
+   {
+    "name": "Ivan Sokáč",
+    "role": "Chief Operating and Strategy Officer",
+    "url": "https://www.kinit.sk/about-us/"
+   }
+  ]
+ },
+ {
+  "id": "kotoba-technologies",
+  "tagline": "Voice AI company that released the Kotoba-Whisper Japanese speech recognition models and builds real-time speech and translation models.",
+  "about": [
+   "Kotoba Technologies was founded in 2023 by Noriyuki Kojima, chief executive, and Jungo Kasai, chief technology officer. The company is incorporated in San Francisco with a Tokyo operations office and describes itself as a frontier voice AI company with expertise in East Asian languages.",
+   "It is known for Kotoba-Whisper, distilled Whisper models for Japanese speech recognition developed with Asahi Ushio. Version 1.0 appeared in April 2024, trained on the ReazonSpeech corpus, with version 2.0 following in September 2024. Its newer Koto model targets low-latency text-to-speech, speech-to-text and speech translation that can run on-premise or on-device.",
+   "A Seed round of about 11.8 million dollars led by Globis Capital Partners was reported in 2025."
+  ],
+  "mission": "The company aims to build real-time speech models and simultaneous translation across languages, with a focus on East Asian languages.",
+  "known_for": [
+   "Kotoba-Whisper Japanese ASR models",
+   "Real-time speech translation",
+   "Koto voice model"
+  ],
+  "contributions": [
+   {
+    "title": "Company incorporated",
+    "note": "Kotoba Technologies, Inc. was incorporated in July and its Japanese entity in October.",
+    "year": "2023"
+   },
+   {
+    "title": "Kotoba-Whisper v1.0",
+    "note": "Released distilled Whisper models for Japanese ASR.",
+    "year": "2024"
+   },
+   {
+    "title": "Kotoba-Whisper v2.0",
+    "note": "Released an updated Japanese ASR model in September.",
+    "year": "2024"
+   },
+   {
+    "title": "Second seed round",
+    "note": "Reported a seed round of about 11.8 million dollars led by Globis Capital Partners.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Noriyuki Kojima",
+    "role": "Co-founder and CEO",
+    "url": "https://site.kotoba.tech/company"
+   },
+   {
+    "name": "Jungo Kasai",
+    "role": "Co-founder and CTO",
+    "url": "https://site.kotoba.tech/company"
+   },
+   {
+    "name": "Asahi Ushio",
+    "role": "Developer of Kotoba-Whisper",
+    "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v1.0"
+   }
+  ],
+  "founded": 2023,
+  "summary": "Voice AI company, incorporated in 2023 with offices in San Francisco and Tokyo, that released the Kotoba-Whisper Japanese speech recognition models and builds real-time speech and translation models.",
+  "_flag": "The company's homepage carries a press item dated 16 November 2026 saying Kotoba is joining ElevenLabs, which would end its independence; this could not be confirmed on a second page."
+ },
+ {
+  "id": "kyutai",
+  "tagline": "Paris non-profit open-science lab building speech-native and multimodal models, creator of Moshi, Mimi, Unmute and Helium.",
+  "about": [
+   "Kyutai is an open-science AI research lab in Paris, funded by the Iliad Group, the CMA CGM Group and Schmidt Sciences. Its team is led by Patrick Pérez as chief executive, with Alexandre Défossez as head of research and Laurent Mazaré as head of engineering. Edouard Grave and Hervé Jegou are listed among its alumni.",
+   "The lab is known for Moshi, described as the first speech-native dialogue system, which processes speech directly rather than converting it to text and back. It also released Unmute, which gives any text model real-time listening and speaking, and Helium, a multilingual two-billion-parameter language model. Papers, code and weights are published openly.",
+   "Its recent research output covers text-to-speech, video autoencoders and world models."
+  ],
+  "mission": "Kyutai aims to advance open research on speech and multimodal AI, publishing models, code and papers for the community.",
+  "known_for": [
+   "Moshi speech-native dialogue model",
+   "Unmute streaming speech interface",
+   "Helium multilingual language model"
+  ],
+  "contributions": [
+   {
+    "title": "Lab launched",
+    "note": "Kyutai was announced in Paris as a non-profit open-science lab.",
+    "year": "2023"
+   },
+   {
+    "title": "Moshi",
+    "note": "Released a real-time speech-native dialogue model with open weights.",
+    "year": "2024"
+   },
+   {
+    "title": "Mimi codec",
+    "note": "Published the streaming neural audio codec that underpins Moshi.",
+    "year": "2024"
+   },
+   {
+    "title": "Unmute",
+    "note": "Released a system adding real-time speech input and output to text models.",
+    "year": "2025"
+   },
+   {
+    "title": "Helium 1",
+    "note": "Released a modular multilingual language model of 2B parameters.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Patrick Pérez",
+    "role": "Chief Executive Officer",
+    "url": "https://ptrckprz.github.io/"
+   },
+   {
+    "name": "Alexandre Défossez",
+    "role": "Head of Research",
+    "url": "https://scholar.google.fr/citations?user=DubNUU0AAAAJ"
+   },
+   {
+    "name": "Laurent Mazaré",
+    "role": "Head of Engineering",
+    "url": "https://github.com/LaurentMazare"
+   },
+   {
+    "name": "Neil Zeghidour",
+    "role": "Audio Research Advisor",
+    "url": "https://scholar.google.com/citations?user=fiJamZ0AAAAJ"
+   },
+   {
+    "name": "Václav Volhejn",
+    "role": "Technical staff",
+    "url": "https://vvolhejn.com/"
+   },
+   {
+    "name": "Amélie Royer",
+    "role": "Technical staff",
+    "url": "https://ameroyer.github.io"
+   }
+  ]
+ },
+ {
+  "id": "laion",
+  "tagline": "German non-profit that releases large open datasets, tools and models for AI research, best known for LAION-400M, LAION-5B and OpenCLIP.",
+  "about": [
+   "LAION, the Large-scale Artificial Intelligence Open Network, is a non-profit research network based in Germany that makes machine learning resources available to the public. It is supported by donations and public research grants. Its volunteers include Christoph Schuhmann, Jenia Jitsev and Romain Beaumont.",
+   "In 2021 it released LAION-400M, an image-text dataset recreating the kind of data used for CLIP, followed by LAION-5B in 2022, the largest openly available image-text dataset at the time. Stable Diffusion was trained on it, and LAION members helped train OpenCLIP models on it. In 2023 it co-organised the OpenAssistant crowd-sourced conversation project.",
+   "After Stanford researchers reported suspected abuse material links in LAION-5B in December 2023, LAION withdrew its datasets and in August 2024 released a cleaned Re-LAION-5B."
+  ],
+  "mission": "LAION states that it makes large-scale machine learning resources, including datasets, tools and open models, available to the public for research and education.",
+  "known_for": [
+   "LAION-5B image-text dataset",
+   "OpenCLIP models",
+   "OpenAssistant"
+  ],
+  "contributions": [
+   {
+    "title": "LAION-400M",
+    "note": "Released 400 million image-text pairs filtered with CLIP.",
+    "year": "2021"
+   },
+   {
+    "title": "LAION-5B",
+    "note": "Released over 5 billion image-text pairs, used to train Stable Diffusion.",
+    "year": "2022"
+   },
+   {
+    "title": "Reproducible scaling laws",
+    "note": "Published OpenCLIP scaling-law research using LAION-2B.",
+    "year": "2022"
+   },
+   {
+    "title": "OpenAssistant",
+    "note": "Released an open chat assistant and dataset built by volunteers.",
+    "year": "2023"
+   },
+   {
+    "title": "Dataset takedown",
+    "note": "Removed LAION-5B and LAION-400M temporarily after a report of illegal content.",
+    "year": "2023"
+   },
+   {
+    "title": "Re-LAION-5B",
+    "note": "Released a cleaned version of the dataset.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Christoph Schuhmann",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/LAION"
+   },
+   {
+    "name": "Jenia Jitsev",
+    "role": "Co-founder, Jülich Supercomputing Centre",
+    "url": "https://en.wikipedia.org/wiki/LAION"
+   },
+   {
+    "name": "Romain Beaumont",
+    "role": "Core contributor, OpenCLIP model training",
+    "url": "https://arxiv.org/abs/2210.08402"
+   },
+   {
+    "name": "Richard Vencu",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/LAION"
+   },
+   {
+    "name": "Mehdi Cherti",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/LAION"
+   }
+  ]
+ },
+ {
+  "id": "lang-uk",
+  "tagline": "Volunteer community of Ukrainian NLP specialists building open corpora, models and tools for the Ukrainian language.",
+  "about": [
+   "lang-uk is an informal community of programmers, linguists and researchers that supports existing projects and starts new ones to collect Ukrainian text corpora and other language data. Its work is hosted in the lang-uk GitHub organization and on Hugging Face, and the community is open to new members. Ukrainian media first covered its results after its first year of work in 2015.",
+   "Co-founder Vsevolod Dyomkin has described the project's main task as collecting and maintaining data, models and tools for processing Ukrainian. Mariana Romanyshyn led a group of linguists who began collecting open Ukrainian text data, and Dmytro Chaplynskyi is credited on the UberText 2.0 corpus paper. The Ukrainian Catholic University and the Kyiv School of Economics are listed as partners.",
+   "Its resources serve scientists, entrepreneurs and journalists, covering services, models, libraries, dictionaries, gazetteers, corpora and datasets."
+  ],
+  "mission": "The community aims to create the conditions for full processing of Ukrainian-language text by gathering and openly sharing corpora, tools and models.",
+  "known_for": [
+   "Open Ukrainian corpora and datasets",
+   "UberText 2.0 corpus",
+   "Ukrainian NLP tooling and models"
+  ],
+  "contributions": [
+   {
+    "title": "First-year report",
+    "note": "Published an account of the community's first year of results on DOU.",
+    "year": "2015"
+   },
+   {
+    "title": "Project announcement",
+    "note": "Announced the lang-uk initiative to build conditions for Ukrainian text processing.",
+    "year": "2016"
+   },
+   {
+    "title": "UberText 2.0",
+    "note": "Contributors published the UberText 2.0 Ukrainian text corpus at the UNLP workshop.",
+    "year": "2023"
+   },
+   {
+    "title": "UNLP workshop",
+    "note": "Members helped organize the Ukrainian NLP workshop, including its 2024 edition.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Vsevolod Dyomkin",
+    "role": "Co-founder of lang-uk",
+    "url": "https://lang.org.ua"
+   },
+   {
+    "name": "Mariana Romanyshyn",
+    "role": "Led early open data collection; UNLP organizer",
+    "url": "https://dou.ua/lenta/columns/lang-uk/"
+   },
+   {
+    "name": "Dmytro Chaplynskyi",
+    "role": "Author of the UberText 2.0 paper, affiliated with lang-uk",
+    "url": "https://aclanthology.org/2023.unlp-1.1.pdf"
+   }
+  ]
+ },
+ {
+  "id": "ltg-oslo",
+  "tagline": "University of Oslo research group in natural language processing behind the NorBERT models, the NorBench benchmark and Norwegian generative models.",
+  "about": [
+   "The Language Technology Group (LTG) is part of the Department of Informatics at the University of Oslo, led by Lilja Øvrelid. Its members include Stephan Oepen, Erik Velldal, Andrey Kutuzov, Yves Scherrer, Pierre Lison and David Samuel. The group works on natural language processing and large language models, including for Norwegian.",
+   "It released NorBERT in January 2021 and NorBERT 2 in February 2022, then the NorBERT 3 family and the NorBench benchmark in 2023. The group has also trained generative Norwegian models such as NorMistral and NorBLOOM. Projects it participates in include HPLT, OpenEuroLLM, NorwAI, Integreat and MediaFutures.",
+   "The group coordinates the Nordic Language Processing Laboratory and publishes code and models on GitHub and Hugging Face."
+  ],
+  "mission": "LTG develops language technology and language models, with a focus on Norwegian and openly available resources for evaluation and training.",
+  "known_for": [
+   "NorBERT language models",
+   "NorBench benchmark",
+   "NorMistral and NorBLOOM models"
+  ],
+  "contributions": [
+   {
+    "title": "NorBERT",
+    "note": "Released the first large-scale Norwegian contextualised language model, described at NoDaLiDa 2021.",
+    "year": "2021"
+   },
+   {
+    "title": "NorBERT 2",
+    "note": "Released an updated model trained on about 15 billion words of C4 and NCC.",
+    "year": "2022"
+   },
+   {
+    "title": "NorBERT 3 and NorBench",
+    "note": "Released a family of four model sizes together with a benchmark for Norwegian.",
+    "year": "2023"
+   },
+   {
+    "title": "NorMistral and NorBLOOM",
+    "note": "Trained generative Norwegian language models.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Lilja Øvrelid",
+    "role": "Group leader",
+    "url": "https://www.mn.uio.no/ifi/english/research/groups/ltg/"
+   },
+   {
+    "name": "Stephan Oepen",
+    "role": "Professor",
+    "url": "https://www.mn.uio.no/ifi/english/research/groups/ltg/"
+   },
+   {
+    "name": "Erik Velldal",
+    "role": "Professor",
+    "url": "https://www.mn.uio.no/ifi/english/research/groups/ltg/"
+   },
+   {
+    "name": "Andrey Kutuzov",
+    "role": "Researcher, NorBERT author",
+    "url": "https://arxiv.org/pdf/2104.06546.pdf"
+   },
+   {
+    "name": "David Samuel",
+    "role": "Researcher, lead author of NorBench",
+    "url": "https://arxiv.org/pdf/2305.03880"
+   }
+  ]
+ },
+ {
+  "id": "latam-gpt",
+  "tagline": "Latin American open language model project coordinated by Chile's national AI centre CENIA, released in 2026 with a regional text corpus.",
+  "about": [
+   "Latam-GPT is a regional initiative to build a language model entirely within Latin America, for Latin America. It is coordinated by CENIA, the Chilean national AI centre, whose director Álvaro Soto spoke for the project at its launch. Reports describe a network of more than thirty institutions across the region.",
+   "Chile launched the model on 10 February 2026 as open infrastructure for developers, trained on more than eight terabytes of Latin American data in Spanish and Portuguese, with indigenous languages planned. Press reports give its cost as about 550,000 dollars, funded by CAF and CENIA, with a first version trained on cloud infrastructure and later versions planned for a supercomputer at the University of Tarapacá.",
+   "Models, data and tools are published on GitHub and Hugging Face, and the model is free for companies and public institutions to build on."
+  ],
+  "mission": "The project aims to give the region a model that represents its languages, culture and context, and to let developers build region-specific applications without depending on models made elsewhere.",
+  "known_for": [
+   "First open Latin American LLM",
+   "Regional Spanish and Portuguese corpus",
+   "Led by CENIA in Chile"
+  ],
+  "contributions": [
+   {
+    "title": "Latam-GPT launch",
+    "note": "Chile launched the open Latam-GPT model on 10 February.",
+    "year": "2026"
+   },
+   {
+    "title": "Regional corpus",
+    "note": "Assembled more than eight terabytes of Latin American text data for training.",
+    "year": "2026"
+   },
+   {
+    "title": "Regional funding model",
+    "note": "Financed training through CAF and CENIA at a reported cost of 550,000 dollars.",
+    "year": "2026"
+   },
+   {
+    "title": "Institutional network",
+    "note": "Brought together over thirty institutions from across the region.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Álvaro Soto",
+    "role": "Director of CENIA",
+    "url": "https://www.intellinews.com/chile-launches-latam-gpt-in-push-for-regional-ai-sovereignty-425563/"
+   }
+  ]
+ },
+ {
+  "id": "lelapa-ai",
+  "tagline": "South African language AI company building resource-efficient models for African languages, maker of Vulavula and the open InkubaLM.",
+  "about": [
+   "Lelapa AI was founded in Johannesburg in 2022 by Pelonomi Moiloa, Jade Abbott and academic collaborators, and the name means home in Sotho and Tswana. Moiloa is chief executive and Abbott is chief technology officer, and the team page also lists Vukosi Marivate as chief information officer, Benjamin Rosman as chief scientist and George Konidaris as an advisor. Brown University and Wired have described Moiloa, Abbott, Marivate, Konidaris, Rosman and Pravesh Ranchod as the founding group.",
+   "The company's commercial product line is Vulavula, with Vulavula Transcribe for multilingual contact centres and Vulavula Translate for translation between African languages. It targets telecoms and financial services.",
+   "Lelapa also releases research models and datasets openly, notably InkubaLM, and states that it builds resource-efficient language AI designed to scale."
+  ],
+  "mission": "Lelapa states that it builds resource-efficient language AI for global scale, starting with African languages that are poorly served by existing models.",
+  "known_for": [
+   "Vulavula speech and translation products",
+   "InkubaLM small African-language model",
+   "Founded by Masakhane and academic researchers"
+  ],
+  "contributions": [
+   {
+    "title": "Lelapa AI founded",
+    "note": "Founded in Johannesburg to build language AI for African languages.",
+    "year": "2022"
+   },
+   {
+    "title": "Vulavula",
+    "note": "Launched speech and translation services for African languages.",
+    "year": "2022"
+   },
+   {
+    "title": "InkubaLM",
+    "note": "Released a small open multilingual model for African languages.",
+    "year": "2024"
+   },
+   {
+    "title": "Vulavula Transcribe and Translate",
+    "note": "Current product line aimed at contact centres and translation between local languages.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Pelonomi Moiloa",
+    "role": "Chief Executive Officer",
+    "url": "https://lelapa.ai/team"
+   },
+   {
+    "name": "Jade Abbott",
+    "role": "Chief Technology Officer",
+    "url": "https://lelapa.ai/team"
+   },
+   {
+    "name": "Vukosi Marivate",
+    "role": "Chief Information Officer",
+    "url": "https://lelapa.ai/team"
+   },
+   {
+    "name": "Benjamin Rosman",
+    "role": "Chief Scientist",
+    "url": "https://lelapa.ai/team"
+   },
+   {
+    "name": "George Konidaris",
+    "role": "Advisor",
+    "url": "https://posts.cs.brown.edu/2023/03/31/george-konidaris-cofounds-lelapa-develop-homegrown-african-ai/"
+   }
+  ],
+  "founded": 2022,
+  "_flag": "Lelapa's main product, Vulavula, is commercial; only some research models such as InkubaLM are confirmed as openly released."
+ },
+ {
+  "id": "letta",
+  "tagline": "San Francisco AI lab from the creators of MemGPT, building open-source stateful agents that remember and learn over time.",
+  "about": [
+   "Letta grew out of MemGPT, a UC Berkeley Sky Computing Lab project on virtual context management for language model agents. Founders Charles Packer, chief executive, and Sarah Wooders, chief technology officer, met during their PhD research there under Ion Stoica and Joseph Gonzalez, who advise the company.",
+   "In September 2024 the company emerged from stealth with a 10 million dollar seed round led by Felicis, with Sunflower Capital and Essence VC participating. It released an Agent Development Environment and API platform alongside its open-source framework.",
+   "Letta describes itself as a research lab building machines that learn, aimed at agents that remember everything and improve continuously."
+  ],
+  "mission": "Letta states that it is building machines that learn: experiential agents that remember, learn continuously and improve themselves over time.",
+  "known_for": [
+   "MemGPT agent memory research",
+   "Open-source Letta agent framework",
+   "Stateful long-running agents"
+  ],
+  "contributions": [
+   {
+    "title": "MemGPT paper",
+    "note": "Published MemGPT, treating a language model's context as virtual memory managed by the agent.",
+    "year": "2023"
+   },
+   {
+    "title": "Letta launch and seed round",
+    "note": "Emerged from stealth with a 10 million dollar seed round led by Felicis.",
+    "year": "2024"
+   },
+   {
+    "title": "Agent Development Environment",
+    "note": "Released an ADE and API platform for building stateful agents.",
+    "year": "2024"
+   },
+   {
+    "title": "Sleep-time compute",
+    "note": "Published research on letting agents use idle time to pre-process memory.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Charles Packer",
+    "role": "Co-founder and CEO",
+    "url": "https://techcrunch.com/2024/09/23/letta-one-of-uc-berkeleys-most-anticipated-ai-startups-has-just-come-out-of-stealth"
+   },
+   {
+    "name": "Sarah Wooders",
+    "role": "Co-founder and CTO",
+    "url": "https://techcrunch.com/2024/09/23/letta-one-of-uc-berkeleys-most-anticipated-ai-startups-has-just-come-out-of-stealth"
+   },
+   {
+    "name": "Ion Stoica",
+    "role": "Advisor",
+    "url": "https://www.letta.com/about-us"
+   },
+   {
+    "name": "Joseph Gonzalez",
+    "role": "Advisor",
+    "url": "https://www.letta.com/about-us"
+   }
+  ],
+  "founded": 2024
+ },
+ {
+  "id": "lightblue",
+  "tagline": "Tokyo AI company that publishes open Japanese and multilingual language models on Hugging Face alongside its enterprise AI platform.",
+  "about": [
+   "Lightblue is a Tokyo company based in the Otemachi district. Its commercial offering is an AI platform for daily work that lets organizations build assistants on their own knowledge, together with professional services for AI implementation and video analysis.",
+   "On Hugging Face, Lightblue KK publishes open models. These include the Suzume series, finetunes of Llama 3 8B for Japanese and for multiple languages, developed by Peter Devine, and named after the Japanese tree sparrow.",
+   "The company's own pages do not describe an open research agenda, so its open-source work is mainly visible through its model releases."
+  ],
+  "mission": "Lightblue's stated business goal is to help organizations settle AI into daily operations; its model releases give Japanese developers open options.",
+  "known_for": [
+   "Suzume Japanese and multilingual models",
+   "Open model releases on Hugging Face",
+   "Enterprise AI assistants in Japan"
+  ],
+  "contributions": [
+   {
+    "title": "Suzume Llama 3 8B multilingual",
+    "note": "Published an open multilingual finetune of Llama 3 8B.",
+    "year": "2024"
+   },
+   {
+    "title": "Suzume Llama 3 8B Japanese",
+    "note": "Published a Japanese finetune that Lightblue reports as best in the 7B and 8B class on Japanese benchmarks.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Peter Devine",
+    "role": "Developer of the Suzume models",
+    "url": "https://huggingface.co/lightblue/suzume-llama-3-8B-japanese"
+   }
+  ]
+ },
+ {
+  "id": "lightning-ai",
+  "tagline": "Company behind PyTorch Lightning, LitGPT and LitServe, open-source frameworks for training and serving models.",
+  "about": [
+   "Lightning AI was founded by William Falcon, who began developing PyTorch Lightning in 2015 at Columbia University and open-sourced it in 2019 while completing a PhD at NYU and working at Facebook AI Research. His advisors were Kyunghyun Cho and Yann LeCun.",
+   "The company's open-source tools include PyTorch Lightning, Fabric, LitGPT, LitServe, TorchMetrics and the Thunder compiler. In 2023 it launched Lightning AI Studio, a browser-based cloud platform for coding, training and deploying models.",
+   "In 2026 Lightning AI and the GPU cloud provider Voltage Park combined into one company, offering a platform that spans GPUs to developer tools."
+  ],
+  "mission": "Lightning AI aims to give developers one platform from hardware to tooling for building AI, while maintaining its widely used open-source frameworks.",
+  "known_for": [
+   "PyTorch Lightning",
+   "LitGPT and LitServe",
+   "Lightning AI Studio"
+  ],
+  "contributions": [
+   {
+    "title": "PyTorch Lightning open-sourced",
+    "note": "Falcon released the training framework that became widely used in research.",
+    "year": "2019"
+   },
+   {
+    "title": "Lightning AI Studio",
+    "note": "Launched a browser-based cloud platform for coding, training and deploying models.",
+    "year": "2023"
+   },
+   {
+    "title": "LitGPT",
+    "note": "Published an open implementation library for pretraining and fine-tuning LLMs.",
+    "year": "2023"
+   },
+   {
+    "title": "LitServe",
+    "note": "Released an open framework for serving models.",
+    "year": "2024"
+   },
+   {
+    "title": "Merger with Voltage Park",
+    "note": "Combined with Voltage Park into a single company covering GPUs through developer tools.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "William Falcon",
+    "role": "Founder and CEO",
+    "url": "https://lightning.ai/about"
+   }
+  ]
+ },
+ {
+  "id": "lighton",
+  "tagline": "Paris-based, publicly listed AI company that open-sources retrieval models, ModernBERT variants and multi-vector search tools.",
+  "about": [
+   "LightOn was founded in Paris in 2016 by Igor Carron, Laurent Daudet, Florent Krzakala and Sylvain Gigan. Carron is chief executive and Daudet is deputy managing director. It launched an optical processing unit in 2018, and an OPU was integrated into the Jean Zay supercomputer in 2021.",
+   "The company began training language models in 2020 and says it has trained more than twelve since. It has open-sourced PAGnol for French, RITA for proteins, Mambaoutai, and models built with AnswerAI such as ModernBERT, plus retrieval models like GTE-ModernColBERT and tools such as PyLate and FastPlaid.",
+   "In November 2024 LightOn listed on Euronext Growth Paris and describes itself as Europe's first listed generative AI startup. Its commercial product is Paradigm, an on-premise enterprise platform."
+  ],
+  "mission": "LightOn builds enterprise search and document understanding on private infrastructure while publishing retrieval models and tools as open source.",
+  "known_for": [
+   "ModernBERT with AnswerAI",
+   "PyLate multi-vector retrieval",
+   "PAGnol French language models"
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Founded in Paris by four scientists.",
+    "year": "2016"
+   },
+   {
+    "title": "Optical Processing Unit",
+    "note": "Launched an optical hardware accelerator.",
+    "year": "2018"
+   },
+   {
+    "title": "First open LLMs",
+    "note": "Began training and releasing language models, including PAGnol.",
+    "year": "2020"
+   },
+   {
+    "title": "Jean Zay integration",
+    "note": "An OPU was integrated into a French national supercomputer.",
+    "year": "2021"
+   },
+   {
+    "title": "IPO and ModernBERT",
+    "note": "Listed on Euronext Growth Paris and released ModernBERT.",
+    "year": "2024"
+   },
+   {
+    "title": "Ettin Suite",
+    "note": "Released a family of encoder and decoder models.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Igor Carron",
+    "role": "Co-founder and CEO",
+    "url": "https://en.wikipedia.org/wiki/LightOn"
+   },
+   {
+    "name": "Laurent Daudet",
+    "role": "Co-founder and deputy managing director",
+    "url": "https://en.wikipedia.org/wiki/LightOn"
+   },
+   {
+    "name": "Florent Krzakala",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/LightOn"
+   },
+   {
+    "name": "Sylvain Gigan",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/LightOn"
+   }
+  ],
+  "founded": 2016
+ },
+ {
+  "id": "liquid-ai",
+  "tagline": "MIT CSAIL spin-out building efficient on-device foundation models, the LFM family, with open weights on Hugging Face.",
+  "about": [
+   "Liquid AI was spun out of MIT's Computer Science and Artificial Intelligence Laboratory by Ramin Hasani, chief executive, Mathias Lechner, chief technology officer, Alexander Amini, chief scientist, and Daniela Rus. Reports date its start to 2023.",
+   "It builds Liquid Foundation Models, designed for efficient inference on phones, laptops and other edge devices. It released LFM2 in July 2025 as small open-weight models, followed by a technical report in December 2025 and the LFM2.5 and LFM2-24B-A2B models.",
+   "Weights are published on Hugging Face, and the company also sells on-premise and edge deployments."
+  ],
+  "mission": "Liquid AI aims to build efficient general-purpose models that run on-device and on-premise, and to release open-weight versions for developers.",
+  "known_for": [
+   "LFM2 on-device foundation models",
+   "Liquid neural network research",
+   "Efficient small open-weight models"
+  ],
+  "contributions": [
+   {
+    "title": "Company started",
+    "note": "Founded by MIT CSAIL researchers.",
+    "year": "2023"
+   },
+   {
+    "title": "First LFM series",
+    "note": "Announced the first Liquid Foundation Models.",
+    "year": "2024"
+   },
+   {
+    "title": "LFM2",
+    "note": "Released open-weight small models of 0.35B, 0.7B and 1.2B parameters.",
+    "year": "2025"
+   },
+   {
+    "title": "LFM2 technical report",
+    "note": "Published the architecture and training report for the LFM2 family.",
+    "year": "2025"
+   },
+   {
+    "title": "LFM2.5 and LFM2-24B-A2B",
+    "note": "Extended the family to newer small models and a 24B mixture-of-experts model.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Ramin Hasani",
+    "role": "Co-founder and CEO",
+    "url": "https://www.liquid.ai/company/about"
+   },
+   {
+    "name": "Mathias Lechner",
+    "role": "Co-founder and CTO",
+    "url": "https://www.liquid.ai/company/about"
+   },
+   {
+    "name": "Alexander Amini",
+    "role": "Co-founder and Chief Scientific Officer",
+    "url": "https://www.liquid.ai/company/about"
+   },
+   {
+    "name": "Daniela Rus",
+    "role": "Co-founder, MIT CSAIL",
+    "url": "https://www.liquid.ai/company/about"
+   }
+  ]
+ },
+ {
+  "id": "llm-jp",
+  "tagline": "Community of researchers organized by Japan's National Institute of Informatics, building open Japanese-capable large language models.",
+  "about": [
+   "LLM-jp is a researcher community organized by the Research and Development Center for Large Language Models at the National Institute of Informatics. NII established the volunteer group in May 2023, and by December 2024 it counted more than 1,900 participants. Sadao Kurohashi leads the center and the effort.",
+   "It organizes working groups on corpus construction, model building, evaluation and tuning, safety, dialogue, multimodal and academic domains. The group states goals of developing open state-of-the-art Japanese models, sharing data and compute between organizations, and publishing models, tools and technical materials.",
+   "The LLM-jp-3 series, trained on llm-jp-corpus v3, has been released since September 2024 in sizes from 150 million to 172 billion parameters, though access to the 172B pretrained model needs approval and redistribution is restricted."
+  ],
+  "mission": "LLM-jp aims to build open Japanese large language models, share knowledge among researchers and enable cross-organization collaboration on data and compute.",
+  "known_for": [
+   "LLM-jp-3 model series",
+   "Open Japanese corpus",
+   "Large cross-organization research community"
+  ],
+  "contributions": [
+   {
+    "title": "LLM-jp established",
+    "note": "NII founded the volunteer research group.",
+    "year": "2023"
+   },
+   {
+    "title": "LLM-jp-3 series",
+    "note": "Began releasing models from 150M to 13B parameters.",
+    "year": "2024"
+   },
+   {
+    "title": "LLM-jp-3 172B",
+    "note": "Released a 172B-parameter instruct model trained on 2.1 trillion tokens.",
+    "year": "2024"
+   },
+   {
+    "title": "LLM-jp-3 MoE series",
+    "note": "Released mixture-of-experts variants.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Sadao Kurohashi",
+    "role": "Director of the LLM R&D Center, NII",
+    "url": "https://www.nii.ac.jp/en/news/upload/nii_newsrelease_20241224_en.pdf"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "lmarena",
+  "tagline": "Berkeley-origin team behind Chatbot Arena, the crowd-sourced AI model leaderboard, now operating as the company Arena.",
+  "about": [
+   "Chatbot Arena was released on 24 April 2023 by researchers around UC Berkeley. Its founders are Wei-Lin Chiang, Anastasios N. Angelopoulos and Ion Stoica. The site moved to its own domain, lmarena.ai, in September 2024.",
+   "LMArena incorporated as an independent company in April 2025 and raised a 100 million dollar seed round that May, a 150 million dollar Series A in January 2026 and a 200 million dollar Series B in October 2026. On 28 January 2026 it rebranded as Arena. The project originated in the LMSYS group, which also produced FastChat and RouteLLM.",
+   "The platform ranks models through human pairwise votes and publishes evaluation data and tools on Hugging Face and GitHub."
+  ],
+  "mission": "The group aims to provide transparent, community-driven evaluation of AI models using real user preferences.",
+  "known_for": [
+   "Chatbot Arena leaderboard",
+   "Human preference evaluation",
+   "FastChat and RouteLLM tools"
+  ],
+  "contributions": [
+   {
+    "title": "Chatbot Arena",
+    "note": "Released a public platform ranking language models by human pairwise votes.",
+    "year": "2023"
+   },
+   {
+    "title": "Own domain",
+    "note": "Moved the leaderboard to lmarena.ai.",
+    "year": "2024"
+   },
+   {
+    "title": "Company incorporated",
+    "note": "LMArena became an independent company and raised a 100 million dollar seed round.",
+    "year": "2025"
+   },
+   {
+    "title": "Rebrand to Arena and Series A",
+    "note": "Rebranded and raised 150 million dollars.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Wei-Lin Chiang",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Chatbot_Arena"
+   },
+   {
+    "name": "Anastasios N. Angelopoulos",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Chatbot_Arena"
+   },
+   {
+    "name": "Ion Stoica",
+    "role": "Co-founder; professor at UC Berkeley",
+    "url": "https://en.wikipedia.org/wiki/Chatbot_Arena"
+   }
+  ]
+ },
+ {
+  "id": "maincode",
+  "tagline": "Melbourne AI company that owns its own GPU cluster, builds the Matilda assistant and has released open Maincoder models.",
+  "about": [
+   "Maincode is an AI lab founded in Melbourne in late 2024. It describes itself as an independent Australian lab that runs its own hardware, including MC-2, an AMD MI355X cluster in Melbourne, with an inference engine written in Rust and a further cluster, MC-3, planned.",
+   "Its product is Matilda, offered for chat, coding, desktop and API use with paid plans from 25 dollars a month. Maincode has also released Maincoder-1B, which it says scored 76 percent on HumanEval, the highest among open 1B models in its December 2025 comparison.",
+   "The company's founders are not named on its homepage."
+  ],
+  "mission": "Maincode states that it builds AI in Australia on its own infrastructure and releases some models openly.",
+  "known_for": [
+   "Matilda assistant",
+   "Maincoder-1B open model",
+   "Owned AMD GPU cluster in Melbourne"
+  ],
+  "contributions": [
+   {
+    "title": "Maincode founded",
+    "note": "Founded in Melbourne as an independent AI lab.",
+    "year": "2024"
+   },
+   {
+    "title": "Maincoder-1B",
+    "note": "Released a 1B open coding model reporting 76 percent on HumanEval.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Dave Lemphers",
+    "role": "Author of Maincode's linked article",
+    "url": "https://www.maincode.com",
+    "note": "Role not stated on the site"
+   }
+  ],
+  "_flag": "Maincode's main product Matilda is not open-weight; only some models such as Maincoder-1B are released openly."
+ },
+ {
+  "id": "marin",
+  "tagline": "Open lab begun at Stanford that develops foundation models in public, releasing code, data, weights and experiment logs for Marin 8B and 32B.",
+  "about": [
+   "Marin is an open lab started in 2024 at Stanford University by David Hall and Percy Liang. It is primarily developed by Open Athena with community contributors, and it releases its discussions, code, model weights, data sources, successful and failed experiments and tools for learning.",
+   "The lab released an 8B model in May 2025 and a 32B model in October 2025. Google's open source team reported that Marin 32B beat Olmo 2 32B on 32 of 42 tasks, and the model is released under Apache 2.0. Later work covers mixture-of-experts training, a scaling suite called Delphi, a 25-trillion-token data pipeline and post-training data.",
+   "Everything is documented in public pages so others can reproduce and extend runs."
+  ],
+  "mission": "Marin aims to develop foundation models in the open, sharing every step from data to weights so the community can learn from and build on them.",
+  "known_for": [
+   "Fully open Marin 8B and 32B",
+   "Open experiment record",
+   "Stanford and Open Athena collaboration"
+  ],
+  "contributions": [
+   {
+    "title": "Marin begins",
+    "note": "The project started at Stanford.",
+    "year": "2024"
+   },
+   {
+    "title": "Marin 8B",
+    "note": "Released the first 8B base model.",
+    "year": "2025"
+   },
+   {
+    "title": "Marin 32B",
+    "note": "Released a 32B model, which Google reports beat Olmo 2 32B on 32 of 42 tasks.",
+    "year": "2025"
+   },
+   {
+    "title": "Delphi scaling suite",
+    "note": "Published a suite of scaling experiments.",
+    "year": "2026"
+   },
+   {
+    "title": "25T-token data pipeline",
+    "note": "Published a description of the large data pipeline.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "David Hall",
+    "role": "Co-creator; research engineering lead",
+    "url": "https://developers.googleblog.com/stanfords-marin-foundation-model-first-fully-open-model-developed-using-jax/"
+   },
+   {
+    "name": "Percy Liang",
+    "role": "Co-creator",
+    "url": "https://marin.community"
+   }
+  ],
+  "founded": 2024
+ },
+ {
+  "id": "maritaca-ai",
+  "tagline": "Brazilian company from Campinas behind the Sabiá Portuguese language models and the MariTalk API, with a small set of open releases.",
+  "about": [
+   "Maritaca AI was founded in Campinas in October 2022 by Rodrigo Nogueira with Unicamp colleagues. It builds the Sabiá language models specialised for Portuguese and Brazilian contexts, offered through chat and the API.",
+   "It released the open-weight Sabiá-7B in 2023 and published technical reports for Sabiá-2 in March 2024 and Sabiá-3 in October 2024. Its newest generation, S5, offers a one-million-token context window and web search, but the company states that it does not provide weights or on-premise licenses for current models.",
+   "Maritaca also releases Portuguese benchmarks and research."
+  ],
+  "mission": "Maritaca aims to provide high-quality language models for Portuguese and Brazil, and Nogueira has argued Brazil needs national AI infrastructure.",
+  "known_for": [
+   "Sabiá Portuguese models",
+   "MariTalk API",
+   "Sabiá-7B open weights"
+  ],
+  "contributions": [
+   {
+    "title": "Maritaca founded",
+    "note": "Founded in Campinas.",
+    "year": "2022"
+   },
+   {
+    "title": "Sabiá-7B",
+    "note": "Released an open Portuguese model.",
+    "year": "2023"
+   },
+   {
+    "title": "Sabiá-2",
+    "note": "Published technical report on a new generation of Portuguese models.",
+    "year": "2024"
+   },
+   {
+    "title": "Sabiá-3",
+    "note": "Published its technical report.",
+    "year": "2024"
+   },
+   {
+    "title": "Sabiá-4",
+    "note": "Published its technical report.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Rodrigo Nogueira",
+    "role": "Founder and CEO",
+    "url": "https://canaltech.com.br/inteligencia-artificial/ceo-de-ia-brasileira-defende-criacao-de-infraestrutura-nacional-da-tecnologia/"
+   }
+  ],
+  "founded": 2022,
+  "_flag": "The company states that its current models are API-only with no weight downloads; only older releases such as Sabiá-7B are open."
+ },
+ {
+  "id": "mbzuai",
+  "tagline": "Graduate-level AI university in Abu Dhabi that runs the Institute of Foundation Models and publishes open models such as Jais and K2.",
+  "about": [
+   "The Mohamed bin Zayed University of Artificial Intelligence was initiated in October 2019 and licensed by the UAE Ministry of Education in April 2020. Sir J. Michael Brady served as founding interim president, and Eric Xing has been president since January 2021. Ling Shao is founding provost and Timothy Baldwin has been provost since April 2024.",
+   "Its graduate programs launched in January 2021 and the first MSc cohort graduated in January 2023. By 2025 it had 84 faculty and more than 200 postdocs and researchers.",
+   "The Institute of Foundation Models, launched in May 2025, coordinates the Jais Arabic models and the K2 family. In September 2026 it released K2 Horizon, six open models from 0.9B to 375B parameters, with weights, code, data and methodology."
+  ],
+  "mission": "The university aims to advance AI education and research, and its institute releases foundation models openly.",
+  "known_for": [
+   "Jais Arabic language models",
+   "K2 and K2 Horizon open models",
+   "AI-focused graduate university"
+  ],
+  "contributions": [
+   {
+    "title": "Initiative launched",
+    "note": "The university project began.",
+    "year": "2019"
+   },
+   {
+    "title": "University license granted",
+    "note": "UAE Ministry of Education licensed the university.",
+    "year": "2020"
+   },
+   {
+    "title": "First graduate programs",
+    "note": "Graduate programs began.",
+    "year": "2021"
+   },
+   {
+    "title": "First MSc cohort",
+    "note": "The first MSc cohort graduated.",
+    "year": "2023"
+   },
+   {
+    "title": "Institute of Foundation Models",
+    "note": "Launched the institute and a Silicon Valley lab.",
+    "year": "2025"
+   },
+   {
+    "title": "K2 Horizon",
+    "note": "Released six open models.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Eric Xing",
+    "role": "President",
+    "url": "https://en.wikipedia.org/wiki/Mohamed_bin_Zayed_University_of_Artificial_Intelligence"
+   },
+   {
+    "name": "Timothy Baldwin",
+    "role": "Provost",
+    "url": "https://en.wikipedia.org/wiki/Mohamed_bin_Zayed_University_of_Artificial_Intelligence"
+   },
+   {
+    "name": "Ling Shao",
+    "role": "Founding provost and executive vice president",
+    "url": "https://en.wikipedia.org/wiki/Mohamed_bin_Zayed_University_of_Artificial_Intelligence"
+   }
+  ]
+ },
+ {
+  "id": "mesolitica",
+  "tagline": "Malaysian AI lab building open Malay language models, speech systems and datasets, including MaLLaM and Malaysian Mistral.",
+  "about": [
+   "Mesolitica was founded in Kuala Lumpur by Khalil Nooh, chief executive, and Husein Zolkepli, chief technology officer. The team traces the work behind MaLLaM to January 2019, and its GitHub organization dates from February 2019.",
+   "It launched MaLLaM, a Malaysian language model trained on nearly 200 billion tokens of Malay content, in December 2023. In January 2024 it published papers on MaLLaM and on Malaysian Mistral, a Mistral 7B model finetuned on Malaysian data, and released models on Hugging Face. It also works on speech systems and voice agents.",
+   "The company says it runs operations within Malaysia and open-sources its datasets on GitHub while allowing owners to request removal of their content."
+  ],
+  "mission": "Mesolitica aims to bring AI to Bahasa Melayu speakers and promote AI sovereignty by working entirely within Malaysia.",
+  "known_for": [
+   "MaLLaM Malaysian language model",
+   "Malaysian Mistral",
+   "Open Malay datasets"
+  ],
+  "contributions": [
+   {
+    "title": "Work begins",
+    "note": "The effort behind MaLLaM began.",
+    "year": "2019"
+   },
+   {
+    "title": "MaLLaM",
+    "note": "Launched a Malaysian LLM for businesses.",
+    "year": "2023"
+   },
+   {
+    "title": "Malaysian Mistral and MaLLaM papers",
+    "note": "Published papers and released models.",
+    "year": "2024"
+   },
+   {
+    "title": "Build on AWS",
+    "note": "Reported training a Malaysian LLM on AWS.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Khalil Nooh",
+    "role": "Co-founder and CEO",
+    "url": "https://www.tatlerasia.com/power-purpose/innovation/mesolitica-ai-mallam-llm-khalil-nooh"
+   },
+   {
+    "name": "Husein Zolkepli",
+    "role": "Co-founder and CTO",
+    "url": "https://huggingface.co/huseinzol05"
+   }
+  ]
+ }
+]

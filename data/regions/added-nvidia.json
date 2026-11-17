@@ -1,0 +1,214 @@
+[
+ {
+  "id": "nvidia",
+  "name": "NVIDIA",
+  "type": "corporate",
+  "founded": 1993,
+  "country": "United States",
+  "city": "Santa Clara",
+  "lat": 37.3541,
+  "lon": -121.9552,
+  "website": "https://www.nvidia.com",
+  "huggingface": "https://huggingface.co/nvidia",
+  "github": "https://github.com/NVIDIA",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "NVIDIA is a large public company best known for GPUs, and it also publishes a broad set of open models, datasets and training software. Its open releases include the Nemotron language models, Cosmos world models, GR00T robotics models, and the NeMo speech toolkit with Parakeet and Canary models.",
+  "tagline": "A GPU maker that also releases open models, datasets and tooling, from Nemotron language models to Cosmos world models and speech ASR.",
+  "about": [
+   "NVIDIA was founded in 1993 by Jensen Huang, Chris Malachowsky and Curtis Priem and is headquartered in Santa Clara, California. It is primarily a hardware and software platform company, and its open-model work sits alongside that business.",
+   "Through its Hugging Face organization and GitHub, NVIDIA publishes model checkpoints, large synthetic and curated datasets, and training and inference software. Main families include Nemotron for language and reasoning, Cosmos for physical-AI world models, Isaac GR00T for humanoid robots, and Parakeet, Canary and Magpie for speech.",
+   "Research is published as technical reports on arXiv, often with long author lists, and many releases come with training recipes and data. NVIDIA says its Nemotron effort includes open weights, open datasets and published methods."
+  ],
+  "mission": "NVIDIA presents its open releases as a way to let developers and organizations build, customize and deploy AI on its platform, including sovereign and domain-specific systems. It describes Nemotron as open technology covering models, data and recipes.",
+  "known_for": [
+   "Nemotron open language models and datasets",
+   "Cosmos world foundation models for physical AI",
+   "GR00T open humanoid robot models",
+   "NeMo toolkit with Parakeet and Canary speech models"
+  ],
+  "focus": [
+   "language models",
+   "datasets",
+   "speech",
+   "robotics",
+   "vision"
+  ],
+  "contributions": [
+   {
+    "title": "Megatron-LM",
+    "note": "Open research code for training large transformer models at scale, published on NVIDIA's GitHub.",
+    "year": 2019
+   },
+   {
+    "title": "Canary-1B",
+    "note": "Multilingual speech recognition and translation model from the NeMo family, released under CC-BY-NC-4.0.",
+    "year": 2024
+   },
+   {
+    "title": "Nemotron-4 340B",
+    "note": "Family of 340B-parameter models with a technical report; released under the NVIDIA Open Model License.",
+    "year": 2024
+   },
+   {
+    "title": "Cosmos platform",
+    "note": "World foundation model platform for physical AI, described in a January 2025 technical report.",
+    "year": 2025
+   },
+   {
+    "title": "GR00T N1",
+    "note": "Open foundation model for generalist humanoid robots, announced in March 2025.",
+    "year": 2025
+   },
+   {
+    "title": "Nemotron-H and Nemotron 3",
+    "note": "Hybrid Mamba-Transformer models, followed by the Nemotron 3 family of Nano, Super and Ultra announced in December 2025.",
+    "year": 2025
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "NVIDIA-NeMo/NeMo",
+    "url": "https://github.com/NVIDIA-NeMo/NeMo",
+    "note": "Open-source toolkit for speech models (ASR, TTS, speech LLMs), Apache-2.0."
+   },
+   {
+    "name": "NVIDIA/Megatron-LM",
+    "url": "https://github.com/NVIDIA/Megatron-LM",
+    "note": "Research code for training transformer models at scale."
+   },
+   {
+    "name": "NVIDIA/cosmos",
+    "url": "https://github.com/NVIDIA/cosmos",
+    "note": "Open platform of world models, datasets and tools for physical AI."
+   },
+   {
+    "name": "NVIDIA-NeMo/Nemotron",
+    "url": "https://github.com/NVIDIA-NeMo/Nemotron",
+    "note": "Primary Nemotron repository, listed as Apache-2.0 on NVIDIA's model info page."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "nvidia/parakeet-tdt-0.6b-v2",
+    "url": "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+    "kind": "model",
+    "note": "600M-parameter English speech-to-text model under CC-BY-4.0."
+   },
+   {
+    "name": "nvidia/canary-1b",
+    "url": "https://huggingface.co/nvidia/canary-1b",
+    "kind": "model",
+    "note": "Multilingual ASR and translation model for English, German, French and Spanish (CC-BY-NC-4.0)."
+   },
+   {
+    "name": "nvidia/AeroZoo",
+    "url": "https://huggingface.co/datasets/nvidia/AeroZoo",
+    "kind": "dataset",
+    "note": "Recently updated dataset on the NVIDIA organization page."
+   },
+   {
+    "name": "nvidia/nemotron-transcribe",
+    "url": "https://huggingface.co/spaces/nvidia/nemotron-transcribe",
+    "kind": "space",
+    "note": "Demo space for NVIDIA's Nemotron multilingual transcription models."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Nemotron-4 340B Technical Report",
+    "url": "https://arxiv.org/abs/2406.11704",
+    "year": 2024
+   },
+   {
+    "title": "Cosmos World Foundation Model Platform for Physical AI",
+    "url": "https://arxiv.org/abs/2501.03575",
+    "year": 2025
+   },
+   {
+    "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+    "url": "https://arxiv.org/abs/2503.14734",
+    "year": 2025
+   },
+   {
+    "title": "Nemotron-H: A Family of Accurate and Efficient Hybrid Mamba-Transformer Models",
+    "url": "https://arxiv.org/abs/2504.03624",
+    "year": 2025
+   }
+  ],
+  "notable_releases": [
+   {
+    "name": "Nemotron 3 (Nano, Super, Ultra)",
+    "url": "https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/",
+    "note": "Hybrid mixture-of-experts language models announced December 2025."
+   },
+   {
+    "name": "Cosmos",
+    "url": "https://github.com/NVIDIA/cosmos",
+    "note": "Open world models, datasets and tools for physical AI."
+   },
+   {
+    "name": "Isaac GR00T N1",
+    "url": "https://arxiv.org/abs/2503.14734",
+    "note": "Open humanoid robot foundation model."
+   },
+   {
+    "name": "Parakeet and Canary",
+    "url": "https://github.com/NVIDIA-NeMo/NeMo",
+    "note": "Speech recognition models built with the NeMo toolkit."
+   }
+  ],
+  "openness": "Many NVIDIA models ship as open weights, with datasets and code on Hugging Face and GitHub, but licences vary: the NVIDIA Open Model License covers Nemotron-4 and the Nemotron 3 Nano and Super models, newer Nemotron 3 Ultra and 3.5 models are reported under OpenMDW-1.1, NeMo code is Apache-2.0, and speech models range from CC-BY-4.0 (Parakeet) to CC-BY-NC-4.0 (Canary-1B).",
+  "key_people": [
+   {
+    "name": "Bryan Catanzaro",
+    "role": "Vice President, Applied Deep Learning Research; leads the Nemotron effort",
+    "url": "https://blogs.nvidia.com/blog/nemotron-open-source-ai",
+    "note": "Author of NVIDIA's blog post presenting Nemotron as open technology."
+   },
+   {
+    "name": "Jensen Huang",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Jensen_Huang",
+    "note": "Co-founded NVIDIA in 1993; Wikipedia's Nvidia article currently reports a change in his CEO role."
+   },
+   {
+    "name": "Linxi Fan",
+    "role": "Project lead, GR00T N1",
+    "url": "https://arxiv.org/abs/2503.14734",
+    "note": "Known as Jim Fan; named as project lead on the GR00T N1 paper."
+   },
+   {
+    "name": "Yuke Zhu",
+    "role": "Project lead, GR00T N1",
+    "url": "https://arxiv.org/abs/2503.14734",
+    "note": "Named as project lead on the GR00T N1 paper."
+   },
+   {
+    "name": "Sanja Fidler",
+    "role": "Researcher, Cosmos",
+    "url": "https://arxiv.org/abs/2501.03575",
+    "note": "Listed among the Cosmos platform paper authors."
+   }
+  ],
+  "discord_note": "No official NVIDIA Discord for open models was verified.",
+  "contact_note": "No general contact address was verified; use NVIDIA's Hugging Face and GitHub pages for model and repository issues.",
+  "notice": "NVIDIA is a large public company, listed here for its extensive open model and dataset releases. Not all of its products or models are open, and licence terms differ by model.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Nvidia",
+   "https://huggingface.co/nvidia",
+   "https://github.com/NVIDIA",
+   "https://blogs.nvidia.com/blog/nemotron-open-source-ai",
+   "https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2",
+   "https://huggingface.co/nvidia/canary-1b",
+   "https://github.com/NVIDIA-NeMo/NeMo",
+   "https://arxiv.org/abs/2406.11704",
+   "https://arxiv.org/abs/2503.14734",
+   "https://arxiv.org/abs/2501.03575",
+   "https://arxiv.org/abs/2504.03624"
+  ],
+  "confidence": "high"
+ }
+]

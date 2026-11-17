@@ -1,0 +1,1681 @@
+[
+ {
+  "id": "metr",
+  "tagline": "A Berkeley nonprofit that measures what frontier AI agents can do on long, autonomous tasks and publishes the evidence for governments, labs and the public.",
+  "about": [
+   "METR, short for Model Evaluation and Threat Research, is a nonprofit based in Berkeley, California. It began as ARC Evals, the evaluation arm of the Alignment Research Center, and was spun out as an independent organization in December 2023 under founder and CEO Beth Barnes.",
+   "The group builds task suites and measurement methods for autonomous AI agents, and publishes the results. Its best-known metric, the task-completion time horizon, expresses how long a task, measured by human expert completion time, an agent can finish at a given success rate. It also runs applied assessments with AI developers, including pre-deployment evaluations and incident investigations.",
+   "METR states that it is funded by donations and has not accepted funding from AI companies, although developers provide access and tokens for evaluations. It has worked with several frontier developers and provides technical assistance to the European AI Office."
+  ],
+  "mission": "METR aims to discover and publish evidence on the capabilities of advanced AI systems, the risks they pose and the effectiveness of mitigations, so that the world can avoid catastrophic mistakes.",
+  "known_for": [
+   "Task-completion time horizon metric for AI agents",
+   "Independent pre-deployment evaluations of frontier models",
+   "RE-Bench and long-horizon agent task suites",
+   "Open evaluation code and datasets"
+  ],
+  "contributions": [
+   {
+    "title": "Spin-out from ARC Evals",
+    "note": "ARC Evals became the independent nonprofit METR in December 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Time horizon analysis",
+    "note": "A March 2025 paper reported that the length of software tasks leading AI models could complete doubled roughly every seven months between 2019 and 2024.",
+    "year": "2025"
+   },
+   {
+    "title": "Time Horizon 1.1",
+    "note": "A revised time horizon model with more tasks and new evaluation infrastructure, released in January 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "MirrorCode results",
+    "note": "Early results showing agents completing weeks-long coding tasks, including reimplementing a 16,000-line codebase.",
+    "year": "2026"
+   },
+   {
+    "title": "Frontier Risk Report pilot",
+    "note": "A pilot assessment of rogue deployment risk inside frontier AI developers, with Anthropic, Google, Meta and OpenAI taking part.",
+    "year": "2026"
+   },
+   {
+    "title": "Agent incident investigation",
+    "note": "A report on agent behavior in an incident involving OpenAI agents and Hugging Face, published in August 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Beth Barnes",
+    "role": "Founder and CEO",
+    "url": "https://metr.org/about"
+   },
+   {
+    "name": "Chris Painter",
+    "role": "President",
+    "url": "https://metr.org/about"
+   },
+   {
+    "name": "Hjalmar Wijk",
+    "role": "Chief Scientist",
+    "url": "https://metr.org/about"
+   },
+   {
+    "name": "Nate Rush",
+    "role": "CTO",
+    "url": "https://metr.org/about"
+   },
+   {
+    "name": "Ajeya Cotra",
+    "role": "Technical Staff",
+    "url": "https://metr.org/about"
+   },
+   {
+    "name": "Ryan Greenblatt",
+    "role": "Technical Staff",
+    "url": "https://metr.org/about"
+   }
+  ]
+ },
+ {
+  "id": "mila",
+  "tagline": "Montreal's AI research institute, founded around Yoshua Bengio's lab, whose members built Theano, SpeechBrain and other widely used open-source tools.",
+  "about": [
+   "Mila, the Quebec AI Institute, traces its origin to the lab Yoshua Bengio founded at the Université de Montréal in 1993. In 2017 it grew into a collaboration between the Université de Montréal and McGill University with Polytechnique Montréal and HEC Montréal, and it became a non-profit in 2018.",
+   "The institute brings together academic researchers and students working on deep learning, reinforcement learning, health, climate, responsible AI and related areas. It reports a community of more than 1,400 people and runs training programs, an AI policy fellowship and a venture program alongside research.",
+   "Mila lists 34 open-source projects, including Theano, an early deep learning framework that originated there, SpeechBrain, TorchDrug, BabyAI and Orion."
+  ],
+  "mission": "Mila aims to be a global hub for scientific advances that drive AI innovation for everyone's benefit, built on collaboration, excellence and ethics.",
+  "known_for": [
+   "Origin of the Theano deep learning framework",
+   "Yoshua Bengio's founding lab",
+   "Open-source tools such as SpeechBrain and TorchDrug",
+   "One of Canada's three national AI institutes"
+  ],
+  "contributions": [
+   {
+    "title": "Founding of the lab",
+    "note": "Yoshua Bengio founded the Montreal lab that later became Mila.",
+    "year": "1993"
+   },
+   {
+    "title": "Mila as a university partnership",
+    "note": "The institute expanded through a collaboration of Université de Montréal and McGill University with Polytechnique Montréal and HEC Montréal.",
+    "year": "2017"
+   },
+   {
+    "title": "End of Theano development",
+    "note": "Development of Theano, an early deep learning framework from Mila and the Université de Montréal, was completed.",
+    "year": "2017"
+   },
+   {
+    "title": "Non-profit status",
+    "note": "Mila became a non-profit organization.",
+    "year": "2018"
+   },
+   {
+    "title": "Move to new premises",
+    "note": "Mila moved into its current building in Montreal's Mile-Ex neighbourhood.",
+    "year": "2019"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Yoshua Bengio",
+    "role": "Founder",
+    "url": "https://mila.quebec/en/directory"
+   },
+   {
+    "name": "Hugo Larochelle",
+    "role": "Scientific Director",
+    "url": "https://mila.quebec/en/directory/hugo-larochelle"
+   },
+   {
+    "name": "Valérie Pisano",
+    "role": "President and CEO",
+    "url": "https://mila.quebec/en/directory/valerie-pisano"
+   },
+   {
+    "name": "Stéphane Létourneau",
+    "role": "Executive Vice President",
+    "url": "https://mila.quebec/en/directory/stephane-letourneau"
+   },
+   {
+    "name": "Laurence Beaulieu",
+    "role": "Vice President, Academic Affairs",
+    "url": "https://mila.quebec/en/directory/laurence-beaulieu"
+   },
+   {
+    "name": "Frédéric Chanay-Savoyen",
+    "role": "Vice-President, AI and Technology Solutions",
+    "url": "https://mila.quebec/en/directory/frederic-chanay-savoyen"
+   }
+  ],
+  "founded": 1993
+ },
+ {
+  "id": "minimax",
+  "tagline": "A Shanghai AI company building multimodal foundation models, with the MiniMax-M series of language models released as open weights on Hugging Face.",
+  "about": [
+   "MiniMax was founded in December 2021 in Shanghai by Yan Junjie, Yun Yeyi and Zhou Yucong, who came from computer vision research at SenseTime. It began research in January 2022 and released its first text model, abab1, in April 2022. The company listed on the Hong Kong Stock Exchange in January 2026.",
+   "It develops general-purpose models across text, speech, music, image and video, and serves consumer products such as the Hailuo video service and the Talkie character app alongside an API platform. Its company page reports more than 300 million users in over 230 countries and regions.",
+   "The MiniMax-M series of language models is published on Hugging Face under the MiniMaxAI organization, with recent releases including MiniMax-M3, M3.1-Flash and the H3 image models. MiniMax is a commercial, publicly listed company that releases some weights openly."
+  ],
+  "mission": "MiniMax describes its mission as Intelligence with Everyone, building its own foundation models toward artificial general intelligence.",
+  "known_for": [
+   "MiniMax-M series open-weight language models",
+   "Hailuo video generation",
+   "Talkie character chat app",
+   "Long-context MiniMax-01 models"
+  ],
+  "contributions": [
+   {
+    "title": "abab1 text model",
+    "note": "MiniMax launched abab1, its first text model, in April 2022.",
+    "year": "2022"
+   },
+   {
+    "title": "Hailuo AI",
+    "note": "MiniMax launched Hailuo AI in March 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "MiniMax-01",
+    "note": "The company unveiled the MiniMax-Text-01 and MiniMax-VL-01 model line in January 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "MiniMax-M1",
+    "note": "MiniMax released the M1 language model in June 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Hong Kong listing",
+    "note": "MiniMax listed on the Hong Kong Stock Exchange on 9 January 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "MiniMax-M3",
+    "note": "MiniMax-M3 weights appeared on Hugging Face in June 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Yan Junjie",
+    "role": "Co-founder and CEO",
+    "url": "https://en.wikipedia.org/wiki/MiniMax_Group"
+   },
+   {
+    "name": "Yun Yeyi",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/MiniMax_Group"
+   },
+   {
+    "name": "Zhou Yucong",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/MiniMax_Group"
+   }
+  ],
+  "founded": 2021,
+  "_flag": "Publicly listed commercial company (HKEX, January 2026) with Alibaba, Tencent and other investors; open weights are released alongside closed products, so independence is partial."
+ },
+ {
+  "id": "mistral-ai",
+  "tagline": "A Paris AI company that pairs open-weight models under permissive licenses with a commercial platform, positioning itself as Europe's frontier lab.",
+  "about": [
+   "Mistral AI was founded in April 2023 in Paris by Arthur Mensch, Guillaume Lample and Timothée Lacroix, who had met at École polytechnique and worked at Google DeepMind and Meta. Its first model, Mistral 7B, was released on 27 September 2023 under the Apache 2.0 license.",
+   "The company builds language, coding, speech, document and forecasting models, and sells them through its Studio and Vibe products and through sovereign deployments for enterprises and governments. Recent open-weight releases include Mistral Small 4 under Apache 2.0, Voxtral TTS and the one-trillion-parameter Mistral Large 4.",
+   "Mistral is venture-funded and commercial. ASML took an 11 percent shareholding in 2025, and the firm is often cited as a leading beneficiary of European digital sovereignty policy."
+  ],
+  "mission": "Mistral says its goal is to put frontier AI in everyone's hands, keeping it open and giving organizations control and ownership of their AI systems.",
+  "known_for": [
+   "Mistral 7B and Mixtral open-weight models",
+   "Apache 2.0 licensed releases",
+   "Europe's largest AI startup",
+   "Sovereign AI deployments for enterprises and governments"
+  ],
+  "contributions": [
+   {
+    "title": "Founding in Paris",
+    "note": "Mensch, Lample and Lacroix established the company in April 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Mistral 7B",
+    "note": "A 7.3-billion-parameter model released under Apache 2.0 that outperformed Llama 2 13B on the benchmarks Mistral reported.",
+    "year": "2023"
+   },
+   {
+    "title": "Magistral Small",
+    "note": "The first open reasoning model from Mistral, released in June 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Mistral Large 3 and Ministral 3",
+    "note": "A 675-billion-parameter sparse mixture-of-experts model and three small dense models released in December 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Mistral Small 4",
+    "note": "A multimodal hybrid model with a 256,000-token context window released under Apache 2.0 in March 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Mistral Large 4",
+    "note": "A one-trillion-parameter mixture-of-experts model whose weights were released on 29 October 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Arthur Mensch",
+    "role": "Co-founder and CEO",
+    "url": "https://mistral.ai/company"
+   },
+   {
+    "name": "Guillaume Lample",
+    "role": "Co-founder and Chief Science Officer",
+    "url": "https://mistral.ai/company"
+   },
+   {
+    "name": "Timothée Lacroix",
+    "role": "Co-founder and CTO",
+    "url": "https://mistral.ai/company"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "mixedbread",
+  "tagline": "Applied research lab building retrieval and reranking models, with open embeddings downloaded more than 50 million times.",
+  "about": [
+   "Mixedbread is an applied research lab focused on retrieval. It builds embedding, reranking and search systems that give AI applications the right context at the right time.",
+   "The team combines deep learning research with high-performance systems engineering and offers its models through a hosted search product while publishing open-source models on Hugging Face. The company states that those open models have been downloaded more than 50 million times.",
+   "Recent work covers listwise rerankers, quantization for late-interaction retrieval and ingestion of very large files."
+  ],
+  "mission": "Mixedbread aims to build memory for AI, so that intelligent systems have the context they need to understand and act on the world.",
+  "known_for": [
+   "Open embedding and reranking models",
+   "mxbai-rerank models",
+   "Late-interaction retrieval research",
+   "Hosted multimodal search"
+  ],
+  "contributions": [
+   {
+    "title": "Asymmetric quantization",
+    "note": "A June 2026 post describes cutting late-interaction corpus storage 32 times with binary document vectors at near-equal retrieval quality.",
+    "year": "2026"
+   },
+   {
+    "title": "Dense retrieval analysis",
+    "note": "A June 2026 research post argues dense retrievers encode more information than their scoring mechanism expresses.",
+    "year": "2026"
+   },
+   {
+    "title": "Large-file ingestion system",
+    "note": "A July 2026 engineering post describes a slicer and parser architecture for files of any size under bounded compute.",
+    "year": "2026"
+   },
+   {
+    "title": "mxbai-rerank-v3.1-listwise",
+    "note": "A listwise reranker update released in July 2026 inside Mixedbread Search.",
+    "year": "2026"
+   }
+  ],
+  "key_people": []
+ },
+ {
+  "id": "mideind",
+  "tagline": "Reykjavik language-technology company building open-source tools, models and benchmarks so that Icelandic is supported in modern AI.",
+  "about": [
+   "Miðeind was founded in 2015 by Vilhjálmur Þorsteinsson, a long-time software entrepreneur. It develops language technology and AI for Icelandic, a language whose small market, limited data and complex grammar leave it poorly served by large technology firms.",
+   "Its products include Málfríður for spelling and grammar correction, Hreimur for speech recognition, Erlendur for translation, Snara for dictionary search and Lísa for text extraction, all gathered on the Málstaður site. The company states that its software is mostly open source.",
+   "Miðeind was an implementation partner in the Icelandic government's Language Technology Programme from 2019 to 2022 and maintains a Hugging Face leaderboard that evaluates large language models on Icelandic."
+  ],
+  "mission": "Miðeind works to strengthen Icelandic in AI and language technology, doing so as openly as possible so that the public, businesses and researchers all benefit.",
+  "known_for": [
+   "Icelandic spelling, grammar and translation tools",
+   "Open-source Icelandic NLP software",
+   "Icelandic LLM leaderboard on Hugging Face",
+   "Government Language Technology Programme partner"
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Vilhjálmur Þorsteinsson founded Miðeind to build language technology for Icelandic.",
+    "year": "2015"
+   },
+   {
+    "title": "Language Technology Programme",
+    "note": "Miðeind worked as an implementation partner on machine translation, grammar checking and NLP infrastructure under the national programme from 2019 to 2022.",
+    "year": "2019"
+   },
+   {
+    "title": "Ský IT Award",
+    "note": "The company received the Ský IT Award for outstanding contributions to the Icelandic IT sector.",
+    "year": "2024"
+   },
+   {
+    "title": "WMT25 submission",
+    "note": "The team published its system description for the WMT25 general machine translation task.",
+    "year": "2025"
+   },
+   {
+    "title": "WikiQA-IS benchmark",
+    "note": "A benchmark for assisted generation and automated evaluation of Icelandic cultural knowledge in LLMs.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Vilhjálmur Þorsteinsson",
+    "role": "Founder and chairman",
+    "url": "https://mideind.is/en/teymid"
+   },
+   {
+    "name": "Linda Heimisdóttir",
+    "role": "CEO",
+    "url": "https://mideind.is/en/teymid"
+   },
+   {
+    "name": "Þorvaldur Páll Helgason",
+    "role": "CTO",
+    "url": "https://mideind.is/en/teymid"
+   },
+   {
+    "name": "Hulda Óladóttir",
+    "role": "CPO",
+    "url": "https://mideind.is/en"
+   }
+  ],
+  "founded": 2015
+ },
+ {
+  "id": "moondream",
+  "tagline": "Compact open-weight vision-language models for detection, captioning and segmentation, now part of Prime Intellect.",
+  "about": [
+   "Moondream is a family of small vision-language models built by M87 Labs. The models handle captioning, querying, detection, pointing and segmentation, and run on GPUs, CPUs and edge hardware.",
+   "Moondream 3.1 uses a sparse mixture-of-experts design with 9 billion parameters, 2 billion of them active. The site reports more than five million monthly downloads, open weights and commercial use permitted. The company also offers a hosted API, a fine-tuning product and the Photon inference engine.",
+   "In October 2026 Moondream announced that it had been acquired by Prime Intellect, which says the combined team will accelerate open models and fast multimodal AI."
+  ],
+  "mission": "Moondream aims to make capable visual AI small and fast enough to be fine-tuned and deployed on real-world edge cases anywhere.",
+  "known_for": [
+   "Compact open vision-language models",
+   "Moondream 2 and 3 model lines",
+   "On-device and edge deployment",
+   "Photon inference engine"
+  ],
+  "contributions": [
+   {
+    "title": "Moondream 3.1",
+    "note": "A mixture-of-experts release with 9 billion parameters and 2 billion active, announced in July 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Photon inference engine",
+    "note": "A megakernel inference stack that added speech models and NVIDIA GPU support through 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Parakeet Redux and Ultra",
+    "note": "Speech-to-text models for local transcription in 25 languages, released in September 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Acquired by Prime Intellect",
+    "note": "Moondream announced on 14 October 2026 that it was joining Prime Intellect.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [],
+  "_flag": "Moondream announced on 14 October 2026 that it was acquired by Prime Intellect, so it is no longer a standalone independent company."
+ },
+ {
+  "id": "moonshot-ai",
+  "tagline": "Beijing lab behind the Kimi models, whose open-weight Kimi K3 family at 2.8 trillion parameters is the largest open release to date.",
+  "about": [
+   "Moonshot AI was founded in Beijing in March 2023 by Yang Zhilin, Zhou Xinyu and Wu Yuxin, who had been schoolfriends at Tsinghua University. Yang previously worked at Google Brain and Meta. The company is named after Pink Floyd's The Dark Side of the Moon.",
+   "It operates the Kimi assistant, an API platform and the Kimi Code command-line agent, and publishes model weights on Hugging Face. Kimi K2 appeared in July 2025, K2.5 added native vision in January 2026, K3 followed in mid-2026 and Kimi K3.1 Pro was published in November 2026.",
+   "Moonshot is venture-backed, with Alibaba and Tencent among its investors, and releases K3 under a custom license that requires revenue sharing from very large commercial inference providers."
+  ],
+  "mission": "Moonshot states its aim as building foundation models toward artificial general intelligence, sharing research with the open-source community.",
+  "known_for": [
+   "Kimi open-weight model family",
+   "Very large mixture-of-experts open models",
+   "Long-context chat assistant",
+   "Agent Swarm and Kimi Code"
+  ],
+  "contributions": [
+   {
+    "title": "Kimi chatbot",
+    "note": "Moonshot released the first version of Kimi in October 2023, capable of long Chinese-language context.",
+    "year": "2023"
+   },
+   {
+    "title": "Kimi K2",
+    "note": "The K2 weights were published on Hugging Face in July 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Kimi K2.5",
+    "note": "A multimodal upgrade with a 400-million-parameter MoonViT vision encoder and Agent Swarm, released in January 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Kimi K3",
+    "note": "A 2.8-trillion-parameter open-weight model family launched in July 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Kimi K3.1 Pro",
+    "note": "A model with a one-million-token context window published in October and November 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Yang Zhilin",
+    "role": "Co-founder and CEO",
+    "url": "https://en.wikipedia.org/wiki/Moonshot_AI"
+   },
+   {
+    "name": "Zhou Xinyu",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Moonshot_AI"
+   },
+   {
+    "name": "Wu Yuxin",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Moonshot_AI"
+   }
+  ],
+  "founded": 2023,
+  "_flag": "Venture-backed commercial company (Alibaba, Tencent); K3 weights ship under a custom license with revenue sharing for large providers, so openness is partial."
+ },
+ {
+  "id": "motif-technologies",
+  "tagline": "Korean AI lab, a spin-off of the infrastructure firm Moreh, publishing open-weight Motif language models and the training techniques behind them.",
+  "about": [
+   "Motif Technologies is a Korean AI company reported to have been established in February 2025 as a spin-off from the AI infrastructure company Moreh. It trains its own foundation models, led by CEO Junghwan Lim according to press reports and its technical report.",
+   "Its Hugging Face organization carries the Motif model family, including the Motif-2-12.7B open-weight model described in a November 2025 technical report, as well as audio, vision encoder, video and VAE components. The report describes a new attention design, a curriculum-based data schedule and optimized training kernels.",
+   "Motif-3, a sparse mixture-of-experts model with about 314 billion parameters, was published in August 2026 under a non-commercial research license, a departure from the Apache 2.0 license used for Motif-2. Press reports link its training to South Korea's national sovereign-AI program."
+  ],
+  "mission": "Motif aims to build competitive, domestically developed foundation models and the efficient training methods behind them.",
+  "known_for": [
+   "Motif-2 and Motif-3 open-weight models",
+   "Efficiency-focused training kernels and optimizers",
+   "Korean sovereign-AI program participant"
+  ],
+  "contributions": [
+   {
+    "title": "Motif 2.6B",
+    "note": "A 2.6-billion-parameter small language model published on Hugging Face in 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Motif-2-12.7B technical report",
+    "note": "The November 2025 report presents an open-weight model with a new attention design, curriculum data schedule and optimized kernels.",
+    "year": "2025"
+   },
+   {
+    "title": "Motif-3 preview",
+    "note": "A roughly 314-billion-parameter mixture-of-experts beta checkpoint appeared on Hugging Face in July 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Motif-3 release",
+    "note": "The Motif-3 and Motif-3-Base weights were published in August 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Junghwan Lim",
+    "role": "Lead author and CEO per press reports",
+    "url": "https://arxiv.org/abs/2511.07464"
+   }
+  ],
+  "founded": 2025,
+  "_flag": "Reported as a spin-off or subsidiary of Moreh, and Motif-3 weights use a non-commercial license, so independence and openness are partial."
+ },
+ {
+  "id": "mozilla-data-collective",
+  "tagline": "A British mission-locked platform, incubated by Mozilla Foundation, where communities share datasets for AI on terms they control.",
+  "about": [
+   "Mozilla Data Collective is a data platform for AI datasets, run by a British company that describes itself as mission-locked, incubated by the Mozilla Foundation and backed by the not-for-profit Mozilla.org. Contributors upload datasets and set licensing, access conditions and, optionally, a price.",
+   "Builders can browse datasets with stated provenance and licensing. Datasets may be openly licensed, community-governed or compensated, and the platform says compensated datasets send money back to the people who made them."
+  ],
+  "mission": "The platform aims to share data without extraction, giving communities and organizations control over how their datasets are used in AI.",
+  "known_for": [
+   "Community-governed AI datasets",
+   "Dataset marketplace with creator-set terms",
+   "Mozilla Foundation incubation"
+  ],
+  "contributions": [],
+  "key_people": [],
+  "_flag": "Dataset platform rather than an AI lab; no open-source code or model releases were found on its site."
+ },
+ {
+  "id": "mozilla-ai",
+  "tagline": "Mozilla-backed company building open-source tools that give people and organizations choice, transparency and control over how AI is used.",
+  "about": [
+   "Mozilla.ai is a distributed company backed by the Mozilla Foundation that builds open-source AI products and infrastructure. Its GitHub organization dates from April 2023.",
+   "Its tools include any-llm, a single interface to many model providers, any-agent for running and evaluating agent frameworks, any-guardrail, mcpd, encoderfile and the Lumigator evaluation platform. It also hosts llamafile, the project that packages a model as one executable. Its newer products are Otari, an open-source governance layer for AI agents, and Octonous.",
+   "The team values open foundations and keeps humans in charge of outcomes; the code is largely released under Apache 2.0."
+  ],
+  "mission": "Mozilla.ai builds open-source AI products and infrastructure that give people and organizations more choice, transparency and control.",
+  "known_for": [
+   "llamafile single-file local models",
+   "any-llm and any-agent interfaces",
+   "Lumigator model evaluation",
+   "Otari agent governance"
+  ],
+  "contributions": [
+   {
+    "title": "Mozilla.ai GitHub organization",
+    "note": "The public organization was created in April 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "llamafile repository",
+    "note": "The llamafile project, which bundles a model and runtime into one executable, was created in September 2023 and is now hosted under mozilla-ai.",
+    "year": "2023"
+   },
+   {
+    "title": "Lumigator",
+    "note": "A platform for evaluating language models, first published in March 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "any-agent",
+    "note": "A single interface for using and evaluating different agent frameworks, created in March 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "any-llm",
+    "note": "A unified interface to LLM providers, created in July 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "encoderfile",
+    "note": "A tool to distribute and run transformer encoders as a single file, created in October 2025.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Alejandro Gonzalez",
+    "role": "VP, Engineering",
+    "url": "https://github.com/agpituk"
+   },
+   {
+    "name": "Davide Eynard",
+    "role": "Engineer, public org member",
+    "url": "http://davide.eynard.it"
+   },
+   {
+    "name": "Sally Coome",
+    "role": "Chief of Staff",
+    "url": "https://www.mozilla.ai/company/about-us"
+   },
+   {
+    "name": "Carla Smith",
+    "role": "Head of Finance",
+    "url": "https://www.mozilla.ai/company/about-us"
+   }
+  ],
+  "founded": 2023,
+  "_flag": "Wholly backed by the Mozilla Foundation (a subsidiary), so independence is limited, although the code is open source."
+ },
+ {
+  "id": "nbailab",
+  "tagline": "The National Library of Norway's AI lab, which releases Norwegian language models, speech models and datasets built from the library's collections.",
+  "about": [
+   "The AI-lab at the National Library of Norway explores how AI can serve libraries, archives and museums, and builds datasets and models for the wider community. It is a unit of the library rather than a separate company.",
+   "Its first major output, the Norwegian Transformer Model Project of 2020 to 2021, produced nb-bert-base, described as the first working Norwegian transformer model, and the Norwegian Colossal Corpus. A later Norwegian Speech Transformer Project, led by Per Egil Kummervold from September 2022, targeted better Norwegian speech-to-text.",
+   "The lab publishes its work through its GitHub and Hugging Face organizations."
+  ],
+  "mission": "The lab pursues applications of AI in libraries, archives and museums and contributes datasets and models so that the library can help shape good AI for Norwegian.",
+  "known_for": [
+   "nb-bert-base, the first Norwegian transformer model",
+   "Norwegian Colossal Corpus",
+   "Norwegian speech models"
+  ],
+  "contributions": [
+   {
+    "title": "Norwegian Transformer Model Project",
+    "note": "A project running from September 2020 to December 2021 that produced Norwegian BERT models and the Norwegian Colossal Corpus.",
+    "year": "2020"
+   },
+   {
+    "title": "nb-bert-base",
+    "note": "The first working Norwegian transformer model, published during the Norwegian Transformer Model Project.",
+    "year": "2021"
+   },
+   {
+    "title": "Norwegian Speech Transformer Project",
+    "note": "A project led by Per Egil Kummervold from September 2022 to improve Norwegian speech-to-text with transformers.",
+    "year": "2022"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Javier de la Rosa",
+    "role": "Leads AI activity; Research Scientist",
+    "url": "http://versae.es"
+   },
+   {
+    "name": "Per Egil Kummervold",
+    "role": "Senior Researcher",
+    "url": "https://ai.nb.no/about-us/"
+   },
+   {
+    "name": "Freddy Wetjen",
+    "role": "Responsible for early AI development at the library",
+    "url": "https://ai.nb.no/about-us/"
+   },
+   {
+    "name": "Rolv-Arild Braaten",
+    "role": "Builds tools for internal and public use",
+    "url": "https://ai.nb.no/about-us/"
+   },
+   {
+    "name": "Svein Arne Brygfjeld",
+    "role": "Advisor on AI",
+    "url": "https://ai.nb.no/about-us/"
+   }
+  ],
+  "_flag": "Unit of the National Library of Norway, a public institution, rather than an independent organization; its releases are open."
+ },
+ {
+  "id": "neuphonic",
+  "tagline": "London voice-AI company building low-latency text-to-speech and publishing open on-device NeuTTS models and the NeuCodec audio codec.",
+  "about": [
+   "Neuphonic is a text-to-speech company based in London. Its co-founders, who met studying machine learning at Cambridge, are Sohaib Ahmad as CEO and Jiameng Gao as CTO, according to press coverage.",
+   "It builds ultra-low-latency speech that can run locally, on premises or through an API, with multilingual voices and instant voice cloning. Its site lists the NeuTTS family and the NeuCodec audio codec and links to its GitHub and Hugging Face organizations.",
+   "The company has reported more than one million open-source downloads and says it is partnering with device makers."
+  ],
+  "mission": "Neuphonic aims to make AI voice interaction immediate and natural through fast, private text-to-speech that developers can run anywhere.",
+  "known_for": [
+   "NeuTTS on-device speech models",
+   "NeuCodec audio codec",
+   "Low-latency text-to-speech"
+  ],
+  "contributions": [
+   {
+    "title": "Neuphonic GitHub organization",
+    "note": "The public GitHub organization was created in April 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "NeuTTS family",
+    "note": "Open on-device speech language models with instant voice cloning, published under Apache 2.0 or the NeuTTS Open License depending on the model.",
+    "year": "2025"
+   },
+   {
+    "title": "One million open-source downloads",
+    "note": "The CEO cited more than one million open-source downloads in an April 2026 press release.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Sohaib Ahmad",
+    "role": "Co-founder and CEO",
+    "url": "https://www.neuphonic.com"
+   },
+   {
+    "name": "Jiameng Gao",
+    "role": "Co-founder and CTO",
+    "url": "https://www.neuphonic.com"
+   }
+  ],
+  "_flag": "Venture-funded commercial company; only some models are open, some under a custom NeuTTS Open License."
+ },
+ {
+  "id": "neuronpedia",
+  "tagline": "An open-source interpretability platform for exploring, visualizing and steering model internals such as sparse autoencoder features.",
+  "about": [
+   "Neuronpedia was created by Johnny Lin, an engineer who previously worked at Apple. It is an open-source platform where researchers and the public can search the features inside language models, steer model behavior and trace circuits.",
+   "It hosts feature dashboards and tooling for releases such as Gemma Scope 2, Llama Scope and SAE Bench, and recent additions include Circuit Tracer, the Assistant Axis, Natural Language Autoencoders and Jacobian Lens. It also offers an API and a community Slack.",
+   "Funding comes from Decode Research, Open Philanthropy, the Long Term Future Fund and others, and its users include groups at Anthropic, Google DeepMind, EleutherAI and Apollo Research."
+  ],
+  "mission": "Neuronpedia aims to make model internals easy to inspect and share, so that interpretability research is open and collaborative.",
+  "known_for": [
+   "Public sparse autoencoder feature explorer",
+   "Hosting Gemma Scope and Llama Scope",
+   "Circuit Tracer and model steering tools",
+   "Open-source interp-engine"
+  ],
+  "contributions": [
+   {
+    "title": "Assistant Axis",
+    "note": "A release shown on the site in January 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Circuit Tracer",
+    "note": "A circuit-tracing tool released on the platform in April 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Natural Language Autoencoders",
+    "note": "A release shown on the site in May 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Johnny Lin",
+    "role": "Creator",
+    "url": "https://johnnylin.co"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "nomic-ai",
+  "tagline": "New York company that began with open embeddings and the GPT4All local-LLM app and now builds AI agents for architecture, engineering and construction.",
+  "about": [
+   "Nomic was founded in 2022 in New York. Its early work focused on open research and tools for understanding the data behind AI models, including the Atlas data explorer, GPT4All and the Nomic Embed models, which were released with open weights, open data and training code.",
+   "Working with engineering firms led the company to focus on drawings, specifications, codes and project data. Its platform now offers agents and an API for architecture, engineering and construction, along with a benchmark called AEC-Bench.",
+   "Coatue led a 17 million dollar Series A in 2023, and Aurecon and Arcadis joined as strategic investors in 2026."
+  ],
+  "mission": "Nomic says AI should give experts more time to be experts, taking on repetitive work while accountable professionals stay in control of results.",
+  "known_for": [
+   "Nomic Embed open embedding models",
+   "GPT4All local language model app",
+   "Atlas data exploration"
+  ],
+  "contributions": [
+   {
+    "title": "Atlas",
+    "note": "A browser tool for exploring large unstructured datasets.",
+    "year": "2022"
+   },
+   {
+    "title": "GPT4All",
+    "note": "An app for running language models locally.",
+    "year": "2023"
+   },
+   {
+    "title": "Series A",
+    "note": "Coatue led a 17 million dollar Series A round.",
+    "year": "2023"
+   },
+   {
+    "title": "Nomic Embed",
+    "note": "Text and vision embedding models released with open weights, open data and training code.",
+    "year": "2024"
+   },
+   {
+    "title": "AEC-Bench",
+    "note": "A benchmark for agentic systems in architecture, engineering and construction.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Andriy Mulyar",
+    "role": "Founder and CEO",
+    "url": "https://www.nomic.ai/about"
+   },
+   {
+    "name": "Ben Schmidt",
+    "role": "CTO",
+    "url": "https://benschmidt.org"
+   },
+   {
+    "name": "Juliet Fern",
+    "role": "COO",
+    "url": "https://www.nomic.ai/about"
+   },
+   {
+    "name": "Chris Garrison",
+    "role": "VP of Revenue",
+    "url": "https://www.nomic.ai/about"
+   }
+  ],
+  "founded": 2022,
+  "_flag": "Venture-funded company whose current focus is commercial AEC agents; open releases are mostly from 2022 to 2024."
+ },
+ {
+  "id": "nous-research",
+  "tagline": "American open AI lab behind the Hermes models, the Hermes Agent harness and decentralized training work such as DisTrO and Psyche.",
+  "about": [
+   "Nous Research began in 2022 as a group of volunteers who met on Discord, GitHub and Twitter, and became a company in 2023. Reported co-founders include Jeffrey Quesnelle, Karan Malhotra, Teknium and Shivani Mitra, and Bowen Peng is also described as a co-founder.",
+   "The group first fine-tuned open models into the Hermes series and published YaRN, a context-extension method. It later released the DisTrO optimizer and the Psyche network for training over the public internet, and in February 2026 launched Hermes Agent, an open-source agent harness.",
+   "Funding includes a 50 million dollar Series A led by Paradigm in April 2025 and a 90 million dollar round announced in October 2026."
+  ],
+  "mission": "Nous states its mission as creating and spreading open access to intelligence, so that powerful AI is in the hands of the many.",
+  "known_for": [
+   "Hermes open-weight models",
+   "Hermes Agent open-source harness",
+   "DisTrO and Psyche distributed training",
+   "YaRN context extension"
+  ],
+  "contributions": [
+   {
+    "title": "Seed round",
+    "note": "Nous closed a 5.2 million dollar seed round in January 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Hermes 3 and DisTrO",
+    "note": "Hermes 3 on Llama 3.1 and the DisTrO optimizer were published in August 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Series A and Psyche",
+    "note": "A 50 million dollar round led by Paradigm accompanied a test network for the Psyche training system in April 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Hermes 4",
+    "note": "The Hermes 4 models followed in August 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Hermes Agent",
+    "note": "An open-source agent released in February 2026 that reached about 214,000 GitHub stars by July.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jeffrey Quesnelle",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Nous_Research"
+   },
+   {
+    "name": "Karan Malhotra",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Nous_Research"
+   },
+   {
+    "name": "Teknium",
+    "role": "Co-founder, head of post-training",
+    "url": "https://en.wikipedia.org/wiki/Nous_Research"
+   },
+   {
+    "name": "Bowen Peng",
+    "role": "Researcher, described as co-founder",
+    "url": "https://en.wikipedia.org/wiki/Nous_Research"
+   },
+   {
+    "name": "Dillon Rolnick",
+    "role": "Chief executive as of October 2026",
+    "url": "https://en.wikipedia.org/wiki/Nous_Research"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "novasky",
+  "tagline": "Berkeley Sky Computing Lab group releasing open reasoning models, training recipes and the SkyRL reinforcement-learning library for LLM agents.",
+  "about": [
+   "NovaSky is a team within the Sky Computing Lab at UC Berkeley. Its GitHub organization was created in January 2025, the month it published Sky-T1, a reasoning model it said could be trained for under 450 dollars.",
+   "The group releases weights, data and training code together. After Sky-T1 it published work on cutting reasoning costs, test-time scaling for code generation and the SkyRL framework, which grew from SkyRL-v0 for long-horizon software agents into a modular RL library for training LLMs.",
+   "Its repositories, including SkyThought and SkyRL, are released under Apache 2.0, and its audience is researchers and developers training reasoning and agentic models."
+  ],
+  "mission": "NovaSky aims to make post-training of reasoning and agentic models reproducible and affordable by sharing models, data and code openly.",
+  "known_for": [
+   "Sky-T1 reasoning model trained for under 450 dollars",
+   "SkyRL reinforcement-learning library",
+   "SkyThought open recipes",
+   "Text-to-SQL and software-agent RL results"
+  ],
+  "contributions": [
+   {
+    "title": "Sky-T1-32B-Preview",
+    "note": "An open 32-billion-parameter reasoning model, with data and code, reported to cost under 450 dollars to train.",
+    "year": "2025"
+   },
+   {
+    "title": "Reasoning cost reduction",
+    "note": "A January 2025 post showed how to cut reasoning costs by about half without sacrificing accuracy.",
+    "year": "2025"
+   },
+   {
+    "title": "SkyRL-v0",
+    "note": "A May 2025 release for training long-horizon real-world agents with reinforcement learning.",
+    "year": "2025"
+   },
+   {
+    "title": "SkyRL-SQL",
+    "note": "A May 2025 recipe for data-efficient multi-turn reinforcement learning on text-to-SQL.",
+    "year": "2025"
+   },
+   {
+    "title": "SkyRL-v0.1",
+    "note": "A June 2025 release evolving SkyRL into a modular, performant RL framework for LLMs.",
+    "year": "2025"
+   },
+   {
+    "title": "SA-SWE-32B",
+    "note": "A 32-billion-parameter software-engineering model published in October 2025.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Shiyi Cao",
+    "role": "Public org member",
+    "url": "https://shiyicao.com"
+   },
+   {
+    "name": "Charlie Ruan",
+    "role": "Public org member",
+    "url": "https://www.charlieruan.com"
+   },
+   {
+    "name": "Shu Liu",
+    "role": "Public org member",
+    "url": "https://shulynnliu.com/"
+   },
+   {
+    "name": "Sumanth R Hegde",
+    "role": "Public org member",
+    "url": "https://sumanthrh.com"
+   }
+  ],
+  "founded": 2025
+ },
+ {
+  "id": "nxai",
+  "tagline": "Linz company commercializing Sepp Hochreiter's xLSTM research, publishing xLSTM models, TiRex time-series forecasters and fast recurrent kernels.",
+  "about": [
+   "NXAI was set up in early 2024 in Linz, Austria, by Sepp Hochreiter, who leads the Institute for Machine Learning at JKU Linz, together with the company builder Netural X and PIERER Digital Holding. Hochreiter is Chief Scientist and Albert Ortig is CEO, according to press coverage.",
+   "The company aims to turn research on sequence modeling into industrial applications in engineering, robotics, automation and process control. It publishes the xLSTM architecture code, FlashRNN kernels, Vision-LSTM and the TiRex family of zero-shot time-series forecasting models.",
+   "Its GitHub organization dates from May 2024, and recent Hugging Face releases include TiRex-2 forecasting assets and KronLSTM language models."
+  ],
+  "mission": "NXAI states that its mission is to turn pioneering research into market-relevant industrial AI by building scalable, generalist foundation models.",
+  "known_for": [
+   "xLSTM recurrent language-model architecture",
+   "TiRex zero-shot time-series forecasting",
+   "FlashRNN kernels",
+   "Industry-focused AI from Linz"
+  ],
+  "contributions": [
+   {
+    "title": "xLSTM repository",
+    "note": "Reference implementation of the xLSTM architecture published in May 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Vision-LSTM",
+    "note": "An xLSTM-based vision backbone repository created in June 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "FlashRNN",
+    "note": "Optimized kernels for recurrent networks released in November 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "TiRex",
+    "note": "A zero-shot time-series forecasting model built on xLSTM, with code from May 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "TiRex-2",
+    "note": "An updated forecasting model whose code was published in July 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "KronLSTM models",
+    "note": "1.5-billion-parameter recurrent language models published on Hugging Face in October 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Sepp Hochreiter",
+    "role": "Founder and Chief Scientist; head of the Institute for Machine Learning at JKU Linz",
+    "url": "https://www.jku.at/60-jahre-jku/detail/news/ai-made-in-europe-spitzenforscher-sepp-hochreiter-und-sein-xlstm-erhalten-unternehmerische-verstaerkung-fuer-europaeisches-large-language-model/"
+   },
+   {
+    "name": "Albert Ortig",
+    "role": "CEO",
+    "url": "https://www.netural.com/en/news/netural-ai-symposium-report-part-1"
+   }
+  ],
+  "founded": 2024,
+  "_flag": "Venture-backed company with industrial shareholders (Netural X, PIERER Digital Holding) that sells commercial AI products; the code is released openly."
+ },
+ {
+  "id": "occiglot",
+  "tagline": "An informal European research collective that released Occiglot-7B models, multilingual web datasets and tokenizer analyses for European languages.",
+  "about": [
+   "Occiglot describes itself as an ongoing research collective and an informal community of motivated individuals building open multilingual language models for Europe. Its announcement in March 2024 framed the work as preserving linguistic diversity and AI sovereignty in Europe.",
+   "The group released continually pre-trained Occiglot-7B models for German, French, Italian, Spanish and combined European language sets in March 2024, followed by the Occiglot-Fineweb dataset and German models built with DiscoResearch. It also published a tokenizer evaluation for European languages and contributed to the Community OSCAR web corpus.",
+   "The page names contributors Manuel Brack, Malte Ostendorff and Pedro Ortiz Suarez, and invites collaborators through its Discord server."
+  ],
+  "mission": "Occiglot works to build transparent, open-source multilingual language models for European languages through an open community.",
+  "known_for": [
+   "Occiglot-7B multilingual European models",
+   "Occiglot-Fineweb dataset",
+   "European language tokenizer evaluation",
+   "Community OSCAR web data"
+  ],
+  "contributions": [
+   {
+    "title": "Occiglot announcement",
+    "note": "The collective published its mission post on 6 March 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Occiglot-7B model family",
+    "note": "Language-specific and eu5 Occiglot-7B models appeared on Hugging Face in early March 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Tokenizer evaluation",
+    "note": "An analysis of tokenizers on European languages published on 11 March 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Occiglot-Fineweb",
+    "note": "A preliminary dataset of about 230 million cleaned documents in 10 languages.",
+    "year": "2024"
+   },
+   {
+    "title": "German Llama-3 models",
+    "note": "Base, instruct and long-context German models built with DiscoResearch on 65 billion German tokens.",
+    "year": "2024"
+   },
+   {
+    "title": "Community OSCAR",
+    "note": "A multilingual web dataset built from 40 monthly Common Crawl snapshots, announced in August 2024.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Manuel Brack",
+    "role": "Contributor",
+    "url": "https://occiglot.eu"
+   },
+   {
+    "name": "Malte Ostendorff",
+    "role": "Contributor",
+    "url": "https://occiglot.eu"
+   },
+   {
+    "name": "Pedro Ortiz Suarez",
+    "role": "Contributor",
+    "url": "https://occiglot.eu"
+   }
+  ],
+  "founded": 2024
+ },
+ {
+  "id": "open-climate-fix",
+  "tagline": "UK organization applying machine learning to solar, wind and demand forecasting for the grid, publishing its code and data openly.",
+  "about": [
+   "Open Climate Fix was founded in 2019 by Dan Travers and Jack Kelly, and its GitHub organization describes its method as open science to mitigate climate change. The team combines expertise from energy, deep learning, design and product management.",
+   "Its work includes a national solar forecast for Great Britain used daily by the National Energy System Operator, cloudcasting from satellite imagery, wind forecasting, mapping of rooftop solar and an open energy data advocacy program.",
+   "The organization reports reductions in forecasting error and cost savings for grid operators and publishes models and code on GitHub and Hugging Face."
+  ],
+  "mission": "Open Climate Fix works toward a world powered by clean and affordable energy by delivering AI that makes renewable generation more predictable.",
+  "known_for": [
+   "GB National Solar Forecast",
+   "Cloudcasting from satellite imagery",
+   "Open energy data advocacy",
+   "Open-source solar forecasting code"
+  ],
+  "contributions": [
+   {
+    "title": "Organization founded",
+    "note": "Open Climate Fix was established by co-founders Dan Travers and Jack Kelly.",
+    "year": "2019"
+   },
+   {
+    "title": "GB National Solar Forecast",
+    "note": "A solar PV generation forecast used daily by the National Energy System Operator and trading desks.",
+    "year": "2024"
+   },
+   {
+    "title": "Cloudcasting",
+    "note": "Prediction of cloud movement from satellite imagery to improve solar forecasts.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Dan Travers",
+    "role": "Co-founder",
+    "url": "https://openclimatefix.org/team"
+   },
+   {
+    "name": "Jack Kelly",
+    "role": "Co-founder",
+    "url": "https://openclimatefix.org/team"
+   },
+   {
+    "name": "Peter Dudfield",
+    "role": "Head of Technology",
+    "url": "https://openclimatefix.org/team"
+   },
+   {
+    "name": "Heather Murphy",
+    "role": "Commercial and Growth Strategy Lead",
+    "url": "https://openclimatefix.org/team"
+   },
+   {
+    "name": "Ben Nelmes",
+    "role": "Open Data Advocacy Lead",
+    "url": "https://openclimatefix.org/team"
+   }
+  ],
+  "founded": 2019
+ },
+ {
+  "id": "openbmb",
+  "tagline": "Open lab for big model base, linked to the Tsinghua NLP group's spin-out ModelBest, releasing the MiniCPM on-device models, VoxCPM speech and UltraRAG.",
+  "about": [
+   "OpenBMB, short for Open Lab for Big Model Base, describes its goal as building foundation models and systems toward AGI. It is the open-source community associated with ModelBest, a Beijing company founded in August 2022 as a spin-off from Tsinghua University's Natural Language Processing Laboratory.",
+   "ModelBest was founded with Li Dahai as CEO and Liu Zhiyuan as Chief Scientist, according to press and encyclopedic sources. The community's flagship releases are the MiniCPM small language models and the MiniCPM-V multimodal models for local devices, along with VoxCPM for speech and the UltraRAG framework.",
+   "ModelBest says the MiniCPM series has passed 24 million downloads, and its models appear in phones and cars."
+  ],
+  "mission": "OpenBMB aims to build foundation models and systems toward AGI, with efficient models that run on consumer devices.",
+  "known_for": [
+   "MiniCPM on-device language models",
+   "MiniCPM-V multimodal models",
+   "VoxCPM text-to-speech",
+   "UltraRAG framework"
+  ],
+  "contributions": [
+   {
+    "title": "ModelBest founded",
+    "note": "The company was spun out of Tsinghua's NLP Laboratory in August 2022.",
+    "year": "2022"
+   },
+   {
+    "title": "Luca assistant",
+    "note": "ModelBest launched its multimodal dialogue assistant Luca in November 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "MiniCPM 4.0",
+    "note": "Released in June 2025 alongside the CPM.cu inference framework.",
+    "year": "2025"
+   },
+   {
+    "title": "MiniCPM-o 4.5",
+    "note": "A full-duplex multimodal model for video, audio and text input introduced in early 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "MiniCPM5-2B",
+    "note": "A two-billion-parameter model whose local deployment tests were published in November 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Li Dahai",
+    "role": "ModelBest co-founder and CEO",
+    "url": "https://en.wikipedia.org/wiki/ModelBest"
+   },
+   {
+    "name": "Liu Zhiyuan",
+    "role": "ModelBest co-founder and Chief Scientist",
+    "url": "https://en.wikipedia.org/wiki/ModelBest"
+   }
+  ],
+  "_flag": "OpenBMB is the open-source arm of the venture-funded company ModelBest, so it is not independent of a commercial entity."
+ },
+ {
+  "id": "opencsg",
+  "tagline": "Initiative founded in 2023 that builds the CSGHub platform for managing models, datasets and agents, and releases open Chinese datasets and models.",
+  "about": [
+   "OpenCSG describes itself as an open-source and fair initiative established in 2023 to build an open community for large language models. The name stands for Converged resources, Software refined and Generative LM.",
+   "Its main project is CSGHub, an Apache 2.0 platform for managing LLMs, datasets and agents with on-premise and hosted options. Other repositories cover the server, SDK, deployment charts and a lightweight local inference tool.",
+   "On Hugging Face it publishes datasets and models, with Agentic-27B and Agentic-30B-A3B among its recent releases."
+  ],
+  "mission": "OpenCSG aims to help enterprises cut costs and raise efficiency in developing and deploying large language models through open tooling.",
+  "known_for": [
+   "CSGHub model and dataset platform",
+   "Open Chinese datasets",
+   "Agentic model releases"
+  ],
+  "contributions": [
+   {
+    "title": "OpenCSG-R1 Qwen2.5 Code model",
+    "note": "A 3-billion-parameter code model published on Hugging Face in March 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Agentic-30B-A3B",
+    "note": "A mixture-of-experts model published in August 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Agentic-27B",
+    "note": "A 27-billion-parameter model published in September 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Agentic-27B-V2",
+    "note": "A second version of the 27-billion-parameter model published in November 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [],
+  "founded": 2023,
+  "_flag": "The public pages do not state ownership or funding, so independence could not be confirmed."
+ },
+ {
+  "id": "opendatalab",
+  "tagline": "Open data group behind the MinerU document parser and the OmniDocBench benchmark, providing datasets and tools for large-model data work.",
+  "about": [
+   "OpenDataLab provides access to open-source datasets and works on AI data across parsing, annotation and evaluation. Its GitHub organization lists MinerU, PDF-Extract-Kit, DocLayout-YOLO, OmniDocBench, labelU and LabelLLM as its main projects.",
+   "MinerU converts PDFs and office documents into markdown or JSON that language models can use, and has more than 80,000 GitHub stars. OmniDocBench is a document parsing benchmark listed at CVPR 2025.",
+   "Its Hugging Face organization carries MinerU model releases through 2026, and it also lists a scientific data initiative called Sciverse."
+  ],
+  "mission": "OpenDataLab aims to supply open datasets and tools that make data preparation for large models easier to share and reproduce.",
+  "known_for": [
+   "MinerU PDF-to-markdown parser",
+   "OmniDocBench document parsing benchmark",
+   "Open dataset hub",
+   "Annotation tools labelU and LabelLLM"
+  ],
+  "contributions": [
+   {
+    "title": "MinerU2.5-Pro",
+    "note": "A 1.2-billion-parameter document parsing model published in May 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "MinerU model bundles",
+    "note": "Torch and ONNX model sets for the MinerU pipeline released in September 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "MinerU-HTML",
+    "note": "A compact 0.8-billion-parameter HTML extraction model published in November 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [],
+  "_flag": "The contact email domain points to Shanghai AI Laboratory, so OpenDataLab appears to be part of a larger institution rather than an independent group."
+ },
+ {
+  "id": "openeurollm",
+  "tagline": "EU-funded consortium of universities, companies and supercomputing centres building open, multilingual foundation models for the languages of Europe.",
+  "about": [
+   "OpenEuroLLM is co-funded by the European Union through the Digital Europe Programme. Its consortium of 21 organizations includes 12 universities and research organizations, six companies and three high-performance computing centres.",
+   "Press and university sources describe it as coordinated by Jan Hajič of Charles University and co-led by Peter Sarlin of AMD Silo AI, starting in February 2025 for 36 months. The project publishes models, data and evaluation results on Hugging Face and GitHub.",
+   "Its goals include strong multilingual models for EU official languages, wider evaluation including AI Act alignment, open datasets, open tools and recipes, and a community of developers. Recent Hugging Face releases include the Prelude9B work and numerous data-mix experiments."
+  ],
+  "mission": "OpenEuroLLM aims to provide transparent, performant models for European languages while preserving linguistic and cultural diversity, and to share the data, code and recipes openly.",
+  "known_for": [
+   "EU-funded open multilingual LLM effort",
+   "21-partner European consortium",
+   "Prelude9B models",
+   "Open datasets and evaluations for EU languages"
+  ],
+  "contributions": [
+   {
+    "title": "Project launch",
+    "note": "The consortium launched in Prague, with Charles University as coordinator; the official start was in February 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "First Winter School",
+    "note": "A winter school on multilinguality in LLM development and evaluation was held in Norway in February 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Open Source Sovereign Foundation Models workshop",
+    "note": "Project partners presented goals and status at the OSFM workshop in Cologne in May 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Prelude models on Hugging Face",
+    "note": "Prelude-long and many data-mix experiments were published in November 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jan Hajič",
+    "role": "Project coordinator, Charles University",
+    "url": "https://www.mff.cuni.cz/en/public/news/charles-university-as-the-main-coordinator-of-the-openeurollm-project"
+   },
+   {
+    "name": "Peter Sarlin",
+    "role": "Co-lead, AMD Silo AI",
+    "url": "https://www.amd.com/en/blogs/2025/open-llms-for-transparent-ai-in-europe.html"
+   },
+   {
+    "name": "Stephan Oepen",
+    "role": "Partner representative, University of Oslo",
+    "url": "https://openeurollm.eu"
+   }
+  ],
+  "founded": 2025
+ },
+ {
+  "id": "opengpt-x",
+  "tagline": "German publicly funded consortium that trained the open Teuken-7B models, built from scratch for all 24 official languages of the European Union.",
+  "about": [
+   "OpenGPT-X was a collaborative project funded by the German Federal Ministry for Economic Affairs and Climate Action from January 2022 to December 2024. It brought together partners from industry, research and media, with Fraunhofer IAIS and IIS leading and compute from the Jülich Supercomputing Centre.",
+   "Its main output was Teuken-7B, a seven-billion-parameter model trained from scratch on the 24 official EU languages, with about half of its pretraining data not in English. Instruct and base versions appeared on Hugging Face from September 2024, and the project issued its public press release on 26 November 2024.",
+   "The team also published a European LLM Leaderboard in July 2024 and an LLM Workbook, and Deutsche Telekom's T-Systems became the first provider to move Teuken from research to commercial use."
+  ],
+  "mission": "OpenGPT-X set out to develop versatile, trustworthy, multilingual and open language models made in Germany and to support their adoption in the German economy.",
+  "known_for": [
+   "Teuken-7B multilingual European model",
+   "24 EU languages trained from scratch",
+   "European LLM Leaderboard",
+   "Publicly funded open model project"
+  ],
+  "contributions": [
+   {
+    "title": "Project start",
+    "note": "The consortium began work in January 2022 with federal funding.",
+    "year": "2022"
+   },
+   {
+    "title": "European LLM Leaderboard",
+    "note": "The team published a leaderboard for European-language model evaluation in July 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Teuken-7B research releases",
+    "note": "Instruct versions v0.4 appeared on Hugging Face in September and October 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Teuken-7B public release",
+    "note": "Fraunhofer announced the open release of Teuken-7B on 26 November 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Teuken-7B v0.6",
+    "note": "Updated base and instruct versions published between December 2024 and July 2025.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [],
+  "founded": 2022,
+  "_flag": "Government-funded consortium whose funding period ended in December 2024; the project is now largely a publication archive."
+ },
+ {
+  "id": "opengvlab",
+  "tagline": "The General Vision Team at Shanghai AI Laboratory, releasing the InternVL multimodal models, InternVideo and other vision foundation models.",
+  "about": [
+   "OpenGVLab is the General Vision Team of Shanghai AI Laboratory. Its GitHub organization lists more than 70 open-source works and about 3,500 followers.",
+   "The team focuses on vision-centric research and releases pre-trained foundation models. Its best-known repository is InternVL, an open multimodal dialogue model family created in November 2023 and released under the MIT license. Other work includes LLaMA-Adapter, Ask-Anything, InternVideo, InternImage, VideoMamba and OmniQuant.",
+   "Recent Hugging Face releases include the Vlaser vision-language-action models published in October 2025."
+  ],
+  "mission": "OpenGVLab pursues vision-centric AI research and shares pre-trained foundation models with the community.",
+  "known_for": [
+   "InternVL multimodal model family",
+   "InternVideo video foundation models",
+   "LLaMA-Adapter efficient fine-tuning",
+   "InternImage vision backbone"
+  ],
+  "contributions": [
+   {
+    "title": "InternImage",
+    "note": "A large-scale vision backbone repository created in November 2022.",
+    "year": "2022"
+   },
+   {
+    "title": "LLaMA-Adapter",
+    "note": "A method for efficient instruction tuning of LLaMA, first published in March 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Ask-Anything",
+    "note": "A video-chat project created in April 2023 with ChatGPT-style video understanding.",
+    "year": "2023"
+   },
+   {
+    "title": "InternVL",
+    "note": "An open multimodal dialogue model family whose repository was created in November 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Vlaser",
+    "note": "Vision-language-action models published on Hugging Face in October 2025.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [],
+  "_flag": "A team within Shanghai AI Laboratory, a state-linked research institution, so not an independent organization although its releases are open."
+ },
+ {
+  "id": "openhands",
+  "tagline": "Open-source platform for AI software-engineering agents, built by the former All Hands AI team and used by hundreds of contributors.",
+  "about": [
+   "OpenHands is an open-source platform for building and running AI coding agents. Its main repository, created in March 2024, is released under the MIT license and has more than 90,000 GitHub stars.",
+   "The company behind it offers a GUI, a command-line tool, an SDK, a cloud service and enterprise deployments with control over models, data and access. Its site lists more than 500 open-source contributors and more than nine million downloads.",
+   "The team is led by Robert Brennan as CEO, Graham Neubig as Chief Scientist and Xingyao Wang as Chief AI Officer."
+  ],
+  "mission": "OpenHands aims to let every team build software autonomously with open, model-agnostic agents that can run wherever they are deployed.",
+  "known_for": [
+   "Open-source coding agent platform",
+   "SWE-bench-style agent research",
+   "Model-agnostic CLI, GUI and SDK",
+   "Large open contributor community"
+  ],
+  "contributions": [
+   {
+    "title": "Repository created",
+    "note": "The core OpenHands repository was created in March 2024 under the MIT license.",
+    "year": "2024"
+   },
+   {
+    "title": "GitHub organization",
+    "note": "The OpenHands organization on GitHub was created in August 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "90,000 GitHub stars",
+    "note": "The core repository passed 90,000 stars, with more than 500 open-source contributors reported on the company site.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Robert Brennan",
+    "role": "CEO",
+    "url": "https://www.openhands.dev/about"
+   },
+   {
+    "name": "Graham Neubig",
+    "role": "Chief Scientist",
+    "url": "https://www.openhands.dev/about"
+   },
+   {
+    "name": "Xingyao Wang",
+    "role": "Chief AI Officer",
+    "url": "https://www.openhands.dev/about"
+   },
+   {
+    "name": "Chuck Butkus",
+    "role": "Principal Engineer",
+    "url": "https://www.openhands.dev/about"
+   },
+   {
+    "name": "Tim O'Farrell",
+    "role": "Founding Principal Engineer",
+    "url": "https://www.openhands.dev/about"
+   }
+  ],
+  "founded": 2024,
+  "_flag": "Venture-backed commercial company (formerly All Hands AI) with enterprise products; the core platform is MIT licensed."
+ },
+ {
+  "id": "openllm-france",
+  "tagline": "French community and BPI-funded consortium building open commons for French, including the Lucie-7B and Luciole model families.",
+  "about": [
+   "OpenLLM France grew out of a community of academic and industry stakeholders interested in open-source generative models, with a GitHub organization created in June 2023. Its current research project is funded by BPI France for two years and run by a consortium of nine official partners with 12 associate partners.",
+   "Lucie-7B, published in October 2024 under Apache 2.0, was the first foundation model the project trained from scratch, with more than 30 percent French training data. The newer Luciole family covers 1B, 8B and 23B models with about 30 percent French data, with training data and code released on Hugging Face and GitHub.",
+   "Public GitHub members include researchers affiliated with Linagora and CNRS."
+  ],
+  "mission": "The project aims to build open digital commons for the French language and share expertise for ethical, open AI applications in France.",
+  "known_for": [
+   "Lucie-7B French-focused foundation model",
+   "Luciole open model family",
+   "Open French training data and code"
+  ],
+  "contributions": [
+   {
+    "title": "Community founded",
+    "note": "The OpenLLM France GitHub organization was created in June 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Lucie-7B",
+    "note": "The first model trained from scratch by the project, released under Apache 2.0 in October 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Luciole-1B",
+    "note": "A small base model released under Apache 2.0 in February 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "Luciole thinking models",
+    "note": "Reasoning variants including Luciole-23B-Thinking appeared in October and November 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jérôme Louradour",
+    "role": "Public org member",
+    "url": "https://github.com/Jeronymous"
+   },
+   {
+    "name": "Julie Hunter",
+    "role": "Public org member",
+    "url": "https://github.com/jhunter19"
+   },
+   {
+    "name": "Christophe Cerisara",
+    "role": "Public org member",
+    "url": "https://github.com/cerisara"
+   },
+   {
+    "name": "Michel-Marie Maudet",
+    "role": "Linagora, public org member",
+    "url": "http://www.linagora.com/"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "openllm-ro",
+  "tagline": "Community of Romanian researchers releasing open Romanian language models, datasets, benchmarks and training code.",
+  "about": [
+   "OpenLLM-Ro is a community building open large language models for Romanian. Its GitHub organization was created in April 2024, and its first Romanian models, fine-tuned from Llama 2, appeared on 14 May 2024.",
+   "It has since released models based on Mistral, Gemma and Llama 3, instruction-tuned and human-aligned variants, training code, evaluation code and two LLM-as-a-judge benchmarks, RoMTBench and RoCulturaBench. In 2025 and 2026 it added pretraining data with a quality classifier, vision-language data and a quantized RoLlama-3.2-1B.",
+   "The group has published preprints on its models, data quality and vision-language work, and held a workshop on LLMs for Romanian in September 2024."
+  ],
+  "mission": "OpenLLM-Ro aims to build and share open language models and resources for Romanian.",
+  "known_for": [
+   "RoLlama, RoMistral and RoGemma Romanian models",
+   "RoMTBench and RoCulturaBench",
+   "Open Romanian training and evaluation code"
+  ],
+  "contributions": [
+   {
+    "title": "First Romanian models",
+    "note": "RoLlama2 models were released on 14 May 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "RoMistral, RoGemma and RoLlama3",
+    "note": "Additional model families were released between May and June 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Training code and benchmarks",
+    "note": "Training code (August 2024) and RoMTBench with RoCulturaBench (August 2024) were published.",
+    "year": "2024"
+   },
+   {
+    "title": "Pretraining data and quality classifier",
+    "note": "Augmented Romanian pretraining data was released in November 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Vision-language resources",
+    "note": "Code, training and evaluation data for Romanian vision-language models were released in June 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [],
+  "founded": 2024
+ },
+ {
+  "id": "openmoss",
+  "tagline": "Fudan-linked research group at the Shanghai Innovation Institute behind the MOSS models, MOSS-TTS speech and image releases and interpretability tools.",
+  "about": [
+   "OpenMOSS is a research group under the Shanghai Innovation Institute, working closely with Fudan University and MOSS-AI. Its GitHub profile lists Xipeng Qiu of Fudan as an associated academic, and its site describes work on open-source large models and AGI research.",
+   "The MOSS repository was created in April 2023 and has more than 12,000 stars under Apache 2.0. More recent releases include MOSS-TTS in February 2026, MOSS-TTS-Nano in April 2026, MOSS-Transcribe-Diarize in May 2026 and MOSS-Image in October 2026.",
+   "The team also publishes world-action-model work under the EasyWAM name and maintains the Awesome-WAM list."
+  ],
+  "mission": "OpenMOSS conducts open research on large models and general artificial intelligence and releases its code and models openly.",
+  "known_for": [
+   "MOSS conversational language model",
+   "MOSS-TTS speech models",
+   "Open-source large model research at Fudan"
+  ],
+  "contributions": [
+   {
+    "title": "MOSS repository",
+    "note": "The MOSS model repository was created in April 2023 under Apache 2.0.",
+    "year": "2023"
+   },
+   {
+    "title": "MOSS-TTS",
+    "note": "A speech generation model published in February 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "MOSS-Transcribe-Diarize",
+    "note": "A transcription and diarization model published in May 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "EasyWAM models",
+    "note": "World-action-model checkpoints published on Hugging Face in September 2026.",
+    "year": "2026"
+   },
+   {
+    "title": "MOSS-Image",
+    "note": "Base and SFT image models released in October 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Xipeng Qiu",
+    "role": "Professor, Fudan University",
+    "url": "https://xpqiu.github.io/"
+   },
+   {
+    "name": "Peng Li",
+    "role": "Public org member",
+    "url": "https://artpli.github.io"
+   },
+   {
+    "name": "Zhengfu He",
+    "role": "Public org member, SII",
+    "url": "https://github.com/Hzfinfdu"
+   }
+  ],
+  "founded": 2023,
+  "_flag": "Research group inside the Shanghai Innovation Institute with Fudan University and MOSS-AI, so not a fully independent organization."
+ }
+]

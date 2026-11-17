@@ -1,0 +1,309 @@
+[
+ {
+  "id": "hitz",
+  "contributions": [
+   {
+    "title": "HiTZ research center presented",
+    "note": "The Basque Government presented HiTZ as a research center grouping the Ixa and Aholab groups of the University of the Basque Country.",
+    "year": "2020"
+   },
+   {
+    "title": "Basque Government funding",
+    "note": "The Basque Government announced 1.68 million euros for the center's language-technology research.",
+    "year": "2023"
+   },
+   {
+    "title": "Latxa",
+    "note": "Released a family of 7B to 70B Basque language models built on Llama 2, with a new Basque corpus and evaluation suite, under the IKER-GAITU project.",
+    "year": "2024"
+   },
+   {
+    "title": "Latxa Instruct on Llama 3.1",
+    "note": "Published instruction-tuned Latxa models for Basque at 8B and 70B and a public chatbot, with a crowdsourced arena collecting over 12,000 preference judgments.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Eneko Agirre",
+    "role": "Director of HiTZ; Professor, University of the Basque Country",
+    "url": "https://eagirre.github.io/",
+    "note": "Principal investigator of the Ixa group and co-author of the Latxa paper."
+   },
+   {
+    "name": "German Rigau",
+    "role": "Deputy Director of HiTZ",
+    "url": "https://www.hitz.eus/sites/default/files/HiTZ_2025_report.pdf",
+    "note": "Named as deputy director in the center's annual report; co-author of the Latxa paper."
+   },
+   {
+    "name": "Julen Etxaniz",
+    "role": "First author of Latxa",
+    "url": "https://arxiv.org/abs/2403.20266",
+    "note": "Led the Basque model and evaluation suite paper."
+   }
+  ]
+ },
+ {
+  "id": "hpc-ai-tech",
+  "key_people": [
+   {
+    "name": "Yang You",
+    "role": "Founder and chairman; Presidential Young Professor, National University of Singapore",
+    "url": "https://www.comp.nus.edu.sg/~youy",
+    "note": "UC Berkeley PhD; leads the HPC-AI Lab at NUS."
+   },
+   {
+    "name": "James Demmel",
+    "role": "Strategic adviser",
+    "url": "https://company.hpc-ai.com/blog/singapore-startup-hpc-ai-tech-secures-50-million-usd-in-series-a-funding-to-build-the-video-generation-ai-model-and-gpu-platform",
+    "note": "Named by the company as providing strategic guidance; Berkeley professor."
+   }
+  ]
+ },
+ {
+  "id": "institute-of-foundation-models",
+  "key_people": [
+   {
+    "name": "Eric Xing",
+    "role": "President of MBZUAI; Professor, Carnegie Mellon University",
+    "url": "https://www.cs.cmu.edu/~epxing/",
+    "note": "Leads the university that hosts the Institute of Foundation Models and commented on K2 Think."
+   }
+  ]
+ },
+ {
+  "id": "issai",
+  "key_people": [
+   {
+    "name": "Huseyin Atakan Varol",
+    "role": "Founding and General Director",
+    "url": "https://issai.nu.edu.kz/2021/01/20/director-3/",
+    "note": "Leads the voice-technology team and co-authored the Kazakh speech and TTS corpora."
+   },
+   {
+    "name": "Yerbol Absalyamov",
+    "role": "Executive Director",
+    "url": "https://issai.nu.edu.kz/2021/01/22/yerbol-absalyamov/",
+    "note": "Listed on the institute's team page."
+   },
+   {
+    "name": "Madina Abdrakhmanova",
+    "role": "Deputy Director, Product and External Affairs; Senior Data Scientist",
+    "url": "https://issai.nu.edu.kz/2021/01/25/madina-abdrakhmanova/",
+    "note": "Listed on the institute's team page."
+   },
+   {
+    "name": "Askat Kuzdeuov",
+    "role": "Lead Data Scientist",
+    "url": "https://issai.nu.edu.kz/2021/01/28/senior-researcher/",
+    "note": "Listed on the institute's team page."
+   }
+  ]
+ },
+ {
+  "id": "lightning-ai",
+  "key_people": [
+   {
+    "name": "William Falcon",
+    "role": "Founder and CEO",
+    "url": "https://lightning.ai/about",
+    "note": "Creator of PyTorch Lightning."
+   },
+   {
+    "name": "Ozan Kaya",
+    "role": "President; former CEO of Voltage Park",
+    "url": "https://www.businesswire.com/news/home/20260121371691/en/Lightning-AI-and-Voltage-Park-Complete-Merger-to-Create-the-First-Cloud-Built-for-AI",
+    "note": "Quoted in the January 2026 merger announcement."
+   },
+   {
+    "name": "Saurabh Giri",
+    "role": "Chief Product and Technology Officer",
+    "url": "https://www.businesswire.com/news/home/20260121371691/en/Lightning-AI-and-Voltage-Park-Complete-Merger-to-Create-the-First-Cloud-Built-for-AI",
+    "note": "Named in the merger announcement."
+   }
+  ]
+ },
+ {
+  "id": "llm-jp",
+  "key_people": [
+   {
+    "name": "Sadao Kurohashi",
+    "role": "Director of the NII Research and Development Center for Large Language Models; NII Director-General",
+    "url": "https://www.nii.ac.jp/en/news/release/2024/0401.html",
+    "note": "Leads LLM-jp; also Program-Specific Professor at Kyoto University."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "LLM-jp established",
+    "note": "NII founded the volunteer research community.",
+    "year": "2023"
+   },
+   {
+    "title": "Model suite v1.0",
+    "note": "First open model suite, with 13B models and fine-tuned variants, released 20 October 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Model suite v2.0 and LLM-jp-3",
+    "note": "v2.0 followed on 30 April 2024, and the LLM-jp-3 series was released from September 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "LLM-jp-3 MoE series",
+    "note": "Extended the family with mixture-of-experts models.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "maincode",
+  "key_people": [
+   {
+    "name": "Dave Lemphers",
+    "role": "Founder and CEO",
+    "url": "https://www.forbes.com.au/news/innovation/ed-cravens-multi-million-dollar-bet-on-australias-answer-to-openai/",
+    "note": "Returned to Melbourne after a decade building AI startups in the United States."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Maincode founded",
+    "note": "Founded in Melbourne as an independent AI lab.",
+    "year": "2024"
+   },
+   {
+    "title": "Maincoder-1B",
+    "note": "Released an Apache 2.0 code model reporting 76 percent on HumanEval.",
+    "year": "2025"
+   },
+   {
+    "title": "AMD GPU cluster investment",
+    "note": "Announced a 30 million dollar investment in a Melbourne AI factory powered by AMD.",
+    "year": "2025"
+   },
+   {
+    "title": "Matilda open beta",
+    "note": "Announced the open beta of its Matilda assistant on 14 July 2026.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "marin",
+  "key_people": [
+   {
+    "name": "David Hall",
+    "role": "Leads Marin at Open Athena",
+    "url": "https://dlwh.org/",
+    "note": "Created the Levanter and Haliax JAX libraries; co-founded Semantic Machines."
+   },
+   {
+    "name": "Percy Liang",
+    "role": "Co-creator of Marin; Professor, Stanford University",
+    "url": "https://cs.stanford.edu/~pliang/",
+    "note": "Director of the Stanford Center for Research on Foundation Models."
+   }
+  ]
+ },
+ {
+  "id": "mesolitica",
+  "papers": [
+   {
+    "title": "MaLLaM -- Malaysia Large Language Model",
+    "url": "https://arxiv.org/abs/2401.14680",
+    "year": "2024"
+   },
+   {
+    "title": "Large Malaysian Language Model Based on Mistral for Enhanced Local Language Understanding",
+    "url": "https://arxiv.org/abs/2401.13565",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "mixedbread",
+  "key_people": [
+   {
+    "name": "Aamir Shakir",
+    "role": "Co-founder",
+    "url": "https://www.ai.engineer/speakers/aamir-shakir",
+    "note": "Co-author of Mixedbread's embedding model papers."
+   },
+   {
+    "name": "Julius Lipp",
+    "role": "Co-founder (listed)",
+    "url": "https://crunchbase.com/organization/mixedbread-ai",
+    "note": "Listed as co-founder by Crunchbase; current role unclear."
+   }
+  ]
+ },
+ {
+  "id": "moondream",
+  "key_people": [
+   {
+    "name": "Vik Korrapati",
+    "role": "Founder",
+    "url": "https://www.primeintellect.ai/blog/moondream",
+    "note": "Joined Prime Intellect to lead inference work after the acquisition."
+   },
+   {
+    "name": "Jay Allen",
+    "role": "Founder",
+    "url": "https://www.primeintellect.ai/blog/moondream",
+    "note": "Joined Prime Intellect alongside Korrapati."
+   }
+  ]
+ },
+ {
+  "id": "motif-technologies",
+  "key_people": [
+   {
+    "name": "Junghwan Lim",
+    "role": "CEO",
+    "url": "https://arxiv.org/abs/2511.07464",
+    "note": "Lead author of the Motif-2-12.7B technical report; previously AI director at Moreh."
+   }
+  ]
+ },
+ {
+  "id": "neuronpedia",
+  "key_people": [
+   {
+    "name": "Johnny Lin",
+    "role": "Founder and lead",
+    "url": "https://johnnylin.co",
+    "note": "Creator of Neuronpedia."
+   },
+   {
+    "name": "Curt Tigges",
+    "role": "Science lead, Decode Research",
+    "url": "https://www.anthropic.com/research/open-source-circuit-tracing",
+    "note": "Named by Anthropic as science lead of the Neuronpedia integration."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Neuronpedia created",
+    "note": "Started as a game for labeling neurons.",
+    "year": "2023"
+   },
+   {
+    "title": "Refocus on researchers",
+    "note": "Shifted to supporting interpretability researchers.",
+    "year": "2024"
+   },
+   {
+    "title": "Open-sourced",
+    "note": "Released the platform's code publicly on 31 March 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Circuit Tracer",
+    "note": "Hosted the open circuit-tracing integration with Anthropic and partners.",
+    "year": "2026"
+   }
+  ]
+ }
+]

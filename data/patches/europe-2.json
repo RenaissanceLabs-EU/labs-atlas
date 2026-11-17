@@ -1,0 +1,2500 @@
+[
+ {
+  "id": "compvis",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Latent diffusion",
+    "note": "Introduced latent diffusion models, which run the diffusion process in a compressed autoencoder space so high-resolution image synthesis becomes affordable."
+   },
+   {
+    "title": "Original Stable Diffusion",
+    "note": "Released the original Stable Diffusion code and the v1 weights (v1-1 to v1-4) that started the open text-to-image ecosystem."
+   },
+   {
+    "title": "Taming Transformers (VQGAN)",
+    "note": "Combined a convolutional vector-quantised autoencoder with transformers for high-resolution image synthesis, and published the code."
+   },
+   {
+    "title": "DepthFM",
+    "note": "Published a flow-matching approach to fast monocular depth estimation, tagged as an AAAI 2025 oral on its repository."
+   },
+   {
+    "title": "EDGS",
+    "note": "Released code for a Gaussian splatting method that removes the densification step, tagged as a CVPR 2026 paper on its repository."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "stable-diffusion",
+    "url": "https://github.com/CompVis/stable-diffusion",
+    "note": "Latent text-to-image diffusion model (73,576 stars)"
+   },
+   {
+    "name": "latent-diffusion",
+    "url": "https://github.com/CompVis/latent-diffusion",
+    "note": "High-resolution image synthesis with latent diffusion models (14,190 stars)"
+   },
+   {
+    "name": "taming-transformers",
+    "url": "https://github.com/CompVis/taming-transformers",
+    "note": "VQGAN and transformers for image synthesis (6,533 stars)"
+   },
+   {
+    "name": "depth-fm",
+    "url": "https://github.com/CompVis/depth-fm",
+    "note": "Fast monocular depth estimation with flow matching (764 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "CompVis/stable-diffusion-v1-4",
+    "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+    "kind": "model",
+    "note": "Most downloaded model of the group, the Stable Diffusion v1.4 weights."
+   },
+   {
+    "name": "CompVis/stable-diffusion-safety-checker",
+    "url": "https://huggingface.co/CompVis/stable-diffusion-safety-checker",
+    "kind": "model",
+    "note": "Safety checker component used by Stable Diffusion pipelines."
+   },
+   {
+    "name": "CompVis/cleandift",
+    "url": "https://huggingface.co/CompVis/cleandift",
+    "kind": "model",
+    "note": "Diffusion features without noise, from the CleanDIFT paper."
+   },
+   {
+    "name": "CompVis/EDGS",
+    "url": "https://huggingface.co/spaces/CompVis/EDGS",
+    "kind": "space",
+    "note": "Demo space for the EDGS Gaussian splatting method."
+   }
+  ],
+  "papers": [
+   {
+    "title": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "url": "https://arxiv.org/abs/2112.10752",
+    "year": 2022
+   },
+   {
+    "title": "Taming Transformers for High-Resolution Image Synthesis",
+    "url": "https://arxiv.org/abs/2012.09841",
+    "year": 2021
+   },
+   {
+    "title": "DepthFM: Fast Monocular Depth Estimation with Flow Matching",
+    "url": "https://arxiv.org/abs/2403.13788",
+    "year": 2024
+   },
+   {
+    "title": "CleanDIFT: Diffusion Features without Noise",
+    "url": "https://arxiv.org/abs/2412.03439",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The group's website lists its secretary, postal address and open positions on a contact page."
+ },
+ {
+  "id": "nxai",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "xLSTM reference code",
+    "note": "Maintains the official xLSTM repository, the extended LSTM architecture from the JKU Linz group."
+   },
+   {
+    "title": "xLSTM-7B",
+    "note": "Published xLSTM-7b as open weights, a 7B recurrent language model."
+   },
+   {
+    "title": "TiRex forecasting",
+    "note": "Released TiRex and TiRex-2, zero-shot time-series forecasting models, with public demos."
+   },
+   {
+    "title": "Vision-LSTM and FlashRNN",
+    "note": "Open-sourced Vision-LSTM (xLSTM as a vision backbone) and FlashRNN I/O-aware RNN kernels."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "xlstm",
+    "url": "https://github.com/NX-AI/xlstm",
+    "note": "Official repository of the xLSTM (2,218 stars)"
+   },
+   {
+    "name": "vision-lstm",
+    "url": "https://github.com/NX-AI/vision-lstm",
+    "note": "xLSTM as a generic vision backbone (490 stars)"
+   },
+   {
+    "name": "tirex",
+    "url": "https://github.com/NX-AI/tirex",
+    "note": "Zero-shot forecasting model for long and short horizons (308 stars)"
+   },
+   {
+    "name": "flashrnn",
+    "url": "https://github.com/NX-AI/flashrnn",
+    "note": "Fast RNN kernels with I/O awareness (190 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "NX-AI/TiRex",
+    "url": "https://huggingface.co/NX-AI/TiRex",
+    "kind": "model",
+    "note": "Zero-shot time-series forecasting model, the most downloaded NX-AI repository."
+   },
+   {
+    "name": "NX-AI/TiRex-2",
+    "url": "https://huggingface.co/NX-AI/TiRex-2",
+    "kind": "model",
+    "note": "Second generation of the TiRex forecaster."
+   },
+   {
+    "name": "NX-AI/xLSTM-7b",
+    "url": "https://huggingface.co/NX-AI/xLSTM-7b",
+    "kind": "model",
+    "note": "7B xLSTM language model weights."
+   },
+   {
+    "name": "NX-AI/TiRex-demo",
+    "url": "https://huggingface.co/spaces/NX-AI/TiRex-demo",
+    "kind": "space",
+    "note": "Interactive demo of TiRex forecasting."
+   }
+  ],
+  "papers": [
+   {
+    "title": "xLSTM: Extended Long Short-Term Memory",
+    "url": "https://arxiv.org/abs/2405.04517",
+    "year": 2024
+   },
+   {
+    "title": "xLSTM 7B: A Recurrent LLM for Fast and Efficient Inference",
+    "url": "https://arxiv.org/abs/2503.13427",
+    "year": 2025
+   },
+   {
+    "title": "TiRex: Zero-Shot Forecasting Across Long and Short Horizons with Enhanced In-Context Learning",
+    "url": "https://arxiv.org/abs/2505.23719",
+    "year": 2025
+   },
+   {
+    "title": "FlashRNN: I/O-Aware Optimization of Traditional RNNs on modern hardware",
+    "url": "https://arxiv.org/abs/2412.07752",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The company site prints a general contact address.",
+  "contact_email": "contact@nx-ai.com"
+ },
+ {
+  "id": "ml-jku",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Modern Hopfield networks",
+    "note": "Showed that modern Hopfield networks are equivalent to transformer attention and released the hopfield-layers library."
+   },
+   {
+    "title": "RUDDER",
+    "note": "Developed return decomposition for delayed rewards, a reinforcement learning method for long reward delays."
+   },
+   {
+    "title": "Self-normalizing networks and FID",
+    "note": "Introduced self-normalizing neural networks and the two time-scale update rule paper that gave the Frechet Inception Distance."
+   },
+   {
+    "title": "Universal Physics Transformers",
+    "note": "Released code for a framework that scales neural operators across simulation settings."
+   },
+   {
+    "title": "xLSTM",
+    "note": "Co-created the xLSTM architecture, now commercialised by spin-out NXAI."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "hopfield-layers",
+    "url": "https://github.com/ml-jku/hopfield-layers",
+    "note": "Hopfield Networks is All You Need (1,977 stars)"
+   },
+   {
+    "name": "hopular",
+    "url": "https://github.com/ml-jku/hopular",
+    "note": "Modern Hopfield networks for tabular data (317 stars)"
+   },
+   {
+    "name": "UPT",
+    "url": "https://github.com/ml-jku/UPT",
+    "note": "Code for Universal Physics Transformers (179 stars)"
+   },
+   {
+    "name": "GINNs-Geometry-informed-Neural-Networks",
+    "url": "https://github.com/ml-jku/GINNs-Geometry-informed-Neural-Networks",
+    "note": "Geometry-informed neural networks (195 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ml-jku/dm_control",
+    "url": "https://huggingface.co/datasets/ml-jku/dm_control",
+    "kind": "dataset",
+    "note": "Control task data for offline reinforcement learning."
+   },
+   {
+    "name": "ml-jku/dark_room",
+    "url": "https://huggingface.co/datasets/ml-jku/dark_room",
+    "kind": "dataset",
+    "note": "Dark-room reinforcement learning data."
+   },
+   {
+    "name": "ml-jku/mhnfs",
+    "url": "https://huggingface.co/spaces/ml-jku/mhnfs",
+    "kind": "space",
+    "note": "Few-shot molecule property prediction with modern Hopfield networks."
+   },
+   {
+    "name": "ml-jku/tox21_leaderboard",
+    "url": "https://huggingface.co/spaces/ml-jku/tox21_leaderboard",
+    "kind": "space",
+    "note": "Tox21 toxicity prediction leaderboard."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Hopfield Networks is All You Need",
+    "url": "https://arxiv.org/abs/2008.02217",
+    "year": 2020
+   },
+   {
+    "title": "RUDDER: Return Decomposition for Delayed Rewards",
+    "url": "https://arxiv.org/abs/1806.07857",
+    "year": 2018
+   },
+   {
+    "title": "Self-Normalizing Neural Networks",
+    "url": "https://arxiv.org/abs/1706.02515",
+    "year": 2017
+   },
+   {
+    "title": "Universal Physics Transformers: A Framework For Efficiently Scaling Neural Operators",
+    "url": "https://arxiv.org/abs/2402.12365",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details are given on the institute's pages of the JKU Linz website."
+ },
+ {
+  "id": "gensyn",
+  "confidence": "high",
+  "summary": "London-based machine learning research and production lab building decentralised training and verification infrastructure. It open-sources frameworks such as RL Swarm and also works on tools like REE and Delphi information markets.",
+  "contributions": [
+   {
+    "title": "RL Swarm",
+    "note": "Released an open framework in which peers train reinforcement learning models together over the internet."
+   },
+   {
+    "title": "CodeAssist and BlockAssist",
+    "note": "Published CodeAssist, a private local coding assistant, and BlockAssist, an assistant that learns from a user's Minecraft actions."
+   },
+   {
+    "title": "Distributed training research",
+    "note": "Published pipelining, low-communication training and verification papers with open code."
+   },
+   {
+    "title": "REE",
+    "note": "Announced REE, a reproducible execution environment, in March 2026."
+   },
+   {
+    "title": "open-1b and open-8b",
+    "note": "Announced open-1b as a model you do not have to trust and open-8b as an auditable model in training, in late 2026."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "rl-swarm",
+    "url": "https://github.com/gensyn-ai/rl-swarm",
+    "note": "Open framework for RL training swarms over the internet (1,672 stars)"
+   },
+   {
+    "name": "codeassist",
+    "url": "https://github.com/gensyn-ai/codeassist",
+    "note": "Private local AI coding assistant (699 stars)"
+   },
+   {
+    "name": "blockassist",
+    "url": "https://github.com/gensyn-ai/blockassist",
+    "note": "Assistant that learns from a player's Minecraft actions (102 stars)"
+   },
+   {
+    "name": "skippipe",
+    "url": "https://github.com/gensyn-ai/skippipe",
+    "note": "Code for the SkipPipe pipelining paper (49 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "SkipPipe: Partial and Reordered Pipelining Framework for Training LLMs in Heterogeneous Networks",
+    "url": "https://arxiv.org/abs/2502.19913",
+    "year": 2025
+   },
+   {
+    "title": "Sharing is Caring: Efficient LM Post-Training with Collective RL Experience Sharing",
+    "url": "https://arxiv.org/abs/2509.08721",
+    "year": 2025
+   },
+   {
+    "title": "Verde: Verification via Refereed Delegation for Machine Learning Programs",
+    "url": "https://arxiv.org/abs/2502.19405",
+    "year": 2025
+   },
+   {
+    "title": "NoLoCo: No-all-reduce Low Communication Training Method for Large Models",
+    "url": "https://arxiv.org/abs/2506.10911",
+    "year": 2025
+   }
+  ],
+  "discord": "https://discord.com/invite/gensyn",
+  "discord_note": "Public community server linked from the Gensyn site for discussion and announcements.",
+  "contact_note": "Gensyn's site links its research, news and community Discord; no organisation email is printed on the home page."
+ },
+ {
+  "id": "open-climate-fix",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Open solar forecasting",
+    "note": "Open-sourced a site-level solar forecast (Quartz) and the front end of its national nowcasting service."
+   },
+   {
+    "title": "PyTorch weather models",
+    "note": "Published PyTorch implementations of MetNet, MetNet-2 and DeepMind's generative radar nowcasting model."
+   },
+   {
+    "title": "Graph weather",
+    "note": "Released graph-based weather forecasting models in the graph_weather package."
+   },
+   {
+    "title": "Open weather datasets",
+    "note": "Hosts large numerical weather prediction datasets on Hugging Face, including DWD ICON and Met Office solar data."
+   },
+   {
+    "title": "Grid projects",
+    "note": "Its site lists solar, demand and wind forecasting projects with UK grid partners."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "graph_weather",
+    "url": "https://github.com/openclimatefix/graph_weather",
+    "note": "Graph-based weather forecasting models (306 stars)"
+   },
+   {
+    "name": "metnet",
+    "url": "https://github.com/openclimatefix/metnet",
+    "note": "PyTorch implementation of MetNet and MetNet-2 (305 stars)"
+   },
+   {
+    "name": "skillful_nowcasting",
+    "url": "https://github.com/openclimatefix/skillful_nowcasting",
+    "note": "Implementation of DeepMind's Deep Generative Model of Radar (301 stars)"
+   },
+   {
+    "name": "open-source-quartz-solar-forecast",
+    "url": "https://github.com/openclimatefix/open-source-quartz-solar-forecast",
+    "note": "Open-source site-level solar forecast (162 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "openclimatefix/dwd-icon-global",
+    "url": "https://huggingface.co/datasets/openclimatefix/dwd-icon-global",
+    "kind": "dataset",
+    "note": "Global DWD ICON weather forecast data, the group's most downloaded dataset."
+   },
+   {
+    "name": "openclimatefix/met-office-uk-deterministic-solar",
+    "url": "https://huggingface.co/datasets/openclimatefix/met-office-uk-deterministic-solar",
+    "kind": "dataset",
+    "note": "Met Office UK deterministic forecast data for solar work."
+   },
+   {
+    "name": "openclimatefix/dwd-icon-eu",
+    "url": "https://huggingface.co/datasets/openclimatefix/dwd-icon-eu",
+    "kind": "dataset",
+    "note": "DWD ICON-EU regional forecast data."
+   },
+   {
+    "name": "openclimatefix/dgmr",
+    "url": "https://huggingface.co/openclimatefix/dgmr",
+    "kind": "model",
+    "note": "Radar nowcasting model."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Its site has a contact page with a form and a general information address.",
+  "contact_email": "info@openclimatefix.org"
+ },
+ {
+  "id": "alan-turing-institute",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "CleverCSV",
+    "note": "Maintains CleverCSV, a Python package for reading messy CSV files that can replace the standard csv module."
+   },
+   {
+    "title": "Research software engineering course",
+    "note": "Publishes open course materials for its research software engineering teaching."
+   },
+   {
+    "title": "Utility libraries",
+    "note": "Releases small open tools such as ReadabiliPy for HTML content extraction and distinctipy for distinct colours."
+   },
+   {
+    "title": "Open datasets and models",
+    "note": "Hosts a synthetic radar dataset and several T0 and mT5 fine-tunes on Hugging Face."
+   },
+   {
+    "title": "Large open-source footprint",
+    "note": "Its GitHub organisation holds several hundred repositories from research projects."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "CleverCSV",
+    "url": "https://github.com/alan-turing-institute/CleverCSV",
+    "note": "Python package for handling messy CSV files (1,344 stars)"
+   },
+   {
+    "name": "ReadabiliPy",
+    "url": "https://github.com/alan-turing-institute/ReadabiliPy",
+    "note": "HTML content extractor in Python (361 stars)"
+   },
+   {
+    "name": "AIrsenal",
+    "url": "https://github.com/alan-turing-institute/AIrsenal",
+    "note": "Machine learning Fantasy Premier League team (354 stars)"
+   },
+   {
+    "name": "distinctipy",
+    "url": "https://github.com/alan-turing-institute/distinctipy",
+    "note": "Package for generating visually distinct colours (296 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "alan-turing-institute/turing-synthetic-radar-dataset",
+    "url": "https://huggingface.co/datasets/alan-turing-institute/turing-synthetic-radar-dataset",
+    "kind": "dataset",
+    "note": "Synthetic radar dataset, the most downloaded Turing dataset."
+   },
+   {
+    "name": "alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli",
+    "url": "https://huggingface.co/alan-turing-institute/mt5-large-finetuned-mnli-xtreme-xnli",
+    "kind": "model",
+    "note": "mT5 fine-tuned on multilingual inference data."
+   },
+   {
+    "name": "alan-turing-institute/t0-s1.1-3B",
+    "url": "https://huggingface.co/alan-turing-institute/t0-s1.1-3B",
+    "kind": "model",
+    "note": "3B T0 model variant."
+   },
+   {
+    "name": "alan-turing-institute/t0-s1-14B",
+    "url": "https://huggingface.co/alan-turing-institute/t0-s1-14B",
+    "kind": "model",
+    "note": "14B T0 model variant."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "The institute's website has a contact page; project-specific contact goes through each repository."
+ },
+ {
+  "id": "helsinki-nlp",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "OPUS-MT",
+    "note": "Trains and releases open neural machine translation models for a very large number of language pairs, with web services."
+   },
+   {
+    "title": "Tatoeba Translation Challenge",
+    "note": "Built data sets and benchmarks for low-resource and multilingual translation."
+   },
+   {
+    "title": "OpusFilter",
+    "note": "Created a configurable toolbox for filtering parallel corpora."
+   },
+   {
+    "title": "Translated web corpora",
+    "note": "Published translated versions of FineWeb-Edu and Nemotron-CC on Hugging Face."
+   },
+   {
+    "title": "Helsinki prosody corpus",
+    "note": "Released a prosody corpus and a system for predicting prosodic prominence from text."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Opus-MT",
+    "url": "https://github.com/Helsinki-NLP/Opus-MT",
+    "note": "Open neural machine translation models and web services (876 stars)"
+   },
+   {
+    "name": "Tatoeba-Challenge",
+    "url": "https://github.com/Helsinki-NLP/Tatoeba-Challenge",
+    "note": "Tatoeba translation challenge data and models (858 stars)"
+   },
+   {
+    "name": "OPUS-MT-train",
+    "url": "https://github.com/Helsinki-NLP/OPUS-MT-train",
+    "note": "Training open neural machine translation models (404 stars)"
+   },
+   {
+    "name": "OpusFilter",
+    "url": "https://github.com/Helsinki-NLP/OpusFilter",
+    "note": "Parallel corpus processing toolkit (116 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Helsinki-NLP/opus-mt-en-ru",
+    "url": "https://huggingface.co/Helsinki-NLP/opus-mt-en-ru",
+    "kind": "model",
+    "note": "English to Russian OPUS-MT model."
+   },
+   {
+    "name": "Helsinki-NLP/opus-mt-zh-en",
+    "url": "https://huggingface.co/Helsinki-NLP/opus-mt-zh-en",
+    "kind": "model",
+    "note": "Chinese to English OPUS-MT model."
+   },
+   {
+    "name": "Helsinki-NLP/fineweb-edu-translated",
+    "url": "https://huggingface.co/datasets/Helsinki-NLP/fineweb-edu-translated",
+    "kind": "dataset",
+    "note": "Translated FineWeb-Edu data."
+   },
+   {
+    "name": "Helsinki-NLP/opus-translate",
+    "url": "https://huggingface.co/spaces/Helsinki-NLP/opus-translate",
+    "kind": "space",
+    "note": "Demo space for OPUS-MT translation."
+   }
+  ],
+  "papers": [
+   {
+    "title": "OPUS-MT – Building open translation services for the World",
+    "url": "https://aclanthology.org/2020.eamt-1.61/",
+    "year": 2020
+   },
+   {
+    "title": "The Tatoeba Translation Challenge -- Realistic Data Sets for Low Resource and Multilingual MT",
+    "url": "https://arxiv.org/abs/2010.06354",
+    "year": 2020
+   },
+   {
+    "title": "Democratizing Neural Machine Translation with OPUS-MT",
+    "url": "https://arxiv.org/abs/2212.01936",
+    "year": 2022
+   },
+   {
+    "title": "OpusFilter: A Configurable Parallel Corpus Filtering Toolbox",
+    "url": "https://aclanthology.org/2020.acl-demos.20/",
+    "year": 2020
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The language technology group's blog gives group and programme information."
+ },
+ {
+  "id": "ukp-lab",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Sentence-BERT",
+    "note": "Created Sentence-BERT, the siamese BERT approach behind the sentence-transformers family."
+   },
+   {
+    "title": "Multilingual sentence embeddings",
+    "note": "Showed how to turn monolingual sentence embedding models multilingual via knowledge distillation."
+   },
+   {
+    "title": "Dense retrieval research",
+    "note": "Published GPL for unsupervised domain adaptation of dense retrieval and co-created the BEIR benchmark."
+   },
+   {
+    "title": "EasyNMT and sequence tagging",
+    "note": "Released EasyNMT for translation in 100+ languages and BiLSTM-CNN-CRF sequence taggers."
+   },
+   {
+    "title": "Recent open models and data",
+    "note": "Publishes models and datasets such as GritHopper, DAPR and Misviz on Hugging Face."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "EasyNMT",
+    "url": "https://github.com/UKPLab/EasyNMT",
+    "note": "Easy-to-use neural machine translation for 100+ languages (1,260 stars)"
+   },
+   {
+    "name": "emnlp2017-bilstm-cnn-crf",
+    "url": "https://github.com/UKPLab/emnlp2017-bilstm-cnn-crf",
+    "note": "BiLSTM-CNN-CRF sequence tagging (834 stars)"
+   },
+   {
+    "name": "gpl",
+    "url": "https://github.com/UKPLab/gpl",
+    "note": "Unsupervised domain adaptation for dense retrieval (344 stars)"
+   },
+   {
+    "name": "deeplearning4nlp-tutorial",
+    "url": "https://github.com/UKPLab/deeplearning4nlp-tutorial",
+    "note": "Hands-on tutorial on deep learning for NLP (649 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "UKPLab/GritHopper-7B",
+    "url": "https://huggingface.co/UKPLab/GritHopper-7B",
+    "kind": "model",
+    "note": "7B multi-hop retrieval and reasoning model."
+   },
+   {
+    "name": "UKPLab/dapr",
+    "url": "https://huggingface.co/datasets/UKPLab/dapr",
+    "kind": "dataset",
+    "note": "Document-aware passage retrieval benchmark."
+   },
+   {
+    "name": "UKPLab/misviz",
+    "url": "https://huggingface.co/datasets/UKPLab/misviz",
+    "kind": "dataset",
+    "note": "Misleading visualisation dataset."
+   },
+   {
+    "name": "UKPLab/scicoqa",
+    "url": "https://huggingface.co/spaces/UKPLab/scicoqa",
+    "kind": "space",
+    "note": "Space for the SciCoQA resource."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+    "url": "https://arxiv.org/abs/1908.10084",
+    "year": 2019
+   },
+   {
+    "title": "Making Monolingual Sentence Embeddings Multilingual using Knowledge Distillation",
+    "url": "https://arxiv.org/abs/2004.09813",
+    "year": 2020
+   },
+   {
+    "title": "GPL: Generative Pseudo Labeling for Unsupervised Domain Adaptation of Dense Retrieval",
+    "url": "https://arxiv.org/abs/2112.07577",
+    "year": 2021
+   },
+   {
+    "title": "BEIR: A Heterogenous Benchmark for Zero-shot Evaluation of Information Retrieval Models",
+    "url": "https://arxiv.org/abs/2104.08663",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The lab's group website at TU Darmstadt is the place for general contact; the GitHub organisation takes issues per project."
+ },
+ {
+  "id": "occiglot",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Occiglot-7B models",
+    "note": "Released the Occiglot-7B series, including German, Italian and a five-language European instruct model."
+   },
+   {
+    "title": "Occiglot Fineweb",
+    "note": "Published a cleaned, deduplicated multilingual web dataset covering several European languages."
+   },
+   {
+    "title": "Euro LLM Leaderboard",
+    "note": "Runs a European LLM leaderboard space and an evaluation harness for European languages."
+   },
+   {
+    "title": "Tokenizer benchmark",
+    "note": "Published a tokenizer benchmark dataset built from Wikipedia."
+   },
+   {
+    "title": "WMT24 evaluation",
+    "note": "Evaluated European open-source LLMs on translation in a paper for WMT24."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "euro-lm-evaluation-harness",
+    "url": "https://github.com/occiglot/euro-lm-evaluation-harness",
+    "note": "Evaluation harness for European language models (6 stars)"
+   },
+   {
+    "name": "tech-report",
+    "url": "https://github.com/occiglot/tech-report",
+    "note": "Raw data and scripts for the technical report (6 stars)"
+   },
+   {
+    "name": "curated-web-data",
+    "url": "https://github.com/occiglot/curated-web-data",
+    "note": "Collection of good and bad web domains for LLM pretraining data (4 stars)"
+   },
+   {
+    "name": "occiglot",
+    "url": "https://github.com/occiglot/occiglot",
+    "note": "Main organisation repository (4 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "occiglot/occiglot-7b-it-en-instruct",
+    "url": "https://huggingface.co/occiglot/occiglot-7b-it-en-instruct",
+    "kind": "model",
+    "note": "Italian-English instruction-tuned 7B model."
+   },
+   {
+    "name": "occiglot/occiglot-7b-de-en-instruct",
+    "url": "https://huggingface.co/occiglot/occiglot-7b-de-en-instruct",
+    "kind": "model",
+    "note": "German-English instruction-tuned 7B model."
+   },
+   {
+    "name": "occiglot/tokenizer-wiki-bench",
+    "url": "https://huggingface.co/datasets/occiglot/tokenizer-wiki-bench",
+    "kind": "dataset",
+    "note": "Tokenizer benchmark data from Wikipedia."
+   },
+   {
+    "name": "occiglot/euro-llm-leaderboard",
+    "url": "https://huggingface.co/spaces/occiglot/euro-llm-leaderboard",
+    "kind": "space",
+    "note": "European LLM leaderboard."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Occiglot at WMT24: European Open-source Large Language Models Evaluated on Translation",
+    "url": "https://aclanthology.org/2024.wmt-1.23/",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.gg/wUpvYs4XvM",
+  "discord_note": "Discord of the informal collective for discussing multilingual LLM work; the site invites newcomers and collaborators to join.",
+  "contact_note": "Occiglot's site invites contact and Discord joining from people working on multilingual LLMs."
+ },
+ {
+  "id": "ellamind",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "propella-1",
+    "note": "Published propella-1, small multilingual models that annotate documents for LLM data curation, with a paper."
+   },
+   {
+    "title": "sui-1",
+    "note": "Released the sui-1 24B model, also as an FP8 variant."
+   },
+   {
+    "title": "Multilingual benchmarks",
+    "note": "Published translated versions of ARC, HellaSwag and Humanity's Last Exam as open datasets."
+   },
+   {
+    "title": "Evaluation and inference tooling",
+    "note": "Open-sourced inference-hive for distributed LLM inference on SLURM clusters, plus eval-hive and base-eval."
+   },
+   {
+    "title": "AutoRAG",
+    "note": "Released a tool for automatic hyperparameter optimisation of retrieval-augmented generation pipelines."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "autorag",
+    "url": "https://github.com/ellamind/autorag",
+    "note": "Automatic hyperparameter optimisation of RAG pipelines (8 stars)"
+   },
+   {
+    "name": "base-eval",
+    "url": "https://github.com/ellamind/base-eval",
+    "note": "Base model evaluation (8 stars)"
+   },
+   {
+    "name": "eval-hive",
+    "url": "https://github.com/ellamind/eval-hive",
+    "note": "Evaluation toolkit (7 stars)"
+   },
+   {
+    "name": "inference-hive",
+    "url": "https://github.com/ellamind/inference-hive",
+    "note": "Toolkit for distributed LLM inference on SLURM clusters (4 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ellamind/propella-1-4b",
+    "url": "https://huggingface.co/ellamind/propella-1-4b",
+    "kind": "model",
+    "note": "4B document annotation model, ellamind's most downloaded model."
+   },
+   {
+    "name": "ellamind/propella-1-0.6b",
+    "url": "https://huggingface.co/ellamind/propella-1-0.6b",
+    "kind": "model",
+    "note": "0.6B document annotation model."
+   },
+   {
+    "name": "ellamind/arc-multilingual",
+    "url": "https://huggingface.co/datasets/ellamind/arc-multilingual",
+    "kind": "dataset",
+    "note": "Multilingual ARC benchmark."
+   },
+   {
+    "name": "ellamind/base-eval",
+    "url": "https://huggingface.co/spaces/ellamind/base-eval",
+    "kind": "space",
+    "note": "Base model evaluation space."
+   }
+  ],
+  "papers": [
+   {
+    "title": "propella-1: Multi-Property Document Annotation for LLM Data Curation at Scale",
+    "url": "https://arxiv.org/abs/2602.12414",
+    "year": 2026
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The company site has a contact page and a demo booking form."
+ },
+ {
+  "id": "tartunlp",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "EstBERT",
+    "note": "Released EstBERT, a pretrained BERT model for Estonian."
+   },
+   {
+    "title": "EstLLM",
+    "note": "Published Llama-3.1-based Estonian models, described in the EstLLM paper."
+   },
+   {
+    "title": "Estonian speech synthesis",
+    "note": "Open-sourced an Estonian multi-speaker text-to-speech API, worker and text preprocessing pipeline."
+   },
+   {
+    "title": "Translation services",
+    "note": "Maintains a neural machine translation API and fine-tuning scripts for M2M-100."
+   },
+   {
+    "title": "Finno-Ugric resources",
+    "note": "Published a Finno-Ugric benchmark and parallel data for low-resource Finno-Ugric languages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "text-to-speech-worker",
+    "url": "https://github.com/TartuNLP/text-to-speech-worker",
+    "note": "Estonian multi-speaker neural text-to-speech worker (20 stars)"
+   },
+   {
+    "name": "m2m-100-finetune",
+    "url": "https://github.com/TartuNLP/m2m-100-finetune",
+    "note": "Scripts for finetuning M2M-100 models (19 stars)"
+   },
+   {
+    "name": "text-to-speech-api",
+    "url": "https://github.com/TartuNLP/text-to-speech-api",
+    "note": "API for neural text-to-speech synthesis (17 stars)"
+   },
+   {
+    "name": "translation-api",
+    "url": "https://github.com/TartuNLP/translation-api",
+    "note": "REST API for neural machine translation (14 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "tartuNLP/EstBERT",
+    "url": "https://huggingface.co/tartuNLP/EstBERT",
+    "kind": "model",
+    "note": "Estonian BERT model."
+   },
+   {
+    "name": "tartuNLP/Llama-3.1-EstLLM-70B-Instruct-0826",
+    "url": "https://huggingface.co/tartuNLP/Llama-3.1-EstLLM-70B-Instruct-0826",
+    "kind": "model",
+    "note": "70B Estonian instruction model."
+   },
+   {
+    "name": "tartuNLP/finno-ugric-benchmark",
+    "url": "https://huggingface.co/datasets/tartuNLP/finno-ugric-benchmark",
+    "kind": "dataset",
+    "note": "Benchmark for Finno-Ugric languages."
+   },
+   {
+    "name": "tartuNLP/XTTSv2-est",
+    "url": "https://huggingface.co/spaces/tartuNLP/XTTSv2-est",
+    "kind": "space",
+    "note": "Estonian XTTS speech synthesis demo."
+   }
+  ],
+  "papers": [
+   {
+    "title": "EstBERT: A Pretrained Language-Specific BERT for Estonian",
+    "url": "https://arxiv.org/abs/2011.04784",
+    "year": 2020
+   },
+   {
+    "title": "EstLLM: Enhancing Estonian Capabilities in Multilingual LLMs via Continued Pretraining and Post-Training",
+    "url": "https://arxiv.org/abs/2603.02041",
+    "year": 2026
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The group's website and GitHub organisation are the public entry points; its site could not be read as plain text."
+ },
+ {
+  "id": "openllm-ro",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "First Romanian LLMs",
+    "note": "Launched the first Romanian models fine-tuned on Llama 2 in May 2024, followed by Mistral, Gemma and Llama 3 variants."
+   },
+   {
+    "title": "Training and evaluation code",
+    "note": "Released code and data for training Romanian LLMs and for evaluating them on academic benchmarks."
+   },
+   {
+    "title": "LLM-as-judge benchmarks",
+    "note": "Released RoMTBench and RoCulturaBench for judge-based evaluation of Romanian models."
+   },
+   {
+    "title": "Pretraining data quality",
+    "note": "Released augmented pretraining data and a quality classifier for Romanian in November 2025."
+   },
+   {
+    "title": "Romanian vision-language models",
+    "note": "Released code, training and evaluation data for Romanian vision-language models in June 2026."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "llama-recipes",
+    "url": "https://github.com/OpenLLM-Ro/llama-recipes",
+    "note": "Recipes used for training Romanian models (23 stars)"
+   },
+   {
+    "name": "LLaMA-Factory",
+    "url": "https://github.com/OpenLLM-Ro/LLaMA-Factory",
+    "note": "Fork with code and data used for training Romanian models (11 stars)"
+   },
+   {
+    "name": "FastChat",
+    "url": "https://github.com/OpenLLM-Ro/FastChat",
+    "note": "Fork for evaluating Romanian LLMs with LLM-as-a-judge (2 stars)"
+   },
+   {
+    "name": "lm-evaluation-harness",
+    "url": "https://github.com/OpenLLM-Ro/lm-evaluation-harness",
+    "note": "Fork with code and data for evaluating Romanian LLMs (1 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "OpenLLM-Ro/RoLlama3.1-8b-Instruct",
+    "url": "https://huggingface.co/OpenLLM-Ro/RoLlama3.1-8b-Instruct",
+    "kind": "model",
+    "note": "Romanian instruct model based on Llama 3.1."
+   },
+   {
+    "name": "OpenLLM-Ro/RoGemma2-9b-Instruct",
+    "url": "https://huggingface.co/OpenLLM-Ro/RoGemma2-9b-Instruct",
+    "kind": "model",
+    "note": "Romanian instruct model based on Gemma 2."
+   },
+   {
+    "name": "OpenLLM-Ro/ro_mmlu",
+    "url": "https://huggingface.co/datasets/OpenLLM-Ro/ro_mmlu",
+    "kind": "dataset",
+    "note": "Romanian MMLU evaluation set."
+   },
+   {
+    "name": "OpenLLM-Ro/fineweb2-ro-bert",
+    "url": "https://huggingface.co/datasets/OpenLLM-Ro/fineweb2-ro-bert",
+    "kind": "dataset",
+    "note": "Romanian pretraining data with quality annotations."
+   }
+  ],
+  "papers": [
+   {
+    "title": "\"Vorbeşti Româneşte?\" A Recipe to Train Powerful Romanian LLMs with English Instructions",
+    "url": "https://arxiv.org/abs/2406.18266",
+    "year": 2024
+   },
+   {
+    "title": "\"Înţelegi Româneşte?\" A Recipe for Romanian Vision-Language Models",
+    "url": "https://arxiv.org/abs/2605.31401",
+    "year": 2026
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The site invites people to join the community and links to its GitHub and Hugging Face pages; no email is printed."
+ },
+ {
+  "id": "kinit",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "SlovakBERT",
+    "note": "Published SlovakBERT, a Slovak masked language model."
+   },
+   {
+    "title": "Slovak speech recognition",
+    "note": "Released Slovak fine-tunes of Whisper and Parakeet plus a Slovak ASR leaderboard space."
+   },
+   {
+    "title": "Machine-generated text detection",
+    "note": "Built IMGTB and a multilingual benchmark for detecting machine-generated text."
+   },
+   {
+    "title": "Misinformation research",
+    "note": "Audited YouTube recommendations for misinformation filter bubbles and published a medical misinformation dataset."
+   },
+   {
+    "title": "PEFT-Factory",
+    "note": "Released a unified framework for parameter-efficient fine-tuning, with a dataset on Hugging Face."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "IMGTB",
+    "url": "https://github.com/kinit-sk/IMGTB",
+    "note": "Framework extending MGTBench for machine-generated text detection benchmarking (22 stars)"
+   },
+   {
+    "name": "yaudit-recsys-2021",
+    "url": "https://github.com/kinit-sk/yaudit-recsys-2021",
+    "note": "Supplementary material for the YouTube audit paper at RecSys 2021 (20 stars)"
+   },
+   {
+    "name": "medical-misinformation-dataset",
+    "url": "https://github.com/kinit-sk/medical-misinformation-dataset",
+    "note": "Medical misinformation dataset (16 stars)"
+   },
+   {
+    "name": "mgt-detection-benchmark",
+    "url": "https://github.com/kinit-sk/mgt-detection-benchmark",
+    "note": "Multilingual machine-generated text detection benchmark (13 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "kinit/whisper-large-v3-turbo-sk",
+    "url": "https://huggingface.co/kinit/whisper-large-v3-turbo-sk",
+    "kind": "model",
+    "note": "Slovak Whisper large-v3-turbo fine-tune."
+   },
+   {
+    "name": "kinit/whisper-large-v3-sk",
+    "url": "https://huggingface.co/kinit/whisper-large-v3-sk",
+    "kind": "model",
+    "note": "Slovak Whisper large-v3 fine-tune."
+   },
+   {
+    "name": "kinit/gest",
+    "url": "https://huggingface.co/datasets/kinit/gest",
+    "kind": "dataset",
+    "note": "Dataset published by KInIT."
+   },
+   {
+    "name": "kinit/slovak-asr-leaderboard",
+    "url": "https://huggingface.co/spaces/kinit/slovak-asr-leaderboard",
+    "kind": "space",
+    "note": "Leaderboard for Slovak speech recognition."
+   }
+  ],
+  "papers": [
+   {
+    "title": "SlovakBERT: Slovak Masked Language Model",
+    "url": "https://arxiv.org/abs/2109.15254",
+    "year": 2021
+   },
+   {
+    "title": "IMGTB: A Framework for Machine-Generated Text Detection Benchmarking",
+    "url": "https://aclanthology.org/2024.acl-demos.17/",
+    "year": 2024
+   },
+   {
+    "title": "Auditing YouTube's Recommendation Algorithm for Misinformation Filter Bubbles",
+    "url": "https://arxiv.org/abs/2210.10085",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The institute's website could not be fetched during checking; use its GitHub and Hugging Face organisations for project contact."
+ },
+ {
+  "id": "lang-uk",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "NER-UK",
+    "note": "Maintains an annotated Ukrainian named entity corpus and project."
+   },
+   {
+    "title": "Ukrainian NLP tools",
+    "note": "Released tokenize-uk for sentence and word tokenisation and a Ukrainian word stress tool."
+   },
+   {
+    "title": "Tone dictionary",
+    "note": "Published a Ukrainian tone dictionary for sentiment work."
+   },
+   {
+    "title": "Malyuk corpus",
+    "note": "Published Malyuk, a combined Ukrainian corpus built from UberText 2.0, OSCAR and Ukrainian news."
+   },
+   {
+    "title": "Ukrainian LLM leaderboard",
+    "note": "Hosts a Ukrainian LLM leaderboard space and releases models such as Dragoman for Ukrainian-English translation."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ner-uk",
+    "url": "https://github.com/lang-uk/ner-uk",
+    "note": "Ukrainian NER annotation project (95 stars)"
+   },
+   {
+    "name": "tokenize-uk",
+    "url": "https://github.com/lang-uk/tokenize-uk",
+    "note": "Tokenizer for Ukrainian sentences and words (71 stars)"
+   },
+   {
+    "name": "ukrainian-word-stress",
+    "url": "https://github.com/lang-uk/ukrainian-word-stress",
+    "note": "Adds word stress to Ukrainian texts (66 stars)"
+   },
+   {
+    "name": "tone-dict-uk",
+    "url": "https://github.com/lang-uk/tone-dict-uk",
+    "note": "Ukrainian tone dictionary (46 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "lang-uk/ukr-paraphrase-multilingual-mpnet-base",
+    "url": "https://huggingface.co/lang-uk/ukr-paraphrase-multilingual-mpnet-base",
+    "kind": "model",
+    "note": "Ukrainian sentence embedding model."
+   },
+   {
+    "name": "lang-uk/malyuk",
+    "url": "https://huggingface.co/datasets/lang-uk/malyuk",
+    "kind": "dataset",
+    "note": "Combined Ukrainian text corpus."
+   },
+   {
+    "name": "lang-uk/dragoman",
+    "url": "https://huggingface.co/lang-uk/dragoman",
+    "kind": "model",
+    "note": "Ukrainian-English translation model."
+   },
+   {
+    "name": "lang-uk/ukrainian-llm-leaderboard",
+    "url": "https://huggingface.co/spaces/lang-uk/ukrainian-llm-leaderboard",
+    "kind": "space",
+    "note": "Ukrainian LLM leaderboard."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "The community's site has a contacts page and a manifesto; its work lives in the lang-uk GitHub organisation."
+ },
+ {
+  "id": "ufal",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Whisper-Streaming",
+    "note": "Released a real-time streaming wrapper for Whisper, the group's most-starred repository."
+   },
+   {
+    "title": "SimulStreaming",
+    "note": "Published a follow-up simultaneous streaming speech recognition and translation system."
+   },
+   {
+    "title": "UDPipe",
+    "note": "Created UDPipe, a trainable pipeline for tokenising, tagging, lemmatising and dependency parsing."
+   },
+   {
+    "title": "Czech language models",
+    "note": "Released RobeCzech and ELECTRA-style Czech models on Hugging Face."
+   },
+   {
+    "title": "Parliament speech data",
+    "note": "Published ParCzech4Speech segmented and unsegmented speech datasets."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "whisper_streaming",
+    "url": "https://github.com/ufal/whisper_streaming",
+    "note": "Whisper realtime streaming for long speech-to-text transcription and translation (3,679 stars)"
+   },
+   {
+    "name": "SimulStreaming",
+    "url": "https://github.com/ufal/SimulStreaming",
+    "note": "Simultaneous streaming speech system (697 stars)"
+   },
+   {
+    "name": "udpipe",
+    "url": "https://github.com/ufal/udpipe",
+    "note": "Trainable pipeline for tokenising, tagging, lemmatising and parsing (426 stars)"
+   },
+   {
+    "name": "neuralmonkey",
+    "url": "https://github.com/ufal/neuralmonkey",
+    "note": "Sequence learning tool for NLP on TensorFlow (417 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ufal/vit-historical-page",
+    "url": "https://huggingface.co/ufal/vit-historical-page",
+    "kind": "model",
+    "note": "Vision transformer for historical page classification."
+   },
+   {
+    "name": "ufal/robeczech-base",
+    "url": "https://huggingface.co/ufal/robeczech-base",
+    "kind": "model",
+    "note": "Czech RoBERTa model."
+   },
+   {
+    "name": "ufal/parczech4speech-segmented",
+    "url": "https://huggingface.co/datasets/ufal/parczech4speech-segmented",
+    "kind": "dataset",
+    "note": "Segmented Czech parliamentary speech data."
+   },
+   {
+    "name": "ufal/eleczech-lc-small",
+    "url": "https://huggingface.co/ufal/eleczech-lc-small",
+    "kind": "model",
+    "note": "Small Czech ELECTRA model."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Turning Whisper into Real-Time Transcription System",
+    "url": "https://arxiv.org/abs/2307.14743",
+    "year": 2023
+   },
+   {
+    "title": "RobeCzech: Czech RoBERTa, a monolingual contextualized language representation model",
+    "url": "https://arxiv.org/abs/2105.11314",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The institute's home page prints a general contact address and postal details.",
+  "contact_email": "ufal@ufal.mff.cuni.cz"
+ },
+ {
+  "id": "ilsp-athena",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Meltemi",
+    "note": "Released Meltemi-7B, an open Greek language model, with a base and an instruct version."
+   },
+   {
+    "title": "Llama-Krikri",
+    "note": "Released Llama-Krikri-8B base and instruct models, including a v1.5 instruct and GGUF files."
+   },
+   {
+    "title": "Greek benchmarks",
+    "note": "Published Greek translations of MMLU, ARC and HellaSwag as datasets."
+   },
+   {
+    "title": "Greek speech data",
+    "note": "Published a Greek VoxPopuli speech dataset on Hugging Face."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "ilsp/Llama-Krikri-8B-Instruct",
+    "url": "https://huggingface.co/ilsp/Llama-Krikri-8B-Instruct",
+    "kind": "model",
+    "note": "Greek instruct model, the most downloaded ILSP model."
+   },
+   {
+    "name": "ilsp/Llama-Krikri-8B-Base",
+    "url": "https://huggingface.co/ilsp/Llama-Krikri-8B-Base",
+    "kind": "model",
+    "note": "Greek base model."
+   },
+   {
+    "name": "ilsp/mmlu_greek",
+    "url": "https://huggingface.co/datasets/ilsp/mmlu_greek",
+    "kind": "dataset",
+    "note": "Greek MMLU evaluation set."
+   },
+   {
+    "name": "ilsp/Meltemi-7B-v1",
+    "url": "https://huggingface.co/ilsp/Meltemi-7B-v1",
+    "kind": "model",
+    "note": "First open Greek LLM."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Meltemi: The first open Large Language Model for Greek",
+    "url": "https://arxiv.org/abs/2407.20743",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details sit on the Athena Research Center website; the page could not be fetched during checking."
+ },
+ {
+  "id": "cjvt",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "GaMS models",
+    "note": "Developed the GaMS family of Slovene generative models, including a 1B model, a 9B instruct and the 12B GaMS3 instruct."
+   },
+   {
+    "title": "GaMS recognition",
+    "note": "Its site reports that GaMS took second place in the University of Ljubljana's rector's prize for innovation in October 2026."
+   },
+   {
+    "title": "CLASSLA tools",
+    "note": "Maintains Slovene and South Slavic processing tools such as CLASSLA and the reldi-tagger through the CLARIN.SI GitHub organisation."
+   },
+   {
+    "title": "Slovene speech and lexicons",
+    "note": "Published a Slovene end-to-end ASR tool and the Sloleks lexicon on Hugging Face."
+   },
+   {
+    "title": "Evaluation data",
+    "note": "Released a Slovenian LLM evaluation set."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "classla",
+    "url": "https://github.com/clarinsi/classla",
+    "note": "Fork of Stanford NLP Stanza for many languages, used in CLASSLA (53 stars)"
+   },
+   {
+    "name": "reldi-tagger",
+    "url": "https://github.com/clarinsi/reldi-tagger",
+    "note": "Tagger and lemmatiser for Croatian, Serbian and Slovene (35 stars)"
+   },
+   {
+    "name": "geobert",
+    "url": "https://github.com/clarinsi/geobert",
+    "note": "Geo-related BERT work (20 stars)"
+   },
+   {
+    "name": "Slovene_ASR_e2e",
+    "url": "https://github.com/clarinsi/Slovene_ASR_e2e",
+    "note": "Slovene automatic speech recognition tool (20 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "cjvt/GaMS3-12B-Instruct",
+    "url": "https://huggingface.co/cjvt/GaMS3-12B-Instruct",
+    "kind": "model",
+    "note": "12B Slovene instruct model, the most downloaded CJVT model."
+   },
+   {
+    "name": "cjvt/GaMS-9B-Instruct",
+    "url": "https://huggingface.co/cjvt/GaMS-9B-Instruct",
+    "kind": "model",
+    "note": "9B Slovene instruct model."
+   },
+   {
+    "name": "cjvt/slovenian-llm-eval",
+    "url": "https://huggingface.co/datasets/cjvt/slovenian-llm-eval",
+    "kind": "dataset",
+    "note": "Evaluation data for Slovenian LLMs."
+   },
+   {
+    "name": "cjvt/sloleks",
+    "url": "https://huggingface.co/datasets/cjvt/sloleks",
+    "kind": "dataset",
+    "note": "Slovene lexicon data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Generative Model for Less-Resourced Language with 1 billion parameters",
+    "url": "https://arxiv.org/abs/2410.06898",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The CJVT website lists organisation, staff and news pages; its GitHub presence is the clarinsi organisation."
+ },
+ {
+  "id": "pollen-robotics",
+  "confidence": "high",
+  "summary": "Bordeaux robotics company, branded Pollen Robotics x Hugging Face, building open-source robots such as Reachy Mini and the Microduck biped and publishing AI models and datasets for robot control.",
+  "contributions": [
+   {
+    "title": "Reachy Mini",
+    "note": "Builds the expressive desktop robot Reachy Mini with an open SDK; its site says over 10,000 have shipped."
+   },
+   {
+    "title": "Microduck",
+    "note": "Released the Microduck biped robot with RL training environments, simulator and trained policies."
+   },
+   {
+    "title": "AmazingHand",
+    "note": "Published code and models to control the open-source AmazingHand robot hand."
+   },
+   {
+    "title": "Reachy Mini apps and data",
+    "note": "Published a conversation app space and an emotions library dataset for Reachy Mini."
+   },
+   {
+    "title": "Open fleet data",
+    "note": "Released usage data from its robot fleet on Hugging Face."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "microduck",
+    "url": "https://github.com/pollen-robotics/microduck",
+    "note": "A tiny biped duck robot (13,857 stars)"
+   },
+   {
+    "name": "microduck_rl",
+    "url": "https://github.com/pollen-robotics/microduck_rl",
+    "note": "RL training environments for Microduck (2,913 stars)"
+   },
+   {
+    "name": "AmazingHand",
+    "url": "https://github.com/pollen-robotics/AmazingHand",
+    "note": "Code and model to control the AmazingHand robot hand (2,540 stars)"
+   },
+   {
+    "name": "reachy_mini",
+    "url": "https://github.com/pollen-robotics/reachy_mini",
+    "note": "Reachy Mini SDK (1,667 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "pollen-robotics/microduck-policies",
+    "url": "https://huggingface.co/pollen-robotics/microduck-policies",
+    "kind": "model",
+    "note": "Trained policies for Microduck, the most downloaded Pollen model."
+   },
+   {
+    "name": "pollen-robotics/reachy-mini-emotions-library",
+    "url": "https://huggingface.co/datasets/pollen-robotics/reachy-mini-emotions-library",
+    "kind": "dataset",
+    "note": "Emotion motion library for Reachy Mini."
+   },
+   {
+    "name": "pollen-robotics/microduck-simulator",
+    "url": "https://huggingface.co/spaces/pollen-robotics/microduck-simulator",
+    "kind": "space",
+    "note": "Microduck simulator space."
+   },
+   {
+    "name": "pollen-robotics/reachy_mini_conversation_app",
+    "url": "https://huggingface.co/spaces/pollen-robotics/reachy_mini_conversation_app",
+    "kind": "space",
+    "note": "Conversation app for Reachy Mini."
+   }
+  ],
+  "papers": [],
+  "discord": "https://discord.gg/2bAhWfXme9",
+  "discord_note": "Community server linked from Pollen's contact page for builders and makers of its robots.",
+  "contact_note": "Its contact page invites questions and ideas and prints a general contact address.",
+  "contact_email": "contact@pollen-robotics.com"
+ },
+ {
+  "id": "opengpt-x",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Teuken-7B",
+    "note": "Trained and released Teuken-7B base and instruct models for European languages, in research and commercial-use versions."
+   },
+   {
+    "title": "Teuken v0.6",
+    "note": "Followed with v0.6 base and instruct models."
+   },
+   {
+    "title": "Tokenizer study",
+    "note": "Published a study of how tokenizer choice affects LLM training."
+   },
+   {
+    "title": "European leaderboard data",
+    "note": "Published leaderboard data used for multilingual evaluation of its models."
+   },
+   {
+    "title": "Evaluation and data quality tools",
+    "note": "Maintains the illuminer data tooling and forks of lm-evaluation-harness and Megatron-LM."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "lm-evaluation-harness",
+    "url": "https://github.com/OpenGPTX/lm-evaluation-harness",
+    "note": "Fork of the few-shot evaluation framework (13 stars)"
+   },
+   {
+    "name": "illuminer",
+    "url": "https://github.com/OpenGPTX/illuminer",
+    "note": "Data quality tooling (11 stars)"
+   },
+   {
+    "name": "Megatron-LM",
+    "url": "https://github.com/OpenGPTX/Megatron-LM",
+    "note": "Fork for training transformers at scale (4 stars)"
+   },
+   {
+    "name": "AP5",
+    "url": "https://github.com/OpenGPTX/AP5",
+    "note": "Project repository (2 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "openGPT-X/Teuken-7B-instruct-research-v0.4",
+    "url": "https://huggingface.co/openGPT-X/Teuken-7B-instruct-research-v0.4",
+    "kind": "model",
+    "note": "Instruct model for research use, the most downloaded OpenGPT-X model."
+   },
+   {
+    "name": "openGPT-X/Teuken-7B-instruct-commercial-v0.4",
+    "url": "https://huggingface.co/openGPT-X/Teuken-7B-instruct-commercial-v0.4",
+    "kind": "model",
+    "note": "Instruct model with commercial-use licence."
+   },
+   {
+    "name": "openGPT-X/Teuken-7B-instruct-v0.6",
+    "url": "https://huggingface.co/openGPT-X/Teuken-7B-instruct-v0.6",
+    "kind": "model",
+    "note": "Instruct model, version 0.6."
+   },
+   {
+    "name": "openGPT-X/leaderboard_data",
+    "url": "https://huggingface.co/datasets/openGPT-X/leaderboard_data",
+    "kind": "dataset",
+    "note": "Leaderboard data for multilingual evaluation."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Teuken-7B-Base & Teuken-7B-Instruct: Towards European LLMs",
+    "url": "https://arxiv.org/abs/2410.03730",
+    "year": 2024
+   },
+   {
+    "title": "Tokenizer Choice For LLM Training: Negligible or Crucial?",
+    "url": "https://arxiv.org/abs/2310.08754",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The project's contact page names the Fraunhofer IAIS address for questions about the project.",
+  "contact_email": "info@iais.fraunhofer.de"
+ },
+ {
+  "id": "prior-labs",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "TabPFN",
+    "note": "Created TabPFN, a transformer that solves small tabular classification problems in a single forward pass."
+   },
+   {
+    "title": "TabPFN-v2 in Nature",
+    "note": "Published the tabular foundation model for small data in Nature."
+   },
+   {
+    "title": "TabPFN-2.5 and 3.5",
+    "note": "Released TabPFN 2.5 and 3.5 weights for larger tabular tasks."
+   },
+   {
+    "title": "Time series",
+    "note": "Released a zero-shot time series forecasting extension built on TabPFN."
+   },
+   {
+    "title": "Ecosystem",
+    "note": "Maintains community extensions, an API client and the RelArena benchmark for relational learning."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "TabPFN",
+    "url": "https://github.com/PriorLabs/TabPFN",
+    "note": "Foundation model for tabular data (8,477 stars)"
+   },
+   {
+    "name": "tabpfn-time-series",
+    "url": "https://github.com/PriorLabs/tabpfn-time-series",
+    "note": "Zero-shot time series forecasting with TabPFN (479 stars)"
+   },
+   {
+    "name": "tabpfn-extensions",
+    "url": "https://github.com/PriorLabs/tabpfn-extensions",
+    "note": "Community extensions for TabPFN (344 stars)"
+   },
+   {
+    "name": "tabpfn-client",
+    "url": "https://github.com/PriorLabs/tabpfn-client",
+    "note": "Easy API access to TabPFN (256 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Prior-Labs/TabPFN-v2-reg",
+    "url": "https://huggingface.co/Prior-Labs/TabPFN-v2-reg",
+    "kind": "model",
+    "note": "TabPFN-v2 regression weights."
+   },
+   {
+    "name": "Prior-Labs/TabPFN-v2-clf",
+    "url": "https://huggingface.co/Prior-Labs/TabPFN-v2-clf",
+    "kind": "model",
+    "note": "TabPFN-v2 classification weights."
+   },
+   {
+    "name": "Prior-Labs/tabpfn_3_5",
+    "url": "https://huggingface.co/Prior-Labs/tabpfn_3_5",
+    "kind": "model",
+    "note": "TabPFN 3.5 weights."
+   },
+   {
+    "name": "Prior-Labs/tabpfn_2_5",
+    "url": "https://huggingface.co/Prior-Labs/tabpfn_2_5",
+    "kind": "model",
+    "note": "TabPFN 2.5 weights."
+   }
+  ],
+  "papers": [
+   {
+    "title": "TabPFN: A Transformer That Solves Small Tabular Classification Problems in a Second",
+    "url": "https://arxiv.org/abs/2207.01848",
+    "year": 2022
+   },
+   {
+    "title": "Accurate predictions on small data with a tabular foundation model",
+    "url": "https://www.nature.com/articles/s41586-024-08328-6",
+    "year": 2025
+   },
+   {
+    "title": "TabPFN-2.5: Advancing the State of the Art in Tabular Foundation Models",
+    "url": "https://arxiv.org/abs/2511.08667",
+    "year": 2025
+   },
+   {
+    "title": "From Tables to Time: Extending TabPFN-v2 to Time Series Forecasting",
+    "url": "https://arxiv.org/abs/2501.02945",
+    "year": 2025
+   }
+  ],
+  "discord": "https://discord.com/invite/VJRuU3bSxt",
+  "discord_note": "Community server linked from Prior Labs' contact page for discussion of TabPFN.",
+  "contact_note": "Its contact page has a form and a sales address, plus the community Discord.",
+  "contact_email": "sales@priorlabs.ai"
+ },
+ {
+  "id": "hitz",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Latxa",
+    "note": "Released Latxa, open language models for Basque, with an evaluation suite; later versions build on Llama 3.1 and Qwen3-VL."
+   },
+   {
+    "title": "GoLLIE",
+    "note": "Created GoLLIE, a model that follows annotation guidelines for information extraction."
+   },
+   {
+    "title": "Contamination index",
+    "note": "Maintains the LM Contamination Index, a database of benchmark contamination evidence."
+   },
+   {
+    "title": "Basque speech",
+    "note": "Published whisper-lm, which adds n-gram and LLM support to Whisper, and Basque ASR demos."
+   },
+   {
+    "title": "Domain datasets",
+    "note": "Released datasets such as MedExpQA and EusExams."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "GoLLIE",
+    "url": "https://github.com/hitz-zentroa/GoLLIE",
+    "note": "Guideline-following LLM for information extraction (445 stars)"
+   },
+   {
+    "name": "lm-contamination",
+    "url": "https://github.com/hitz-zentroa/lm-contamination",
+    "note": "Database of benchmark contamination evidence (82 stars)"
+   },
+   {
+    "name": "whisper-lm",
+    "url": "https://github.com/hitz-zentroa/whisper-lm",
+    "note": "N-gram and LLM support for Whisper models (44 stars)"
+   },
+   {
+    "name": "latxa",
+    "url": "https://github.com/hitz-zentroa/latxa",
+    "note": "Open language model and evaluation suite for Basque (38 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "HiTZ/Latxa-Llama-3.1-8B-Instruct",
+    "url": "https://huggingface.co/HiTZ/Latxa-Llama-3.1-8B-Instruct",
+    "kind": "model",
+    "note": "Basque instruct model on Llama 3.1."
+   },
+   {
+    "name": "HiTZ/Latxa-Llama-3.1-70B-Instruct-v2-FP8",
+    "url": "https://huggingface.co/HiTZ/Latxa-Llama-3.1-70B-Instruct-v2-FP8",
+    "kind": "model",
+    "note": "70B Basque instruct model in FP8."
+   },
+   {
+    "name": "HiTZ/MedExpQA",
+    "url": "https://huggingface.co/datasets/HiTZ/MedExpQA",
+    "kind": "dataset",
+    "note": "Medical multilingual question answering benchmark."
+   },
+   {
+    "name": "HiTZ/EusExams",
+    "url": "https://huggingface.co/datasets/HiTZ/EusExams",
+    "kind": "dataset",
+    "note": "Basque exam questions for evaluation."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Latxa: An Open Language Model and Evaluation Suite for Basque",
+    "url": "https://arxiv.org/abs/2403.20266",
+    "year": 2024
+   },
+   {
+    "title": "GoLLIE: Annotation Guidelines improve Zero-Shot Information-Extraction",
+    "url": "https://arxiv.org/abs/2310.03668",
+    "year": 2023
+   },
+   {
+    "title": "NLP Evaluation in trouble: On the Need to Measure LLM Data Contamination for each Benchmark",
+    "url": "https://arxiv.org/abs/2310.18018",
+    "year": 2023
+   },
+   {
+    "title": "This is not a Dataset: A Large Negation Benchmark to Challenge Large Language Models",
+    "url": "https://arxiv.org/abs/2310.15941",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The centre's website could not be fetched during checking; use its GitHub or Hugging Face organisation for project contact."
+ },
+ {
+  "id": "projecte-aina",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Catalan language models",
+    "note": "Released Catalan language models and resources through the lm-catalan repository and Hugging Face."
+   },
+   {
+    "title": "Catalan RoBERTa and FLOR",
+    "note": "Published RoBERTa Catalan models and the FLOR-760M model."
+   },
+   {
+    "title": "CATalog corpus",
+    "note": "Released CATalog, a Catalan text corpus."
+   },
+   {
+    "title": "Catalan speech",
+    "note": "Published Catalan text-to-speech with a REST API and the Matxa and alVoCat voices."
+   },
+   {
+    "title": "Catalan NLP tooling",
+    "note": "Released pre-production Catalan spaCy models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "lm-catalan",
+    "url": "https://github.com/projecte-aina/lm-catalan",
+    "note": "Catalan language models and resources from the Aina project (27 stars)"
+   },
+   {
+    "name": "oTranscribe-plus",
+    "url": "https://github.com/projecte-aina/oTranscribe-plus",
+    "note": "Audio transcription tool with offline ASR support, a fork (26 stars)"
+   },
+   {
+    "name": "tts-api",
+    "url": "https://github.com/projecte-aina/tts-api",
+    "note": "REST API for synthesising Catalan speech (17 stars)"
+   },
+   {
+    "name": "spacy",
+    "url": "https://github.com/projecte-aina/spacy",
+    "note": "Pre-production spaCy releases for Catalan (13 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "projecte-aina/roberta-base-ca-v2-cased-ner",
+    "url": "https://huggingface.co/projecte-aina/roberta-base-ca-v2-cased-ner",
+    "kind": "model",
+    "note": "Catalan named entity recognition model."
+   },
+   {
+    "name": "projecte-aina/FLOR-760M",
+    "url": "https://huggingface.co/projecte-aina/FLOR-760M",
+    "kind": "model",
+    "note": "Catalan-focused language model."
+   },
+   {
+    "name": "projecte-aina/CATalog",
+    "url": "https://huggingface.co/datasets/projecte-aina/CATalog",
+    "kind": "dataset",
+    "note": "Catalan text corpus."
+   },
+   {
+    "name": "projecte-aina/matxa-alvocat-tts-ca",
+    "url": "https://huggingface.co/spaces/projecte-aina/matxa-alvocat-tts-ca",
+    "kind": "space",
+    "note": "Catalan text-to-speech demo."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Are Multilingual Models the Best Choice for Moderately Under-resourced Languages? A Comprehensive Assessment for Catalan",
+    "url": "https://arxiv.org/abs/2107.07903",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The Aina site has a contact page for the initiative."
+ },
+ {
+  "id": "fbk-mt",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "MOSEL",
+    "note": "Collected open-source speech data for EU languages for speech foundation model training."
+   },
+   {
+    "title": "Speech-MASSIVE",
+    "note": "Released a multilingual spoken language understanding dataset."
+   },
+   {
+    "title": "FAMA",
+    "note": "Released open-science speech foundation models for English and Italian."
+   },
+   {
+    "title": "MCIF",
+    "note": "Published a multimodal crosslingual instruction-following benchmark built from scientific talks."
+   },
+   {
+    "title": "Open tooling",
+    "note": "Released FBK-fairseq, the simulstream library and the TMOP translation memory purifier."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "mosel",
+    "url": "https://github.com/hlt-mt/mosel",
+    "note": "Collection of open source speech data (166 stars)"
+   },
+   {
+    "name": "FBK-fairseq",
+    "url": "https://github.com/hlt-mt/FBK-fairseq",
+    "note": "Open source code of works from the FBK MT unit (60 stars)"
+   },
+   {
+    "name": "TMOP",
+    "url": "https://github.com/hlt-mt/TMOP",
+    "note": "Translation Memory Open-source Purifier (35 stars)"
+   },
+   {
+    "name": "simulstream",
+    "url": "https://github.com/hlt-mt/simulstream",
+    "note": "Library for simultaneous speech recognition and translation (33 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "FBK-MT/mosel",
+    "url": "https://huggingface.co/datasets/FBK-MT/mosel",
+    "kind": "dataset",
+    "note": "MOSEL speech data collection, the unit's most downloaded repository."
+   },
+   {
+    "name": "FBK-MT/Speech-MASSIVE",
+    "url": "https://huggingface.co/datasets/FBK-MT/Speech-MASSIVE",
+    "kind": "dataset",
+    "note": "Multilingual spoken language understanding dataset."
+   },
+   {
+    "name": "FBK-MT/MCIF",
+    "url": "https://huggingface.co/datasets/FBK-MT/MCIF",
+    "kind": "dataset",
+    "note": "Crosslingual instruction-following benchmark."
+   },
+   {
+    "name": "FBK-MT/fama-medium",
+    "url": "https://huggingface.co/FBK-MT/fama-medium",
+    "kind": "model",
+    "note": "Open-science speech foundation model."
+   }
+  ],
+  "papers": [
+   {
+    "title": "MOSEL: 950,000 Hours of Speech Data for Open-Source Speech Foundation Model Training on EU Languages",
+    "url": "https://arxiv.org/abs/2410.01036",
+    "year": 2024
+   },
+   {
+    "title": "Speech-MASSIVE: A Multilingual Speech Dataset for SLU and Beyond",
+    "url": "https://arxiv.org/abs/2408.03900",
+    "year": 2024
+   },
+   {
+    "title": "FAMA: The First Large-Scale Open-Science Speech Foundation Model for English and Italian",
+    "url": "https://arxiv.org/abs/2505.22759",
+    "year": 2025
+   },
+   {
+    "title": "MCIF: Multimodal Crosslingual Instruction-Following Benchmark from Scientific Talks",
+    "url": "https://arxiv.org/abs/2507.19634",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The unit's website blocked automated access during checking; use the GitHub (hlt-mt) or Hugging Face pages for project contact."
+ },
+ {
+  "id": "mideind",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "GreynirEngine",
+    "note": "Built GreynirEngine and GreynirServer, an Icelandic natural language processing engine and API."
+   },
+   {
+    "title": "Icelandic language resources",
+    "note": "Released an Icelandic tokenizer and a Python package of the BIN vocabulary of modern Icelandic."
+   },
+   {
+    "title": "IceBERT",
+    "note": "Published IceBERT language models for Icelandic and a part-of-speech variant."
+   },
+   {
+    "title": "Icelandic LLM leaderboard",
+    "note": "Hosts an Icelandic LLM leaderboard space."
+   },
+   {
+    "title": "Grammar correction",
+    "note": "Released an Icelandic error corpus, a correction test set and a ByT5 correction model."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "GreynirEngine",
+    "url": "https://github.com/mideind/GreynirEngine",
+    "note": "Fast natural language processing engine for Icelandic (70 stars)"
+   },
+   {
+    "name": "GreynirServer",
+    "url": "https://github.com/mideind/GreynirServer",
+    "note": "The greynir.is Icelandic NLP API and website (67 stars)"
+   },
+   {
+    "name": "Netskrafl",
+    "url": "https://github.com/mideind/Netskrafl",
+    "note": "Icelandic crossword game website (44 stars)"
+   },
+   {
+    "name": "Tokenizer",
+    "url": "https://github.com/mideind/Tokenizer",
+    "note": "Tokenizer for Icelandic text (33 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "mideind/IceBERT",
+    "url": "https://huggingface.co/mideind/IceBERT",
+    "kind": "model",
+    "note": "Icelandic RoBERTa model."
+   },
+   {
+    "name": "mideind/yfirlestur-icelandic-correction-byt5",
+    "url": "https://huggingface.co/mideind/yfirlestur-icelandic-correction-byt5",
+    "kind": "model",
+    "note": "Icelandic grammar correction model."
+   },
+   {
+    "name": "mideind/icelandic-error-corpus-IceEC",
+    "url": "https://huggingface.co/datasets/mideind/icelandic-error-corpus-IceEC",
+    "kind": "dataset",
+    "note": "Icelandic error corpus."
+   },
+   {
+    "name": "mideind/icelandic-llm-leaderboard",
+    "url": "https://huggingface.co/spaces/mideind/icelandic-llm-leaderboard",
+    "kind": "space",
+    "note": "Icelandic LLM leaderboard."
+   }
+  ],
+  "papers": [
+   {
+    "title": "A Warm Start and a Clean Crawled Corpus -- A Recipe for Good Language Models",
+    "url": "https://arxiv.org/abs/2201.05601",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The company site prints general and jobs email addresses.",
+  "contact_email": "mideind@mideind.is"
+ },
+ {
+  "id": "idiap",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Fast transformers",
+    "note": "Released the fast-transformers library with linear attention, from the Transformers are RNNs work."
+   },
+   {
+    "title": "Coqui TTS fork",
+    "note": "Maintains an actively developed fork of the Coqui text-to-speech toolkit."
+   },
+   {
+    "title": "Bob toolbox",
+    "note": "Maintains Bob, a signal-processing and machine learning toolbox."
+   },
+   {
+    "title": "Vision work",
+    "note": "Published ESLAM neural-radiance-field SLAM and EdgeFace efficient face recognition, with demos."
+   },
+   {
+    "title": "Gated DeltaNet models",
+    "note": "Published gated DeltaNet language models with attention variants on Hugging Face."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "coqui-ai-TTS",
+    "url": "https://github.com/idiap/coqui-ai-TTS",
+    "note": "Fork of the Coqui deep learning TTS toolkit (2,357 stars)"
+   },
+   {
+    "name": "fast-transformers",
+    "url": "https://github.com/idiap/fast-transformers",
+    "note": "PyTorch library for fast transformer implementations (1,785 stars)"
+   },
+   {
+    "name": "importance-sampling",
+    "url": "https://github.com/idiap/importance-sampling",
+    "note": "Experiments on importance sampling for neural network training (330 stars)"
+   },
+   {
+    "name": "bob",
+    "url": "https://github.com/idiap/bob",
+    "note": "Signal-processing and machine learning toolbox (262 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Idiap/gated-deltanet-nsa-0.4B-10B",
+    "url": "https://huggingface.co/Idiap/gated-deltanet-nsa-0.4B-10B",
+    "kind": "model",
+    "note": "Gated DeltaNet language model variant."
+   },
+   {
+    "name": "Idiap/gated-deltanet-swa-1.4B-30B",
+    "url": "https://huggingface.co/Idiap/gated-deltanet-swa-1.4B-30B",
+    "kind": "model",
+    "note": "Gated DeltaNet model with sliding-window attention."
+   },
+   {
+    "name": "Idiap/EdgeFace",
+    "url": "https://huggingface.co/spaces/Idiap/EdgeFace",
+    "kind": "space",
+    "note": "EdgeFace face recognition demo."
+   },
+   {
+    "name": "Idiap/HyperFace",
+    "url": "https://huggingface.co/spaces/Idiap/HyperFace",
+    "kind": "space",
+    "note": "HyperFace demo."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention",
+    "url": "https://arxiv.org/abs/2006.16236",
+    "year": 2020
+   },
+   {
+    "title": "Not All Samples Are Created Equal: Deep Learning with Importance Sampling",
+    "url": "https://arxiv.org/abs/1803.00942",
+    "year": 2018
+   },
+   {
+    "title": "ESLAM: Efficient Dense SLAM System Based on Hybrid Representation of Signed Distance Fields",
+    "url": "https://arxiv.org/abs/2211.11704",
+    "year": 2022
+   },
+   {
+    "title": "EdgeFace: Efficient Face Recognition Model for Edge Devices",
+    "url": "https://arxiv.org/abs/2307.01838",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The institute's contact page has a contact form and a secretariat line."
+ },
+ {
+  "id": "pyannote",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "pyannote.audio",
+    "note": "Maintains the most widely used open toolkit for speaker diarization, with over 10,000 GitHub stars."
+   },
+   {
+    "title": "Pretrained pipelines",
+    "note": "Hosts speaker diarization 3.1 and community-1 pipelines with millions of downloads on Hugging Face."
+   },
+   {
+    "title": "Segmentation models",
+    "note": "Published the segmentation-3.0 and WeSpeaker embedding models used inside the pipelines."
+   },
+   {
+    "title": "Powerset training",
+    "note": "Introduced powerset multi-class cross entropy loss for neural speaker diarization."
+   },
+   {
+    "title": "Evaluation tooling",
+    "note": "Maintains pyannote-metrics for reproducible diarization evaluation."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "pyannote-audio",
+    "url": "https://github.com/pyannote/pyannote-audio",
+    "note": "Neural building blocks for speaker diarization (10,806 stars)"
+   },
+   {
+    "name": "pyannote-video",
+    "url": "https://github.com/pyannote/pyannote-video",
+    "note": "Face detection, tracking and clustering in videos (477 stars)"
+   },
+   {
+    "name": "pyannote-metrics",
+    "url": "https://github.com/pyannote/pyannote-metrics",
+    "note": "Toolkit for reproducible diarization evaluation (258 stars)"
+   },
+   {
+    "name": "pyannote-core",
+    "url": "https://github.com/pyannote/pyannote-core",
+    "note": "Data structures for temporal segments with labels (126 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "pyannote/speaker-diarization-3.1",
+    "url": "https://huggingface.co/pyannote/speaker-diarization-3.1",
+    "kind": "model",
+    "note": "Speaker diarization pipeline, the group's most downloaded model."
+   },
+   {
+    "name": "pyannote/speaker-diarization-community-1",
+    "url": "https://huggingface.co/pyannote/speaker-diarization-community-1",
+    "kind": "model",
+    "note": "Community diarization pipeline."
+   },
+   {
+    "name": "pyannote/segmentation-3.0",
+    "url": "https://huggingface.co/pyannote/segmentation-3.0",
+    "kind": "model",
+    "note": "Speaker segmentation model."
+   },
+   {
+    "name": "pyannote/wespeaker-voxceleb-resnet34-LM",
+    "url": "https://huggingface.co/pyannote/wespeaker-voxceleb-resnet34-LM",
+    "kind": "model",
+    "note": "Speaker embedding model."
+   }
+  ],
+  "papers": [
+   {
+    "title": "pyannote.audio: neural building blocks for speaker diarization",
+    "url": "https://arxiv.org/abs/1911.01255",
+    "year": 2019
+   },
+   {
+    "title": "Powerset multi-class cross entropy loss for neural speaker diarization",
+    "url": "https://arxiv.org/abs/2310.13025",
+    "year": 2023
+   },
+   {
+    "title": "End-to-end speaker segmentation for overlap-aware resegmentation",
+    "url": "https://arxiv.org/abs/2104.04045",
+    "year": 2021
+   }
+  ],
+  "discord": "https://discord.gg/vux8UH9QmV",
+  "discord_note": "Community server linked from the pyannoteAI site.",
+  "contact_note": "The pyannoteAI contact page lists a support address and the community Discord.",
+  "contact_email": "support@pyannote.ai"
+ },
+ {
+  "id": "neuphonic",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "NeuTTS",
+    "note": "Released NeuTTS, an on-device text-to-speech model, whose repository has over 6,000 stars."
+   },
+   {
+    "title": "NeuCodec",
+    "note": "Published NeuCodec, a 50 Hz, 0.8 kbps, 24 kHz audio codec."
+   },
+   {
+    "title": "Quantised models",
+    "note": "Published GGUF quantisations of NeuTTS for local use."
+   },
+   {
+    "title": "NeuDecide",
+    "note": "Released a tiny voice-action model built to run on any device."
+   },
+   {
+    "title": "SDKs",
+    "note": "Maintains Python and JavaScript SDKs for its TTS engine."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "neutts",
+    "url": "https://github.com/neuphonic/neutts",
+    "note": "On-device TTS model (6,340 stars)"
+   },
+   {
+    "name": "neucodec",
+    "url": "https://github.com/neuphonic/neucodec",
+    "note": "50 Hz, 0.8 kbps, 24 kHz audio codec (170 stars)"
+   },
+   {
+    "name": "neudecide",
+    "url": "https://github.com/neuphonic/neudecide",
+    "note": "Tiny voice-action model for any device (102 stars)"
+   },
+   {
+    "name": "pyneuphonic",
+    "url": "https://github.com/neuphonic/pyneuphonic",
+    "note": "Python SDK for the Neuphonic TTS engine (12 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "neuphonic/neucodec",
+    "url": "https://huggingface.co/neuphonic/neucodec",
+    "kind": "model",
+    "note": "Audio codec, the group's most downloaded model."
+   },
+   {
+    "name": "neuphonic/neutts-air",
+    "url": "https://huggingface.co/neuphonic/neutts-air",
+    "kind": "model",
+    "note": "NeuTTS Air weights."
+   },
+   {
+    "name": "neuphonic/neutts-air-q4-gguf",
+    "url": "https://huggingface.co/neuphonic/neutts-air-q4-gguf",
+    "kind": "model",
+    "note": "Quantised GGUF NeuTTS Air."
+   },
+   {
+    "name": "neuphonic/neutts-nano-multilingual-collection",
+    "url": "https://huggingface.co/spaces/neuphonic/neutts-nano-multilingual-collection",
+    "kind": "space",
+    "note": "Multilingual NeuTTS Nano collection demo."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Its contact page lists a general email address.",
+  "contact_email": "general@neuphonic.com"
+ },
+ {
+  "id": "probabl",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "skore",
+    "note": "Develops skore, an open-source Python library for tracking and evaluating data science work, now framed as a harness for data science agents."
+   },
+   {
+    "title": "skore skills",
+    "note": "Published skills that help guardrail AI agents doing tabular data science."
+   },
+   {
+    "title": "Scikit-learn Central",
+    "note": "Runs a Scikit-learn Central section on its site for the scikit-learn community."
+   },
+   {
+    "title": "RAG for scikit-learn docs",
+    "note": "Built a proof-of-concept retrieval-augmented assistant over the scikit-learn documentation."
+   },
+   {
+    "title": "Education",
+    "note": "Publishes resources for its educational video content."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "skore",
+    "url": "https://github.com/probabl-ai/skore",
+    "note": "Open-source library for tracking and evaluating data science work (684 stars)"
+   },
+   {
+    "name": "skore-skills",
+    "url": "https://github.com/probabl-ai/skore-skills",
+    "note": "Tabular data science skills for guardrailing AI agents (146 stars)"
+   },
+   {
+    "name": "youtube-appendix",
+    "url": "https://github.com/probabl-ai/youtube-appendix",
+    "note": "Resources for its educational content (50 stars)"
+   },
+   {
+    "name": "sklearn-ragger-duck",
+    "url": "https://github.com/probabl-ai/sklearn-ragger-duck",
+    "note": "Proof-of-concept RAG over the scikit-learn docs (29 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "probabl-ai/ScikitLLM-Model",
+    "url": "https://huggingface.co/probabl-ai/ScikitLLM-Model",
+    "kind": "model",
+    "note": "Model for scikit-learn code assistance."
+   },
+   {
+    "name": "probabl-ai/ScikitLLM-Model-exl2",
+    "url": "https://huggingface.co/probabl-ai/ScikitLLM-Model-exl2",
+    "kind": "model",
+    "note": "Quantised variant of ScikitLLM."
+   },
+   {
+    "name": "probabl-ai/LLM_article",
+    "url": "https://huggingface.co/datasets/probabl-ai/LLM_article",
+    "kind": "dataset",
+    "note": "Dataset from an LLM article."
+   }
+  ],
+  "papers": [],
+  "discord": "https://discord.com/invite/f3j8hBSWM7",
+  "discord_note": "Community server linked from probabl's contact page.",
+  "contact_note": "Its contact page has a form to talk to an expert and links to the community Discord."
+ },
+ {
+  "id": "tng",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "DeepSeek R1T Chimera",
+    "note": "Released DeepSeek-R1T-Chimera, a merge of DeepSeek models as open weights."
+   },
+   {
+    "title": "R1T2 Chimera",
+    "note": "Followed with DeepSeek-TNG-R1T2-Chimera, its most-liked model."
+   },
+   {
+    "title": "Assembly of Experts",
+    "note": "Published the Assembly-of-Experts method used to build Chimera variants."
+   },
+   {
+    "title": "olmOCR fine-tune",
+    "note": "Released olmOCR-7B-faithful, a fine-tuned OCR model."
+   },
+   {
+    "title": "Quantised Nemotron",
+    "note": "Published a GGUF NVFP4 quantisation of an NVIDIA Nemotron model."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "tngtech/DeepSeek-TNG-R1T2-Chimera",
+    "url": "https://huggingface.co/tngtech/DeepSeek-TNG-R1T2-Chimera",
+    "kind": "model",
+    "note": "Merged reasoning model with 288 likes."
+   },
+   {
+    "name": "tngtech/DeepSeek-R1T-Chimera",
+    "url": "https://huggingface.co/tngtech/DeepSeek-R1T-Chimera",
+    "kind": "model",
+    "note": "First Chimera model."
+   },
+   {
+    "name": "tngtech/olmOCR-7B-faithful",
+    "url": "https://huggingface.co/tngtech/olmOCR-7B-faithful",
+    "kind": "model",
+    "note": "Fine-tuned OCR model."
+   },
+   {
+    "name": "tngtech/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-GGUF",
+    "url": "https://huggingface.co/tngtech/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-GGUF",
+    "kind": "model",
+    "note": "Quantised GGUF of a Nemotron model."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Assembly of Experts: Linear-time construction of the Chimera LLM variants with emergent and adaptable behaviors",
+    "url": "https://arxiv.org/abs/2506.14794",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The company's contact page prints a general address; the Chimera work is documented on its Hugging Face page.",
+  "contact_email": "info@tngtech.com"
+ }
+]

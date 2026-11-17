@@ -1,0 +1,4191 @@
+[
+ {
+  "id": "masakhane",
+  "contributions": [
+   {
+    "title": "Participatory NLP for Africa",
+    "note": "Runs a grassroots community of African researchers building NLP resources."
+   },
+   {
+    "title": "Masakhane MT",
+    "note": "Built open machine-translation baselines for African languages."
+   },
+   {
+    "title": "MasakhaNER",
+    "note": "Created named entity recognition datasets and models for African languages."
+   },
+   {
+    "title": "AfriMMLU, AfriMGSM, MasakhaNEWS",
+    "note": "Released benchmarks for knowledge, math and news classification."
+   },
+   {
+    "title": "AfriQA",
+    "note": "Released cross-lingual question answering for African languages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "masakhane-mt",
+    "url": "https://github.com/masakhane-io/masakhane-mt",
+    "note": "Machine translation for Africa."
+   },
+   {
+    "name": "masakhane-ner",
+    "url": "https://github.com/masakhane-io/masakhane-ner",
+    "note": "NER for African languages."
+   },
+   {
+    "name": "masakhane-community",
+    "url": "https://github.com/masakhane-io/masakhane-community",
+    "note": "Community docs."
+   },
+   {
+    "name": "lafand-mt",
+    "url": "https://github.com/masakhane-io/lafand-mt",
+    "note": "MAFAND-MT."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "afrimgsm",
+    "url": "https://huggingface.co/datasets/masakhane/afrimgsm",
+    "kind": "dataset",
+    "note": "Math benchmark."
+   },
+   {
+    "name": "InjongoIntent",
+    "url": "https://huggingface.co/datasets/masakhane/InjongoIntent",
+    "kind": "dataset",
+    "note": "Intent detection."
+   },
+   {
+    "name": "afrimmlu",
+    "url": "https://huggingface.co/datasets/masakhane/afrimmlu",
+    "kind": "dataset",
+    "note": "Knowledge benchmark."
+   },
+   {
+    "name": "masakhanews",
+    "url": "https://huggingface.co/datasets/masakhane/masakhanews",
+    "kind": "dataset",
+    "note": "News classification."
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "community@masakhane.io",
+  "contact_note": "Contact details and links are on the lab's website (https://www.masakhane.io); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "lelapa-ai",
+  "contributions": [
+   {
+    "title": "InkubaLM",
+    "note": "Released InkubaLM-0.4B, a small African-languages LM."
+   },
+   {
+    "title": "Inkuba datasets",
+    "note": "Released Inkuba-Mono and Inkuba-instruct."
+   },
+   {
+    "title": "isiXhosa speech",
+    "note": "Released the Vukuzenzele isiXhosa speech dataset."
+   },
+   {
+    "title": "Vulavula",
+    "note": "Offers a platform for South African languages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "zindi-inkuba-notebook",
+    "url": "https://github.com/lelapa-ai/zindi-inkuba-notebook",
+    "note": "Notebook for the Inkuba challenge."
+   },
+   {
+    "name": "vulavula-examples",
+    "url": "https://github.com/lelapa-ai/vulavula-examples",
+    "note": "Vulavula examples."
+   },
+   {
+    "name": "lelapa-demo-gnerds",
+    "url": "https://github.com/lelapa-ai/lelapa-demo-gnerds",
+    "note": "Translation demo."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "InkubaLM-0.4B",
+    "url": "https://huggingface.co/lelapa/InkubaLM-0.4B",
+    "kind": "model",
+    "note": "InkubaLM."
+   },
+   {
+    "name": "Inkuba-instruct",
+    "url": "https://huggingface.co/datasets/lelapa/Inkuba-instruct",
+    "kind": "dataset",
+    "note": "Instruction data."
+   },
+   {
+    "name": "Inkuba-Mono",
+    "url": "https://huggingface.co/datasets/lelapa/Inkuba-Mono",
+    "kind": "dataset",
+    "note": "Monolingual data."
+   },
+   {
+    "name": "Vukuzenzele_isiXhosa_Speech_Dataset_ViXSD",
+    "url": "https://huggingface.co/datasets/lelapa/Vukuzenzele_isiXhosa_Speech_Dataset_ViXSD",
+    "kind": "dataset",
+    "note": "isiXhosa speech."
+   }
+  ],
+  "papers": [
+   {
+    "title": "InkubaLM: A small language model for low-resource African languages",
+    "url": "https://arxiv.org/abs/2408.17024",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "support@lelapa.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://lelapa.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "ghana-nlp",
+  "contributions": [
+   {
+    "title": "Parallel corpora",
+    "note": "Curated parallel text for Twi, Fante, Ewe, Ga and more."
+   },
+   {
+    "title": "ABENA models",
+    "note": "Released Twi BERT-style models."
+   },
+   {
+    "title": "Khaya",
+    "note": "Built the Khaya translation product."
+   },
+   {
+    "title": "Corpus builder",
+    "note": "Tools for 38 Ghanaian language corpora."
+   },
+   {
+    "title": "Nsanku",
+    "note": "LLM zero-shot translation evaluation."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "kasa",
+    "url": "https://github.com/GhanaNLP/kasa",
+    "note": "English to Twi translation system."
+   },
+   {
+    "name": "ABENA",
+    "url": "https://github.com/GhanaNLP/ABENA",
+    "note": "Training scripts for language models."
+   },
+   {
+    "name": "nsanku",
+    "url": "https://github.com/GhanaNLP/nsanku",
+    "note": "Zero-shot LLM translation eval."
+   },
+   {
+    "name": "ghanaian-nlp-datasets-models",
+    "url": "https://github.com/GhanaNLP/ghanaian-nlp-datasets-models",
+    "note": "Curated datasets and models."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "distilabena-base-v2-akuapem-twi-cased",
+    "url": "https://huggingface.co/Ghana-NLP/distilabena-base-v2-akuapem-twi-cased",
+    "kind": "model",
+    "note": "DistilABENA."
+   },
+   {
+    "name": "abena-base-asante-twi-uncased",
+    "url": "https://huggingface.co/Ghana-NLP/abena-base-asante-twi-uncased",
+    "kind": "model",
+    "note": "ABENA Asante Twi."
+   },
+   {
+    "name": "TWI_ENGLISH_PARALLEL_TEXT",
+    "url": "https://huggingface.co/datasets/Ghana-NLP/TWI_ENGLISH_PARALLEL_TEXT",
+    "kind": "dataset",
+    "note": "Twi-English."
+   },
+   {
+    "name": "EWE_ENGLISH_PARALLEL_TEXT",
+    "url": "https://huggingface.co/datasets/Ghana-NLP/EWE_ENGLISH_PARALLEL_TEXT",
+    "kind": "dataset",
+    "note": "Ewe-English."
+   }
+  ],
+  "papers": [
+   {
+    "title": "GhanaNLP Parallel Corpora: Comprehensive Multilingual Resources for Low-Resource Ghanaian Languages",
+    "url": "https://arxiv.org/abs/2603.13793",
+    "year": 2026
+   },
+   {
+    "title": "English-Twi Parallel Corpus for Machine Translation",
+    "url": "https://arxiv.org/abs/2103.15625",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://ghananlp.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "zindi",
+  "contributions": [
+   {
+    "title": "Competition platform",
+    "note": "Hosts data science challenges focused on African problems."
+   },
+   {
+    "title": "Solution repositories",
+    "note": "Publishes solutions across ML, vision, NLP and time series."
+   },
+   {
+    "title": "Digital Africa",
+    "note": "Shared solutions to the Digital Africa challenge."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Machine-Learning",
+    "url": "https://github.com/ZindiAfrica/Machine-Learning",
+    "note": "Regression and classification solutions."
+   },
+   {
+    "name": "Computer-Vision",
+    "url": "https://github.com/ZindiAfrica/Computer-Vision",
+    "note": "CV solutions."
+   },
+   {
+    "name": "Natural-Language-Processing-NLP",
+    "url": "https://github.com/ZindiAfrica/Natural-Language-Processing-NLP",
+    "note": "NLP solutions."
+   },
+   {
+    "name": "Digital-Africa",
+    "url": "https://github.com/ZindiAfrica/Digital-Africa",
+    "note": "Digital Africa solutions."
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://zindi.world); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "deep-learning-indaba",
+  "contributions": [
+   {
+    "title": "Indaba practicals",
+    "note": "Publishes open practical notebooks each year since 2018."
+   },
+   {
+    "title": "Annual Indaba",
+    "note": "Runs the annual African machine learning gathering."
+   },
+   {
+    "title": "Open teaching material",
+    "note": "Notebooks across 2018 to 2025 editions are on GitHub."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "indaba-pracs-2022",
+    "url": "https://github.com/deep-learning-indaba/indaba-pracs-2022",
+    "note": "2022 practicals."
+   },
+   {
+    "name": "indaba-2018",
+    "url": "https://github.com/deep-learning-indaba/indaba-2018",
+    "note": "2018 practicals."
+   },
+   {
+    "name": "indaba-pracs-2023",
+    "url": "https://github.com/deep-learning-indaba/indaba-pracs-2023",
+    "note": "2023 practicals."
+   },
+   {
+    "name": "indaba-pracs-2019",
+    "url": "https://github.com/deep-learning-indaba/indaba-pracs-2019",
+    "note": "2019 practicals."
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "info@deeplearningindaba.com",
+  "contact_note": "Contact details and links are on the lab's website (https://deeplearningindaba.com); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "digital-umuganda",
+  "contributions": [
+   {
+    "title": "Kinyarwanda ASR",
+    "note": "Released a Whisper-small model fine-tuned for Kinyarwanda."
+   },
+   {
+    "title": "Afrivoice datasets",
+    "note": "Released Afrivoice speech datasets including Kinyarwanda and Swahili."
+   },
+   {
+    "title": "TTS models",
+    "note": "Released Kinyarwanda and Lingala text-to-speech models."
+   },
+   {
+    "title": "Public demos",
+    "note": "Hosts ASR and TTS demo Spaces."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "whisper_small_kinyarwanda",
+    "url": "https://huggingface.co/DigitalUmuganda/whisper_small_kinyarwanda",
+    "kind": "model",
+    "note": "Kinyarwanda ASR."
+   },
+   {
+    "name": "lingala_vits_tts",
+    "url": "https://huggingface.co/DigitalUmuganda/lingala_vits_tts",
+    "kind": "model",
+    "note": "Lingala TTS."
+   },
+   {
+    "name": "Afrivoice",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/Afrivoice",
+    "kind": "dataset",
+    "note": "Afrivoice."
+   },
+   {
+    "name": "Afrivoice_Swahili",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/Afrivoice_Swahili",
+    "kind": "dataset",
+    "note": "Swahili speech."
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website."
+ },
+ {
+  "id": "crane-ai-labs",
+  "contributions": [
+   {
+    "title": "Ganda Gemma",
+    "note": "Released a Gemma-based 1B model for Luganda."
+   },
+   {
+    "title": "Swahili Gemma",
+    "note": "Released a Swahili Gemma 1B model with GGUF and LiteRT builds."
+   },
+   {
+    "title": "UCCB dataset",
+    "note": "Released the UCCB dataset."
+   },
+   {
+    "title": "Luganda tokenizer evaluation",
+    "note": "Published tokenizer evaluation data."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ganda-gemma-1b-GGUF",
+    "url": "https://huggingface.co/CraneAILabs/ganda-gemma-1b-GGUF",
+    "kind": "model",
+    "note": "Ganda Gemma."
+   },
+   {
+    "name": "swahili-gemma-1b",
+    "url": "https://huggingface.co/CraneAILabs/swahili-gemma-1b",
+    "kind": "model",
+    "note": "Swahili Gemma."
+   },
+   {
+    "name": "UCCB",
+    "url": "https://huggingface.co/datasets/CraneAILabs/UCCB",
+    "kind": "dataset",
+    "note": "UCCB."
+   },
+   {
+    "name": "waxal-lug-clean",
+    "url": "https://huggingface.co/datasets/CraneAILabs/waxal-lug-clean",
+    "kind": "dataset",
+    "note": "Luganda speech."
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website."
+ },
+ {
+  "id": "latam-gpt",
+  "contributions": [
+   {
+    "title": "Latam-GPT SFT model",
+    "note": "Released Llama-3.1-70B-LatamGPT-SFT-1.0."
+   },
+   {
+    "title": "LatamGPT Corpus",
+    "note": "Released the LatamGPT Corpus 1.0 and a research subset."
+   },
+   {
+    "title": "Data tooling",
+    "note": "Released LLM-aided filtering, toxicity and language-ID tools."
+   },
+   {
+    "title": "Trueque benchmark",
+    "note": "Released a beta benchmark."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "llm-data-eval",
+    "url": "https://github.com/latam-gpt/llm-data-eval",
+    "note": "LLM-aided filtering."
+   },
+   {
+    "name": "toxicity-classifier",
+    "url": "https://github.com/latam-gpt/toxicity-classifier",
+    "note": "Toxicity labelling."
+   },
+   {
+    "name": "language_identifier",
+    "url": "https://github.com/latam-gpt/language_identifier",
+    "note": "Language identifier."
+   },
+   {
+    "name": "training-estimations",
+    "url": "https://github.com/latam-gpt/training-estimations",
+    "note": "Training estimations."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Llama-3.1-70B-LatamGPT-SFT-1.0",
+    "url": "https://huggingface.co/latam-gpt/Llama-3.1-70B-LatamGPT-SFT-1.0",
+    "kind": "model",
+    "note": "SFT 70B."
+   },
+   {
+    "name": "Wayra-Perplexity-Estimator-55M",
+    "url": "https://huggingface.co/latam-gpt/Wayra-Perplexity-Estimator-55M",
+    "kind": "model",
+    "note": "Perplexity estimator."
+   },
+   {
+    "name": "LatamGPT-Corpus-1.0",
+    "url": "https://huggingface.co/datasets/latam-gpt/LatamGPT-Corpus-1.0",
+    "kind": "dataset",
+    "note": "Corpus."
+   },
+   {
+    "name": "Trueque-Benchmark-beta-0.1",
+    "url": "https://huggingface.co/datasets/latam-gpt/Trueque-Benchmark-beta-0.1",
+    "kind": "dataset",
+    "note": "Benchmark."
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "latam-gpt@cenia.cl",
+  "contact_note": "Contact details and links are on the lab's website (https://latamgpt.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "maritaca-ai",
+  "contributions": [
+   {
+    "title": "Sabia models",
+    "note": "Developed the Sabia Portuguese language models and released Sabia-7B."
+   },
+   {
+    "title": "MariTalk API",
+    "note": "Provides the MariTalk API for its models."
+   },
+   {
+    "title": "OAB-Bench",
+    "note": "Released a benchmark based on the Brazilian bar exam."
+   },
+   {
+    "title": "S5-nano",
+    "note": "Released the open S5-nano model."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "maritalk-api",
+    "url": "https://github.com/maritaca-ai/maritalk-api",
+    "note": "MariTalk API docs."
+   },
+   {
+    "name": "oab-bench",
+    "url": "https://github.com/maritaca-ai/oab-bench",
+    "note": "OAB benchmark."
+   },
+   {
+    "name": "observatorio-maritaca",
+    "url": "https://github.com/maritaca-ai/observatorio-maritaca",
+    "note": "Evaluations."
+   },
+   {
+    "name": "llm-bias-bench",
+    "url": "https://github.com/maritaca-ai/llm-bias-bench",
+    "note": "Bias benchmark."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "S5-nano-GGUF",
+    "url": "https://huggingface.co/maritaca-ai/S5-nano-GGUF",
+    "kind": "model",
+    "note": "S5-nano GGUF."
+   },
+   {
+    "name": "sabia-7b",
+    "url": "https://huggingface.co/maritaca-ai/sabia-7b",
+    "kind": "model",
+    "note": "Sabia-7B."
+   },
+   {
+    "name": "enem",
+    "url": "https://huggingface.co/datasets/maritaca-ai/enem",
+    "kind": "dataset",
+    "note": "ENEM."
+   },
+   {
+    "name": "imdb_pt",
+    "url": "https://huggingface.co/datasets/maritaca-ai/imdb_pt",
+    "kind": "dataset",
+    "note": "IMDB PT."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Sabi'a: Portuguese Large Language Models",
+    "url": "https://arxiv.org/abs/2304.07880",
+    "year": 2023
+   },
+   {
+    "title": "Sabi'a-3 Technical Report",
+    "url": "https://arxiv.org/abs/2410.12049",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "info@maritaca.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://www.maritaca.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "polygl0t",
+  "contributions": [
+   {
+    "title": "Tucano",
+    "note": "Released Tucano Portuguese language models, including Tucano2."
+   },
+   {
+    "title": "GigaVerbo",
+    "note": "Released large Portuguese datasets such as GigaVerbo v2."
+   },
+   {
+    "title": "llm-foundry",
+    "note": "Open-sourced a codebase for training and evaluating LLMs."
+   },
+   {
+    "title": "Workshop materials",
+    "note": "Published slides and exercises from a 2026 workshop."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "llm-foundry",
+    "url": "https://github.com/Polygl0t/llm-foundry",
+    "note": "Training codebase."
+   },
+   {
+    "name": "workshop-slides",
+    "url": "https://github.com/Polygl0t/workshop-slides",
+    "note": "Workshop slides."
+   },
+   {
+    "name": "workshop-exercises",
+    "url": "https://github.com/Polygl0t/workshop-exercises",
+    "note": "Exercises."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Tucano2-qwen-3.7B-Instruct",
+    "url": "https://huggingface.co/Polygl0t/Tucano2-qwen-3.7B-Instruct",
+    "kind": "model",
+    "note": "Tucano2."
+   },
+   {
+    "name": "Tucano2-qwen-1.5B-Instruct",
+    "url": "https://huggingface.co/Polygl0t/Tucano2-qwen-1.5B-Instruct",
+    "kind": "model",
+    "note": "Tucano2 1.5B."
+   },
+   {
+    "name": "gigaverbo-v2",
+    "url": "https://huggingface.co/datasets/Polygl0t/gigaverbo-v2",
+    "kind": "dataset",
+    "note": "GigaVerbo v2."
+   },
+   {
+    "name": "gigalekh-v1",
+    "url": "https://huggingface.co/datasets/Polygl0t/gigalekh-v1",
+    "kind": "dataset",
+    "note": "Gigalekh."
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://github.com/Polygl0t); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "somosnlp",
+  "contributions": [
+   {
+    "title": "Community hackathons",
+    "note": "Runs Spanish-language NLP community events producing open models and datasets."
+   },
+   {
+    "title": "NLP de cero a cien",
+    "note": "Published a practical NLP course in Spanish."
+   },
+   {
+    "title": "corpus-es",
+    "note": "Maintains a list of Spanish NLP corpora."
+   },
+   {
+    "title": "Spanish datasets",
+    "note": "Released datasets such as SMC, RecetasDeLaAbuela and a cleaned Alpaca in Spanish."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "nlp-de-cero-a-cien",
+    "url": "https://github.com/somosnlp/nlp-de-cero-a-cien",
+    "note": "Course."
+   },
+   {
+    "name": "corpus-es",
+    "url": "https://github.com/somosnlp/corpus-es",
+    "note": "Spanish NLP corpora."
+   },
+   {
+    "name": "somosnlp.org",
+    "url": "https://github.com/somosnlp/somosnlp.org",
+    "note": "Website."
+   },
+   {
+    "name": "recursos",
+    "url": "https://github.com/somosnlp/recursos",
+    "note": "Slides."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "SMC",
+    "url": "https://huggingface.co/datasets/somosnlp/SMC",
+    "kind": "dataset",
+    "note": "SMC."
+   },
+   {
+    "name": "RecetasDeLaAbuela",
+    "url": "https://huggingface.co/datasets/somosnlp/RecetasDeLaAbuela",
+    "kind": "dataset",
+    "note": "Recipes."
+   },
+   {
+    "name": "somos-clean-alpaca-es",
+    "url": "https://huggingface.co/datasets/somosnlp/somos-clean-alpaca-es",
+    "kind": "dataset",
+    "note": "Alpaca ES."
+   },
+   {
+    "name": "es-inclusive-language",
+    "url": "https://huggingface.co/datasets/somosnlp/es-inclusive-language",
+    "kind": "dataset",
+    "note": "Inclusive language."
+   }
+  ],
+  "discord": "https://discord.com/invite/my8w7JUxZR",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://somosnlp.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "te-hiku-media",
+  "contributions": [
+   {
+    "title": "Kaitiakitanga License",
+    "note": "Developed a data-sovereignty licence for Maori data."
+   },
+   {
+    "title": "Hansard te reo corpus",
+    "note": "Released a te reo corpus from the NZ Hansard."
+   },
+   {
+    "title": "Korero Maori demos",
+    "note": "Published demos for its Korero Maori speech API."
+   },
+   {
+    "title": "Audio tooling",
+    "note": "Released tools for audio captioning and streaming."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Kaitiakitanga-License",
+    "url": "https://github.com/TeHikuMedia/Kaitiakitanga-License",
+    "note": "License."
+   },
+   {
+    "name": "nga-tautohetohe-reo",
+    "url": "https://github.com/TeHikuMedia/nga-tautohetohe-reo",
+    "note": "Corpus."
+   },
+   {
+    "name": "korero-maori-demos",
+    "url": "https://github.com/TeHikuMedia/korero-maori-demos",
+    "note": "Demos."
+   },
+   {
+    "name": "wahi-korero",
+    "url": "https://github.com/TeHikuMedia/wahi-korero",
+    "note": "Audio segment tools."
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "info@tehiku.co.nz",
+  "contact_note": "Contact details and links are on the lab's website (https://tehiku.nz); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "joeyllm",
+  "contributions": [
+   {
+    "title": "Regional datasets",
+    "note": "Published Australian, UK, New Zealand and Canadian 1B-token datasets on Hugging Face."
+   },
+   {
+    "title": "ChatJoey",
+    "note": "Built a chat interface for JoeyLLM."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ChatJoey",
+    "url": "https://github.com/joeyllm/ChatJoey",
+    "note": "Chat interface."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "australian-dataset-1b",
+    "url": "https://huggingface.co/datasets/JoeyLLM/australian-dataset-1b",
+    "kind": "dataset",
+    "note": "Australian."
+   },
+   {
+    "name": "uk-dataset-1b",
+    "url": "https://huggingface.co/datasets/JoeyLLM/uk-dataset-1b",
+    "kind": "dataset",
+    "note": "UK."
+   },
+   {
+    "name": "new-zealand-dataset-1b",
+    "url": "https://huggingface.co/datasets/JoeyLLM/new-zealand-dataset-1b",
+    "kind": "dataset",
+    "note": "NZ."
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://joeyllm.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "maincode",
+  "contributions": [
+   {
+    "title": "Matilda models",
+    "note": "Released Matilda-Platypus base models at 1.6B, 7B and 13B."
+   },
+   {
+    "title": "Maincoder-1B",
+    "note": "Released the Maincoder-1B code model."
+   },
+   {
+    "title": "Decision index dataset",
+    "note": "Published the matilda-jev-decision-index dataset."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Matilda-Platypus-13B-Base",
+    "url": "https://huggingface.co/Maincode/Matilda-Platypus-13B-Base",
+    "kind": "model",
+    "note": "Matilda 13B."
+   },
+   {
+    "name": "Maincoder-1B",
+    "url": "https://huggingface.co/Maincode/Maincoder-1B",
+    "kind": "model",
+    "note": "Maincoder."
+   },
+   {
+    "name": "Matilda-Platypus-1.6B-Base",
+    "url": "https://huggingface.co/Maincode/Matilda-Platypus-1.6B-Base",
+    "kind": "model",
+    "note": "Matilda 1.6B."
+   },
+   {
+    "name": "matilda-jev-decision-index",
+    "url": "https://huggingface.co/datasets/Maincode/matilda-jev-decision-index",
+    "kind": "dataset",
+    "note": "Decision index."
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "hello@maincode.com",
+  "contact_note": "Contact details and links are on the lab's website (https://www.maincode.com).",
+  "confidence": "high"
+ },
+ {
+  "id": "bigscience",
+  "contributions": [
+   {
+    "title": "BLOOM",
+    "note": "Trained the 176B-parameter multilingual BLOOM in a year-long open collaboration with over a thousand researchers."
+   },
+   {
+    "title": "ROOTS corpus",
+    "note": "Documented the multilingual ROOTS corpus used to train BLOOM."
+   },
+   {
+    "title": "T0 and promptsource",
+    "note": "Showed multitask prompted training enables zero-shot generalization and released the promptsource toolkit."
+   },
+   {
+    "title": "BLOOMZ and mT0",
+    "note": "Released crosslingual multitask-finetuned models and the xP3 dataset."
+   },
+   {
+    "title": "Petals",
+    "note": "Built a BitTorrent-style system for running large models collaboratively."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "petals",
+    "url": "https://github.com/bigscience-workshop/petals",
+    "note": "Run LLMs at home, BitTorrent-style; most-starred repo."
+   },
+   {
+    "name": "promptsource",
+    "url": "https://github.com/bigscience-workshop/promptsource",
+    "note": "Toolkit for creating and sharing natural-language prompts."
+   },
+   {
+    "name": "Megatron-DeepSpeed",
+    "url": "https://github.com/bigscience-workshop/Megatron-DeepSpeed",
+    "note": "Training code used for BLOOM."
+   },
+   {
+    "name": "xmtf",
+    "url": "https://github.com/bigscience-workshop/xmtf",
+    "note": "Code and data for crosslingual multitask finetuning."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "bloomz-560m",
+    "url": "https://huggingface.co/bigscience/bloomz-560m",
+    "kind": "model",
+    "note": "Most downloaded BLOOMZ checkpoint."
+   },
+   {
+    "name": "bloom-560m",
+    "url": "https://huggingface.co/bigscience/bloom-560m",
+    "kind": "model",
+    "note": "Small BLOOM base model."
+   },
+   {
+    "name": "P3",
+    "url": "https://huggingface.co/datasets/bigscience/P3",
+    "kind": "dataset",
+    "note": "Public Pool of Prompts used to train T0."
+   },
+   {
+    "name": "xP3",
+    "url": "https://huggingface.co/datasets/bigscience/xP3",
+    "kind": "dataset",
+    "note": "Multilingual prompted dataset for BLOOMZ/mT0."
+   }
+  ],
+  "papers": [
+   {
+    "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+    "url": "https://arxiv.org/abs/2211.05100",
+    "year": 2022
+   },
+   {
+    "title": "The BigScience ROOTS Corpus: A 1.6TB Composite Multilingual Dataset",
+    "url": "https://arxiv.org/abs/2303.03915",
+    "year": 2023
+   },
+   {
+    "title": "Multitask Prompted Training Enables Zero-Shot Task Generalization",
+    "url": "https://arxiv.org/abs/2110.08207",
+    "year": 2021
+   },
+   {
+    "title": "Crosslingual Generalization through Multitask Finetuning",
+    "url": "https://arxiv.org/abs/2211.01786",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://bigscience.huggingface.co); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "bigcode",
+  "contributions": [
+   {
+    "title": "The Stack",
+    "note": "Released a large permissively licensed source-code dataset with opt-out governance."
+   },
+   {
+    "title": "StarCoder",
+    "note": "Released the StarCoder code LLMs trained on The Stack."
+   },
+   {
+    "title": "StarCoder2",
+    "note": "Followed with StarCoder2 trained on The Stack v2 with partner support."
+   },
+   {
+    "title": "BigCodeBench",
+    "note": "Created a code-generation benchmark with diverse function calls and complex instructions."
+   },
+   {
+    "title": "Evaluation harness",
+    "note": "Maintains an evaluation framework for autoregressive code models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "starcoder",
+    "url": "https://github.com/bigcode-project/starcoder",
+    "note": "Home of StarCoder fine-tuning and inference code."
+   },
+   {
+    "name": "starcoder2",
+    "url": "https://github.com/bigcode-project/starcoder2",
+    "note": "Home of StarCoder2."
+   },
+   {
+    "name": "bigcode-evaluation-harness",
+    "url": "https://github.com/bigcode-project/bigcode-evaluation-harness",
+    "note": "Evaluation framework for code generation models."
+   },
+   {
+    "name": "bigcodebench",
+    "url": "https://github.com/bigcode-project/bigcodebench",
+    "note": "BigCodeBench benchmark (ICLR 2025)."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "starcoder2-3b",
+    "url": "https://huggingface.co/bigcode/starcoder2-3b",
+    "kind": "model",
+    "note": "StarCoder2 at 3B."
+   },
+   {
+    "name": "starcoder2-15b",
+    "url": "https://huggingface.co/bigcode/starcoder2-15b",
+    "kind": "model",
+    "note": "StarCoder2 flagship 15B."
+   },
+   {
+    "name": "bigcodebench",
+    "url": "https://huggingface.co/datasets/bigcode/bigcodebench",
+    "kind": "dataset",
+    "note": "BigCodeBench evaluation data."
+   },
+   {
+    "name": "the-stack",
+    "url": "https://huggingface.co/datasets/bigcode/the-stack",
+    "kind": "dataset",
+    "note": "The Stack source-code dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "StarCoder: may the source be with you!",
+    "url": "https://arxiv.org/abs/2305.06161",
+    "year": 2023
+   },
+   {
+    "title": "StarCoder 2 and The Stack v2: The Next Generation",
+    "url": "https://arxiv.org/abs/2402.19173",
+    "year": 2024
+   },
+   {
+    "title": "SantaCoder: don't reach for the stars!",
+    "url": "https://arxiv.org/abs/2301.03988",
+    "year": 2023
+   },
+   {
+    "title": "OctoPack: Instruction Tuning Code Large Language Models",
+    "url": "https://arxiv.org/abs/2308.07124",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://www.bigcode-project.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "laion",
+  "contributions": [
+   {
+    "title": "LAION-400M and LAION-5B",
+    "note": "Released the open image-text datasets that enabled open CLIP and Stable Diffusion training."
+   },
+   {
+    "title": "OpenCLIP models",
+    "note": "Trained CLIP models on LAION-2B with the OpenCLIP community, among the most downloaded vision-language models."
+   },
+   {
+    "title": "Open-Assistant",
+    "note": "Crowdsourced an open conversational assistant dataset and models."
+   },
+   {
+    "title": "CLAP",
+    "note": "Built contrastive language-audio pretraining models and audio datasets."
+   },
+   {
+    "title": "Aesthetic predictor",
+    "note": "Released a CLIP-based aesthetic scoring tool used to filter image datasets."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Open-Assistant",
+    "url": "https://github.com/LAION-AI/Open-Assistant",
+    "note": "Chat-based assistant project; most-starred repo."
+   },
+   {
+    "name": "CLAP",
+    "url": "https://github.com/LAION-AI/CLAP",
+    "note": "Contrastive Language-Audio Pretraining."
+   },
+   {
+    "name": "CLIP_benchmark",
+    "url": "https://github.com/LAION-AI/CLIP_benchmark",
+    "note": "Evaluation for CLIP-like models."
+   },
+   {
+    "name": "aesthetic-predictor",
+    "url": "https://github.com/LAION-AI/aesthetic-predictor",
+    "note": "Linear aesthetic estimator on CLIP embeddings."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "clap-htsat-fused",
+    "url": "https://huggingface.co/laion/clap-htsat-fused",
+    "kind": "model",
+    "note": "CLAP audio-text model."
+   },
+   {
+    "name": "CLIP-ViT-B-32-laion2B-s34B-b79K",
+    "url": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+    "kind": "model",
+    "note": "OpenCLIP ViT-B/32 trained on LAION-2B."
+   },
+   {
+    "name": "CLIP-ViT-L-14-laion2B-s32B-b82K",
+    "url": "https://huggingface.co/laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+    "kind": "model",
+    "note": "OpenCLIP ViT-L/14 trained on LAION-2B."
+   }
+  ],
+  "papers": [
+   {
+    "title": "LAION-400M: Open Dataset of CLIP-Filtered 400 Million Image-Text Pairs",
+    "url": "https://arxiv.org/abs/2111.02114",
+    "year": 2021
+   },
+   {
+    "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+    "url": "https://arxiv.org/abs/2210.08402",
+    "year": 2022
+   },
+   {
+    "title": "Reproducible scaling laws for contrastive language-image learning",
+    "url": "https://arxiv.org/abs/2212.07143",
+    "year": 2022
+   },
+   {
+    "title": "OpenFlamingo: An Open-Source Framework for Training Large Autoregressive Vision-Language Models",
+    "url": "https://arxiv.org/abs/2308.01390",
+    "year": 2023
+   }
+  ],
+  "discord": "https://discord.com/invite/eq3cAMZtCC",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_email": "contact@laion.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://laion.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "mlcommons",
+  "contributions": [
+   {
+    "title": "MLPerf benchmarks",
+    "note": "Maintains the MLPerf training, inference and tiny benchmark suites with open reference implementations."
+   },
+   {
+    "title": "Croissant",
+    "note": "Developed Croissant, a high-level metadata format for ML datasets."
+   },
+   {
+    "title": "People's Speech",
+    "note": "Released the People's Speech and unsupervised speech datasets."
+   },
+   {
+    "title": "MLCommons CK",
+    "note": "Maintains Collective Knowledge tooling for reproducible benchmarking."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "training",
+    "url": "https://github.com/mlcommons/training",
+    "note": "MLPerf training."
+   },
+   {
+    "name": "inference",
+    "url": "https://github.com/mlcommons/inference",
+    "note": "MLPerf inference."
+   },
+   {
+    "name": "croissant",
+    "url": "https://github.com/mlcommons/croissant",
+    "note": "Croissant."
+   },
+   {
+    "name": "ck",
+    "url": "https://github.com/mlcommons/ck",
+    "note": "Collective Knowledge."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "peoples_speech",
+    "url": "https://huggingface.co/datasets/MLCommons/peoples_speech",
+    "kind": "dataset",
+    "note": "People's Speech."
+   },
+   {
+    "name": "unsupervised_peoples_speech",
+    "url": "https://huggingface.co/datasets/MLCommons/unsupervised_peoples_speech",
+    "kind": "dataset",
+    "note": "Unsup."
+   },
+   {
+    "name": "ml_spoken_words",
+    "url": "https://huggingface.co/datasets/MLCommons/ml_spoken_words",
+    "kind": "dataset",
+    "note": "Spoken Words."
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://mlcommons.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "axolotl",
+  "contributions": [
+   {
+    "title": "Axolotl framework",
+    "note": "Maintains the widely used open-source LLM fine-tuning framework, its most-starred repo."
+   },
+   {
+    "title": "GRPO for code",
+    "note": "Published a fast local approach for training LLMs on code with GRPO."
+   },
+   {
+    "title": "Atropos plugin",
+    "note": "Built an Axolotl plugin integrating Nous Research's Atropos."
+   },
+   {
+    "title": "Axolotl cookbook",
+    "note": "Shares worked examples and recipes in axolotl-cookbook."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "axolotl",
+    "url": "https://github.com/axolotl-ai-cloud/axolotl",
+    "note": "Fine-tuning."
+   },
+   {
+    "name": "grpo_code",
+    "url": "https://github.com/axolotl-ai-cloud/grpo_code",
+    "note": "Code RL."
+   },
+   {
+    "name": "axolotl-cookbook",
+    "url": "https://github.com/axolotl-ai-cloud/axolotl-cookbook",
+    "note": "Cookbook."
+   },
+   {
+    "name": "plugin-atropos",
+    "url": "https://github.com/axolotl-ai-cloud/plugin-atropos",
+    "note": "Atropos plugin."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "DeepSeek-V3-11M",
+    "url": "https://huggingface.co/axolotl-ai-co/DeepSeek-V3-11M",
+    "kind": "model",
+    "note": "tiny."
+   },
+   {
+    "name": "tiny-mixtral-30m",
+    "url": "https://huggingface.co/axolotl-ai-co/tiny-mixtral-30m",
+    "kind": "model",
+    "note": "tiny."
+   },
+   {
+    "name": "evolkit-logprobs-pipeline-75k-v2-sample",
+    "url": "https://huggingface.co/datasets/axolotl-ai-co/evolkit-logprobs-pipeline-75k-v2-sample",
+    "kind": "dataset",
+    "note": "Sample."
+   }
+  ],
+  "discord": "https://discord.com/invite/nATNVd5ajx",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_email": "contact@axolotl.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://axolotl.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "open-language-data-initiative",
+  "contributions": [
+   {
+    "title": "FLORES+",
+    "note": "Maintains FLORES+, the successor to the FLORES-200 translation benchmark."
+   },
+   {
+    "title": "OLDI-Seed",
+    "note": "Maintains seed machine-translation data for low-resource languages."
+   },
+   {
+    "title": "Shared tasks",
+    "note": "Runs shared tasks at WMT to extend language coverage."
+   },
+   {
+    "title": "New languages list",
+    "note": "Curates a list of initiatives adding new languages to MT."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "flores",
+    "url": "https://github.com/openlanguagedata/flores",
+    "note": "FLORES+."
+   },
+   {
+    "name": "seed",
+    "url": "https://github.com/openlanguagedata/seed",
+    "note": "Seed."
+   },
+   {
+    "name": "awesome-new-languages-in-machine-translation",
+    "url": "https://github.com/openlanguagedata/awesome-new-languages-in-machine-translation",
+    "note": "List."
+   },
+   {
+    "name": "oldi.org",
+    "url": "https://github.com/openlanguagedata/oldi.org",
+    "note": "Website."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "flores_plus",
+    "url": "https://huggingface.co/datasets/openlanguagedata/flores_plus",
+    "kind": "dataset",
+    "note": "FLORES+."
+   },
+   {
+    "name": "oldi_seed",
+    "url": "https://huggingface.co/datasets/openlanguagedata/oldi_seed",
+    "kind": "dataset",
+    "note": "Seed."
+   }
+  ],
+  "papers": [
+   {
+    "title": "No Language Left Behind: Scaling Human-Centered Machine Translation",
+    "url": "https://arxiv.org/abs/2207.04672",
+    "year": 2022
+   }
+  ],
+  "discord": "https://discord.gg/jJmrw3E77u",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://oldi.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "common-voice",
+  "contributions": [
+   {
+    "title": "Common Voice dataset",
+    "note": "Runs a crowdsourced open multilingual speech corpus across many languages."
+   },
+   {
+    "title": "Sentence Collector",
+    "note": "Built a tool to collect and review sentences volunteers read aloud."
+   },
+   {
+    "title": "CorporaCreator",
+    "note": "Released a command-line tool to build dataset corpora."
+   },
+   {
+    "title": "Dataset versioning",
+    "note": "Publishes metadata and versioning details in cv-dataset."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "common-voice",
+    "url": "https://github.com/common-voice/common-voice",
+    "note": "Common Voice."
+   },
+   {
+    "name": "cv-dataset",
+    "url": "https://github.com/common-voice/cv-dataset",
+    "note": "Metadata."
+   },
+   {
+    "name": "sentence-collector",
+    "url": "https://github.com/common-voice/sentence-collector",
+    "note": "Sentence collection."
+   },
+   {
+    "name": "CorporaCreator",
+    "url": "https://github.com/common-voice/CorporaCreator",
+    "note": "Corpora."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "common_voice_17_0",
+    "url": "https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0",
+    "kind": "dataset",
+    "note": "CV17."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Common Voice: A Massively-Multilingual Speech Corpus",
+    "url": "https://arxiv.org/abs/1912.06670",
+    "year": 2019
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://commonvoice.mozilla.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "cohere-labs-community",
+  "contributions": [
+   {
+    "title": "Aya Model",
+    "note": "Released Aya, a massively multilingual instruction model across 101 languages."
+   },
+   {
+    "title": "Aya Dataset",
+    "note": "Released the human-annotated multilingual instruction dataset."
+   },
+   {
+    "title": "Aya 23 and Aya Expanse",
+    "note": "Followed with Aya 23 and Aya Expanse."
+   },
+   {
+    "title": "Global-MMLU",
+    "note": "Released a culturally audited multilingual MMLU."
+   },
+   {
+    "title": "Command R open weights",
+    "note": "Released Command R weights for research."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "c4ai-command-r-v01",
+    "url": "https://huggingface.co/CohereLabs/c4ai-command-r-v01",
+    "kind": "model",
+    "note": "Command R."
+   },
+   {
+    "name": "xP3x",
+    "url": "https://huggingface.co/datasets/CohereLabs/xP3x",
+    "kind": "dataset",
+    "note": "xP3x."
+   },
+   {
+    "name": "Global-MMLU",
+    "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
+    "kind": "dataset",
+    "note": "Global-MMLU."
+   },
+   {
+    "name": "aya_dataset",
+    "url": "https://huggingface.co/datasets/CohereLabs/aya_dataset",
+    "kind": "dataset",
+    "note": "Aya dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+    "url": "https://arxiv.org/abs/2402.07827",
+    "year": 2024
+   },
+   {
+    "title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+    "url": "https://arxiv.org/abs/2402.06619",
+    "year": 2024
+   },
+   {
+    "title": "Aya 23: Open Weight Releases to Further Multilingual Progress",
+    "url": "https://arxiv.org/abs/2405.15032",
+    "year": 2024
+   },
+   {
+    "title": "Aya Expanse: Combining Research Breakthroughs for a New Multilingual Frontier",
+    "url": "https://arxiv.org/abs/2412.04261",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.com/invite/co-mmunity",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://cohere.com/research).",
+  "confidence": "high"
+ },
+ {
+  "id": "eleutherai",
+  "contributions": [
+   {
+    "title": "The Pile",
+    "note": "Released an 800GB diverse text dataset in 2020 that became a standard open pretraining corpus."
+   },
+   {
+    "title": "GPT-Neo, GPT-J and GPT-NeoX-20B",
+    "note": "Trained some of the first open GPT-3-style models, culminating in the 20B-parameter GPT-NeoX-20B."
+   },
+   {
+    "title": "Pythia suite",
+    "note": "Published models of many sizes with intermediate checkpoints to study training dynamics and interpretability."
+   },
+   {
+    "title": "lm-evaluation-harness",
+    "note": "Maintains the few-shot evaluation framework widely used to benchmark language models."
+   },
+   {
+    "title": "Llemma",
+    "note": "Released open math language models built on Code Llama."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "lm-evaluation-harness",
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "note": "Most-starred repo; the standard few-shot LLM evaluation framework."
+   },
+   {
+    "name": "gpt-neo",
+    "url": "https://github.com/EleutherAI/gpt-neo",
+    "note": "Model-parallel GPT-2/GPT-3-style training library from the early GPT-Neo era."
+   },
+   {
+    "name": "gpt-neox",
+    "url": "https://github.com/EleutherAI/gpt-neox",
+    "note": "Large-scale autoregressive training library behind GPT-NeoX-20B and Pythia."
+   },
+   {
+    "name": "pythia",
+    "url": "https://github.com/EleutherAI/pythia",
+    "note": "Hub for the Pythia suite and learning-dynamics research."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "pythia-160m",
+    "url": "https://huggingface.co/EleutherAI/pythia-160m",
+    "kind": "model",
+    "note": "Small Pythia model, the org's most downloaded."
+   },
+   {
+    "name": "gpt-neo-125m",
+    "url": "https://huggingface.co/EleutherAI/gpt-neo-125m",
+    "kind": "model",
+    "note": "GPT-Neo 125M open model."
+   },
+   {
+    "name": "hendrycks_math",
+    "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math",
+    "kind": "dataset",
+    "note": "MATH benchmark packaged for the evaluation harness."
+   },
+   {
+    "name": "lambada_openai",
+    "url": "https://huggingface.co/datasets/EleutherAI/lambada_openai",
+    "kind": "dataset",
+    "note": "LAMBADA evaluation set used by the harness."
+   }
+  ],
+  "papers": [
+   {
+    "title": "The Pile: An 800GB Dataset of Diverse Text for Language Modeling",
+    "url": "https://arxiv.org/abs/2101.00027",
+    "year": 2020
+   },
+   {
+    "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+    "url": "https://arxiv.org/abs/2304.01373",
+    "year": 2023
+   },
+   {
+    "title": "GPT-NeoX-20B: An Open-Source Autoregressive Language Model",
+    "url": "https://arxiv.org/abs/2204.06745",
+    "year": 2022
+   },
+   {
+    "title": "Lessons from the Trenches on Reproducible Evaluation of Language Models",
+    "url": "https://arxiv.org/abs/2405.14782",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.gg/eleutherai",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_email": "contact@eleuther.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://www.eleuther.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "nous-research",
+  "contributions": [
+   {
+    "title": "Hermes model series",
+    "note": "Fine-tuned open Hermes models, including Hermes 3 on Llama 3.1 and Hermes 4, with a focus on steerability and function calling."
+   },
+   {
+    "title": "YaRN context extension",
+    "note": "Co-authored YaRN, a widely adopted method for extending LLM context windows."
+   },
+   {
+    "title": "DeMo / DisTrO",
+    "note": "Published decoupled momentum optimization to cut communication cost in distributed training."
+   },
+   {
+    "title": "Hermes Agent",
+    "note": "Released the open-source Hermes Agent framework, which has become its most-starred repository."
+   },
+   {
+    "title": "Function-calling data",
+    "note": "Open-sourced hermes-function-calling-v1 and tooling for structured tool use."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "note": "Agent framework that grows with the user; the org's flagship repo."
+   },
+   {
+    "name": "hermes-agent-self-evolution",
+    "url": "https://github.com/NousResearch/hermes-agent-self-evolution",
+    "note": "Evolutionary self-improvement tooling for Hermes Agent."
+   },
+   {
+    "name": "hermes-paperclip-adapter",
+    "url": "https://github.com/NousResearch/hermes-paperclip-adapter",
+    "note": "Adapter for running Hermes as a managed agent."
+   },
+   {
+    "name": "Hermes-Function-Calling",
+    "url": "https://github.com/NousResearch/Hermes-Function-Calling",
+    "note": "Reference code and prompts for Hermes function calling."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Hermes-3-Llama-3.1-8B",
+    "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+    "kind": "model",
+    "note": "Hermes 3 at 8B, the most downloaded Nous-authored model."
+   },
+   {
+    "name": "hermes-function-calling-v1",
+    "url": "https://huggingface.co/datasets/NousResearch/hermes-function-calling-v1",
+    "kind": "dataset",
+    "note": "Function-calling and JSON-mode training data."
+   },
+   {
+    "name": "json-mode-eval",
+    "url": "https://huggingface.co/datasets/NousResearch/json-mode-eval",
+    "kind": "dataset",
+    "note": "Small JSON-mode evaluation dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Hermes 3 Technical Report",
+    "url": "https://arxiv.org/abs/2408.11857",
+    "year": 2024
+   },
+   {
+    "title": "YaRN: Efficient Context Window Extension of Large Language Models",
+    "url": "https://arxiv.org/abs/2309.00071",
+    "year": 2023
+   },
+   {
+    "title": "DeMo: Decoupled Momentum Optimization",
+    "url": "https://arxiv.org/abs/2411.19870",
+    "year": 2024
+   },
+   {
+    "title": "Hermes 4 Technical Report",
+    "url": "https://arxiv.org/abs/2508.18255",
+    "year": 2025
+   }
+  ],
+  "discord": "https://discord.gg/nousresearch",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_email": "info@nousresearch.com",
+  "contact_note": "Contact details and links are on the lab's website (https://nousresearch.com); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "prime-intellect",
+  "contributions": [
+   {
+    "title": "INTELLECT-1",
+    "note": "Trained a 10B model across globally distributed contributors with its prime framework."
+   },
+   {
+    "title": "INTELLECT-2",
+    "note": "Trained a reasoning model with globally distributed asynchronous reinforcement learning."
+   },
+   {
+    "title": "OpenDiLoCo",
+    "note": "Open-sourced a framework for globally distributed low-communication training."
+   },
+   {
+    "title": "verifiers and prime-rl",
+    "note": "Maintains open libraries for RL environments, evaluations and agentic RL training."
+   },
+   {
+    "title": "Environments Hub",
+    "note": "Hosts community RL environments and datasets such as Reverse-Text-RL."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "prime-agent",
+    "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+    "note": "Self-improving agent for coding workflows; most-starred repo."
+   },
+   {
+    "name": "verifiers",
+    "url": "https://github.com/PrimeIntellect-ai/verifiers",
+    "note": "Library for RL environments and evals."
+   },
+   {
+    "name": "prime-rl",
+    "url": "https://github.com/PrimeIntellect-ai/prime-rl",
+    "note": "Agentic RL training at scale."
+   },
+   {
+    "name": "prime-diloco",
+    "url": "https://github.com/PrimeIntellect-ai/prime-diloco",
+    "note": "Framework for globally distributed training."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Qwen3-1.7B-Wordle-SFT",
+    "url": "https://huggingface.co/PrimeIntellect/Qwen3-1.7B-Wordle-SFT",
+    "kind": "model",
+    "note": "SFT checkpoint for Wordle environment."
+   },
+   {
+    "name": "Reverse-Text-RL",
+    "url": "https://huggingface.co/datasets/PrimeIntellect/Reverse-Text-RL",
+    "kind": "dataset",
+    "note": "RL dataset for reverse-text environment."
+   },
+   {
+    "name": "Multi-SWE-bench",
+    "url": "https://huggingface.co/datasets/PrimeIntellect/Multi-SWE-bench",
+    "kind": "dataset",
+    "note": "Multi-language SWE-bench data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "INTELLECT-1 Technical Report",
+    "url": "https://arxiv.org/abs/2412.01152",
+    "year": 2024
+   },
+   {
+    "title": "INTELLECT-2: A Reasoning Model Trained Through Globally Decentralized Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2505.07291",
+    "year": 2025
+   },
+   {
+    "title": "OpenDiLoCo: An Open-Source Framework for Globally Distributed Low-Communication Training",
+    "url": "https://arxiv.org/abs/2407.07852",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://primeintellect.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "pluralis-research",
+  "contributions": [
+   {
+    "title": "Protocol Learning",
+    "note": "Researches training models collaboratively over open networks without one party owning the weights."
+   },
+   {
+    "title": "Node0",
+    "note": "Ran a collaborative training event powered by Protocol Learning."
+   },
+   {
+    "title": "Agora",
+    "note": "Released a collaborative training library."
+   },
+   {
+    "title": "AsyncPP",
+    "note": "Released asynchronous pipeline-parallel optimisation code."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "node0",
+    "url": "https://github.com/PluralisResearch/node0",
+    "note": "Node0."
+   },
+   {
+    "name": "agora",
+    "url": "https://github.com/PluralisResearch/agora",
+    "note": "Collaborative training library."
+   },
+   {
+    "name": "AsyncPP",
+    "url": "https://github.com/PluralisResearch/AsyncPP",
+    "note": "Async pipeline parallel."
+   },
+   {
+    "name": "stoa",
+    "url": "https://github.com/PluralisResearch/stoa",
+    "note": "RL post-training."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Subspace Networks: Scaling Decentralized Training with Communication-Efficient Model Parallelism",
+    "url": "https://arxiv.org/abs/2506.01260",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://pluralis.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "allen-institute-for-ai",
+  "contributions": [
+   {
+    "title": "OLMo fully open models",
+    "note": "Released OLMo and OLMo 2 with weights, training data, code and checkpoints."
+   },
+   {
+    "title": "Dolma and open data",
+    "note": "Published the Dolma pretraining corpus and other large open datasets."
+   },
+   {
+    "title": "Tulu 3 post-training",
+    "note": "Released open recipes, data and code for post-training (open-instruct)."
+   },
+   {
+    "title": "olmOCR",
+    "note": "Built an open toolkit for converting PDFs into clean text for LLM training."
+   },
+   {
+    "title": "Molmo and OLMoE",
+    "note": "Released open multimodal Molmo models and the OLMoE mixture-of-experts model."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "olmocr",
+    "url": "https://github.com/allenai/olmocr",
+    "note": "Most-starred repo; toolkit for linearizing PDFs for LLM datasets."
+   },
+   {
+    "name": "allennlp",
+    "url": "https://github.com/allenai/allennlp",
+    "note": "Long-running research NLP library on PyTorch."
+   },
+   {
+    "name": "OLMo",
+    "url": "https://github.com/allenai/OLMo",
+    "note": "Modeling, training and evaluation code for OLMo."
+   },
+   {
+    "name": "open-instruct",
+    "url": "https://github.com/allenai/open-instruct",
+    "note": "Post-training codebase behind Tulu."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "longformer-base-4096",
+    "url": "https://huggingface.co/allenai/longformer-base-4096",
+    "kind": "model",
+    "note": "Longformer for long documents."
+   },
+   {
+    "name": "specter2_base",
+    "url": "https://huggingface.co/allenai/specter2_base",
+    "kind": "model",
+    "note": "Scientific document embedding model."
+   },
+   {
+    "name": "c4",
+    "url": "https://huggingface.co/datasets/allenai/c4",
+    "kind": "dataset",
+    "note": "Cleaned C4 corpus mirror."
+   },
+   {
+    "name": "ai2_arc",
+    "url": "https://huggingface.co/datasets/allenai/ai2_arc",
+    "kind": "dataset",
+    "note": "ARC science question benchmark."
+   }
+  ],
+  "papers": [
+   {
+    "title": "OLMo: Accelerating the Science of Language Models",
+    "url": "https://arxiv.org/abs/2402.00838",
+    "year": 2024
+   },
+   {
+    "title": "2 OLMo 2 Furious",
+    "url": "https://arxiv.org/abs/2501.00656",
+    "year": 2024
+   },
+   {
+    "title": "Tulu 3: Pushing Frontiers in Open Language Model Post-Training",
+    "url": "https://arxiv.org/abs/2411.15124",
+    "year": 2024
+   },
+   {
+    "title": "Dolma: an Open Corpus of Three Trillion Tokens for Language Model Pretraining Research",
+    "url": "https://arxiv.org/abs/2402.00159",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.gg/ai2",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_email": "info@allenai.org",
+  "contact_note": "Contact details and links are on the lab's website (https://allenai.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "hugging-face",
+  "contributions": [
+   {
+    "title": "Transformers",
+    "note": "Built the model-definition library that became the default way to use pretrained models."
+   },
+   {
+    "title": "Datasets and the Hub",
+    "note": "Created the Hub and the datasets library for sharing models, datasets and Spaces."
+   },
+   {
+    "title": "Diffusers",
+    "note": "Released a widely used library for diffusion models in image, video and audio."
+   },
+   {
+    "title": "SmolLM and FineWeb",
+    "note": "Open small LMs plus the FineWeb pretraining dataset and recipes."
+   },
+   {
+    "title": "smolagents and Agents course",
+    "note": "Released a minimal code-first agent library and a free agents course."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "note": "Flagship model-definition library, by far the org's most-starred repo."
+   },
+   {
+    "name": "pytorch-image-models",
+    "url": "https://github.com/huggingface/pytorch-image-models",
+    "note": "timm, the largest collection of PyTorch image backbones."
+   },
+   {
+    "name": "diffusers",
+    "url": "https://github.com/huggingface/diffusers",
+    "note": "State-of-the-art diffusion model library."
+   },
+   {
+    "name": "smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "note": "Minimal library for agents that think in code."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ai-deadlines",
+    "url": "https://huggingface.co/spaces/huggingface/ai-deadlines",
+    "kind": "space",
+    "note": "Space tracking AI conference deadlines."
+   },
+   {
+    "name": "open-source-ai-year-in-review-2024",
+    "url": "https://huggingface.co/spaces/huggingface/open-source-ai-year-in-review-2024",
+    "kind": "space",
+    "note": "Year-in-review Space on open source AI."
+   },
+   {
+    "name": "documentation-images",
+    "url": "https://huggingface.co/datasets/huggingface/documentation-images",
+    "kind": "dataset",
+    "note": "Images used across Hugging Face documentation."
+   }
+  ],
+  "papers": [
+   {
+    "title": "HuggingFace's Transformers: State-of-the-art Natural Language Processing",
+    "url": "https://arxiv.org/abs/1910.03771",
+    "year": 2019
+   },
+   {
+    "title": "Datasets: A Community Library for Natural Language Processing",
+    "url": "https://arxiv.org/abs/2109.02846",
+    "year": 2021
+   },
+   {
+    "title": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+    "url": "https://arxiv.org/abs/2502.02737",
+    "year": 2025
+   },
+   {
+    "title": "The FineWeb Datasets: Decanting the Web for the Finest Text Data at Scale",
+    "url": "https://arxiv.org/abs/2406.17557",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://huggingface.co); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "mozilla-ai",
+  "contributions": [
+   {
+    "title": "llamafile",
+    "note": "Created llamafile, single-file distributable LLMs."
+   },
+   {
+    "title": "any-llm and any-agent",
+    "note": "Unified interfaces for LLM providers and agent frameworks."
+   },
+   {
+    "title": "Open gateway",
+    "note": "Released an open-source AI gateway."
+   },
+   {
+    "title": "Llamafile model builds",
+    "note": "Published llamafile model builds."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "llamafile",
+    "url": "https://github.com/mozilla-ai/llamafile",
+    "note": "Single-file LLMs."
+   },
+   {
+    "name": "any-llm",
+    "url": "https://github.com/mozilla-ai/any-llm",
+    "note": "Single interface for LLM providers."
+   },
+   {
+    "name": "cq",
+    "url": "https://github.com/mozilla-ai/cq",
+    "note": "Shared agent learning standard."
+   },
+   {
+    "name": "any-agent",
+    "url": "https://github.com/mozilla-ai/any-agent",
+    "note": "Agent framework interface."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Llama-3.2-1B-Instruct-llamafile",
+    "url": "https://huggingface.co/mozilla-ai/Llama-3.2-1B-Instruct-llamafile",
+    "kind": "model",
+    "note": "Llamafile."
+   },
+   {
+    "name": "Meta-Llama-3-8B-Instruct-llamafile",
+    "url": "https://huggingface.co/mozilla-ai/Meta-Llama-3-8B-Instruct-llamafile",
+    "kind": "model",
+    "note": "Llamafile 8B."
+   },
+   {
+    "name": "TinyLlama-1.1B-Chat-v1.0-llamafile",
+    "url": "https://huggingface.co/mozilla-ai/TinyLlama-1.1B-Chat-v1.0-llamafile",
+    "kind": "model",
+    "note": "TinyLlama llamafile."
+   }
+  ],
+  "discord": "https://discord.gg/4gf3zXrQUc",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://www.mozilla.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "together-ai",
+  "contributions": [
+   {
+    "title": "RedPajama datasets",
+    "note": "Released RedPajama-Data-1T and V2, large open pretraining datasets with quality signals."
+   },
+   {
+    "title": "RedPajama-INCITE models",
+    "note": "Trained and released early open RedPajama-INCITE language models."
+   },
+   {
+    "title": "OpenChatKit",
+    "note": "Released an open chat-model toolkit in 2023."
+   },
+   {
+    "title": "Mixture-of-Agents",
+    "note": "Published and open-sourced a layered multi-LLM approach."
+   },
+   {
+    "title": "FlashAttention-3",
+    "note": "Contributed to FlashAttention-3 fast attention kernels for modern GPUs."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "OpenChatKit",
+    "url": "https://github.com/togethercomputer/OpenChatKit",
+    "note": "Open chatbot toolkit; most-starred repo."
+   },
+   {
+    "name": "RedPajama-Data",
+    "url": "https://github.com/togethercomputer/RedPajama-Data",
+    "note": "Code for preparing large-scale pretraining data."
+   },
+   {
+    "name": "MoA",
+    "url": "https://github.com/togethercomputer/MoA",
+    "note": "Together Mixture-Of-Agents."
+   },
+   {
+    "name": "together-cookbook",
+    "url": "https://github.com/togethercomputer/together-cookbook",
+    "note": "Recipes for open models on Together."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "LLaMA-2-7B-32K",
+    "url": "https://huggingface.co/togethercomputer/LLaMA-2-7B-32K",
+    "kind": "model",
+    "note": "Llama 2 extended to 32K context."
+   },
+   {
+    "name": "RedPajama-Data-V2",
+    "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-V2",
+    "kind": "dataset",
+    "note": "Large web corpus with quality annotations."
+   },
+   {
+    "name": "RedPajama-Data-1T",
+    "url": "https://huggingface.co/datasets/togethercomputer/RedPajama-Data-1T",
+    "kind": "dataset",
+    "note": "1T-token open replication of LLaMA data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "RedPajama: an Open Dataset for Training Large Language Models",
+    "url": "https://arxiv.org/abs/2411.12372",
+    "year": 2024
+   },
+   {
+    "title": "Mixture-of-Agents Enhances Large Language Model Capabilities",
+    "url": "https://arxiv.org/abs/2406.04692",
+    "year": 2024
+   },
+   {
+    "title": "FlashAttention-3: Fast and Accurate Attention with Asynchrony and Low-precision",
+    "url": "https://arxiv.org/abs/2407.08608",
+    "year": 2024
+   },
+   {
+    "title": "Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads",
+    "url": "https://arxiv.org/abs/2401.10774",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.gg/9Rk6sSeWEG",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://www.together.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "zyphra",
+  "contributions": [
+   {
+    "title": "Zamba hybrid models",
+    "note": "Developed Zamba, a Mamba-Transformer hybrid, and open-sourced the family."
+   },
+   {
+    "title": "Zonos text-to-speech",
+    "note": "Released Zonos open-weight TTS models, its most-starred repo."
+   },
+   {
+    "title": "Zyda datasets",
+    "note": "Released Zyda and Zyda-2 open pretraining datasets."
+   },
+   {
+    "title": "BlackMamba",
+    "note": "Published a state-space plus mixture-of-experts language model."
+   },
+   {
+    "title": "ZAYA and Zuna",
+    "note": "Released ZAYA vision-language model and Zuna EEG foundation model."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Zonos",
+    "url": "https://github.com/Zyphra/Zonos",
+    "note": "Zonos-v0.1 open-weight TTS model."
+   },
+   {
+    "name": "zuna",
+    "url": "https://github.com/Zyphra/zuna",
+    "note": "Python package for the Zuna EEG foundation model."
+   },
+   {
+    "name": "ZONOS2",
+    "url": "https://github.com/Zyphra/ZONOS2",
+    "note": "Open-weight TTS mixture-of-experts."
+   },
+   {
+    "name": "BlackMamba",
+    "url": "https://github.com/Zyphra/BlackMamba",
+    "note": "Code for BlackMamba."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ZAYA1-VL-8B",
+    "url": "https://huggingface.co/Zyphra/ZAYA1-VL-8B",
+    "kind": "model",
+    "note": "Most downloaded Zyphra model."
+   },
+   {
+    "name": "ZONOS3-Mini",
+    "url": "https://huggingface.co/Zyphra/ZONOS3-Mini",
+    "kind": "model",
+    "note": "Compact voice-cloning TTS."
+   },
+   {
+    "name": "Zyda-2",
+    "url": "https://huggingface.co/datasets/Zyphra/Zyda-2",
+    "kind": "dataset",
+    "note": "Large open pretraining dataset."
+   },
+   {
+    "name": "Zyda",
+    "url": "https://huggingface.co/datasets/Zyphra/Zyda",
+    "kind": "dataset",
+    "note": "First Zyda dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Zamba: A Compact 7B SSM Hybrid Model",
+    "url": "https://arxiv.org/abs/2405.16712",
+    "year": 2024
+   },
+   {
+    "title": "BlackMamba: Mixture of Experts for State-Space Models",
+    "url": "https://arxiv.org/abs/2402.01771",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.com/invite/puMPr32s2t",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://www.zyphra.com); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "cohere-labs",
+  "contributions": [
+   {
+    "title": "Aya Model",
+    "note": "Released Aya, a massively multilingual instruction model across 101 languages."
+   },
+   {
+    "title": "Aya Dataset",
+    "note": "Released the human-annotated multilingual instruction dataset."
+   },
+   {
+    "title": "Aya 23 and Aya Expanse",
+    "note": "Followed with Aya 23 and Aya Expanse."
+   },
+   {
+    "title": "Global-MMLU",
+    "note": "Released a culturally audited multilingual MMLU."
+   },
+   {
+    "title": "Command R open weights",
+    "note": "Released Command R weights for research."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "cohere-toolkit",
+    "url": "https://github.com/cohere-ai/cohere-toolkit",
+    "note": "Prebuilt RAG components."
+   },
+   {
+    "name": "notebooks",
+    "url": "https://github.com/cohere-ai/notebooks",
+    "note": "Examples."
+   },
+   {
+    "name": "cohere-python",
+    "url": "https://github.com/cohere-ai/cohere-python",
+    "note": "Python SDK."
+   },
+   {
+    "name": "cohere-terrarium",
+    "url": "https://github.com/cohere-ai/cohere-terrarium",
+    "note": "Python sandbox."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "c4ai-command-r-v01",
+    "url": "https://huggingface.co/CohereLabs/c4ai-command-r-v01",
+    "kind": "model",
+    "note": "Command R."
+   },
+   {
+    "name": "xP3x",
+    "url": "https://huggingface.co/datasets/CohereLabs/xP3x",
+    "kind": "dataset",
+    "note": "xP3x."
+   },
+   {
+    "name": "Global-MMLU",
+    "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
+    "kind": "dataset",
+    "note": "Global-MMLU."
+   },
+   {
+    "name": "aya_dataset",
+    "url": "https://huggingface.co/datasets/CohereLabs/aya_dataset",
+    "kind": "dataset",
+    "note": "Aya dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+    "url": "https://arxiv.org/abs/2402.07827",
+    "year": 2024
+   },
+   {
+    "title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+    "url": "https://arxiv.org/abs/2402.06619",
+    "year": 2024
+   },
+   {
+    "title": "Aya 23: Open Weight Releases to Further Multilingual Progress",
+    "url": "https://arxiv.org/abs/2405.15032",
+    "year": 2024
+   },
+   {
+    "title": "Aya Expanse: Combining Research Breakthroughs for a New Multilingual Frontier",
+    "url": "https://arxiv.org/abs/2412.04261",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.com/invite/co-mmunity",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://cohere.com/research); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "unsloth",
+  "contributions": [
+   {
+    "title": "Fast LLM fine-tuning",
+    "note": "Built Unsloth, a library for faster, lower-memory fine-tuning and RL of LLMs."
+   },
+   {
+    "title": "Unsloth Studio",
+    "note": "Now offers a local UI to run and train LLMs and diffusion models."
+   },
+   {
+    "title": "Dynamic GGUF quantisations",
+    "note": "Publishes quantised GGUF releases of many new open models soon after release."
+   },
+   {
+    "title": "Notebook library",
+    "note": "Maintains 250+ fine-tuning and RL notebooks."
+   },
+   {
+    "title": "hyperlearn",
+    "note": "Earlier project on faster, leaner classical ML algorithms."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "unsloth",
+    "url": "https://github.com/unslothai/unsloth",
+    "note": "Flagship fine-tuning library; very high star count."
+   },
+   {
+    "name": "notebooks",
+    "url": "https://github.com/unslothai/notebooks",
+    "note": "250+ fine-tuning and RL notebooks."
+   },
+   {
+    "name": "hyperlearn",
+    "url": "https://github.com/unslothai/hyperlearn",
+    "note": "Faster, leaner ML algorithms."
+   },
+   {
+    "name": "unsloth-zoo",
+    "url": "https://github.com/unslothai/unsloth-zoo",
+    "note": "Utilities for Unsloth."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Qwen3.8-27B-GGUF",
+    "url": "https://huggingface.co/unsloth/Qwen3.8-27B-GGUF",
+    "kind": "model",
+    "note": "Top downloaded GGUF quantisation."
+   },
+   {
+    "name": "OpenMathReasoning-mini",
+    "url": "https://huggingface.co/datasets/unsloth/OpenMathReasoning-mini",
+    "kind": "dataset",
+    "note": "Small math reasoning dataset."
+   },
+   {
+    "name": "LaTeX_OCR",
+    "url": "https://huggingface.co/datasets/unsloth/LaTeX_OCR",
+    "kind": "dataset",
+    "note": "LaTeX OCR dataset for vision fine-tuning."
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://unsloth.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "lightning-ai",
+  "contributions": [
+   {
+    "title": "PyTorch Lightning",
+    "note": "Maintains the PyTorch Lightning training framework."
+   },
+   {
+    "title": "LitGPT",
+    "note": "Released LitGPT with 20+ LLM recipes."
+   },
+   {
+    "title": "Lit-LLaMA",
+    "note": "Released an early LLaMA implementation based on nanoGPT."
+   },
+   {
+    "title": "LitServe",
+    "note": "Released an inference serving framework."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "pytorch-lightning",
+    "url": "https://github.com/Lightning-AI/pytorch-lightning",
+    "note": "Training framework."
+   },
+   {
+    "name": "litgpt",
+    "url": "https://github.com/Lightning-AI/litgpt",
+    "note": "LLM recipes."
+   },
+   {
+    "name": "lit-llama",
+    "url": "https://github.com/Lightning-AI/lit-llama",
+    "note": "LLaMA implementation."
+   },
+   {
+    "name": "LitServe",
+    "url": "https://github.com/Lightning-AI/LitServe",
+    "note": "Serving framework."
+   }
+  ],
+  "discord": "https://discord.gg/MWAEvnC5fU",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://lightning.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "arcee-ai",
+  "contributions": [
+   {
+    "title": "MergeKit",
+    "note": "Built and open-sourced the standard toolkit for merging language models."
+   },
+   {
+    "title": "DistillKit",
+    "note": "Released an open toolkit for LLM distillation."
+   },
+   {
+    "title": "AFM-4.5B",
+    "note": "Released its AFM-4.5B foundation model."
+   },
+   {
+    "title": "Trinity models",
+    "note": "Released Trinity open models including Mini and Large Thinking."
+   },
+   {
+    "title": "Logit datasets",
+    "note": "Published distillation datasets of teacher logits."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "mergekit",
+    "url": "https://github.com/arcee-ai/mergekit",
+    "note": "Tools for merging pretrained LLMs; most-starred repo."
+   },
+   {
+    "name": "DistillKit",
+    "url": "https://github.com/arcee-ai/DistillKit",
+    "note": "LLM distillation toolkit."
+   },
+   {
+    "name": "fastmlx",
+    "url": "https://github.com/arcee-ai/fastmlx",
+    "note": "MLX hosting API."
+   },
+   {
+    "name": "DALM",
+    "url": "https://github.com/arcee-ai/DALM",
+    "note": "Domain-adapted RAG toolkit."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Trinity-Mini",
+    "url": "https://huggingface.co/arcee-ai/Trinity-Mini",
+    "kind": "model",
+    "note": "Most downloaded Arcee model."
+   },
+   {
+    "name": "AFM-4.5B",
+    "url": "https://huggingface.co/arcee-ai/AFM-4.5B",
+    "kind": "model",
+    "note": "AFM foundation model."
+   },
+   {
+    "name": "LLama-405B-Logits",
+    "url": "https://huggingface.co/datasets/arcee-ai/LLama-405B-Logits",
+    "kind": "dataset",
+    "note": "Teacher logits for distillation."
+   },
+   {
+    "name": "distilabel-intel-orca-dpo-pairs-binarized",
+    "url": "https://huggingface.co/datasets/arcee-ai/distilabel-intel-orca-dpo-pairs-binarized",
+    "kind": "dataset",
+    "note": "Binarised DPO pairs."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Arcee's MergeKit: A Toolkit for Merging Large Language Models",
+    "url": "https://arxiv.org/abs/2403.13257",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://www.arcee.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "liquid-ai",
+  "contributions": [
+   {
+    "title": "Liquid Foundation Models",
+    "note": "Released the LFM family of efficient on-device models."
+   },
+   {
+    "title": "LFM2 technical report",
+    "note": "Published a technical report on LFM2 edge models."
+   },
+   {
+    "title": "Audio and omni models",
+    "note": "Released LFM audio, omni and VL models, many in GGUF and WebGPU form."
+   },
+   {
+    "title": "Cookbook and LEAP SDK",
+    "note": "Provides examples and SDKs for deploying LFMs on devices."
+   },
+   {
+    "title": "Antidoom",
+    "note": "Open-sourced tooling to train on targeted preference data."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "cookbook",
+    "url": "https://github.com/Liquid4All/cookbook",
+    "note": "Examples and end-to-end apps for Liquid models."
+   },
+   {
+    "name": "liquid-audio",
+    "url": "https://github.com/Liquid4All/liquid-audio",
+    "note": "Speech-to-speech audio models."
+   },
+   {
+    "name": "antidoom",
+    "url": "https://github.com/Liquid4All/antidoom",
+    "note": "Targeted preference data and training."
+   },
+   {
+    "name": "liquid-finetune",
+    "url": "https://github.com/Liquid4All/liquid-finetune",
+    "note": "Model customisation repo."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "LFM2.5-Audio-1.5B-JP-GGUF",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-JP-GGUF",
+    "kind": "model",
+    "note": "Top downloaded model."
+   },
+   {
+    "name": "LFM3-Omni-2B-GGUF",
+    "url": "https://huggingface.co/LiquidAI/LFM3-Omni-2B-GGUF",
+    "kind": "model",
+    "note": "Omni model in GGUF."
+   },
+   {
+    "name": "nanobeir-multilingual-extended",
+    "url": "https://huggingface.co/datasets/LiquidAI/nanobeir-multilingual-extended",
+    "kind": "dataset",
+    "note": "Multilingual retrieval evaluation data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "LFM2 Technical Report",
+    "url": "https://arxiv.org/abs/2511.23404",
+    "year": 2025
+   },
+   {
+    "title": "STAR: Synthesis of Tailored Architectures",
+    "url": "https://arxiv.org/abs/2411.17800",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.com/invite/liquid-ai",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://www.liquid.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "reka-ai",
+  "contributions": [
+   {
+    "title": "Reka Flash 3",
+    "note": "Released Reka Flash 3 open weights."
+   },
+   {
+    "title": "Vibe-Eval",
+    "note": "Released multimodal benchmark."
+   },
+   {
+    "title": "RekaDaily",
+    "note": "Published RekaDaily datasets."
+   },
+   {
+    "title": "Reka Quant",
+    "note": "Released quantisation tooling."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "reka-vibe-eval",
+    "url": "https://github.com/reka-ai/reka-vibe-eval",
+    "note": "Vibe-Eval benchmark."
+   },
+   {
+    "name": "rekaquant",
+    "url": "https://github.com/reka-ai/rekaquant",
+    "note": "Quantisation."
+   },
+   {
+    "name": "research-eval",
+    "url": "https://github.com/reka-ai/research-eval",
+    "note": "Search-augmented LLM benchmark."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "reka-flash-3",
+    "url": "https://huggingface.co/RekaAI/reka-flash-3",
+    "kind": "model",
+    "note": "Flash 3."
+   },
+   {
+    "name": "RekaDaily-10k-raw",
+    "url": "https://huggingface.co/datasets/RekaAI/RekaDaily-10k-raw",
+    "kind": "dataset",
+    "note": "Raw daily data."
+   },
+   {
+    "name": "VibeEval",
+    "url": "https://huggingface.co/datasets/RekaAI/VibeEval",
+    "kind": "dataset",
+    "note": "Vibe-Eval."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Reka Core, Flash, and Edge: A Series of Powerful Multimodal Language Models",
+    "url": "https://arxiv.org/abs/2404.12387",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "contact@reka.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://reka.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "cerebras",
+  "contributions": [
+   {
+    "title": "Cerebras-GPT",
+    "note": "Released Cerebras-GPT compute-optimal models."
+   },
+   {
+    "title": "BTLM",
+    "note": "Released BTLM-3B-8K."
+   },
+   {
+    "title": "modelzoo",
+    "note": "Open model zoo."
+   },
+   {
+    "title": "REAP pruned models",
+    "note": "Released REAP expert-pruned models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "modelzoo",
+    "url": "https://github.com/Cerebras/modelzoo",
+    "note": "Model zoo."
+   },
+   {
+    "name": "gigaGPT",
+    "url": "https://github.com/Cerebras/gigaGPT",
+    "note": "Small codebase for large models."
+   },
+   {
+    "name": "cerebras-cloud-sdk-python",
+    "url": "https://github.com/Cerebras/cerebras-cloud-sdk-python",
+    "note": "SDK."
+   },
+   {
+    "name": "online-normalization",
+    "url": "https://github.com/Cerebras/online-normalization",
+    "note": "Normalization."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "GLM-4.7-Flash-REAP-23B-A3B",
+    "url": "https://huggingface.co/cerebras/GLM-4.7-Flash-REAP-23B-A3B",
+    "kind": "model",
+    "note": "REAP."
+   },
+   {
+    "name": "Qwen3-Coder-REAP-25B-A3B",
+    "url": "https://huggingface.co/cerebras/Qwen3-Coder-REAP-25B-A3B",
+    "kind": "model",
+    "note": "REAP."
+   },
+   {
+    "name": "TAT-QA-Arithmetic-CoT",
+    "url": "https://huggingface.co/datasets/cerebras/TAT-QA-Arithmetic-CoT",
+    "kind": "dataset",
+    "note": "CoT data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Cerebras-GPT: Open Compute-Optimal Language Models Trained on the Cerebras Wafer-Scale Cluster",
+    "url": "https://arxiv.org/abs/2304.03208",
+    "year": 2023
+   },
+   {
+    "title": "BTLM-3B-8K: 7B Parameter Performance in a 3B Parameter Model",
+    "url": "https://arxiv.org/abs/2309.11568",
+    "year": 2023
+   }
+  ],
+  "discord": "https://discord.com/invite/ZqvYS2e2rY",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_email": "info@cerebras.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://www.cerebras.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "nomic-ai",
+  "contributions": [
+   {
+    "title": "GPT4All",
+    "note": "Built GPT4All, a hugely popular app for running local LLMs."
+   },
+   {
+    "title": "Nomic Embed",
+    "note": "Released open-weights text embedding models with open data and training code."
+   },
+   {
+    "title": "Nomic Embed v2 MoE",
+    "note": "Followed with a multilingual mixture-of-experts embedding model."
+   },
+   {
+    "title": "Atlas and deepscatter",
+    "note": "Open-sourced deepscatter for zoomable large-scale data visualisation."
+   },
+   {
+    "title": "Nomic Embed Vision",
+    "note": "Released a vision embedding model aligned to the text embedder."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "gpt4all",
+    "url": "https://github.com/nomic-ai/gpt4all",
+    "note": "Run local LLMs on any device; most-starred repo."
+   },
+   {
+    "name": "nomic",
+    "url": "https://github.com/nomic-ai/nomic",
+    "note": "Nomic developer API SDK."
+   },
+   {
+    "name": "gpt4all-chat",
+    "url": "https://github.com/nomic-ai/gpt4all-chat",
+    "note": "Early GPT4All-J chat client."
+   },
+   {
+    "name": "deepscatter",
+    "url": "https://github.com/nomic-ai/deepscatter",
+    "note": "Browser scatterplots at scale."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "nomic-embed-text-v1.5",
+    "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1.5",
+    "kind": "model",
+    "note": "Most downloaded embedding model."
+   },
+   {
+    "name": "nomic-embed-text-v1",
+    "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v1",
+    "kind": "model",
+    "note": "First open Nomic Embed."
+   },
+   {
+    "name": "nomic-embed-text-v2-moe",
+    "url": "https://huggingface.co/nomic-ai/nomic-embed-text-v2-moe",
+    "kind": "model",
+    "note": "Multilingual MoE embedder."
+   },
+   {
+    "name": "nomic-embed-unsupervised-data",
+    "url": "https://huggingface.co/datasets/nomic-ai/nomic-embed-unsupervised-data",
+    "kind": "dataset",
+    "note": "Contrastive pretraining data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Nomic Embed: Training a Reproducible Long Context Text Embedder",
+    "url": "https://arxiv.org/abs/2402.01613",
+    "year": 2024
+   },
+   {
+    "title": "Nomic Embed Vision: Expanding the Latent Space",
+    "url": "https://arxiv.org/abs/2406.18587",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://www.nomic.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "common-crawl",
+  "contributions": [
+   {
+    "title": "Open web crawl archive",
+    "note": "Publishes monthly crawls."
+   },
+   {
+    "title": "cc-pyspark",
+    "note": "Examples for processing crawl data."
+   },
+   {
+    "title": "CommonLID",
+    "note": "Language ID dataset."
+   },
+   {
+    "title": "news-crawl",
+    "note": "News crawl."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "commoncrawl",
+    "url": "https://github.com/commoncrawl/commoncrawl",
+    "note": "Crawl support library."
+   },
+   {
+    "name": "cc-pyspark",
+    "url": "https://github.com/commoncrawl/cc-pyspark",
+    "note": "PySpark."
+   },
+   {
+    "name": "news-crawl",
+    "url": "https://github.com/commoncrawl/news-crawl",
+    "note": "News crawl."
+   },
+   {
+    "name": "cc-crawl-statistics",
+    "url": "https://github.com/commoncrawl/cc-crawl-statistics",
+    "note": "Statistics."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "CommonLID",
+    "url": "https://huggingface.co/datasets/commoncrawl/CommonLID",
+    "kind": "dataset",
+    "note": "Language ID."
+   },
+   {
+    "name": "statistics",
+    "url": "https://huggingface.co/datasets/commoncrawl/statistics",
+    "kind": "dataset",
+    "note": "Statistics."
+   }
+  ],
+  "discord": "https://discord.gg/njaVFh7avF",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://commoncrawl.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "mila",
+  "contributions": [
+   {
+    "title": "Deep learning foundations",
+    "note": "Home of Yoshua Bengio's group, whose work on neural machine translation and generative models shaped modern deep learning."
+   },
+   {
+    "title": "Theano ecosystem",
+    "note": "Created open frameworks such as Blocks and Fuel on top of Theano."
+   },
+   {
+    "title": "BabyAI",
+    "note": "Released the BabyAI platform for grounded language learning with agents."
+   },
+   {
+    "title": "Welcome tutorials",
+    "note": "Publishes open tutorials for new students."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "blocks",
+    "url": "https://github.com/mila-iqia/blocks",
+    "note": "Theano framework for building and training neural networks."
+   },
+   {
+    "name": "welcome_tutorials",
+    "url": "https://github.com/mila-iqia/welcome_tutorials",
+    "note": "Tutorials for welcoming new Mila students."
+   },
+   {
+    "name": "fuel",
+    "url": "https://github.com/mila-iqia/fuel",
+    "note": "Data pipeline framework for ML."
+   },
+   {
+    "name": "babyai",
+    "url": "https://github.com/mila-iqia/babyai",
+    "note": "Testbed for training agents to understand language."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Neural Machine Translation by Jointly Learning to Align and Translate",
+    "url": "https://arxiv.org/abs/1409.0473",
+    "year": 2014
+   },
+   {
+    "title": "GFlowNet Foundations",
+    "url": "https://arxiv.org/abs/2111.09266",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "info@mila.quebec",
+  "contact_note": "Contact details and links are on the lab's website (https://mila.quebec); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "vector-institute",
+  "contributions": [
+   {
+    "title": "fed-rag",
+    "note": "Open framework for fine-tuning retrieval-augmented generation."
+   },
+   {
+    "title": "vector-inference",
+    "note": "Tooling for efficient LLM inference on Slurm clusters."
+   },
+   {
+    "title": "Cyclops",
+    "note": "Toolkit for evaluating and monitoring AI models in clinical settings."
+   },
+   {
+    "title": "VBLL",
+    "note": "Simple, cheap neural-network uncertainty estimation."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "fed-rag",
+    "url": "https://github.com/VectorInstitute/fed-rag",
+    "note": "Fine-tuning RAG systems framework."
+   },
+   {
+    "name": "vector-inference",
+    "url": "https://github.com/VectorInstitute/vector-inference",
+    "note": "Efficient LLM inference on Slurm clusters."
+   },
+   {
+    "name": "cyclops",
+    "url": "https://github.com/VectorInstitute/cyclops",
+    "note": "Evaluate and monitor clinical AI models."
+   },
+   {
+    "name": "vbll",
+    "url": "https://github.com/VectorInstitute/vbll",
+    "note": "Variational Bayesian last layers for uncertainty."
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "info@vectorinstitute.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://vectorinstitute.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "fast-ai",
+  "contributions": [
+   {
+    "title": "fastai library",
+    "note": "Built the fastai deep-learning library with a layered API."
+   },
+   {
+    "title": "Practical Deep Learning course",
+    "note": "Runs a free, hands-on deep learning course and book (fastbook)."
+   },
+   {
+    "title": "ULMFiT",
+    "note": "Introduced universal language model fine-tuning, a precursor to modern LLM pretrain-then-fine-tune."
+   },
+   {
+    "title": "Computational Linear Algebra",
+    "note": "Published a free online textbook of notebooks."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "fastai",
+    "url": "https://github.com/fastai/fastai",
+    "note": "The fastai deep learning library."
+   },
+   {
+    "name": "fastbook",
+    "url": "https://github.com/fastai/fastbook",
+    "note": "The fastai book as notebooks."
+   },
+   {
+    "name": "numerical-linear-algebra",
+    "url": "https://github.com/fastai/numerical-linear-algebra",
+    "note": "Computational linear algebra course notebooks."
+   },
+   {
+    "name": "courses",
+    "url": "https://github.com/fastai/courses",
+    "note": "fast.ai course materials."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Universal Language Model Fine-tuning for Text Classification",
+    "url": "https://arxiv.org/abs/1801.06146",
+    "year": 2018
+   },
+   {
+    "title": "fastai: A Layered API for Deep Learning",
+    "url": "https://arxiv.org/abs/2002.04688",
+    "year": 2020
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://www.fast.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "lmarena",
+  "contributions": [
+   {
+    "title": "Chatbot Arena",
+    "note": "Built the crowdsourced head-to-head human-preference leaderboard for LLMs."
+   },
+   {
+    "title": "FastChat",
+    "note": "Open platform for training, serving and evaluating chat models; Vicuna came from it."
+   },
+   {
+    "title": "MT-Bench and LLM-as-judge",
+    "note": "Published the LLM-as-a-judge methodology and benchmark."
+   },
+   {
+    "title": "RouteLLM",
+    "note": "Released a framework for serving and evaluating LLM routers."
+   },
+   {
+    "title": "Arena datasets",
+    "note": "Released large human-preference datasets of battles."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "FastChat",
+    "url": "https://github.com/lm-sys/FastChat",
+    "note": "Platform for training, serving and evaluating LLM chatbots."
+   },
+   {
+    "name": "RouteLLM",
+    "url": "https://github.com/lm-sys/RouteLLM",
+    "note": "LLM router framework."
+   },
+   {
+    "name": "llm-decontaminator",
+    "url": "https://github.com/lm-sys/llm-decontaminator",
+    "note": "Benchmark decontamination code."
+   },
+   {
+    "name": "vicuna-blog-eval",
+    "url": "https://github.com/lm-sys/vicuna-blog-eval",
+    "note": "GPT-4 based benchmark for Vicuna."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "leaderboard-dataset",
+    "url": "https://huggingface.co/datasets/lmarena-ai/leaderboard-dataset",
+    "kind": "dataset",
+    "note": "Leaderboard data."
+   },
+   {
+    "name": "arena-human-preference-140k",
+    "url": "https://huggingface.co/datasets/lmarena-ai/arena-human-preference-140k",
+    "kind": "dataset",
+    "note": "Human preference battles."
+   },
+   {
+    "name": "VisionArena-Chat",
+    "url": "https://huggingface.co/datasets/lmarena-ai/VisionArena-Chat",
+    "kind": "dataset",
+    "note": "Vision chat conversations."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Chatbot Arena: An Open Platform for Evaluating LLMs by Human Preference",
+    "url": "https://arxiv.org/abs/2403.04132",
+    "year": 2024
+   },
+   {
+    "title": "Judging LLM-as-a-Judge with MT-Bench and Chatbot Arena",
+    "url": "https://arxiv.org/abs/2306.05685",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://lmarena.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "novasky",
+  "contributions": [
+   {
+    "title": "Sky-T1",
+    "note": "Trained Sky-T1-32B-Preview, an open reasoning model, for a published low budget."
+   },
+   {
+    "title": "SkyThought",
+    "note": "Open-sourced the data, code and recipes behind Sky-T1."
+   },
+   {
+    "title": "SkyRL",
+    "note": "Built a modular full-stack RL library for LLMs."
+   },
+   {
+    "title": "SWE-Gym agents",
+    "note": "Released OpenHands-based SWE agent models and data."
+   },
+   {
+    "title": "Multi-SWE-bench",
+    "note": "Hosts a multilingual software engineering benchmark dataset."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "SkyThought",
+    "url": "https://github.com/NovaSky-AI/SkyThought",
+    "note": "Sky-T1 training recipes."
+   },
+   {
+    "name": "SkyRL",
+    "url": "https://github.com/NovaSky-AI/SkyRL",
+    "note": "Modular full-stack RL library."
+   },
+   {
+    "name": "SkyRL-OpenHands",
+    "url": "https://github.com/NovaSky-AI/SkyRL-OpenHands",
+    "note": "SkyRL with OpenHands agents."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "SWE-Gym-OpenHands-7B-Agent",
+    "url": "https://huggingface.co/NovaSky-AI/SWE-Gym-OpenHands-7B-Agent",
+    "kind": "model",
+    "note": "SWE agent model."
+   },
+   {
+    "name": "Sky-T1-32B-Preview",
+    "url": "https://huggingface.co/NovaSky-AI/Sky-T1-32B-Preview",
+    "kind": "model",
+    "note": "Reasoning model."
+   },
+   {
+    "name": "Sky-T1_data_17k",
+    "url": "https://huggingface.co/datasets/NovaSky-AI/Sky-T1_data_17k",
+    "kind": "dataset",
+    "note": "Sky-T1 training data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "LLMs Can Easily Learn to Reason from Demonstrations Structure, not content, is what matters!",
+    "url": "https://arxiv.org/abs/2502.07374",
+    "year": 2025
+   },
+   {
+    "title": "S*: Test Time Scaling for Code Generation",
+    "url": "https://arxiv.org/abs/2502.14382",
+    "year": 2025
+   }
+  ],
+  "discord": "https://discord.gg/kexQXy5yA3",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://novasky-ai.github.io); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "essential-ai",
+  "contributions": [
+   {
+    "title": "Essential-Web v1.0",
+    "note": "Released a large taxonomy-labelled web dataset."
+   },
+   {
+    "title": "EAI taxonomy subsets",
+    "note": "Published STEM, code and medical subsets filtered by taxonomy."
+   },
+   {
+    "title": "Rnj-1",
+    "note": "Released the Rnj-1 open model family."
+   },
+   {
+    "title": "Muon efficiency research",
+    "note": "Studied practical efficiency of the Muon optimizer."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "eai-taxonomy",
+    "url": "https://github.com/Essential-AI/eai-taxonomy",
+    "note": "Taxonomy for web documents."
+   },
+   {
+    "name": "reflection",
+    "url": "https://github.com/Essential-AI/reflection",
+    "note": "Open repo from Essential AI."
+   },
+   {
+    "name": "rnj-1-assets",
+    "url": "https://github.com/Essential-AI/rnj-1-assets",
+    "note": "Assets for Rnj-1."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "eai-distill-0.5b",
+    "url": "https://huggingface.co/EssentialAI/eai-distill-0.5b",
+    "kind": "model",
+    "note": "Document classifier distilled for labelling."
+   },
+   {
+    "name": "rnj-1-instruct",
+    "url": "https://huggingface.co/EssentialAI/rnj-1-instruct",
+    "kind": "model",
+    "note": "Rnj-1 instruct model."
+   },
+   {
+    "name": "essential-web-v1.0",
+    "url": "https://huggingface.co/datasets/EssentialAI/essential-web-v1.0",
+    "kind": "dataset",
+    "note": "Labelled web dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Essential-Web v1.0: 24T tokens of organized web data",
+    "url": "https://arxiv.org/abs/2506.14111",
+    "year": 2025
+   },
+   {
+    "title": "Practical Efficiency of Muon for Pretraining",
+    "url": "https://arxiv.org/abs/2505.02222",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "info@essential.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://www.essential.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "stanford-crfm",
+  "contributions": [
+   {
+    "title": "HELM",
+    "note": "Created the Holistic Evaluation of Language Models framework."
+   },
+   {
+    "title": "Foundation models report",
+    "note": "Authored the report on opportunities and risks of foundation models."
+   },
+   {
+    "title": "Foundation Model Transparency Index",
+    "note": "Scored developers on transparency."
+   },
+   {
+    "title": "Mistral GPT-2 training",
+    "note": "Released the Mistral framework and GPT-2 checkpoints for transparent training."
+   },
+   {
+    "title": "BioMedLM",
+    "note": "Released a biomedical language model."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "helm",
+    "url": "https://github.com/stanford-crfm/helm",
+    "note": "Holistic Evaluation of Language Models."
+   },
+   {
+    "name": "BioMedLM",
+    "url": "https://github.com/stanford-crfm/BioMedLM",
+    "note": "Biomedical LM."
+   },
+   {
+    "name": "mistral",
+    "url": "https://github.com/stanford-crfm/mistral",
+    "note": "Framework for transparent GPT-2 training."
+   },
+   {
+    "name": "ecosystem-graphs",
+    "url": "https://github.com/stanford-crfm/ecosystem-graphs",
+    "note": "Foundation model ecosystem data."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "air-bench-2024",
+    "url": "https://huggingface.co/datasets/stanford-crfm/air-bench-2024",
+    "kind": "dataset",
+    "note": "Safety benchmark."
+   },
+   {
+    "name": "image2struct-latex-v1",
+    "url": "https://huggingface.co/datasets/stanford-crfm/image2struct-latex-v1",
+    "kind": "dataset",
+    "note": "Image-to-structure benchmark."
+   },
+   {
+    "name": "music-small-800k",
+    "url": "https://huggingface.co/stanford-crfm/music-small-800k",
+    "kind": "model",
+    "note": "Music model."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Holistic Evaluation of Language Models",
+    "url": "https://arxiv.org/abs/2211.09110",
+    "year": 2022
+   },
+   {
+    "title": "On the Opportunities and Risks of Foundation Models",
+    "url": "https://arxiv.org/abs/2108.07258",
+    "year": 2021
+   },
+   {
+    "title": "The Foundation Model Transparency Index",
+    "url": "https://arxiv.org/abs/2310.12941",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://crfm.stanford.edu); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "hazy-research",
+  "contributions": [
+   {
+    "title": "FlashAttention",
+    "note": "Co-created the IO-aware exact attention algorithm used across LLM training."
+   },
+   {
+    "title": "Hyena and H3",
+    "note": "Developed attention-free sequence models."
+   },
+   {
+    "title": "Based",
+    "note": "Developed Based, a linear-attention plus sliding-window architecture."
+   },
+   {
+    "title": "ThunderKittens",
+    "note": "Released tile primitives for fast GPU kernels."
+   },
+   {
+    "title": "Minions",
+    "note": "Built a system where small local and large cloud models work together."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ThunderKittens",
+    "url": "https://github.com/HazyResearch/ThunderKittens",
+    "note": "Tile primitives for speedy kernels."
+   },
+   {
+    "name": "deepdive",
+    "url": "https://github.com/HazyResearch/deepdive",
+    "note": "Knowledge base construction system."
+   },
+   {
+    "name": "minions",
+    "url": "https://github.com/HazyResearch/minions",
+    "note": "Big and small LLMs working together."
+   },
+   {
+    "name": "data-centric-ai",
+    "url": "https://github.com/HazyResearch/data-centric-ai",
+    "note": "Data-centric AI resources."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "based-1b",
+    "url": "https://huggingface.co/hazyresearch/based-1b",
+    "kind": "model",
+    "note": "Based 1B model."
+   },
+   {
+    "name": "based-swde",
+    "url": "https://huggingface.co/datasets/hazyresearch/based-swde",
+    "kind": "dataset",
+    "note": "SWDE for Based evaluation."
+   },
+   {
+    "name": "based-fda",
+    "url": "https://huggingface.co/datasets/hazyresearch/based-fda",
+    "kind": "dataset",
+    "note": "FDA for Based evaluation."
+   }
+  ],
+  "papers": [
+   {
+    "title": "FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness",
+    "url": "https://arxiv.org/abs/2205.14135",
+    "year": 2022
+   },
+   {
+    "title": "Hyena Hierarchy: Towards Larger Convolutional Language Models",
+    "url": "https://arxiv.org/abs/2302.10866",
+    "year": 2023
+   },
+   {
+    "title": "Simple linear attention language models balance the recall-throughput tradeoff",
+    "url": "https://arxiv.org/abs/2402.18668",
+    "year": 2024
+   },
+   {
+    "title": "ThunderKittens: Simple, Fast, and Adorable AI Kernels",
+    "url": "https://arxiv.org/abs/2410.20399",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://hazyresearch.stanford.edu); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "marin",
+  "contributions": [
+   {
+    "title": "Marin 8B",
+    "note": "Released Marin 8B base and instruct models, fully open with data, code and logs."
+   },
+   {
+    "title": "Marin 32B",
+    "note": "Trained a 32B model on TPUs with JAX."
+   },
+   {
+    "title": "Marin framework",
+    "note": "Open-source framework for foundation-model research and development."
+   },
+   {
+    "title": "Levanter and Haliax",
+    "note": "Maintains legible JAX libraries for training."
+   },
+   {
+    "title": "Open lab process",
+    "note": "Publishes experiments as GitHub issues and in-repo experiments."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "marin",
+    "url": "https://github.com/marin-community/marin",
+    "note": "Framework for foundation model R&D."
+   },
+   {
+    "name": "levanter",
+    "url": "https://github.com/marin-community/levanter",
+    "note": "Legible scalable foundation model training in JAX."
+   },
+   {
+    "name": "haliax",
+    "url": "https://github.com/marin-community/haliax",
+    "note": "Named tensors for JAX."
+   },
+   {
+    "name": "marin-experiments",
+    "url": "https://github.com/marin-community/marin-experiments",
+    "note": "Experiments and examples."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "marin-8b-base",
+    "url": "https://huggingface.co/marin-community/marin-8b-base",
+    "kind": "model",
+    "note": "Base 8B."
+   },
+   {
+    "name": "marin-32b-base",
+    "url": "https://huggingface.co/marin-community/marin-32b-base",
+    "kind": "model",
+    "note": "Base 32B."
+   },
+   {
+    "name": "marin-8b-instruct",
+    "url": "https://huggingface.co/marin-community/marin-8b-instruct",
+    "kind": "model",
+    "note": "Instruct 8B."
+   },
+   {
+    "name": "wikipedia-markdown",
+    "url": "https://huggingface.co/datasets/marin-community/wikipedia-markdown",
+    "kind": "dataset",
+    "note": "Markdown Wikipedia."
+   }
+  ],
+  "discord": "https://discord.com/invite/J9CTk7pqcM",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://marin.community); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "arc-institute",
+  "contributions": [
+   {
+    "title": "Evo 2",
+    "note": "Released the Evo 2 genome language model for DNA across all domains of life."
+   },
+   {
+    "title": "State",
+    "note": "Released a model predicting cellular perturbation responses."
+   },
+   {
+    "title": "Virtual Cell Atlas",
+    "note": "Built an open virtual cell atlas."
+   },
+   {
+    "title": "Stack",
+    "note": "Released a single-cell foundation model."
+   },
+   {
+    "title": "SRAgent",
+    "note": "LLM agents for the Sequence Read Archive."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "evo2",
+    "url": "https://github.com/ArcInstitute/evo2",
+    "note": "Genome modeling and design."
+   },
+   {
+    "name": "state",
+    "url": "https://github.com/ArcInstitute/state",
+    "note": "Cell perturbation model."
+   },
+   {
+    "name": "arc-virtual-cell-atlas",
+    "url": "https://github.com/ArcInstitute/arc-virtual-cell-atlas",
+    "note": "Virtual cell atlas."
+   },
+   {
+    "name": "SRAgent",
+    "url": "https://github.com/ArcInstitute/SRAgent",
+    "note": "SRA agents."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "evo2_7b",
+    "url": "https://huggingface.co/arcinstitute/evo2_7b",
+    "kind": "model",
+    "note": "Evo 2 7B."
+   },
+   {
+    "name": "evo2_40b",
+    "url": "https://huggingface.co/arcinstitute/evo2_40b",
+    "kind": "model",
+    "note": "Evo 2 40B."
+   },
+   {
+    "name": "opengenome2",
+    "url": "https://huggingface.co/datasets/arcinstitute/opengenome2",
+    "kind": "dataset",
+    "note": "OpenGenome2 data."
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "hello@arcinstitute.org",
+  "contact_note": "Contact details and links are on the lab's website (https://arcinstitute.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "goodfire",
+  "contributions": [
+   {
+    "title": "R1 interpretability",
+    "note": "Published open interpretability artefacts for DeepSeek R1."
+   },
+   {
+    "title": "Sparse autoencoders",
+    "note": "Released SAEs for Llama 3.1/3.3 and DeepSeek R1."
+   },
+   {
+    "title": "Parameter decomposition",
+    "note": "Open-sourced code for parameter decomposition."
+   },
+   {
+    "title": "Ember SDK",
+    "note": "Provided an API for steering model behaviour."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "r1-interpretability",
+    "url": "https://github.com/goodfire-ai/r1-interpretability",
+    "note": "R1 interpretability artefacts."
+   },
+   {
+    "name": "param-decomp",
+    "url": "https://github.com/goodfire-ai/param-decomp",
+    "note": "Parameter decomposition."
+   },
+   {
+    "name": "causalab",
+    "url": "https://github.com/goodfire-ai/causalab",
+    "note": "Causal abstraction tooling."
+   },
+   {
+    "name": "goodfire-sdk",
+    "url": "https://github.com/goodfire-ai/goodfire-sdk",
+    "note": "Ember SDK."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Llama-3.1-8B-Instruct-SAE-l19",
+    "url": "https://huggingface.co/Goodfire/Llama-3.1-8B-Instruct-SAE-l19",
+    "kind": "model",
+    "note": "SAE on Llama 3.1 8B."
+   },
+   {
+    "name": "Llama-3.3-70B-Instruct-SAE-l50",
+    "url": "https://huggingface.co/Goodfire/Llama-3.3-70B-Instruct-SAE-l50",
+    "kind": "model",
+    "note": "SAE on Llama 3.3 70B."
+   },
+   {
+    "name": "reward-hack-data",
+    "url": "https://huggingface.co/datasets/Goodfire/reward-hack-data",
+    "kind": "dataset",
+    "note": "Reward hacking data."
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://www.goodfire.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "letta",
+  "contributions": [
+   {
+    "title": "MemGPT",
+    "note": "Originated MemGPT, LLMs with OS-style memory management."
+   },
+   {
+    "title": "Letta platform",
+    "note": "Platform for stateful agents with persistent memory."
+   },
+   {
+    "title": "Agent File",
+    "note": "Defined an open .af format for serialising agents."
+   },
+   {
+    "title": "Letta Code",
+    "note": "Released a coding agent that learns from experience."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "letta",
+    "url": "https://github.com/letta-ai/letta",
+    "note": "Platform for stateful agents."
+   },
+   {
+    "name": "letta-code",
+    "url": "https://github.com/letta-ai/letta-code",
+    "note": "Self-improving coding agents."
+   },
+   {
+    "name": "claude-subconscious",
+    "url": "https://github.com/letta-ai/claude-subconscious",
+    "note": "Memory layer for Claude Code."
+   },
+   {
+    "name": "agent-file",
+    "url": "https://github.com/letta-ai/agent-file",
+    "note": "Agent File format."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "frontier-memory-corpus",
+    "url": "https://huggingface.co/datasets/letta-ai/frontier-memory-corpus",
+    "kind": "dataset",
+    "note": "Memory corpus."
+   },
+   {
+    "name": "SWE-Features",
+    "url": "https://huggingface.co/datasets/letta-ai/SWE-Features",
+    "kind": "dataset",
+    "note": "SWE features."
+   },
+   {
+    "name": "stateful-gsm-symbolic",
+    "url": "https://huggingface.co/datasets/letta-ai/stateful-gsm-symbolic",
+    "kind": "dataset",
+    "note": "Stateful GSM-Symbolic."
+   }
+  ],
+  "papers": [
+   {
+    "title": "MemGPT: Towards LLMs as Operating Systems",
+    "url": "https://arxiv.org/abs/2310.08560",
+    "year": 2023
+   }
+  ],
+  "discord": "https://discord.gg/letta",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://www.letta.com); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "sesame",
+  "contributions": [
+   {
+    "title": "CSM",
+    "note": "Released the Conversational Speech Model csm-1b openly."
+   },
+   {
+    "title": "TurnBench",
+    "note": "Released a benchmark for end-of-turn and interruption detection."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "csm",
+    "url": "https://github.com/SesameAILabs/csm",
+    "note": "Conversational speech generation model."
+   },
+   {
+    "name": "turnbench",
+    "url": "https://github.com/SesameAILabs/turnbench",
+    "note": "End-of-turn benchmark."
+   },
+   {
+    "name": "link",
+    "url": "https://github.com/SesameAILabs/link",
+    "note": "Issue tracker for Sesame releases."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "csm-1b",
+    "url": "https://huggingface.co/sesame/csm-1b",
+    "kind": "model",
+    "note": "Open 1B speech model."
+   },
+   {
+    "name": "csm-1b",
+    "url": "https://huggingface.co/spaces/sesame/csm-1b",
+    "kind": "space",
+    "note": "Demo space."
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://www.sesame.com); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "genmo",
+  "contributions": [
+   {
+    "title": "Mochi 1",
+    "note": "Released Mochi 1 as an open video generation model under Apache 2.0."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "mochi",
+    "url": "https://github.com/genmoai/mochi",
+    "note": "Open video generation models."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "mochi-1-preview",
+    "url": "https://huggingface.co/genmo/mochi-1-preview",
+    "kind": "model",
+    "note": "Mochi 1 preview weights."
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "hi@genmo.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://www.genmo.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "center-for-ai-safety",
+  "contributions": [
+   {
+    "title": "Humanity's Last Exam",
+    "note": "Co-led the hard multi-domain benchmark."
+   },
+   {
+    "title": "HarmBench",
+    "note": "Released a standardized red-teaming evaluation framework."
+   },
+   {
+    "title": "WMDP",
+    "note": "Released a benchmark and unlearning method for hazardous knowledge."
+   },
+   {
+    "title": "MMLU",
+    "note": "Hosts MMLU data."
+   },
+   {
+    "title": "Emergent values",
+    "note": "Published analysis of emergent utility in LLMs."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "hle",
+    "url": "https://github.com/centerforaisafety/hle",
+    "note": "Humanity's Last Exam."
+   },
+   {
+    "name": "HarmBench",
+    "url": "https://github.com/centerforaisafety/HarmBench",
+    "note": "Red-teaming framework."
+   },
+   {
+    "name": "wmdp",
+    "url": "https://github.com/centerforaisafety/wmdp",
+    "note": "Hazardous knowledge proxy."
+   },
+   {
+    "name": "emergent-values",
+    "url": "https://github.com/centerforaisafety/emergent-values",
+    "note": "Utility Engineering code."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "mmlu",
+    "url": "https://huggingface.co/datasets/cais/mmlu",
+    "kind": "dataset",
+    "note": "MMLU."
+   },
+   {
+    "name": "hle",
+    "url": "https://huggingface.co/datasets/cais/hle",
+    "kind": "dataset",
+    "note": "HLE."
+   },
+   {
+    "name": "wmdp",
+    "url": "https://huggingface.co/datasets/cais/wmdp",
+    "kind": "dataset",
+    "note": "WMDP."
+   },
+   {
+    "name": "HarmBench-Llama-2-13b-cls",
+    "url": "https://huggingface.co/cais/HarmBench-Llama-2-13b-cls",
+    "kind": "model",
+    "note": "HarmBench classifier."
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "contact@safe.ai",
+  "contact_note": "Contact details and links are on the lab's website (https://safe.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "arc-prize",
+  "contributions": [
+   {
+    "title": "ARC-AGI-2",
+    "note": "Released the ARC-AGI-2 benchmark."
+   },
+   {
+    "title": "ARC Prize competitions",
+    "note": "Runs an annual prize competition."
+   },
+   {
+    "title": "ARC-AGI benchmarking",
+    "note": "Open harness for testing LLMs on ARC."
+   },
+   {
+    "title": "ARC-AGI-3 agents",
+    "note": "Released agents repo for ARC-AGI-3."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ARC-AGI-2",
+    "url": "https://github.com/arcprize/ARC-AGI-2",
+    "note": "ARC-AGI-2 tasks."
+   },
+   {
+    "name": "arc-agi-benchmarking",
+    "url": "https://github.com/arcprize/arc-agi-benchmarking",
+    "note": "Baseline LLM testing."
+   },
+   {
+    "name": "ARC-AGI-3-Agents",
+    "url": "https://github.com/arcprize/ARC-AGI-3-Agents",
+    "note": "ARC-AGI-3 agents."
+   },
+   {
+    "name": "ARC-AGI",
+    "url": "https://github.com/arcprize/ARC-AGI",
+    "note": "ARC-AGI toolkit."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "arc_agi_v2_public_eval",
+    "url": "https://huggingface.co/datasets/arcprize/arc_agi_v2_public_eval",
+    "kind": "dataset",
+    "note": "ARC-AGI-2 public eval."
+   },
+   {
+    "name": "arc_agi_v1_public_eval",
+    "url": "https://huggingface.co/datasets/arcprize/arc_agi_v1_public_eval",
+    "kind": "dataset",
+    "note": "ARC-AGI-1 public eval."
+   }
+  ],
+  "papers": [
+   {
+    "title": "ARC Prize 2024: Technical Report",
+    "url": "https://arxiv.org/abs/2412.04604",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.gg/9b77dPAmcA",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_note": "Contact details and links are on the lab's website (https://arcprize.org); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "agentica",
+  "contributions": [
+   {
+    "title": "DeepScaleR",
+    "note": "Released DeepScaleR-1.5B-Preview trained with RL."
+   },
+   {
+    "title": "DeepCoder",
+    "note": "Released DeepCoder-14B-Preview."
+   },
+   {
+    "title": "DeepSWE",
+    "note": "Released DeepSWE-Preview agent."
+   },
+   {
+    "title": "rLLM",
+    "note": "Maintains rLLM RL framework."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "rllm",
+    "url": "https://github.com/agentica-project/rllm",
+    "note": "RL for language agents."
+   },
+   {
+    "name": "verl-pipeline",
+    "url": "https://github.com/agentica-project/verl-pipeline",
+    "note": "Async pipelined verl."
+   },
+   {
+    "name": "R2E-Gym",
+    "url": "https://github.com/agentica-project/R2E-Gym",
+    "note": "R2E-Gym."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "DeepScaleR-1.5B-Preview",
+    "url": "https://huggingface.co/agentica-org/DeepScaleR-1.5B-Preview",
+    "kind": "model",
+    "note": "DeepScaleR."
+   },
+   {
+    "name": "DeepCoder-14B-Preview",
+    "url": "https://huggingface.co/agentica-org/DeepCoder-14B-Preview",
+    "kind": "model",
+    "note": "DeepCoder."
+   },
+   {
+    "name": "DeepScaleR-Preview-Dataset",
+    "url": "https://huggingface.co/datasets/agentica-org/DeepScaleR-Preview-Dataset",
+    "kind": "dataset",
+    "note": "Training data."
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://agentica-project.com); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "cartesia",
+  "contributions": [
+   {
+    "title": "Llamba",
+    "note": "Released Llamba distilled recurrent models."
+   },
+   {
+    "title": "Rene",
+    "note": "Released Rene Mamba-2 hybrid."
+   },
+   {
+    "title": "Edge",
+    "note": "On-device intelligence library."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "edge",
+    "url": "https://github.com/cartesia-ai/edge",
+    "note": "On-device intelligence."
+   },
+   {
+    "name": "cartesia-python",
+    "url": "https://github.com/cartesia-ai/cartesia-python",
+    "note": "Python client."
+   },
+   {
+    "name": "line",
+    "url": "https://github.com/cartesia-ai/line",
+    "note": "Voice agent SDK."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Llamba-1B",
+    "url": "https://huggingface.co/cartesia-ai/Llamba-1B",
+    "kind": "model",
+    "note": "Llamba 1B."
+   },
+   {
+    "name": "Rene-v0.1-1.3b-pytorch",
+    "url": "https://huggingface.co/cartesia-ai/Rene-v0.1-1.3b-pytorch",
+    "kind": "model",
+    "note": "Rene."
+   },
+   {
+    "name": "Llamba-8B",
+    "url": "https://huggingface.co/cartesia-ai/Llamba-8B",
+    "kind": "model",
+    "note": "Llamba 8B."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Llamba: Scaling Distilled Recurrent Models for Efficient Language Processing",
+    "url": "https://arxiv.org/abs/2502.14458",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact details and links are on the lab's website (https://cartesia.ai); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "chai-discovery",
+  "contributions": [
+   {
+    "title": "Chai-1",
+    "note": "Released Chai-1 biomolecular structure model with open weights."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "chai-lab",
+    "url": "https://github.com/chaidiscovery/chai-lab",
+    "note": "Chai-1 structure prediction."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "chai-1",
+    "url": "https://huggingface.co/chaidiscovery/chai-1",
+    "kind": "model",
+    "note": "Chai-1 weights."
+   }
+  ],
+  "discord_note": null,
+  "contact_email": "info@chaidiscovery.com",
+  "contact_note": "Contact details and links are on the lab's website (https://www.chaidiscovery.com); code questions go through issues on their GitHub organisation.",
+  "confidence": "high"
+ },
+ {
+  "id": "mozilla-data-collective",
+  "discord": "https://discord.gg/dngNCw2d4W",
+  "discord_note": "Public Discord linked from the lab's own website for community discussion and announcements.",
+  "contact_email": "support@mozilladatacollective.com",
+  "contact_note": "Support and contact details are on the Mozilla Data Collective website (https://mozilladatacollective.com).",
+  "confidence": "medium"
+ }
+]

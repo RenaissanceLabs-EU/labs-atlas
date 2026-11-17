@@ -1,0 +1,493 @@
+[
+ {
+  "id": "turkunlp",
+  "key_people": [
+   {
+    "name": "Filip Ginter",
+    "role": "Professor",
+    "url": "https://fginter.github.io/",
+    "note": "Co-leads the group's Finnish language-model and parsing work."
+   },
+   {
+    "name": "Sampo Pyysalo",
+    "role": "Senior Research Fellow",
+    "url": "https://www.utu.fi/en/people/sampo-pyysalo",
+    "note": "Researcher in language models and biomedical text mining."
+   },
+   {
+    "name": "Veronika Laippala",
+    "role": "Professor",
+    "url": "https://www.utu.fi/en/people/veronika-laippala",
+    "note": "Leads work on web registers and genres."
+   },
+   {
+    "name": "Tapio Salakoski",
+    "role": "Professor",
+    "url": "https://www.utu.fi/en/people/tapio-salakoski",
+    "note": "Senior professor of the group."
+   },
+   {
+    "name": "Jenna Kanerva",
+    "role": "University Lecturer",
+    "url": "https://github.com/jmnybl",
+    "note": "Researcher on Finnish language technology."
+   }
+  ],
+  "about": [
+   "TurkuNLP is a group of about 30 researchers at the University of Turku, ranging from research assistants to professors. Its main topics are syntactic and semantic analysis of Finnish, large language models for Finnish and other languages, biomedical and clinical text mining, and the analysis of internet registers and genres.",
+   "The group's resources include FinBERT, WikiBERT, FinGPT and the Turku Dependency Treebank. With Silo AI's SiloGen it built the Poro and Viking models on the LUMI supercomputer; Viking, released in 2024 in 7B, 13B and 33B sizes, covers the Nordic languages, English and code under Apache 2.0.",
+   "TurkuNLP co-hosts an open monthly seminar on NLP and AI with Omni Language AI Research, and publishes its code and models on GitHub and Hugging Face."
+  ]
+ },
+ {
+  "id": "ucl-dark",
+  "_flag": "The lab's website states that UCL DARK has been sunsetted and merged with the BOLD Lab (bold-lab.ai).",
+  "about": [
+   "UCL DARK (Deciding, Acting, and Reasoning with Knowledge) was a research group at University College London led by Tim Rocktäschel, working on reinforcement learning, open-endedness and the safety of language models.",
+   "Edward Grefenstette was an honorary professor and Roberta Raileanu and Jack Parker-Holder honorary lecturers. Alumni include researchers now at Google DeepMind, Anthropic and the UK AI Security Institute.",
+   "The group's website now reports that DARK has been merged into the BOLD Lab. Its research code remains on GitHub."
+  ],
+  "key_people": [
+   {
+    "name": "Tim Rocktäschel",
+    "role": "Professor of Artificial Intelligence, lab lead",
+    "url": "https://rockt.github.io",
+    "note": "Led UCL DARK."
+   },
+   {
+    "name": "Edward Grefenstette",
+    "role": "Honorary Professor",
+    "url": "https://www.egrefen.com",
+    "note": "Co-supervised students in the group."
+   },
+   {
+    "name": "Roberta Raileanu",
+    "role": "Honorary Lecturer",
+    "url": "https://rraileanu.github.io",
+    "note": "Works on generalization in reinforcement learning."
+   },
+   {
+    "name": "Jack Parker-Holder",
+    "role": "Honorary Lecturer",
+    "url": "https://jparkerholder.github.io",
+    "note": "Works on open-ended learning."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Rainbow Teaming",
+    "note": "Adversarial prompt generation method (arXiv 2402.16822), accepted to NeurIPS 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "JaxMARL",
+    "note": "Multi-agent reinforcement learning in JAX (arXiv 2311.10090), accepted to NeurIPS 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Two ICML 2024 Best Paper Awards",
+    "note": "For Genie and for the study of debate with more persuasive LLMs.",
+    "year": "2024"
+   },
+   {
+    "title": "Group merged into BOLD Lab",
+    "note": "The lab website reports the group as sunsetted.",
+    "year": "2025"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Rainbow Teaming",
+    "url": "https://arxiv.org/abs/2402.16822",
+    "year": "2024"
+   },
+   {
+    "title": "JaxMARL",
+    "url": "https://arxiv.org/abs/2311.10090",
+    "year": "2023"
+   },
+   {
+    "title": "Genie: Generative Interactive Environments",
+    "url": "https://arxiv.org/abs/2402.15391",
+    "year": "2024"
+   },
+   {
+    "title": "Debating with More Persuasive LLMs Leads to More Truthful Answers",
+    "url": "https://arxiv.org/abs/2402.06782",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "ukp-lab",
+  "key_people": [
+   {
+    "name": "Iryna Gurevych",
+    "role": "Founder and head, Professor at TU Darmstadt",
+    "url": "https://en.wikipedia.org/wiki/Iryna_Gurevych",
+    "note": "Founded the lab; Wikipedia attributes its founding to her."
+   }
+  ],
+  "about": [
+   "The Ubiquitous Knowledge Processing Lab belongs to the Department of Computer Science at TU Darmstadt and was founded by Iryna Gurevych. Its early work covered information retrieval, question answering and the structured use of wikis, including the Java Wikipedia Library and Java Wiktionary Library.",
+   "It created Sentence-BERT, the basis of the Sentence Transformers library, with Nils Reimers in 2019, and develops AdapterHub. In October 2025 maintenance of Sentence Transformers passed to Hugging Face under Apache 2.0."
+  ]
+ },
+ {
+  "id": "ox-vgg",
+  "key_people": [
+   {
+    "name": "Andrew Zisserman",
+    "role": "Professor, founder",
+    "url": "http://www.robots.ox.ac.uk/~az",
+    "note": "Co-author of the VGG networks."
+   },
+   {
+    "name": "Andrea Vedaldi",
+    "role": "Professor",
+    "url": "http://www.vlfeat.org/~vedaldi/",
+    "note": "Principal researcher in the group."
+   },
+   {
+    "name": "João Henriques",
+    "role": "Principal researcher",
+    "url": "http://www.robots.ox.ac.uk/~joao",
+    "note": "Group researcher."
+   },
+   {
+    "name": "Christian Rupprecht",
+    "role": "Principal researcher",
+    "url": "https://chrirupp.github.io",
+    "note": "Group researcher."
+   }
+  ]
+ },
+ {
+  "id": "vita-epfl",
+  "about": [
+   "VITA, the Visual Intelligence for Transportation lab, is led by Alexandre Alahi at EPFL, where he joined in 2017. It works on socially aware AI for safe autonomous systems and mobility.",
+   "Its open code includes OpenPifPaf for human pose estimation, which was combined with commercial licensing for technology transfer, along with trajectory prediction and video generation projects on GitHub."
+  ],
+  "contributions": [
+   {
+    "title": "Alahi joins EPFL",
+    "note": "Start of lab leadership.",
+    "year": "2017"
+   },
+   {
+    "title": "OpenPifPaf technology transfer",
+    "note": "Open-source pose estimation tool paired with commercial licenses.",
+    "year": "2022"
+   },
+   {
+    "title": "Editor's choice award",
+    "note": "Image and Vision Computing, for human motion prediction.",
+    "year": "2021"
+   },
+   {
+    "title": "TEDx talk on socially aware AI",
+    "note": "Public outreach on the lab's research.",
+    "year": "2023"
+   }
+  ]
+ },
+ {
+  "id": "voxel51",
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Co-founded in Ann Arbor by Brian Moore and Jason Corso; sources give 2016 or 2018.",
+    "year": "2016"
+   },
+   {
+    "title": "FiftyOne launch",
+    "note": "Open-source experimentation tool announced.",
+    "year": "2020"
+   },
+   {
+    "title": "Series B",
+    "note": "$30M round led by Bessemer Venture Partners, announced May 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "FiftyOne 1.0",
+    "note": "Open-source version 1.0 released in October.",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "upstage",
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Founded by Sung Kim, formerly of HKUST and Naver's Clova team.",
+    "year": "2020"
+   },
+   {
+    "title": "Series A",
+    "note": "31.6 billion won raised.",
+    "year": "2021"
+   },
+   {
+    "title": "Solar 10.7B",
+    "note": "Compact model released.",
+    "year": "2023"
+   },
+   {
+    "title": "Series B",
+    "note": "100 billion won raised from investors including SoftBank Ventures Asia and Korea Development Bank.",
+    "year": "2024"
+   },
+   {
+    "title": "Solar Pro 2",
+    "note": "Released in July.",
+    "year": "2025"
+   }
+  ],
+  "about": [
+   "Upstage was founded in October 2020 by Sung Kim, a former professor at the Hong Kong University of Science and Technology who previously led Naver's Clova team. It builds language models and document AI for enterprises.",
+   "Its compact Solar 10.7B model was released in December 2023, followed by Solar Pro 2 in July 2025. Some models are published openly, though later releases are under the Upstage Solar License."
+  ]
+ },
+ {
+  "id": "zai-zhipu",
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Tsinghua spin-out founded in Beijing.",
+    "year": "2019"
+   },
+   {
+    "title": "GLM paper",
+    "note": "First GLM training algorithm presented at ACL.",
+    "year": "2022"
+   },
+   {
+    "title": "MIT-licensed releases and rebrand",
+    "note": "Models released under MIT in 2025; GLM-4.5 and international rebrand to Z.ai in July.",
+    "year": "2025"
+   },
+   {
+    "title": "Hong Kong listing",
+    "note": "Listed on 8 January.",
+    "year": "2026"
+   },
+   {
+    "title": "GLM-5",
+    "note": "Released 12 February; GLM-5.1 open-sourced in April.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Tang Jie",
+    "role": "Co-founder, chief scientist",
+    "url": "https://en.wikipedia.org/wiki/Zhipu_AI",
+    "note": "Tsinghua professor; named as co-founder on the company's Wikipedia entry."
+   }
+  ]
+ },
+ {
+  "id": "zyphra",
+  "contributions": [
+   {
+    "title": "Zonos-v0.1",
+    "note": "Open-weight 1.6B text-to-speech model under Apache 2.0.",
+    "year": "2025"
+   },
+   {
+    "title": "ZAYA1 on AMD",
+    "note": "Large-scale mixture-of-experts training on AMD Instinct MI300X with IBM Cloud.",
+    "year": "2025"
+   },
+   {
+    "title": "ZAYA1-8B",
+    "note": "Open reasoning model released under Apache 2.0.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "vistec-airesearch",
+  "contributions": [
+   {
+    "title": "English-Thai translation dataset and models",
+    "note": "Released in June.",
+    "year": "2020"
+   },
+   {
+    "title": "WangchanBERTa",
+    "note": "Thai RoBERTa-based model pretrained on 78 GB of text, released in March.",
+    "year": "2021"
+   },
+   {
+    "title": "Thai Speech Emotion Dataset",
+    "note": "Released in March.",
+    "year": "2021"
+   },
+   {
+    "title": "WangchanLION",
+    "note": "Instruction-tuned Thai SEA-LION model.",
+    "year": "2024"
+   },
+   {
+    "title": "WangchanLION-v3",
+    "note": "Continual pretraining from Llama 3.1 8B.",
+    "year": "2025"
+   }
+  ],
+  "papers": [
+   {
+    "title": "WangchanBERTa: Pretraining transformer-based Thai Language Models",
+    "url": "https://arxiv.org/abs/2101.09635",
+    "year": "2021"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Sarana Nutanong",
+    "role": "Researcher at VISTEC, WangchanBERTa co-author",
+    "url": "https://arxiv.org/abs/2101.09635",
+    "note": "Author list of the WangchanBERTa paper."
+   }
+  ]
+ },
+ {
+  "id": "ytu-cosmos",
+  "key_people": [
+   {
+    "name": "Mehmet Fatih Amasyali",
+    "role": "Professor, group member listed on Hugging Face",
+    "url": "https://huggingface.co/ytu-ce-cosmos",
+    "note": "Listed as a member of the organization."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "cosmosGPT",
+    "note": "Monolingual Turkish training paper.",
+    "year": "2024"
+   },
+   {
+    "title": "Turkish-Gemma-9b",
+    "note": "9B model released on Hugging Face.",
+    "year": "2025"
+   },
+   {
+    "title": "Cosmos Turkish Corpus v1.0",
+    "note": "Turkish pretraining corpus published as a dataset.",
+    "year": "2025"
+   },
+   {
+    "title": "ModernBERT-TR",
+    "note": "Family of roughly 150M-parameter Turkish encoder models.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "ufal",
+  "key_people": [
+   {
+    "name": "Jan Hajič",
+    "role": "Professor, Editor-in-Chief of the Prague Bulletin of Mathematical Linguistics",
+    "url": "https://ufal.mff.cuni.cz/~hajic",
+    "note": "Leads Charles University's group in Humane-AI-Net."
+   },
+   {
+    "name": "Ondřej Bojar",
+    "role": "Researcher in machine translation",
+    "url": "https://ufal.mff.cuni.cz/~bojar/publications",
+    "note": "Machine translation research."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Institute established",
+    "note": "ÚFAL founded.",
+    "year": "1990"
+   },
+   {
+    "title": "UDPipe",
+    "note": "Pipeline released.",
+    "year": "2016"
+   },
+   {
+    "title": "whisper_streaming",
+    "note": "Real-time streaming wrapper for Whisper transcription.",
+    "year": "2023"
+   }
+  ]
+ },
+ {
+  "id": "ultralytics",
+  "contributions": [
+   {
+    "title": "YOLOv5",
+    "note": "Released by Glenn Jocher on 26 June.",
+    "year": "2020"
+   },
+   {
+    "title": "YOLOv8",
+    "note": "Introduced; project moves to AGPL-3.0.",
+    "year": "2023"
+   },
+   {
+    "title": "YOLO11",
+    "note": "Released in September.",
+    "year": "2024"
+   },
+   {
+    "title": "YOLO26",
+    "note": "Next-generation release, per the company's blog.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "unsloth",
+  "contributions": [
+   {
+    "title": "Unsloth launch",
+    "note": "Introduced on 30 November as faster AI training.",
+    "year": "2023"
+   },
+   {
+    "title": "Y Combinator S24",
+    "note": "The company joins YC.",
+    "year": "2024"
+   },
+   {
+    "title": "Seed funding",
+    "note": "Seed round of roughly $500K, reported in September or October.",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "turing",
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Turing starts with the aim of fully autonomous vehicles.",
+    "year": "2021"
+   },
+   {
+    "title": "Heron and CoVLA",
+    "note": "Heron VLMs and the CoVLA driving dataset released.",
+    "year": "2024"
+   },
+   {
+    "title": "Heron-NVILA-Lite",
+    "note": "15B, 2B and 1B models made public under GENIAC.",
+    "year": "2025"
+   },
+   {
+    "title": "VLA driving on public roads",
+    "note": "First real-time VLA control reported in Japan.",
+    "year": "2026"
+   }
+  ]
+ }
+]

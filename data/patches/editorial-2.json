@@ -1,0 +1,967 @@
+[
+ {
+  "id": "common-crawl",
+  "tagline": "A nonprofit that has published free, open web crawl archives since 2008, forming a foundation dataset for language model research.",
+  "about": [
+   "Common Crawl is a 501(c)(3) nonprofit founded in 2007 by Gil Elbaz, who had earlier co-founded Applied Semantics. Its premise was that web-scale crawl data should be available to researchers who lack the resources to run their own crawling infrastructure.",
+   "The foundation publishes monthly crawl archives, each typically containing more than two billion pages, in WARC, WAT and WET formats. It also releases URL and CDXJ indexes and host-level and domain-level web graphs. The data is hosted on Amazon Web Services and can be downloaded free of charge.",
+   "A small staff of engineers and researchers maintains the crawler and the datasets, supported by a board and an advisory group. The archives serve academic researchers, startups and the teams that build language models."
+  ],
+  "mission": "Common Crawl aims to keep a large, current copy of the public web freely available so that anyone can analyze it. It treats open access to crawl data as a way to widen who can do research on the web and on language technology.",
+  "known_for": [
+   "Open monthly web crawl archives",
+   "More than 10 petabytes of crawled data since 2008",
+   "Web graphs with PageRank and harmonic centrality",
+   "A common source of training text for language models"
+  ],
+  "contributions": [
+   {
+    "title": "Foundation established",
+    "note": "Gil Elbaz founded the nonprofit to publish crawl data for public use.",
+    "year": "2007"
+   },
+   {
+    "title": "First archive crawl",
+    "note": "Crawl archives were made available publicly beginning in 2008.",
+    "year": "2008"
+   },
+   {
+    "title": "Web graph releases",
+    "note": "Host-level and domain-level web graphs with Harmonic Centrality and PageRank values are published alongside the crawls.",
+    "year": "2020"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Rich Skrenta",
+    "role": "Executive Director",
+    "url": "https://commoncrawl.org/team"
+   },
+   {
+    "name": "Gil Elbaz",
+    "role": "Founder and Chairman",
+    "url": "https://commoncrawl.org/team",
+    "note": "Founded Common Crawl in 2007."
+   },
+   {
+    "name": "Greg Lindahl",
+    "role": "Chief Technology Officer",
+    "url": "https://commoncrawl.org/team"
+   },
+   {
+    "name": "Sebastian Nagel",
+    "role": "Distinguished Engineer",
+    "url": "https://commoncrawl.org/team"
+   },
+   {
+    "name": "Thom Vaughan",
+    "role": "Principal Engineer",
+    "url": "https://commoncrawl.org/team"
+   },
+   {
+    "name": "Pedro Ortiz Suarez",
+    "role": "Principal Research Scientist",
+    "url": "https://commoncrawl.org/team"
+   }
+  ],
+  "founded": 2007
+ },
+ {
+  "id": "common-voice",
+  "tagline": "Mozilla's crowdsourced, public-domain speech corpus, collected in hundreds of languages to open up speech technology beyond a few dominant ones.",
+  "about": [
+   "Common Voice is a Mozilla project launched in June 2017 in which volunteers record sentences and review other contributors' recordings. The resulting corpus pairs audio with transcripts and is released as a public good.",
+   "Transcribed sentences are dedicated to the public domain under CC0, so developers can use the data for speech-to-text and text-to-speech without restrictions or fees. The first multilingual release in February 2019 covered 18 languages, and as of December 2025 the project collects data for more than 250 languages.",
+   "The English, Catalan, Kinyarwanda, Belarusian and Esperanto collections have the most recorded hours. The data is widely mirrored and used for training and evaluating speech recognition models."
+  ],
+  "mission": "Common Voice aims to make voice technology available in every language by building diverse, openly licensed speech datasets with the help of volunteer communities. It focuses especially on languages that commercial datasets overlook.",
+  "known_for": [
+   "Crowdsourced multilingual speech corpus",
+   "CC0 public-domain speech data",
+   "Coverage of more than 250 languages",
+   "Strong Kinyarwanda and Catalan collections"
+  ],
+  "contributions": [
+   {
+    "title": "Project launch",
+    "note": "Mozilla launched Common Voice in June 2017 as a crowdsourcing effort for open speech data.",
+    "year": "2017"
+   },
+   {
+    "title": "First dataset release",
+    "note": "The first voice dataset was published in November 2017.",
+    "year": "2017"
+   },
+   {
+    "title": "Multilingual release",
+    "note": "A February 2019 release added data for 18 languages.",
+    "year": "2019"
+   },
+   {
+    "title": "Scale milestone",
+    "note": "By July 2020 the database held 7,226 hours of recordings in 54 languages.",
+    "year": "2020"
+   },
+   {
+    "title": "250 languages",
+    "note": "By December 2025 the project was collecting data for more than 250 languages.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Katharina Borchert",
+    "role": "Mozilla representative who discussed the project's goals",
+    "url": "https://en.wikipedia.org/wiki/Common_Voice",
+    "note": "Named in Wikipedia's article on the project."
+   }
+  ],
+  "founded": 2017,
+  "_flag": "Common Voice is a project run by Mozilla rather than an independent lab, though its data and code are open."
+ },
+ {
+  "id": "compvis",
+  "tagline": "The Computer Vision and Learning group at LMU Munich, which developed latent diffusion, the research behind Stable Diffusion, and releases its code openly.",
+  "about": [
+   "CompVis is the Computer Vision and Learning group at LMU Munich, formerly the Computer Vision Group at Heidelberg University, led by Prof. Dr. Bjorn Ommer. Its research covers generative visual synthesis, invertible deep models for explainable AI, deep metric and representation learning, and self-supervised learning.",
+   "The group is best known for latent diffusion models, presented at CVPR 2022 as a method for high-resolution image synthesis. Source code and models were released on GitHub, and the approach underlies Stable Diffusion.",
+   "Newer projects listed on the group's site include SCFlow, TREAD and CleanDIFT. The group also applies its methods to the digital humanities and the life sciences."
+  ],
+  "mission": "The group pursues fundamental research in computer vision and machine learning, with an emphasis on generative models and interpretable representations. It publishes code and models so that others can build on the work.",
+  "known_for": [
+   "Latent diffusion models",
+   "The research basis of Stable Diffusion",
+   "Open image synthesis code and models",
+   "Explainable and generative vision research"
+  ],
+  "contributions": [
+   {
+    "title": "Latent diffusion models",
+    "note": "The group presented high-resolution image synthesis with latent diffusion at CVPR and released code and models on GitHub.",
+    "year": "2022"
+   },
+   {
+    "title": "Stable Diffusion",
+    "note": "The group's latent diffusion work was the foundation for the Stable Diffusion image generator.",
+    "year": "2022"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Bjorn Ommer",
+    "role": "Head of the Computer Vision and Learning group, LMU Munich",
+    "url": "https://ommer-lab.com"
+   }
+  ]
+ },
+ {
+  "id": "contextual-ai",
+  "tagline": "An enterprise retrieval-augmented generation company whose research arm releases open alignment methods and retrieval models.",
+  "about": [
+   "Contextual AI is a company founded in 2023 that builds retrieval-augmented generation systems for enterprise use. It pairs a commercial platform with a research effort that publishes open code and models.",
+   "Its GitHub and Hugging Face organisations host alignment libraries and retrieval and reranker models. These releases are intended for practitioners who build their own RAG pipelines."
+  ],
+  "mission": "The company works to make language models reliable on enterprise data by grounding them in retrieval. Its open releases are meant to share the underlying alignment and retrieval methods with the research community.",
+  "known_for": [
+   "Enterprise RAG platform",
+   "Open alignment libraries",
+   "Open reranker and retrieval models"
+  ],
+  "contributions": [],
+  "key_people": [],
+  "founded": 2023
+ },
+ {
+  "id": "danish-foundation-models",
+  "tagline": "A consortium of Danish universities building open language models, datasets and evaluations so that Danish is not left behind in AI.",
+  "about": [
+   "Danish Foundation Models is a collaborative effort across Danish universities and research institutions to develop, evaluate and adapt open language AI for Danish society. The core partners are the University of Southern Denmark, Aarhus University through its Center for Humanities Computing, the University of Copenhagen and the Alexandra Institute.",
+   "The project argues that smaller languages risk being excluded as language models become critical infrastructure. It works with public bodies, industry and research projects across Denmark, the Nordics and Europe, and publishes its models and datasets openly on Hugging Face."
+  ],
+  "mission": "The consortium aims to give Danish society open, well-evaluated language technology that it can adopt and adapt. It treats openness of models and data as a condition for public benefit.",
+  "known_for": [
+   "Open Danish language models",
+   "Open Danish datasets and benchmarks",
+   "Cross-university collaboration in Denmark"
+  ],
+  "contributions": [],
+  "key_people": []
+ },
+ {
+  "id": "deep-cogito",
+  "tagline": "A San Francisco lab releasing open-weight reasoning models trained by iterated distillation and amplification, with the stated aim of general superintelligence.",
+  "about": [
+   "Deep Cogito is headquartered in San Francisco and describes its goal as building general superintelligence. It argues that this requires scientific advances such as improved reasoning and iterative self-improvement.",
+   "The lab introduced its approach, iterated distillation and amplification (IDA), with the Cogito v1 Preview models in April 2025. It followed with Cogito v2 Preview in July 2025 and Cogito v2.1, an open-weight model, in November 2025."
+  ],
+  "mission": "Deep Cogito pursues models that improve through repeated cycles of search and distillation. It releases open weights as part of that research program.",
+  "known_for": [
+   "Iterated distillation and amplification",
+   "Cogito open-weight reasoning models",
+   "Cogito v2.1 release"
+  ],
+  "contributions": [
+   {
+    "title": "Cogito v1 Preview",
+    "note": "The lab introduced IDA with its first preview models.",
+    "year": "2025"
+   },
+   {
+    "title": "Cogito v2 Preview",
+    "note": "A second release moved from inference-time search toward self-improvement.",
+    "year": "2025"
+   },
+   {
+    "title": "Cogito v2.1",
+    "note": "A frontier open-weight model with improved reasoning was released in November 2025.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [],
+  "founded": 2024
+ },
+ {
+  "id": "deep-learning-indaba",
+  "tagline": "A pan-African machine learning movement that strengthens African AI through an annual Indaba, local IndabaX events, mentorship and awards.",
+  "about": [
+   "Deep Learning Indaba was conceived to make Africans active shapers and owners of advances in artificial intelligence. Its earliest edition listed on the site is 2017, and the 2026 gathering is planned for Nigeria.",
+   "The organisation is led by Indaba Abantu, a steering group of Africans across the continent and abroad, with an advisory board and a board of trustees. Its legal entity is Deep Learning Indaba Ltd, a non-profit company limited by guarantee registered in England and Wales.",
+   "Programmes include the annual Indaba, locally organised IndabaX events, a mentorship programme, an ideathon, the DLI Awards and publications. Its GitHub organisation publishes open practical notebooks from each Indaba."
+  ],
+  "mission": "The Indaba aims to strengthen machine learning and artificial intelligence in Africa and to raise African participation and diversity in the field.",
+  "known_for": [
+   "Annual Indaba conference across Africa",
+   "IndabaX local community events",
+   "Mentorship and awards programmes",
+   "Open practical notebooks"
+  ],
+  "contributions": [
+   {
+    "title": "First Indaba",
+    "note": "The earliest edition listed on the organisation's site.",
+    "year": "2017"
+   }
+  ],
+  "key_people": [],
+  "founded": 2017
+ },
+ {
+  "id": "deepseek",
+  "tagline": "A Hangzhou AI lab, funded by the hedge fund High-Flyer, known for releasing open-weight V3 and R1 models.",
+  "about": [
+   "DeepSeek was founded on 17 July 2023 as a spin-off from the AI research lab of High-Flyer, a Chinese hedge fund that owns and funds it. Liang Wenfeng founded the company and serves as CEO.",
+   "The lab released DeepSeek-V2 in May 2024, which introduced multi-head latent attention within a mixture-of-experts design, and DeepSeek-V3 in December 2024. DeepSeek-R1 followed on 20 January 2025 alongside a chatbot, with R1 released under the MIT License."
+  ],
+  "mission": "DeepSeek pursues capable general models and publishes weights and technical reports for them. It is financed by its parent rather than by outside venture capital.",
+  "known_for": [
+   "DeepSeek-R1 reasoning model",
+   "MIT-licensed open weights",
+   "Multi-head latent attention",
+   "DeepSeek-V3 mixture-of-experts model"
+  ],
+  "contributions": [
+   {
+    "title": "DeepSeek founded",
+    "note": "The company was established as a spin-off of High-Flyer's AI research lab.",
+    "year": "2023"
+   },
+   {
+    "title": "DeepSeek-V2",
+    "note": "The model introduced multi-head latent attention with a mixture-of-experts architecture.",
+    "year": "2024"
+   },
+   {
+    "title": "DeepSeek-V3",
+    "note": "A larger mixture-of-experts model was released in December 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "DeepSeek-R1",
+    "note": "The reasoning model launched on 20 January 2025 and was released under the MIT License.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Liang Wenfeng",
+    "role": "Founder and CEO",
+    "url": "https://en.wikipedia.org/wiki/DeepSeek",
+    "note": "Also associated with the parent fund High-Flyer."
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "deepset",
+  "tagline": "A Berlin company that created and maintains Haystack, an open-source framework for building LLM and retrieval-augmented applications.",
+  "about": [
+   "deepset began building custom language AI systems for industry in 2018. In 2020 it developed Haystack, an open-source Python framework that has become a widely used base for AI agents and retrieval applications.",
+   "The company is co-led by Milos Rusic as CEO and Malte Pietsch as CTO, both co-founders. It sells enterprise products and services built on the open-source foundation and has also released German language models and datasets."
+  ],
+  "mission": "deepset aims to make custom AI solutions accessible to every organization by simplifying the development of LLM agents and applications.",
+  "known_for": [
+   "Haystack open-source framework",
+   "Retrieval-augmented generation tooling",
+   "German language models and datasets"
+  ],
+  "contributions": [
+   {
+    "title": "Custom language AI",
+    "note": "The company began building language AI systems for industry customers.",
+    "year": "2018"
+   },
+   {
+    "title": "Haystack",
+    "note": "deepset developed Haystack as an open-source Python framework.",
+    "year": "2020"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Milos Rusic",
+    "role": "CEO and co-founder",
+    "url": "https://www.deepset.ai/about"
+   },
+   {
+    "name": "Malte Pietsch",
+    "role": "CTO and co-founder",
+    "url": "https://www.deepset.ai/about"
+   },
+   {
+    "name": "Ole Dallerup",
+    "role": "VP Engineering and Product",
+    "url": "https://www.deepset.ai/about"
+   }
+  ],
+  "founded": 2018
+ },
+ {
+  "id": "dicta",
+  "tagline": "A non-profit center building Hebrew language models and text tools, including the open DictaLM collection.",
+  "about": [
+   "DICTA is an Israeli non-profit center for text analysis that develops language technology for Hebrew. Its Hugging Face and GitHub organisations publish models and tools under the dicta-il and Dicta-Israel-Center-for-Text-Analysis names.",
+   "Its releases include the DictaLM open-weight collection of Hebrew language models. Details of the center's history and staff could not be verified from the pages available."
+  ],
+  "mission": "The center works to provide high-quality, openly available language technology for Hebrew.",
+  "known_for": [
+   "Hebrew language models",
+   "DictaLM open-weight collection",
+   "Hebrew text analysis tools"
+  ],
+  "contributions": [],
+  "key_people": []
+ },
+ {
+  "id": "digital-umuganda",
+  "tagline": "A Rwanda-based team building voice infrastructure and open datasets for African languages, with a focus on Kinyarwanda.",
+  "about": [
+   "Digital Umuganda is a Rwanda-based African startup whose stated goal is to create and promote voice infrastructure for African languages. Its interests are African natural language processing, speech-to-text, text-to-speech and data collection.",
+   "Its Hugging Face organisation lists 12 members, 39 models and 22 datasets. Releases include Kinyarwanda and Swahili speech recognition models, a Kinyarwanda translation model, a text-to-speech model and the AfriVoice speech datasets."
+  ],
+  "mission": "Digital Umuganda aims to build the speech and language resources that African languages need to be supported by modern AI.",
+  "known_for": [
+   "Kinyarwanda speech recognition",
+   "AfriVoice speech datasets",
+   "African language data collection"
+  ],
+  "contributions": [],
+  "key_people": []
+ },
+ {
+  "id": "ellamind",
+  "tagline": "A German AI company, based in Bremen and Berlin, that builds evaluation tools and open-source infrastructure for language models.",
+  "about": [
+   "ellamind GmbH works on evaluation, data and environments for AI systems and helps regulated industries such as health insurance, banking and public administration bring them into production. Its products include elluminate, an agentic evaluation platform, and an accessibility testing agent.",
+   "The company open-sources base-eval, curated lm-evaluation-harness task configurations for English and German base models, and inference-hive, distributed LLM inference for SLURM clusters, both under Apache-2.0. It also publishes propella-1, a family of small multilingual annotation models, and sui-1, a 24B-parameter summarization model with inline citations, on Hugging Face."
+  ],
+  "mission": "ellamind focuses on making AI systems measurable and dependable for organisations in regulated sectors, and shares part of its tooling as open source.",
+  "known_for": [
+   "Open evaluation tooling for German models",
+   "inference-hive for SLURM clusters",
+   "propella-1 annotation models"
+  ],
+  "contributions": [],
+  "key_people": []
+ },
+ {
+  "id": "epoch-ai",
+  "tagline": "A research organization that publishes open datasets and analysis on AI compute, hardware, investment and data centers.",
+  "about": [
+   "Epoch AI began in 2021 as a group of volunteers and became a formal organization after its 2022 paper on training compute trends. It describes its aim as helping people understand AI from a neutral perspective grounded in the best available evidence.",
+   "Its public databases cover ML hardware, training compute estimates for AI models, AI investment and companies, GPU clusters and AI data centers. It also publishes analysis, chip sales data and polling on AI usage."
+  ],
+  "mission": "Epoch AI seeks to improve society's understanding of the drivers, progress and impact of AI, using data to inform decisions about the technology.",
+  "known_for": [
+   "Training compute estimates for AI models",
+   "Public databases on GPU clusters and data centers",
+   "Evidence-based AI trend analysis"
+  ],
+  "contributions": [
+   {
+    "title": "Volunteer group formed",
+    "note": "Epoch AI started as a group of volunteers.",
+    "year": "2021"
+   },
+   {
+    "title": "Training compute paper",
+    "note": "A 2022 paper on compute trends led the group to become a formal organization.",
+    "year": "2022"
+   }
+  ],
+  "key_people": []
+ },
+ {
+  "id": "essential-ai",
+  "tagline": "A San Francisco lab led by Ashish Vaswani that builds an open platform for AI and has released the Rnj-1 model and the Essential-Web dataset.",
+  "about": [
+   "Essential AI is led by CEO Ashish Vaswani and describes itself as building an open platform to fuel and accelerate AI breakthroughs globally. Its research output covers pretraining data, optimizers and model releases.",
+   "The lab published Essential-Web, a 24-trillion-token organized web dataset, in June 2025 and a series of papers and posts on the Muon optimizer in May and June 2025. In December 2025 it announced Rnj-1, which it calls its first instrument of intelligence."
+  ],
+  "mission": "Essential AI aims to build an open platform that accelerates AI progress, and it shares datasets and research as part of that effort.",
+  "known_for": [
+   "Essential-Web 24T-token dataset",
+   "Rnj-1 open model",
+   "Research on the Muon optimizer"
+  ],
+  "contributions": [
+   {
+    "title": "Rethinking reflection in pre-training",
+    "note": "The lab published a paper and blog post on reflection during pre-training.",
+    "year": "2025"
+   },
+   {
+    "title": "Practical efficiency of Muon",
+    "note": "A research paper studied the practical efficiency of Muon for pretraining.",
+    "year": "2025"
+   },
+   {
+    "title": "Essential-Web",
+    "note": "The lab released a 24-trillion-token organized web dataset.",
+    "year": "2025"
+   },
+   {
+    "title": "Rnj-1",
+    "note": "The lab announced its first model release, Rnj-1, in December 2025.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Ashish Vaswani",
+    "role": "CEO",
+    "url": "https://www.essential.ai/about"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "eurollm",
+  "tagline": "A series of open multilingual language models covering the 24 official EU languages, built by a European research and industry consortium.",
+  "about": [
+   "EuroLLM is developed under the Horizon Europe UTTER project by a consortium that includes Instituto Superior Tecnico, the University of Edinburgh, Instituto de Telecomunicacoes, Universite Paris-Saclay, Unbabel, Sorbonne University, Naver Labs and the University of Amsterdam. The project is funded by Horizon Europe, the European Research Council and EuroHPC.",
+   "The models support all 24 official EU languages and training data covers 35 languages. Released models include EuroLLM-1.7B for edge devices, EuroLLM-9B and EuroLLM-22B with a 32K context, in base and instruct versions, available on Hugging Face."
+  ],
+  "mission": "EuroLLM aims to provide fully open language models that serve Europe's linguistic diversity, rather than relying on models centered on English.",
+  "known_for": [
+   "Open models for all 24 EU languages",
+   "EuroLLM-9B and 22B releases",
+   "UTTER Horizon Europe project"
+  ],
+  "contributions": [
+   {
+    "title": "EuroHPC compute grant",
+    "note": "The project used a EuroHPC resource grant (EHPC-EXT-2023E01-042) for training.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Andre Martins",
+    "role": "Project lead, Instituto Superior Tecnico",
+    "url": "https://eurollm.io",
+    "note": "Listed among key people on the project site."
+   },
+   {
+    "name": "Alexandra Birch",
+    "role": "University of Edinburgh",
+    "url": "https://eurollm.io",
+    "note": "Listed among key people on the project site."
+   },
+   {
+    "name": "Pierre Colombo",
+    "role": "Key person named on the project site",
+    "url": "https://eurollm.io"
+   }
+  ]
+ },
+ {
+  "id": "explosion",
+  "tagline": "A Berlin software company, founded by Matthew Honnibal and Ines Montani, that created the spaCy open-source NLP library and the Prodigy annotation tool.",
+  "about": [
+   "Explosion is a Berlin company founded by Matthew Honnibal, its CTO, and Ines Montani, its CEO. It makes spaCy, an open-source library for natural language processing, and Prodigy, an annotation tool, alongside newer products such as Ellf, an assistant for agentic NLP development.",
+   "The company maintains its software in the open and describes an employee pool with a stake in the business. Its Hugging Face and GitHub organisations host spaCy models, Thinc and related libraries."
+  ],
+  "mission": "Explosion builds practical developer tools for natural language processing and keeps the core libraries open source.",
+  "known_for": [
+   "spaCy NLP library",
+   "Prodigy annotation tool",
+   "Founder-led independent software company"
+  ],
+  "contributions": [],
+  "key_people": [
+   {
+    "name": "Matthew Honnibal",
+    "role": "Founder and CTO",
+    "url": "https://explosion.ai/about"
+   },
+   {
+    "name": "Ines Montani",
+    "role": "Founder and CEO",
+    "url": "https://explosion.ai/about"
+   }
+  ],
+  "founded": 2016
+ },
+ {
+  "id": "far-ai",
+  "tagline": "A nonprofit AI security research organization that builds safety solutions, tests frontier models and convenes the field.",
+  "about": [
+   "FAR.AI describes itself as an AI security research and adoption non-profit. It was co-founded by Adam Gleave, who is CEO, and Karl Berzins, who is president.",
+   "Its work spans in-house research agendas, applied research that validates ideas through near-frontier-scale prototypes, pre-deployment testing and consulting with frontier developers, government capacity building, field-building events and grantmaking, and public safety evaluations. Its GitHub organisation, AlignmentResearch, publishes code from this work."
+  ],
+  "mission": "FAR.AI aims to close the gap between safety research and real-world adoption so that advanced AI is trustworthy, secure and beneficial.",
+  "known_for": [
+   "AI safety and security research",
+   "Pre-deployment testing of frontier models",
+   "Convenings and field-building events"
+  ],
+  "contributions": [],
+  "key_people": [
+   {
+    "name": "Adam Gleave",
+    "role": "Co-founder and CEO",
+    "url": "https://far.ai/about"
+   },
+   {
+    "name": "Karl Berzins",
+    "role": "Co-founder and President",
+    "url": "https://far.ai/about"
+   },
+   {
+    "name": "Boston Nyer",
+    "role": "Chief Operating Officer",
+    "url": "https://far.ai/about"
+   },
+   {
+    "name": "Kellin Pelrine",
+    "role": "Head of Technology, Frontier Safety",
+    "url": "https://far.ai/about"
+   },
+   {
+    "name": "Chris Cundy",
+    "role": "Member of Technical Staff",
+    "url": "https://far.ai/about"
+   },
+   {
+    "name": "Lindsay Murachver",
+    "role": "Head of Programs",
+    "url": "https://far.ai/about"
+   }
+  ]
+ },
+ {
+  "id": "fast-ai",
+  "tagline": "A nonprofit research and education group, founded by Jeremy Howard and Rachel Thomas, behind the fastai library and free deep learning courses.",
+  "about": [
+   "fast.ai was founded in October 2016 by Jeremy Howard and Rachel Thomas with the goal of democratizing deep learning. Sylvain Gugger is also listed as a key person.",
+   "Its free course Practical Deep Learning for Coders was first taught at the University of San Francisco and is delivered online with Python as the only prerequisite. The fastai library, built on PyTorch and licensed under Apache 2.0, reached version 1.0 in the fall of 2018. In 2018 fast.ai students won Stanford's DAWNBench CIFAR-10 challenge for fastest and cheapest training."
+  ],
+  "mission": "fast.ai works to make deep learning accessible to people from varied backgrounds, through free courses and open-source software.",
+  "known_for": [
+   "Practical Deep Learning for Coders",
+   "The fastai library",
+   "DAWNBench CIFAR-10 result"
+  ],
+  "contributions": [
+   {
+    "title": "fast.ai founded",
+    "note": "Jeremy Howard and Rachel Thomas established the group in October 2016.",
+    "year": "2016"
+   },
+   {
+    "title": "DAWNBench win",
+    "note": "Students won the CIFAR-10 category of Stanford's DAWNBench for speed and cost.",
+    "year": "2018"
+   },
+   {
+    "title": "fastai 1.0",
+    "note": "Version 1.0 of the open-source library on PyTorch was released.",
+    "year": "2018"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jeremy Howard",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Fast.ai"
+   },
+   {
+    "name": "Rachel Thomas",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Fast.ai"
+   },
+   {
+    "name": "Sylvain Gugger",
+    "role": "Key contributor",
+    "url": "https://en.wikipedia.org/wiki/Fast.ai"
+   }
+  ],
+  "founded": 2016
+ },
+ {
+  "id": "fbk-mt",
+  "tagline": "The machine translation group at Fondazione Bruno Kessler, publishing open speech and text translation datasets and software.",
+  "about": [
+   "The MT group at Fondazione Bruno Kessler works on speech and text technologies for multilingual communication. Its research covers neural architectures and multimodal resources for applications such as subtitling, interpreting and gender inclusivity, and it sits within FBK's Digital Industry center.",
+   "The group's site lists corpora including MCIF, mGeNTE, MOSEL, Speech-MASSIVE and WAGS, and software such as simulstream. Researchers named on the site include Luisa Bentivogli and Beatrice Savoldi."
+  ],
+  "mission": "The unit aims to advance speech and text translation, with attention to inclusivity, and to share its data and code openly.",
+  "known_for": [
+   "Open speech translation corpora",
+   "Simultaneous translation software",
+   "Gender-fair machine translation research"
+  ],
+  "contributions": [],
+  "key_people": [
+   {
+    "name": "Luisa Bentivogli",
+    "role": "Researcher",
+    "url": "https://mt.fbk.eu"
+   },
+   {
+    "name": "Beatrice Savoldi",
+    "role": "Researcher",
+    "url": "https://mt.fbk.eu"
+   }
+  ]
+ },
+ {
+  "id": "futurehouse",
+  "tagline": "A nonprofit AI-for-science lab, founded by Sam Rodriques and Andrew White, building language agents to automate scientific discovery.",
+  "about": [
+   "FutureHouse was founded in 2023 by Sam Rodriques and Andrew White as a 501(c)(3) nonprofit funded by philanthropy and grants. Eric and Wendy Schmidt funded its first two years, with later support from Open Philanthropy, the National Science Foundation and the AI Safety Institute, among others.",
+   "Its stated mission is to build an AI Scientist that automates and accelerates fundamental science to improve human health. Its work includes PaperQA2 for scientific literature, the Aviary framework for training language agents, the Robin multi-agent system, the ether0 chemistry reasoning model and the LAB-Bench and BixBench benchmarks. Systems originally developed under the FutureHouse name are now part of Edison Scientific's platform."
+  ],
+  "mission": "FutureHouse aims to build an AI Scientist that speeds up fundamental research relevant to human health.",
+  "known_for": [
+   "PaperQA2 literature agent",
+   "Robin hypothesis-generation system",
+   "ether0 chemistry model",
+   "LAB-Bench and BixBench benchmarks"
+  ],
+  "contributions": [
+   {
+    "title": "FutureHouse founded",
+    "note": "Sam Rodriques and Andrew White started the nonprofit.",
+    "year": "2023"
+   },
+   {
+    "title": "Robin",
+    "note": "A multi-agent system identified ripasudil as a possible therapy for dry age-related macular degeneration.",
+    "year": "2025"
+   },
+   {
+    "title": "Kosmos",
+    "note": "The AI Scientist Kosmos launched and is now associated with Edison Scientific.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Sam Rodriques",
+    "role": "Co-founder",
+    "url": "https://www.futurehouse.org/about"
+   },
+   {
+    "name": "Andrew White",
+    "role": "Co-founder",
+    "url": "https://www.futurehouse.org/about"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "genmo",
+  "tagline": "A video generation company that released Mochi 1, an open-source video model under the Apache 2.0 license.",
+  "about": [
+   "Genmo is a US video generation company whose first public open-source release was Mochi 1, licensed under Apache 2.0 for individual and commercial use. Its team describes itself as including original creators of foundational AI research.",
+   "The company lists investors and advisors including Ion Stoica, Pieter Abbeel, Joseph Gonzalez, Amjad Masad and Michele Catasta. Weights and code are published on Hugging Face and GitHub."
+  ],
+  "mission": "Genmo aims to advance video generation and to share an open model with the research and developer community.",
+  "known_for": [
+   "Mochi 1 open video model",
+   "Apache 2.0 licensed release"
+  ],
+  "contributions": [
+   {
+    "title": "Mochi 1",
+    "note": "The company released its first public open-source video model.",
+    "year": "2024"
+   }
+  ],
+  "key_people": []
+ },
+ {
+  "id": "gensyn",
+  "tagline": "A London-based project building decentralised infrastructure for machine learning, founded by Ben Fielding and Harry Grieve.",
+  "about": [
+   "Gensyn was founded in 2020 in London by Ben Fielding and Harry Grieve. It describes its mission as building machines that predict the future and works on predictive intelligence infrastructure and verifiable AI.",
+   "The company has raised around 50 million dollars, including a 43 million dollar Series A led by a16z crypto in 2023, with backing from CoinFund, Protocol Labs, Canonical Crypto, Eden Block and Maven 11. Its GitHub organisation publishes open-source frameworks, including RL Swarm for collaborative training over the internet."
+  ],
+  "mission": "Gensyn aims to make machine learning compute open and verifiable by coordinating training across a decentralised network.",
+  "known_for": [
+   "Decentralised machine learning infrastructure",
+   "RL Swarm collaborative training",
+   "Verifiable AI research"
+  ],
+  "contributions": [
+   {
+    "title": "Gensyn founded",
+    "note": "Ben Fielding and Harry Grieve founded the company in London.",
+    "year": "2020"
+   },
+   {
+    "title": "Series A",
+    "note": "a16z crypto led a 43 million dollar funding round.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Ben Fielding",
+    "role": "Co-founder",
+    "url": "https://www.gensyn.ai/about"
+   },
+   {
+    "name": "Harry Grieve",
+    "role": "Co-founder",
+    "url": "https://www.gensyn.ai/about"
+   }
+  ],
+  "founded": 2020,
+  "_flag": "Gensyn is venture-funded and token-oriented infrastructure; its open-source scope is limited to selected frameworks."
+ },
+ {
+  "id": "ghana-nlp",
+  "tagline": "An open-source community building language technology for Ghanaian languages such as Twi, Ewe and Frafra.",
+  "about": [
+   "Ghana NLP is an open-source initiative working on natural language processing for Ghanaian languages and its application to local problems. It aims to build better training data, adapt state-of-the-art techniques to low-resource settings and create working systems such as translators.",
+   "Its projects include the Khaya Translator apps, Ghana Speech ID, the Nsanku translation and ASR benchmarks, and ABENA. The community reports about 600 members and invites volunteers through a join form."
+  ],
+  "mission": "The initiative works to bring Ghanaian languages into modern language technology, beginning with Twi and extending to others.",
+  "known_for": [
+   "Khaya translation apps",
+   "Twi language resources",
+   "Nsanku benchmarks"
+  ],
+  "contributions": [],
+  "key_people": []
+ },
+ {
+  "id": "giskard",
+  "tagline": "A Paris company building AI red-teaming and evaluation tools, with an open-source testing library and the Phare benchmark.",
+  "about": [
+   "Giskard describes its mission as securing conversational AI, with a platform for red teaming, LLM evaluation and vulnerability scanning. Alex Combessie and Jean-Marie John-Mathews are co-founders and co-CEOs.",
+   "The company maintains the open-source Giskard library and publishes the Phare benchmark. Its partners include the European Commission, Bpifrance, Hugging Face and Mistral AI, and investors include Julien Chaumond and Elaia."
+  ],
+  "mission": "Giskard aims to make AI agents and language models safe and reliable through systematic testing.",
+  "known_for": [
+   "Open-source LLM testing library",
+   "Phare safety benchmark",
+   "AI red teaming tools"
+  ],
+  "contributions": [],
+  "key_people": [
+   {
+    "name": "Alex Combessie",
+    "role": "Co-founder and co-CEO",
+    "url": "https://www.giskard.ai/about"
+   },
+   {
+    "name": "Jean-Marie John-Mathews",
+    "role": "Co-founder and co-CEO",
+    "url": "https://www.giskard.ai/about"
+   },
+   {
+    "name": "Pierre Le Jeune",
+    "role": "Head of AI Research",
+    "url": "https://www.giskard.ai/about"
+   }
+  ],
+  "founded": 2021
+ },
+ {
+  "id": "goodfire",
+  "tagline": "An interpretability research company, founded by researchers from OpenAI and Google DeepMind, that works to understand and align AI models.",
+  "about": [
+   "Goodfire says it was founded by researchers who helped pioneer interpretability at OpenAI and Google DeepMind. Its team includes founding members of those efforts, professors on leave and engineers, and it reports raising over 200 million dollars from investors including Menlo, Lightspeed and B Capital.",
+   "Its stated mission is to advance the research and technology needed to understand and align AI so that people can trust superintelligence. Its Hugging Face and GitHub organisations host sparse autoencoders and other interpretability artifacts."
+  ],
+  "mission": "Goodfire aims to make the internal workings of AI models understandable so they can be aligned and trusted.",
+  "known_for": [
+   "Interpretability research",
+   "Open sparse autoencoders",
+   "Neurons as an interpretable basis"
+  ],
+  "contributions": [],
+  "key_people": [],
+  "founded": 2024
+ },
+ {
+  "id": "gorilla",
+  "tagline": "A UC Berkeley project that built Gorilla LLM and the Berkeley Function-Calling Leaderboard for evaluating tool and API use by language models.",
+  "about": [
+   "Gorilla is a UC Berkeley research project led by Shishir G. Patil, Tianjun Zhang, Xin Wang and Joseph E. Gonzalez. It produced Gorilla LLM, an open-source model that invokes API calls, and a paper posted as arXiv 2305.15334.",
+   "Related releases include OpenFunctions v2, a 6.91B-parameter function-calling model, RAFT for retrieval-aware fine-tuning, GoEX, a runtime for executing LLM-generated actions with undo and damage confinement, and the Berkeley Function-Calling Leaderboard, which covers about 2,000 question-function-answer pairs across Python, Java, JavaScript and REST."
+  ],
+  "mission": "Gorilla aims to let language models use tools and APIs reliably, and to give the community open models and benchmarks for measuring that ability.",
+  "known_for": [
+   "Gorilla LLM for API calls",
+   "Berkeley Function-Calling Leaderboard",
+   "RAFT fine-tuning method",
+   "GoEX execution engine"
+  ],
+  "contributions": [
+   {
+    "title": "Gorilla paper",
+    "note": "The Gorilla paper on connecting LLMs with massive APIs appeared as arXiv 2305.15334.",
+    "year": "2023"
+   },
+   {
+    "title": "RAFT",
+    "note": "The group published retriever-aware fine-tuning for domain-specific RAG.",
+    "year": "2024"
+   },
+   {
+    "title": "GoEX",
+    "note": "The group published a runtime for executing LLM-generated actions with undo abstractions.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Shishir G. Patil",
+    "role": "Project lead, UC Berkeley",
+    "url": "https://gorilla.cs.berkeley.edu"
+   },
+   {
+    "name": "Tianjun Zhang",
+    "role": "UC Berkeley",
+    "url": "https://gorilla.cs.berkeley.edu"
+   },
+   {
+    "name": "Xin Wang",
+    "role": "UC Berkeley",
+    "url": "https://gorilla.cs.berkeley.edu"
+   },
+   {
+    "name": "Joseph E. Gonzalez",
+    "role": "Professor, UC Berkeley",
+    "url": "https://gorilla.cs.berkeley.edu"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "h-company",
+  "tagline": "A Paris AI company building computer-use and web agents and releasing its Holo vision-language models as open weights.",
+  "about": [
+   "H Company was founded in Paris in 2023 by five DeepMind researchers, and Gautier Cloix became CEO in 2025. It reports raising more than 200 million euros in 2024 from backers including Accel, UiPath, Bpifrance, Bernard Arnault and Eric Schmidt.",
+   "In 2025 it launched Holo1, described as the first open-weight vision-language model for computer use, together with the Surfer-H web agent. Holo1.5 and Holo2 followed in 2025 and Holo3 and Holo4 in 2026."
+  ],
+  "mission": "H Company aims to build agents that operate software and the web on a user's behalf, and it shares its Holo models as open weights.",
+  "known_for": [
+   "Holo open-weight computer-use models",
+   "Surfer-H web agent",
+   "Paris-based agent research"
+  ],
+  "contributions": [
+   {
+    "title": "H Company founded",
+    "note": "Five DeepMind researchers founded the company in Paris.",
+    "year": "2023"
+   },
+   {
+    "title": "Funding round",
+    "note": "The company raised more than 200 million euros.",
+    "year": "2024"
+   },
+   {
+    "title": "Holo1 and Surfer-H",
+    "note": "The first open-weight computer-use VLM and a web agent launched together.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Gautier Cloix",
+    "role": "CEO since 2025",
+    "url": "https://www.hcompany.ai/about"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "hazy-research",
+  "tagline": "A Stanford research group led by Chris Re, known for efficient architectures and GPU kernels such as ThunderKittens, Hyena, Based and Monarch Mixer.",
+  "about": [
+   "Hazy Research is a Stanford computer science group led by Professor Chris Re. It studies learning from weak supervision and the mathematical foundations of these methods, and turns the results into systems that help people build and maintain machine learning models.",
+   "Its blog covers GPU kernel programming with ThunderKittens, HipKittens and ParallelKittens, efficient architectures including Monarch Mixer, Based, Hyena, S4 and FlashFFTConv, local on-device models such as Minions and OpenJarvis, and long-context memory techniques such as Cartridges."
+  ],
+  "mission": "The group aims to make machine learning systems faster and easier to build by pairing theory with open implementations.",
+  "known_for": [
+   "ThunderKittens GPU kernels",
+   "Hyena, Based and Monarch Mixer architectures",
+   "Minions local-model work"
+  ],
+  "contributions": [],
+  "key_people": [
+   {
+    "name": "Chris Re",
+    "role": "Professor and group lead, Stanford",
+    "url": "https://hazyresearch.stanford.edu"
+   }
+  ]
+ },
+ {
+  "id": "helsinki-nlp",
+  "tagline": "The language technology group at the University of Helsinki, creators of the OPUS-MT open translation models and OPUS parallel corpora.",
+  "about": [
+   "Helsinki-NLP is the language technology research group at the University of Helsinki. Its research areas include cross-lingual NLP, data-intensive and neural NLP, NLP for morphologically rich languages and language technology in the humanities.",
+   "The group maintains OPUS, a collection of parallel corpora, and publishes translation models and code through its GitHub and Hugging Face organisations. It takes part in national and international research projects."
+  ],
+  "mission": "The group aims to provide open translation models and parallel data that cover many languages, including low-resource ones.",
+  "known_for": [
+   "OPUS-MT open translation models",
+   "OPUS parallel corpora"
+  ],
+  "contributions": [],
+  "key_people": []
+ },
+ {
+  "id": "hitz",
+  "tagline": "The Basque Center for Language Technology at the University of the Basque Country, publishing Basque and multilingual language models and NLP tools.",
+  "about": [
+   "HiTZ is the Basque Center for Language Technology at the University of the Basque Country. It develops language technology for Basque and other languages, and its Hugging Face and GitHub organisations publish models and tools.",
+   "Its releases include Basque and multilingual language models and information-extraction tools. Detailed history and staff could not be verified because the center's site blocked automated access."
+  ],
+  "mission": "HiTZ works to give Basque and other under-resourced languages modern language technology, openly shared.",
+  "known_for": [
+   "Basque language models",
+   "Multilingual NLP research",
+   "Information-extraction tools"
+  ],
+  "contributions": [],
+  "key_people": []
+ }
+]

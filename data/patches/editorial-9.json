@@ -1,0 +1,916 @@
+[
+ {
+  "id": "mlcommons",
+  "tagline": "A vendor-neutral consortium that builds and publishes the MLPerf benchmarks, open datasets and AI safety measurements used across the industry.",
+  "about": [
+   "MLCommons grew out of MLPerf, a benchmarking effort begun in 2018 after engineers and researchers from Baidu, Google, Harvard, Stanford and UC Berkeley began meeting to agree on common ways to measure machine learning performance. The MLCommons association was launched in December 2020 to give that work, and related dataset and tooling projects, a permanent home.",
+   "Its working groups publish benchmark suites for training, inference, high-performance computing, mobile and tiny devices, together with reference implementations on GitHub. Datasets such as People's Speech and tooling such as MLCube are released openly.",
+   "Since 2023 an AI Risk and Reliability group has built safety measurement, which produced the AILuminate benchmark for large language models in December 2024. Member companies, universities and non-profits fund and govern the consortium, and its results are widely cited by hardware vendors and cloud providers."
+  ],
+  "mission": "MLCommons states its mission as standardizing AI measurement so that buyers, builders and policymakers can make informed decisions about accuracy, safety, speed and efficiency.",
+  "known_for": [
+   "MLPerf training and inference benchmarks",
+   "People's Speech open speech dataset",
+   "AILuminate LLM safety benchmark",
+   "MLCube portable ML packaging"
+  ],
+  "contributions": [
+   {
+    "title": "MLPerf Training launched",
+    "note": "Working group announced the first MLPerf Training benchmark in May after early meetings among industry and academic engineers.",
+    "year": "2018"
+   },
+   {
+    "title": "MLPerf Inference launched",
+    "note": "The inference benchmark was announced in June, with first results published in November.",
+    "year": "2019"
+   },
+   {
+    "title": "MLCube created",
+    "note": "A packaging standard for portable machine learning workloads was introduced in November.",
+    "year": "2019"
+   },
+   {
+    "title": "MLCommons association launched",
+    "note": "The consortium was formally launched on 3 December, absorbing MLPerf and the People's Speech effort.",
+    "year": "2020"
+   },
+   {
+    "title": "AI Risk and Reliability group formed",
+    "note": "A working group on AI safety measurement began in November.",
+    "year": "2023"
+   },
+   {
+    "title": "AILuminate v1.0 released",
+    "note": "The first benchmark for assessing the safety of general-purpose chat models was released on 4 December in English.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Peter Mattson",
+    "role": "President and founder",
+    "url": "https://www.linkedin.com/in/peter-mattson-33b8863/"
+   },
+   {
+    "name": "Rebecca Weiss",
+    "role": "Executive Director",
+    "url": "https://www.linkedin.com/in/rjweiss/"
+   },
+   {
+    "name": "David Kanter",
+    "role": "Head of MLPerf",
+    "url": "https://twitter.com/TheKanter"
+   },
+   {
+    "name": "Vijay Janapa Reddi",
+    "role": "Vice President",
+    "url": "http://scholar.harvard.edu/vijay-janapa-reddi/"
+   },
+   {
+    "name": "Carole-Jean Wu",
+    "role": "Vice President",
+    "url": "https://sites.google.com/site/carolejeanwu"
+   }
+  ],
+  "summary": "MLCommons is a consortium that publishes the MLPerf benchmarks, open datasets such as People's Speech and the AILuminate safety benchmark. Reference implementations are on GitHub and datasets on Hugging Face."
+ },
+ {
+  "id": "mlrs-malta",
+  "tagline": "The University of Malta project that builds open corpora, tools and language models for Maltese, a language with few digital resources.",
+  "about": [
+   "The Maltese Language Resource Server is a University of Malta project that produces tools and resources for Maltese, English and Maltese Sign Language. It is coordinated by the Institute of Linguistics and Language Technology together with the Department of Artificial Intelligence.",
+   "The server hosts Korpus Malti, an annotated corpus of roughly 250 million tokens in its version 3.0, as well as a learner corpus, an open lexicon and a sign language dictionary. A 2016 electronic Maltese dictionary built on the group's lexicon was launched with the Malta Communications Authority.",
+   "More recently the group has released Maltese language models and datasets on Hugging Face under the MLRS organisation, for researchers and developers working on Maltese."
+  ],
+  "mission": "The project aims to supply the open language data and software that Maltese needs to be supported by modern language technology.",
+  "known_for": [
+   "Korpus Malti Maltese text corpus",
+   "Open Maltese language models on Hugging Face",
+   "Maltese part-of-speech tagging resources",
+   "Online Maltese dictionary"
+  ],
+  "contributions": [
+   {
+    "title": "MLRS project described in print",
+    "note": "An early paper describes the Maltese Language Resource Server as a two-year research project at the University of Malta.",
+    "year": "2006"
+   },
+   {
+    "title": "Korpus Malti v3.0 tagged",
+    "note": "Version 3.0 of the corpus was annotated with an SVMTool tagger reporting about 97 percent accuracy.",
+    "year": "2016"
+   },
+   {
+    "title": "Official online Maltese dictionary launched",
+    "note": "A dictionary built on the group's lexicon was launched with the Malta Communications Authority in March.",
+    "year": "2016"
+   },
+   {
+    "title": "Maltese BERT models released",
+    "note": "The group published new corpora and BERT-style models for Maltese on Hugging Face.",
+    "year": "2022"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Albert Gatt",
+    "role": "Collaborator, language technology researcher",
+    "url": "https://um.edu.mt/linguistics/ourresearch"
+   },
+   {
+    "name": "Claudia Borg",
+    "role": "Researcher, Department of AI",
+    "url": "https://um.edu.mt/linguistics/ourresearch"
+   },
+   {
+    "name": "Mike Rosner",
+    "role": "Originator of the project",
+    "url": "https://live.european-language-grid.eu/ncc/ncc-malta"
+   },
+   {
+    "name": "Kurt Micallef",
+    "role": "Researcher on Maltese language models",
+    "url": "https://huggingface.co/MLRS"
+   }
+  ]
+ },
+ {
+  "id": "mtg-upf",
+  "tagline": "The Barcelona research group behind Essentia and Freesound-linked work, building open audio and music analysis software since 1994.",
+  "about": [
+   "The Music Technology Group is a research group of the Department of Information and Communication Technologies at Universitat Pompeu Fabra in Barcelona. It was founded in 1994 by Xavier Serra, who still directs it.",
+   "Its research covers audio signal processing, sound and music description, musical interaction, and sound and music communities. The group releases much of its software as open source on GitHub.",
+   "Its best known software is Essentia, a C++ library with Python bindings for audio analysis and music information retrieval. The library began in 2006 to replace a set of ad hoc C++ programs and is released under the AGPLv3 licence."
+  ],
+  "mission": "The group works to advance sound and music computing and to turn that research into open tools used by scientists, developers and artists.",
+  "known_for": [
+   "Essentia audio analysis library",
+   "Founded 1994 by Xavier Serra",
+   "Sound and music computing research",
+   "Open music information retrieval datasets and tools"
+  ],
+  "contributions": [
+   {
+    "title": "MTG founded",
+    "note": "Xavier Serra founded the group at Universitat Pompeu Fabra.",
+    "year": "1994"
+   },
+   {
+    "title": "Essentia development begins",
+    "note": "Started to replace ad hoc C++ programs used inside the group.",
+    "year": "2006"
+   },
+   {
+    "title": "Essentia 1.0",
+    "note": "First numbered release of the library, per Essentia documentation.",
+    "year": "2008"
+   },
+   {
+    "title": "Essentia paper at ACM Multimedia",
+    "note": "Bogdanov and colleagues presented the open-source library at MM'13.",
+    "year": "2013"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Xavier Serra",
+    "role": "Founder and director",
+    "url": "https://en.wikipedia.org/wiki/Music_Technology_Group"
+   },
+   {
+    "name": "Emilia Gomez",
+    "role": "Academic staff",
+    "url": "https://en.wikipedia.org/wiki/Music_Technology_Group"
+   },
+   {
+    "name": "Sergi Jorda",
+    "role": "Academic staff",
+    "url": "https://en.wikipedia.org/wiki/Music_Technology_Group"
+   },
+   {
+    "name": "Rafael Ramirez",
+    "role": "Academic staff",
+    "url": "https://en.wikipedia.org/wiki/Music_Technology_Group"
+   },
+   {
+    "name": "Dmitry Bogdanov",
+    "role": "Essentia lead author",
+    "url": "https://essentia.upf.edu/introduction.html"
+   }
+  ],
+  "founded": 1994
+ },
+ {
+  "id": "nlx-ulisboa",
+  "tagline": "The University of Lisbon language technology group that released the Albertina and Gervasio open models for Portuguese.",
+  "about": [
+   "NLX is the Natural Language and Speech Group at the Department of Informatics of the Faculty of Sciences, University of Lisbon, led by António Branco. Together with the PORTULAN CLARIN infrastructure it publishes language resources and tools for Portuguese.",
+   "Its Hugging Face organisation PORTULAN hosts the Albertina encoder family in European and Brazilian Portuguese, from 100 million to 1.5 billion parameters, and the Gervasio decoder models at 8 and 70 billion parameters.",
+   "The group also publishes benchmark datasets such as extraglue and glue-ptpt and maintains a leaderboard of open language models for Portuguese."
+  ],
+  "mission": "The group works to give Portuguese, in both its European and Brazilian varieties, open neural models and evaluation resources of high quality.",
+  "known_for": [
+   "Albertina Portuguese encoder models",
+   "Gervasio open Portuguese decoders",
+   "PORTULAN CLARIN infrastructure",
+   "Portuguese GLUE-style benchmarks"
+  ],
+  "contributions": [
+   {
+    "title": "Albertina PT-* introduced",
+    "note": "DeBERTa-based encoders for European and Brazilian Portuguese were released with an arXiv paper in May.",
+    "year": "2023"
+   },
+   {
+    "title": "glue-ptpt and parlamento-pt datasets published",
+    "note": "Datasets released on the PORTULAN Hugging Face organisation on 12 May.",
+    "year": "2023"
+   },
+   {
+    "title": "Albertina family extended",
+    "note": "SIGUL 2024 paper added 1.5B and 100M parameter models.",
+    "year": "2024"
+   },
+   {
+    "title": "extraglue datasets released",
+    "note": "extraglue-instruct appeared in March and extraglue in December.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Antonio Branco",
+    "role": "Group leader",
+    "url": "https://huggingface.co/PORTULAN"
+   },
+   {
+    "name": "Rodrigo Santos",
+    "role": "Researcher",
+    "url": "https://huggingface.co/PORTULAN"
+   },
+   {
+    "name": "Luis Gomes",
+    "role": "Researcher",
+    "url": "https://huggingface.co/PORTULAN"
+   },
+   {
+    "name": "Tomas Osorio",
+    "role": "Researcher",
+    "url": "https://huggingface.co/PORTULAN"
+   },
+   {
+    "name": "Joao Ricardo Silva",
+    "role": "Researcher",
+    "url": "https://huggingface.co/PORTULAN"
+   }
+  ]
+ },
+ {
+  "id": "norwai",
+  "tagline": "NTNU's national AI innovation centre, publishing Norwegian large language models for research and experimentation.",
+  "about": [
+   "NorwAI is the Norwegian Research Center for AI Innovation at NTNU in Trondheim, started in October 2020 and directed by Professor Jon Atle Gulla. It combines academic research with industry partners that apply AI.",
+   "In May 2024 the centre launched a suite of Norwegian large language models, built by adapting open architectures such as Mistral and Llama to Norwegian data and trained on NTNU's Idun cluster.",
+   "Models are hosted on Hugging Face and can be downloaded free of charge for research and experiments. The centre states it has neither the mandate nor the resources to serve them as a permanent public API."
+  ],
+  "mission": "NorwAI aims to build Norwegian-language AI capacity and to carry research results into Norwegian industry and public services.",
+  "known_for": [
+   "Norwegian large language models",
+   "NTNU Idun-trained NorLLM suite",
+   "Industry-linked AI research centre"
+  ],
+  "contributions": [
+   {
+    "title": "NorwAI starts operations",
+    "note": "The centre began work in October.",
+    "year": "2020"
+   },
+   {
+    "title": "Large Norwegian GPT model announced",
+    "note": "NorwAI announced plans for a large Norwegian GPT model.",
+    "year": "2023"
+   },
+   {
+    "title": "Norwegian LLM suite launched",
+    "note": "The first set of NorwAI models was released in May.",
+    "year": "2024"
+   },
+   {
+    "title": "Technical report on NorwAI LLMs",
+    "note": "An arXiv report documented the models and training.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jon Atle Gulla",
+    "role": "Center Director",
+    "url": "https://ntnu.edu/norwai/news-archive-2021"
+   }
+  ],
+  "founded": 2020
+ },
+ {
+  "id": "oatml",
+  "tagline": "Yarin Gal's Oxford group on Bayesian deep learning, uncertainty and safe machine learning, with open research code.",
+  "about": [
+   "The Oxford Applied and Theoretical Machine Learning group sits in the Department of Computer Science at the University of Oxford. Yarin Gal announced it in October 2018 and leads it as Associate Professor of Machine Learning.",
+   "Its research covers Bayesian deep learning, uncertainty estimation and the safety of machine learning systems. Code accompanying its papers is released on GitHub.",
+   "Former members include Sebastian Farquhar, Clare Lyle, Pascal Notin and Joost van Amersfoort."
+  ],
+  "mission": "The group works on principled machine learning methods that quantify uncertainty and make learning systems more reliable.",
+  "known_for": [
+   "Bayesian deep learning and uncertainty",
+   "Yarin Gal's group",
+   "Open research code on GitHub"
+  ],
+  "contributions": [
+   {
+    "title": "OATML announced",
+    "note": "Yarin Gal announced the group on 30 October.",
+    "year": "2018"
+   },
+   {
+    "title": "Group web presence at oatml.cs.ox.ac.uk",
+    "note": "The group publishes members, publications and an application page.",
+    "year": "2019"
+   },
+   {
+    "title": "Member pages for alumni such as Aidan Gomez",
+    "note": "Group site lists collaborators and affiliates.",
+    "year": "2020"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Yarin Gal",
+    "role": "Head of group, Associate Professor",
+    "url": "https://cs.ox.ac.uk/people/yarin.gal/website"
+   },
+   {
+    "name": "Aidan Gomez",
+    "role": "Member",
+    "url": "https://oatml.cs.ox.ac.uk/members/aidan_gomez/"
+   },
+   {
+    "name": "Robin Ru",
+    "role": "Member",
+    "url": "https://www.cs.ox.ac.uk/oatml/members/robin_ru/"
+   }
+  ],
+  "founded": 2018
+ },
+ {
+  "id": "photoroom",
+  "tagline": "The Paris image-editing company that trains its own text-to-image models and releases them as open source under Apache 2.0.",
+  "about": [
+   "Photoroom was co-founded in 2019 by Matt, a former GoPro product manager, and engineer Eliot Andres, after frustration with slow tools for cutting out objects from photos. It builds an image-editing app and an API used for e-commerce visuals.",
+   "In 2025 it began publishing its own text-to-image models, called PRX, together with an account of the architecture, training and post-training process. The 1.3 billion parameter model was trained from scratch and is available through the Diffusers library.",
+   "A later pixel-space variant, PRX Pixel, uses raw images without a VAE and also carries an Apache 2.0 licence."
+  ],
+  "mission": "Photoroom wants to show the full process of training production-grade image models and to share it so others can build on it.",
+  "known_for": [
+   "PRX open text-to-image models",
+   "Open training process write-ups",
+   "AI photo editing for commerce"
+  ],
+  "contributions": [
+   {
+    "title": "Photoroom co-founded",
+    "note": "Matt and Eliot Andres founded the company in Paris.",
+    "year": "2019"
+   },
+   {
+    "title": "PRX open-sourced",
+    "note": "Photoroom released its 1.3B parameter text-to-image model and training process with an Apache 2.0 licence.",
+    "year": "2025"
+   },
+   {
+    "title": "PRX in Diffusers",
+    "note": "The model is supported through a PRX pipeline in Hugging Face Diffusers.",
+    "year": "2025"
+   },
+   {
+    "title": "PRX Pixel published",
+    "note": "A pixel-space image model without VAE was described on the Photoroom blog.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Eliot Andres",
+    "role": "Co-founder and engineer",
+    "url": "https://www.photoroom.com/about"
+   },
+   {
+    "name": "Matt (surname not published)",
+    "role": "Co-founder",
+    "url": "https://www.photoroom.com/about"
+   }
+  ],
+  "founded": 2019
+ },
+ {
+  "id": "pluralis-research",
+  "tagline": "A research lab developing Protocol Learning, where large models are trained across many untrusted participants without any one holding the full weights.",
+  "about": [
+   "Pluralis Research was founded by Alexander Long, an ML PhD who previously worked in Amazon's international machine learning group. The lab is backed by investors including Union Square Ventures and CoinFund.",
+   "Its foundational paper, Protocol Learning, Decentralized Frontier Risk and the No-Off Problem, appeared in December 2024. The lab then published work on model-parallel training over low-bandwidth links, including Subspace Networks and Unextractable Protocol Models at NeurIPS 2025.",
+   "Code libraries are on GitHub, and its Agora technical report describes internet-scale pretraining across permissionless participants."
+  ],
+  "mission": "Pluralis argues that frontier models should be trainable by open networks rather than by a few firms, and works on the compression and parallelism needed.",
+  "known_for": [
+   "Protocol Learning concept",
+   "Low-bandwidth model-parallel training",
+   "Unextractable protocol models"
+  ],
+  "contributions": [
+   {
+    "title": "Protocol Learning paper",
+    "note": "Long posted the position paper on arXiv in December.",
+    "year": "2024"
+   },
+   {
+    "title": "Nesterov method for asynchronous pipeline parallel optimization",
+    "note": "Paper accepted at ICML 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Subspace Networks",
+    "note": "Communication-efficient model parallelism paper at NeurIPS 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Unextractable Protocol Models",
+    "note": "Paper on training and inference without weight materialization, NeurIPS 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Agora technical report",
+    "note": "Report on collective, permissionless pretraining of LLMs.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Alexander Long",
+    "role": "Founder",
+    "url": "https://pluralis.ai/"
+   },
+   {
+    "name": "Thalaiyasingam Ajanthan",
+    "role": "Researcher, paper author",
+    "url": "https://pluralis.ai/"
+   },
+   {
+    "name": "Sameera Ramasinghe",
+    "role": "Researcher, paper author",
+    "url": "https://pluralis.ai/"
+   }
+  ],
+  "founded": 2024
+ },
+ {
+  "id": "proxecto-nos",
+  "tagline": "The Xunta de Galicia project, run by USC, that creates open Galician language models, corpora and speech tools.",
+  "about": [
+   "Proxecto Nos was launched in 2020 by the Xunta de Galicia and entrusted to the University of Santiago de Compostela through CiTIUS and the Instituto da Lingua Galega. It aims to give Galician openly licensed resources and tools in intelligent technologies.",
+   "It has produced CorpusNOS, described as the largest openly available collection of Galician text, and the first generative language models focused on Galician, adapted from Catalan-Spanish-English models of the AINA project.",
+   "CiTIUS was later selected to lead the Galician model in a Microsoft collaboration with BSC and HiTZ on models for Spain's official languages."
+  ],
+  "mission": "The project seeks to ensure Galician has the digital resources and AI technology needed for everyday use.",
+  "known_for": [
+   "CorpusNOS Galician text corpus",
+   "First Galician generative LLMs",
+   "Open Galician speech tools"
+  ],
+  "contributions": [
+   {
+    "title": "Proxecto Nos starts",
+    "note": "Launched by the Xunta and USC through CiTIUS and ILG.",
+    "year": "2020"
+   },
+   {
+    "title": "Project paper at TDLE",
+    "note": "Research paper on the project at the 2022 TDLE workshop.",
+    "year": "2022"
+   },
+   {
+    "title": "First Galician LLMs",
+    "note": "CiTIUS released the first two generative models focused on Galician.",
+    "year": "2024"
+   },
+   {
+    "title": "Microsoft collaboration",
+    "note": "CiTIUS chosen to lead Galician in a multilingual model effort with BSC and HiTZ.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "CiTIUS and ILG research team",
+    "role": "Project host institutions",
+    "url": "https://citius.gal/news/news/arrinca-o-proxecto-nos-a-meirande-aposta-autonomica-a-prol-do-galego-desenvolvida-na-usc-polo-citius-e-o-ilg/"
+   }
+  ],
+  "founded": 2020
+ },
+ {
+  "id": "softcatala",
+  "tagline": "A volunteer-driven Catalan non-profit that makes software, translation and speech tools available in Catalan.",
+  "about": [
+   "Softcatala was created in 1998 by volunteers to promote Catalan in computing and on the Internet. Jordi Mas is named as its founder. Early work focused on translating proprietary software before shifting toward free software.",
+   "It operates a machine translation service, available since 2000, which moved from a non-free engine to Apertium. The group helps maintain Apertium language pairs by adding vocabulary and rules.",
+   "It publishes models and datasets on Hugging Face and code on GitHub, and has a long record of localised versions of popular programs."
+  ],
+  "mission": "The association aims to ensure Catalan speakers can use technology fully in their own language.",
+  "known_for": [
+   "Catalan localisation of free software",
+   "Catalan machine translation service",
+   "Apertium contributions"
+  ],
+  "contributions": [
+   {
+    "title": "Softcatala founded",
+    "note": "Volunteers created the organisation to promote Catalan in technology.",
+    "year": "1998"
+   },
+   {
+    "title": "Machine translation service",
+    "note": "Online Catalan MT service first available.",
+    "year": "2000"
+   },
+   {
+    "title": "Move to Apertium",
+    "note": "The MT service was rebuilt on the free Apertium engine.",
+    "year": "2011"
+   },
+   {
+    "title": "25th anniversary",
+    "note": "Naciodigital reported on the organisation's first quarter century.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jordi Mas",
+    "role": "Founder",
+    "url": "https://en.wikipedia.org/wiki/Softcatal%C3%A0"
+   }
+  ],
+  "founded": 1998
+ },
+ {
+  "id": "spraakbanken",
+  "tagline": "The University of Gothenburg's national language data infrastructure, building Korp, Sparv and open resources for Swedish since 1975.",
+  "about": [
+   "Sprakbanken Text is a research infrastructure and language technology unit hosted at the University of Gothenburg. It was established in 1975 and is among the world's oldest language technology units.",
+   "It builds research platforms including Korp, Karp, Mink, Sparv and Strix, and focuses on Swedish across historical periods. Its lexical resources are released under CC-BY.",
+   "It is part of the national Sprakbanken infrastructure and participates in CLARIN and HumInfra."
+  ],
+  "mission": "The unit develops and shares language data and tools so researchers and society can work with Swedish text.",
+  "known_for": [
+   "Korp corpus search",
+   "Sparv annotation pipeline",
+   "Oldest language technology unit"
+  ],
+  "contributions": [
+   {
+    "title": "Sprakbanken established",
+    "note": "Government mandate to University of Gothenburg.",
+    "year": "1975"
+   },
+   {
+    "title": "Lexicography split",
+    "note": "Lexicographical work moved to a separate centre around the turn of the millennium.",
+    "year": "2000"
+   },
+   {
+    "title": "Korp",
+    "note": "Corpus search covers about 15 billion words of Swedish.",
+    "year": "2020"
+   },
+   {
+    "title": "50th anniversary programme",
+    "note": "Sprakbanken marked 50 years.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Lars Borin",
+    "role": "Professor of NLP",
+    "url": "https://spraakbanken.gu.se/en/about/staff"
+   }
+  ],
+  "founded": 1975
+ },
+ {
+  "id": "eth-sri",
+  "tagline": "ETH Zurich's group on trustworthy machine learning, producing neural network verifiers, LMQL and ML-for-code tools.",
+  "about": [
+   "The Secure, Reliable and Intelligent Systems Lab at ETH Zurich is led by Martin Vechev. It works on program analysis, verification and the reliability of machine learning.",
+   "Its AI2 paper at IEEE S&P 2018 introduced abstract interpretation for certifying neural networks, and the ETH Robustness Analyzer (ERAN) followed.",
+   "Its code is published on GitHub, including LMQL, a language for programming with language models."
+  ],
+  "mission": "The lab works to make intelligent systems safe, secure and reliable by combining machine learning with program analysis.",
+  "known_for": [
+   "AI2 neural network certification",
+   "ERAN robustness analyzer",
+   "LMQL query language"
+  ],
+  "contributions": [
+   {
+    "title": "AI2",
+    "note": "Safety and robustness certification with abstract interpretation at IEEE S&P.",
+    "year": "2018"
+   },
+   {
+    "title": "ERAN released",
+    "note": "Robustness analyzer for deep neural networks.",
+    "year": "2019"
+   },
+   {
+    "title": "DeepCode acquired by Snyk",
+    "note": "Vechev's spinout.",
+    "year": "2020"
+   },
+   {
+    "title": "LMQL",
+    "note": "Language-model programming language published.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Martin Vechev",
+    "role": "Lab head, Professor",
+    "url": "https://en.wikipedia.org/wiki/Martin_Vechev"
+   },
+   {
+    "name": "SRI Lab people page",
+    "role": "Students",
+    "url": "https://eth-sri.github.io/people"
+   }
+  ]
+ },
+ {
+  "id": "swap-uniba",
+  "tagline": "Bari's SWAP group, creators of the LLaMAntino family of open Italian language models.",
+  "about": [
+   "The Semantic Web Access and Personalization group works at the University of Bari. It is known for LLaMAntino, an Italian adaptation of Meta's Llama models.",
+   "The first paper, in December 2023, adapted LLaMA 2 to Italian. The ANITA models followed in 2024 on Llama 3, trained with the Leonardo supercomputer at CINECA.",
+   "In 2025 a model was reported developed with Treccani."
+  ],
+  "mission": "The group aims to provide effective open language models for Italian.",
+  "known_for": [
+   "LLaMAntino Italian models",
+   "ANITA Llama-3 Italian",
+   "Open weights for commercial use"
+  ],
+  "contributions": [
+   {
+    "title": "LLaMAntino paper",
+    "note": "LLaMA 2 models for Italian released.",
+    "year": "2023"
+   },
+   {
+    "title": "LLaMAntino-3-ANITA",
+    "note": "Llama 3 based model paper in May.",
+    "year": "2024"
+   },
+   {
+    "title": "Treccani collaboration",
+    "note": "Model with Treccani and Puglia Region reported.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Marco Polignano",
+    "role": "Developer of LLaMAntino",
+    "url": "https://github.com/marcopoli"
+   },
+   {
+    "name": "Pierpaolo Basile",
+    "role": "Researcher",
+    "url": "https://arxiv.org/abs/2312.09993"
+   },
+   {
+    "name": "Giovanni Semeraro",
+    "role": "Professor",
+    "url": "https://arxiv.org/abs/2312.09993"
+   }
+  ]
+ },
+ {
+  "id": "takelab",
+  "tagline": "Zagreb's text analysis and knowledge engineering lab, a leading Croatian NLP group.",
+  "about": [
+   "TakeLab is a research group at the Faculty of Electrical Engineering and Computing, University of Zagreb, focusing on AI, machine learning and NLP.",
+   "Professor Jan Snajder is a prominent member. Work includes Croatian morphological analysis and SemEval shared task entries.",
+   "Code is published on GitHub."
+  ],
+  "mission": "The lab advances AI and NLP research, with attention to Croatian.",
+  "known_for": [
+   "Croatian NLP research",
+   "SemEval entries",
+   "Text analysis"
+  ],
+  "contributions": [
+   {
+    "title": "Inflectional paradigm guessing for Croatian",
+    "note": "Talk on morphology.",
+    "year": "2012"
+   },
+   {
+    "title": "Hyperpartisan news detection at SemEval",
+    "note": "Shared task paper.",
+    "year": "2019"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jan Snajder",
+    "role": "Professor",
+    "url": "https://www.fer.unizg.hr/en/jan.snajder"
+   },
+   {
+    "name": "Martin Tutek",
+    "role": "Researcher",
+    "url": "https://www.fer.unizg.hr/en/martin.tutek"
+   }
+  ]
+ },
+ {
+  "id": "taltech-nlp",
+  "tagline": "The TalTech language technology lab publishing open Estonian speech recognition and translation models.",
+  "about": [
+   "The Laboratory of Language Technology at Tallinn University of Technology develops speech and language technology for Estonian. Tanel Alumae leads related research.",
+   "Its general-purpose Estonian ASR is a Whisper-large-v2 fine-tune on about 1200 hours, reporting about 12 percent word error rate on Common Voice 11.",
+   "A Whisper fine-tune for Estonian-English-Russian speech translation was published in 2024, and children's speech recognition work in 2025."
+  ],
+  "mission": "The lab builds practical Estonian speech technology and shares models openly.",
+  "known_for": [
+   "Estonian Whisper ASR",
+   "Estonian speech translation",
+   "TalTech Estonian Speech Dataset"
+  ],
+  "contributions": [
+   {
+    "title": "Estonian Whisper large model update",
+    "note": "Long-segment version dated 3 October.",
+    "year": "2023"
+   },
+   {
+    "title": "Estonian conversational speech translation",
+    "note": "arXiv paper on fine-tuned end-to-end models.",
+    "year": "2024"
+   },
+   {
+    "title": "Children's speech recognition",
+    "note": "SLaTE paper by Lilles, Mannik and Alumae.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Tanel Alumae",
+    "role": "Researcher",
+    "url": "https://arxiv.org/abs/2407.03809"
+   }
+  ]
+ },
+ {
+  "id": "ucl-dark",
+  "tagline": "UCL's DARK lab, researching reinforcement learning, open-endedness and LLM safety.",
+  "about": [
+   "UCL DARK is a reinforcement learning research group at the UCL Centre for Artificial Intelligence, led by Tim Rocktaschel.",
+   "Edward Grefenstette is an honorary professor and Jakob Foerster co-advises students.",
+   "Research code is released on GitHub and Hugging Face."
+  ],
+  "mission": "The lab studies open-ended and self-improving AI.",
+  "known_for": [
+   "Open-endedness",
+   "Rainbow Teaming",
+   "Reinforcement learning"
+  ],
+  "contributions": [
+   {
+    "title": "Rainbow Teaming",
+    "note": "Adversarial prompt generation method from lab student Mikayel Samvelyan.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Tim Rocktaschel",
+    "role": "Lab lead",
+    "url": "https://rockt.github.io"
+   },
+   {
+    "name": "Edward Grefenstette",
+    "role": "Honorary Professor",
+    "url": "https://ucldark.com"
+   }
+  ]
+ },
+ {
+  "id": "ox-vgg",
+  "tagline": "Oxford's Visual Geometry Group, source of VGG networks and open vision datasets and tools.",
+  "about": [
+   "The Visual Geometry Group is within the Department of Engineering Science at Oxford, founded by Andrew Zisserman.",
+   "The 2014 VGG paper by Simonyan and Zisserman placed first in localization and second in classification at ILSVRC 2014.",
+   "GitHub hosts tools."
+  ],
+  "mission": "The group advances computer vision and shares data and software.",
+  "known_for": [
+   "VGG networks",
+   "VGGFace2",
+   "VGG Image Annotator",
+   "VGGT"
+  ],
+  "contributions": [
+   {
+    "title": "VGG at ILSVRC",
+    "note": "Very deep ConvNets placed first in localization.",
+    "year": "2014"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Andrew Zisserman",
+    "role": "Founder, Professor",
+    "url": "https://www.robots.ox.ac.uk/~az/"
+   }
+  ]
+ },
+ {
+  "id": "vita-epfl",
+  "tagline": "EPFL's lab on socially aware AI for transportation, with open pose and trajectory code.",
+  "about": [
+   "VITA is led by Alexandre Alahi at EPFL, joining in 2017. It works on socially aware AI for safe autonomous systems.",
+   "Code is on GitHub.",
+   "The team won an Image and Vision Computing editor's choice award in 2021."
+  ],
+  "mission": "The lab makes AI socially aware for transportation.",
+  "known_for": [
+   "Socially aware AI",
+   "Human motion prediction"
+  ],
+  "contributions": [
+   {
+    "title": "Alahi joins EPFL",
+    "note": "Start of lab leadership.",
+    "year": "2017"
+   },
+   {
+    "title": "Editor's choice award",
+    "note": "Image and Vision Computing for human motion prediction.",
+    "year": "2021"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Alexandre Alahi",
+    "role": "Head of lab",
+    "url": "https://people.epfl.ch/alexandre.alahi"
+   }
+  ]
+ },
+ {
+  "id": "ytu-cosmos",
+  "tagline": "Yildiz Technical University's COSMOS group, publishing open Turkish language models.",
+  "about": [
+   "COSMOS is in the Computer Engineering Department of Yildiz Technical University.",
+   "It released cosmosGPT in 2024 and Turkish-Llama and Turkish-Gemma models.",
+   "Models are on Hugging Face."
+  ],
+  "mission": "The group builds Turkish-first language models.",
+  "known_for": [
+   "cosmosGPT Turkish models",
+   "Turkish-Llama",
+   "Turkish-Gemma"
+  ],
+  "contributions": [
+   {
+    "title": "cosmosGPT",
+    "note": "Monolingual Turkish training paper.",
+    "year": "2024"
+   },
+   {
+    "title": "Turkish-Gemma-9b",
+    "note": "9B model released on Hugging Face.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Ahmet Zeer",
+    "role": "Researcher",
+    "url": "https://huggingface.co/AhmetZeer"
+   }
+  ]
+ }
+]

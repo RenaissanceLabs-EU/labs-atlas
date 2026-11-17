@@ -1,0 +1,673 @@
+[
+ {
+  "id": "ai-singapore",
+  "_flag": "A government-funded national programme rather than an independent lab, though it releases open SEA-LION models.",
+  "key_people": [
+   {
+    "name": "Leslie Teo",
+    "role": "Senior Director, AI Products; SEA-LION lead",
+    "url": "https://arxiv.org/abs/2504.05747",
+    "note": "Co-author of the SEA-LION technical report."
+   },
+   {
+    "name": "Mohan Kankanhalli",
+    "role": "Deputy Executive Chairman; Director, NUS AI Institute",
+    "url": "https://www.comp.nus.edu.sg/~mohan/",
+    "note": null
+   },
+   {
+    "name": "Simon Chesterman",
+    "role": "Senior Director, AI Governance",
+    "url": "https://en.wikipedia.org/wiki/Simon_Chesterman",
+    "note": "Also a professor at the National University of Singapore."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Programme launched",
+    "note": "AI Singapore was established as a national AI initiative.",
+    "year": "2017"
+   },
+   {
+    "title": "SEA-LION first release",
+    "note": "The first open model in the family, trained on 11 Southeast Asian languages.",
+    "year": "2023"
+   },
+   {
+    "title": "SEA-LION technical report",
+    "note": "The team published an arXiv report describing the model family.",
+    "year": "2025"
+   },
+   {
+    "title": "SEA-LION v4 released",
+    "note": "Gemma-based v4 models were published, with a Qwen-based line following.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "ai-sweden",
+  "key_people": [
+   {
+    "name": "Magnus Sahlgren",
+    "role": "Researcher, GPT-SW3 co-author",
+    "url": "https://arxiv.org/abs/2305.12987",
+    "note": null
+   },
+   {
+    "name": "Ariel Ekgren",
+    "role": "Lead author, GPT-SW3",
+    "url": "https://arxiv.org/abs/2305.12987",
+    "note": null
+   },
+   {
+    "name": "Joey Öhman",
+    "role": "Researcher, GPT-SW3 co-author",
+    "url": "https://arxiv.org/abs/2305.12987",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "GPT-SW3 models documented",
+    "note": "Hugging Face model cards for the first GPT-SW3 sizes are dated December 2022.",
+    "year": "2022"
+   },
+   {
+    "title": "GPT-SW3 paper",
+    "note": "Technical description of the Nordic autoregressive models, posted to arXiv in May 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "GPT-SW3 open release",
+    "note": "Models from 126M to 40B parameters were made available on Hugging Face under a permissive licence.",
+    "year": "2023"
+   }
+  ]
+ },
+ {
+  "id": "ai4bharat",
+  "key_people": [
+   {
+    "name": "Mitesh M. Khapra",
+    "role": "Professor, IIT Madras; head of AI4Bharat",
+    "url": "https://www.cse.iitm.ac.in/~miteshk/",
+    "note": "Co-founder of the lab."
+   },
+   {
+    "name": "Pratyush Kumar",
+    "role": "Co-founder; adjunct faculty, IIT Madras",
+    "url": "https://arxiv.org/abs/2305.16307",
+    "note": "IndicTrans2 co-author."
+   },
+   {
+    "name": "Anoop Kunchukuttan",
+    "role": "Founding member and co-lead; Microsoft researcher",
+    "url": "https://anoopkunchukuttan.gitlab.io/",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Nilekani Centre launched",
+    "note": "IIT Madras launched the Nilekani Centre at AI4Bharat in July 2022, funded by a Rs 36 crore grant from Nilekani Philanthropies.",
+    "year": "2022"
+   },
+   {
+    "title": "IndicTrans2 paper published",
+    "note": "Open translation models for the 22 scheduled Indian languages, with permissive licences.",
+    "year": "2023"
+   },
+   {
+    "title": "IndicVoices released",
+    "note": "About 7,300 hours of speech from over 16,000 speakers, used to build IndicASR.",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "aiml-tuda",
+  "key_people": [
+   {
+    "name": "Kristian Kersting",
+    "role": "Professor of AI and Machine Learning, head of the lab",
+    "url": "https://ml-research.github.io/people/kkersting/",
+    "note": "Also heads a research department at DFKI."
+   },
+   {
+    "name": "Patrick Schramowski",
+    "role": "Researcher; lead author on Safe Latent Diffusion and LlavaGuard",
+    "url": "https://arxiv.org/abs/2406.05113",
+    "note": null
+   },
+   {
+    "name": "Manuel Brack",
+    "role": "Researcher; co-author of Safe Latent Diffusion and LlavaGuard",
+    "url": "https://arxiv.org/abs/2211.05105",
+    "note": null
+   },
+   {
+    "name": "Quentin Delfosse",
+    "role": "Researcher at TU Darmstadt",
+    "url": "https://www.ml.informatik.tu-darmstadt.de/people/qdelfosse/index.html",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "arcee-ai",
+  "tagline": "A San Francisco model lab that trains open-weight models and maintains MergeKit, a widely used toolkit for merging open language models.",
+  "about": [
+   "Arcee AI was founded in 2023 by Mark McQuade, Jacob Solawetz and Brian Benedict to make smaller, specialized language models practical for enterprises. It began by helping teams adapt open models and later moved to training its own models in San Francisco.",
+   "Its open tooling includes MergeKit for merging pretrained models, described in a 2024 paper, and DistillKit for distillation. Its current offerings include the Trinity model family, an open source catalog and an API platform.",
+   "Investors named on its site include Samsung, M12, Hitachi Ventures and Flybridge. Reporting indicates a 24 million dollar Series A in 2024."
+  ],
+  "key_people": [
+   {
+    "name": "Mark McQuade",
+    "role": "Co-founder and CEO",
+    "url": "https://yespress.io/mark-mcquade",
+    "note": "Previously an early commercial hire at Hugging Face."
+   },
+   {
+    "name": "Lucas Atkins",
+    "role": "CTO",
+    "url": "https://www.arcee.ai/about/about-us",
+    "note": "Company About page names him as CTO."
+   },
+   {
+    "name": "Jacob Solawetz",
+    "role": "Co-founder",
+    "url": "https://www.arcee.ai/blog/arcee-ai-secures-24m-series-a-to-transform-the-landscape-of-small-language-models",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Founded in 2023 to build specialized small language models.",
+    "year": "2023"
+   },
+   {
+    "title": "MergeKit paper",
+    "note": "The MergeKit toolkit for merging large language models was described in a paper.",
+    "year": "2024"
+   },
+   {
+    "title": "Series A funding",
+    "note": "Company announced a 24 million dollar Series A.",
+    "year": "2024"
+   },
+   {
+    "title": "Trinity manifesto",
+    "note": "CTO Lucas Atkins published a case for owning pretraining, ahead of the Trinity model family.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "baai",
+  "key_people": [
+   {
+    "name": "Zhang Hongjiang",
+    "role": "Founder",
+    "url": "https://en.wikipedia.org/wiki/Zhang_Hongjiang",
+    "note": null
+   },
+   {
+    "name": "Huang Tiejun",
+    "role": "Chairman of the Board; founding president",
+    "url": "https://www.geopolitechs.org/p/baai-chairman-huang-tiejun-the-path",
+    "note": "Led the academy as its first dean and president."
+   },
+   {
+    "name": "Wang Zhongyuan",
+    "role": "President",
+    "url": "https://syncedreview.com/2024/06/17/ai-pioneers-gather-at-baai-2024-unveiling-innovations-in-large-scaled-ai-models-for-language-multimodal-embodied-bio-computing-and-flagopen-2-0/",
+    "note": "Reported to have succeeded Huang as president in 2024."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Academy founded",
+    "note": "BAAI was established in Beijing in November 2018.",
+    "year": "2018"
+   },
+   {
+    "title": "Wudao 2.0 announced",
+    "note": "A large pretrained model system announced in 2022.",
+    "year": "2022"
+   },
+   {
+    "title": "FlagAI joins LF AI & Data",
+    "note": "The FlagAI toolkit was approved as a sandbox project of the Linux Foundation's AI foundation.",
+    "year": "2022"
+   },
+   {
+    "title": "Emu3 and BGE papers",
+    "note": "Published the Emu3 multimodal paper (2024) and the C-Pack paper behind BGE embeddings (2023).",
+    "year": "2024"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Emu3: Next-Token Prediction is All You Need",
+    "url": "https://arxiv.org/abs/2409.18869",
+    "year": "2024"
+   },
+   {
+    "title": "M3-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation",
+    "url": "https://arxiv.org/abs/2402.03216",
+    "year": "2024"
+   },
+   {
+    "title": "C-Pack: Packed Resources For General Chinese Embeddings",
+    "url": "https://arxiv.org/abs/2309.07597",
+    "year": "2023"
+   }
+  ]
+ },
+ {
+  "id": "bespoke-labs",
+  "key_people": [
+   {
+    "name": "Mahesh Sathiamoorthy",
+    "role": "Co-founder and CEO",
+    "url": "https://www.ai.engineer/speakers/mahesh-sathiamoorthy",
+    "note": "Previously at Google DeepMind."
+   },
+   {
+    "name": "Alex Dimakis",
+    "role": "Co-founder and Chief Scientist; professor at UC Berkeley",
+    "url": "https://people.eecs.berkeley.edu/~alexdimakis/",
+    "note": null
+   },
+   {
+    "name": "Negin Raoof",
+    "role": "Researcher, OpenThoughts co-author (UC Berkeley)",
+    "url": "https://arxiv.org/abs/2506.04178",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Founded in 2024 by Mahesh Sathiamoorthy and Alex Dimakis.",
+    "year": "2024"
+   },
+   {
+    "title": "OpenThoughts launched",
+    "note": "The collaboration started publishing open reasoning data.",
+    "year": "2025"
+   },
+   {
+    "title": "OpenThinker-32B released",
+    "note": "An open reasoning model from the project.",
+    "year": "2025"
+   },
+   {
+    "title": "OpenThoughts3 released",
+    "note": "Described as the project's best dataset recipe; the OpenThoughts paper appeared in June 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Terminal-Bench and GEPA",
+    "note": "Contributions to the Terminal-Bench agent benchmark and the GEPA prompt optimizer, both accepted to ICLR 2026.",
+    "year": "2026"
+   }
+  ],
+  "papers": [
+   {
+    "title": "OpenThoughts: Data Recipes for Reasoning Models",
+    "url": "https://arxiv.org/abs/2506.04178",
+    "year": "2025"
+   },
+   {
+    "title": "GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2507.19457",
+    "year": "2025"
+   },
+   {
+    "title": "MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents",
+    "url": "https://arxiv.org/abs/2404.10774",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "bharatgen",
+  "_flag": "Government-funded consortium (Department of Science and Technology, IndiaAI Mission), not an independent lab.",
+  "key_people": [
+   {
+    "name": "Ganesh Ramakrishnan",
+    "role": "Professor, IIT Bombay; leads BharatGen",
+    "url": "https://www.cse.iitb.ac.in/~ganesh/",
+    "note": "Presented the first BharatGen models in October 2024."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "First models demonstrated",
+    "note": "Foundational models were announced at the India Mobile Congress on October 17, 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "BharatGen launched",
+    "note": "The programme was launched in New Delhi.",
+    "year": "2024"
+   },
+   {
+    "title": "Param-1 released",
+    "note": "A 2.9 billion parameter bilingual base model described as trained from scratch.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "bigscience",
+  "key_people": [
+   {
+    "name": "Thomas Wolf",
+    "role": "Co-founder, Hugging Face; workshop organizer",
+    "url": "https://thomwolf.io/",
+    "note": null
+   },
+   {
+    "name": "Teven Le Scao",
+    "role": "First named author of the BLOOM paper",
+    "url": "https://arxiv.org/abs/2211.05100",
+    "note": null
+   },
+   {
+    "name": "Victor Sanh",
+    "role": "Working group chair; lead author of T0",
+    "url": "https://arxiv.org/abs/2110.08207",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "T0 prompted training",
+    "note": "Multitask Prompted Training Enables Zero-Shot Task Generalization was published.",
+    "year": "2021"
+   },
+   {
+    "title": "BLOOM training begins",
+    "note": "Training ran on the Jean Zay supercomputer from March.",
+    "year": "2022"
+   },
+   {
+    "title": "BLOOM released",
+    "note": "A 176B open model in 46 languages and 13 programming languages.",
+    "year": "2022"
+   },
+   {
+    "title": "xP3 and BLOOMZ released",
+    "note": "A multilingual instruction dataset and a model tuned on it.",
+    "year": "2022"
+   },
+   {
+    "title": "ROOTS paper",
+    "note": "The ROOTS corpus paper was presented at NeurIPS 2022 and posted to arXiv in 2023.",
+    "year": "2023"
+   }
+  ]
+ },
+ {
+  "id": "bioptimus",
+  "_flag": "Commercial startup; H-Optimus-0 is open but H-Optimus-1 requires a license for commercial use and M-Optimus is early access only.",
+  "key_people": [
+   {
+    "name": "Jean-Philippe Vert",
+    "role": "Co-founder and CEO",
+    "url": "https://www.bioptimus.com/about",
+    "note": null
+   },
+   {
+    "name": "Rodolphe Jenatton",
+    "role": "Co-founder and CTO",
+    "url": "https://www.bioptimus.com/about",
+    "note": null
+   },
+   {
+    "name": "Zelda Mariet",
+    "role": "Co-founder and VP of Research",
+    "url": "https://www.bioptimus.com/about",
+    "note": null
+   },
+   {
+    "name": "Felipe Llinares",
+    "role": "Co-founder and VP of AI",
+    "url": "https://www.bioptimus.com/about",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Seed round",
+    "note": "A 35 million dollar seed round led by Sofinnova Partners.",
+    "year": "2024"
+   },
+   {
+    "title": "H-Optimus-0 announced",
+    "note": "A 1.1B-parameter pathology foundation model.",
+    "year": "2024"
+   },
+   {
+    "title": "Series A funding",
+    "note": "A 41M dollar round led by Cathay Innovation.",
+    "year": "2025"
+   },
+   {
+    "title": "M-Optimus unveiled",
+    "note": "A multimodal model combining histology, RNA sequencing, spatial transcriptomics and clinical data, announced December 17, 2025.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "boltz",
+  "_flag": "Commercial public benefit company; Boltz-1, Boltz-2 and BoltzGen are open but some newer models are proprietary.",
+  "key_people": [
+   {
+    "name": "Gabriele Corso",
+    "role": "Co-founder and CEO",
+    "url": "https://gcorso.github.io/",
+    "note": "Previously at MIT CSAIL."
+   },
+   {
+    "name": "Jeremy Wohlwend",
+    "role": "Co-founder and CTO",
+    "url": "https://github.com/jwohlwend",
+    "note": "Maintains the Boltz repository."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Boltz-1 released",
+    "note": "The first open model from the MIT group, released in late 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "Boltz-2 released",
+    "note": "A model that jointly predicts complex structure and binding affinity.",
+    "year": "2025"
+   },
+   {
+    "title": "Seed round and Pfizer collaboration",
+    "note": "Boltz PBC launched with a 28 million dollar seed round alongside Boltz Lab and a Pfizer collaboration.",
+    "year": "2026"
+   },
+   {
+    "title": "Bristol Myers Squibb agreement",
+    "note": "An agreement to deploy biomolecular AI models for drug discovery.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "browser-use",
+  "key_people": [
+   {
+    "name": "Magnus Müller",
+    "role": "Co-founder",
+    "url": "https://github.com/MagMueller",
+    "note": null
+   },
+   {
+    "name": "Gregor Žunič",
+    "role": "Co-founder",
+    "url": "https://github.com/gregpr07",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Founded by two ETH Zurich master's graduates and part of Y Combinator's Winter 2025 batch.",
+    "year": "2024"
+   },
+   {
+    "title": "Seed round",
+    "note": "Raised a 17 million dollar seed round led by Felicis in March 2025.",
+    "year": "2025"
+   }
+  ],
+  "about": [
+   "Browser Use began as an open-source Python library that lets language-model agents control a web browser, built by Magnus Müller and Gregor Žunič, who met during master's studies at ETH Zurich. It joined Y Combinator's Winter 2025 batch.",
+   "The company raised a 17 million dollar seed round led by Felicis in March 2025. Today it offers hosted web agents, stealth cloud browsers and Browser Harness, a free open-source tool for coding agents, with enterprise options such as on-premises browsers and an EU cloud in Frankfurt."
+  ]
+ },
+ {
+  "id": "bsc-langtech",
+  "key_people": [
+   {
+    "name": "Marta Villegas",
+    "role": "Head of the Language Technologies Unit",
+    "url": "https://www.xataka.com/robotica-e-ia/asi-alia-modelo-ia-espanola-que-puede-quiere-competir-chatgpt",
+    "note": null
+   },
+   {
+    "name": "Aitor Gonzalez-Agirre",
+    "role": "Lead author, Salamandra Technical Report",
+    "url": "https://arxiv.org/abs/2502.08489",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Salamandra technical report",
+    "note": "Report on open 2B, 7B and 40B models published February 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "ALIA announced",
+    "note": "Spain announced the public AI project coordinated by BSC.",
+    "year": "2025"
+   },
+   {
+    "title": "Salamandra released",
+    "note": "Open 2B, 7B and 40B models on Hugging Face.",
+    "year": "2025"
+   },
+   {
+    "title": "ALIA-40b",
+    "note": "A 40B model pretrained from scratch on 9.37 trillion tokens, per its model card.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "buet-csebuetnlp",
+  "key_people": [
+   {
+    "name": "Rifat Shahriyar",
+    "role": "Professor, BUET",
+    "url": "https://rifatshahriyar.github.io/",
+    "note": null
+   },
+   {
+    "name": "M. Sohel Rahman",
+    "role": "Professor, BUET",
+    "url": "https://csebuetnlp.github.io/",
+    "note": null
+   },
+   {
+    "name": "Anindya Iqbal",
+    "role": "Professor, BUET",
+    "url": "https://csebuetnlp.github.io/",
+    "note": null
+   },
+   {
+    "name": "Tahmid Hasan",
+    "role": "Researcher; lead author of XL-Sum",
+    "url": "https://arxiv.org/abs/2106.13822",
+    "note": null
+   },
+   {
+    "name": "Abhik Bhattacharjee",
+    "role": "Research assistant; lead author of BanglaBERT and BanglaT5",
+    "url": "https://arxiv.org/abs/2101.00204",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Bengali-English MT datasets",
+    "note": "Aligner ensembling and new datasets for Bengali-English translation were published.",
+    "year": "2020"
+   },
+   {
+    "title": "XL-Sum published",
+    "note": "A summarisation dataset in 44 languages, at Findings of ACL 2021.",
+    "year": "2021"
+   },
+   {
+    "title": "BanglaBERT open-sourced",
+    "note": "A Bangla language model, later published in Findings of NAACL 2022.",
+    "year": "2021"
+   },
+   {
+    "title": "BanglaT5 released",
+    "note": "A Bangla sequence-to-sequence model.",
+    "year": "2022"
+   }
+  ]
+ },
+ {
+  "id": "canopy-labs",
+  "about": [
+   "Canopy Labs released Orpheus in March 2025, a text-to-speech system built on a Llama 3B backbone, with models published on GitHub and Hugging Face.",
+   "The family is available in sizes from 150M to 3B parameters. Sources disagree on the exact weight licence, so users should check the repository. The lab has not published a public team page."
+  ]
+ },
+ {
+  "id": "cardiffnlp",
+  "key_people": [
+   {
+    "name": "Jose Camacho-Collados",
+    "role": "Professor, Cardiff University; TweetEval author",
+    "url": "http://josecamachocollados.com/",
+    "note": null
+   },
+   {
+    "name": "Luis Espinosa Anke",
+    "role": "Academic staff, Cardiff University",
+    "url": "https://cardiffnlp.github.io/",
+    "note": null
+   },
+   {
+    "name": "Steven Schockaert",
+    "role": "Professor, Cardiff University",
+    "url": "https://cardiffnlp.github.io/",
+    "note": null
+   },
+   {
+    "name": "Fernando Alva-Manchego",
+    "role": "Member of the cardiffnlp GitHub organization",
+    "url": "https://feralvam.github.io",
+    "note": null
+   }
+  ]
+ }
+]

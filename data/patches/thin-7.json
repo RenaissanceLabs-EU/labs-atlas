@@ -1,0 +1,366 @@
+[
+ {
+  "id": "eth-sri",
+  "key_people": [
+   {
+    "name": "Martin Vechev",
+    "role": "Professor and head of the lab",
+    "url": "https://www.sri.inf.ethz.ch/people/martin",
+    "note": "Founder of DeepCode, ChainSecurity and LatticeFlow; architect of INSAIT."
+   },
+   {
+    "name": "Timon Gehr",
+    "role": "Senior scientist",
+    "url": "https://www.sri.inf.ethz.ch/people/timon",
+    "note": "Senior scientist at the lab."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "AI2",
+    "note": "Safety and robustness certification with abstract interpretation at IEEE S&P.",
+    "year": "2018"
+   },
+   {
+    "title": "ERAN released",
+    "note": "Robustness analyzer for deep neural networks.",
+    "year": "2019"
+   },
+   {
+    "title": "DeepCode and ChainSecurity acquired",
+    "note": "Vechev's spinouts DeepCode (by Snyk) and ChainSecurity (by PwC) were acquired; LatticeFlow was co-founded the same year.",
+    "year": "2020"
+   },
+   {
+    "title": "LMQL",
+    "note": "Language-model programming language published.",
+    "year": "2023"
+   }
+  ]
+ },
+ {
+  "id": "stability-ai",
+  "key_people": [
+   {
+    "name": "Emad Mostaque",
+    "role": "Founder, CEO until March 2024",
+    "url": "https://en.wikipedia.org/wiki/Emad_Mostaque",
+    "note": "Led the company through the Stable Diffusion releases."
+   },
+   {
+    "name": "Prem Akkaraju",
+    "role": "CEO since June 2024",
+    "url": "https://stability.ai/news/category/Company",
+    "note": "Took over after the restructuring."
+   },
+   {
+    "name": "Sean Parker",
+    "role": "Executive chairman",
+    "url": "https://en.wikipedia.org/wiki/Sean_Parker",
+    "note": "Joined the board in 2024."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Stable Diffusion public release",
+    "note": "Open weights for a latent diffusion text-to-image model, developed with CompVis and Runway.",
+    "year": "2022"
+   },
+   {
+    "title": "SDXL",
+    "note": "Larger latent diffusion model released with open weights.",
+    "year": "2023"
+   },
+   {
+    "title": "Stable Video Diffusion",
+    "note": "Open-weight image-to-video model.",
+    "year": "2023"
+   },
+   {
+    "title": "Stable Diffusion 3 Medium",
+    "note": "Open weights under a community licence.",
+    "year": "2024"
+   },
+   {
+    "title": "Stable Diffusion 3.5",
+    "note": "Large and Medium variants under the Stability Community License.",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "stanford-crfm",
+  "key_people": [
+   {
+    "name": "Percy Liang",
+    "role": "Director",
+    "url": "https://cs.stanford.edu/~pliang/",
+    "note": "Associate professor of computer science; leads HELM."
+   },
+   {
+    "name": "Rishi Bommasani",
+    "role": "Society lead and researcher",
+    "url": "https://rishibommasani.github.io/",
+    "note": "Lead author of the foundation models report and the Foundation Model Transparency Index."
+   },
+   {
+    "name": "Tatsunori Hashimoto",
+    "role": "Faculty researcher",
+    "url": "https://thashim.github.io/",
+    "note": "Co-led the Alpaca project."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "CRFM founded",
+    "note": "Stanford HAI center for research on foundation models established.",
+    "year": "2021"
+   },
+   {
+    "title": "On the Opportunities and Risks of Foundation Models",
+    "note": "Report coining the term and surveying the field.",
+    "year": "2021"
+   },
+   {
+    "title": "HELM",
+    "note": "Published Holistic Evaluation of Language Models.",
+    "year": "2022"
+   },
+   {
+    "title": "Alpaca",
+    "note": "Released an instruction-tuned LLaMA 7B model.",
+    "year": "2023"
+   },
+   {
+    "title": "Foundation Model Transparency Index",
+    "note": "Scored major developers on disclosure.",
+    "year": "2023"
+   }
+  ]
+ },
+ {
+  "id": "swiss-ai-initiative",
+  "key_people": [
+   {
+    "name": "Antoine Bosselut",
+    "role": "Co-lead of the Apertus project, EPFL",
+    "url": "https://atcbosselut.github.io/",
+    "note": "Senior author of the Apertus report."
+   },
+   {
+    "name": "Martin Jaggi",
+    "role": "Professor, EPFL; Apertus senior author",
+    "url": "https://arxiv.org/abs/2509.14233",
+    "note": "Listed among senior authors of the Apertus report."
+   },
+   {
+    "name": "Imanol Schlag",
+    "role": "Researcher, ETH AI Center; Apertus senior author",
+    "url": "https://ischlag.github.io/",
+    "note": "Listed among senior authors of the Apertus report."
+   }
+  ]
+ },
+ {
+  "id": "takelab",
+  "key_people": [
+   {
+    "name": "Jan Snajder",
+    "role": "Professor, head of the group",
+    "url": "https://www.fer.unizg.hr/en/jan.snajder",
+    "note": "Leads Croatian NLP work."
+   },
+   {
+    "name": "Martin Tutek",
+    "role": "Researcher",
+    "url": "https://www.fer.unizg.hr/en/martin.tutek",
+    "note": "NLP researcher at the group."
+   }
+  ]
+ },
+ {
+  "id": "tartunlp",
+  "key_people": [
+   {
+    "name": "Mark Fišel",
+    "role": "Associate professor, head of the group",
+    "url": "https://arxiv.org/abs/2603.02041",
+    "note": "Author of the EstLLM report."
+   },
+   {
+    "name": "Kairit Sirts",
+    "role": "Associate professor",
+    "url": "https://arxiv.org/abs/2603.02041",
+    "note": "Co-author of EstBERT and EstLLM."
+   },
+   {
+    "name": "Tanel Alumäe",
+    "role": "Researcher (also TalTech)",
+    "url": "https://arxiv.org/abs/2603.02041",
+    "note": "Speech technology co-author on EstLLM."
+   },
+   {
+    "name": "Taido Purason",
+    "role": "Researcher",
+    "url": "https://arxiv.org/abs/2603.02041",
+    "note": "Co-author of EstLLM and Llammas-related work."
+   }
+  ]
+ },
+ {
+  "id": "taltech-nlp",
+  "key_people": [
+   {
+    "name": "Tanel Alumäe",
+    "role": "Researcher, speech technology",
+    "url": "https://arxiv.org/abs/2407.03809",
+    "note": "Leads Estonian ASR and speech translation models."
+   }
+  ]
+ },
+ {
+  "id": "tng",
+  "key_people": [
+   {
+    "name": "Henrik Klagges",
+    "role": "Lead author, Assembly of Experts",
+    "url": "https://arxiv.org/abs/2506.14794",
+    "note": "First author of the Chimera paper."
+   },
+   {
+    "name": "Robert Dahlke",
+    "role": "Co-author",
+    "url": "https://arxiv.org/abs/2506.14794",
+    "note": "Co-author of the Chimera paper."
+   },
+   {
+    "name": "Fabian Klemm",
+    "role": "Co-author",
+    "url": "https://arxiv.org/abs/2506.14794",
+    "note": "Co-author of the Chimera paper."
+   }
+  ]
+ },
+ {
+  "id": "tilde",
+  "key_people": [
+   {
+    "name": "Mārcis Pinnis",
+    "role": "Senior author, TildeOpen",
+    "url": "https://arxiv.org/abs/2603.08182",
+    "note": "Last author of the TildeOpen report."
+   },
+   {
+    "name": "Toms Bergmanis",
+    "role": "Lead author, TildeOpen",
+    "url": "https://arxiv.org/abs/2603.08182",
+    "note": "First author of the TildeOpen report."
+   },
+   {
+    "name": "Artūrs Vasiļevskis",
+    "role": "Chief executive quoted in launch coverage",
+    "url": "https://tilde.ai",
+    "note": null
+   }
+  ]
+ },
+ {
+  "id": "transluce",
+  "key_people": [
+   {
+    "name": "Jacob Steinhardt",
+    "role": "Co-founder and CEO",
+    "url": "https://jsteinhardt.stat.berkeley.edu/",
+    "note": "On leave from UC Berkeley."
+   },
+   {
+    "name": "Sarah Schwettmann",
+    "role": "Co-founder and Chief Scientist",
+    "url": "https://transluce.org/about",
+    "note": "Formerly at MIT CSAIL."
+   },
+   {
+    "name": "Kevin Meng",
+    "role": "Member of technical staff",
+    "url": "https://mengk.me/",
+    "note": "Researcher on interpretability tooling."
+   },
+   {
+    "name": "Robin Jia",
+    "role": "Scientific advisor",
+    "url": "https://robinjia.github.io/",
+    "note": "Listed on the team page."
+   }
+  ]
+ },
+ {
+  "id": "trillion-labs",
+  "key_people": [
+   {
+    "name": "Jamin Shin",
+    "role": "Founder and CEO",
+    "url": "https://arxiv.org/abs/2504.15431",
+    "note": "Last author of the Trillion 7B report; formerly at Naver HyperCLOVA X."
+   },
+   {
+    "name": "Sungjun Han",
+    "role": "Researcher, first author",
+    "url": "https://arxiv.org/abs/2504.15431",
+    "note": "First author of the Trillion 7B report."
+   },
+   {
+    "name": "Juyoung Suk",
+    "role": "Researcher",
+    "url": "https://arxiv.org/abs/2504.15431",
+    "note": "Co-author of the Trillion 7B report."
+   }
+  ]
+ },
+ {
+  "id": "taide",
+  "contributions": [
+   {
+    "title": "Project launch",
+    "note": "The National Science and Technology Council starts TAIDE on 27 April.",
+    "year": "2023"
+   },
+   {
+    "title": "TAIDE-LX-7B",
+    "note": "First model of the family published; a Llama 3 based 8B preview followed.",
+    "year": "2024"
+   },
+   {
+    "title": "Llama3.1-TAIDE-LX-8B-Chat",
+    "note": "8B chat model with a 131K context length.",
+    "year": "2025"
+   },
+   {
+    "title": "Gemma-3-TAIDE-12b-Chat",
+    "note": "12B chat model based on Gemma 3.",
+    "year": "2025"
+   },
+   {
+    "title": "Embeddinggemma-GTAIDE-300m",
+    "note": "Embedding model aimed at retrieval of Taiwanese legal regulations.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "te-hiku-media",
+  "key_people": [
+   {
+    "name": "Peter-Lucas Jones",
+    "role": "Chief Executive",
+    "url": "https://neurips.cc/virtual/2020/20652",
+    "note": "Also chair of the National Māori Radio Network."
+   },
+   {
+    "name": "Keoni Mahelona",
+    "role": "Chief Technology Officer",
+    "url": "https://neurips.cc/virtual/2020/20652",
+    "note": "Leads Te Hiku Tech."
+   }
+  ]
+ }
+]

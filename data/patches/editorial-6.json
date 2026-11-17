@@ -1,0 +1,1270 @@
+[
+ {
+  "id": "stanford-nlp",
+  "tagline": "The Stanford NLP Group is a leading academic research group whose open software, including CoreNLP, GloVe, Stanza and DSPy, underpins much of modern language technology.",
+  "about": [
+   "The Stanford NLP Group was started in 2000 by Christopher Manning, who held a joint appointment in linguistics and computer science. It grew to include faculty such as Dan Jurafsky, who arrived in 2004, and Percy Liang, who joined in 2012. The group is part of Stanford University and brings together linguists and computer scientists.",
+   "Its software history begins with the Stanford Parser, released as open source in December 2002, and the first unified CoreNLP package appeared on 1 November 2010. Later releases include GloVe word vectors, the Python library Stanza for many human languages, and the DSPy framework for programming rather than prompting language models.",
+   "The group publishes code, data and papers openly, and its GitHub organization is among the most widely used sources of NLP tooling for researchers, students and industry engineers."
+  ],
+  "mission": "To advance the computational understanding of human language and to share research software and datasets that others can build on.",
+  "known_for": [
+   "CoreNLP Java toolkit",
+   "GloVe word vectors",
+   "Stanza multilingual NLP library",
+   "DSPy framework for LM programs"
+  ],
+  "contributions": [
+   {
+    "title": "Stanford NLP Group formed",
+    "note": "Christopher Manning starts the group at Stanford.",
+    "year": "2000"
+   },
+   {
+    "title": "Stanford Parser open-sourced",
+    "note": "The parser is first released as open source in December 2002.",
+    "year": "2002"
+   },
+   {
+    "title": "CoreNLP unified release",
+    "note": "The first unified CoreNLP package appears on 1 November 2010.",
+    "year": "2010"
+   },
+   {
+    "title": "GloVe released",
+    "note": "Software and data for GloVe word representations are published.",
+    "year": "2014"
+   },
+   {
+    "title": "Stanza",
+    "note": "A neural Python NLP library covering many human languages is released.",
+    "year": "2020"
+   },
+   {
+    "title": "DSPy",
+    "note": "The framework for programming language models becomes a flagship open-source project.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Christopher Manning",
+    "role": "Founder of the group; Professor of Linguistics and Computer Science",
+    "url": "https://nlp.stanford.edu/~manning/"
+   },
+   {
+    "name": "Dan Jurafsky",
+    "role": "Professor of Linguistics and Computer Science",
+    "url": "https://web.stanford.edu/~jurafsky/"
+   },
+   {
+    "name": "Percy Liang",
+    "role": "Associate Professor of Computer Science",
+    "url": "https://cs.stanford.edu/~pliang/"
+   },
+   {
+    "name": "Christopher Potts",
+    "role": "Professor of Linguistics",
+    "url": "https://web.stanford.edu/~cgpotts/"
+   },
+   {
+    "name": "Tatsunori Hashimoto",
+    "role": "Assistant Professor of Computer Science",
+    "url": "https://thashim.github.io/"
+   },
+   {
+    "name": "Diyi Yang",
+    "role": "Assistant Professor of Computer Science",
+    "url": "https://cs.stanford.edu/~diyiy/"
+   }
+  ],
+  "founded": 2000
+ },
+ {
+  "id": "stepfun",
+  "tagline": "StepFun is a Shanghai foundation-model company that has released open-weight language, speech and video models under permissive licenses.",
+  "about": [
+   "StepFun, formally Shanghai Jieyue Xingchen Intelligent Technology, was founded in April 2023 by Jiang Daxin, Zhu Yibo and Jiao Binxing, all formerly of Microsoft. It is often counted among China's six leading foundation-model startups, and its investors include Tencent and Qiming Venture Partners.",
+   "The company builds large language, multimodal, image, video and audio models. Step-2, a trillion-parameter model, appeared in 2024, and it open-sourced Step-Video-T2V and Step-Audio in February 2025 together with Geely.",
+   "Its recent open releases, Step 3.5 Flash in February 2026 and Step 3.7 Flash in May 2026, use the Apache 2.0 license. Its latest preview model, Step 5, is closed-weight, so openness varies by release."
+  ],
+  "mission": "StepFun states an aim of building frontier multimodal models and making many of them available to developers.",
+  "known_for": [
+   "Open Step-Video and Step-Audio models",
+   "Step 3.5 Flash mixture-of-experts model",
+   "Trillion-parameter Step-2"
+  ],
+  "contributions": [
+   {
+    "title": "Step-2 and multimodal models",
+    "note": "StepFun announces the trillion-parameter Step-2, Step-1.5V and Step-1X.",
+    "year": "2024"
+   },
+   {
+    "title": "Step-Video-T2V and Step-Audio",
+    "note": "Both are open-sourced in February 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Step 3",
+    "note": "The company releases Step 3 in July 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Step 3.5 Flash",
+    "note": "A 196B-parameter mixture-of-experts model with 11B active parameters is released under Apache 2.0.",
+    "year": "2026"
+   },
+   {
+    "title": "Step 3.7 Flash",
+    "note": "A further Apache 2.0 release follows in May 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jiang Daxin",
+    "role": "Co-founder",
+    "url": "https://www.stepfun.com/"
+   },
+   {
+    "name": "Zhu Yibo",
+    "role": "Co-founder",
+    "url": "https://www.stepfun.com/"
+   },
+   {
+    "name": "Jiao Binxing",
+    "role": "Co-founder",
+    "url": "https://www.stepfun.com/"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "stockmark",
+  "tagline": "Stockmark is a Tokyo company that has released large Japanese-language models, including the 100-billion-parameter Stockmark-100b, under permissive licenses.",
+  "about": [
+   "Stockmark is a Japanese company focused on business information and language models. Its co-founder and CTO is Kosuke Arima, and its researchers publish models on Hugging Face under the stockmark organization.",
+   "Stockmark-100b is a 100-billion-parameter model pretrained from scratch on about 910 billion tokens of Japanese and English text and released under the MIT license. The company later released Stockmark-2-100B-Instruct and a multimodal Stockmark-2-VL-100B, both developed under Japan's GENIAC program.",
+   "The models target Japanese business use, with a stated focus on reducing hallucination in domain questions."
+  ],
+  "mission": "Stockmark aims to provide Japanese-first language models that companies can run and adapt, with open weights.",
+  "known_for": [
+   "Stockmark-100b Japanese model",
+   "Stockmark-2 100B series",
+   "MIT-licensed Japanese LLMs"
+  ],
+  "contributions": [
+   {
+    "title": "Stockmark-100b",
+    "note": "A 100B Japanese and English model trained from scratch is published under the MIT license.",
+    "year": "2024"
+   },
+   {
+    "title": "Stockmark-2-100B-Instruct",
+    "note": "A second-generation 100B model is developed under GENIAC.",
+    "year": "2025"
+   },
+   {
+    "title": "Stockmark-2-VL-100B",
+    "note": "A vision-language follow-up is released.",
+    "year": "2025"
+   },
+   {
+    "title": "Availability on NVIDIA NIM",
+    "note": "Stockmark-2-100B-Instruct is offered through NVIDIA's model catalogue.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Kosuke Arima",
+    "role": "Co-founder and CTO",
+    "url": "https://jp.linkedin.com/in/kosuke-arima-428460189"
+   },
+   {
+    "name": "Takahiro Omi",
+    "role": "Researcher and model author",
+    "url": "https://huggingface.co/stockmark"
+   }
+  ]
+ },
+ {
+  "id": "swallow-llm",
+  "tagline": "Swallow is a Japanese LLM project at the Institute of Science Tokyo that continually pretrains open models to give them strong Japanese ability.",
+  "about": [
+   "Swallow is led by researchers in the Okazaki and Yokota laboratories at the Institute of Science Tokyo, together with the National Institute of Advanced Industrial Science and Technology (AIST). Naoaki Okazaki leads the project and the pre-training corpus team, Rio Yokota leads LLM training, and Sakae Mizuki leads instruction tuning and evaluation.",
+   "The project adapts existing open models such as Llama, Mistral, Gemma, Qwen and gpt-oss to Japanese through continual pretraining and instruction tuning. Its model list runs from the first Swallow models to Llama 3.3 Swallow 70B, Qwen3 Swallow and GPT-OSS Swallow.",
+   "Weights are published on Hugging Face under the tokyotech-llm organization, and the project documents its corpus and evaluation work for the Japanese community."
+  ],
+  "mission": "Swallow aims to build and openly release Japanese large language models and the corpora and evaluation methods needed to improve them.",
+  "known_for": [
+   "Japanese continual-pretrained Llama models",
+   "Swallow corpus and evaluation work",
+   "Llama 3.3 Swallow 70B"
+  ],
+  "contributions": [
+   {
+    "title": "First Swallow models",
+    "note": "Llama-based Swallow models extend Japanese ability of open LLMs.",
+    "year": "2023"
+   },
+   {
+    "title": "Llama 3 Swallow",
+    "note": "Models built on Llama 3 are released.",
+    "year": "2024"
+   },
+   {
+    "title": "Llama 3.1 Swallow",
+    "note": "The line is updated to Llama 3.1.",
+    "year": "2024"
+   },
+   {
+    "title": "Llama 3.3 Swallow 70B",
+    "note": "A 70B model is added to the family.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Naoaki Okazaki",
+    "role": "Professor; project leader",
+    "url": "https://swallow-llm.github.io/index.en.html"
+   },
+   {
+    "name": "Rio Yokota",
+    "role": "Professor; LLM training team leader",
+    "url": "https://swallow-llm.github.io/index.en.html"
+   },
+   {
+    "name": "Sakae Mizuki",
+    "role": "Researcher; instruction tuning and evaluation leader",
+    "url": "https://swallow-llm.github.io/index.en.html"
+   },
+   {
+    "name": "Hiroya Takamura",
+    "role": "AIST team leader; project manager",
+    "url": "https://swallow-llm.github.io/index.en.html"
+   }
+  ]
+ },
+ {
+  "id": "swiss-ai-initiative",
+  "tagline": "The Swiss AI Initiative is a national ETH Zurich and EPFL effort that trained the fully open Apertus language models on the Alps supercomputer.",
+  "about": [
+   "The Swiss AI Initiative started in December 2023, seeded with more than 10 million GPU hours on the Alps system run by CSCS and a CHF 20 million grant from the ETH Domain. It is run with the ETH AI Center and the EPFL AI Center, with Swisscom as strategic partner.",
+   "Its main output is Apertus, released on 2 September 2025 in 8B and 70B sizes under Apache 2.0. Apertus was trained on over 1,800 languages and designed to follow European copyright law, with an emphasis on transparency and auditability.",
+   "An Apertus 1.5 release is listed for July 2026."
+  ],
+  "mission": "The initiative aims to build transparent, sovereign foundation models for Switzerland and to share them with the wider research community.",
+  "known_for": [
+   "Apertus open language models",
+   "Alps supercomputer training",
+   "Transparency and copyright-aware data"
+  ],
+  "contributions": [
+   {
+    "title": "Initiative launched",
+    "note": "The Swiss AI Initiative begins with over 10 million GPU hours and a CHF 20 million grant.",
+    "year": "2023"
+   },
+   {
+    "title": "Apertus 1",
+    "note": "8B and 70B models released under Apache 2.0 on 2 September.",
+    "year": "2025"
+   },
+   {
+    "title": "Apertus 1.5",
+    "note": "A follow-up release is listed for July 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [],
+  "founded": 2023
+ },
+ {
+  "id": "taide",
+  "tagline": "TAIDE is a Taiwanese government-backed project releasing open Traditional Chinese language models for trustworthy local use.",
+  "about": [
+   "TAIDE, the Trustworthy AI Dialogue Engine, launched on 27 April 2023. The National Science and Technology Council acts as guiding agency, and the National Institutes of Applied Research implements the work.",
+   "The project has released the TAIDE-LX-7B model in 2024, Llama 3 and Llama 3.1 based 8B chat models, and Gemma 3 based 12B chat models in 2025 and 2026. A small embedding model, Embeddinggemma-GTAIDE-300m, appeared in 2026.",
+   "Its models are intended to serve Traditional Chinese users and Taiwanese institutions."
+  ],
+  "mission": "TAIDE aims to provide a trustworthy Traditional Chinese language model base for Taiwan's public and private sectors.",
+  "known_for": [
+   "Traditional Chinese LLMs",
+   "Government-sponsored open models",
+   "Llama and Gemma derived chat models"
+  ],
+  "contributions": [
+   {
+    "title": "Project launch",
+    "note": "TAIDE starts on 27 April 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "TAIDE-LX-7B",
+    "note": "The first model of the family is published.",
+    "year": "2024"
+   },
+   {
+    "title": "Llama3.1-TAIDE-LX-8B-Chat",
+    "note": "An 8B chat model based on Llama 3.1.",
+    "year": "2025"
+   },
+   {
+    "title": "Gemma-3-TAIDE-12b-Chat",
+    "note": "A 12B chat model based on Gemma 3.",
+    "year": "2025"
+   },
+   {
+    "title": "Gemma-3-TAIDE-12b-Chat-2602",
+    "note": "An updated 12B chat model.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [],
+  "founded": 2023
+ },
+ {
+  "id": "tartunlp",
+  "tagline": "TartuNLP is the University of Tartu's language technology group, building Estonian and Finno-Ugric models, translation and speech tools.",
+  "about": [
+   "TartuNLP is a natural language processing group at the University of Tartu in Estonia. Its site presents work on Estonian language models, machine translation and speech synthesis.",
+   "Named projects include Llammas, an Estonian-adapted Llama model, EstBERT, and the Neurotõlge translation service. Code and models are published through the TartuNLP GitHub organization."
+  ],
+  "mission": "The group works to provide open language technology for Estonian and related smaller languages.",
+  "known_for": [
+   "Estonian language models",
+   "Neurotõlge machine translation",
+   "Finno-Ugric language tools"
+  ],
+  "contributions": [
+   {
+    "title": "EstBERT",
+    "note": "An Estonian BERT model is published.",
+    "year": "2020"
+   },
+   {
+    "title": "Llammas",
+    "note": "An Estonian instruction-tuned Llama model is released.",
+    "year": "2023"
+   }
+  ],
+  "key_people": []
+ },
+ {
+  "id": "te-hiku-media",
+  "tagline": "Te Hiku Media is a Māori iwi media organization in Kaitaia that builds te reo Māori speech technology under Māori data sovereignty.",
+  "about": [
+   "Te Hiku Media, formally Te Reo Irirangi o Te Hiku o Te Ika, is an iwi radio and media organization in Kaitaia whose site dates its roots to 1991. It runs Te Hiku Tech, which builds tools for te reo Māori.",
+   "Its Kōrero Māori campaign collected labelled speech under the Kaitiakitanga License, which restricts use of the data to the benefit of Māori people. The organization reported a speech recognizer for te reo Māori built with DeepSpeech, with accuracy of about 92 percent.",
+   "All content on its site is covered by the same licence, and contributors retain ownership of their data."
+  ],
+  "mission": "Te Hiku Media aims to revitalize te reo Māori with technology that Māori communities own and control.",
+  "known_for": [
+   "te reo Māori speech recognition",
+   "Kaitiakitanga License",
+   "Indigenous data sovereignty"
+  ],
+  "contributions": [
+   {
+    "title": "Kōrero Māori campaign",
+    "note": "Crowdsourced speech collection for te reo Māori under the Kaitiakitanga License.",
+    "year": "2018"
+   },
+   {
+    "title": "NeurIPS 2020 keynote",
+    "note": "Leaders present indigenous speech recognition and data sovereignty.",
+    "year": "2020"
+   },
+   {
+    "title": "Whare Kōrero platform",
+    "note": "A platform hosting more than 30 years of digitised archive material.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Peter-Lucas Jones",
+    "role": "Chief Executive",
+    "url": "https://neurips.cc/virtual/2020/20652"
+   },
+   {
+    "name": "Keoni Mahelona",
+    "role": "Chief Technology Officer",
+    "url": "https://neurips.cc/virtual/2020/20652"
+   }
+  ]
+ },
+ {
+  "id": "tii-falcon",
+  "tagline": "TII is Abu Dhabi's government-funded research institute and the publisher of the Falcon open language models.",
+  "about": [
+   "The Technology Innovation Institute is part of the Advanced Technology Research Council of the Abu Dhabi government. It works across AI, quantum computing, robotics, cryptography and other fields, and its Artificial Intelligence and Digital Science Research Center builds the Falcon models.",
+   "Falcon 40B and 7B were released in 2023, followed by Falcon 180B in September 2023, Falcon 2 11B in May 2024 and Falcon 3 in December 2024. Later work includes the hybrid Falcon-H1 family and Falcon-H1 Arabic in January 2026.",
+   "TII is state funded, so its openness follows its license choices per release."
+  ],
+  "mission": "TII aims to build sovereign, efficient AI models and release them for the global research community.",
+  "known_for": [
+   "Falcon open LLM family",
+   "Falcon 180B",
+   "Falcon-H1 hybrid models"
+  ],
+  "contributions": [
+   {
+    "title": "Falcon 40B and 7B",
+    "note": "Open weights released.",
+    "year": "2023"
+   },
+   {
+    "title": "Falcon 180B",
+    "note": "Released in September.",
+    "year": "2023"
+   },
+   {
+    "title": "Falcon 2 11B",
+    "note": "Second generation with a vision-language variant, in May.",
+    "year": "2024"
+   },
+   {
+    "title": "Falcon 3",
+    "note": "Five base models and instruction variants released 17 December.",
+    "year": "2024"
+   },
+   {
+    "title": "Falcon-H1 Arabic",
+    "note": "Released in January with leading Arabic leaderboard results.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Najwa Aaraj",
+    "role": "Chief Executive Officer, TII",
+    "url": "https://www.tii.ae/ai-and-digital-science"
+   },
+   {
+    "name": "Hakim Hacid",
+    "role": "Chief Researcher, AI Cross Center Unit",
+    "url": "https://www.tii.ae/ai-and-digital-science"
+   },
+   {
+    "name": "Yoelle Maarek",
+    "role": "Chief Researcher, AI Cross Center Unit",
+    "url": "https://www.tii.ae/ai-and-digital-science"
+   }
+  ]
+ },
+ {
+  "id": "alan-turing-institute",
+  "tagline": "The Alan Turing Institute is the UK's national institute for data science and AI, which maintains a large body of open research software.",
+  "about": [
+   "The Alan Turing Institute was founded in 2015 as the UK's national institute for data science, and AI was added to its remit in 2017. It is named after Alan Turing and is largely government funded.",
+   "Its researchers and engineers publish many open repositories on GitHub. Since 2025 the institute has focused on defence and national security at the government's request.",
+   "In May 2026 George Williamson, previously of HMGCC, was named chief executive."
+  ],
+  "mission": "The institute's stated direction is now to serve UK sovereign capability in AI, defence and security.",
+  "known_for": [
+   "UK national AI institute",
+   "Open research software",
+   "Data science and AI research"
+  ],
+  "contributions": [
+   {
+    "title": "Institute founded",
+    "note": "Established as the national institute for data science.",
+    "year": "2015"
+   },
+   {
+    "title": "AI added to remit",
+    "note": "The institute's mission expands to AI.",
+    "year": "2017"
+   },
+   {
+    "title": "Defence and security focus",
+    "note": "Strategy refocuses at the government's request.",
+    "year": "2025"
+   },
+   {
+    "title": "New chief executive",
+    "note": "George Williamson appointed.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "George Williamson",
+    "role": "Chief Executive",
+    "url": "https://www.turing.ac.uk"
+   }
+  ],
+  "founded": 2015,
+  "_flag": "Government-directed since 2025 toward defence and national security, which sits uneasily with an independent open-source focus."
+ },
+ {
+  "id": "tilde",
+  "tagline": "Tilde is a Latvian language technology company that trained TildeOpen, an open 30B model covering 34 European languages.",
+  "about": [
+   "Tilde is a language technology company based in Latvia that builds machine translation and language tools. In 2024 it won the European Commission's Large AI Grand Challenge, which awarded 2 million GPU hours on the LUMI supercomputer.",
+   "On that compute it trained TildeOpen LLM, a 30B dense decoder-only model on the Llama 3 architecture, trained on 2 trillion tokens for 34 European languages. It was released in October 2025 on Hugging Face under CC BY 4.0.",
+   "A technical report presented at LREC 2026 describes the curriculum learning used to give lower-resource languages equitable representation."
+  ],
+  "mission": "Tilde aims to give smaller European languages an open model that serves them as well as large ones.",
+  "known_for": [
+   "TildeOpen 30B",
+   "Equitable European language coverage",
+   "Machine translation"
+  ],
+  "contributions": [
+   {
+    "title": "Large AI Grand Challenge win",
+    "note": "Awarded 2 million GPU hours on LUMI.",
+    "year": "2024"
+   },
+   {
+    "title": "TildeOpen LLM release",
+    "note": "30B open model on Hugging Face, 15 October.",
+    "year": "2025"
+   },
+   {
+    "title": "LREC 2026 paper",
+    "note": "Technical report on curriculum learning for equitable representation.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Artūrs Vasiļevskis",
+    "role": "Chief executive quoted in launch coverage",
+    "url": "https://tilde.ai"
+   }
+  ]
+ },
+ {
+  "id": "tng",
+  "tagline": "TNG is a German technology consultancy that publishes open-weight DeepSeek merges such as the R1T Chimera models.",
+  "about": [
+   "TNG Technology Consulting is a Bavarian consultancy founded in 2001 with several hundred employees. Its AI research team publishes model work on Hugging Face under tngtech.",
+   "DeepSeek-R1T-Chimera, released on 27 April 2025, is constructed from parts of DeepSeek-R1 and DeepSeek-V3 mixture-of-experts models rather than fine-tuning. DeepSeek-TNG R1T2 Chimera followed on 3 July 2025 under the MIT license."
+  ],
+  "mission": "TNG presents its model work as research on assembling new models from existing open parents.",
+  "known_for": [
+   "DeepSeek R1T Chimera",
+   "R1T2 Chimera model merges",
+   "Open-weight model assembly"
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "TNG is established.",
+    "year": "2001"
+   },
+   {
+    "title": "DeepSeek-R1T-Chimera",
+    "note": "Released 27 April.",
+    "year": "2025"
+   },
+   {
+    "title": "DeepSeek-TNG R1T2 Chimera",
+    "note": "Released 3 July with MIT-licensed weights.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [],
+  "founded": 2001
+ },
+ {
+  "id": "together-ai",
+  "tagline": "Together AI is an AI cloud company whose research arm released RedPajama and advanced open work such as FlashAttention-2 and Mixture-of-Agents.",
+  "about": [
+   "Together AI was founded by Vipul Ved Prakash, Ce Zhang, Chris Ré and Percy Liang, with Tri Dao joining as chief scientist in July 2023. It combines a commercial inference cloud with an open research group.",
+   "In April 2023 it released RedPajama, a 1.2 trillion token pre-training dataset reproducing the LLaMA recipe, and later the 30 trillion token RedPajama-V2. It announced FlashAttention-2 in July 2023.",
+   "Its research outputs are open, but the company's main business is a paid platform."
+  ],
+  "mission": "Together aims to provide an open, high-performance platform for building with open-source models.",
+  "known_for": [
+   "RedPajama datasets",
+   "FlashAttention-2",
+   "Open model cloud"
+  ],
+  "contributions": [
+   {
+    "title": "RedPajama dataset",
+    "note": "1.2 trillion token open dataset released 17 April.",
+    "year": "2023"
+   },
+   {
+    "title": "FlashAttention-2",
+    "note": "Announced 17 July with Tri Dao as chief scientist.",
+    "year": "2023"
+   },
+   {
+    "title": "RedPajama-V2",
+    "note": "A 30 trillion token open dataset.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Vipul Ved Prakash",
+    "role": "Co-founder and CEO",
+    "url": "https://www.together.ai"
+   },
+   {
+    "name": "Ce Zhang",
+    "role": "Co-founder",
+    "url": "https://www.together.ai"
+   },
+   {
+    "name": "Chris Ré",
+    "role": "Co-founder",
+    "url": "https://www.together.ai"
+   },
+   {
+    "name": "Percy Liang",
+    "role": "Co-founder",
+    "url": "https://cs.stanford.edu/~pliang/"
+   },
+   {
+    "name": "Tri Dao",
+    "role": "Chief Scientist",
+    "url": "https://tridao.me"
+   }
+  ],
+  "founded": 2022
+ },
+ {
+  "id": "transluce",
+  "tagline": "Transluce is a nonprofit AI research lab building open tools to understand and oversee AI systems.",
+  "about": [
+   "Transluce was co-founded in 2024 by Jacob Steinhardt and Sarah Schwettmann, with Steinhardt on leave from UC Berkeley and Schwettmann previously at MIT CSAIL. It describes itself as a nonprofit that builds open, scalable tools for understanding frontier AI.",
+   "It launched publicly on 23 October 2024 with neuron-description tools, Monitor and investigator agents. It later released Docent, which analyzes agent transcripts to find bugs and unexpected behaviour and is used by more than 25 organizations."
+  ],
+  "mission": "Transluce aims to enable scalable, democratic oversight of AI through open tooling.",
+  "known_for": [
+   "Docent agent transcript analysis",
+   "Interpretability tooling",
+   "Nonprofit AI oversight research"
+  ],
+  "contributions": [
+   {
+    "title": "Lab co-founded",
+    "note": "Steinhardt and Schwettmann start Transluce.",
+    "year": "2024"
+   },
+   {
+    "title": "Public launch",
+    "note": "Tools and investigator agents unveiled 23 October.",
+    "year": "2024"
+   },
+   {
+    "title": "Docent",
+    "note": "Released for analyzing AI agent transcripts.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jacob Steinhardt",
+    "role": "Co-founder and CEO",
+    "url": "https://transluce.org"
+   },
+   {
+    "name": "Sarah Schwettmann",
+    "role": "Co-founder and Chief Scientist",
+    "url": "https://transluce.org"
+   }
+  ],
+  "founded": 2024
+ },
+ {
+  "id": "trillion-labs",
+  "tagline": "Trillion Labs is a Seoul startup that trains Korean and English foundation models from scratch and releases open weights.",
+  "about": [
+   "Trillion Labs was founded in Seoul in 2024 by Jaemin Shin, formerly a research scientist on Naver's HyperCLOVA X. It raised pre-seed funding of 5.8 million dollars in September 2024.",
+   "It open-sourced the preview Trillion-7B model in March 2025 and Tri-21B in July 2025, a model trained from scratch that runs on a single GPU. Tri 21B Think, adding reinforcement learning for reasoning, followed in February 2026."
+  ],
+  "mission": "Trillion Labs aims to build efficient Korean-capable models through from-scratch pretraining.",
+  "known_for": [
+   "Tri model series",
+   "Korean from-scratch pretraining",
+   "Tri-21B"
+  ],
+  "contributions": [
+   {
+    "title": "Pre-seed round",
+    "note": "5.8 million dollars raised in September.",
+    "year": "2024"
+   },
+   {
+    "title": "Trillion-7B-preview",
+    "note": "Open preview model released.",
+    "year": "2025"
+   },
+   {
+    "title": "Tri-21B",
+    "note": "Open from-scratch 21B model released in July.",
+    "year": "2025"
+   },
+   {
+    "title": "Tri 21B Think",
+    "note": "Reasoning variant unveiled.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jaemin Shin",
+    "role": "Founder and CEO",
+    "url": "https://trillionlabs.co"
+   }
+  ],
+  "founded": 2024
+ },
+ {
+  "id": "turing",
+  "tagline": "Turing is a Tokyo autonomous-driving company that releases the Heron vision-language models and datasets.",
+  "about": [
+   "Turing was founded in 2021 in Tokyo with the goal of fully autonomous vehicles by 2030. Issei Yamamoto is chief executive and Shunsuke Aoki co-founder and CTO.",
+   "Its Heron family of vision-language models, supported by Japan's GENIAC program, includes the Heron-NVILA-Lite 15B, 2B and 1B models. In March 2026 it reported Japan's first real-time public-road driving controlled by a vision-language-action model."
+  ],
+  "mission": "Turing aims to deliver end-to-end AI driving for fully autonomous cars.",
+  "known_for": [
+   "Heron vision-language models",
+   "End-to-end autonomous driving",
+   "CoVLA dataset"
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Turing starts in Tokyo.",
+    "year": "2021"
+   },
+   {
+    "title": "Heron and CoVLA",
+    "note": "Heron VLMs and the CoVLA driving dataset released.",
+    "year": "2024"
+   },
+   {
+    "title": "Heron-NVILA-Lite",
+    "note": "15B, 2B and 1B models made public under GENIAC.",
+    "year": "2025"
+   },
+   {
+    "title": "VLA driving on public roads",
+    "note": "First real-time VLA control reported in Japan.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Issei Yamamoto",
+    "role": "CEO",
+    "url": "https://tur.ing/en"
+   },
+   {
+    "name": "Shunsuke Aoki",
+    "role": "Co-founder and CTO",
+    "url": "https://tur.ing/en"
+   }
+  ],
+  "founded": 2021
+ },
+ {
+  "id": "turkunlp",
+  "tagline": "TurkuNLP is the University of Turku's language technology group, known for FinBERT and, with Silo AI, the Poro and Viking models.",
+  "about": [
+   "TurkuNLP is a research group at the University of Turku working on natural language processing, language technology and digital linguistics. Its resources include FinBERT, WikiBERT, FinGPT and the Turku Dependency Treebank.",
+   "With Silo AI's SiloGen it built the Poro and Viking models on the LUMI supercomputer. Viking, released in 2024 in 7B, 13B and 33B sizes, covers Danish, Finnish, Norwegian, Icelandic, Swedish, English and code and is Apache 2.0 licensed."
+  ],
+  "mission": "The group aims to produce open language resources and models for Finnish and the Nordic languages.",
+  "known_for": [
+   "FinBERT",
+   "Poro and Viking Nordic models",
+   "Universal Dependencies treebanks"
+  ],
+  "contributions": [
+   {
+    "title": "FinBERT",
+    "note": "A Finnish BERT model released.",
+    "year": "2019"
+   },
+   {
+    "title": "Poro",
+    "note": "Open model for Finnish trained on LUMI with Silo AI.",
+    "year": "2023"
+   },
+   {
+    "title": "Viking 7B, 13B and 33B",
+    "note": "Nordic model family released.",
+    "year": "2024"
+   }
+  ],
+  "key_people": []
+ },
+ {
+  "id": "typhoon-scb10x",
+  "tagline": "Typhoon is a series of Thai language models and tools from SCB 10X, published openly on Hugging Face and through opentyphoon.ai.",
+  "about": [
+   "Typhoon began as a Thai language model project at SCB 10X, a subsidiary of SCBX Group. Typhoon-7B, built on Mistral-7B, was released as open source under Apache 2.0 in January 2024.",
+   "The team published later versions including Typhoon 1.5, Typhoon 2 in December 2024 and Typhoon 2.5 on Qwen3 bases. Core contributors include Kunat Pipatanakul and Potsawee Manakul."
+  ],
+  "mission": "Typhoon aims to supply high-quality Thai language models to developers and the community.",
+  "known_for": [
+   "Thai LLMs",
+   "Typhoon-7B",
+   "Typhoon 2 series"
+  ],
+  "contributions": [
+   {
+    "title": "Typhoon technical report",
+    "note": "Paper on Thai LLMs published.",
+    "year": "2023"
+   },
+   {
+    "title": "Typhoon-7B",
+    "note": "Open Thai model released.",
+    "year": "2024"
+   },
+   {
+    "title": "Typhoon 2",
+    "note": "Technical report describing the second generation.",
+    "year": "2024"
+   },
+   {
+    "title": "Typhoon 2.5",
+    "note": "Qwen3 based models appear on Hugging Face.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Kunat Pipatanakul",
+    "role": "Researcher",
+    "url": "https://opentyphoon.ai"
+   },
+   {
+    "name": "Potsawee Manakul",
+    "role": "Researcher",
+    "url": "https://opentyphoon.ai"
+   }
+  ],
+  "_flag": "Typhoon is run by SCB 10X, a subsidiary of SCBX Group, so it is not an independent lab."
+ },
+ {
+  "id": "ukp-lab",
+  "tagline": "The Ubiquitous Knowledge Processing Lab at TU Darmstadt created Sentence-BERT and publishes open NLP tools.",
+  "about": [
+   "UKP Lab was founded in 2009 by Iryna Gurevych and belongs to the Computer Science Department of TU Darmstadt.",
+   "It created Sentence-BERT, the Sentence Transformers library, with Nils Reimers in 2019, and develops AdapterHub. In October 2025 maintenance of Sentence Transformers passed to Hugging Face under Apache 2.0."
+  ],
+  "mission": "The lab works on open, reusable language technology and knowledge processing methods.",
+  "known_for": [
+   "Sentence-BERT",
+   "Sentence Transformers",
+   "AdapterHub"
+  ],
+  "contributions": [
+   {
+    "title": "Lab founded",
+    "note": "Iryna Gurevych founds UKP Lab.",
+    "year": "2009"
+   },
+   {
+    "title": "Sentence-BERT",
+    "note": "The library emerges from lab research.",
+    "year": "2019"
+   },
+   {
+    "title": "AdapterHub",
+    "note": "Framework paper published.",
+    "year": "2020"
+   },
+   {
+    "title": "Transfer to Hugging Face",
+    "note": "Sentence Transformers maintenance moves to Hugging Face.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Iryna Gurevych",
+    "role": "Founder and head of UKP Lab",
+    "url": "https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp"
+   },
+   {
+    "name": "Nils Reimers",
+    "role": "Co-creator of Sentence-BERT",
+    "url": "https://www.informatik.tu-darmstadt.de/ukp/ukp_home/index.en.jsp"
+   }
+  ],
+  "founded": 2009
+ },
+ {
+  "id": "ultralytics",
+  "tagline": "Ultralytics develops the YOLO model family and ultralytics library, released under AGPL-3.0 with enterprise licensing.",
+  "about": [
+   "Ultralytics is a computer-vision company led by founder and CEO Glenn Jocher. Its ultralytics Python package provides YOLO models for detection, segmentation and other tasks.",
+   "Models are distributed under AGPL-3.0 by default, with a paid Enterprise license for private deployment. YOLO11 was released in September 2024."
+  ],
+  "mission": "Ultralytics aims to make vision AI accessible through a widely used open library.",
+  "known_for": [
+   "YOLO model family",
+   "ultralytics Python library",
+   "AGPL-3.0 with enterprise license"
+  ],
+  "contributions": [
+   {
+    "title": "YOLOv8 relicensed AGPL-3.0",
+    "note": "Project moves to AGPL-3.0.",
+    "year": "2023"
+   },
+   {
+    "title": "YOLO11",
+    "note": "Released in September.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Glenn Jocher",
+    "role": "Founder and CEO",
+    "url": "https://github.com/glenn-jocher"
+   }
+  ],
+  "_flag": "Open-core model: AGPL-3.0 by default but monetized through enterprise licensing; not a pure open-source lab."
+ },
+ {
+  "id": "unsloth",
+  "tagline": "Unsloth is an open-source project and company making LLM fine-tuning and reinforcement learning faster and lighter.",
+  "about": [
+   "Unsloth was started by brothers Daniel and Michael Han, who launched it on 30 November 2023 as an open-source tool for faster single-GPU fine-tuning. They began in Sydney and later moved to San Francisco.",
+   "It joined Y Combinator's Summer 2024 batch and also publishes quantized model uploads."
+  ],
+  "mission": "Unsloth aims to make training and running LLMs cheaper for individual developers.",
+  "known_for": [
+   "Fast LLM fine-tuning",
+   "Dynamic quantization",
+   "Open training kernels"
+  ],
+  "contributions": [
+   {
+    "title": "Unsloth launch",
+    "note": "Introduced as faster AI training.",
+    "year": "2023"
+   },
+   {
+    "title": "Y Combinator S24",
+    "note": "The company joins YC.",
+    "year": "2024"
+   },
+   {
+    "title": "Seed funding",
+    "note": "Seed round in October.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Daniel Han",
+    "role": "Co-founder",
+    "url": "https://www.ai.engineer/speakers/daniel-han"
+   },
+   {
+    "name": "Michael Han",
+    "role": "Co-founder",
+    "url": "https://github.com/unslothai"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "upstage",
+  "tagline": "Upstage is a Korean AI company behind the Solar language models and document processing engines, some released openly.",
+  "about": [
+   "Upstage is a Korean company led by co-founder and CEO Sung Kim. It developed the compact Solar 10.7B model, released in December 2023.",
+   "It also builds document AI products, with some models released under open licenses."
+  ],
+  "mission": "Upstage aims to build efficient models and document AI for enterprises.",
+  "known_for": [
+   "Solar 10.7B",
+   "Compact LLMs",
+   "Document AI"
+  ],
+  "contributions": [
+   {
+    "title": "Solar 10.7B",
+    "note": "Compact model released.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Sung Kim",
+    "role": "Co-founder and CEO",
+    "url": "https://upstage.ai"
+   }
+  ]
+ },
+ {
+  "id": "vector-institute",
+  "tagline": "Vector Institute is a Toronto nonprofit AI research institute that also publishes open tools for LLM work, federated learning and health AI.",
+  "about": [
+   "Vector opened in March 2017 at MaRS in Toronto as an independent nonprofit. Geoffrey Hinton became chief scientific adviser, Richard Zemel research director, and Garth Gibson CEO.",
+   "Its research is led by Hinton with research directors Daniel Roy and Graham Taylor as of 2023. Its GitHub organization hosts open engineering tools."
+  ],
+  "mission": "Vector aims to drive excellence in machine learning and deep learning in Canada.",
+  "known_for": [
+   "Deep learning research hub",
+   "Hinton as scientific adviser",
+   "Open AI engineering tools"
+  ],
+  "contributions": [
+   {
+    "title": "Institute opens",
+    "note": "Launched at MaRS in Toronto.",
+    "year": "2017"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Geoffrey Hinton",
+    "role": "Chief Scientific Adviser",
+    "url": "https://www.cs.toronto.edu/~hinton/"
+   },
+   {
+    "name": "Richard Zemel",
+    "role": "Research Director",
+    "url": "https://www.cs.toronto.edu/~zemel/"
+   },
+   {
+    "name": "Daniel Roy",
+    "role": "Research Director",
+    "url": "https://vectorinstitute.ai"
+   },
+   {
+    "name": "Graham Taylor",
+    "role": "Research Director",
+    "url": "https://vectorinstitute.ai"
+   }
+  ],
+  "founded": 2017
+ },
+ {
+  "id": "vistec-airesearch",
+  "tagline": "VISTEC-depa AIRI is a Thai institute publishing Thai NLP datasets and models such as WangchanBERTa and WangchanLION.",
+  "about": [
+   "The institute was formed through a collaboration between depa and VISTEC. It provides large datasets and pretrained models for Thai.",
+   "WangchanBERTa is its Thai transformer language model. WangchanLION, built with AI Singapore on SEA-LION, is released with code, data and weights under Apache 2.0, and WangchanLION-v3 continues pretraining from Llama 3.1 8B."
+  ],
+  "mission": "The institute aims to provide Thai language AI resources.",
+  "known_for": [
+   "WangchanBERTa",
+   "WangchanLION",
+   "Thai datasets"
+  ],
+  "contributions": [
+   {
+    "title": "WangchanBERTa",
+    "note": "Thai pretrained transformer released.",
+    "year": "2021"
+   },
+   {
+    "title": "WangchanLION",
+    "note": "Instruction-tuned Thai SEA-LION model.",
+    "year": "2024"
+   },
+   {
+    "title": "WangchanLION-v3",
+    "note": "Continual pretraining from Llama 3.1 8B.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Sarana Nutanong",
+    "role": "Researcher, VISTEC",
+    "url": "https://github.com/vistec-AI"
+   }
+  ]
+ },
+ {
+  "id": "voxel51",
+  "tagline": "Voxel51 builds the open-source FiftyOne toolkit for curating datasets and evaluating computer vision models.",
+  "about": [
+   "Voxel51 was co-founded by University of Michigan professor Jason Corso and Brian Moore and is based in Ann Arbor. Sources differ on whether it began in 2016 or 2018.",
+   "FiftyOne open source launched in August 2020 and reached version 1.0 in October 2024. The commercial platform builds on it."
+  ],
+  "mission": "Voxel51 aims to help teams build better visual AI through data-centric tooling.",
+  "known_for": [
+   "FiftyOne",
+   "Dataset curation",
+   "Model evaluation"
+  ],
+  "contributions": [
+   {
+    "title": "FiftyOne launch",
+    "note": "Open-source experimentation tool announced.",
+    "year": "2020"
+   },
+   {
+    "title": "FiftyOne 1.0",
+    "note": "Open source version 1.0 released.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jason Corso",
+    "role": "Co-founder",
+    "url": "https://voxel51.com/about"
+   },
+   {
+    "name": "Brian Moore",
+    "role": "Co-founder and CEO",
+    "url": "https://voxel51.com/about"
+   }
+  ]
+ },
+ {
+  "id": "zai-zhipu",
+  "tagline": "Z.ai, formerly Zhipu AI, is a Tsinghua spinoff that releases the GLM models, including MIT-licensed open weights.",
+  "about": [
+   "Zhipu AI is a Tsinghua University spinoff that rebranded as Z.ai in 2025. Co-founder Tang Jie is chief scientist, and the company listed in Hong Kong on 8 January 2026.",
+   "It released GLM-5, a 744B open-weight model under MIT, in February 2026, and later GLM-5.2."
+  ],
+  "mission": "Z.ai aims to build frontier general models and release open weights.",
+  "known_for": [
+   "GLM model family",
+   "GLM-5 open weights",
+   "ChatGLM"
+  ],
+  "contributions": [
+   {
+    "title": "IPO in Hong Kong",
+    "note": "Listed on 8 January.",
+    "year": "2026"
+   },
+   {
+    "title": "GLM-5",
+    "note": "744B open-weight MIT model.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Tang Jie",
+    "role": "Co-founder and Chief Scientist",
+    "url": "https://z.ai"
+   }
+  ]
+ },
+ {
+  "id": "zindi",
+  "tagline": "Zindi is a South African data science competition platform for African AI builders.",
+  "about": [
+   "Zindi was founded in 2018 by Celina Lee, with Megan Yates as CTO and Ekow Duker. It connects data scientists in Africa with organizations that have real problems.",
+   "It reports tens of thousands of registered practitioners and hundreds of challenges."
+  ],
+  "mission": "Zindi aims to grow African data science talent and solve local problems.",
+  "known_for": [
+   "African data science challenges",
+   "Community of practitioners",
+   "Crowdsourced solutions"
+  ],
+  "contributions": [
+   {
+    "title": "Zindi founded",
+    "note": "Launched in 2018.",
+    "year": "2018"
+   },
+   {
+    "title": "10,000 data scientists",
+    "note": "Reported by TechCrunch.",
+    "year": "2020"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Celina Lee",
+    "role": "Co-founder and CEO",
+    "url": "https://www.unite.ai/celina-lee-ceo-and-co-founder-of-zindi-interview-series"
+   },
+   {
+    "name": "Megan Yates",
+    "role": "Co-founder and CTO",
+    "url": "https://zindi.world"
+   }
+  ],
+  "founded": 2018,
+  "_flag": "Zindi is a competition marketplace rather than an AI lab, and its GitHub holds collected solutions rather than its own open models."
+ },
+ {
+  "id": "zyphra",
+  "tagline": "Zyphra is an AI lab in Palo Alto releasing open-weight models, including the ZAYA1-8B reasoning mixture-of-experts model.",
+  "about": [
+   "Zyphra says it was founded in 2020 and lists members in Palo Alto, London and Montreal. Dealroom names Krithik Puthalath and Danny Martinelli as founders.",
+   "It has released ZAYA1-8B, a reasoning-focused mixture-of-experts model trained on AMD Instinct MI300 GPUs, and demonstrated large-scale training on a full AMD stack."
+  ],
+  "mission": "Zyphra aims at full-stack, efficient AI models.",
+  "known_for": [
+   "ZAYA1-8B",
+   "AMD-trained models",
+   "Open-weight releases"
+  ],
+  "contributions": [
+   {
+    "title": "AMD training demonstration",
+    "note": "Large-scale training on AMD with IBM Cloud.",
+    "year": "2025"
+   },
+   {
+    "title": "ZAYA1-8B",
+    "note": "Open reasoning model released.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Krithik Puthalath",
+    "role": "Founder",
+    "url": "https://www.zyphra.com"
+   },
+   {
+    "name": "Danny Martinelli",
+    "role": "Founder",
+    "url": "https://www.zyphra.com"
+   }
+  ],
+  "founded": 2020
+ },
+ {
+  "id": "ufal",
+  "tagline": "ÚFAL is Charles University's Institute of Formal and Applied Linguistics, behind UDPipe and Czech treebanks.",
+  "about": [
+   "ÚFAL was established in 1990 at the Faculty of Mathematics and Physics, continuing the Laboratory of Algebraic Linguistics active since the early 1960s.",
+   "It develops UDPipe, a trainable pipeline for tokenization, tagging, lemmatization and parsing under MPL 2.0, and the Prague Dependency Treebank family."
+  ],
+  "mission": "The institute advances computational linguistics and language resources.",
+  "known_for": [
+   "UDPipe",
+   "Prague Dependency Treebank",
+   "Czech NLP"
+  ],
+  "contributions": [
+   {
+    "title": "Institute established",
+    "note": "ÚFAL founded.",
+    "year": "1990"
+   },
+   {
+    "title": "UDPipe",
+    "note": "Pipeline released.",
+    "year": "2016"
+   }
+  ],
+  "key_people": [],
+  "founded": 1990
+ }
+]

@@ -1,0 +1,1157 @@
+[
+ {
+  "id": "01-ai",
+  "tagline": "A Beijing company founded by Kai-Fu Lee that released the Yi open language models before shifting to enterprise solutions in 2025.",
+  "about": [
+   "01.AI was founded in March 2023 by Kai-Fu Lee, the former Microsoft and Google executive and co-founder of Sinovation Ventures. Operations began in June 2023, and the company passed a billion-dollar valuation by November 2023 with backing that included Alibaba and Xiaomi.",
+   "Its first major release was Yi-34B, a bilingual Chinese and English model published in November 2023. The company followed with Yi-Coder in September 2024, a coding model in 9B and 1.5B sizes covering 52 programming languages, and with Yi-Lightning in October 2024.",
+   "In March 2025 the company stopped pre-training large language models and moved to building tailored business solutions on top of DeepSeek models. Its open releases remain available on Hugging Face."
+  ],
+  "mission": "The company set out to build large language models for Chinese and English users and to publish open versions of them for developers. Since 2025 its stated focus has been applied AI for enterprises.",
+  "known_for": [
+   "The Yi family of open bilingual language models",
+   "Founded by Kai-Fu Lee",
+   "Yi-Coder small coding models",
+   "Yi-Lightning ranking on the LMSYS arena"
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Kai-Fu Lee started 01.AI in Beijing, with operations beginning in June 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Yi-34B released",
+    "note": "A 34-billion-parameter open model in Chinese and English.",
+    "year": "2023"
+   },
+   {
+    "title": "Yi-Coder released",
+    "note": "Open 9B and 1.5B coding models with 128,000-token context covering 52 languages.",
+    "year": "2024"
+   },
+   {
+    "title": "Yi-Lightning released",
+    "note": "A model that ranked joint third among labs in the UC Berkeley SkyLab and LMSYS ranking.",
+    "year": "2024"
+   },
+   {
+    "title": "Pre-training halted",
+    "note": "The company stopped training large foundation models and refocused on enterprise solutions.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Kai-Fu Lee",
+    "role": "Founder and CEO",
+    "url": "https://en.wikipedia.org/wiki/Kai-Fu_Lee"
+   }
+  ],
+  "founded": 2023,
+  "_flag": "Stopped pre-training foundation models in March 2025 and now builds enterprise solutions on DeepSeek models, so it is no longer an active open-model lab."
+ },
+ {
+  "id": "agentica",
+  "tagline": "A Berkeley Sky Computing Lab initiative that publishes open reinforcement learning recipes, models and the rLLM framework for training language agents.",
+  "about": [
+   "Agentica is an open-source effort from the Sky Computing Lab at UC Berkeley. It aims to make reinforcement learning techniques for language models and agents widely available, with core contributors Michael Luo and Sijun Tan and a group of student contributors.",
+   "The project released DeepScaleR in February 2025, a 1.5B model trained with distributed reinforcement learning for math reasoning. In July 2025 it published DeepCoder, a 14B code reasoning model, the rLLM framework for training agents with reinforcement learning, and DeepSWE, a 32B software engineering agent.",
+   "Its advisors are Li Erran Li, Raluca Ada Popa and Ion Stoica. The project site notes that Agentica is becoming a startup named Peano AI."
+  ],
+  "mission": "Agentica states that it wants to democratize reinforcement learning for language models and to build scalable systems for LLMs and agents.",
+  "known_for": [
+   "DeepScaleR reinforcement-learning math model",
+   "DeepCoder code reasoning model",
+   "The rLLM agent training framework",
+   "DeepSWE software engineering agent"
+  ],
+  "contributions": [
+   {
+    "title": "DeepScaleR released",
+    "note": "A 1.5B model trained with distributed reinforcement learning.",
+    "year": "2025"
+   },
+   {
+    "title": "DeepCoder released",
+    "note": "A 14B open code reasoning model.",
+    "year": "2025"
+   },
+   {
+    "title": "rLLM released",
+    "note": "An open framework for training language agents with reinforcement learning.",
+    "year": "2025"
+   },
+   {
+    "title": "DeepSWE released",
+    "note": "A 32B software engineering agent trained with reinforcement learning.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Michael Luo",
+    "role": "Core contributor",
+    "url": "https://agentica-project.com"
+   },
+   {
+    "name": "Sijun Tan",
+    "role": "Core contributor",
+    "url": "https://agentica-project.com"
+   },
+   {
+    "name": "Ion Stoica",
+    "role": "Advisor",
+    "url": "https://agentica-project.com",
+    "note": "Listed as advisor on the project site."
+   },
+   {
+    "name": "Raluca Ada Popa",
+    "role": "Advisor",
+    "url": "https://agentica-project.com"
+   },
+   {
+    "name": "Li Erran Li",
+    "role": "Advisor",
+    "url": "https://agentica-project.com"
+   }
+  ]
+ },
+ {
+  "id": "ai-singapore",
+  "tagline": "Singapore's national AI programme, which builds applied AI capability and the open SEA-LION language models for Southeast Asia.",
+  "about": [
+   "AI Singapore was launched in May 2017 as a national initiative that brings together Singapore's research institutions, start-ups and companies. Its work covers applied research, AI governance, innovation support for companies, talent development and open-source AI products.",
+   "Among its products is SEA-LION, a family of open language models for Southeast Asian languages and cultures. Reporting describes a first release in 2023 trained on 11 languages, a version 3 built on Llama and Gemma 2, and a version 4 built on Gemma 3 and on Qwen3 with technical support from Alibaba.",
+   "The programme also runs talent schemes such as the AI Apprenticeship Programme and offers courses through LearnAI."
+  ],
+  "mission": "AI Singapore states that it aims to strengthen national AI capabilities, build tools and train talent, and to raise Singapore's profile in AI.",
+  "known_for": [
+   "SEA-LION Southeast Asian language models",
+   "National AI apprenticeship and talent programmes",
+   "Government-backed applied AI research"
+  ],
+  "contributions": [
+   {
+    "title": "Programme launched",
+    "note": "AI Singapore was established as a national AI initiative.",
+    "year": "2017"
+   },
+   {
+    "title": "SEA-LION first release",
+    "note": "The first open model in the family, trained on 11 Southeast Asian languages.",
+    "year": "2023"
+   },
+   {
+    "title": "SEA-LION v4 released",
+    "note": "Gemma-based v4 models were published, with a Qwen-based line following.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [],
+  "founded": 2017,
+  "_flag": "Government-funded national programme; independence from the state is partial, and recent SEA-LION versions are built on third-party base models."
+ },
+ {
+  "id": "ai-sweden",
+  "tagline": "Sweden's national centre for applied AI, a public and private partnership that also published the GPT-SW3 Nordic language models.",
+  "about": [
+   "AI Sweden describes itself as a national centre for applied AI. It is not-for-profit and works with more than 180 partners from companies, public bodies and universities.",
+   "Its programmes cover AI adoption and training, sector initiatives such as healthcare and automotive, a startup programme and research on infrastructure, secure AI and language technology.",
+   "In language technology it developed GPT-SW3 with RISE and WASP, a family of autoregressive models for Swedish and the other Nordic languages, with model cards dated December 2022 and an open release on Hugging Face reported in late 2023."
+  ],
+  "mission": "AI Sweden states that its purpose is to accelerate the use of AI for the benefit of society.",
+  "known_for": [
+   "GPT-SW3 Nordic language models",
+   "National applied AI partnership",
+   "Shared datasets and testbeds for Swedish AI"
+  ],
+  "contributions": [
+   {
+    "title": "GPT-SW3 models documented",
+    "note": "Hugging Face model cards for the first GPT-SW3 sizes are dated December 2022.",
+    "year": "2022"
+   },
+   {
+    "title": "GPT-SW3 open release",
+    "note": "Models from 126M to 40B parameters were made available on Hugging Face under a permissive licence.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Magnus Sahlgren",
+    "role": "Researcher, GPT-SW3 co-author",
+    "url": "https://arxiv.org/abs/2305.12987"
+   }
+  ],
+  "_flag": "Partnership funded by public and private partners and not itself an open-source lab; GPT-SW3 licensing is described as research oriented by some sources."
+ },
+ {
+  "id": "ai21-labs",
+  "tagline": "An Israeli enterprise AI company that publishes the hybrid SSM-Transformer Jamba models as open weights alongside commercial products.",
+  "about": [
+   "AI21 Labs was founded in Tel Aviv in November 2017 by Yoav Shoham, Ori Goshen and Amnon Shashua. Shoham and Goshen serve as co-CEOs and Shashua is chairman.",
+   "The company launched the Jurassic-1 language models in August 2021 and released the first Jamba model in March 2024. Jamba 1.5 followed in 2024 and Jamba 1.6 in March 2025, and its Hugging Face organisation now lists Jamba2 and Jamba Reasoning models.",
+   "Its main business is commercial AI for enterprises, with the open Jamba weights published alongside paid products."
+  ],
+  "mission": "AI21 describes its aim as building reliable, practical and scalable AI for the enterprise.",
+  "known_for": [
+   "Jamba hybrid Mamba-Transformer models",
+   "Jurassic-1 language models",
+   "Enterprise language AI"
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "AI21 Labs started in Tel Aviv.",
+    "year": "2017"
+   },
+   {
+    "title": "Jurassic-1 launched",
+    "note": "A language model with a vocabulary of more than 250,000 tokens.",
+    "year": "2021"
+   },
+   {
+    "title": "Jamba released",
+    "note": "The first Jamba model, a hybrid state-space and Transformer model published as open weights.",
+    "year": "2024"
+   },
+   {
+    "title": "Jamba 1.6 released",
+    "note": "An updated model family aimed at private enterprise deployment.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Yoav Shoham",
+    "role": "Co-founder and co-CEO",
+    "url": "https://en.wikipedia.org/wiki/Yoav_Shoham"
+   },
+   {
+    "name": "Ori Goshen",
+    "role": "Co-founder and co-CEO",
+    "url": "https://www.ai21.com/"
+   },
+   {
+    "name": "Amnon Shashua",
+    "role": "Co-founder and chairman",
+    "url": "https://en.wikipedia.org/wiki/Amnon_Shashua"
+   }
+  ],
+  "founded": 2017,
+  "_flag": "Commercial enterprise company; only some Jamba models are open weights, so it is only partly open source."
+ },
+ {
+  "id": "ai4bharat",
+  "tagline": "An IIT Madras research lab building open datasets, models and tools for Indian languages in translation, speech and language modelling.",
+  "about": [
+   "AI4Bharat is a research lab at IIT Madras that releases most of its work as open source. Its focus areas are transliteration, language understanding and generation, machine translation, speech recognition and speech synthesis.",
+   "Its releases include IndicBERT and IndicBART, the IndicTrans2 translation models covering all 22 scheduled Indian languages and English, speech models such as IndicWav2Vec and IndicWhisper, and datasets including Sangraha and IndicVoices.",
+   "IndicVoices, funded by the Bhashini initiative of India's IT ministry, provides about 7,300 hours of speech across 22 languages."
+  ],
+  "mission": "AI4Bharat works to give speakers of Indian languages open language technology comparable to what exists for English.",
+  "known_for": [
+   "IndicTrans2 translation for 22 Indian languages",
+   "IndicVoices speech dataset",
+   "Open datasets such as Sangraha"
+  ],
+  "contributions": [
+   {
+    "title": "IndicTrans2 paper published",
+    "note": "Open translation models for the 22 scheduled Indian languages, with permissive licences.",
+    "year": "2023"
+   },
+   {
+    "title": "IndicVoices released",
+    "note": "About 7,300 hours of speech from over 16,000 speakers, used to build IndicASR.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Mitesh M. Khapra",
+    "role": "Faculty, IIT Madras; IndicTrans2 co-author",
+    "url": "https://arxiv.org/abs/2305.16307"
+   },
+   {
+    "name": "Pratyush Kumar",
+    "role": "IndicTrans2 co-author",
+    "url": "https://arxiv.org/abs/2305.16307"
+   }
+  ]
+ },
+ {
+  "id": "allen-institute-for-ai",
+  "tagline": "A Seattle nonprofit research institute founded by Paul Allen that builds fully open language models, datasets and training recipes.",
+  "about": [
+   "The Allen Institute for AI, known as Ai2, was founded in 2014 by Microsoft co-founder Paul Allen. Oren Etzioni led it for nine years until 2022, and Ali Farhadi became CEO in July 2023.",
+   "Its early work included the Semantic Scholar search engine, released in November 2015, and the Aristo project, which passed an eighth-grade science exam in 2018. Since 2023 it has concentrated on open language models.",
+   "The OLMo models and the Dolma corpus were released in February 2024 with data, code and checkpoints, and the Tulu post-training recipes reached version 3 in November 2024."
+  ],
+  "mission": "Ai2 pursues AI research and engineering for the common good, with open release of the models, data and code behind its work.",
+  "known_for": [
+   "OLMo fully open language models",
+   "Dolma open pretraining corpus",
+   "Tulu open post-training recipes",
+   "Semantic Scholar"
+  ],
+  "contributions": [
+   {
+    "title": "Semantic Scholar released",
+    "note": "An AI-backed academic search engine.",
+    "year": "2015"
+   },
+   {
+    "title": "Aristo passes science exam",
+    "note": "Its system achieved a pass on an eighth-grade science exam.",
+    "year": "2018"
+   },
+   {
+    "title": "OLMo and Dolma released",
+    "note": "1B and 7B models with a three-trillion-token open corpus.",
+    "year": "2024"
+   },
+   {
+    "title": "Tulu 3 released",
+    "note": "An open post-training recipe following Tulu in 2023 and Tulu 2 later that year.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Ali Farhadi",
+    "role": "CEO from 2023 (Wikipedia notes he stepped down in March 2026)",
+    "url": "https://allenai.org/"
+   },
+   {
+    "name": "Peter Clark",
+    "role": "Senior researcher and interim CEO",
+    "url": "https://allenai.org/"
+   },
+   {
+    "name": "Oren Etzioni",
+    "role": "Former CEO",
+    "url": "https://en.wikipedia.org/wiki/Oren_Etzioni"
+   },
+   {
+    "name": "Hannaneh Hajishirzi",
+    "role": "Researcher",
+    "url": "https://allenai.org/"
+   },
+   {
+    "name": "Yejin Choi",
+    "role": "Researcher",
+    "url": "https://en.wikipedia.org/wiki/Yejin_Choi"
+   },
+   {
+    "name": "Noah Smith",
+    "role": "Researcher",
+    "url": "https://allenai.org/"
+   }
+  ],
+  "founded": 2014
+ },
+ {
+  "id": "answer-ai",
+  "tagline": "A public benefit AI R&D lab that turns research advances into open-source libraries, models and tools for developers.",
+  "about": [
+   "Answer.AI announced itself in December 2023 in a post by Jeremy Howard describing a new kind of R&D lab that builds practical products from foundational research. In November 2024 fast.ai announced that it was joining the lab.",
+   "Its output is mostly open source. Projects include a method for training 70B models on consumer GPUs with FSDP and QLoRA, the FastHTML web framework, the llms.txt proposal, and ModernBERT, an encoder model released in December 2024.",
+   "The lab's team includes Jeremy Howard, Hamel Husain, Benjamin Clavié, Johno Whitaker and Benjamin Warner among others."
+  ],
+  "mission": "Answer.AI describes its aim as creating practical end-user products based on foundational research breakthroughs.",
+  "known_for": [
+   "ModernBERT encoder model",
+   "FSDP+QLoRA for 70B models on consumer GPUs",
+   "FastHTML and fast.ai tooling",
+   "llms.txt proposal"
+  ],
+  "contributions": [
+   {
+    "title": "Lab announced",
+    "note": "Jeremy Howard published the founding post for the lab.",
+    "year": "2023"
+   },
+   {
+    "title": "FSDP+QLoRA released",
+    "note": "A method for training 70B models on consumer GPUs.",
+    "year": "2024"
+   },
+   {
+    "title": "FastHTML released",
+    "note": "A Python web framework from the lab.",
+    "year": "2024"
+   },
+   {
+    "title": "llms.txt proposed",
+    "note": "A proposal for websites to publish LLM-readable summaries.",
+    "year": "2024"
+   },
+   {
+    "title": "ModernBERT released",
+    "note": "A modern encoder model.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jeremy Howard",
+    "role": "Founder and CEO",
+    "url": "https://en.wikipedia.org/wiki/Jeremy_Howard_(entrepreneur)"
+   },
+   {
+    "name": "Benjamin Clavié",
+    "role": "Researcher",
+    "url": "https://www.answer.ai/"
+   },
+   {
+    "name": "Johno Whitaker",
+    "role": "Researcher",
+    "url": "https://www.answer.ai/"
+   },
+   {
+    "name": "Hamel Husain",
+    "role": "Team member",
+    "url": "https://www.answer.ai/"
+   },
+   {
+    "name": "Benjamin Warner",
+    "role": "Researcher",
+    "url": "https://www.answer.ai/"
+   }
+  ],
+  "founded": 2023
+ },
+ {
+  "id": "arc-institute",
+  "tagline": "A nonprofit biomedical research institute that builds open AI models for biology, including Evo 2 and virtual cell models.",
+  "about": [
+   "Arc Institute was founded in 2021 by Silvana Konermann, Patrick Hsu and Patrick Collison with initial funding commitments of 650 million dollars. It gives researchers long-term support without grant applications.",
+   "In 2024 researchers led by Hsu and Brian Hie released Evo, a language model trained on biological sequence data, published in Science in November 2024. In April 2025 Arc announced the Virtual Cell Atlas with 10x Genomics and Ultima Genomics.",
+   "The institute publishes models and datasets on Hugging Face and GitHub."
+  ],
+  "mission": "Arc aims to give scientists freedom to pursue long-horizon work on human disease, and increasingly applies machine learning to build virtual cell models.",
+  "known_for": [
+   "Evo genomic language models",
+   "Virtual Cell Atlas",
+   "Core investigator model for long-term research"
+  ],
+  "contributions": [
+   {
+    "title": "Institute founded",
+    "note": "Konermann, Hsu and Collison started Arc.",
+    "year": "2021"
+   },
+   {
+    "title": "Evo published",
+    "note": "A model trained on DNA, RNA and protein sequence, published in Science in November.",
+    "year": "2024"
+   },
+   {
+    "title": "Virtual Cell Atlas announced",
+    "note": "A single-cell data atlas for virtual cell models, with 10x Genomics and Ultima Genomics.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Silvana Konermann",
+    "role": "Co-founder and executive director",
+    "url": "https://arcinstitute.org/"
+   },
+   {
+    "name": "Patrick Hsu",
+    "role": "Co-founder and core investigator",
+    "url": "https://arcinstitute.org/"
+   },
+   {
+    "name": "Patrick Collison",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Patrick_Collison"
+   },
+   {
+    "name": "Brian Hie",
+    "role": "Evo lead",
+    "url": "https://arcinstitute.org/"
+   }
+  ],
+  "founded": 2021
+ },
+ {
+  "id": "arc-prize",
+  "tagline": "A nonprofit that runs the ARC-AGI benchmarks and prize competitions to measure and encourage general reasoning in AI systems.",
+  "about": [
+   "ARC Prize Foundation is a nonprofit dedicated to accelerating progress toward AGI. It is built around ARC-AGI, the benchmark created by Francois Chollet, and runs open prize competitions on Kaggle.",
+   "The foundation is led by co-founders Francois Chollet and Mike Knoop and president Greg Kamradt, who sit on the board with a small team working on benchmark design, engineering and model testing.",
+   "Its site lists the ARC Prize 2024 and 2025 competitions and the ARC-AGI-2 and ARC-AGI-3 benchmarks, with ARC Prize 2026 results due on December 4, 2026."
+  ],
+  "mission": "The foundation states that it exists to guide researchers toward more general intelligence by publishing measurable, open benchmarks and prizes.",
+  "known_for": [
+   "ARC-AGI benchmarks",
+   "ARC Prize competitions",
+   "Open datasets for abstraction and reasoning"
+  ],
+  "contributions": [
+   {
+    "title": "ARC Prize launched",
+    "note": "The foundation began running open prize competitions on ARC-AGI.",
+    "year": "2024"
+   },
+   {
+    "title": "ARC-AGI-2 benchmark",
+    "note": "A second benchmark release with a Kaggle competition.",
+    "year": "2025"
+   },
+   {
+    "title": "ARC-AGI-3 benchmark",
+    "note": "A third benchmark listed on the foundation site.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Francois Chollet",
+    "role": "Co-founder, board member, creator of ARC-AGI",
+    "url": "https://en.wikipedia.org/wiki/Fran%C3%A7ois_Chollet"
+   },
+   {
+    "name": "Mike Knoop",
+    "role": "Co-founder and board member",
+    "url": "https://arcprize.org/about"
+   },
+   {
+    "name": "Greg Kamradt",
+    "role": "President and board member",
+    "url": "https://arcprize.org/about"
+   },
+   {
+    "name": "Bryan Landers",
+    "role": "Founding team, design and strategy",
+    "url": "https://arcprize.org/about"
+   }
+  ]
+ },
+ {
+  "id": "arcee-ai",
+  "tagline": "A San Francisco model lab that trains open-weight models and maintains tools such as MergeKit for combining and adapting open models.",
+  "about": [
+   "Arcee AI began by helping teams get more from open models and later decided to train its own models in San Francisco. It describes itself as a US model lab led by builders.",
+   "Its offerings include the Trinity model family, Genesis-Science-1, an open source catalog and an API platform. Investors shown on its site include Samsung, M12 and Hitachi Ventures.",
+   "The company also publishes open tooling such as MergeKit on GitHub."
+  ],
+  "mission": "Arcee states that the future of AI should be something people can build on, adapt and own.",
+  "known_for": [
+   "Trinity open-weight models",
+   "MergeKit model merging toolkit",
+   "Open source catalog of small models"
+  ],
+  "contributions": [],
+  "key_people": []
+ },
+ {
+  "id": "baai",
+  "tagline": "A Beijing nonprofit AI research academy behind the Wudao models, the FlagOpen ecosystem and the BGE embedding models.",
+  "about": [
+   "The Beijing Academy of Artificial Intelligence was founded in November 2018, with Zhang Hongjiang listed as its founder.",
+   "It announced the Wudao 2.0 pretrained model system, and it maintains the FlagAI toolkit and the FlagOpen open-source ecosystem. It also publishes the BGE embedding models and the Emu3 multimodal models on Hugging Face."
+  ],
+  "mission": "BAAI aims to advance foundational AI research in China and share models, data and tools with the wider community.",
+  "known_for": [
+   "Wudao large-scale pretrained models",
+   "BGE embedding models",
+   "FlagOpen ecosystem",
+   "Emu3 multimodal models"
+  ],
+  "contributions": [
+   {
+    "title": "Academy founded",
+    "note": "BAAI was established in Beijing.",
+    "year": "2018"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Zhang Hongjiang",
+    "role": "Founder",
+    "url": "https://en.wikipedia.org/wiki/Beijing_Academy_of_Artificial_Intelligence"
+   }
+  ],
+  "founded": 2018
+ },
+ {
+  "id": "baichuan",
+  "tagline": "A Chinese LLM company founded by Sogou's Wang Xiaochuan that published the open Baichuan models and pivoted to healthcare AI in 2025.",
+  "about": [
+   "Baichuan Intelligence was founded on 10 April 2023 by Wang Xiaochuan, who earlier founded and led the search company Sogou. It began with 50 million dollars in seed capital.",
+   "Baichuan1 appeared in June 2023 as an open-source model used by university researchers, followed by Baichuan2 in November 2023, Baichuan3 in January 2024 and Baichuan4 in May 2024.",
+   "Its investors have included Tencent, Alibaba, Shunwei Capital and Xiaomi. In March 2025 it restructured its team to concentrate on healthcare applications."
+  ],
+  "mission": "The company set out to build large models for the Chinese market and now says its focus is applying AI to medicine.",
+  "known_for": [
+   "Baichuan open Chinese language models",
+   "Founded by Sogou's Wang Xiaochuan",
+   "Healthcare AI focus from 2025"
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Wang Xiaochuan started Baichuan in Beijing.",
+    "year": "2023"
+   },
+   {
+    "title": "Baichuan1 released",
+    "note": "The open-source model that launched the company.",
+    "year": "2023"
+   },
+   {
+    "title": "Baichuan2 released",
+    "note": "A second open model generation.",
+    "year": "2023"
+   },
+   {
+    "title": "Restructured around healthcare",
+    "note": "The team was reorganised to apply AI to healthcare.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Wang Xiaochuan",
+    "role": "Founder and CEO",
+    "url": "https://en.wikipedia.org/wiki/Baichuan"
+   }
+  ],
+  "founded": 2023,
+  "_flag": "Venture-backed company whose later models are largely not open, and it refocused on healthcare in 2025."
+ },
+ {
+  "id": "bespoke-labs",
+  "tagline": "A data research lab that builds the Curator data tooling, RL environments and benchmarks, and co-leads the OpenThoughts open reasoning data project.",
+  "about": [
+   "Bespoke Labs is a data research lab in the SF Bay Area. Its focus is RL environments, agent evaluation and optimisation, and benchmarking for production agents.",
+   "It maintains Curator, an open library for data curation, and contributes to Terminal-Bench and GEPA. Its site lists OpenThoughts, an open reasoning dataset presented at ICLR 2026.",
+   "The OpenThoughts collaboration, led by researchers across Stanford, UC Berkeley, UT Austin, LAION and other institutions, launched in January 2025 and released OpenThoughts3 in June 2025."
+  ],
+  "mission": "Bespoke aims to give frontier labs and enterprises the data and environments needed to train long-horizon agents.",
+  "known_for": [
+   "OpenThoughts open reasoning datasets",
+   "Curator data curation library",
+   "Terminal-Bench agent benchmark"
+  ],
+  "contributions": [
+   {
+    "title": "OpenThoughts launched",
+    "note": "The collaboration started publishing open reasoning data.",
+    "year": "2025"
+   },
+   {
+    "title": "OpenThinker-32B released",
+    "note": "An open reasoning model from the project.",
+    "year": "2025"
+   },
+   {
+    "title": "OpenThoughts3 released",
+    "note": "Described as the project's best dataset recipe.",
+    "year": "2025"
+   },
+   {
+    "title": "OpenThoughts-Agent launched",
+    "note": "A project for open agent training data.",
+    "year": "2025"
+   }
+  ],
+  "key_people": []
+ },
+ {
+  "id": "bharatgen",
+  "tagline": "An India-wide consortium anchored at IIT Bombay that releases open-weight text, speech and vision models for Indian languages.",
+  "about": [
+   "BharatGen is a Section 8 not-for-profit company, the BharatGen Technology Foundation, anchored at IIT Bombay and drawing on nine consortium institutions. It is backed by India's Department of Science and Technology and the IndiaAI Mission.",
+   "A blog post dates its launch to October 2024. Its models include Param2, a 17B text model, the Sooktam text-to-speech and Shrutam speech-to-text families, and the Patram vision-language models."
+  ],
+  "mission": "Its stated slogan is built from scratch, open weights, made for India.",
+  "known_for": [
+   "Param open-weight Indian language models",
+   "Sooktam speech synthesis and Shrutam recognition",
+   "Patram vision-language models"
+  ],
+  "contributions": [
+   {
+    "title": "BharatGen launched",
+    "note": "The programme was launched in New Delhi.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [],
+  "_flag": "Government-funded consortium, so independence is partial."
+ },
+ {
+  "id": "bigscience",
+  "tagline": "A year-long open research workshop coordinated by Hugging Face that produced the 176B-parameter BLOOM multilingual model.",
+  "about": [
+   "BigScience was a volunteer-driven research workshop in which several hundred researchers worked in the open, with Hugging Face coordinating and French government funding supporting it.",
+   "The main output was BLOOM, released on 12 July 2022 with 176 billion parameters, 46 natural languages and 13 programming languages. It was trained between March and July 2022 on the Jean Zay supercomputer on the ROOTS corpus.",
+   "The code is Apache 2.0 and the weights use the BigScience Responsible AI License. Related releases include xP3 and BLOOMZ."
+  ],
+  "mission": "The workshop aimed to study large language models openly, with participants from many countries sharing data, code and evaluation.",
+  "known_for": [
+   "BLOOM 176B multilingual model",
+   "ROOTS corpus",
+   "xP3 and BLOOMZ instruction tuning"
+  ],
+  "contributions": [
+   {
+    "title": "BLOOM training begins",
+    "note": "Training ran on the Jean Zay supercomputer from March.",
+    "year": "2022"
+   },
+   {
+    "title": "BLOOM released",
+    "note": "A 176B open model in 46 languages and 13 programming languages.",
+    "year": "2022"
+   },
+   {
+    "title": "xP3 and BLOOMZ released",
+    "note": "A multilingual instruction dataset and a model tuned on it.",
+    "year": "2022"
+   }
+  ],
+  "key_people": []
+ },
+ {
+  "id": "bioptimus",
+  "tagline": "A Paris startup building foundation models for pathology and biology, including the openly released H-Optimus pathology models.",
+  "about": [
+   "Bioptimus is a French company that describes its goal as a world model of biology. Its platforms are H-Optimus for pathology, M-Optimus for multimodal data and STELA, a multi-institutional data initiative.",
+   "It announced H-Optimus-0 in July 2024, a 1.1-billion-parameter pathology model described as open source. It raised a 35 million dollar seed round led by Sofinnova Partners and, in January 2025, 41 million dollars led by Cathay Innovation."
+  ],
+  "mission": "Bioptimus says it aims to build a world model of biology across modalities and scales.",
+  "known_for": [
+   "H-Optimus pathology foundation models",
+   "M-Optimus multimodal model",
+   "STELA data initiative"
+  ],
+  "contributions": [
+   {
+    "title": "H-Optimus-0 announced",
+    "note": "A 1.1B-parameter pathology foundation model.",
+    "year": "2024"
+   },
+   {
+    "title": "Series A funding",
+    "note": "A 41M dollar round led by Cathay Innovation.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Rodolphe Jenatton",
+    "role": "Co-founder",
+    "url": "https://techcrunch.com/2025/01/14/bioptimus-raises-41m-to-develop-a-gpt-for-biology"
+   }
+  ],
+  "_flag": "Venture-backed company; its newer models appear to be proprietary and only H-Optimus-0 is confirmed as open."
+ },
+ {
+  "id": "black-forest-labs",
+  "tagline": "A Freiburg lab founded by the creators of Stable Diffusion that builds the FLUX image models, with open-weight and API tiers.",
+  "about": [
+   "Black Forest Labs was founded in 2024 in Freiburg im Breisgau by Robin Rombach, Andreas Blattmann and Patrick Esser, former Stability AI researchers who had worked on latent diffusion at LMU Munich.",
+   "FLUX.1 appeared in August 2024 and FLUX.1 Kontext in May 2025, followed by FLUX.2 in November 2025. FLUX.1 Schnell is Apache 2.0, while Dev variants are open weights under non-commercial licences and Pro models are API only.",
+   "Early investors included Andreessen Horowitz, and a reported 450 million dollar financing followed in late 2025."
+  ],
+  "mission": "The lab aims to advance generative image and video models while offering part of its work as open weights.",
+  "known_for": [
+   "FLUX.1 image generation models",
+   "FLUX.1 Kontext editing models",
+   "Founders from the Stable Diffusion team"
+  ],
+  "contributions": [
+   {
+    "title": "FLUX.1 released",
+    "note": "Rectified-flow transformer image models scaled to 12 billion parameters.",
+    "year": "2024"
+   },
+   {
+    "title": "FLUX.1 Kontext released",
+    "note": "In-context image generation and editing models.",
+    "year": "2025"
+   },
+   {
+    "title": "FLUX.2 released",
+    "note": "Models with Pro, Flex, Dev and Klein variants and an open VAE.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Robin Rombach",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Black_Forest_Labs"
+   },
+   {
+    "name": "Andreas Blattmann",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Black_Forest_Labs"
+   },
+   {
+    "name": "Patrick Esser",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Black_Forest_Labs"
+   }
+  ],
+  "founded": 2024,
+  "_flag": "Commercial company whose strongest models are API-only and several open-weight models carry non-commercial licences."
+ },
+ {
+  "id": "boltz",
+  "tagline": "A public benefit company growing out of MIT research that develops biomolecular models, with open Boltz-2 and BoltzGen alongside proprietary ones.",
+  "about": [
+   "Boltz PBC builds AI models and infrastructure for biomolecular design and drug discovery. Its platform, Boltz Lab, lets scientists design small molecules and biologics.",
+   "Its open-source models include Boltz-2 and BoltzGen, while BoltzProt-1 and BoltzMol-1 are proprietary. The site reports more than 5 million downloads and over 1,000 companies using its tools, and announced an agreement with Bristol Myers Squibb in October 2026."
+  ],
+  "mission": "Boltz aims to make biomolecular modelling broadly available while building a commercial platform on top.",
+  "known_for": [
+   "Boltz-1 and Boltz-2 open biomolecular models",
+   "BoltzGen design model",
+   "Boltz Lab platform"
+  ],
+  "contributions": [
+   {
+    "title": "Bristol Myers Squibb agreement",
+    "note": "An agreement to deploy biomolecular AI models for drug discovery.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [],
+  "_flag": "Public benefit company with proprietary BoltzProt-1 and BoltzMol-1 models alongside its open ones."
+ },
+ {
+  "id": "browser-use",
+  "tagline": "An open-source library and company for AI browser agents, with hosted agents and stealth browsers.",
+  "about": [
+   "Browser Use offers browser agents and cloud browsers. Its products include web agents billed per task, stealth browsers and Browser Harness, a free open-source tool for coding agents.",
+   "The company publishes benchmark results and offers enterprise options such as on-prem browsers and an EU cloud in Frankfurt."
+  ],
+  "mission": "The company aims to let AI agents use the web reliably.",
+  "known_for": [
+   "Open-source browser-use agent library",
+   "Cloud and stealth browsers",
+   "Browser Harness for coding agents"
+  ],
+  "contributions": [],
+  "key_people": []
+ },
+ {
+  "id": "bsc-langtech",
+  "tagline": "The Barcelona Supercomputing Center language technologies group that trains the open Salamandra and ALIA models for Iberian and European languages.",
+  "about": [
+   "The Language Technologies unit at the Barcelona Supercomputing Center, led by Marta Villegas, develops resources and models for Spanish, Catalan and other European languages.",
+   "ALIA, a public, open and multilingual AI infrastructure coordinated by BSC, was announced in January 2025. Its Salamandra models, in 2B, 7B and 40B sizes, are published on Hugging Face under Apache 2.0 and were trained on MareNostrum 5."
+  ],
+  "mission": "The group aims to build open language technology for Spain's languages with public funding.",
+  "known_for": [
+   "Salamandra open models",
+   "ALIA public AI infrastructure",
+   "MareNostrum 5 training"
+  ],
+  "contributions": [
+   {
+    "title": "ALIA announced",
+    "note": "Spain announced the public AI project coordinated by BSC.",
+    "year": "2025"
+   },
+   {
+    "title": "Salamandra released",
+    "note": "Open 2B, 7B and 40B models on Hugging Face.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Marta Villegas",
+    "role": "Head of the Language Technologies Unit",
+    "url": "https://langtech.bsc.es"
+   }
+  ],
+  "_flag": "Publicly funded research centre; independence is partial."
+ },
+ {
+  "id": "buet-csebuetnlp",
+  "tagline": "A BUET research group on low-resource Bangla NLP that releases BanglaBERT, BanglaT5 and the XL-Sum summarisation dataset.",
+  "about": [
+   "The CSE NLP group at Bangladesh University of Engineering and Technology works on machine translation, multilingual NLP and language understanding. Its faculty include Rifat Shahriyar, M. Sohel Rahman and Anindya Iqbal.",
+   "It open-sourced BanglaBERT in 2021 and BanglaT5 in 2022, and published XL-Sum, a 44-language summarisation dataset, at ACL 2021 Findings."
+  ],
+  "mission": "The group aims to provide open models and benchmarks for Bangla.",
+  "known_for": [
+   "BanglaBERT",
+   "BanglaT5",
+   "XL-Sum dataset"
+  ],
+  "contributions": [
+   {
+    "title": "XL-Sum published",
+    "note": "A summarisation dataset in 44 languages.",
+    "year": "2021"
+   },
+   {
+    "title": "BanglaBERT open-sourced",
+    "note": "A Bangla language model.",
+    "year": "2021"
+   },
+   {
+    "title": "BanglaT5 released",
+    "note": "A Bangla sequence-to-sequence model.",
+    "year": "2022"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Rifat Shahriyar",
+    "role": "Professor, BUET",
+    "url": "https://csebuetnlp.github.io/"
+   },
+   {
+    "name": "M. Sohel Rahman",
+    "role": "Professor, BUET",
+    "url": "https://csebuetnlp.github.io/"
+   },
+   {
+    "name": "Anindya Iqbal",
+    "role": "Professor, BUET",
+    "url": "https://csebuetnlp.github.io/"
+   },
+   {
+    "name": "Abhik Bhattacharjee",
+    "role": "Research assistant",
+    "url": "https://csebuetnlp.github.io/"
+   }
+  ]
+ },
+ {
+  "id": "canopy-labs",
+  "tagline": "A speech AI lab behind Orpheus, a family of Llama-based text-to-speech models released in March 2025 for open use.",
+  "about": [
+   "Canopy Labs released Orpheus in March 2025, a text-to-speech system built on a Llama 3B backbone, with models published on GitHub and Hugging Face.",
+   "The family is available in sizes from 150M to 3B parameters. Sources disagree on the exact weight licence, so users should check the repository."
+  ],
+  "mission": "The lab develops expressive, low-latency speech models.",
+  "known_for": [
+   "Orpheus TTS",
+   "Emotion-tagged speech synthesis"
+  ],
+  "contributions": [
+   {
+    "title": "Orpheus released",
+    "note": "A Llama-based TTS family released as open source.",
+    "year": "2025"
+   }
+  ],
+  "key_people": []
+ },
+ {
+  "id": "cartesia",
+  "tagline": "A voice AI company that also publishes open state-space language models.",
+  "about": [
+   "Cartesia is a voice AI company founded in 2023. It publishes open state-space models such as Rene and Llamba on Hugging Face alongside its commercial speech products."
+  ],
+  "mission": "Cartesia says it is building real-time voice AI on state-space model architectures.",
+  "known_for": [
+   "Open state-space models Rene and Llamba"
+  ],
+  "contributions": [],
+  "key_people": [],
+  "_flag": "Primarily a commercial voice company; only some research models are open."
+ },
+ {
+  "id": "center-for-ai-safety",
+  "tagline": "A nonprofit that does AI safety research, field-building and advocacy and releases open benchmarks.",
+  "about": [
+   "CAIS states that its mission is to reduce societal-scale risks from artificial intelligence. Dan Hendrycks is executive and research director and Oliver Zhang is managing director.",
+   "Its work spans research, field-building including a compute cluster that supports about 20 labs, and advocacy. In May 2023 it published the Statement on AI Risk, signed by more than 600 experts."
+  ],
+  "mission": "CAIS aims to reduce large-scale AI risks through research, field-building and advocacy.",
+  "known_for": [
+   "Statement on AI Risk",
+   "Open safety benchmarks",
+   "Compute cluster for safety research"
+  ],
+  "contributions": [
+   {
+    "title": "Statement on AI Risk",
+    "note": "Signed by more than 600 AI experts and public figures.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Dan Hendrycks",
+    "role": "Executive and research director",
+    "url": "https://safe.ai/about"
+   },
+   {
+    "name": "Oliver Zhang",
+    "role": "Managing director",
+    "url": "https://safe.ai/about"
+   }
+  ],
+  "founded": 2022
+ },
+ {
+  "id": "cerebras",
+  "tagline": "A wafer-scale chip company whose research team published the Apache 2.0 Cerebras-GPT family of open models.",
+  "about": [
+   "Cerebras builds wafer-scale processors and AI systems, led by CEO Andrew Feldman and CTO Sean Lie. It went public on Nasdaq in May 2026.",
+   "In March 2023 the company released Cerebras-GPT, seven models from 111M to 13B parameters trained on its Andromeda cluster under the Apache 2.0 licence."
+  ],
+  "mission": "Cerebras applies its hardware to large model training and shares some models.",
+  "known_for": [
+   "Wafer Scale Engine chips",
+   "Cerebras-GPT open models"
+  ],
+  "contributions": [
+   {
+    "title": "WSE-1 announced",
+    "note": "The first wafer-scale engine.",
+    "year": "2019"
+   },
+   {
+    "title": "Cerebras-GPT released",
+    "note": "Seven open models trained on Andromeda.",
+    "year": "2023"
+   },
+   {
+    "title": "WSE-3 introduced",
+    "note": "Third-generation wafer-scale engine.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Andrew Feldman",
+    "role": "CEO and co-founder",
+    "url": "https://www.cerebras.ai"
+   },
+   {
+    "name": "Sean Lie",
+    "role": "CTO and co-founder",
+    "url": "https://www.cerebras.ai"
+   }
+  ],
+  "_flag": "Publicly listed hardware company, so it is neither independent nor primarily an open-source lab."
+ },
+ {
+  "id": "chai-discovery",
+  "tagline": "A drug-discovery AI startup that released the open Chai-1 biomolecular structure model.",
+  "about": [
+   "Chai Discovery builds AI models that predict and reprogram interactions between biomolecules. Its team came from OpenAI, Meta FAIR, Stripe and Google X.",
+   "Chai-1 was released on 9 September 2024 under Apache 2.0, predicting proteins, small molecules, DNA and RNA. The company later announced a 400 million dollar Series C."
+  ],
+  "mission": "Chai aims to let scientists design medicines computationally.",
+  "known_for": [
+   "Chai-1 open structure prediction",
+   "Chai-2 antibody design"
+  ],
+  "contributions": [
+   {
+    "title": "Chai-1 released",
+    "note": "Open biomolecular structure model under Apache 2.0.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [],
+  "_flag": "Venture-backed company with proprietary follow-up models such as Chai-2."
+ },
+ {
+  "id": "cjvt",
+  "tagline": "The University of Ljubljana centre that builds Slovene language resources and open language technology.",
+  "about": [
+   "CJVT, the Centre for Language Resources and Technologies, is a research unit organised from the Faculty of Computer and Information Science with five other faculties taking part.",
+   "It develops and maintains digital language resources for contemporary Slovene and offers its tools free to Slovene speakers."
+  ],
+  "mission": "CJVT aims to build a long-term Slovene language technology infrastructure.",
+  "known_for": [
+   "Slovene language corpora",
+   "GaMS Slovene language models"
+  ],
+  "contributions": [],
+  "key_people": [],
+  "_flag": "University unit; independence is partial."
+ },
+ {
+  "id": "ckip-lab",
+  "tagline": "An Academia Sinica research group, active since 1986, that builds Chinese language processing resources and publishes open Chinese NLP models.",
+  "about": [
+   "CKIP, the Chinese Knowledge and Information Processing group, is a cross-institute research group formed by the Institute of Information Science and the Institute of Linguistics at Academia Sinica in Taiwan. Its site dates it to 1986.",
+   "Its resources include word segmentation, parsing, a sentence structure treebank, the Sinica Corpus, E-HowNet, language models and Chinese embeddings, and it publishes code and models on GitHub and Hugging Face."
+  ],
+  "mission": "CKIP works to provide computational resources and research environments for Chinese language processing.",
+  "known_for": [
+   "Chinese word segmentation and parsing tools",
+   "Sinica Corpus and E-HowNet",
+   "Open Chinese language models"
+  ],
+  "contributions": [
+   {
+    "title": "Group founded",
+    "note": "CKIP was established at Academia Sinica.",
+    "year": "1986"
+   }
+  ],
+  "key_people": [],
+  "founded": 1986,
+  "_flag": "Publicly funded academic institute; independence is partial."
+ },
+ {
+  "id": "cohere-labs-community",
+  "tagline": "The research lab and open science community of Cohere, behind the Aya multilingual models and Global MMLU benchmark.",
+  "about": [
+   "Cohere Labs traces back to For AI in 2017, became Cohere For AI in 2022 and was renamed Cohere Labs in April 2025. Sara Hooker led it until September 2025, after which Marzieh Fadaee took over.",
+   "The lab runs an open science community of about 4,500 members from 150 countries, a scholars programme and grants. Its Aya initiative produced an open multilingual research model covering 101 languages, and Aya Vision followed in March 2025 under a research-only licence."
+  ],
+  "mission": "The lab aims to change where, how and by whom machine learning breakthroughs happen.",
+  "known_for": [
+   "Aya multilingual models",
+   "Global MMLU benchmark",
+   "Open science community"
+  ],
+  "contributions": [
+   {
+    "title": "Cohere For AI named",
+    "note": "The research lab took the Cohere For AI name.",
+    "year": "2022"
+   },
+   {
+    "title": "Aya Vision released",
+    "note": "A multilingual vision-language model, free for research use only.",
+    "year": "2025"
+   },
+   {
+    "title": "Renamed Cohere Labs",
+    "note": "The lab took its current name.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Marzieh Fadaee",
+    "role": "Head of Cohere Labs",
+    "url": "https://cohere.com/research"
+   },
+   {
+    "name": "Sara Hooker",
+    "role": "Former head of the lab",
+    "url": "https://cohere.com/research"
+   },
+   {
+    "name": "Aidan Gomez",
+    "role": "Cohere CEO and co-founder",
+    "url": "https://en.wikipedia.org/wiki/Aidan_Gomez"
+   }
+  ],
+  "_flag": "Part of Cohere, a commercial company, and some releases carry non-commercial licences."
+ }
+]

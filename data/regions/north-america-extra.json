@@ -1,0 +1,2584 @@
+[
+ {
+  "id": "answer-ai",
+  "name": "Answer.AI",
+  "type": "startup",
+  "founded": 2023,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://www.answer.ai",
+  "huggingface": "https://huggingface.co/answerdotai",
+  "github": "https://github.com/AnswerDotAI",
+  "x": "https://x.com/answerdotai",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Practical AI R&D lab founded by Jeremy Howard and Eric Ries as a public benefit corporation, shipping open-source libraries and models such as ModernBERT, FastHTML, nbdev and RAGatouille.",
+  "focus": [
+   "encoder models",
+   "developer tools",
+   "retrieval",
+   "efficient fine-tuning"
+  ],
+  "notable_releases": [
+   {
+    "name": "fasthtml",
+    "url": "https://github.com/AnswerDotAI/fasthtml",
+    "note": "Python library for building HTML apps"
+   },
+   {
+    "name": "nbdev",
+    "url": "https://github.com/AnswerDotAI/nbdev",
+    "note": "Notebook-driven software development"
+   },
+   {
+    "name": "RAGatouille",
+    "url": "https://github.com/AnswerDotAI/RAGatouille",
+    "note": "Late-interaction retrieval for RAG"
+   }
+  ],
+  "openness": "Apache-2.0 code on GitHub and Apache-2.0 model weights on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://www.answer.ai",
+   "https://www.answer.ai/overview.html",
+   "https://github.com/AnswerDotAI",
+   "https://huggingface.co/answerdotai"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "ModernBERT",
+    "note": "Co-developed ModernBERT, an updated encoder-only model family released as base and large checkpoints."
+   },
+   {
+    "title": "FastHTML and nbdev",
+    "note": "Maintains FastHTML for building HTML apps in Python and nbdev for notebook-driven development."
+   },
+   {
+    "title": "RAGatouille",
+    "note": "Released a library for training and using ColBERT-style late-interaction retrieval in RAG pipelines."
+   },
+   {
+    "title": "llms.txt",
+    "note": "Proposed the /llms.txt convention for helping language models read websites."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "fasthtml",
+    "url": "https://github.com/AnswerDotAI/fasthtml",
+    "note": "Python library for building HTML apps"
+   },
+   {
+    "name": "nbdev",
+    "url": "https://github.com/AnswerDotAI/nbdev",
+    "note": "Notebook-driven software development"
+   },
+   {
+    "name": "RAGatouille",
+    "url": "https://github.com/AnswerDotAI/RAGatouille",
+    "note": "Late-interaction retrieval for RAG"
+   },
+   {
+    "name": "ModernBERT",
+    "url": "https://github.com/AnswerDotAI/ModernBERT",
+    "note": "Training code for ModernBERT"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ModernBERT-base",
+    "url": "https://huggingface.co/answerdotai/ModernBERT-base",
+    "kind": "model",
+    "note": "Base encoder model"
+   },
+   {
+    "name": "ModernBERT-large",
+    "url": "https://huggingface.co/answerdotai/ModernBERT-large",
+    "kind": "model",
+    "note": "Large encoder model"
+   },
+   {
+    "name": "answerai-colbert-small-v1",
+    "url": "https://huggingface.co/answerdotai/answerai-colbert-small-v1",
+    "kind": "model",
+    "note": "Small ColBERT retrieval model"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Smarter, Better, Faster, Longer: A Modern Bidirectional Encoder for Fast, Memory Efficient, and Long Context Finetuning and Inference",
+    "url": "https://arxiv.org/abs/2412.13663",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "open-thoughts",
+  "name": "OpenThoughts",
+  "type": "academic",
+  "founded": 2025,
+  "country": "United States",
+  "city": "Mountain View",
+  "lat": 37.3861,
+  "lon": -122.0839,
+  "website": "https://www.openthoughts.ai",
+  "huggingface": "https://huggingface.co/open-thoughts",
+  "github": "https://github.com/open-thoughts",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Open research collective curating fully open datasets and recipes for reasoning models, led with Bespoke Labs and academic partners; releases OpenThoughts datasets and OpenThinker models.",
+  "focus": [
+   "reasoning data",
+   "datasets",
+   "post-training",
+   "agents"
+  ],
+  "notable_releases": [
+   {
+    "name": "open-thoughts",
+    "url": "https://github.com/open-thoughts/open-thoughts",
+    "note": "Fully open data curation for reasoning models"
+   },
+   {
+    "name": "OpenThoughts-Agent",
+    "url": "https://github.com/open-thoughts/OpenThoughts-Agent",
+    "note": "Data recipes and infrastructure for training agents"
+   },
+   {
+    "name": "OpenThoughts-TBLite",
+    "url": "https://github.com/open-thoughts/OpenThoughts-TBLite",
+    "note": "Benchmark for terminal agents"
+   }
+  ],
+  "openness": "Apache-2.0 code, with datasets and OpenThinker model weights released on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://www.openthoughts.ai",
+   "https://github.com/open-thoughts",
+   "https://huggingface.co/open-thoughts",
+   "https://bespokelabs.ai/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "OpenThoughts datasets",
+    "note": "Released OpenThoughts-114k and OpenThoughts3-1.2M reasoning datasets."
+   },
+   {
+    "title": "OpenThinker models",
+    "note": "Published OpenThinker-7B and OpenThinker3-7B trained on those datasets."
+   },
+   {
+    "title": "Agent data",
+    "note": "Released AgentTrove and TaskTrove task data and OpenThinker-Agent models for terminal agents."
+   },
+   {
+    "title": "Data recipes",
+    "note": "Documented systematic ablations of data curation choices in a public paper and repository."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "open-thoughts",
+    "url": "https://github.com/open-thoughts/open-thoughts",
+    "note": "Fully open data curation for reasoning models"
+   },
+   {
+    "name": "OpenThoughts-Agent",
+    "url": "https://github.com/open-thoughts/OpenThoughts-Agent",
+    "note": "Data recipes and infrastructure for training agents"
+   },
+   {
+    "name": "OpenThoughts-TBLite",
+    "url": "https://github.com/open-thoughts/OpenThoughts-TBLite",
+    "note": "Benchmark for terminal agents"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "OpenThoughts-114k",
+    "url": "https://huggingface.co/datasets/open-thoughts/OpenThoughts-114k",
+    "kind": "dataset",
+    "note": "Reasoning dataset"
+   },
+   {
+    "name": "OpenThoughts3-1.2M",
+    "url": "https://huggingface.co/datasets/open-thoughts/OpenThoughts3-1.2M",
+    "kind": "dataset",
+    "note": "1.2M-example reasoning dataset"
+   },
+   {
+    "name": "OpenThinker3-7B",
+    "url": "https://huggingface.co/open-thoughts/OpenThinker3-7B",
+    "kind": "model",
+    "note": "7B reasoning model"
+   },
+   {
+    "name": "OpenThinker-Agent-v1",
+    "url": "https://huggingface.co/open-thoughts/OpenThinker-Agent-v1",
+    "kind": "model",
+    "note": "Terminal-agent model"
+   }
+  ],
+  "papers": [
+   {
+    "title": "OpenThoughts: Data Recipes for Reasoning Models",
+    "url": "https://arxiv.org/abs/2506.04178",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "bespoke-labs",
+  "name": "Bespoke Labs",
+  "type": "startup",
+  "founded": 2024,
+  "country": "United States",
+  "city": "Mountain View",
+  "lat": 37.3861,
+  "lon": -122.0839,
+  "website": "https://bespokelabs.ai",
+  "huggingface": "https://huggingface.co/bespokelabs",
+  "github": "https://github.com/bespokelabsai",
+  "x": "https://x.com/bespokelabsai",
+  "discord": "https://discord.com/invite/KqpXvpzVBS",
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Startup building tools and open models for data curation and verifiable fine-tuning, and a lead team behind the OpenThoughts project.",
+  "focus": [
+   "synthetic data",
+   "post-training",
+   "fact-checking",
+   "evaluation"
+  ],
+  "notable_releases": [
+   {
+    "name": "curator",
+    "url": "https://github.com/bespokelabsai/curator",
+    "note": "Synthetic data curation library"
+   },
+   {
+    "name": "verifiers",
+    "url": "https://github.com/bespokelabsai/verifiers",
+    "note": "Verifiers for LLM reinforcement learning"
+   },
+   {
+    "name": "nimble",
+    "url": "https://github.com/bespokelabsai/nimble",
+    "note": "Typed local decisions and model evaluation"
+   }
+  ],
+  "openness": "Apache-2.0 Curator library; open weights and datasets such as Bespoke-Stratos and MiniCheck on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://bespokelabs.ai/",
+   "https://github.com/bespokelabsai",
+   "https://huggingface.co/bespokelabs"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Curator",
+    "note": "Open-source library for synthetic data curation and structured extraction."
+   },
+   {
+    "title": "Bespoke-Stratos",
+    "note": "Released Bespoke-Stratos-17k reasoning data and Bespoke-Stratos-7B."
+   },
+   {
+    "title": "Bespoke-MiniCheck",
+    "note": "Published Bespoke-MiniCheck-7B for grounded fact-checking."
+   },
+   {
+    "title": "OpenThoughts",
+    "note": "Co-leads the OpenThoughts open reasoning data project."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "curator",
+    "url": "https://github.com/bespokelabsai/curator",
+    "note": "Synthetic data curation library"
+   },
+   {
+    "name": "verifiers",
+    "url": "https://github.com/bespokelabsai/verifiers",
+    "note": "Verifiers for LLM reinforcement learning"
+   },
+   {
+    "name": "nimble",
+    "url": "https://github.com/bespokelabsai/nimble",
+    "note": "Typed local decisions and model evaluation"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Bespoke-MiniCheck-7B",
+    "url": "https://huggingface.co/bespokelabs/Bespoke-MiniCheck-7B",
+    "kind": "model",
+    "note": "Fact-checking model"
+   },
+   {
+    "name": "Bespoke-Stratos-17k",
+    "url": "https://huggingface.co/datasets/bespokelabs/Bespoke-Stratos-17k",
+    "kind": "dataset",
+    "note": "Reasoning dataset"
+   },
+   {
+    "name": "Bespoke-Stratos-7B",
+    "url": "https://huggingface.co/bespokelabs/Bespoke-Stratos-7B",
+    "kind": "model",
+    "note": "Distilled reasoning model"
+   }
+  ],
+  "papers": [
+   {
+    "title": "MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents",
+    "url": "https://arxiv.org/abs/2404.10774",
+    "year": 2024
+   },
+   {
+    "title": "OpenThoughts: Data Recipes for Reasoning Models",
+    "url": "https://arxiv.org/abs/2506.04178",
+    "year": 2025
+   }
+  ],
+  "discord_note": "Community Discord linked from the website.",
+  "contact_note": "Via website."
+ },
+ {
+  "id": "epoch-ai",
+  "name": "Epoch AI",
+  "type": "nonprofit",
+  "founded": 2022,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://epoch.ai",
+  "huggingface": null,
+  "github": "https://github.com/epoch-research",
+  "x": "https://x.com/EpochAIResearch",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Research organisation that tracks AI compute, data, algorithms and hardware trends, publishing public datasets and analysis code.",
+  "focus": [
+   "AI trends",
+   "datasets",
+   "forecasting",
+   "benchmarking"
+  ],
+  "notable_releases": [
+   {
+    "name": "MirrorCode",
+    "url": "https://github.com/epoch-research/MirrorCode",
+    "note": "Public repository for MirrorCode"
+   },
+   {
+    "name": "Compute-Trends",
+    "url": "https://github.com/epoch-research/Compute-Trends",
+    "note": "Supplementary material for compute-trends paper"
+   },
+   {
+    "name": "training-cost-trends",
+    "url": "https://github.com/epoch-research/training-cost-trends",
+    "note": "Training cost trends analysis"
+   }
+  ],
+  "openness": "Datasets published openly on epoch.ai; analysis code on GitHub, mostly MIT.",
+  "people_public": [],
+  "sources": [
+   "https://epoch.ai",
+   "https://epoch.ai/about",
+   "https://github.com/epoch-research"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Compute trends",
+    "note": "Published the analysis of training-compute growth across three eras of machine learning."
+   },
+   {
+    "title": "Data limits",
+    "note": "Studied how long human-generated text data can support LLM scaling."
+   },
+   {
+    "title": "Algorithmic progress",
+    "note": "Quantified efficiency gains in language-model algorithms over time."
+   },
+   {
+    "title": "Public datasets",
+    "note": "Maintains openly downloadable data on notable models, hardware and data centres."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "MirrorCode",
+    "url": "https://github.com/epoch-research/MirrorCode",
+    "note": "Public repository for MirrorCode"
+   },
+   {
+    "name": "Compute-Trends",
+    "url": "https://github.com/epoch-research/Compute-Trends",
+    "note": "Supplementary material for compute-trends paper"
+   },
+   {
+    "name": "training-cost-trends",
+    "url": "https://github.com/epoch-research/training-cost-trends",
+    "note": "Training cost trends analysis"
+   },
+   {
+    "name": "data-stock",
+    "url": "https://github.com/epoch-research/data-stock",
+    "note": "Models for data stocks and dataset sizes"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "Compute Trends Across Three Eras of Machine Learning",
+    "url": "https://arxiv.org/abs/2202.05924",
+    "year": 2022
+   },
+   {
+    "title": "Will we run out of data? Limits of LLM scaling based on human-generated data",
+    "url": "https://arxiv.org/abs/2211.04325",
+    "year": 2022
+   },
+   {
+    "title": "Algorithmic progress in language models",
+    "url": "https://arxiv.org/abs/2403.05812",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website; no organisation email printed on the pages opened."
+ },
+ {
+  "id": "transluce",
+  "name": "Transluce",
+  "type": "nonprofit",
+  "founded": 2024,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://transluce.org",
+  "huggingface": "https://huggingface.co/Transluce",
+  "github": "https://github.com/TransluceAI",
+  "x": "https://x.com/TransluceAI",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "info@transluce.org",
+  "summary": "Independent nonprofit AI research lab building open tools to understand and steer AI systems, including interpretability toolkits and agentic investigation tools.",
+  "focus": [
+   "interpretability",
+   "evaluation",
+   "safety",
+   "tooling"
+  ],
+  "notable_releases": [
+   {
+    "name": "observatory",
+    "url": "https://github.com/TransluceAI/observatory",
+    "note": "Describe model features and intervene on them"
+   },
+   {
+    "name": "docent",
+    "url": "https://github.com/TransluceAI/docent",
+    "note": "Agent transcript analysis"
+   },
+   {
+    "name": "circuits",
+    "url": "https://github.com/TransluceAI/circuits",
+    "note": "MLP neuron-level circuit tracing"
+   }
+  ],
+  "openness": "MIT-licensed code on GitHub; explainer models and datasets on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://transluce.org",
+   "https://github.com/TransluceAI",
+   "https://huggingface.co/Transluce"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Observatory",
+    "note": "Toolkit for describing model features and intervening on them."
+   },
+   {
+    "title": "Docent",
+    "note": "Tool for analysing agent transcripts."
+   },
+   {
+    "title": "Circuits",
+    "note": "Neuron-level circuit tracing library (ADAG)."
+   },
+   {
+    "title": "Investigator agents",
+    "note": "Research on eliciting model behaviours with trained investigator agents."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "observatory",
+    "url": "https://github.com/TransluceAI/observatory",
+    "note": "Describe model features and intervene on them"
+   },
+   {
+    "name": "docent",
+    "url": "https://github.com/TransluceAI/docent",
+    "note": "Agent transcript analysis"
+   },
+   {
+    "name": "circuits",
+    "url": "https://github.com/TransluceAI/circuits",
+    "note": "MLP neuron-level circuit tracing"
+   },
+   {
+    "name": "introspective-interp",
+    "url": "https://github.com/TransluceAI/introspective-interp",
+    "note": "Models that explain their own computations"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "llama_8b_explainer",
+    "url": "https://huggingface.co/Transluce/llama_8b_explainer",
+    "kind": "model",
+    "note": "Feature explainer model"
+   },
+   {
+    "name": "llama_8b_simulator",
+    "url": "https://huggingface.co/Transluce/llama_8b_simulator",
+    "kind": "model",
+    "note": "Feature simulator model"
+   },
+   {
+    "name": "WeirdChat",
+    "url": "https://huggingface.co/datasets/Transluce/WeirdChat",
+    "kind": "dataset",
+    "note": "Chat dataset"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Eliciting Language Model Behaviors with Investigator Agents",
+    "url": "https://arxiv.org/abs/2502.01236",
+    "year": 2025
+   },
+   {
+    "title": "Training Language Models to Explain Their Own Computations",
+    "url": "https://arxiv.org/abs/2511.08579",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Email printed on website; also via site."
+ },
+ {
+  "id": "moondream",
+  "name": "Moondream (M87 Labs)",
+  "type": "startup",
+  "founded": 2024,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://moondream.ai",
+  "huggingface": "https://huggingface.co/moondream",
+  "github": "https://github.com/m87-labs",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "contact@moondream.ai",
+  "summary": "Company behind Moondream, a compact open vision-language model family for on-device and edge computer vision.",
+  "focus": [
+   "vision-language models",
+   "edge inference",
+   "computer vision"
+  ],
+  "notable_releases": [
+   {
+    "name": "moondream",
+    "url": "https://github.com/m87-labs/moondream",
+    "note": "Tiny vision language model"
+   }
+  ],
+  "openness": "Apache-2.0 inference code; model weights and datasets on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://moondream.ai/about/us",
+   "https://github.com/m87-labs/moondream",
+   "https://huggingface.co/moondream"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Moondream VLM",
+    "note": "Small vision-language model that runs on edge devices."
+   },
+   {
+    "title": "Moondream 3",
+    "note": "Released moondream3-preview and a moondream3.1 mixture-of-experts model."
+   },
+   {
+    "title": "Datasets",
+    "note": "Published datasets such as megalith-mdqa and refcoco-m."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "moondream",
+    "url": "https://github.com/m87-labs/moondream",
+    "note": "Tiny vision language model"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "moondream3-preview",
+    "url": "https://huggingface.co/moondream/moondream3-preview",
+    "kind": "model",
+    "note": "Moondream 3 preview"
+   },
+   {
+    "name": "moondream3.1-9B-A2B",
+    "url": "https://huggingface.co/moondream/moondream3.1-9B-A2B",
+    "kind": "model",
+    "note": "Moondream 3.1 MoE"
+   },
+   {
+    "name": "megalith-mdqa",
+    "url": "https://huggingface.co/datasets/moondream/megalith-mdqa",
+    "kind": "dataset",
+    "note": "Image QA dataset"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Email printed on website."
+ },
+ {
+  "id": "boltz",
+  "name": "Boltz",
+  "type": "startup",
+  "founded": 2025,
+  "country": "United States",
+  "city": "Cambridge",
+  "lat": 42.3736,
+  "lon": -71.1097,
+  "website": "https://boltz.com",
+  "huggingface": "https://huggingface.co/boltz-community",
+  "github": "https://github.com/jwohlwend",
+  "x": "https://x.com/boltz_bio",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Public-benefit company growing out of MIT research that develops open biomolecular foundation models (Boltz-1, Boltz-2) for structure and binding-affinity prediction.",
+  "focus": [
+   "biomolecular modelling",
+   "structure prediction",
+   "drug discovery"
+  ],
+  "notable_releases": [
+   {
+    "name": "boltz",
+    "url": "https://github.com/jwohlwend/boltz",
+    "note": "Official Boltz repository"
+   },
+   {
+    "name": "minifold",
+    "url": "https://github.com/jwohlwend/minifold",
+    "note": "Fast protein structure prediction"
+   }
+  ],
+  "openness": "MIT-licensed code and weights.",
+  "people_public": [],
+  "sources": [
+   "https://boltz.com/",
+   "https://github.com/jwohlwend/boltz",
+   "https://huggingface.co/boltz-community"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Boltz-1",
+    "note": "Open model for biomolecular interaction structure prediction."
+   },
+   {
+    "title": "Boltz-2",
+    "note": "Extended to binding-affinity estimation, developed with Recursion, MIT licence."
+   },
+   {
+    "title": "MiniFold",
+    "note": "Released a fast protein structure prediction approach."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "boltz",
+    "url": "https://github.com/jwohlwend/boltz",
+    "note": "Official Boltz repository"
+   },
+   {
+    "name": "minifold",
+    "url": "https://github.com/jwohlwend/minifold",
+    "note": "Fast protein structure prediction"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "boltz-1",
+    "url": "https://huggingface.co/boltz-community/boltz-1",
+    "kind": "model",
+    "note": "Boltz-1 weights"
+   },
+   {
+    "name": "boltz-2",
+    "url": "https://huggingface.co/boltz-community/boltz-2",
+    "kind": "model",
+    "note": "Boltz-2 weights"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "oumi",
+  "name": "Oumi",
+  "type": "startup",
+  "founded": 2024,
+  "country": "United States",
+  "city": "Seattle",
+  "lat": 47.6062,
+  "lon": -122.3321,
+  "website": "https://oumi.ai",
+  "huggingface": "https://huggingface.co/oumi-ai",
+  "github": "https://github.com/oumi-ai",
+  "x": "https://x.com/Oumi_ai",
+  "discord": "https://discord.com/invite/oumi",
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Public-benefit company behind an unconditionally open-source platform for training, evaluating and deploying foundation models.",
+  "focus": [
+   "training platform",
+   "evaluation",
+   "hallucination detection",
+   "fine-tuning"
+  ],
+  "notable_releases": [
+   {
+    "name": "oumi",
+    "url": "https://github.com/oumi-ai/oumi",
+    "note": "Fine-tune, evaluate and deploy open models"
+   },
+   {
+    "name": "halloumi-demo",
+    "url": "https://github.com/oumi-ai/halloumi-demo",
+    "note": "HallOumi claim verification demo"
+   }
+  ],
+  "openness": "Apache-2.0 platform; open HallOumi models and datasets on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://oumi.ai/",
+   "https://github.com/oumi-ai/oumi",
+   "https://huggingface.co/oumi-ai"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Oumi platform",
+    "note": "End-to-end open platform for SFT, RL, evaluation and deployment of open models."
+   },
+   {
+    "title": "HallOumi",
+    "note": "Open claim-verification models for hallucination detection."
+   },
+   {
+    "title": "Datasets",
+    "note": "Released MetaMathQA-R1 and other distillation datasets."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "oumi",
+    "url": "https://github.com/oumi-ai/oumi",
+    "note": "Fine-tune, evaluate and deploy open models"
+   },
+   {
+    "name": "halloumi-demo",
+    "url": "https://github.com/oumi-ai/halloumi-demo",
+    "note": "HallOumi claim verification demo"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "HallOumi-8B",
+    "url": "https://huggingface.co/oumi-ai/HallOumi-8B",
+    "kind": "model",
+    "note": "Claim verification model"
+   },
+   {
+    "name": "MetaMathQA-R1",
+    "url": "https://huggingface.co/datasets/oumi-ai/MetaMathQA-R1",
+    "kind": "dataset",
+    "note": "Math reasoning dataset"
+   }
+  ],
+  "papers": [],
+  "discord_note": "Community Discord linked from the website.",
+  "contact_note": "Via website."
+ },
+ {
+  "id": "physical-intelligence",
+  "name": "Physical Intelligence",
+  "type": "startup",
+  "founded": 2024,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://www.pi.website",
+  "huggingface": "https://huggingface.co/physical-intelligence",
+  "github": "https://github.com/Physical-Intelligence",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Robotics foundation-model company that open-sources its pi0 family of vision-language-action models and training code via the openpi repository.",
+  "focus": [
+   "robotics",
+   "vision-language-action models",
+   "foundation models"
+  ],
+  "notable_releases": [
+   {
+    "name": "openpi",
+    "url": "https://github.com/Physical-Intelligence/openpi",
+    "note": "Open-source pi0 / pi0.5 models and code"
+   },
+   {
+    "name": "real-time-chunking-kinetix",
+    "url": "https://github.com/Physical-Intelligence/real-time-chunking-kinetix",
+    "note": "Real-time action chunking experiments"
+   },
+   {
+    "name": "aloha",
+    "url": "https://github.com/Physical-Intelligence/aloha",
+    "note": "ALOHA robot setup"
+   }
+  ],
+  "openness": "openpi released under Apache-2.0 with open model checkpoints; some datasets on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://github.com/Physical-Intelligence",
+   "https://huggingface.co/physical-intelligence",
+   "https://en.wikipedia.org/wiki/Physical_Intelligence_Inc."
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "openpi",
+    "note": "Open-source pi0 and pi0.5 models and fine-tuning code."
+   },
+   {
+    "title": "FAST tokenizer",
+    "note": "Published FAST action tokenization for VLA models."
+   },
+   {
+    "title": "Real-time chunking",
+    "note": "Released simulated experiments for real-time execution of action chunking policies."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "openpi",
+    "url": "https://github.com/Physical-Intelligence/openpi",
+    "note": "Open-source pi0 / pi0.5 models and code"
+   },
+   {
+    "name": "real-time-chunking-kinetix",
+    "url": "https://github.com/Physical-Intelligence/real-time-chunking-kinetix",
+    "note": "Real-time action chunking experiments"
+   },
+   {
+    "name": "aloha",
+    "url": "https://github.com/Physical-Intelligence/aloha",
+    "note": "ALOHA robot setup"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "fast",
+    "url": "https://huggingface.co/physical-intelligence/fast",
+    "kind": "model",
+    "note": "FAST action tokenizer"
+   },
+   {
+    "name": "libero",
+    "url": "https://huggingface.co/datasets/physical-intelligence/libero",
+    "kind": "dataset",
+    "note": "LIBERO dataset"
+   }
+  ],
+  "papers": [
+   {
+    "title": "π0: A Vision-Language-Action Flow Model for General Robot Control",
+    "url": "https://arxiv.org/abs/2410.24164",
+    "year": 2024
+   },
+   {
+    "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+    "url": "https://arxiv.org/abs/2501.09747",
+    "year": 2025
+   },
+   {
+    "title": "π0.5: a Vision-Language-Action Model with Open-World Generalization",
+    "url": "https://arxiv.org/abs/2504.16054",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "canopy-labs",
+  "name": "Canopy Labs",
+  "type": "startup",
+  "founded": 2024,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://canopylabs.ai",
+  "huggingface": "https://huggingface.co/canopylabs",
+  "github": "https://github.com/canopyai",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Speech AI lab behind Orpheus, an Apache-2.0 family of Llama-based text-to-speech models.",
+  "focus": [
+   "text-to-speech",
+   "speech",
+   "open models"
+  ],
+  "notable_releases": [
+   {
+    "name": "Orpheus-TTS",
+    "url": "https://github.com/canopyai/Orpheus-TTS",
+    "note": "Towards human-sounding speech"
+   }
+  ],
+  "openness": "Apache-2.0 Orpheus code and weights.",
+  "people_public": [],
+  "sources": [
+   "https://canopylabs.ai",
+   "https://github.com/canopyai/Orpheus-TTS",
+   "https://huggingface.co/canopylabs"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Orpheus TTS",
+    "note": "Open LLM-based text-to-speech models with emotion and voice control."
+   },
+   {
+    "title": "Multilingual research releases",
+    "note": "Published research-release checkpoints such as German and Hindi variants."
+   },
+   {
+    "title": "Model sizes",
+    "note": "Also offers smaller 1B, 400M and 150M parameter variants."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Orpheus-TTS",
+    "url": "https://github.com/canopyai/Orpheus-TTS",
+    "note": "Towards human-sounding speech"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "orpheus-3b-0.1-ft",
+    "url": "https://huggingface.co/canopylabs/orpheus-3b-0.1-ft",
+    "kind": "model",
+    "note": "Fine-tuned Orpheus 3B"
+   },
+   {
+    "name": "orpheus-3b-0.1-pretrained",
+    "url": "https://huggingface.co/canopylabs/orpheus-3b-0.1-pretrained",
+    "kind": "model",
+    "note": "Pretrained Orpheus 3B"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "voxel51",
+  "name": "Voxel51",
+  "type": "startup",
+  "founded": null,
+  "country": "United States",
+  "city": "Ann Arbor",
+  "lat": 42.2808,
+  "lon": -83.743,
+  "website": "https://voxel51.com",
+  "huggingface": "https://huggingface.co/Voxel51",
+  "github": "https://github.com/voxel51",
+  "x": "https://x.com/voxel51",
+  "discord": "https://discord.com/invite/fiftyone-community",
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Visual AI company behind the open-source FiftyOne toolkit for curating datasets and evaluating computer-vision models, with many datasets on Hugging Face.",
+  "focus": [
+   "computer vision",
+   "datasets",
+   "evaluation tooling"
+  ],
+  "notable_releases": [
+   {
+    "name": "fiftyone",
+    "url": "https://github.com/voxel51/fiftyone",
+    "note": "Refine datasets and visual AI models"
+   },
+   {
+    "name": "voxelgpt",
+    "url": "https://github.com/voxel51/voxelgpt",
+    "note": "Assistant for querying visual datasets"
+   },
+   {
+    "name": "fiftyone-examples",
+    "url": "https://github.com/voxel51/fiftyone-examples",
+    "note": "Examples of using FiftyOne"
+   }
+  ],
+  "openness": "Apache-2.0 FiftyOne; large set of open datasets in the Hugging Face Hub.",
+  "people_public": [],
+  "sources": [
+   "https://voxel51.com",
+   "https://github.com/voxel51",
+   "https://huggingface.co/Voxel51"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "FiftyOne",
+    "note": "Open-source tool for dataset curation, visualisation and model evaluation."
+   },
+   {
+    "title": "Hub datasets",
+    "note": "Published curated versions of LVIS, Food101, OxfordFlowers102 and more."
+   },
+   {
+    "title": "VoxelGPT",
+    "note": "Open assistant for querying visual datasets."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "fiftyone",
+    "url": "https://github.com/voxel51/fiftyone",
+    "note": "Refine datasets and visual AI models"
+   },
+   {
+    "name": "voxelgpt",
+    "url": "https://github.com/voxel51/voxelgpt",
+    "note": "Assistant for querying visual datasets"
+   },
+   {
+    "name": "fiftyone-examples",
+    "url": "https://github.com/voxel51/fiftyone-examples",
+    "note": "Examples of using FiftyOne"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "LVIS",
+    "url": "https://huggingface.co/datasets/Voxel51/LVIS",
+    "kind": "dataset",
+    "note": "LVIS in FiftyOne format"
+   },
+   {
+    "name": "Food101",
+    "url": "https://huggingface.co/datasets/Voxel51/Food101",
+    "kind": "dataset",
+    "note": "Food101 in FiftyOne format"
+   }
+  ],
+  "papers": [],
+  "discord_note": "Community Discord linked from the website.",
+  "contact_note": "Via website."
+ },
+ {
+  "id": "polymathic-ai",
+  "name": "Polymathic AI",
+  "type": "academic",
+  "founded": 2023,
+  "country": "United States",
+  "city": "New York",
+  "lat": 40.7128,
+  "lon": -74.006,
+  "website": "https://polymathic-ai.org",
+  "huggingface": "https://huggingface.co/polymathic-ai",
+  "github": "https://github.com/PolymathicAI",
+  "x": "https://x.com/PolymathicAI",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "info@polymathic-ai.org",
+  "summary": "Simons Foundation and Flatiron Institute backed collaboration building open foundation models and datasets for scientific data, notably physics simulation and astronomy.",
+  "focus": [
+   "scientific foundation models",
+   "physics simulation",
+   "astronomy",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "the_well",
+    "url": "https://github.com/PolymathicAI/the_well",
+    "note": "15TB physics simulation datasets"
+   },
+   {
+    "name": "walrus",
+    "url": "https://github.com/PolymathicAI/walrus",
+    "note": "Physical dynamics foundation model"
+   },
+   {
+    "name": "multiple_physics_pretraining",
+    "url": "https://github.com/PolymathicAI/multiple_physics_pretraining",
+    "note": "Multiple physics pretraining code"
+   }
+  ],
+  "openness": "Open code (BSD-3 and MIT) and datasets/models on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://polymathic-ai.org",
+   "https://github.com/PolymathicAI",
+   "https://huggingface.co/polymathic-ai",
+   "https://www.simonsfoundation.org/2024/12/02/new-datasets-will-train-ai-models-to-think-like-scientists/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "The Well",
+    "note": "15 TB collection of physics simulation datasets."
+   },
+   {
+    "title": "Walrus",
+    "note": "Foundation model for physical dynamics."
+   },
+   {
+    "title": "AION-1",
+    "note": "Astronomy multimodal foundation model."
+   },
+   {
+    "title": "Multiple Physics Pretraining",
+    "note": "Method for pretraining surrogate models across physics."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "the_well",
+    "url": "https://github.com/PolymathicAI/the_well",
+    "note": "15TB physics simulation datasets"
+   },
+   {
+    "name": "walrus",
+    "url": "https://github.com/PolymathicAI/walrus",
+    "note": "Physical dynamics foundation model"
+   },
+   {
+    "name": "multiple_physics_pretraining",
+    "url": "https://github.com/PolymathicAI/multiple_physics_pretraining",
+    "note": "Multiple physics pretraining code"
+   },
+   {
+    "name": "AstroCLIP",
+    "url": "https://github.com/PolymathicAI/AstroCLIP",
+    "note": "Cross-modal galaxy model"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "aion-base",
+    "url": "https://huggingface.co/polymathic-ai/aion-base",
+    "kind": "model",
+    "note": "AION-1 base"
+   },
+   {
+    "name": "turbulent_radiative_layer_2D",
+    "url": "https://huggingface.co/datasets/polymathic-ai/turbulent_radiative_layer_2D",
+    "kind": "dataset",
+    "note": "The Well dataset"
+   },
+   {
+    "name": "shear_flow",
+    "url": "https://huggingface.co/datasets/polymathic-ai/shear_flow",
+    "kind": "dataset",
+    "note": "The Well dataset"
+   }
+  ],
+  "papers": [
+   {
+    "title": "The Well: a Large-Scale Collection of Diverse Physics Simulations for Machine Learning",
+    "url": "https://arxiv.org/abs/2412.00568",
+    "year": 2024
+   },
+   {
+    "title": "Multiple Physics Pretraining for Physical Surrogate Models",
+    "url": "https://arxiv.org/abs/2310.02994",
+    "year": 2023
+   },
+   {
+    "title": "AstroCLIP: A Cross-Modal Foundation Model for Galaxies",
+    "url": "https://arxiv.org/abs/2310.03024",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Email printed on website."
+ },
+ {
+  "id": "futurehouse",
+  "name": "FutureHouse",
+  "type": "nonprofit",
+  "founded": 2023,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://www.futurehouse.org",
+  "huggingface": "https://huggingface.co/futurehouse",
+  "github": "https://github.com/Future-House",
+  "x": "https://x.com/futurehouse",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Nonprofit AI-for-science lab building language agents and open models for scientific discovery.",
+  "focus": [
+   "AI for science",
+   "agents",
+   "chemistry",
+   "biology benchmarks"
+  ],
+  "notable_releases": [
+   {
+    "name": "paper-qa",
+    "url": "https://github.com/Future-House/paper-qa",
+    "note": "RAG for scientific documents"
+   },
+   {
+    "name": "ether0",
+    "url": "https://github.com/Future-House/ether0",
+    "note": "Scientific reasoning model"
+   },
+   {
+    "name": "aviary",
+    "url": "https://github.com/Future-House/aviary",
+    "note": "Language agent gym"
+   }
+  ],
+  "openness": "Apache-2.0 code; open ether0 weights and benchmark datasets on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://www.futurehouse.org",
+   "https://github.com/Future-House",
+   "https://huggingface.co/futurehouse"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "PaperQA",
+    "note": "Open RAG system for answering questions over scientific papers."
+   },
+   {
+    "title": "ether0",
+    "note": "Open scientific reasoning model for chemistry with dataset and reward functions."
+   },
+   {
+    "title": "LAB-Bench and BixBench",
+    "note": "Benchmarks for biology research capabilities."
+   },
+   {
+    "title": "Aviary",
+    "note": "Language agent gym with scientific tasks."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "paper-qa",
+    "url": "https://github.com/Future-House/paper-qa",
+    "note": "RAG for scientific documents"
+   },
+   {
+    "name": "ether0",
+    "url": "https://github.com/Future-House/ether0",
+    "note": "Scientific reasoning model"
+   },
+   {
+    "name": "aviary",
+    "url": "https://github.com/Future-House/aviary",
+    "note": "Language agent gym"
+   },
+   {
+    "name": "robin",
+    "url": "https://github.com/Future-House/robin",
+    "note": "Multi-agent scientific discovery system"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ether0",
+    "url": "https://huggingface.co/futurehouse/ether0",
+    "kind": "model",
+    "note": "Chemistry reasoning model"
+   },
+   {
+    "name": "BixBench",
+    "url": "https://huggingface.co/datasets/futurehouse/BixBench",
+    "kind": "dataset",
+    "note": "Bioinformatics benchmark"
+   },
+   {
+    "name": "lab-bench",
+    "url": "https://huggingface.co/datasets/futurehouse/lab-bench",
+    "kind": "dataset",
+    "note": "Biology research benchmark"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Language agents achieve superhuman synthesis of scientific knowledge",
+    "url": "https://arxiv.org/abs/2409.13740",
+    "year": 2024
+   },
+   {
+    "title": "LAB-Bench: Measuring Capabilities of Language Models for Biology Research",
+    "url": "https://arxiv.org/abs/2407.10362",
+    "year": 2024
+   },
+   {
+    "title": "Training a Scientific Reasoning Model for Chemistry",
+    "url": "https://arxiv.org/abs/2506.17238",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "neuronpedia",
+  "name": "Neuronpedia",
+  "type": "nonprofit",
+  "founded": 2023,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://www.neuronpedia.org",
+  "huggingface": "https://huggingface.co/neuronpedia",
+  "github": "https://github.com/hijohnnylin",
+  "x": "https://x.com/neuronpedia",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Open-source interpretability platform for exploring, visualising and steering model internals such as sparse autoencoder features.",
+  "focus": [
+   "interpretability",
+   "sparse autoencoders",
+   "tooling"
+  ],
+  "notable_releases": [
+   {
+    "name": "neuronpedia",
+    "url": "https://github.com/hijohnnylin/neuronpedia",
+    "note": "Open source interpretability platform"
+   },
+   {
+    "name": "neuronpedia-python",
+    "url": "https://github.com/hijohnnylin/neuronpedia-python",
+    "note": "Python client"
+   }
+  ],
+  "openness": "Apache-2.0 platform code with open dashboards data on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://www.neuronpedia.org/",
+   "https://github.com/hijohnnylin/neuronpedia",
+   "https://huggingface.co/neuronpedia"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Interpretability platform",
+    "note": "Hosted platform for browsing SAE features and activations."
+   },
+   {
+    "title": "Open dashboards",
+    "note": "Published feature dashboards as an open dataset."
+   },
+   {
+    "title": "Interp engine",
+    "note": "Open engine that serves model internals."
+   },
+   {
+    "title": "SAELens integration",
+    "note": "Maintains a fork of SAELens for training sparse autoencoders."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "neuronpedia",
+    "url": "https://github.com/hijohnnylin/neuronpedia",
+    "note": "Open source interpretability platform"
+   },
+   {
+    "name": "neuronpedia-python",
+    "url": "https://github.com/hijohnnylin/neuronpedia-python",
+    "note": "Python client"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "dashboards",
+    "url": "https://huggingface.co/datasets/neuronpedia/dashboards",
+    "kind": "dataset",
+    "note": "Feature dashboards"
+   },
+   {
+    "name": "jacobian-lens",
+    "url": "https://huggingface.co/neuronpedia/jacobian-lens",
+    "kind": "model",
+    "note": "Interpretability artefact"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "metr",
+  "name": "METR",
+  "type": "nonprofit",
+  "founded": 2022,
+  "country": "United States",
+  "city": "Berkeley",
+  "lat": 37.8715,
+  "lon": -122.273,
+  "website": "https://metr.org",
+  "huggingface": null,
+  "github": "https://github.com/METR",
+  "x": "https://x.com/METR_Evals",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "info@metr.org",
+  "summary": "Nonprofit that evaluates frontier AI models for autonomous capabilities and publishes evaluation code and datasets.",
+  "focus": [
+   "evaluation",
+   "safety",
+   "agents",
+   "time horizons"
+  ],
+  "notable_releases": [
+   {
+    "name": "eval-analysis-public",
+    "url": "https://github.com/METR/eval-analysis-public",
+    "note": "Public eval data pipeline"
+   },
+   {
+    "name": "task-standard",
+    "url": "https://github.com/METR/task-standard",
+    "note": "METR task standard"
+   },
+   {
+    "name": "RE-Bench",
+    "url": "https://github.com/METR/RE-Bench",
+    "note": "AI R&D evaluation tasks"
+   }
+  ],
+  "openness": "MIT-licensed task standard and tools; evaluation analysis data on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://metr.org",
+   "https://github.com/METR"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Task standard",
+    "note": "Open standard for defining agent evaluation tasks."
+   },
+   {
+    "title": "Vivaria",
+    "note": "Open tool for running evaluations."
+   },
+   {
+    "title": "RE-Bench",
+    "note": "Benchmark of AI R&D tasks compared with human experts."
+   },
+   {
+    "title": "Time horizons",
+    "note": "Research on measuring how long tasks AI agents can complete."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "eval-analysis-public",
+    "url": "https://github.com/METR/eval-analysis-public",
+    "note": "Public eval data pipeline"
+   },
+   {
+    "name": "task-standard",
+    "url": "https://github.com/METR/task-standard",
+    "note": "METR task standard"
+   },
+   {
+    "name": "RE-Bench",
+    "url": "https://github.com/METR/RE-Bench",
+    "note": "AI R&D evaluation tasks"
+   },
+   {
+    "name": "vivaria",
+    "url": "https://github.com/METR/vivaria",
+    "note": "Tool for running evaluations"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "Measuring AI Ability to Complete Long Software Tasks",
+    "url": "https://arxiv.org/abs/2503.14499",
+    "year": 2025
+   },
+   {
+    "title": "RE-Bench: Evaluating frontier AI R&D capabilities of language model agents against human experts",
+    "url": "https://arxiv.org/abs/2411.15114",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Email printed on website."
+ },
+ {
+  "id": "deep-cogito",
+  "name": "Deep Cogito",
+  "type": "startup",
+  "founded": 2024,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://www.deepcogito.com",
+  "huggingface": "https://huggingface.co/deepcogito",
+  "github": "https://github.com/DeepCogito",
+  "x": "https://x.com/deepcogito",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "AI lab releasing open-weight hybrid reasoning models trained with iterated distillation and amplification.",
+  "focus": [
+   "language models",
+   "post-training",
+   "reasoning"
+  ],
+  "notable_releases": [
+   {
+    "name": "cogito-v2",
+    "url": "https://github.com/DeepCogito/cogito-v2",
+    "note": "Cogito v2 model repo"
+   }
+  ],
+  "openness": "Open model weights on Hugging Face (several under permissive or llama-style licences).",
+  "people_public": [],
+  "sources": [
+   "https://www.deepcogito.com",
+   "https://huggingface.co/deepcogito",
+   "https://github.com/DeepCogito"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Cogito v1",
+    "note": "Open hybrid-reasoning models fine-tuned from open base models."
+   },
+   {
+    "title": "Cogito v2",
+    "note": "Open-weight mixture-of-experts and large models in the v2 family."
+   },
+   {
+    "title": "Hybrid reasoning",
+    "note": "Models can answer directly or reason first, per the lab description."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "cogito-v2",
+    "url": "https://github.com/DeepCogito/cogito-v2",
+    "note": "Cogito v2 model repo"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "cogito-v1-preview-qwen-14B",
+    "url": "https://huggingface.co/deepcogito/cogito-v1-preview-qwen-14B",
+    "kind": "model",
+    "note": "14B hybrid reasoning model"
+   },
+   {
+    "name": "cogito-v2-preview-llama-109B-MoE",
+    "url": "https://huggingface.co/deepcogito/cogito-v2-preview-llama-109B-MoE",
+    "kind": "model",
+    "note": "109B MoE model"
+   },
+   {
+    "name": "cogito-v1-preview-llama-8B",
+    "url": "https://huggingface.co/deepcogito/cogito-v1-preview-llama-8B",
+    "kind": "model",
+    "note": "8B model"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "openhands",
+  "name": "OpenHands (All Hands AI)",
+  "type": "startup",
+  "founded": 2024,
+  "country": "United States",
+  "city": "Boston",
+  "lat": 42.3601,
+  "lon": -71.0589,
+  "website": "https://www.openhands.dev",
+  "huggingface": "https://huggingface.co/OpenHands",
+  "github": "https://github.com/OpenHands",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Open-source platform and company for AI software-development agents, formerly All Hands AI.",
+  "focus": [
+   "coding agents",
+   "software engineering",
+   "agents"
+  ],
+  "notable_releases": [
+   {
+    "name": "OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "note": "AI-driven development platform"
+   }
+  ],
+  "openness": "MIT-licensed OpenHands platform.",
+  "people_public": [],
+  "sources": [
+   "https://www.openhands.dev/",
+   "https://github.com/OpenHands/OpenHands",
+   "https://huggingface.co/OpenHands"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "OpenHands platform",
+    "note": "Open agent platform for software tasks, widely used with SWE-bench."
+   },
+   {
+    "title": "OpenHands LM",
+    "note": "Released a 32B open coding model for the platform."
+   },
+   {
+    "title": "Evaluation",
+    "note": "Platform is evaluated on SWE-bench in its published paper."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "note": "AI-driven development platform"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "openhands-lm-32b-v0.1-ep3",
+    "url": "https://huggingface.co/OpenHands/openhands-lm-32b-v0.1-ep3",
+    "kind": "model",
+    "note": "32B open coding model"
+   }
+  ],
+  "papers": [
+   {
+    "title": "OpenHands: An Open Platform for AI Software Developers as Generalist Agents",
+    "url": "https://arxiv.org/abs/2407.16741",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "stanford-nlp",
+  "name": "Stanford NLP Group",
+  "type": "academic",
+  "founded": null,
+  "country": "United States",
+  "city": "Stanford",
+  "lat": 37.4275,
+  "lon": -122.1697,
+  "website": "https://nlp.stanford.edu",
+  "huggingface": "https://huggingface.co/stanfordnlp",
+  "github": "https://github.com/stanfordnlp",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Academic research group releasing widely used open NLP software and datasets, including DSPy, CoreNLP, Stanza and GloVe.",
+  "focus": [
+   "NLP",
+   "LM programming",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "dspy",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "note": "Programming language models"
+   },
+   {
+    "name": "CoreNLP",
+    "url": "https://github.com/stanfordnlp/CoreNLP",
+    "note": "Java NLP suite"
+   },
+   {
+    "name": "stanza",
+    "url": "https://github.com/stanfordnlp/stanza",
+    "note": "Python NLP toolkit"
+   }
+  ],
+  "openness": "Mostly MIT or Apache-2.0 code; many datasets on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://github.com/stanfordnlp",
+   "https://huggingface.co/stanfordnlp"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "DSPy",
+    "note": "Framework for programming rather than prompting language models."
+   },
+   {
+    "title": "Stanza",
+    "note": "Python NLP toolkit for many languages."
+   },
+   {
+    "title": "CoreNLP",
+    "note": "Java suite of NLP tools."
+   },
+   {
+    "title": "GloVe",
+    "note": "Word vectors and training code."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "dspy",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "note": "Programming language models"
+   },
+   {
+    "name": "CoreNLP",
+    "url": "https://github.com/stanfordnlp/CoreNLP",
+    "note": "Java NLP suite"
+   },
+   {
+    "name": "stanza",
+    "url": "https://github.com/stanfordnlp/stanza",
+    "note": "Python NLP toolkit"
+   },
+   {
+    "name": "GloVe",
+    "url": "https://github.com/stanfordnlp/GloVe",
+    "note": "Global vectors for word representation"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "stanza-en",
+    "url": "https://huggingface.co/stanfordnlp/stanza-en",
+    "kind": "model",
+    "note": "Stanza English"
+   },
+   {
+    "name": "imdb",
+    "url": "https://huggingface.co/datasets/stanfordnlp/imdb",
+    "kind": "dataset",
+    "note": "IMDB sentiment dataset"
+   },
+   {
+    "name": "sst2",
+    "url": "https://huggingface.co/datasets/stanfordnlp/sst2",
+    "kind": "dataset",
+    "note": "SST-2"
+   },
+   {
+    "name": "SHP",
+    "url": "https://huggingface.co/datasets/stanfordnlp/SHP",
+    "kind": "dataset",
+    "note": "Stanford Human Preferences"
+   }
+  ],
+  "papers": [
+   {
+    "title": "DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines",
+    "url": "https://arxiv.org/abs/2310.03714",
+    "year": 2023
+   },
+   {
+    "title": "Stanza: A Python Natural Language Processing Toolkit for Many Human Languages",
+    "url": "https://arxiv.org/abs/2003.07082",
+    "year": 2020
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "princeton-nlp",
+  "name": "Princeton NLP Group",
+  "type": "academic",
+  "founded": null,
+  "country": "United States",
+  "city": "Princeton",
+  "lat": 40.3573,
+  "lon": -74.6672,
+  "website": "https://nlp.cs.princeton.edu",
+  "huggingface": "https://huggingface.co/princeton-nlp",
+  "github": "https://github.com/princeton-nlp",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Academic group releasing open benchmarks, methods and models for language models, including SWE-bench, SimPO and Tree of Thoughts.",
+  "focus": [
+   "benchmarks",
+   "alignment",
+   "agents",
+   "long context"
+  ],
+  "notable_releases": [
+   {
+    "name": "tree-of-thought-llm",
+    "url": "https://github.com/princeton-nlp/tree-of-thought-llm",
+    "note": "Tree of Thoughts"
+   },
+   {
+    "name": "SimCSE",
+    "url": "https://github.com/princeton-nlp/SimCSE",
+    "note": "Contrastive sentence embeddings"
+   },
+   {
+    "name": "MeZO",
+    "url": "https://github.com/princeton-nlp/MeZO",
+    "note": "Memory-efficient fine-tuning"
+   }
+  ],
+  "openness": "MIT-licensed code; benchmarks and models on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://nlp.cs.princeton.edu",
+   "https://github.com/princeton-nlp",
+   "https://huggingface.co/princeton-nlp"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "SWE-bench",
+    "note": "Benchmark of real GitHub issues for coding agents."
+   },
+   {
+    "title": "SimPO",
+    "note": "Reference-free preference optimisation."
+   },
+   {
+    "title": "Tree of Thoughts",
+    "note": "Deliberate problem-solving prompting framework."
+   },
+   {
+    "title": "ProLong",
+    "note": "Long-context Llama-3 8B models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "tree-of-thought-llm",
+    "url": "https://github.com/princeton-nlp/tree-of-thought-llm",
+    "note": "Tree of Thoughts"
+   },
+   {
+    "name": "SimCSE",
+    "url": "https://github.com/princeton-nlp/SimCSE",
+    "note": "Contrastive sentence embeddings"
+   },
+   {
+    "name": "MeZO",
+    "url": "https://github.com/princeton-nlp/MeZO",
+    "note": "Memory-efficient fine-tuning"
+   },
+   {
+    "name": "SimPO",
+    "url": "https://github.com/princeton-nlp/SimPO",
+    "note": "Simple preference optimisation"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "SWE-bench_Verified",
+    "url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench_Verified",
+    "kind": "dataset",
+    "note": "Verified SWE-bench subset"
+   },
+   {
+    "name": "SWE-bench",
+    "url": "https://huggingface.co/datasets/princeton-nlp/SWE-bench",
+    "kind": "dataset",
+    "note": "SWE-bench"
+   },
+   {
+    "name": "Llama-3-8B-ProLong-512k-Base",
+    "url": "https://huggingface.co/princeton-nlp/Llama-3-8B-ProLong-512k-Base",
+    "kind": "model",
+    "note": "Long-context model"
+   }
+  ],
+  "papers": [
+   {
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "url": "https://arxiv.org/abs/2310.06770",
+    "year": 2023
+   },
+   {
+    "title": "SimPO: Simple Preference Optimization with a Reference-Free Reward",
+    "url": "https://arxiv.org/abs/2405.14734",
+    "year": 2024
+   },
+   {
+    "title": "Tree of Thoughts: Deliberate Problem Solving with Large Language Models",
+    "url": "https://arxiv.org/abs/2305.10601",
+    "year": 2023
+   },
+   {
+    "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+    "url": "https://arxiv.org/abs/2405.15793",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "gorilla",
+  "name": "Gorilla (UC Berkeley)",
+  "type": "academic",
+  "founded": 2023,
+  "country": "United States",
+  "city": "Berkeley",
+  "lat": 37.8715,
+  "lon": -122.273,
+  "website": "https://gorilla.cs.berkeley.edu",
+  "huggingface": "https://huggingface.co/gorilla-llm",
+  "github": "https://github.com/ShishirPatil",
+  "x": null,
+  "discord": "https://discord.gg/grXXvj9Whz",
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "UC Berkeley research project releasing open LLMs and the Berkeley Function-Calling Leaderboard for tool and API use.",
+  "focus": [
+   "function calling",
+   "tool use",
+   "evaluation"
+  ],
+  "notable_releases": [
+   {
+    "name": "gorilla",
+    "url": "https://github.com/ShishirPatil/gorilla",
+    "note": "Training and evaluating LLMs for function calls"
+   }
+  ],
+  "openness": "Apache-2.0 code, models and datasets.",
+  "people_public": [],
+  "sources": [
+   "https://gorilla.cs.berkeley.edu",
+   "https://github.com/ShishirPatil/gorilla",
+   "https://huggingface.co/gorilla-llm"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Gorilla LLM",
+    "note": "Open model trained to call APIs."
+   },
+   {
+    "title": "BFCL",
+    "note": "Berkeley Function-Calling Leaderboard dataset."
+   },
+   {
+    "title": "RAFT",
+    "note": "Method for adapting LLMs to domain-specific RAG."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "gorilla",
+    "url": "https://github.com/ShishirPatil/gorilla",
+    "note": "Training and evaluating LLMs for function calls"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Berkeley-Function-Calling-Leaderboard",
+    "url": "https://huggingface.co/datasets/gorilla-llm/Berkeley-Function-Calling-Leaderboard",
+    "kind": "dataset",
+    "note": "BFCL dataset"
+   },
+   {
+    "name": "APIBench",
+    "url": "https://huggingface.co/datasets/gorilla-llm/APIBench",
+    "kind": "dataset",
+    "note": "API benchmark"
+   },
+   {
+    "name": "gorilla-openfunctions-v2",
+    "url": "https://huggingface.co/gorilla-llm/gorilla-openfunctions-v2",
+    "kind": "model",
+    "note": "OpenFunctions v2"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Gorilla: Large Language Model Connected with Massive APIs",
+    "url": "https://arxiv.org/abs/2305.15334",
+    "year": 2023
+   },
+   {
+    "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+    "url": "https://arxiv.org/abs/2403.10131",
+    "year": 2024
+   }
+  ],
+  "discord_note": "Community Discord linked from the website.",
+  "contact_note": "Via website."
+ },
+ {
+  "id": "far-ai",
+  "name": "FAR.AI",
+  "type": "nonprofit",
+  "founded": 2022,
+  "country": "United States",
+  "city": "Berkeley",
+  "lat": 37.8715,
+  "lon": -122.273,
+  "website": "https://far.ai",
+  "huggingface": null,
+  "github": "https://github.com/AlignmentResearch",
+  "x": "https://x.com/FARAIResearch",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "AI safety research nonprofit publishing open code for adversarial robustness and interpretability research.",
+  "focus": [
+   "AI safety",
+   "adversarial robustness",
+   "interpretability"
+  ],
+  "notable_releases": [
+   {
+    "name": "tuned-lens",
+    "url": "https://github.com/AlignmentResearch/tuned-lens",
+    "note": "Tuned lens tools"
+   },
+   {
+    "name": "go_attack",
+    "url": "https://github.com/AlignmentResearch/go_attack",
+    "note": "Adversarial attacks on Go AIs"
+   },
+   {
+    "name": "vlmrm",
+    "url": "https://github.com/AlignmentResearch/vlmrm",
+    "note": "Vision-language models as rewards"
+   }
+  ],
+  "openness": "MIT and Apache-2.0 research code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://www.far.ai/",
+   "https://github.com/AlignmentResearch"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Tuned lens",
+    "note": "Tools for eliciting latent predictions from transformers."
+   },
+   {
+    "title": "Go attack",
+    "note": "Adversarial policies that beat superhuman Go AIs."
+   },
+   {
+    "title": "Learned planner",
+    "note": "Research code on planning in neural networks."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "tuned-lens",
+    "url": "https://github.com/AlignmentResearch/tuned-lens",
+    "note": "Tuned lens tools"
+   },
+   {
+    "name": "go_attack",
+    "url": "https://github.com/AlignmentResearch/go_attack",
+    "note": "Adversarial attacks on Go AIs"
+   },
+   {
+    "name": "vlmrm",
+    "url": "https://github.com/AlignmentResearch/vlmrm",
+    "note": "Vision-language models as rewards"
+   },
+   {
+    "name": "learned-planner",
+    "url": "https://github.com/AlignmentResearch/learned-planner",
+    "note": "Learned planner research"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "Eliciting Latent Predictions from Transformers with the Tuned Lens",
+    "url": "https://arxiv.org/abs/2303.08112",
+    "year": 2023
+   },
+   {
+    "title": "Adversarial Policies Beat Superhuman Go AIs",
+    "url": "https://arxiv.org/abs/2211.00241",
+    "year": 2022
+   },
+   {
+    "title": "Can Go AIs be adversarially robust?",
+    "url": "https://arxiv.org/abs/2406.12843",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "browser-use",
+  "name": "Browser Use",
+  "type": "startup",
+  "founded": 2024,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://browser-use.com",
+  "huggingface": "https://huggingface.co/browser-use",
+  "github": "https://github.com/browser-use",
+  "x": "https://x.com/browser_use",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Open-source library and company for AI browser agents, with a small open model.",
+  "focus": [
+   "agents",
+   "browser automation"
+  ],
+  "notable_releases": [
+   {
+    "name": "browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "note": "Python library for AI browser agents"
+   },
+   {
+    "name": "browser-harness",
+    "url": "https://github.com/browser-use/browser-harness",
+    "note": "Real Chrome automation for coding agents"
+   }
+  ],
+  "openness": "MIT-licensed library and model.",
+  "people_public": [],
+  "sources": [
+   "https://browser-use.com",
+   "https://github.com/browser-use",
+   "https://huggingface.co/browser-use"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "browser-use",
+    "note": "Python library for AI browser agents."
+   },
+   {
+    "title": "bu-30b-a3b-preview",
+    "note": "Open model released on Hugging Face."
+   },
+   {
+    "title": "video-use",
+    "note": "Open-source tool for editing videos with coding agents."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "note": "Python library for AI browser agents"
+   },
+   {
+    "name": "browser-harness",
+    "url": "https://github.com/browser-use/browser-harness",
+    "note": "Real Chrome automation for coding agents"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "bu-30b-a3b-preview",
+    "url": "https://huggingface.co/browser-use/bu-30b-a3b-preview",
+    "kind": "model",
+    "note": "Open browser agent model"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "contextual-ai",
+  "name": "Contextual AI",
+  "type": "startup",
+  "founded": 2023,
+  "country": "United States",
+  "city": "Mountain View",
+  "lat": 37.3861,
+  "lon": -122.0839,
+  "website": "https://contextual.ai",
+  "huggingface": "https://huggingface.co/ContextualAI",
+  "github": "https://github.com/ContextualAI",
+  "x": "https://x.com/contextualai",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Enterprise RAG company whose research arm releases open alignment libraries and retrieval and reranker models.",
+  "focus": [
+   "RAG",
+   "alignment",
+   "embeddings",
+   "rerankers"
+  ],
+  "notable_releases": [
+   {
+    "name": "HALOs",
+    "url": "https://github.com/ContextualAI/HALOs",
+    "note": "Alignment methods library"
+   },
+   {
+    "name": "gritlm",
+    "url": "https://github.com/ContextualAI/gritlm",
+    "note": "Generative representational instruction tuning"
+   },
+   {
+    "name": "lens",
+    "url": "https://github.com/ContextualAI/lens",
+    "note": "LENS vision-language framework"
+   }
+  ],
+  "openness": "Apache-2.0 and MIT code; open reranker and research models.",
+  "people_public": [],
+  "sources": [
+   "https://contextual.ai",
+   "https://github.com/ContextualAI",
+   "https://huggingface.co/ContextualAI"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "HALOs",
+    "note": "Library implementing DPO, KTO, PPO and other alignment methods."
+   },
+   {
+    "title": "GritLM",
+    "note": "Generative representational instruction tuning."
+   },
+   {
+    "title": "Rerankers",
+    "note": "Open instruction-following multilingual rerankers."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "HALOs",
+    "url": "https://github.com/ContextualAI/HALOs",
+    "note": "Alignment methods library"
+   },
+   {
+    "name": "gritlm",
+    "url": "https://github.com/ContextualAI/gritlm",
+    "note": "Generative representational instruction tuning"
+   },
+   {
+    "name": "lens",
+    "url": "https://github.com/ContextualAI/lens",
+    "note": "LENS vision-language framework"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ctxl-rerank-v2-instruct-multilingual-2b",
+    "url": "https://huggingface.co/ContextualAI/ctxl-rerank-v2-instruct-multilingual-2b",
+    "kind": "model",
+    "note": "2B reranker"
+   },
+   {
+    "name": "ctxl-rerank-v2-instruct-multilingual-1b",
+    "url": "https://huggingface.co/ContextualAI/ctxl-rerank-v2-instruct-multilingual-1b",
+    "kind": "model",
+    "note": "1B reranker"
+   }
+  ],
+  "papers": [
+   {
+    "title": "KTO: Model Alignment as Prospect Theoretic Optimization",
+    "url": "https://arxiv.org/abs/2402.01306",
+    "year": 2024
+   },
+   {
+    "title": "Generative Representational Instruction Tuning",
+    "url": "https://arxiv.org/abs/2402.09906",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website."
+ },
+ {
+  "id": "ultralytics",
+  "name": "Ultralytics",
+  "type": "startup",
+  "founded": null,
+  "country": "United States",
+  "city": "Frederick",
+  "lat": 39.4143,
+  "lon": -77.4105,
+  "website": "https://www.ultralytics.com",
+  "huggingface": "https://huggingface.co/Ultralytics",
+  "github": "https://github.com/ultralytics",
+  "x": "https://x.com/ultralytics",
+  "discord": "https://discord.com/invite/ultralytics",
+  "linkedin": null,
+  "contact_email": "hello@ultralytics.com",
+  "summary": "Computer-vision company behind the YOLO model family and the ultralytics library, released under AGPL-3.0 with enterprise licensing.",
+  "focus": [
+   "object detection",
+   "computer vision",
+   "YOLO"
+  ],
+  "notable_releases": [
+   {
+    "name": "ultralytics",
+    "url": "https://github.com/ultralytics/ultralytics",
+    "note": "YOLO models library"
+   },
+   {
+    "name": "yolov5",
+    "url": "https://github.com/ultralytics/yolov5",
+    "note": "YOLOv5 in PyTorch"
+   },
+   {
+    "name": "yolov3",
+    "url": "https://github.com/ultralytics/yolov3",
+    "note": "YOLOv3 in PyTorch"
+   }
+  ],
+  "openness": "AGPL-3.0 code and weights with commercial licence available.",
+  "people_public": [],
+  "sources": [
+   "https://www.ultralytics.com/about",
+   "https://github.com/ultralytics",
+   "https://huggingface.co/Ultralytics"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "YOLOv5 and YOLOv8",
+    "note": "Open real-time detection models and training code."
+   },
+   {
+    "title": "YOLO11 and YOLO26",
+    "note": "Later model families published openly."
+   },
+   {
+    "title": "Ultralytics library",
+    "note": "Unified training and deployment toolkit."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ultralytics",
+    "url": "https://github.com/ultralytics/ultralytics",
+    "note": "YOLO models library"
+   },
+   {
+    "name": "yolov5",
+    "url": "https://github.com/ultralytics/yolov5",
+    "note": "YOLOv5 in PyTorch"
+   },
+   {
+    "name": "yolov3",
+    "url": "https://github.com/ultralytics/yolov3",
+    "note": "YOLOv3 in PyTorch"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "YOLOv8",
+    "url": "https://huggingface.co/Ultralytics/YOLOv8",
+    "kind": "model",
+    "note": "YOLOv8"
+   },
+   {
+    "name": "YOLO11",
+    "url": "https://huggingface.co/Ultralytics/YOLO11",
+    "kind": "model",
+    "note": "YOLO11"
+   }
+  ],
+  "papers": [],
+  "discord_note": "Community Discord linked from the website.",
+  "contact_note": "Email printed on website."
+ },
+ {
+  "id": "roboflow",
+  "name": "Roboflow",
+  "type": "startup",
+  "founded": 2019,
+  "country": "United States",
+  "city": "Des Moines",
+  "lat": 41.5868,
+  "lon": -93.625,
+  "website": "https://roboflow.com",
+  "huggingface": "https://huggingface.co/Roboflow",
+  "github": "https://github.com/roboflow",
+  "x": "https://x.com/roboflow",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Computer-vision platform company that open-sources supervision, RF-DETR and curated datasets.",
+  "focus": [
+   "computer vision",
+   "object detection",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "supervision",
+    "url": "https://github.com/roboflow/supervision",
+    "note": "Reusable computer vision tools"
+   },
+   {
+    "name": "notebooks",
+    "url": "https://github.com/roboflow/notebooks",
+    "note": "Computer vision tutorials"
+   },
+   {
+    "name": "inference",
+    "url": "https://github.com/roboflow/inference",
+    "note": "Edge inference server"
+   }
+  ],
+  "openness": "MIT and Apache-2.0 libraries and models.",
+  "people_public": [],
+  "sources": [
+   "https://roboflow.com",
+   "https://github.com/roboflow",
+   "https://huggingface.co/Roboflow"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "supervision",
+    "note": "Reusable computer vision tools."
+   },
+   {
+    "title": "RF-DETR",
+    "note": "Real-time detection transformer models."
+   },
+   {
+    "title": "Roboflow 100",
+    "note": "Multi-domain detection benchmark."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "supervision",
+    "url": "https://github.com/roboflow/supervision",
+    "note": "Reusable computer vision tools"
+   },
+   {
+    "name": "notebooks",
+    "url": "https://github.com/roboflow/notebooks",
+    "note": "Computer vision tutorials"
+   },
+   {
+    "name": "inference",
+    "url": "https://github.com/roboflow/inference",
+    "note": "Edge inference server"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "rf-detr-base",
+    "url": "https://huggingface.co/Roboflow/rf-detr-base",
+    "kind": "model",
+    "note": "RF-DETR base"
+   },
+   {
+    "name": "rf-detr-large",
+    "url": "https://huggingface.co/Roboflow/rf-detr-large",
+    "kind": "model",
+    "note": "RF-DETR large"
+   }
+  ],
+  "papers": [
+   {
+    "title": "RF-DETR: Neural Architecture Search for Real-Time Detection Transformers",
+    "url": "https://arxiv.org/abs/2511.09554",
+    "year": 2025
+   },
+   {
+    "title": "Roboflow 100: A Rich, Multi-Domain Object Detection Benchmark",
+    "url": "https://arxiv.org/abs/2211.13523",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via website."
+ }
+]

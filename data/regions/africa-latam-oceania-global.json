@@ -1,0 +1,2666 @@
+[
+ {
+  "id": "masakhane",
+  "name": "Masakhane",
+  "type": "collective",
+  "founded": null,
+  "country": "South Africa",
+  "city": null,
+  "lat": null,
+  "lon": null,
+  "website": "https://www.masakhane.io",
+  "huggingface": "https://huggingface.co/masakhane",
+  "github": "https://github.com/masakhane-io",
+  "x": "https://twitter.com/MasakhaneNLP",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Masakhane is a grassroots research community that builds NLP resources for African languages, led by African researchers. Its Hugging Face org hosts hundreds of models and a set of benchmark datasets, and its code lives on GitHub.",
+  "focus": [
+   "low-resource languages",
+   "datasets",
+   "machine translation",
+   "distributed"
+  ],
+  "notable_releases": [
+   {
+    "name": "AfriMGSM",
+    "url": "https://huggingface.co/datasets/masakhane/afrimgsm",
+    "note": "Math reasoning benchmark for African languages"
+   },
+   {
+    "name": "AfriMMLU",
+    "url": "https://huggingface.co/datasets/masakhane/afrimmlu",
+    "note": "Multi-task knowledge benchmark for African languages"
+   },
+   {
+    "name": "MasakhaNEWS",
+    "url": "https://huggingface.co/datasets/masakhane/masakhanews",
+    "note": "News classification dataset"
+   },
+   {
+    "name": "InjongoIntent",
+    "url": "https://huggingface.co/datasets/masakhane/InjongoIntent",
+    "note": "Intent detection dataset"
+   }
+  ],
+  "openness": "Models, datasets and code are published openly on Hugging Face and GitHub; licences vary per resource.",
+  "people_public": [],
+  "sources": [
+   "https://www.masakhane.io",
+   "https://huggingface.co/masakhane",
+   "https://github.com/masakhane-io",
+   "https://arxiv.org/abs/2010.02353"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Participatory research model",
+    "note": "Brings volunteers from across Africa together to build machine translation and other NLP resources for their own languages."
+   },
+   {
+    "title": "Open benchmarks",
+    "note": "Publishes evaluation datasets such as AfriMGSM, AfriMMLU and MasakhaNEWS for African languages."
+   },
+   {
+    "title": "Named entity recognition",
+    "note": "Created MasakhaNER, a named entity dataset covering several African languages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "masakhane-mt",
+    "url": "https://github.com/masakhane-io/masakhane-mt",
+    "note": "Machine translation for Africa"
+   },
+   {
+    "name": "masakhane-ner",
+    "url": "https://github.com/masakhane-io/masakhane-ner",
+    "note": "Named entity recognition for African languages"
+   },
+   {
+    "name": "masakhane-community",
+    "url": "https://github.com/masakhane-io/masakhane-community",
+    "note": "Community docs and onboarding"
+   },
+   {
+    "name": "lafand-mt",
+    "url": "https://github.com/masakhane-io/lafand-mt",
+    "note": "MAFAND-MT translation work"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "afrimgsm",
+    "url": "https://huggingface.co/datasets/masakhane/afrimgsm",
+    "kind": "dataset",
+    "note": "Math benchmark"
+   },
+   {
+    "name": "afrimmlu",
+    "url": "https://huggingface.co/datasets/masakhane/afrimmlu",
+    "kind": "dataset",
+    "note": "Knowledge benchmark"
+   },
+   {
+    "name": "masakhanews",
+    "url": "https://huggingface.co/datasets/masakhane/masakhanews",
+    "kind": "dataset",
+    "note": "News classification"
+   },
+   {
+    "name": "afri-mt5-base",
+    "url": "https://huggingface.co/masakhane/afri-mt5-base",
+    "kind": "model",
+    "note": "Multilingual T5 for African languages"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Participatory Research for Low-resourced Machine Translation: A Case Study in African Languages",
+    "url": "https://arxiv.org/abs/2010.02353",
+    "year": 2020
+   },
+   {
+    "title": "MasakhaNER: Named Entity Recognition for African Languages",
+    "url": "https://arxiv.org/abs/2103.11811",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The website lists a leadership group mailing list; the GitHub community repo explains how to join."
+ },
+ {
+  "id": "lelapa-ai",
+  "name": "Lelapa AI",
+  "type": "startup",
+  "founded": 2022,
+  "country": "South Africa",
+  "city": "Johannesburg",
+  "lat": -26.2041,
+  "lon": 28.0473,
+  "website": "https://lelapa.ai",
+  "huggingface": "https://huggingface.co/lelapa",
+  "github": "https://github.com/lelapa-ai",
+  "x": "https://twitter.com/LelapaAI",
+  "discord": null,
+  "linkedin": "https://www.linkedin.com/company/lelapa-ai/",
+  "contact_email": null,
+  "summary": "Lelapa AI is a South African startup building language AI for African languages, including a commercial speech and translation product called Vulavula. It also releases research models and datasets openly, notably InkubaLM.",
+  "focus": [
+   "language models",
+   "speech",
+   "low-resource languages",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "InkubaLM-0.4B",
+    "url": "https://huggingface.co/lelapa/InkubaLM-0.4B",
+    "note": "Small language model for African languages"
+   },
+   {
+    "name": "Inkuba-instruct",
+    "url": "https://huggingface.co/datasets/lelapa/Inkuba-instruct",
+    "note": "Instruction dataset"
+   },
+   {
+    "name": "Inkuba-Mono",
+    "url": "https://huggingface.co/datasets/lelapa/Inkuba-Mono",
+    "note": "Monolingual dataset"
+   },
+   {
+    "name": "ViXSD isiXhosa speech",
+    "url": "https://huggingface.co/datasets/lelapa/Vukuzenzele_isiXhosa_Speech_Dataset_ViXSD",
+    "note": "isiXhosa speech dataset"
+   }
+  ],
+  "openness": "Research models and datasets are on Hugging Face (InkubaLM-0.4B is listed under CC BY-NC 4.0); the commercial Vulavula product is closed.",
+  "people_public": [],
+  "sources": [
+   "https://lelapa.ai",
+   "https://huggingface.co/lelapa",
+   "https://github.com/Lelapa-AI",
+   "https://arxiv.org/abs/2408.17024"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "InkubaLM",
+    "note": "Released a small open language model aimed at several African languages."
+   },
+   {
+    "title": "Open datasets",
+    "note": "Published instruction, monolingual and isiXhosa speech datasets."
+   },
+   {
+    "title": "Commercial speech and translation",
+    "note": "Sells Vulavula, a speech-to-text and translation product with code-switching support."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "zindi-inkuba-notebook",
+    "url": "https://github.com/Lelapa-AI/zindi-inkuba-notebook",
+    "note": "Notebook for working with InkubaLM"
+   },
+   {
+    "name": "vulavula-examples",
+    "url": "https://github.com/Lelapa-AI/vulavula-examples",
+    "note": "Examples for the Vulavula API"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "InkubaLM-0.4B",
+    "url": "https://huggingface.co/lelapa/InkubaLM-0.4B",
+    "kind": "model",
+    "note": "Small multilingual model"
+   },
+   {
+    "name": "Inkuba-instruct",
+    "url": "https://huggingface.co/datasets/lelapa/Inkuba-instruct",
+    "kind": "dataset",
+    "note": "Instruction data"
+   },
+   {
+    "name": "Inkuba-Mono",
+    "url": "https://huggingface.co/datasets/lelapa/Inkuba-Mono",
+    "kind": "dataset",
+    "note": "Monolingual data"
+   }
+  ],
+  "papers": [
+   {
+    "title": "InkubaLM: A small language model for low-resource African languages",
+    "url": "https://arxiv.org/abs/2408.17024",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Only a careers address is printed on the site; LinkedIn and X are linked."
+ },
+ {
+  "id": "ghana-nlp",
+  "name": "Ghana NLP",
+  "type": "collective",
+  "founded": null,
+  "country": "Ghana",
+  "city": "Accra",
+  "lat": 5.6037,
+  "lon": -0.187,
+  "website": "https://ghananlp.org",
+  "huggingface": "https://huggingface.co/Ghana-NLP",
+  "github": "https://github.com/GhanaNLP",
+  "x": "https://twitter.com/GhanaNLP",
+  "discord": null,
+  "linkedin": "https://www.linkedin.com/company/ghana-nlp/",
+  "contact_email": null,
+  "summary": "Ghana NLP is an open-source initiative working on NLP for Ghanaian languages and applications to local problems. It publishes Twi and other language models and parallel text datasets on Hugging Face and code on GitHub.",
+  "focus": [
+   "low-resource languages",
+   "language models",
+   "datasets",
+   "machine translation"
+  ],
+  "notable_releases": [
+   {
+    "name": "ABENA Twi BERT models",
+    "url": "https://huggingface.co/Ghana-NLP/abena-base-asante-twi-uncased",
+    "note": "Pretrained Twi language models"
+   },
+   {
+    "name": "Twi-English parallel text",
+    "url": "https://huggingface.co/datasets/Ghana-NLP/TWI_ENGLISH_PARALLEL_TEXT",
+    "note": "Parallel text dataset"
+   },
+   {
+    "name": "Ewe-English parallel text",
+    "url": "https://huggingface.co/datasets/Ghana-NLP/EWE_ENGLISH_PARALLEL_TEXT",
+    "note": "Parallel text dataset"
+   },
+   {
+    "name": "kasa",
+    "url": "https://github.com/GhanaNLP/kasa",
+    "note": "English to Twi translation system"
+   }
+  ],
+  "openness": "Models and datasets are published on Hugging Face and code on GitHub; licences differ per resource.",
+  "people_public": [],
+  "sources": [
+   "https://ghananlp.org",
+   "https://huggingface.co/Ghana-NLP",
+   "https://github.com/GhanaNLP"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Twi language models",
+    "note": "Trained and released BERT-style models for Akuapem and Asante Twi."
+   },
+   {
+    "title": "Parallel corpora",
+    "note": "Published English parallel text for several Ghanaian languages."
+   },
+   {
+    "title": "Translation systems",
+    "note": "Built Twi translation work and evaluations of LLMs on Ghanaian languages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "kasa",
+    "url": "https://github.com/GhanaNLP/kasa",
+    "note": "English to Twi translation"
+   },
+   {
+    "name": "ABENA",
+    "url": "https://github.com/GhanaNLP/ABENA",
+    "note": "Training scripts for language models"
+   },
+   {
+    "name": "nsanku",
+    "url": "https://github.com/GhanaNLP/nsanku",
+    "note": "Zero-shot translation evaluation for Ghanaian languages"
+   },
+   {
+    "name": "datasets and models list",
+    "url": "https://github.com/GhanaNLP/ghanaian-nlp-datasets-models",
+    "note": "Curated list of resources"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "distilabena-base-v2-akuapem-twi-cased",
+    "url": "https://huggingface.co/Ghana-NLP/distilabena-base-v2-akuapem-twi-cased",
+    "kind": "model",
+    "note": "Twi model"
+   },
+   {
+    "name": "TWI_ENGLISH_PARALLEL_TEXT",
+    "url": "https://huggingface.co/datasets/Ghana-NLP/TWI_ENGLISH_PARALLEL_TEXT",
+    "kind": "dataset",
+    "note": "Parallel text"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Reach via the website or LinkedIn; no organisation email seen on the homepage."
+ },
+ {
+  "id": "zindi",
+  "name": "Zindi",
+  "type": "startup",
+  "founded": null,
+  "country": "South Africa",
+  "city": "Cape Town",
+  "lat": -33.9249,
+  "lon": 18.4241,
+  "website": "https://zindi.world",
+  "huggingface": null,
+  "github": "https://github.com/ZindiAfrica",
+  "x": null,
+  "discord": null,
+  "linkedin": "https://www.linkedin.com/company/zindi-africa",
+  "contact_email": null,
+  "summary": "Zindi runs a data science competition platform and community for African AI builders. Its GitHub organisation holds collected challenge solutions; its own Hugging Face org has no public models.",
+  "focus": [
+   "datasets",
+   "evaluation",
+   "community"
+  ],
+  "notable_releases": [
+   {
+    "name": "Machine-Learning solutions",
+    "url": "https://github.com/ZindiAfrica/Machine-Learning",
+    "note": "Regression and classification solutions"
+   },
+   {
+    "name": "Computer-Vision solutions",
+    "url": "https://github.com/ZindiAfrica/Computer-Vision",
+    "note": "Computer vision solutions"
+   },
+   {
+    "name": "NLP solutions",
+    "url": "https://github.com/ZindiAfrica/Natural-Language-Processing-NLP",
+    "note": "Translation, ASR and sentiment solutions"
+   }
+  ],
+  "openness": "Open code for challenge solutions on GitHub; competition data is governed by each challenge's terms, so it is only partly open. Borderline inclusion.",
+  "people_public": [],
+  "sources": [
+   "https://zindi.world",
+   "https://github.com/ZindiAfrica",
+   "https://huggingface.co/zindi"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Competition platform",
+    "note": "Hosts machine learning challenges for African problems with a large community."
+   },
+   {
+    "title": "Shared solutions",
+    "note": "Collects solutions to challenges in public GitHub repos."
+   },
+   {
+    "title": "Partnership datasets",
+    "note": "Challenges have supported projects such as InkubaLM notebooks (seen on Lelapa's GitHub)."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Machine-Learning",
+    "url": "https://github.com/ZindiAfrica/Machine-Learning",
+    "note": "Solutions collection"
+   },
+   {
+    "name": "Computer-Vision",
+    "url": "https://github.com/ZindiAfrica/Computer-Vision",
+    "note": "Solutions collection"
+   },
+   {
+    "name": "Natural-Language-Processing-NLP",
+    "url": "https://github.com/ZindiAfrica/Natural-Language-Processing-NLP",
+    "note": "Solutions collection"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Via the website and LinkedIn."
+ },
+ {
+  "id": "deep-learning-indaba",
+  "name": "Deep Learning Indaba",
+  "type": "nonprofit",
+  "founded": 2017,
+  "country": "United Kingdom",
+  "city": "London",
+  "lat": 51.5074,
+  "lon": -0.1278,
+  "website": "https://deeplearningindaba.com",
+  "huggingface": null,
+  "github": "https://github.com/deep-learning-indaba",
+  "x": "https://x.com/DeepIndaba",
+  "discord": null,
+  "linkedin": "https://www.linkedin.com/company/deep-learning-indaba/",
+  "contact_email": null,
+  "summary": "Deep Learning Indaba strengthens machine learning in Africa through an annual conference, schools and community programmes, run by a non-profit company registered in the UK. Its GitHub organisation publishes open practical notebooks from each Indaba.",
+  "focus": [
+   "education",
+   "community",
+   "tooling"
+  ],
+  "notable_releases": [
+   {
+    "name": "Indaba practicals 2022",
+    "url": "https://github.com/deep-learning-indaba/indaba-pracs-2022",
+    "note": "Open notebooks for practicals"
+   },
+   {
+    "name": "Indaba practicals 2023",
+    "url": "https://github.com/deep-learning-indaba/indaba-pracs-2023",
+    "note": "Open notebooks for practicals"
+   },
+   {
+    "name": "Indaba 2018",
+    "url": "https://github.com/deep-learning-indaba/indaba-2018",
+    "note": "Practical notebooks"
+   }
+  ],
+  "openness": "Teaching notebooks are open on GitHub; it does not train large models. Borderline inclusion as an education and community body.",
+  "people_public": [],
+  "sources": [
+   "https://deeplearningindaba.com/about",
+   "https://github.com/deep-learning-indaba"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Annual Indaba",
+    "note": "Runs the Deep Learning Indaba gathering for African machine learning researchers."
+   },
+   {
+    "title": "Open practicals",
+    "note": "Publishes practical notebooks from each edition on GitHub."
+   },
+   {
+    "title": "Community building",
+    "note": "Supports local IndabaX events and a non-profit structure registered with Companies House."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "indaba-pracs-2022",
+    "url": "https://github.com/deep-learning-indaba/indaba-pracs-2022",
+    "note": "Practical notebooks"
+   },
+   {
+    "name": "indaba-2018",
+    "url": "https://github.com/deep-learning-indaba/indaba-2018",
+    "note": "Practical notebooks"
+   },
+   {
+    "name": "indaba-pracs-2023",
+    "url": "https://github.com/deep-learning-indaba/indaba-pracs-2023",
+    "note": "Practical notebooks"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Via the website and LinkedIn."
+ },
+ {
+  "id": "digital-umuganda",
+  "name": "Digital Umuganda",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "Rwanda",
+  "city": "Kigali",
+  "lat": -1.9441,
+  "lon": 30.0619,
+  "website": null,
+  "huggingface": "https://huggingface.co/DigitalUmuganda",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Digital Umuganda works on African language NLP, speech and data collection, with a focus on Kinyarwanda and other languages. Its Hugging Face org hosts speech models and the AfriVoice datasets.",
+  "focus": [
+   "speech",
+   "datasets",
+   "low-resource languages"
+  ],
+  "notable_releases": [
+   {
+    "name": "AfriVoice",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/Afrivoice",
+    "note": "Speech dataset collection"
+   },
+   {
+    "name": "Whisper small Kinyarwanda",
+    "url": "https://huggingface.co/DigitalUmuganda/whisper_small_kinyarwanda",
+    "note": "ASR model"
+   },
+   {
+    "name": "Kinyarwanda TTS",
+    "url": "https://huggingface.co/DigitalUmuganda/KinyarwandaTTS_female_voice",
+    "note": "TTS voice model"
+   }
+  ],
+  "openness": "Models and datasets are public on Hugging Face; licences per repo. Only the Hugging Face org was opened, so website and legal form are unverified.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/DigitalUmuganda"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "AfriVoice datasets",
+    "note": "Releases speech datasets in languages such as Kinyarwanda and Swahili."
+   },
+   {
+    "title": "Speech models",
+    "note": "Publishes ASR and TTS models for Kinyarwanda and Lingala."
+   },
+   {
+    "title": "Data collection",
+    "note": "Described as a data-collection group for African NLP."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "Afrivoice",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/Afrivoice",
+    "kind": "dataset",
+    "note": "Speech data"
+   },
+   {
+    "name": "whisper_small_kinyarwanda",
+    "url": "https://huggingface.co/DigitalUmuganda/whisper_small_kinyarwanda",
+    "kind": "model",
+    "note": "ASR"
+   },
+   {
+    "name": "Afrivoice_Swahili",
+    "url": "https://huggingface.co/datasets/DigitalUmuganda/Afrivoice_Swahili",
+    "kind": "dataset",
+    "note": "Swahili speech"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Via the Hugging Face org page."
+ },
+ {
+  "id": "crane-ai-labs",
+  "name": "Crane AI Labs",
+  "type": "startup",
+  "founded": null,
+  "country": "Uganda",
+  "city": null,
+  "lat": null,
+  "lon": null,
+  "website": null,
+  "huggingface": "https://huggingface.co/CraneAILabs",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Crane AI Labs describes itself as building culturally relevant AI for the Global South. Its Hugging Face org hosts Swahili and Luganda Gemma-based models, tokenizers and benchmark datasets.",
+  "focus": [
+   "language models",
+   "low-resource languages",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "swahili-gemma-1b",
+    "url": "https://huggingface.co/CraneAILabs/swahili-gemma-1b",
+    "note": "Swahili small model"
+   },
+   {
+    "name": "ganda-gemma-1b GGUF",
+    "url": "https://huggingface.co/CraneAILabs/ganda-gemma-1b-GGUF",
+    "note": "Luganda small model"
+   },
+   {
+    "name": "UCCB",
+    "url": "https://huggingface.co/datasets/CraneAILabs/UCCB",
+    "note": "Dataset"
+   }
+  ],
+  "openness": "Models and datasets are public on Hugging Face; base models carry their upstream licence terms. Country comes from press coverage, not the org page.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/CraneAILabs",
+   "https://labscommunity.cohere.com/blog/2026/from-reviewing-words-to-building-africas-ai/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Swahili and Luganda models",
+    "note": "Fine-tuned small models for East African languages."
+   },
+   {
+    "title": "Datasets",
+    "note": "Released evaluation and speech-related datasets for Luganda."
+   },
+   {
+    "title": "Offline use",
+    "note": "Provides GGUF and LiteRT versions for local use."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "swahili-gemma-1b",
+    "url": "https://huggingface.co/CraneAILabs/swahili-gemma-1b",
+    "kind": "model",
+    "note": "Swahili model"
+   },
+   {
+    "name": "ganda-gemma-1b-GGUF",
+    "url": "https://huggingface.co/CraneAILabs/ganda-gemma-1b-GGUF",
+    "kind": "model",
+    "note": "Luganda model"
+   },
+   {
+    "name": "UCCB",
+    "url": "https://huggingface.co/datasets/CraneAILabs/UCCB",
+    "kind": "dataset",
+    "note": "Dataset"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Via the Hugging Face org page."
+ },
+ {
+  "id": "latam-gpt",
+  "name": "Latam-GPT (CENIA)",
+  "type": "institute",
+  "founded": 2024,
+  "country": "Chile",
+  "city": "Santiago",
+  "lat": -33.4489,
+  "lon": -70.6693,
+  "website": "https://latamgpt.org",
+  "huggingface": "https://huggingface.co/latam-gpt",
+  "github": "https://github.com/latam-gpt",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "latam-gpt@cenia.cl",
+  "summary": "Latam-GPT is a Latin American language model project coordinated by CENIA, Chile's national AI centre. It publishes models, a regional text corpus, benchmarks and data-curation tools openly.",
+  "focus": [
+   "language models",
+   "datasets",
+   "evaluation",
+   "low-resource languages"
+  ],
+  "notable_releases": [
+   {
+    "name": "Llama-3.1-70B-LatamGPT-SFT-1.0",
+    "url": "https://huggingface.co/latam-gpt/Llama-3.1-70B-LatamGPT-SFT-1.0",
+    "note": "Instruction-tuned model"
+   },
+   {
+    "name": "LatamGPT-Corpus-1.0",
+    "url": "https://huggingface.co/datasets/latam-gpt/LatamGPT-Corpus-1.0",
+    "note": "Regional corpus"
+   },
+   {
+    "name": "Wayra Perplexity Estimator",
+    "url": "https://huggingface.co/latam-gpt/Wayra-Perplexity-Estimator-55M",
+    "note": "Data quality model"
+   },
+   {
+    "name": "Trueque benchmark",
+    "url": "https://huggingface.co/datasets/latam-gpt/Trueque-Benchmark-beta-0.1",
+    "note": "Benchmark"
+   }
+  ],
+  "openness": "Weights, corpus and tools are public on Hugging Face and GitHub; the SFT model carries a Llama 3.1 licence and the corpus a custom licence.",
+  "people_public": [],
+  "sources": [
+   "https://latamgpt.org",
+   "https://cenia.cl",
+   "https://huggingface.co/latam-gpt",
+   "https://github.com/latam-gpt"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Regional corpus",
+    "note": "Released a Latin American text corpus and a research variant."
+   },
+   {
+    "title": "Fine-tuned model",
+    "note": "Published an instruction-tuned 70B model built on Llama 3.1."
+   },
+   {
+    "title": "Data tooling",
+    "note": "Open tools for language ID, toxicity classification and LLM-aided filtering."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "llm-data-eval",
+    "url": "https://github.com/latam-gpt/llm-data-eval",
+    "note": "LLM-aided data filtering"
+   },
+   {
+    "name": "toxicity-classifier",
+    "url": "https://github.com/latam-gpt/toxicity-classifier",
+    "note": "Toxicity labeling and classifiers"
+   },
+   {
+    "name": "language_identifier",
+    "url": "https://github.com/latam-gpt/language_identifier",
+    "note": "fastText language ID"
+   },
+   {
+    "name": "training-estimations",
+    "url": "https://github.com/latam-gpt/training-estimations",
+    "note": "Training estimates"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Llama-3.1-70B-LatamGPT-SFT-1.0",
+    "url": "https://huggingface.co/latam-gpt/Llama-3.1-70B-LatamGPT-SFT-1.0",
+    "kind": "model",
+    "note": "SFT model"
+   },
+   {
+    "name": "LatamGPT-Corpus-1.0",
+    "url": "https://huggingface.co/datasets/latam-gpt/LatamGPT-Corpus-1.0",
+    "kind": "dataset",
+    "note": "Corpus"
+   },
+   {
+    "name": "Wayra-Perplexity-Estimator-55M",
+    "url": "https://huggingface.co/latam-gpt/Wayra-Perplexity-Estimator-55M",
+    "kind": "model",
+    "note": "Quality estimator"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Email printed on latamgpt.org; CENIA also lists info@cenia.cl."
+ },
+ {
+  "id": "maritaca-ai",
+  "name": "Maritaca AI",
+  "type": "startup",
+  "founded": 2022,
+  "country": "Brazil",
+  "city": "Campinas",
+  "lat": -22.9099,
+  "lon": -47.0626,
+  "website": "https://www.maritaca.ai",
+  "huggingface": "https://huggingface.co/maritaca-ai",
+  "github": "https://github.com/maritaca-ai",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Maritaca AI is a Brazilian startup behind the Sabiá language models and the MariTalk API, built for Portuguese. It releases some open weights and several Portuguese benchmarks while its flagship models are served commercially.",
+  "focus": [
+   "language models",
+   "evaluation",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "S5-nano",
+    "url": "https://huggingface.co/maritaca-ai/S5-nano",
+    "note": "Open small model (Apache 2.0)"
+   },
+   {
+    "name": "sabia-7b",
+    "url": "https://huggingface.co/maritaca-ai/sabia-7b",
+    "note": "Earlier Sabiá open weights"
+   },
+   {
+    "name": "ENEM dataset",
+    "url": "https://huggingface.co/datasets/maritaca-ai/enem",
+    "note": "Exam benchmark"
+   },
+   {
+    "name": "OAB-Bench",
+    "url": "https://github.com/maritaca-ai/oab-bench",
+    "note": "Legal benchmark"
+   }
+  ],
+  "openness": "Some weights (S5-nano) are open under Apache 2.0; larger commercial models are API-only. City is approximate and unverified.",
+  "people_public": [],
+  "sources": [
+   "https://www.maritaca.ai",
+   "https://huggingface.co/maritaca-ai",
+   "https://github.com/maritaca-ai",
+   "https://arxiv.org/abs/2304.07880"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Sabiá models",
+    "note": "Developed Portuguese-focused language models, with early versions released openly."
+   },
+   {
+    "title": "Benchmarks",
+    "note": "Published Portuguese evaluation sets such as ENEM and OAB-Bench."
+   },
+   {
+    "title": "Bias evaluation",
+    "note": "Released a multi-turn bias benchmark."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "maritalk-api",
+    "url": "https://github.com/maritaca-ai/maritalk-api",
+    "note": "API client and docs"
+   },
+   {
+    "name": "oab-bench",
+    "url": "https://github.com/maritaca-ai/oab-bench",
+    "note": "Legal exam benchmark"
+   },
+   {
+    "name": "llm-bias-bench",
+    "url": "https://github.com/maritaca-ai/llm-bias-bench",
+    "note": "Bias benchmark"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "S5-nano",
+    "url": "https://huggingface.co/maritaca-ai/S5-nano",
+    "kind": "model",
+    "note": "Small open model"
+   },
+   {
+    "name": "sabia-7b",
+    "url": "https://huggingface.co/maritaca-ai/sabia-7b",
+    "kind": "model",
+    "note": "Sabiá 7B"
+   },
+   {
+    "name": "enem",
+    "url": "https://huggingface.co/datasets/maritaca-ai/enem",
+    "kind": "dataset",
+    "note": "ENEM questions"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Sabiá: Portuguese Large Language Models",
+    "url": "https://arxiv.org/abs/2304.07880",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via the website."
+ },
+ {
+  "id": "polygl0t",
+  "name": "Polygl0t (Tucano)",
+  "type": "academic",
+  "founded": 2026,
+  "country": "Germany",
+  "city": "Bonn",
+  "lat": 50.7374,
+  "lon": 7.0982,
+  "website": "https://github.com/Polygl0t",
+  "huggingface": "https://huggingface.co/Polygl0t",
+  "github": "https://github.com/Polygl0t",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Polygl0t develops open foundation models for low-resource languages, best known for the Tucano family of Portuguese models. It publishes weights, corpora such as GigaVerbo, and training code; the project is linked to the University of Bonn.",
+  "focus": [
+   "language models",
+   "low-resource languages",
+   "datasets",
+   "evaluation"
+  ],
+  "notable_releases": [
+   {
+    "name": "Tucano2-qwen-3.7B-Instruct",
+    "url": "https://huggingface.co/Polygl0t/Tucano2-qwen-3.7B-Instruct",
+    "note": "Portuguese instruct model"
+   },
+   {
+    "name": "GigaVerbo v2",
+    "url": "https://huggingface.co/datasets/Polygl0t/gigaverbo-v2",
+    "note": "Portuguese corpus"
+   },
+   {
+    "name": "llm-foundry",
+    "url": "https://github.com/Polygl0t/llm-foundry",
+    "note": "Training and eval codebase"
+   }
+  ],
+  "openness": "Weights (Apache 2.0 on the instruct model checked), datasets and code are public on Hugging Face and GitHub. Brazilian focus but based in Germany.",
+  "people_public": [
+   "Nicholas Kluge Corrêa"
+  ],
+  "sources": [
+   "https://huggingface.co/Polygl0t",
+   "https://github.com/Polygl0t",
+   "https://arxiv.org/abs/2411.07854"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Tucano models",
+    "note": "Open Portuguese language models trained end to end in the language."
+   },
+   {
+    "title": "GigaVerbo",
+    "note": "Large open Portuguese text corpora in several versions."
+   },
+   {
+    "title": "Training code",
+    "note": "Open llm-foundry for training and evaluating models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "llm-foundry",
+    "url": "https://github.com/Polygl0t/llm-foundry",
+    "note": "Training and evaluation codebase"
+   },
+   {
+    "name": "lm-evaluation-harness",
+    "url": "https://github.com/Polygl0t/lm-evaluation-harness",
+    "note": "Evaluation fork"
+   },
+   {
+    "name": "workshop-slides",
+    "url": "https://github.com/Polygl0t/workshop-slides",
+    "note": "Workshop slides"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Tucano2-qwen-3.7B-Instruct",
+    "url": "https://huggingface.co/Polygl0t/Tucano2-qwen-3.7B-Instruct",
+    "kind": "model",
+    "note": "Instruct model"
+   },
+   {
+    "name": "gigaverbo-v2",
+    "url": "https://huggingface.co/datasets/Polygl0t/gigaverbo-v2",
+    "kind": "dataset",
+    "note": "Corpus"
+   },
+   {
+    "name": "gigalekh-v1",
+    "url": "https://huggingface.co/datasets/Polygl0t/gigalekh-v1",
+    "kind": "dataset",
+    "note": "Dataset"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Tucano: Advancing Neural Text Generation for Portuguese",
+    "url": "https://arxiv.org/abs/2411.07854",
+    "year": 2024
+   },
+   {
+    "title": "Tucano 2 Cool: Better Open Source LLMs for Portuguese",
+    "url": "https://arxiv.org/abs/2603.03543",
+    "year": 2026
+   }
+  ],
+  "discord_note": null,
+  "contact_note": null
+ },
+ {
+  "id": "somosnlp",
+  "name": "SomosNLP",
+  "type": "collective",
+  "founded": 2021,
+  "country": "Spain",
+  "city": "Madrid",
+  "lat": 40.4168,
+  "lon": -3.7038,
+  "website": "https://somosnlp.org",
+  "huggingface": "https://huggingface.co/somosnlp",
+  "github": "https://github.com/somosnlp",
+  "x": "https://twitter.com/somosnlp_",
+  "discord": "https://discord.com/invite/my8w7JUxZR",
+  "linkedin": "https://www.linkedin.com/company/somosnlp",
+  "contact_email": null,
+  "summary": "SomosNLP is an international community of Spanish speakers working on NLP, running yearly hackathons and building open Spanish datasets and models. City is a placeholder because the community is distributed.",
+  "focus": [
+   "datasets",
+   "language models",
+   "community",
+   "distributed"
+  ],
+  "notable_releases": [
+   {
+    "name": "Spanish corpus list (corpus-es)",
+    "url": "https://github.com/somosnlp/corpus-es",
+    "note": "Curated list of Spanish corpora"
+   },
+   {
+    "name": "SMC dataset",
+    "url": "https://huggingface.co/datasets/somosnlp/SMC",
+    "note": "Hackathon dataset"
+   },
+   {
+    "name": "RecetasDeLaAbuela",
+    "url": "https://huggingface.co/datasets/somosnlp/RecetasDeLaAbuela",
+    "note": "Recipe dataset"
+   },
+   {
+    "name": "NLP de cero a cien",
+    "url": "https://github.com/somosnlp/nlp-de-cero-a-cien",
+    "note": "Practical course"
+   }
+  ],
+  "openness": "Datasets, models, course material and website are open on Hugging Face and GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://somosnlp.org",
+   "https://huggingface.co/somosnlp",
+   "https://github.com/somosnlp"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Hackathons",
+    "note": "Runs annual community hackathons that produce Spanish and regional datasets and models."
+   },
+   {
+    "title": "Open datasets",
+    "note": "Hosts datasets such as SMC and RecetasDeLaAbuela."
+   },
+   {
+    "title": "Education",
+    "note": "Maintains a practical NLP course and a corpus list."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "nlp-de-cero-a-cien",
+    "url": "https://github.com/somosnlp/nlp-de-cero-a-cien",
+    "note": "Practical NLP course"
+   },
+   {
+    "name": "corpus-es",
+    "url": "https://github.com/somosnlp/corpus-es",
+    "note": "Spanish corpus list"
+   },
+   {
+    "name": "somosnlp.org",
+    "url": "https://github.com/somosnlp/somosnlp.org",
+    "note": "Website source"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "SMC",
+    "url": "https://huggingface.co/datasets/somosnlp/SMC",
+    "kind": "dataset",
+    "note": "Dataset"
+   },
+   {
+    "name": "RecetasDeLaAbuela",
+    "url": "https://huggingface.co/datasets/somosnlp/RecetasDeLaAbuela",
+    "kind": "dataset",
+    "note": "Dataset"
+   },
+   {
+    "name": "somos-clean-alpaca-es",
+    "url": "https://huggingface.co/datasets/somosnlp/somos-clean-alpaca-es",
+    "kind": "dataset",
+    "note": "Cleaned Spanish Alpaca"
+   }
+  ],
+  "papers": [],
+  "discord_note": "Public Discord for the Spanish NLP community.",
+  "contact_note": "Join the Discord linked on the website."
+ },
+ {
+  "id": "te-hiku-media",
+  "name": "Te Hiku Media",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "New Zealand",
+  "city": "Kaitaia",
+  "lat": -35.1133,
+  "lon": 173.263,
+  "website": "https://tehiku.nz",
+  "huggingface": null,
+  "github": "https://github.com/TeHikuMedia",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "info@tehiku.co.nz",
+  "summary": "Te Hiku Media is a Māori iwi media organisation in Kaitaia that builds te reo Māori speech technology under Māori data sovereignty. Its code and a data-sovereignty licence are public on GitHub; some data and models are governed by that licence rather than open licences.",
+  "focus": [
+   "speech",
+   "data sovereignty",
+   "low-resource languages"
+  ],
+  "notable_releases": [
+   {
+    "name": "Kaitiakitanga License",
+    "url": "https://github.com/TeHikuMedia/Kaitiakitanga-License",
+    "note": "Data sovereignty licence"
+   },
+   {
+    "name": "nga-tautohetohe-reo",
+    "url": "https://github.com/TeHikuMedia/nga-tautohetohe-reo",
+    "note": "Te reo corpus from Hansard"
+   },
+   {
+    "name": "korero-maori-demos",
+    "url": "https://github.com/TeHikuMedia/korero-maori-demos",
+    "note": "Kōrero Māori API demos"
+   }
+  ],
+  "openness": "Code and corpora on GitHub; data held under Māori data sovereignty principles, so openness is conditional. Hugging Face presence not found. Borderline inclusion.",
+  "people_public": [],
+  "sources": [
+   "https://tehiku.nz",
+   "https://github.com/TeHikuMedia"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Māori speech recognition",
+    "note": "Built te reo Māori speech tools with community-contributed recordings."
+   },
+   {
+    "title": "Kaitiakitanga License",
+    "note": "Authored a licence for data held under Māori guardianship."
+   },
+   {
+    "title": "Public APIs and demos",
+    "note": "Provides Kōrero Māori API demos and open repos."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Kaitiakitanga-License",
+    "url": "https://github.com/TeHikuMedia/Kaitiakitanga-License",
+    "note": "Data sovereignty licence"
+   },
+   {
+    "name": "nga-tautohetohe-reo",
+    "url": "https://github.com/TeHikuMedia/nga-tautohetohe-reo",
+    "note": "Hansard-derived corpus"
+   },
+   {
+    "name": "korero-maori-demos",
+    "url": "https://github.com/TeHikuMedia/korero-maori-demos",
+    "note": "API demos"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Email printed on the website footer."
+ },
+ {
+  "id": "joeyllm",
+  "name": "JoeyLLM",
+  "type": "collective",
+  "founded": 2024,
+  "country": "Australia",
+  "city": null,
+  "lat": null,
+  "lon": null,
+  "website": "https://joeyllm.ai",
+  "huggingface": "https://huggingface.co/JoeyLLM",
+  "github": "https://github.com/joeyllm",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "JoeyLLM, formerly Southern Cross AI, is a developer-led initiative to build an Australian open-source language model. So far its Hugging Face org lists country-focused datasets, and its GitHub holds interface and team repos.",
+  "focus": [
+   "language models",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "australian-dataset-1b",
+    "url": "https://huggingface.co/datasets/JoeyLLM/australian-dataset-1b",
+    "note": "Australian dataset"
+   }
+  ],
+  "openness": "Datasets are public; no model weights were listed on the Hugging Face org when checked. Early-stage.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/JoeyLLM",
+   "https://github.com/joeyllm",
+   "https://joeyllm.ai"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Australian dataset",
+    "note": "Published a roughly 1B-token Australian dataset."
+   },
+   {
+    "title": "Country datasets",
+    "note": "Also published UK, New Zealand and Canada datasets."
+   },
+   {
+    "title": "Chat demo",
+    "note": "Maintains a chat interface repo."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ChatJoey",
+    "url": "https://github.com/joeyllm/ChatJoey",
+    "note": "Chat interface"
+   },
+   {
+    "name": "JoeyLLM-Team",
+    "url": "https://github.com/joeyllm/JoeyLLM-Team",
+    "note": "Student team page"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "australian-dataset-1b",
+    "url": "https://huggingface.co/datasets/JoeyLLM/australian-dataset-1b",
+    "kind": "dataset",
+    "note": "Australian data"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": null
+ },
+ {
+  "id": "maincode",
+  "name": "Maincode",
+  "type": "startup",
+  "founded": null,
+  "country": "Australia",
+  "city": "Melbourne",
+  "lat": -37.8136,
+  "lon": 144.9631,
+  "website": "https://www.maincode.com",
+  "huggingface": "https://huggingface.co/Maincode",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Maincode is a Melbourne AI company that describes itself as independent and runs its own hardware. It has released some models on Hugging Face, including Maincoder-1B and Matilda base models, while its main Matilda product is not open-weight.",
+  "focus": [
+   "language models",
+   "code"
+  ],
+  "notable_releases": [
+   {
+    "name": "Maincoder-1B",
+    "url": "https://huggingface.co/Maincode/Maincoder-1B",
+    "note": "Small code model"
+   },
+   {
+    "name": "Matilda-Platypus-13B-Base",
+    "url": "https://huggingface.co/Maincode/Matilda-Platypus-13B-Base",
+    "note": "Base model"
+   }
+  ],
+  "openness": "Selected models are open on Hugging Face; the commercial flagship is not. Borderline inclusion.",
+  "people_public": [],
+  "sources": [
+   "https://www.maincode.com",
+   "https://huggingface.co/Maincode"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Maincoder-1B",
+    "note": "Open small coding model."
+   },
+   {
+    "title": "Matilda base models",
+    "note": "Published base models at several sizes."
+   },
+   {
+    "title": "Local infrastructure",
+    "note": "Trains and serves models on hardware it owns in Melbourne."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "Maincoder-1B",
+    "url": "https://huggingface.co/Maincode/Maincoder-1B",
+    "kind": "model",
+    "note": "Code model"
+   },
+   {
+    "name": "Matilda-Platypus-13B-Base",
+    "url": "https://huggingface.co/Maincode/Matilda-Platypus-13B-Base",
+    "kind": "model",
+    "note": "Base model"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Via the website."
+ },
+ {
+  "id": "bigscience",
+  "name": "BigScience",
+  "type": "collective",
+  "founded": 2021,
+  "country": "France",
+  "city": "Paris",
+  "lat": 48.8566,
+  "lon": 2.3522,
+  "website": "https://bigscience.huggingface.co",
+  "huggingface": "https://huggingface.co/bigscience",
+  "github": "https://github.com/bigscience-workshop",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "BigScience was a year-long open research workshop that produced the BLOOM multilingual language model and many related datasets and tools. Hosting is on Hugging Face, and the project is now mainly an archive. City is a placeholder for a distributed collaboration.",
+  "focus": [
+   "language models",
+   "datasets",
+   "distributed"
+  ],
+  "notable_releases": [
+   {
+    "name": "BLOOM / BLOOMZ",
+    "url": "https://huggingface.co/bigscience/bloomz-560m",
+    "note": "Multilingual models"
+   },
+   {
+    "name": "P3",
+    "url": "https://huggingface.co/datasets/bigscience/P3",
+    "note": "Prompt dataset"
+   },
+   {
+    "name": "Petals",
+    "url": "https://github.com/bigscience-workshop/petals",
+    "note": "Distributed inference"
+   },
+   {
+    "name": "promptsource",
+    "url": "https://github.com/bigscience-workshop/promptsource",
+    "note": "Prompt toolkit"
+   }
+  ],
+  "openness": "Open weights, datasets and code, with BLOOM under the Responsible AI License.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/bigscience",
+   "https://github.com/bigscience-workshop",
+   "https://arxiv.org/abs/2211.05100"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "BLOOM",
+    "note": "Released a 176B multilingual open-access model."
+   },
+   {
+    "title": "Prompts and datasets",
+    "note": "Built P3, xP3 and promptsource."
+   },
+   {
+    "title": "Distributed LLMs",
+    "note": "Created Petals for collaborative inference and fine-tuning."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "petals",
+    "url": "https://github.com/bigscience-workshop/petals",
+    "note": "Run LLMs collaboratively"
+   },
+   {
+    "name": "promptsource",
+    "url": "https://github.com/bigscience-workshop/promptsource",
+    "note": "Prompt toolkit"
+   },
+   {
+    "name": "Megatron-DeepSpeed",
+    "url": "https://github.com/bigscience-workshop/Megatron-DeepSpeed",
+    "note": "Training code"
+   },
+   {
+    "name": "bigscience",
+    "url": "https://github.com/bigscience-workshop/bigscience",
+    "note": "Engineering docs and logs"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "bloomz-560m",
+    "url": "https://huggingface.co/bigscience/bloomz-560m",
+    "kind": "model",
+    "note": "Small BLOOMZ"
+   },
+   {
+    "name": "P3",
+    "url": "https://huggingface.co/datasets/bigscience/P3",
+    "kind": "dataset",
+    "note": "Prompted datasets"
+   },
+   {
+    "name": "xP3",
+    "url": "https://huggingface.co/datasets/bigscience/xP3",
+    "kind": "dataset",
+    "note": "Multilingual prompts"
+   }
+  ],
+  "papers": [
+   {
+    "title": "BLOOM: A 176B-Parameter Open-Access Multilingual Language Model",
+    "url": "https://arxiv.org/abs/2211.05100",
+    "year": 2022
+   },
+   {
+    "title": "Petals: Collaborative Inference and Fine-tuning of Large Models",
+    "url": "https://arxiv.org/abs/2209.01188",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via the website."
+ },
+ {
+  "id": "bigcode",
+  "name": "BigCode",
+  "type": "collective",
+  "founded": 2022,
+  "country": "United States",
+  "city": null,
+  "lat": null,
+  "lon": null,
+  "website": "https://www.bigcode-project.org",
+  "huggingface": "https://huggingface.co/bigcode",
+  "github": "https://github.com/bigcode-project",
+  "x": "https://twitter.com/BigCodeProject",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "BigCode is an open scientific collaboration, run by Hugging Face and ServiceNow Research, on code language models. It released the StarCoder models, The Stack datasets and evaluation tools. Independence is partial because two companies host it.",
+  "focus": [
+   "language models",
+   "code",
+   "datasets",
+   "evaluation"
+  ],
+  "notable_releases": [
+   {
+    "name": "StarCoder2",
+    "url": "https://huggingface.co/bigcode/starcoder2-3b",
+    "note": "Open code model"
+   },
+   {
+    "name": "The Stack",
+    "url": "https://huggingface.co/datasets/bigcode/the-stack",
+    "note": "Code dataset"
+   },
+   {
+    "name": "BigCodeBench",
+    "url": "https://huggingface.co/datasets/bigcode/bigcodebench",
+    "note": "Benchmark"
+   },
+   {
+    "name": "evaluation harness",
+    "url": "https://github.com/bigcode-project/bigcode-evaluation-harness",
+    "note": "Evaluation framework"
+   }
+  ],
+  "openness": "Open weights under the BigCode OpenRAIL-M family, with datasets and code public.",
+  "people_public": [],
+  "sources": [
+   "https://www.bigcode-project.org",
+   "https://huggingface.co/bigcode",
+   "https://github.com/bigcode-project"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "StarCoder models",
+    "note": "Open code LLMs trained on permissively licensed code."
+   },
+   {
+    "title": "The Stack",
+    "note": "Large open code datasets with opt-out."
+   },
+   {
+    "title": "Benchmarks",
+    "note": "BigCodeBench and an evaluation harness."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "starcoder",
+    "url": "https://github.com/bigcode-project/starcoder",
+    "note": "StarCoder home"
+   },
+   {
+    "name": "starcoder2",
+    "url": "https://github.com/bigcode-project/starcoder2",
+    "note": "StarCoder2 home"
+   },
+   {
+    "name": "bigcode-evaluation-harness",
+    "url": "https://github.com/bigcode-project/bigcode-evaluation-harness",
+    "note": "Evaluation"
+   },
+   {
+    "name": "bigcodebench",
+    "url": "https://github.com/bigcode-project/bigcodebench",
+    "note": "Benchmark"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "starcoder2-3b",
+    "url": "https://huggingface.co/bigcode/starcoder2-3b",
+    "kind": "model",
+    "note": "StarCoder2"
+   },
+   {
+    "name": "the-stack",
+    "url": "https://huggingface.co/datasets/bigcode/the-stack",
+    "kind": "dataset",
+    "note": "Code corpus"
+   },
+   {
+    "name": "bigcodebench",
+    "url": "https://huggingface.co/datasets/bigcode/bigcodebench",
+    "kind": "dataset",
+    "note": "Benchmark"
+   }
+  ],
+  "papers": [
+   {
+    "title": "StarCoder: may the source be with you!",
+    "url": "https://arxiv.org/abs/2305.06161",
+    "year": 2023
+   },
+   {
+    "title": "StarCoder 2 and The Stack v2: The Next Generation",
+    "url": "https://arxiv.org/abs/2402.19173",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": null
+ },
+ {
+  "id": "laion",
+  "name": "LAION (incl. OpenAssistant)",
+  "type": "nonprofit",
+  "founded": 2021,
+  "country": "Germany",
+  "city": "Hamburg",
+  "lat": 53.5511,
+  "lon": 9.9937,
+  "website": "https://laion.ai",
+  "huggingface": "https://huggingface.co/laion",
+  "github": "https://github.com/LAION-AI",
+  "x": null,
+  "discord": "https://discord.com/invite/eq3cAMZtCC",
+  "linkedin": null,
+  "contact_email": "contact@laion.ai",
+  "summary": "LAION is a non-profit making datasets, tools and models openly available for research. It also co-organised the OpenAssistant crowd-sourced conversation project.",
+  "focus": [
+   "datasets",
+   "vision",
+   "speech",
+   "language models"
+  ],
+  "notable_releases": [
+   {
+    "name": "LAION-5B paper",
+    "url": "https://arxiv.org/abs/2210.08402",
+    "note": "Image-text dataset"
+   },
+   {
+    "name": "CLAP",
+    "url": "https://github.com/LAION-AI/CLAP",
+    "note": "Audio-language model"
+   },
+   {
+    "name": "OpenAssistant oasst1",
+    "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+    "note": "Conversation dataset"
+   },
+   {
+    "name": "CLIP models",
+    "url": "https://huggingface.co/laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+    "note": "OpenCLIP checkpoints"
+   }
+  ],
+  "openness": "Datasets, models and code are open with mixed licences.",
+  "people_public": [],
+  "sources": [
+   "https://laion.ai",
+   "https://huggingface.co/laion",
+   "https://github.com/LAION-AI",
+   "https://arxiv.org/abs/2304.07327"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "LAION-5B",
+    "note": "Released an open large-scale image-text dataset."
+   },
+   {
+    "title": "OpenCLIP checkpoints",
+    "note": "Published CLIP models trained on LAION data."
+   },
+   {
+    "title": "OpenAssistant",
+    "note": "Co-ran a crowd-sourced conversations dataset and models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "CLAP",
+    "url": "https://github.com/LAION-AI/CLAP",
+    "note": "Contrastive language-audio"
+   },
+   {
+    "name": "CLIP_benchmark",
+    "url": "https://github.com/LAION-AI/CLIP_benchmark",
+    "note": "CLIP evaluation"
+   },
+   {
+    "name": "audio-dataset",
+    "url": "https://github.com/LAION-AI/audio-dataset",
+    "note": "Audio data tools"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "CLIP-ViT-L-14-laion2B",
+    "url": "https://huggingface.co/laion/CLIP-ViT-L-14-laion2B-s32B-b82K",
+    "kind": "model",
+    "note": "CLIP"
+   },
+   {
+    "name": "oasst1",
+    "url": "https://huggingface.co/datasets/OpenAssistant/oasst1",
+    "kind": "dataset",
+    "note": "Conversations"
+   },
+   {
+    "name": "clap-htsat-fused",
+    "url": "https://huggingface.co/laion/clap-htsat-fused",
+    "kind": "model",
+    "note": "CLAP"
+   }
+  ],
+  "papers": [
+   {
+    "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+    "url": "https://arxiv.org/abs/2210.08402",
+    "year": 2022
+   },
+   {
+    "title": "OpenAssistant Conversations -- Democratizing Large Language Model Alignment",
+    "url": "https://arxiv.org/abs/2304.07327",
+    "year": 2023
+   }
+  ],
+  "discord_note": "Public Discord for the LAION community.",
+  "contact_note": "Email printed on the website; Discord also linked."
+ },
+ {
+  "id": "mlcommons",
+  "name": "MLCommons",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "United States",
+  "city": null,
+  "lat": null,
+  "lon": null,
+  "website": "https://mlcommons.org",
+  "huggingface": "https://huggingface.co/MLCommons",
+  "github": "https://github.com/mlcommons",
+  "x": "https://x.com/mlcommons",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "MLCommons is a consortium that publishes ML benchmarks (MLPerf), datasets and metadata standards. Its GitHub hosts reference implementations; Hugging Face hosts datasets such as People's Speech. The website returned a bot check when opened.",
+  "focus": [
+   "evaluation",
+   "datasets",
+   "benchmarks"
+  ],
+  "notable_releases": [
+   {
+    "name": "MLPerf training",
+    "url": "https://github.com/mlcommons/training",
+    "note": "Reference benchmarks"
+   },
+   {
+    "name": "MLPerf inference",
+    "url": "https://github.com/mlcommons/inference",
+    "note": "Reference benchmarks"
+   },
+   {
+    "name": "Croissant",
+    "url": "https://github.com/mlcommons/croissant",
+    "note": "Dataset metadata format"
+   },
+   {
+    "name": "People's Speech",
+    "url": "https://huggingface.co/datasets/MLCommons/peoples_speech",
+    "note": "Speech dataset"
+   }
+  ],
+  "openness": "Open code and datasets; licences vary.",
+  "people_public": [],
+  "sources": [
+   "https://github.com/mlcommons",
+   "https://huggingface.co/MLCommons"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "MLPerf",
+    "note": "Standard training and inference benchmarks."
+   },
+   {
+    "title": "Croissant",
+    "note": "A metadata format for ML datasets."
+   },
+   {
+    "title": "Speech datasets",
+    "note": "People's Speech and Spoken Words."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "training",
+    "url": "https://github.com/mlcommons/training",
+    "note": "MLPerf training"
+   },
+   {
+    "name": "inference",
+    "url": "https://github.com/mlcommons/inference",
+    "note": "MLPerf inference"
+   },
+   {
+    "name": "croissant",
+    "url": "https://github.com/mlcommons/croissant",
+    "note": "Dataset format"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "peoples_speech",
+    "url": "https://huggingface.co/datasets/MLCommons/peoples_speech",
+    "kind": "dataset",
+    "note": "Speech"
+   },
+   {
+    "name": "ml_spoken_words",
+    "url": "https://huggingface.co/datasets/MLCommons/ml_spoken_words",
+    "kind": "dataset",
+    "note": "Spoken words"
+   }
+  ],
+  "papers": [
+   {
+    "title": "MLPerf Inference Benchmark",
+    "url": "https://arxiv.org/abs/1911.02549",
+    "year": 2019
+   },
+   {
+    "title": "Croissant: A Metadata Format for ML-Ready Datasets",
+    "url": "https://arxiv.org/abs/2403.19546",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": null
+ },
+ {
+  "id": "axolotl",
+  "name": "Axolotl AI",
+  "type": "startup",
+  "founded": 2024,
+  "country": "United States",
+  "city": null,
+  "lat": null,
+  "lon": null,
+  "website": "https://axolotl.ai",
+  "huggingface": "https://huggingface.co/axolotl-ai-co",
+  "github": "https://github.com/axolotl-ai-cloud",
+  "x": "https://x.com/axolotl_ai",
+  "discord": "https://discord.com/invite/nATNVd5ajx",
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Axolotl AI maintains the open-source Axolotl fine-tuning framework used by many open model builders. Code and small models are public.",
+  "focus": [
+   "tooling",
+   "fine-tuning"
+  ],
+  "notable_releases": [
+   {
+    "name": "axolotl",
+    "url": "https://github.com/axolotl-ai-cloud/axolotl",
+    "note": "Fine-tuning framework"
+   },
+   {
+    "name": "axolotl-cookbook",
+    "url": "https://github.com/axolotl-ai-cloud/axolotl-cookbook",
+    "note": "Examples"
+   },
+   {
+    "name": "grpo_code",
+    "url": "https://github.com/axolotl-ai-cloud/grpo_code",
+    "note": "GRPO for code"
+   }
+  ],
+  "openness": "Framework code is open source on GitHub; Hugging Face holds small models and datasets.",
+  "people_public": [],
+  "sources": [
+   "https://axolotl.ai",
+   "https://github.com/axolotl-ai-cloud",
+   "https://huggingface.co/axolotl-ai-co"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Fine-tuning framework",
+    "note": "Widely used open tool for training LLMs."
+   },
+   {
+    "title": "Examples",
+    "note": "Cookbooks and GRPO recipes."
+   },
+   {
+    "title": "Community",
+    "note": "Active Discord."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "axolotl",
+    "url": "https://github.com/axolotl-ai-cloud/axolotl",
+    "note": "Main framework"
+   },
+   {
+    "name": "axolotl-cookbook",
+    "url": "https://github.com/axolotl-ai-cloud/axolotl-cookbook",
+    "note": "Cookbook"
+   },
+   {
+    "name": "grpo_code",
+    "url": "https://github.com/axolotl-ai-cloud/grpo_code",
+    "note": "GRPO code"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "tiny-mixtral-30m",
+    "url": "https://huggingface.co/axolotl-ai-co/tiny-mixtral-30m",
+    "kind": "model",
+    "note": "Test model"
+   }
+  ],
+  "papers": [],
+  "discord_note": "Public Discord for users and contributors.",
+  "contact_note": "Discord; only a personal address is printed on the site, so none listed."
+ },
+ {
+  "id": "open-language-data-initiative",
+  "name": "Open Language Data Initiative (OLDI)",
+  "type": "collective",
+  "founded": 2023,
+  "country": "United States",
+  "city": null,
+  "lat": null,
+  "lon": null,
+  "website": "https://oldi.org",
+  "huggingface": "https://huggingface.co/openlanguagedata",
+  "github": "https://github.com/openlanguagedata",
+  "x": null,
+  "discord": "https://discord.gg/jJmrw3E77u",
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "OLDI is a community effort on open multilingual NLP data for underserved languages, maintaining FLORES+ and the OLDI Seed machine translation data.",
+  "focus": [
+   "datasets",
+   "machine translation",
+   "low-resource languages",
+   "distributed"
+  ],
+  "notable_releases": [
+   {
+    "name": "FLORES+",
+    "url": "https://huggingface.co/datasets/openlanguagedata/flores_plus",
+    "note": "MT benchmark"
+   },
+   {
+    "name": "OLDI Seed",
+    "url": "https://huggingface.co/datasets/openlanguagedata/oldi_seed",
+    "note": "Seed MT data"
+   },
+   {
+    "name": "flores repo",
+    "url": "https://github.com/openlanguagedata/flores",
+    "note": "Benchmark repo"
+   }
+  ],
+  "openness": "Datasets and code are public on Hugging Face and GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://oldi.org",
+   "https://huggingface.co/openlanguagedata",
+   "https://github.com/openlanguagedata"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "FLORES+",
+    "note": "Maintains an extended multilingual translation benchmark."
+   },
+   {
+    "title": "Seed data",
+    "note": "Collects seed translation data for new languages."
+   },
+   {
+    "title": "Resource list",
+    "note": "Curates initiatives adding new MT languages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "flores",
+    "url": "https://github.com/openlanguagedata/flores",
+    "note": "FLORES+"
+   },
+   {
+    "name": "seed",
+    "url": "https://github.com/openlanguagedata/seed",
+    "note": "Seed data"
+   },
+   {
+    "name": "awesome-new-languages-in-machine-translation",
+    "url": "https://github.com/openlanguagedata/awesome-new-languages-in-machine-translation",
+    "note": "Initiatives list"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "flores_plus",
+    "url": "https://huggingface.co/datasets/openlanguagedata/flores_plus",
+    "kind": "dataset",
+    "note": "Benchmark"
+   },
+   {
+    "name": "oldi_seed",
+    "url": "https://huggingface.co/datasets/openlanguagedata/oldi_seed",
+    "kind": "dataset",
+    "note": "Seed data"
+   }
+  ],
+  "papers": [],
+  "discord_note": "Public Discord for contributors.",
+  "contact_note": "Discord linked on the website."
+ },
+ {
+  "id": "common-voice",
+  "name": "Common Voice (Mozilla)",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://commonvoice.mozilla.org",
+  "huggingface": "https://huggingface.co/mozilla-foundation",
+  "github": "https://github.com/common-voice",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Common Voice is Mozilla's crowdsourced multilingual speech dataset project. The code and datasets are public and its corpus is widely mirrored on Hugging Face.",
+  "focus": [
+   "speech",
+   "datasets",
+   "low-resource languages"
+  ],
+  "notable_releases": [
+   {
+    "name": "common_voice_17_0",
+    "url": "https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0",
+    "note": "Speech dataset"
+   },
+   {
+    "name": "common-voice repo",
+    "url": "https://github.com/common-voice/common-voice",
+    "note": "Platform code"
+   }
+  ],
+  "openness": "Platform code is open and data is released under CC0.",
+  "people_public": [],
+  "sources": [
+   "https://commonvoice.mozilla.org",
+   "https://github.com/common-voice/common-voice",
+   "https://arxiv.org/abs/1912.06670"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Open speech corpus",
+    "note": "Large crowdsourced multilingual dataset."
+   },
+   {
+    "title": "Platform",
+    "note": "Open-source collection platform."
+   },
+   {
+    "title": "Community languages",
+    "note": "Communities add and validate new languages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "common-voice",
+    "url": "https://github.com/common-voice/common-voice",
+    "note": "Platform"
+   },
+   {
+    "name": "cv-dataset",
+    "url": "https://github.com/common-voice/cv-dataset",
+    "note": "Dataset metadata"
+   },
+   {
+    "name": "sentence-collector",
+    "url": "https://github.com/common-voice/sentence-collector",
+    "note": "Sentence tool"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "common_voice_17_0",
+    "url": "https://huggingface.co/datasets/mozilla-foundation/common_voice_17_0",
+    "kind": "dataset",
+    "note": "Speech"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Common Voice: A Massively-Multilingual Speech Corpus",
+    "url": "https://arxiv.org/abs/1912.06670",
+    "year": 2019
+   }
+  ],
+  "discord_note": null,
+  "contact_note": null
+ },
+ {
+  "id": "mozilla-data-collective",
+  "name": "Mozilla Data Collective",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://mozilladatacollective.com",
+  "huggingface": null,
+  "github": null,
+  "x": null,
+  "discord": "https://discord.gg/dngNCw2d4W",
+  "linkedin": "https://www.linkedin.com/company/mozilla-data-collective",
+  "contact_email": "support@mozilladatacollective.com",
+  "summary": "Mozilla Data Collective is a platform for community-governed datasets for AI. It is a data platform, so the open-code record is thin.",
+  "focus": [
+   "datasets",
+   "data sovereignty"
+  ],
+  "notable_releases": [
+   {
+    "name": "Mozilla Data Collective",
+    "url": "https://mozilladatacollective.com",
+    "note": "Dataset platform"
+   }
+  ],
+  "openness": "Hosts datasets under their own licences; no code or weights verified.",
+  "people_public": [],
+  "sources": [
+   "https://mozilladatacollective.com"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Dataset platform",
+    "note": "Hosts community datasets."
+   },
+   {
+    "title": "Community-centred",
+    "note": "Emphasises community governance of data."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": "Public Discord for the platform.",
+  "contact_note": "Support email printed on the site."
+ },
+ {
+  "id": "cohere-labs-community",
+  "name": "Cohere Labs Community (Aya)",
+  "type": "startup",
+  "founded": null,
+  "country": "Canada",
+  "city": "Toronto",
+  "lat": 43.6532,
+  "lon": -79.3832,
+  "website": "https://cohere.com/research",
+  "huggingface": "https://huggingface.co/CohereLabs",
+  "github": null,
+  "x": "https://x.com/Cohere_Labs",
+  "discord": "https://discord.com/invite/co-mmunity",
+  "linkedin": "https://www.linkedin.com/company/cohere-ai/",
+  "contact_email": null,
+  "summary": "Cohere Labs is the research lab of Cohere, with an open science community behind the Aya multilingual models and datasets. Independence is partial because it is part of a company.",
+  "focus": [
+   "language models",
+   "datasets",
+   "multilingual",
+   "evaluation"
+  ],
+  "notable_releases": [
+   {
+    "name": "aya_dataset",
+    "url": "https://huggingface.co/datasets/CohereLabs/aya_dataset",
+    "note": "Multilingual instruction dataset"
+   },
+   {
+    "name": "Global-MMLU",
+    "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
+    "note": "Benchmark"
+   },
+   {
+    "name": "xP3x",
+    "url": "https://huggingface.co/datasets/CohereLabs/xP3x",
+    "note": "Multilingual prompts"
+   }
+  ],
+  "openness": "Open weights and datasets on Hugging Face, often under non-commercial licences.",
+  "people_public": [],
+  "sources": [
+   "https://cohere.com/research",
+   "https://huggingface.co/CohereLabs",
+   "https://arxiv.org/abs/2402.07827"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Aya model",
+    "note": "Open multilingual instruction-tuned model."
+   },
+   {
+    "title": "Aya dataset",
+    "note": "Human-annotated multilingual dataset."
+   },
+   {
+    "title": "Global-MMLU",
+    "note": "Benchmark for multilingual evaluation."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "aya_dataset",
+    "url": "https://huggingface.co/datasets/CohereLabs/aya_dataset",
+    "kind": "dataset",
+    "note": "Instruction data"
+   },
+   {
+    "name": "Global-MMLU",
+    "url": "https://huggingface.co/datasets/CohereLabs/Global-MMLU",
+    "kind": "dataset",
+    "note": "Benchmark"
+   },
+   {
+    "name": "xP3x",
+    "url": "https://huggingface.co/datasets/CohereLabs/xP3x",
+    "kind": "dataset",
+    "note": "Prompts"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Aya Model: An Instruction Finetuned Open-Access Multilingual Language Model",
+    "url": "https://arxiv.org/abs/2402.07827",
+    "year": 2024
+   },
+   {
+    "title": "Aya Dataset: An Open-Access Collection for Multilingual Instruction Tuning",
+    "url": "https://arxiv.org/abs/2402.06619",
+    "year": 2024
+   }
+  ],
+  "discord_note": "Public Discord for the Cohere community.",
+  "contact_note": "Via the Discord or the research page."
+ },
+ {
+  "id": "eleutherai",
+  "name": "EleutherAI",
+  "type": "nonprofit",
+  "founded": 2020,
+  "country": "United States",
+  "city": null,
+  "lat": null,
+  "lon": null,
+  "website": "https://www.eleuther.ai",
+  "huggingface": "https://huggingface.co/EleutherAI",
+  "github": "https://github.com/EleutherAI",
+  "x": "https://x.com/AIEleuther",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "EleutherAI is a non-profit research institute that trains and releases open models, datasets and tools. It began in 2020 as a Discord server and incorporated in 2023.",
+  "focus": [
+   "language models",
+   "evaluation",
+   "interpretability",
+   "datasets",
+   "distributed"
+  ],
+  "notable_releases": [
+   {
+    "name": "lm-evaluation-harness",
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "note": "Evaluation framework"
+   },
+   {
+    "name": "GPT-NeoX",
+    "url": "https://github.com/EleutherAI/gpt-neox",
+    "note": "Training library"
+   },
+   {
+    "name": "Pythia",
+    "url": "https://huggingface.co/EleutherAI/pythia-160m",
+    "note": "Model suite"
+   }
+  ],
+  "openness": "Open weights, datasets and code.",
+  "people_public": [
+   "Connor Leahy",
+   "Sid Black",
+   "Leo Gao"
+  ],
+  "sources": [
+   "https://www.eleuther.ai/about",
+   "https://huggingface.co/EleutherAI",
+   "https://github.com/EleutherAI"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Open models",
+    "note": "GPT-Neo, GPT-J, GPT-NeoX and Pythia."
+   },
+   {
+    "title": "Evaluation harness",
+    "note": "The lm-evaluation-harness."
+   },
+   {
+    "title": "Interpretability",
+    "note": "Research on learning dynamics."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "lm-evaluation-harness",
+    "url": "https://github.com/EleutherAI/lm-evaluation-harness",
+    "note": "Evaluation"
+   },
+   {
+    "name": "gpt-neox",
+    "url": "https://github.com/EleutherAI/gpt-neox",
+    "note": "Training"
+   },
+   {
+    "name": "pythia",
+    "url": "https://github.com/EleutherAI/pythia",
+    "note": "Interpretability hub"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "pythia-160m",
+    "url": "https://huggingface.co/EleutherAI/pythia-160m",
+    "kind": "model",
+    "note": "Pythia"
+   },
+   {
+    "name": "hendrycks_math",
+    "url": "https://huggingface.co/datasets/EleutherAI/hendrycks_math",
+    "kind": "dataset",
+    "note": "Math"
+   },
+   {
+    "name": "gpt-neo-125m",
+    "url": "https://huggingface.co/EleutherAI/gpt-neo-125m",
+    "kind": "model",
+    "note": "GPT-Neo"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Pythia: A Suite for Analyzing Large Language Models Across Training and Scaling",
+    "url": "https://arxiv.org/abs/2304.01373",
+    "year": 2023
+   },
+   {
+    "title": "GPT-NeoX-20B: An Open-Source Autoregressive Language Model",
+    "url": "https://arxiv.org/abs/2204.06745",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Via the website."
+ },
+ {
+  "id": "nous-research",
+  "name": "Nous Research",
+  "type": "startup",
+  "founded": 2023,
+  "country": "United States",
+  "city": "New York",
+  "lat": 40.7128,
+  "lon": -74.006,
+  "website": "https://nousresearch.com",
+  "huggingface": "https://huggingface.co/NousResearch",
+  "github": "https://github.com/NousResearch",
+  "x": "https://x.com/nousresearch",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Nous Research is an AI lab releasing open models such as the Hermes series, datasets and agent software.",
+  "focus": [
+   "language models",
+   "datasets",
+   "agents",
+   "distributed"
+  ],
+  "notable_releases": [
+   {
+    "name": "Hermes-3-Llama-3.1-8B",
+    "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+    "note": "Open model"
+   },
+   {
+    "name": "hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "note": "Agent framework"
+   },
+   {
+    "name": "hermes-function-calling-v1",
+    "url": "https://huggingface.co/datasets/NousResearch/hermes-function-calling-v1",
+    "note": "Dataset"
+   }
+  ],
+  "openness": "Open weights and code; model licences follow their base models.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/NousResearch",
+   "https://github.com/NousResearch",
+   "https://arxiv.org/abs/2408.11857"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Hermes models",
+    "note": "Open fine-tuned models."
+   },
+   {
+    "title": "Agent software",
+    "note": "Open agent framework."
+   },
+   {
+    "title": "Datasets",
+    "note": "Function-calling and eval data."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "note": "Agent"
+   },
+   {
+    "name": "autonovel",
+    "url": "https://github.com/NousResearch/autonovel",
+    "note": "Novel pipeline"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Hermes-3-Llama-3.1-8B",
+    "url": "https://huggingface.co/NousResearch/Hermes-3-Llama-3.1-8B",
+    "kind": "model",
+    "note": "Hermes 3"
+   },
+   {
+    "name": "hermes-function-calling-v1",
+    "url": "https://huggingface.co/datasets/NousResearch/hermes-function-calling-v1",
+    "kind": "dataset",
+    "note": "Function calling"
+   }
+  ],
+  "papers": [
+   {
+    "title": "Hermes 3 Technical Report",
+    "url": "https://arxiv.org/abs/2408.11857",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": null
+ },
+ {
+  "id": "prime-intellect",
+  "name": "Prime Intellect",
+  "type": "startup",
+  "founded": 2023,
+  "country": "United States",
+  "city": "San Francisco",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "website": "https://primeintellect.ai",
+  "huggingface": "https://huggingface.co/PrimeIntellect",
+  "github": "https://github.com/PrimeIntellect-ai",
+  "x": "https://x.com/primeintellect",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Prime Intellect is a decentralized AI lab known for globally distributed training and RL tools, releasing models and code openly.",
+  "focus": [
+   "distributed",
+   "language models",
+   "reinforcement learning",
+   "tooling"
+  ],
+  "notable_releases": [
+   {
+    "name": "INTELLECT-1",
+    "url": "https://huggingface.co/PrimeIntellect/INTELLECT-1-fp32",
+    "note": "Decentralised trained model"
+   },
+   {
+    "name": "prime-rl",
+    "url": "https://github.com/PrimeIntellect-ai/prime-rl",
+    "note": "RL training"
+   },
+   {
+    "name": "verifiers",
+    "url": "https://github.com/PrimeIntellect-ai/verifiers",
+    "note": "RL environments"
+   }
+  ],
+  "openness": "Open weights, datasets and code.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/PrimeIntellect",
+   "https://github.com/PrimeIntellect-ai",
+   "https://arxiv.org/abs/2412.01152"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "INTELLECT-1",
+    "note": "Trained a model over distributed compute."
+   },
+   {
+    "title": "INTELLECT-2",
+    "note": "Reasoning model via decentralised RL."
+   },
+   {
+    "title": "Tooling",
+    "note": "verifiers and prime-rl."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "verifiers",
+    "url": "https://github.com/PrimeIntellect-ai/verifiers",
+    "note": "Environments"
+   },
+   {
+    "name": "prime-rl",
+    "url": "https://github.com/PrimeIntellect-ai/prime-rl",
+    "note": "RL"
+   },
+   {
+    "name": "prime-diloco",
+    "url": "https://github.com/PrimeIntellect-ai/prime-diloco",
+    "note": "Distributed training"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "INTELLECT-1-fp32",
+    "url": "https://huggingface.co/PrimeIntellect/INTELLECT-1-fp32",
+    "kind": "model",
+    "note": "INTELLECT-1"
+   }
+  ],
+  "papers": [
+   {
+    "title": "INTELLECT-1 Technical Report",
+    "url": "https://arxiv.org/abs/2412.01152",
+    "year": 2024
+   },
+   {
+    "title": "INTELLECT-2: A Reasoning Model Trained Through Globally Decentralized Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2505.07291",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": null
+ },
+ {
+  "id": "pluralis-research",
+  "name": "Pluralis Research",
+  "type": "startup",
+  "founded": 2024,
+  "country": null,
+  "city": null,
+  "lat": null,
+  "lon": null,
+  "website": "https://pluralis.ai",
+  "huggingface": "https://huggingface.co/PluralisResearch",
+  "github": "https://github.com/PluralisResearch",
+  "x": "https://x.com/Pluralis",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Pluralis Research works on Protocol Learning, decentralized model-parallel training. Its GitHub has open training libraries; its Hugging Face org has no public models. Location not verified.",
+  "focus": [
+   "distributed",
+   "training"
+  ],
+  "notable_releases": [
+   {
+    "name": "node0",
+    "url": "https://github.com/PluralisResearch/node0",
+    "note": "Collaborative training"
+   },
+   {
+    "name": "agora",
+    "url": "https://github.com/PluralisResearch/agora",
+    "note": "Collaborative training library"
+   }
+  ],
+  "openness": "Open code on GitHub; no public weights seen.",
+  "people_public": [],
+  "sources": [
+   "https://pluralis.ai",
+   "https://github.com/PluralisResearch",
+   "https://arxiv.org/abs/2505.01099"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Protocol Learning",
+    "note": "Research on decentralized training."
+   },
+   {
+    "title": "Async pipeline parallelism",
+    "note": "Optimization method."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "node0",
+    "url": "https://github.com/PluralisResearch/node0",
+    "note": "Collaborative event"
+   },
+   {
+    "name": "agora",
+    "url": "https://github.com/PluralisResearch/agora",
+    "note": "Library"
+   },
+   {
+    "name": "AsyncPP",
+    "url": "https://github.com/PluralisResearch/AsyncPP",
+    "note": "Async optimization"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "Nesterov Method for Asynchronous Pipeline Parallel Optimization",
+    "url": "https://arxiv.org/abs/2505.01099",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": null
+ }
+]

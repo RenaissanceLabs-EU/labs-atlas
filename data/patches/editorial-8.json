@@ -1,0 +1,1302 @@
+[
+ {
+  "id": "dfki",
+  "tagline": "DFKI is Germany's national AI research center, a non-profit public-private partnership founded in 1988 that turns academic research into industrial applications.",
+  "about": [
+   "The German Research Center for Artificial Intelligence was established in 1988 as a non-profit public-private partnership. It began in Kaiserslautern and Saarbrücken, and Wolfgang Wahlster has served as its scientific director since the founding.",
+   "Today DFKI operates research facilities in Kaiserslautern, Saarbrücken, Bremen, Oldenburg and Osnabrück, laboratories in Berlin, Darmstadt and Lübeck, and a branch office in Trier. Its work is organized into 29 research departments, thirteen competence centers and eight living labs, and it is funded by the European Union, federal ministries, the German states and the German Research Foundation.",
+   "DFKI led the national Verbmobil project on speech translation, which produced several spin-off companies and earned the 2001 German Future Prize. Its public code and datasets appear on GitHub and Hugging Face, where researchers in several departments publish benchmarks and models."
+  ],
+  "mission": "To conduct application-oriented AI research for industry and society and to transfer results into commercial software and spin-offs.",
+  "known_for": [
+   "National AI research institute of Germany",
+   "Verbmobil speech-translation project",
+   "Technology transfer and spin-off companies"
+  ],
+  "contributions": [
+   {
+    "title": "Founded in Kaiserslautern and Saarbrücken",
+    "note": "DFKI was established as a non-profit public-private partnership for applied AI research.",
+    "year": "1988"
+   },
+   {
+    "title": "Verbmobil recognised with the German Future Prize",
+    "note": "The national speech-translation project that DFKI led, translating spontaneous German, English and Japanese speech, won the award for its leader's group.",
+    "year": "2001"
+   },
+   {
+    "title": "Public GitHub organization opened",
+    "note": "DFKI created its GitHub organization to publish research code, later adding the Awesome-DFKI index of its public projects.",
+    "year": "2017"
+   },
+   {
+    "title": "CGHD handwritten circuit dataset",
+    "note": "DFKI researchers released a public ground-truth dataset of handwritten circuit diagram images.",
+    "year": "2022"
+   },
+   {
+    "title": "SphereCraft paper repository",
+    "note": "The most-starred repository in the DFKI GitHub organization accompanies the SphereCraft paper.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Antonio Krüger",
+    "role": "Chief Executive Officer",
+    "url": "https://www.dfki.de/en/web/about-us"
+   },
+   {
+    "name": "Wolfgang Wahlster",
+    "role": "Scientific director since 1988, led Verbmobil",
+    "url": "https://www.dfki.de/~wahlster/Curriculum_Vitae_Wahlster.html"
+   },
+   {
+    "name": "Patrick Schramowski",
+    "role": "Researcher, DFKI Hugging Face organization",
+    "url": "https://huggingface.co/PSaiml"
+   },
+   {
+    "name": "Manuel Brack",
+    "role": "Researcher, DFKI Hugging Face organization",
+    "url": "https://huggingface.co/mbrack"
+   },
+   {
+    "name": "Simon Ostermann",
+    "role": "Researcher, DFKI Hugging Face organization",
+    "url": "https://huggingface.co/simonost"
+   }
+  ],
+  "founded": 1988,
+  "_flag": "DFKI is a public-private research company with industry shareholders and its open-source output is selective rather than a stated commitment."
+ },
+ {
+  "id": "dtai-kuleuven",
+  "tagline": "The DTAI group at KU Leuven combines machine learning, logic and data mining and is the home of the RobBERT Dutch language models.",
+  "about": [
+   "DTAI is the Declarative Languages and Artificial Intelligence research group in the Department of Computer Science at KU Leuven in Belgium. Its academic staff includes Hendrik Blockeel, Jesse Davis, Luc De Raedt, Tias Guns and Tom Schrijvers, and it is linked to the ADVISE, EAVISE and M-Group research groups.",
+   "In January 2020 researchers Pieter Delobelle, Thomas Winters and Bettina Berendt introduced RobBERT, a Dutch RoBERTa-based language model. The group has since refreshed it with RobBERT-2022 and RobBERT-2023, which are published under the DTAI-KULeuven organization on Hugging Face under the MIT license."
+  ],
+  "mission": "To advance machine learning and reasoning methods and to supply open language resources for Dutch.",
+  "known_for": [
+   "RobBERT Dutch language models",
+   "Machine learning combined with logic and constraints",
+   "KU Leuven AI research tradition"
+  ],
+  "contributions": [
+   {
+    "title": "RobBERT released",
+    "note": "A Dutch RoBERTa-based language model was introduced in a paper by Delobelle, Winters and Berendt.",
+    "year": "2020"
+   },
+   {
+    "title": "RobBERT-2022",
+    "note": "An update with an extended tokenizer and further pretraining on recent Dutch OSCAR data to reflect evolving language use.",
+    "year": "2022"
+   },
+   {
+    "title": "RobBERT-2023 models published",
+    "note": "A Dutch base model initialized from RoBERTa weights and a first 355M-parameter large Dutch variant were released under the MIT license.",
+    "year": "2023"
+   },
+   {
+    "title": "RobBERT-2023 journal paper",
+    "note": "Delobelle and Remy published the model conversion method in the Computational Linguistics in the Netherlands Journal.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Luc De Raedt",
+    "role": "Professor, DTAI academic staff",
+    "url": "http://www.kuleuven.be/wieiswie/en/person/u0010316"
+   },
+   {
+    "name": "Hendrik Blockeel",
+    "role": "Professor, DTAI academic staff",
+    "url": "http://www.kuleuven.be/wieiswie/en/person/u0008122"
+   },
+   {
+    "name": "Jesse Davis",
+    "role": "Professor, DTAI academic staff",
+    "url": "http://people.cs.kuleuven.be/~jesse.davis/"
+   },
+   {
+    "name": "Tias Guns",
+    "role": "Professor, DTAI academic staff",
+    "url": "https://www.kuleuven.be/wieiswie/nl/person/00056117"
+   },
+   {
+    "name": "Pieter Delobelle",
+    "role": "Lead author of RobBERT",
+    "url": "https://huggingface.co/pdelobelle"
+   },
+   {
+    "name": "Thomas Winters",
+    "role": "RobBERT co-author",
+    "url": "https://huggingface.co/thomaswint"
+   }
+  ]
+ },
+ {
+  "id": "edinburghnlp",
+  "tagline": "EdinburghNLP is the University of Edinburgh's natural language processing group, ranked among the most productive in the world and the home of Nematus.",
+  "about": [
+   "EdinburghNLP brings together faculty, postdocs and PhD students in the School of Informatics. Its research covers language modelling, morphology, parsing, semantics, discourse, generation and machine translation, with links to speech, vision and robotics.",
+   "The group reports a faculty of more than a dozen core members and five European Research Council grants, and it is ranked first for NLP output by csrankings.org. It publishes code and data openly, including the Nematus neural machine translation toolkit, the XSum summarization dataset and a widely used list of hallucination-detection papers."
+  ],
+  "mission": "To develop algorithms that let computers understand and produce human language, and to share the resulting tools with the research community.",
+  "known_for": [
+   "Nematus neural machine translation toolkit",
+   "XSum extreme summarization dataset",
+   "Leading academic NLP faculty"
+  ],
+  "contributions": [
+   {
+    "title": "Nematus repository created",
+    "note": "The open-source neural machine translation system was first published on GitHub.",
+    "year": "2016"
+   },
+   {
+    "title": "Nematus toolkit paper",
+    "note": "Sennrich, Firat, Cho, Birch, Haddow and colleagues described the toolkit on arXiv.",
+    "year": "2017"
+   },
+   {
+    "title": "XSum dataset",
+    "note": "Narayan, Cohen and Lapata introduced topic-aware convolutional networks and the extreme summarization dataset.",
+    "year": "2018"
+   },
+   {
+    "title": "Awesome hallucination detection list",
+    "note": "The group opened a curated list of papers on hallucination detection that became its most starred repository.",
+    "year": "2023"
+   },
+   {
+    "title": "MMLongBench",
+    "note": "A benchmark for long-context vision-language models was released by the group.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Mirella Lapata",
+    "role": "Professor of natural language processing",
+    "url": "https://en.wikipedia.org/wiki/Mirella_Lapata"
+   },
+   {
+    "name": "Pasquale Minervini",
+    "role": "Faculty member",
+    "url": "https://edinburghnlp.inf.ed.ac.uk/index.php/dt_team/pasquale-minervini/"
+   },
+   {
+    "name": "Edoardo Ponti",
+    "role": "Faculty member",
+    "url": "https://edinburghnlp.inf.ed.ac.uk/index.php/dt_team/edoardo-ponti/"
+   },
+   {
+    "name": "Beatrice Alex",
+    "role": "Faculty member",
+    "url": "https://edinburghnlp.inf.ed.ac.uk/index.php/dt_team/alex-beatrice/"
+   },
+   {
+    "name": "Sharon Goldwater",
+    "role": "Faculty member",
+    "url": "https://huggingface.co/sgwater"
+   },
+   {
+    "name": "Jeff Dalton",
+    "role": "Faculty member",
+    "url": "https://edinburghnlp.inf.ed.ac.uk/index.php/dt_team/jeff-dalton/"
+   }
+  ]
+ },
+ {
+  "id": "eleutherai",
+  "tagline": "EleutherAI is a non-profit research institute that grew from a Discord server into a leading source of open language models, datasets and evaluation tools.",
+  "about": [
+   "EleutherAI began in July 2020 as a Discord server under the working name LibreAI. Connor Leahy, Leo Gao and Sid Black are named as founders, and the group was renamed EleutherAI later that month. In early 2023 it was incorporated as a non-profit research institute.",
+   "It first used compute from Google's TPU Research Cloud and later from CoreWeave. The group released The Pile in December 2020, followed by the GPT-Neo, GPT-J and GPT-NeoX-20B models, and the Pythia suite for studying training dynamics.",
+   "Today it reports about fifteen full- and part-time staff along with regular volunteers. Its lm-evaluation-harness, the most starred repository in its GitHub organization, is used widely to benchmark language models."
+  ],
+  "mission": "To advance interpretability and alignment research on open foundation models, keep such models open to study beyond a few companies, and educate the public about their capabilities and risks.",
+  "known_for": [
+   "The Pile dataset",
+   "GPT-Neo, GPT-J and GPT-NeoX-20B",
+   "lm-evaluation-harness and Pythia"
+  ],
+  "contributions": [
+   {
+    "title": "The Pile released",
+    "note": "An 800GB dataset of diverse text for language modeling, authored by Gao, Biderman, Black and others.",
+    "year": "2020"
+   },
+   {
+    "title": "GPT-Neo",
+    "note": "The first GPT-Neo models of 125M, 1.3B and 2.7B parameters were published in March 2021.",
+    "year": "2021"
+   },
+   {
+    "title": "GPT-J-6B",
+    "note": "A six-billion-parameter open model was released in June 2021.",
+    "year": "2021"
+   },
+   {
+    "title": "GPT-NeoX-20B",
+    "note": "A 20-billion-parameter model trained with CoreWeave compute was released in February 2022.",
+    "year": "2022"
+   },
+   {
+    "title": "Pythia suite and incorporation",
+    "note": "Pythia provided checkpoints for analyzing models across training and scaling, and the group incorporated as a non-profit institute.",
+    "year": "2023"
+   },
+   {
+    "title": "Common Pile v0.1",
+    "note": "A training dataset built to exclude copyrighted material was released in June 2025.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Connor Leahy",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/EleutherAI"
+   },
+   {
+    "name": "Leo Gao",
+    "role": "Co-founder, lead author of The Pile",
+    "url": "https://en.wikipedia.org/wiki/EleutherAI"
+   },
+   {
+    "name": "Sid Black",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/EleutherAI"
+   },
+   {
+    "name": "Stella Biderman",
+    "role": "Leader of the incorporated institute, Pythia lead author",
+    "url": "https://github.com/StellaAthena"
+   },
+   {
+    "name": "Quentin Anthony",
+    "role": "Researcher, Pythia co-author",
+    "url": "https://github.com/Quentin-Anthony"
+   }
+  ],
+  "founded": 2020
+ },
+ {
+  "id": "ellis-alicante",
+  "tagline": "ELLIS Alicante is a non-profit unit of the European ELLIS network focused on ethical, human-centric AI, directed by Nuria Oliver.",
+  "about": [
+   "ELLIS Alicante was founded in 2020 as a foundation hosting a research unit of the ELLIS network in Spain. It resulted from a 2019 bid, led by Nuria Oliver, for Alicante to host an ELLIS unit, and she serves as its director.",
+   "Its research addresses modeling human behavior at individual and societal scales, systems that interact naturally with people, and ethical AI covering fairness, privacy and transparency. It is funded by the Generalitat Valenciana, the European Regional Development Fund and partners including Intel and Fundación Banco Sabadell, and reports over 38 million euros in EU project budgets.",
+   "Paper code and evaluation repositories are published on GitHub, including tutorials on graph rewiring and fairness, an open framework for social media AR filters, and evaluations of how language models handle mental-health crises."
+  ],
+  "mission": "To advance ethical, responsible and human-centric artificial intelligence that serves society.",
+  "known_for": [
+   "Human-centric and ethical AI research",
+   "Directed by Nuria Oliver",
+   "Open benchmarks on fairness and LLM safety"
+  ],
+  "contributions": [
+   {
+    "title": "Alicante wins an ELLIS unit",
+    "note": "A bid led by Nuria Oliver brought a unit of the ELLIS network to Alicante.",
+    "year": "2019"
+   },
+   {
+    "title": "ELLIS Alicante foundation established",
+    "note": "The foundation began operating and opened its GitHub organization in April 2020.",
+    "year": "2020"
+   },
+   {
+    "title": "OpenFilter framework",
+    "note": "The group released a framework to democratize research access to social media AR filters, with Piera Riccio, Nuria Oliver and coauthors.",
+    "year": "2022"
+   },
+   {
+    "title": "Graph rewiring tutorial",
+    "note": "A tutorial on graph rewiring and fairness was presented at the Learning on Graphs conference.",
+    "year": "2022"
+   },
+   {
+    "title": "Multilingual and multimodal red teaming",
+    "note": "Code accompanying a paper on red teaming multimodal models was presented at the ACL 2025 LLM security workshop.",
+    "year": "2025"
+   },
+   {
+    "title": "LLM mental-health crisis evaluation",
+    "note": "An evaluation of how large language models handle mental-health crises was published with open code.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Nuria Oliver",
+    "role": "Director",
+    "url": "https://en.wikipedia.org/wiki/Nuria_Oliver"
+   },
+   {
+    "name": "Adrian Arnaiz-Rodriguez",
+    "role": "Researcher",
+    "url": "https://github.com/AdrianArnaiz"
+   },
+   {
+    "name": "Piera Riccio",
+    "role": "Researcher, OpenFilter first author",
+    "url": "https://github.com/ellisalicante/OpenFilter",
+    "note": "Profile not found; repository lists her as author"
+   }
+  ],
+  "founded": 2020
+ },
+ {
+  "id": "epfl-llm",
+  "tagline": "The EPFL LLM team built Meditron, an open suite of medical language models, and the Megatron-LLM trainer used to produce them.",
+  "about": [
+   "The EPFL LLM team is a group at the Swiss federal institute in Lausanne that publishes under the epfLLM GitHub and epfl-llm Hugging Face organizations. Its Megatron-LLM repository, created in July 2023, adapts NVIDIA's Megatron-LM trainer for distributed training of open models.",
+   "In November 2023 the team released MEDITRON, 7B and 70B-parameter medical models built on Llama-2 and further pretrained on PubMed papers, abstracts and international medical guidelines. The paper reports that MEDITRON-70B outperforms GPT-3.5 and Med-PaLM on four benchmarks, and the team released both model weights and the corpus-building code."
+  ],
+  "mission": "To provide openly available medical language models and training tools so that clinical AI can be studied and improved in the open.",
+  "known_for": [
+   "Meditron open medical LLMs",
+   "Megatron-LLM distributed trainer",
+   "Open weights and corpus-building code"
+  ],
+  "contributions": [
+   {
+    "title": "GitHub organization created",
+    "note": "The epfLLM organization was opened to host the team's open training code.",
+    "year": "2023"
+   },
+   {
+    "title": "Megatron-LLM",
+    "note": "A distributed trainer for large language models was published on GitHub.",
+    "year": "2023"
+   },
+   {
+    "title": "MEDITRON-70B paper",
+    "note": "Chen, Bosselut, Jaggi and colleagues released 7B and 70B medical models and the code to rebuild their pretraining corpus.",
+    "year": "2023"
+   },
+   {
+    "title": "Meditron project website",
+    "note": "The team launched the official Meditron project site, with the repository gaining over 2,000 stars.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Antoine Bosselut",
+    "role": "Senior author of MEDITRON",
+    "url": "https://huggingface.co/atcbosselut"
+   },
+   {
+    "name": "Martin Jaggi",
+    "role": "Senior author of MEDITRON",
+    "url": "https://huggingface.co/mjaggi"
+   },
+   {
+    "name": "Mary-Anne Hartley",
+    "role": "Senior author of MEDITRON",
+    "url": "https://huggingface.co/Yale-LiGHT"
+   },
+   {
+    "name": "Zeming Chen",
+    "role": "Lead author of MEDITRON",
+    "url": "https://huggingface.co/zechen-nlp"
+   },
+   {
+    "name": "Alexandre Sallinen",
+    "role": "MEDITRON co-author",
+    "url": "https://huggingface.co/alexsallinen"
+   }
+  ]
+ },
+ {
+  "id": "flowers-inria",
+  "tagline": "Flowers is an Inria team in Bordeaux studying curiosity-driven learning in humans and machines, led by Pierre-Yves Oudeyer.",
+  "about": [
+   "The Flowers team investigates the mechanisms of sensorimotor, cognitive and social development in humans and machines. It is housed at Inria Bordeaux-Sud-Ouest and Univ. Bordeaux and is headed by Pierre-Yves Oudeyer, a research director known for work on artificial curiosity and intrinsic motivation.",
+   "The team's GitHub organization, opened in 2012, publishes research code such as the Explauto exploration library and testbeds for automatic curriculum learning in deep reinforcement learning. More recent releases ground language models in interactive environments using online reinforcement learning and provide the Lamorel library for that purpose."
+  ],
+  "mission": "To understand how open-ended, curiosity-driven learning works and to build artificial agents that develop and learn in similar ways.",
+  "known_for": [
+   "Curiosity-driven and developmental AI",
+   "Pierre-Yves Oudeyer's research team",
+   "Grounding LLMs with reinforcement learning"
+  ],
+  "contributions": [
+   {
+    "title": "GitHub organization opened",
+    "note": "The team began publishing research code under flowersteam.",
+    "year": "2012"
+   },
+   {
+    "title": "Explauto library",
+    "note": "An autonomous exploration library for developmental robotics was released.",
+    "year": "2014"
+   },
+   {
+    "title": "teachDeepRL",
+    "note": "Code for teacher algorithms in deep reinforcement learning was published.",
+    "year": "2019"
+   },
+   {
+    "title": "TeachMyAgent",
+    "note": "A testbed platform for automatic curriculum learning methods in deep RL was released.",
+    "year": "2021"
+   },
+   {
+    "title": "Grounding LLMs with online RL and Lamorel",
+    "note": "Code for functionally grounding LLM knowledge in BabyAI-Text and a library for RL with LLMs were published.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Pierre-Yves Oudeyer",
+    "role": "Team head, Inria research director",
+    "url": "https://en.wikipedia.org/wiki/Pierre-Yves_Oudeyer"
+   }
+  ]
+ },
+ {
+  "id": "gpt-nl",
+  "tagline": "GPT-NL is a Dutch non-profit effort by TNO, NFI and SURF to build a lawful, sovereign Dutch language model trained on licensed data.",
+  "about": [
+   "GPT-NL is a joint initiative of TNO, the Netherlands Forensic Institute and SURF, launched in November 2023 with a reported budget of 13.5 million euros. It aims to supply a language model for business and public use in which sovereignty, compliance and control matter.",
+   "The project stresses a clean data supply chain and has signed licensing arrangements with Dutch news publishers. It publishes datasets on Hugging Face, while its model is currently offered to launching customers, with GPT-NL version 1 scheduled for autumn 2026."
+  ],
+  "mission": "To provide a Dutch-language model developed responsibly, with transparent and lawfully sourced training data, for use in the Netherlands.",
+  "known_for": [
+   "Dutch sovereign language model",
+   "Permissioned and licensed training data",
+   "TNO, NFI and SURF collaboration"
+  ],
+  "contributions": [
+   {
+    "title": "Project launched",
+    "note": "TNO, SURF and NFI started GPT-NL after a project plan awarded at the end of November 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Dutch news publishers contribute",
+    "note": "Dutch news publishers began collaborating with TNO on training data through a licensing agreement.",
+    "year": "2025"
+   },
+   {
+    "title": "First pilots",
+    "note": "Five organizations began feasibility studies with the beta version of GPT-NL.",
+    "year": "2026"
+   },
+   {
+    "title": "GPT-NL version 1 planned",
+    "note": "The project lists the first full release for autumn 2026.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "TNO team members",
+    "role": "Contributors listed in the GPT-NL Hugging Face organization",
+    "url": "https://huggingface.co/GPT-NL"
+   }
+  ],
+  "_flag": "Model weights appear restricted to launching customers under a planned licensing structure; only datasets are verified as open."
+ },
+ {
+  "id": "gronlp",
+  "tagline": "GroNLP is the computational linguistics group at the University of Groningen, known for BERTje, HateBERT and Dutch GPT-2 models.",
+  "about": [
+   "GroNLP is the Computational Linguistics group of the Center for Language and Cognition Groningen. Its members, including Malvina Nissim and Arianna Bisazza, work on topics from NLP to dialectology and publish models and datasets on Hugging Face.",
+   "In December 2019 the group introduced BERTje, a Dutch BERT model by Wietse de Vries, Andreas van Cranenburgh, Arianna Bisazza, Tommaso Caselli, Gertjan van Noord and Malvina Nissim. HateBERT, a BERT retrained for abusive language detection in English, followed in October 2020."
+  ],
+  "mission": "To advance computational linguistics and give researchers open language models for Dutch and other languages.",
+  "known_for": [
+   "BERTje Dutch BERT",
+   "HateBERT for abusive language",
+   "Dutch GPT-2 models"
+  ],
+  "contributions": [
+   {
+    "title": "BERTje",
+    "note": "A Dutch BERT model was introduced on arXiv.",
+    "year": "2019"
+   },
+   {
+    "title": "HateBERT",
+    "note": "Caselli, Basile, Mitrovic and Granitzer retrained BERT for abusive language detection.",
+    "year": "2020"
+   },
+   {
+    "title": "Dutch models on Hugging Face hub",
+    "note": "The GroNLP organization published bert-base-dutch-cased and gpt2-small-dutch on the hub.",
+    "year": "2022"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Malvina Nissim",
+    "role": "Professor, group member",
+    "url": "https://www.rug.nl/research/clcg/research/cl/?lang=en"
+   },
+   {
+    "name": "Arianna Bisazza",
+    "role": "Group member",
+    "url": "https://www.rug.nl/research/clcg/research/cl/?lang=en"
+   },
+   {
+    "name": "Andreas van Cranenburgh",
+    "role": "BERTje co-author",
+    "url": "https://huggingface.co/andreasvc"
+   },
+   {
+    "name": "Tommaso Caselli",
+    "role": "HateBERT lead author",
+    "url": "https://arxiv.org/abs/2010.12472"
+   }
+  ]
+ },
+ {
+  "id": "heidelberg-nlp",
+  "tagline": "Heidelberg NLP is the computational linguistics group at Heidelberg University, producing benchmarks such as VALSE and graph-based language models.",
+  "about": [
+   "The Heidelberg Natural Language Processing Group is based at the Department of Computational Linguistics, where Anette Frank is among its principal researchers. Its GitHub organization, opened in 2019, hosts code for knowledge-graph extraction, multimodal explainability and model benchmarks.",
+   "Its releases include VALSE, a benchmark for vision and language models centered on linguistic phenomena, MM-SHAP for measuring multimodal contributions, and Graph Language Models, which Moritz Plenz and Anette Frank introduced in January 2024."
+  ],
+  "mission": "To advance language understanding and make models more faithful and explainable through open benchmarks and methods.",
+  "known_for": [
+   "VALSE vision-language benchmark",
+   "Graph Language Models",
+   "MM-SHAP and CC-SHAP explainability"
+  ],
+  "contributions": [
+   {
+    "title": "CoCo-Ex",
+    "note": "A tool mapping text to ConceptNet concept nodes was published.",
+    "year": "2021"
+   },
+   {
+    "title": "VALSE benchmark",
+    "note": "Parcalabescu, Cafagna, Muradjan, Frank, Calixto and Gatt released a task-independent vision-language benchmark.",
+    "year": "2021"
+   },
+   {
+    "title": "MM-SHAP",
+    "note": "A performance-agnostic metric for multimodal contributions was released.",
+    "year": "2022"
+   },
+   {
+    "title": "CC-SHAP and ancient language models",
+    "note": "Code for measuring explanation faithfulness and models for ancient languages were released.",
+    "year": "2023"
+   },
+   {
+    "title": "Graph Language Models",
+    "note": "Plenz and Frank introduced language models operating on graphs.",
+    "year": "2024"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Anette Frank",
+    "role": "Professor and principal researcher",
+    "url": "https://github.com/AnetteFrank"
+   },
+   {
+    "name": "Letitia Parcalabescu",
+    "role": "VALSE first author",
+    "url": "https://github.com/LetiP"
+   },
+   {
+    "name": "Moritz Plenz",
+    "role": "Graph Language Models first author",
+    "url": "https://github.com/MoritzPlenz"
+   },
+   {
+    "name": "Maria Becker",
+    "role": "Researcher",
+    "url": "https://github.com/maria-becker"
+   }
+  ]
+ },
+ {
+  "id": "hplt",
+  "tagline": "HPLT is an EU-funded consortium coordinated by Charles University that publishes petabyte-scale multilingual web corpora and models.",
+  "about": [
+   "High Performance Language Technologies is a three-year EU-funded project that started in September 2022. It is coordinated by Charles University in Prague and brings together five universities, two high-performance computing centers and a private NLP company.",
+   "Its first release covered monolingual data in 75 languages at 5.6 trillion tokens and parallel data in 18 language pairs. The second release reached 7.6 trillion tokens in 193 languages and 380 million parallel sentences in 51 pairs, distributed under the CC0 license on Hugging Face and its website."
+  ],
+  "mission": "To provide open multilingual datasets, translation models and tools for training language models at scale.",
+  "known_for": [
+   "Petabyte-scale multilingual web corpora",
+   "HPLT v2 CC0 datasets",
+   "OpusCleaner and OpusTrainer tools"
+  ],
+  "contributions": [
+   {
+    "title": "Project starts",
+    "note": "The EU-funded HPLT project began in September 2022 under Charles University.",
+    "year": "2022"
+   },
+   {
+    "title": "OpusCleaner",
+    "note": "A web interface for cleaning machine translation training data was published.",
+    "year": "2022"
+   },
+   {
+    "title": "First data and model release",
+    "note": "HPLT published version 1 datasets and models, described at EAMT 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "HPLT-MT models",
+    "note": "Configuration and scripts for HPLT translation model releases were published.",
+    "year": "2024"
+   },
+   {
+    "title": "HPLT v2 data release",
+    "note": "The second release of cleaned monolingual and parallel data under CC0 was described at MT Summit 2025.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Stephan Oepen",
+    "role": "HPLT member (University of Oslo)",
+    "url": "https://huggingface.co/oepen"
+   },
+   {
+    "name": "Nikolay Bogoychev",
+    "role": "HPLT member",
+    "url": "https://huggingface.co/XapaJIaMnu"
+   },
+   {
+    "name": "David Samuel",
+    "role": "HPLT member",
+    "url": "https://huggingface.co/davda54"
+   },
+   {
+    "name": "Jelmer van der Linde",
+    "role": "HPLT member",
+    "url": "https://huggingface.co/jelmervdl"
+   },
+   {
+    "name": "Pinzhen Chen",
+    "role": "HPLT member",
+    "url": "https://huggingface.co/pinzhenchen"
+   }
+  ],
+  "founded": 2022
+ },
+ {
+  "id": "nytk",
+  "tagline": "The Hungarian Research Centre for Linguistics' language technology group publishes the PULI Hungarian language models and national corpora.",
+  "about": [
+   "The group grew from the Corpus Linguistics Department formed in 1997 and is led by Enikő Héja, with Gábor Prószéky and Tamás Váradi among its senior staff. It builds language resources, tools and neural models for Hungarian.",
+   "Its work includes the Hungarian National Corpus, completed in 2005 with a second edition in 2014, the e-magyar text processing system, and the HuLU benchmark modeled on GLUE. Its PULI family includes PULI-GPT-3SX, a seven-billion-parameter Hungarian model."
+  ],
+  "mission": "To develop language technology for Hungarian, from corpora and morphology to modern neural language models.",
+  "known_for": [
+   "PULI Hungarian language models",
+   "Hungarian National Corpus",
+   "e-magyar toolchain and HuLU"
+  ],
+  "contributions": [
+   {
+    "title": "Corpus Linguistics Department formed",
+    "note": "The predecessor of the group was established.",
+    "year": "1997"
+   },
+   {
+    "title": "First Hungarian National Corpus",
+    "note": "The MNSZ corpus was completed.",
+    "year": "2005"
+   },
+   {
+    "title": "MNSZ2 released",
+    "note": "The second Hungarian National Corpus was released.",
+    "year": "2014"
+   },
+   {
+    "title": "e-magyar toolchain",
+    "note": "The emtsv text processing system repository was opened.",
+    "year": "2018"
+   },
+   {
+    "title": "HuLU benchmark and PULI-GPT-3SX",
+    "note": "A Hungarian GLUE-style benchmark kit and a 7B Hungarian GPT-3 model were published.",
+    "year": "2022"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Enikő Héja",
+    "role": "Research group leader",
+    "url": "https://nlp.nytud.hu/"
+   },
+   {
+    "name": "Gábor Prószéky",
+    "role": "Chief director and scientific adviser",
+    "url": "https://nlp.nytud.hu/"
+   },
+   {
+    "name": "Tamás Váradi",
+    "role": "Director and senior research fellow",
+    "url": "https://huggingface.co/VarTamas"
+   },
+   {
+    "name": "Noémi Ligeti-Nagy",
+    "role": "Research fellow",
+    "url": "https://huggingface.co/ligetinagy"
+   },
+   {
+    "name": "Zijian Győző Yang",
+    "role": "Research fellow",
+    "url": "https://huggingface.co/fragata"
+   }
+  ]
+ },
+ {
+  "id": "illuin",
+  "tagline": "Illuin Technology is a Paris AI company whose research team co-created ColPali visual document retrieval and the ViDoRe benchmark.",
+  "about": [
+   "Illuin Technology is a Paris-based AI company that publishes research code under the illuin-tech GitHub organization and models on Hugging Face. Its researchers work with academic partners including CentraleSupélec and EPFL.",
+   "In February 2024 the team co-authored CroissantLLM, a 1.3B-parameter bilingual French-English model with open training data. In June 2024 it released ColPali, which retrieves documents using vision-language models, together with the ViDoRe benchmark, and in 2025 it followed with the ModernVBERT encoder under the MIT license."
+  ],
+  "mission": "To build practical AI systems and advance open research on document understanding and retrieval.",
+  "known_for": [
+   "ColPali visual document retrieval",
+   "ViDoRe benchmark",
+   "CroissantLLM bilingual model"
+  ],
+  "contributions": [
+   {
+    "title": "CroissantLLM",
+    "note": "A 1.3B model pretrained on 3 trillion English and French tokens was released with open data and FrenchBench.",
+    "year": "2024"
+   },
+   {
+    "title": "ColPali",
+    "note": "Faysse and colleagues introduced efficient document retrieval with vision language models.",
+    "year": "2024"
+   },
+   {
+    "title": "ViDoRe benchmark",
+    "note": "Evaluation code for visual document retrieval was released alongside ColPali.",
+    "year": "2024"
+   },
+   {
+    "title": "Contextual embeddings",
+    "note": "A model implementation for contextual embeddings was published.",
+    "year": "2025"
+   },
+   {
+    "title": "ModernVBERT",
+    "note": "A 250M-parameter vision-language encoder for document retrieval was released under the MIT license.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Manuel Faysse",
+    "role": "ColPali and CroissantLLM first author",
+    "url": "https://arxiv.org/abs/2407.01449"
+   },
+   {
+    "name": "Gautier Viaud",
+    "role": "ColPali and ModernVBERT co-author",
+    "url": "https://arxiv.org/abs/2407.01449"
+   },
+   {
+    "name": "Hugues Sibille",
+    "role": "ColPali co-author",
+    "url": "https://arxiv.org/abs/2407.01449"
+   },
+   {
+    "name": "Tony Wu",
+    "role": "ColPali co-author",
+    "url": "https://arxiv.org/abs/2407.01449"
+   }
+  ]
+ },
+ {
+  "id": "ipipan",
+  "tagline": "IPI PAN, the Institute of Computer Science of the Polish Academy of Sciences, publishes open Polish retrieval models and question answering datasets.",
+  "about": [
+   "The Institute of Computer Science of the Polish Academy of Sciences in Warsaw hosts a Linguistic Engineering Group that builds resources for Polish. Its researchers co-trained HerBERT with Allegro, and Alina Wróblewska is a co-author of that work.",
+   "Its Hugging Face organization lists dozens of models and datasets, including the PolQA and MAUPQA question answering datasets, the NKJP1M corpus, the Silver Retriever retrieval model, and HerBERT variants for Silesian and Kashubian."
+  ],
+  "mission": "To provide open language resources and models for Polish and related regional languages.",
+  "known_for": [
+   "Polish question answering datasets PolQA and MAUPQA",
+   "Silver Retriever Polish retrieval model",
+   "HerBERT co-development"
+  ],
+  "contributions": [
+   {
+    "title": "NKJP1M and herference",
+    "note": "The NKJP1M corpus and the herference-large model were published on Hugging Face.",
+    "year": "2022"
+   },
+   {
+    "title": "PolQA",
+    "note": "A Polish question answering dataset was released under CC BY-SA 4.0.",
+    "year": "2022"
+   },
+   {
+    "title": "MAUPQA",
+    "note": "A large Polish question answering dataset was released.",
+    "year": "2023"
+   },
+   {
+    "title": "Silver Retriever",
+    "note": "A Polish passage retrieval model was released.",
+    "year": "2023"
+   },
+   {
+    "title": "Silesian and Kashubian HerBERT",
+    "note": "Regional language models based on HerBERT were published.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Alina Wróblewska",
+    "role": "Researcher, HerBERT co-author",
+    "url": "https://huggingface.co/alina-wroblewska"
+   },
+   {
+    "name": "Agnieszka Mykowiecka",
+    "role": "Researcher",
+    "url": "https://huggingface.co/amykowiecka"
+   },
+   {
+    "name": "Aleksander Wawer",
+    "role": "Researcher",
+    "url": "https://huggingface.co/aleksanderwawer"
+   },
+   {
+    "name": "Piotr Rychlik",
+    "role": "Researcher",
+    "url": "https://huggingface.co/rychlik"
+   }
+  ]
+ },
+ {
+  "id": "jerteh",
+  "tagline": "JeRTeh is a Serbian society that releases Serbian language models, corpora and tools for language technology.",
+  "about": [
+   "The Society for Language Resources and Technologies, known as JeRTeh, is a Serbian association that runs seminars, publishes resources and takes part in projects such as UniDive, Distant Reading, WikiELTeC and It-Sr-NER. It maintains a GitHub organization opened in 2023.",
+   "It publishes Serbian models such as Jerteh-355 on Hugging Face and corpora including srpELTeC. In April 2026 it joined a protocol with the Office for IT and eGovernment and ten other institutions to build a national Serbian language model."
+  ],
+  "mission": "To develop and share language resources and models for Serbian.",
+  "known_for": [
+   "Serbian GPT-2 and BERT-style models",
+   "srpELTeC literary corpus",
+   "Serbian language technology society"
+  ],
+  "contributions": [
+   {
+    "title": "BEaSTagger",
+    "note": "A stacked POS tagging system for Serbian was published.",
+    "year": "2021"
+   },
+   {
+    "title": "It-Sr-NER",
+    "note": "CLARIN-compatible NER and geoparsing services for Italian and Serbian were released.",
+    "year": "2022"
+   },
+   {
+    "title": "Jerteh-355 model",
+    "note": "A Serbian language model was published on Hugging Face.",
+    "year": "2023"
+   },
+   {
+    "title": "NovaIskra project",
+    "note": "A cultural heritage project with UNILIB was started.",
+    "year": "2024"
+   },
+   {
+    "title": "National language model protocol",
+    "note": "JeRTeh and eleven institutions signed a protocol to build a Serbian national model.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Mihailo Škorić",
+    "role": "Model developer",
+    "url": "https://huggingface.co/procesaur"
+   },
+   {
+    "name": "Ranka Stanković",
+    "role": "Member",
+    "url": "https://huggingface.co/rankas"
+   },
+   {
+    "name": "Milica Ikonić Nešić",
+    "role": "Member",
+    "url": "https://huggingface.co/MilicaIK"
+   },
+   {
+    "name": "Jelena Graovac",
+    "role": "Member",
+    "url": "https://huggingface.co/jgraovac"
+   }
+  ]
+ },
+ {
+  "id": "lvl-reykjavik",
+  "tagline": "The Language and Voice Lab at Reykjavik University builds open Icelandic speech corpora and recognition and synthesis models.",
+  "about": [
+   "The Language and Voice Lab develops speech technology for Icelandic. It ran the crowd-sourced Samrómur corpus with Almannarómur, the Icelandic Center for Language Technology, and the latest release holds about 2,233 hours of recordings.",
+   "It also released the Althingi parliamentary corpus of about 542 hours covering 2005 to 2016, the first public Icelandic corpus of children's voices, and synthetic data generated with its TTS systems. The datasets and models are licensed openly on Hugging Face, OpenSLR and LDC."
+  ],
+  "mission": "To make Icelandic speech technology openly available, with large corpora and models for recognition and synthesis.",
+  "known_for": [
+   "Samrómur Icelandic speech corpus",
+   "Althingi parliamentary speech corpus",
+   "Open Icelandic ASR and TTS models"
+  ],
+  "contributions": [
+   {
+    "title": "Althingi corpus on Hugging Face",
+    "note": "The 542-hour Althingi speech corpus was published on the hub.",
+    "year": "2022"
+   },
+   {
+    "title": "Raddrómur corpus",
+    "note": "The Raddrómur Icelandic speech corpus was created at the lab.",
+    "year": "2022"
+   },
+   {
+    "title": "Samrómur Children",
+    "note": "The first public Icelandic corpus with children's voices was released under Creative Commons.",
+    "year": "2022"
+   },
+   {
+    "title": "Whisper Icelandic models",
+    "note": "Fine-tuned Whisper Large models for Icelandic ASR were released.",
+    "year": "2023"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Jón Guðnason",
+    "role": "Contact person for lab corpora",
+    "url": "https://catalog.ldc.upenn.edu/docs/LDC2023S05/README.txt"
+   },
+   {
+    "name": "Carlos Daniel Hernández Mena",
+    "role": "Speech researcher",
+    "url": "https://huggingface.co/carlosdanielhernandezmena"
+   }
+  ]
+ },
+ {
+  "id": "techiaith",
+  "tagline": "The Language Technologies Unit at Bangor University builds open Welsh speech, translation and language tools.",
+  "about": [
+   "Uned Technolegau Iaith is a self-funded research unit at Bangor University that develops digital language resources for Welsh, other Celtic languages and multilingual settings. Delyth Prys is head of the unit, and Gruffudd Prys, Dewi Bryn Jones and colleagues author its work.",
+   "It runs the National Language Technologies Portal and maintains Welsh speech recognition, text-to-speech, translation and terminology tools. Its public repositories date back to 2014, and it has worked with Welsh Common Voice, the Welsh government and S4C."
+  ],
+  "mission": "To make language technology available for Welsh and to share the tools openly.",
+  "known_for": [
+   "Welsh speech recognition and synthesis",
+   "Welsh machine translation",
+   "Welsh National Language Technologies Portal"
+  ],
+  "contributions": [
+   {
+    "title": "GitHub organization opened",
+    "note": "The unit began publishing code on GitHub.",
+    "year": "2014"
+   },
+   {
+    "title": "MosesSMT Welsh translation",
+    "note": "Docker tooling for Welsh statistical machine translation was published.",
+    "year": "2015"
+   },
+   {
+    "title": "New resources for Welsh",
+    "note": "The unit released resources for communicating with computers in Welsh, funded by the Welsh government and S4C.",
+    "year": "2016"
+   },
+   {
+    "title": "DeepSpeech Welsh recipes",
+    "note": "Docker tooling for training Welsh speech recognition was released.",
+    "year": "2018"
+   },
+   {
+    "title": "HuggingFace Welsh STT",
+    "note": "Tooling for Welsh speech recognition with Hugging Face was released.",
+    "year": "2021"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Delyth Prys",
+    "role": "Head of Unit",
+    "url": "https://techiaith.cymru"
+   },
+   {
+    "name": "Gruffudd Prys",
+    "role": "Researcher",
+    "url": "https://huggingface.co/GruffPrys"
+   },
+   {
+    "name": "Dewi Bryn Jones",
+    "role": "Researcher",
+    "url": "https://huggingface.co/DewiBrynJones"
+   },
+   {
+    "name": "Stefano Ghazzali",
+    "role": "Researcher",
+    "url": "https://huggingface.co/stefanoghazzali"
+   }
+  ]
+ },
+ {
+  "id": "lightly",
+  "tagline": "Lightly is a Zurich company, born from ETH research, that open-sources self-supervised learning and vision training libraries.",
+  "about": [
+   "Lightly was founded by Matthias Heller and Igor Susmelj as a data-centric AI company based on ETH Zurich research. It raised a 3 million dollar seed round in May 2022 and reports 10 million dollars raised in total.",
+   "Its open-source lightly library for self-supervised learning dates from October 2020. It later added the labelformat converter, LightlyTrain for vision model pretraining and distillation, and LightlyStudio, alongside a commercial platform."
+  ],
+  "mission": "To help teams build better vision models by improving the data that models are trained on.",
+  "known_for": [
+   "Lightly self-supervised learning library",
+   "LightlyTrain vision pretraining",
+   "ETH Zurich spin-off"
+  ],
+  "contributions": [
+   {
+    "title": "lightly library",
+    "note": "The open-source self-supervised learning library was published on GitHub.",
+    "year": "2020"
+   },
+   {
+    "title": "Seed round",
+    "note": "Lightly secured 3 million dollars led by Wingman Ventures.",
+    "year": "2022"
+   },
+   {
+    "title": "labelformat",
+    "note": "A converter between computer vision label formats was released.",
+    "year": "2023"
+   },
+   {
+    "title": "LightlyTrain",
+    "note": "A training toolkit for YOLO, ViTs and RT-DETR was released.",
+    "year": "2025"
+   },
+   {
+    "title": "LightlyStudio",
+    "note": "A unified data platform for multimodal ML was published.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Matthias Heller",
+    "role": "Co-founder and CEO",
+    "url": "https://www.lightly.ai/about"
+   },
+   {
+    "name": "Igor Susmelj",
+    "role": "Co-founder and CTO",
+    "url": "https://huggingface.co/igor-lightly"
+   }
+  ],
+  "_flag": "Commercial startup with open-source libraries; open-source commitment is partial because the platform is commercial."
+ },
+ {
+  "id": "linagora",
+  "tagline": "LINAGORA is a French open-source software company behind the LinTO voice assistant and the Lucie French open LLM.",
+  "about": [
+   "LINAGORA was founded in 2000 by Alexandre Zapolsky and Michel-Marie Maudet, and its headquarters moved to Issy-les-Moulineaux in 2024. Its products include Twake Workplace, OpenPaaS and the LinTO voice assistant, and its GitHub organization holds more than 500 repositories.",
+   "In 2023 it created the OpenLLM France community, and in January 2025 it released Lucie, an open-source sovereign large language model. The release drew criticism after tests of an unfinished version and was temporarily suspended."
+  ],
+  "mission": "To invent and develop ethical, open-source technology and to support open sovereign AI in France.",
+  "known_for": [
+   "LinTO open-source voice assistant",
+   "Lucie French open LLM",
+   "Twake Workplace and OpenPaaS"
+  ],
+  "contributions": [
+   {
+    "title": "French National Assembly adopts its software",
+    "note": "The National Assembly chose Linagora software to replace Windows.",
+    "year": "2007"
+   },
+   {
+    "title": "LinTO launched",
+    "note": "The open-source voice assistant was launched.",
+    "year": "2017"
+   },
+   {
+    "title": "OpenLLM France",
+    "note": "Linagora created the community around open French language models.",
+    "year": "2023"
+   },
+   {
+    "title": "CNRS framework agreement",
+    "note": "Linagora and CNRS signed a research collaboration agreement.",
+    "year": "2024"
+   },
+   {
+    "title": "Lucie released",
+    "note": "The open-source French LLM was released in January 2025.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Alexandre Zapolsky",
+    "role": "Co-founder",
+    "url": "https://en.wikipedia.org/wiki/Linagora"
+   },
+   {
+    "name": "Michel-Marie Maudet",
+    "role": "Co-founder and CEO",
+    "url": "https://github.com/mmaudet"
+   },
+   {
+    "name": "Julie Hunter",
+    "role": "Researcher",
+    "url": "https://huggingface.co/juliehunter"
+   },
+   {
+    "name": "Olivier Gouvert",
+    "role": "Researcher",
+    "url": "https://huggingface.co/oligou"
+   }
+  ],
+  "founded": 2000
+ },
+ {
+  "id": "mainlp",
+  "tagline": "MaiNLP is the Munich AI and NLP lab at LMU Munich, led by Barbara Plank, working on robust and inclusive human-facing NLP.",
+  "about": [
+   "MaiNLP is a research lab at the Center for Information and Language Processing at LMU Munich. It is led by Barbara Plank, who holds the Chair for AI and Computational Linguistics and co-directs the center.",
+   "Its research addresses robustness to language variation, fairness and human label variation, and it runs the ERC project DIALECT. The lab belongs to the ELLIS Europe NLP Program and ELLIS Unit Munich, and publishes datasets such as CrossRE and a survey of Germanic low-resource corpora on GitHub."
+  ],
+  "mission": "To make NLP models more robust and inclusive by studying variation in language and human labels.",
+  "known_for": [
+   "Human label variation research",
+   "CrossRE relation extraction dataset",
+   "Germanic low-resource language corpora"
+  ],
+  "contributions": [
+   {
+    "title": "GitHub organization opened",
+    "note": "MaiNLP began publishing code on GitHub.",
+    "year": "2022"
+   },
+   {
+    "title": "Awesome human label variation",
+    "note": "A curated list of datasets with un-aggregated labels accompanies an EMNLP 2022 paper.",
+    "year": "2022"
+   },
+   {
+    "title": "CrossRE",
+    "note": "A cross-domain relation extraction dataset was released at EMNLP Findings.",
+    "year": "2022"
+   },
+   {
+    "title": "Germanic low-resource corpora survey",
+    "note": "An overview of corpora for Germanic dialects appeared at NoDaLiDa 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Multilingual refusal and explaind",
+    "note": "Code on multilingual refusal and a framework attributing model behavior was released.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Barbara Plank",
+    "role": "Head of MaiNLP",
+    "url": "https://github.com/bplank"
+   },
+   {
+    "name": "Michael A. Hedderich",
+    "role": "Junior research group leader",
+    "url": "https://github.com/m-hedderich"
+   },
+   {
+    "name": "Diego Frassinelli",
+    "role": "Lecturer",
+    "url": "https://mainlp.github.io"
+   }
+  ]
+ },
+ {
+  "id": "dbmdz",
+  "tagline": "The MDZ Digital Library team at the Bavarian State Library publishes the widely used dbmdz German, Italian and Turkish BERT models.",
+  "about": [
+   "The Munich Digitization Center of the Bavarian State Library runs the dbmdz GitHub organization, which began in 2016 and mixes digital library software with open language models. Its berts repository, started in September 2019, documents BERT, DistilBERT, ELECTRA, GPT-2 and ConvBERT models.",
+   "Models trained on Europeana newspapers cover German, French and historic multilingual text, with German BERT released in February 2020. All models are MIT-licensed on Hugging Face under the dbmdz organization."
+  ],
+  "mission": "To make digital library collections and language models for historical and modern text openly usable.",
+  "known_for": [
+   "dbmdz German BERT and ELECTRA models",
+   "Europeana newspaper historic models",
+   "IIIF and OCR open-source tools"
+  ],
+  "contributions": [
+   {
+    "title": "berts repository",
+    "note": "The dbmdz models repository was opened.",
+    "year": "2019"
+   },
+   {
+    "title": "Europeana German BERT",
+    "note": "Cased and uncased BERT models trained on Europeana newspapers were released.",
+    "year": "2020"
+   },
+   {
+    "title": "German GPT-2 and Europeana French",
+    "note": "A German GPT-2 and French BERT and ELECTRA models were released.",
+    "year": "2020"
+   },
+   {
+    "title": "Historic language models",
+    "note": "Multilingual and monolingual historic models were published.",
+    "year": "2021"
+   },
+   {
+    "title": "Historic Dutch BERT",
+    "note": "A model trained on Delpher newspapers from 1618 to 1879 was released.",
+    "year": "2021"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Stefan Schweter",
+    "role": "Model author",
+    "url": "https://github.com/stefan-it"
+   },
+   {
+    "name": "Johannes Baiter",
+    "role": "Developer",
+    "url": "https://github.com/jbaiter"
+   },
+   {
+    "name": "Marcus Bitzl",
+    "role": "Developer",
+    "url": "https://github.com/bitzl"
+   },
+   {
+    "name": "Katharina Schmid",
+    "role": "Member",
+    "url": "https://huggingface.co/schmika"
+   }
+  ]
+ }
+]

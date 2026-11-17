@@ -1,0 +1,231 @@
+# Open Labs Atlas
+
+> Directory of independent AI labs committed to open source, by Renaissance Labs.
+
+- [Aalto Speech Recognition](https://labs.renaissancelabs.eu/labs/aalto-speech-recognition/): Aalto University's speech recognition group, whose open Morfessor and AaltoASR tools have long supported speech and language technology for 
+- [AdapterHub](https://labs.renaissancelabs.eu/labs/adapterhub/): AdapterHub maintains the open Adapters library, a modular, parameter-efficient fine-tuning toolkit built on Hugging Face Transformers.
+- [Agentica](https://labs.renaissancelabs.eu/labs/agentica/): A Berkeley Sky Computing Lab initiative that publishes open reinforcement learning recipes, models and the rLLM framework for training langu
+- [AI Singapore](https://labs.renaissancelabs.eu/labs/ai-singapore/): Singapore's national AI programme, which builds applied AI capability and the open SEA-LION language models for Southeast Asia.
+- [AI Sweden](https://labs.renaissancelabs.eu/labs/ai-sweden/): Sweden's national centre for applied AI, a public and private partnership that also published the GPT-SW3 Nordic language models.
+- [AI21 Labs](https://labs.renaissancelabs.eu/labs/ai21-labs/): An Israeli enterprise AI company that publishes the hybrid SSM-Transformer Jamba models as open weights alongside commercial products.
+- [AI4Bharat](https://labs.renaissancelabs.eu/labs/ai4bharat/): An IIT Madras research lab building open datasets, models and tools for Indian languages in translation, speech and language modelling.
+- [AiLab](https://labs.renaissancelabs.eu/labs/ailab/): The AI Laboratory at the University of Latvia builds open Latvian language resources, from the Tezaurs lexicon to a multilayer corpus and La
+- [AIML Lab](https://labs.renaissancelabs.eu/labs/aiml-lab/): The AI and Machine Learning Lab at TU Darmstadt releases open safety tooling and reasoning research, including LlavaGuard and Safe Latent Di
+- [Aleph Alpha](https://labs.renaissancelabs.eu/labs/aleph-alpha/): Heidelberg language-model company that built sovereign European models and released part of its research as open weights, now being merged i
+- [Alexandra Institute](https://labs.renaissancelabs.eu/labs/alexandra-institute/): Danish non-profit research and technology institute whose open resources include DaNLP and the ScandEval benchmark, now EuroEval.
+- [Allen Institute for AI](https://labs.renaissancelabs.eu/labs/ai2/): A Seattle nonprofit research institute founded by Paul Allen that builds fully open language models, datasets and training recipes.
+- [ALMAnaCH](https://labs.renaissancelabs.eu/labs/almanach/): Inria Paris research team behind the CamemBERT family of open French language models and work in computational humanities.
+- [Answer.AI](https://labs.renaissancelabs.eu/labs/answer-ai/): A public benefit AI R&D lab that turns research advances into open-source libraries, models and tools for developers.
+- [Apollo Research](https://labs.renaissancelabs.eu/labs/apollo-research/): London-based AI safety organisation that evaluates frontier models for scheming and publishes open evaluation and interpretability work.
+- [Arc Institute](https://labs.renaissancelabs.eu/labs/arc-institute/): A nonprofit biomedical research institute that builds open AI models for biology, including Evo 2 and virtual cell models.
+- [ARC Prize Foundation](https://labs.renaissancelabs.eu/labs/arc-prize-foundation/): A nonprofit that runs the ARC-AGI benchmarks and prize competitions to measure and encourage general reasoning in AI systems.
+- [Arcee AI](https://labs.renaissancelabs.eu/labs/arcee-ai/): A San Francisco model lab that trains open-weight models and maintains MergeKit, a widely used toolkit for merging open language models.
+- [audEERING](https://labs.renaissancelabs.eu/labs/audeering/): Munich-area audio AI company and maker of the openSMILE toolkit and open speech emotion and age-gender models.
+- [AutoML Groups](https://labs.renaissancelabs.eu/labs/automl-groups/): The AutoML groups of Freiburg and Hannover, creators of auto-sklearn, SMAC3 and Auto-PyTorch.
+- [BAAI](https://labs.renaissancelabs.eu/labs/baai/): A Beijing nonprofit AI research academy behind the Wudao models, the FlagOpen ecosystem and the BGE embedding models.
+- [Bespoke Labs](https://labs.renaissancelabs.eu/labs/bespoke-labs/): A data research lab that builds the Curator data tooling, RL environments and benchmarks, and co-leads the OpenThoughts open reasoning data 
+- [Bethge Lab](https://labs.renaissancelabs.eu/labs/bethge-lab/): Tübingen lab studying robustness and human-like vision, known for the Foolbox toolbox and open robustness benchmarks.
+- [BharatGen](https://labs.renaissancelabs.eu/labs/bharatgen/): An India-wide consortium anchored at IIT Bombay that releases open-weight text, speech and vision models for Indian languages.
+- [BigCode](https://labs.renaissancelabs.eu/labs/bigcode/): Open scientific collaboration run by Hugging Face and ServiceNow Research that released The Stack and the StarCoder family of code models.
+- [BigScience](https://labs.renaissancelabs.eu/labs/bigscience/): A year-long open research workshop coordinated by Hugging Face that produced the 176B-parameter BLOOM multilingual model.
+- [Bioptimus](https://labs.renaissancelabs.eu/labs/bioptimus/): A Paris startup building foundation models for pathology and biology, including the openly released H-Optimus pathology models.
+- [Black Forest Labs](https://labs.renaissancelabs.eu/labs/black-forest-labs/): A Freiburg lab founded by the creators of Stable Diffusion that builds the FLUX image models, with open-weight and API tiers.
+- [Boltz](https://labs.renaissancelabs.eu/labs/boltz/): A public benefit company growing out of MIT research that develops biomolecular models, with open Boltz-2 and BoltzGen alongside proprietary
+- [Browser Use](https://labs.renaissancelabs.eu/labs/browser-use/): An open-source library and company for AI browser agents, with hosted agents and stealth browsers.
+- [BSC Language Technologies Lab](https://labs.renaissancelabs.eu/labs/bsc-language-technologies-lab/): The Barcelona Supercomputing Center language technologies group that trains the open Salamandra and ALIA models for Iberian and European lan
+- [BUET CSE NLP Group](https://labs.renaissancelabs.eu/labs/buet-cse-nlp-group/): A BUET research group on low-resource Bangla NLP that releases BanglaBERT, BanglaT5 and the XL-Sum summarisation dataset.
+- [BUT Speech@FIT](https://labs.renaissancelabs.eu/labs/but-speech-fit/): Brno University of Technology's speech group, author of the VBx and DiariZen diarization toolkits and Czech language models.
+- [Canopy Labs](https://labs.renaissancelabs.eu/labs/canopy-labs/): A speech AI lab behind Orpheus, a family of Llama-based text-to-speech models released in March 2025 for open use.
+- [Cardiff NLP](https://labs.renaissancelabs.eu/labs/cardiff-nlp/): Cardiff University's NLP group, known for TweetEval, TweetNLP and the Twitter-RoBERTa models for social media analysis.
+- [Cartesia](https://labs.renaissancelabs.eu/labs/cartesia/): A San Francisco voice AI company founded by the Stanford authors of Mamba-style state-space models, which also releases open Rene and Llamba
+- [Center for AI Safety](https://labs.renaissancelabs.eu/labs/center-for-ai-safety/): A San Francisco nonprofit reducing societal-scale AI risk through research, field-building and open benchmarks such as HarmBench and WMDP.
+- [Center for Humanities Computing](https://labs.renaissancelabs.eu/labs/center-for-humanities-computing/): Aarhus University centre applying NLP to the humanities, behind DaCy, odyCy and the Scandinavian Embedding Benchmark.
+- [Chai Discovery](https://labs.renaissancelabs.eu/labs/chai-discovery/): A drug-discovery AI startup that released the open Chai-1 biomolecular structure model.
+- [CIS, LMU Munich](https://labs.renaissancelabs.eu/labs/cis-lmu-munich/): LMU Munich's language processing centre, behind SimAlign, Glot500 and GlotLID for massively multilingual NLP.
+- [CJVT](https://labs.renaissancelabs.eu/labs/cjvt/): The University of Ljubljana centre that builds Slovene language resources, corpora and the open GaMS generative models.
+- [CKIP Lab](https://labs.renaissancelabs.eu/labs/ckip-lab/): An Academia Sinica research group, active since 1986, that builds Chinese language processing resources and publishes open Chinese NLP model
+- [CLARIN-PL](https://labs.renaissancelabs.eu/labs/clarin-pl/): Polish language technology infrastructure at Wrocław University of Science and Technology, publishing Polish NLP tools, corpora and benchmar
+- [CLASSLA](https://labs.renaissancelabs.eu/labs/classla/): CLARIN knowledge centre providing open tools, models and corpora for Slovenian, Croatian, Serbian, Bosnian and Montenegrin.
+- [CLiPS](https://labs.renaissancelabs.eu/labs/clips/): University of Antwerp computational linguistics group, creator of the Pattern web mining library and Dutch NLP resources.
+- [CLTL](https://labs.renaissancelabs.eu/labs/cltl/): VU Amsterdam's Computational Linguistics and Text Mining Lab, publishing open Dutch language resources, MedRoBERTa.nl and teaching material.
+- [Common Crawl Foundation](https://labs.renaissancelabs.eu/labs/common-crawl-foundation/): A nonprofit that has published free, open web crawl archives since 2008, forming a foundation dataset for language model research.
+- [CompVis](https://labs.renaissancelabs.eu/labs/compvis/): The Computer Vision and Learning group at LMU Munich, which developed latent diffusion, the research behind Stable Diffusion, and releases i
+- [Contextual AI](https://labs.renaissancelabs.eu/labs/contextual-ai/): An enterprise retrieval-augmented generation company whose research arm releases open alignment methods and retrieval models.
+- [Crane AI Labs](https://labs.renaissancelabs.eu/labs/crane-ai-labs/): Ugandan AI group building open Luganda and Swahili language models, speech models and datasets on Gemma.
+- [Danish Foundation Models](https://labs.renaissancelabs.eu/labs/danish-foundation-models/): A consortium of Danish universities building open language models, datasets and evaluations so that Danish is not left behind in AI.
+- [Deep Cogito](https://labs.renaissancelabs.eu/labs/deep-cogito/): A San Francisco lab releasing open-weight reasoning models trained by iterated distillation and amplification, with the stated aim of genera
+- [Deep Learning Indaba](https://labs.renaissancelabs.eu/labs/deep-learning-indaba/): A pan-African machine learning movement that strengthens African AI through an annual Indaba, local IndabaX events, mentorship and awards.
+- [DeepSeek](https://labs.renaissancelabs.eu/labs/deepseek/): A Hangzhou AI lab founded by Liang Wenfeng and owned by the hedge fund High-Flyer, known for open-weight V3, R1 and V4 models released under
+- [deepset](https://labs.renaissancelabs.eu/labs/deepset/): A Berlin company that created and maintains Haystack, an open-source framework for building LLM and retrieval-augmented applications.
+- [DFKI](https://labs.renaissancelabs.eu/labs/dfki/): DFKI is Germany's national AI research center, a non-profit public-private partnership founded in 1988 that turns academic research into ind
+- [DICTA: Israel Center for Text Analysis](https://labs.renaissancelabs.eu/labs/dicta-israel-center-for-text-analysis/): A non-profit center building Hebrew language models and text tools, including the open DictaLM collection.
+- [Digital Umuganda](https://labs.renaissancelabs.eu/labs/digital-umuganda/): A Rwanda-based team building voice infrastructure and open datasets for African languages, with a focus on Kinyarwanda.
+- [DTAI](https://labs.renaissancelabs.eu/labs/dtai/): The DTAI group at KU Leuven combines machine learning, logic and data mining and is the home of the RobBERT Dutch language models.
+- [EdinburghNLP](https://labs.renaissancelabs.eu/labs/edinburghnlp/): EdinburghNLP is the University of Edinburgh's natural language processing group, ranked among the most productive in the world and the home 
+- [EleutherAI](https://labs.renaissancelabs.eu/labs/eleutherai/): EleutherAI is a non-profit research institute that grew from a Discord server into a leading source of open language models, datasets and ev
+- [ellamind](https://labs.renaissancelabs.eu/labs/ellamind/): A German AI company, based in Bremen and Berlin, that builds evaluation tools and open-source infrastructure for language models.
+- [ELLIS Alicante](https://labs.renaissancelabs.eu/labs/ellis-alicante/): ELLIS Alicante is a non-profit unit of the European ELLIS network focused on ethical, human-centric AI, directed by Nuria Oliver.
+- [EPFL LLM Team](https://labs.renaissancelabs.eu/labs/epfl-llm-team/): The EPFL LLM team built Meditron, an open suite of medical language models, and the Megatron-LLM trainer used to produce them.
+- [Epoch AI](https://labs.renaissancelabs.eu/labs/epoch-ai/): A research organization that publishes open datasets and analysis on AI compute, hardware, investment and data centers.
+- [Essential AI](https://labs.renaissancelabs.eu/labs/essential-ai/): A San Francisco lab led by Ashish Vaswani that builds an open platform for AI and has released the Rnj-1 model and the Essential-Web dataset
+- [EuroLLM](https://labs.renaissancelabs.eu/labs/eurollm/): A series of open multilingual language models covering the 24 official EU languages, built by a European research and industry consortium.
+- [Explosion](https://labs.renaissancelabs.eu/labs/explosion/): A Berlin software company, founded by Matthew Honnibal and Ines Montani, that created the spaCy open-source NLP library and the Prodigy anno
+- [FAR.AI](https://labs.renaissancelabs.eu/labs/far-ai/): A nonprofit AI security research organization that builds safety solutions, tests frontier models and convenes the field.
+- [fast.ai](https://labs.renaissancelabs.eu/labs/fast-ai/): A nonprofit research and education group, founded by Jeremy Howard and Rachel Thomas, behind the fastai library and free deep learning cours
+- [FBK Machine Translation Unit](https://labs.renaissancelabs.eu/labs/fbk-machine-translation-unit/): The machine translation group at Fondazione Bruno Kessler, publishing open speech and text translation datasets and software.
+- [Flowers](https://labs.renaissancelabs.eu/labs/flowers/): Flowers is an Inria team in Bordeaux studying curiosity-driven learning in humans and machines, led by Pierre-Yves Oudeyer.
+- [FutureHouse](https://labs.renaissancelabs.eu/labs/futurehouse/): A nonprofit AI-for-science lab, founded by Sam Rodriques and Andrew White, building language agents to automate scientific discovery.
+- [Genmo](https://labs.renaissancelabs.eu/labs/genmo/): A video generation company that released Mochi 1, an open-source video model under the Apache 2.0 license.
+- [Gensyn](https://labs.renaissancelabs.eu/labs/gensyn/): A London-based project building decentralised infrastructure for machine learning, founded by Ben Fielding and Harry Grieve.
+- [Ghana NLP](https://labs.renaissancelabs.eu/labs/ghana-nlp/): An open-source community building language technology for Ghanaian languages such as Twi, Ewe and Frafra.
+- [Giskard](https://labs.renaissancelabs.eu/labs/giskard/): A Paris company building AI red-teaming and evaluation tools, with an open-source testing library and the Phare benchmark.
+- [Goodfire](https://labs.renaissancelabs.eu/labs/goodfire/): An interpretability research company, founded by researchers from OpenAI and Google DeepMind, that works to understand and align AI models.
+- [Gorilla](https://labs.renaissancelabs.eu/labs/gorilla/): A UC Berkeley project that built Gorilla LLM and the Berkeley Function-Calling Leaderboard for evaluating tool and API use by language model
+- [GPT-NL](https://labs.renaissancelabs.eu/labs/gpt-nl/): GPT-NL is a Dutch non-profit effort by TNO, NFI and SURF to build a lawful, sovereign Dutch language model trained on licensed data.
+- [GroNLP](https://labs.renaissancelabs.eu/labs/gronlp/): GroNLP is the computational linguistics group at the University of Groningen, known for BERTje, HateBERT and Dutch GPT-2 models.
+- [H Company](https://labs.renaissancelabs.eu/labs/h-company/): A Paris AI company building computer-use and web agents and releasing its Holo vision-language models as open weights.
+- [Hazy Research](https://labs.renaissancelabs.eu/labs/hazy-research/): A Stanford research group led by Chris Re, known for efficient architectures and GPU kernels such as ThunderKittens, Hyena, Based and Monarc
+- [Heidelberg NLP](https://labs.renaissancelabs.eu/labs/heidelberg-nlp/): Heidelberg NLP is the computational linguistics group at Heidelberg University, producing benchmarks such as VALSE and graph-based language 
+- [Helsinki-NLP](https://labs.renaissancelabs.eu/labs/helsinki-nlp/): The language technology group at the University of Helsinki, creators of the OPUS-MT open translation models and OPUS parallel corpora.
+- [HiTZ Basque Center for Language Technology](https://labs.renaissancelabs.eu/labs/hitz-basque-center-for-language-technology/): The Basque Center for Language Technology at the University of the Basque Country, publishing Basque and multilingual language models and NL
+- [Hooshvare Research Lab](https://labs.renaissancelabs.eu/labs/hooshvare-research-lab/): A small non-profit Persian NLP lab that published ParsBERT, the first widely used monolingual BERT for Persian, along with Persian GPT-2 and
+- [HPC-AI Tech](https://labs.renaissancelabs.eu/labs/hpc-ai-tech/): Singapore company behind Colossal-AI, an open-source stack for large-model training, and the Open-Sora video generation models.
+- [HPLT](https://labs.renaissancelabs.eu/labs/hplt/): HPLT is an EU-funded consortium coordinated by Charles University that publishes petabyte-scale multilingual web corpora and models.
+- [Hugging Face](https://labs.renaissancelabs.eu/labs/hugging-face/): The company behind the Hugging Face Hub and the Transformers, Diffusers and Datasets libraries, the central platform for sharing open models
+- [Hungarian Research Centre for Linguistics](https://labs.renaissancelabs.eu/labs/hungarian-research-centre-for-linguistics/): The Hungarian Research Centre for Linguistics' language technology group publishes the PULI Hungarian language models and national corpora.
+- [Idiap Research Institute](https://labs.renaissancelabs.eu/labs/idiap-research-institute/): Independent Swiss non-profit research institute in Martigny working on speech, vision and machine learning, and the home of the original Tor
+- [Illuin Technology](https://labs.renaissancelabs.eu/labs/illuin-technology/): Illuin Technology is a Paris AI company whose research team co-created ColPali visual document retrieval and the ViDoRe benchmark.
+- [ILSP / Athena Research Center](https://labs.renaissancelabs.eu/labs/ilsp-athena-research-center/): Greek language technology institute at Athena Research Center that released Meltemi, the first open large language model for Greek, and Llam
+- [INSAIT](https://labs.renaissancelabs.eu/labs/insait/): Bulgarian AI and computer science institute at Sofia University, in partnership with ETH Zurich and EPFL, behind the BgGPT and MamayLM open 
+- [Institute for Machine Learning, JKU Linz](https://labs.renaissancelabs.eu/labs/institute-for-machine-learning-jku-linz/): Johannes Kepler University's machine learning institute, led by Sepp Hochreiter, the inventor of LSTM and a driver of modern Hopfield networ
+- [Institute of Computer Science PAS](https://labs.renaissancelabs.eu/labs/institute-of-computer-science-pas/): IPI PAN, the Institute of Computer Science of the Polish Academy of Sciences, publishes open Polish retrieval models and question answering 
+- [Institute of Foundation Models](https://labs.renaissancelabs.eu/labs/institute-of-foundation-models/): MBZUAI research institute that sponsors LLM360, the fully open effort behind the Amber, K2 and TxT360 releases, and the K2 Horizon model fam
+- [ISSAI](https://labs.renaissancelabs.eu/labs/issai/): Nazarbayev University's institute for AI in Kazakhstan, publishing open Kazakh speech corpora, TTS data and the KazLLM language model.
+- [JeRTeh](https://labs.renaissancelabs.eu/labs/jerteh/): JeRTeh is a Serbian society that releases Serbian language models, corpora and tools for language technology.
+- [KBLab](https://labs.renaissancelabs.eu/labs/kblab/): Data lab inside the National Library of Sweden that trains open Swedish language and speech models, including KB-BERT and KB-Whisper, on the
+- [Kempelen Institute of Intelligent Technologies](https://labs.renaissancelabs.eu/labs/kempelen-institute-of-intelligent-technologies/): Independent Slovak non-profit research institute for intelligent technologies, known for SlovakBERT and open Slovak NLP benchmarks.
+- [Kotoba Technologies](https://labs.renaissancelabs.eu/labs/kotoba-technologies/): Voice AI company that released the Kotoba-Whisper Japanese speech recognition models and builds real-time speech and translation models.
+- [Kyutai](https://labs.renaissancelabs.eu/labs/kyutai/): Paris non-profit open-science lab building speech-native and multimodal models, creator of Moshi, Mimi, Unmute and Helium.
+- [LAION](https://labs.renaissancelabs.eu/labs/laion/): German non-profit that releases large open datasets, tools and models for AI research, best known for LAION-400M, LAION-5B and OpenCLIP.
+- [lang-uk](https://labs.renaissancelabs.eu/labs/lang-uk/): Volunteer community of Ukrainian NLP specialists building open corpora, models and tools for the Ukrainian language.
+- [Language and Voice Lab](https://labs.renaissancelabs.eu/labs/language-and-voice-lab/): The Language and Voice Lab at Reykjavik University builds open Icelandic speech corpora and recognition and synthesis models.
+- [Language Technologies Unit](https://labs.renaissancelabs.eu/labs/language-technologies-unit/): The Language Technologies Unit at Bangor University builds open Welsh speech, translation and language tools.
+- [Language Technology Group, University of Oslo](https://labs.renaissancelabs.eu/labs/language-technology-group-university-of-oslo/): University of Oslo research group in natural language processing behind the NorBERT models, the NorBench benchmark and Norwegian generative 
+- [Latam-GPT](https://labs.renaissancelabs.eu/labs/latam-gpt/): Latin American open language model project coordinated by Chile's national AI centre CENIA, released in 2026 with a regional text corpus.
+- [Lelapa AI](https://labs.renaissancelabs.eu/labs/lelapa-ai/): South African language AI company building resource-efficient models for African languages, maker of Vulavula and the open InkubaLM.
+- [Letta](https://labs.renaissancelabs.eu/labs/letta/): San Francisco AI lab from the creators of MemGPT, building open-source stateful agents that remember and learn over time.
+- [Lightblue](https://labs.renaissancelabs.eu/labs/lightblue/): Tokyo AI company that publishes open Japanese and multilingual language models on Hugging Face alongside its enterprise AI platform.
+- [Lightly](https://labs.renaissancelabs.eu/labs/lightly/): Lightly is a Zurich company, born from ETH research, that open-sources self-supervised learning and vision training libraries.
+- [Lightning AI](https://labs.renaissancelabs.eu/labs/lightning-ai/): Company behind PyTorch Lightning, LitGPT and LitServe, open-source frameworks for training and serving models.
+- [LightOn](https://labs.renaissancelabs.eu/labs/lighton/): Paris-based, publicly listed AI company that open-sources retrieval models, ModernBERT variants and multi-vector search tools.
+- [LINAGORA](https://labs.renaissancelabs.eu/labs/linagora/): LINAGORA is a French open-source software company behind the LinTO voice assistant and the Lucie French open LLM.
+- [Liquid AI](https://labs.renaissancelabs.eu/labs/liquid-ai/): MIT CSAIL spin-out building efficient on-device foundation models, the LFM family, with open weights on Hugging Face.
+- [LLM-jp](https://labs.renaissancelabs.eu/labs/llm-jp/): Community of researchers organized by Japan's National Institute of Informatics, building open Japanese-capable large language models.
+- [LMArena](https://labs.renaissancelabs.eu/labs/lmarena/): Berkeley-origin team behind Chatbot Arena, the crowd-sourced AI model leaderboard, now operating as the company Arena.
+- [Maincode](https://labs.renaissancelabs.eu/labs/maincode/): Melbourne AI company that owns its own GPU cluster, builds the Matilda assistant and has released open Maincoder models.
+- [MaiNLP](https://labs.renaissancelabs.eu/labs/mainlp/): MaiNLP is the Munich AI and NLP lab at LMU Munich, led by Barbara Plank, working on robust and inclusive human-facing NLP.
+- [Marin](https://labs.renaissancelabs.eu/labs/marin/): Open lab begun at Stanford that develops foundation models in public, releasing code, data, weights and experiment logs for Marin 8B and 32B
+- [MBZUAI](https://labs.renaissancelabs.eu/labs/mbzuai/): Graduate-level AI university in Abu Dhabi that runs the Institute of Foundation Models and publishes open models such as Jais and K2.
+- [MDZ Digital Library team](https://labs.renaissancelabs.eu/labs/mdz-digital-library-team/): The MDZ Digital Library team at the Bavarian State Library publishes the widely used dbmdz German, Italian and Turkish BERT models.
+- [Mesolitica](https://labs.renaissancelabs.eu/labs/mesolitica/): Malaysian AI lab building open Malay language models, speech systems and datasets, including MaLLaM and Malaysian Mistral.
+- [METR](https://labs.renaissancelabs.eu/labs/metr/): A Berkeley nonprofit that measures what frontier AI agents can do on long, autonomous tasks and publishes the evidence for governments, labs
+- [Mila - Quebec AI Institute](https://labs.renaissancelabs.eu/labs/mila-quebec-ai-institute/): Montreal's AI research institute, founded around Yoshua Bengio's lab, whose members built Theano, SpeechBrain and other widely used open-sou
+- [MiniMax](https://labs.renaissancelabs.eu/labs/minimax/): A Shanghai AI company building multimodal foundation models, with the MiniMax-M series of language models released as open weights on Huggin
+- [Mistral AI](https://labs.renaissancelabs.eu/labs/mistral-ai/): A Paris AI company that pairs open-weight models under permissive licenses with a commercial platform, positioning itself as Europe's fronti
+- [Mixedbread](https://labs.renaissancelabs.eu/labs/mixedbread/): Applied research lab building retrieval and reranking models, with open embeddings downloaded more than 50 million times.
+- [Miðeind](https://labs.renaissancelabs.eu/labs/mi-eind/): Reykjavik language-technology company building open-source tools, models and benchmarks so that Icelandic is supported in modern AI.
+- [MLCommons](https://labs.renaissancelabs.eu/labs/mlcommons/): A vendor-neutral consortium that builds and publishes the MLPerf benchmarks, open datasets and AI safety measurements used across the indust
+- [MLRS](https://labs.renaissancelabs.eu/labs/mlrs/): The University of Malta project that builds open corpora, tools and language models for Maltese, a language with few digital resources.
+- [Moondream](https://labs.renaissancelabs.eu/labs/moondream/): Compact open-weight vision-language models for detection, captioning and segmentation, now part of Prime Intellect.
+- [Moonshot AI](https://labs.renaissancelabs.eu/labs/moonshot-ai/): Beijing lab behind the Kimi models, whose open-weight Kimi K3 family at 2.8 trillion parameters is the largest open release to date.
+- [Motif Technologies](https://labs.renaissancelabs.eu/labs/motif-technologies/): Korean AI lab, a spin-off of the infrastructure firm Moreh, publishing open-weight Motif language models and the training techniques behind 
+- [Mozilla.ai](https://labs.renaissancelabs.eu/labs/mozilla-ai/): Mozilla-backed company building open-source tools that give people and organizations choice, transparency and control over how AI is used.
+- [Music Technology Group](https://labs.renaissancelabs.eu/labs/music-technology-group/): The Barcelona research group behind Essentia and Freesound-linked work, building open audio and music analysis software since 1994.
+- [NB AI-Lab](https://labs.renaissancelabs.eu/labs/nb-ai-lab/): The National Library of Norway's AI lab, which releases Norwegian language models, speech models and datasets built from the library's colle
+- [Neuphonic](https://labs.renaissancelabs.eu/labs/neuphonic/): London voice-AI company building low-latency text-to-speech and publishing open on-device NeuTTS models and the NeuCodec audio codec.
+- [Neuronpedia](https://labs.renaissancelabs.eu/labs/neuronpedia/): An open-source interpretability platform for exploring, visualizing and steering model internals such as sparse autoencoder features.
+- [NLX Group](https://labs.renaissancelabs.eu/labs/nlx-group/): The University of Lisbon language technology group that released the Albertina and Gervasio open models for Portuguese.
+- [Nomic AI](https://labs.renaissancelabs.eu/labs/nomic-ai/): New York company that began with open embeddings and the GPT4All local-LLM app and now builds AI agents for architecture, engineering and co
+- [NorwAI](https://labs.renaissancelabs.eu/labs/norwai/): NTNU's national AI innovation centre, publishing Norwegian large language models for research and experimentation.
+- [Nous Research](https://labs.renaissancelabs.eu/labs/nous-research/): American open AI lab behind the Hermes models, the Hermes Agent harness and decentralized training work such as DisTrO and Psyche.
+- [NovaSky](https://labs.renaissancelabs.eu/labs/novasky/): Berkeley Sky Computing Lab group releasing open reasoning models, training recipes and the SkyRL reinforcement-learning library for LLM agen
+- [NVIDIA](https://labs.renaissancelabs.eu/labs/nvidia/): A GPU maker that also releases open models, datasets and tooling, from Nemotron language models to Cosmos world models and speech ASR.
+- [NXAI](https://labs.renaissancelabs.eu/labs/nxai/): Linz company commercializing Sepp Hochreiter's xLSTM research, publishing xLSTM models, TiRex time-series forecasters and fast recurrent ker
+- [OATML](https://labs.renaissancelabs.eu/labs/oatml/): Yarin Gal's Oxford group on Bayesian deep learning, uncertainty and safe machine learning, with open research code.
+- [Occiglot](https://labs.renaissancelabs.eu/labs/occiglot/): An informal European research collective that released Occiglot-7B models, multilingual web datasets and tokenizer analyses for European lan
+- [Open Climate Fix](https://labs.renaissancelabs.eu/labs/open-climate-fix/): UK organization applying machine learning to solar, wind and demand forecasting for the grid, publishing its code and data openly.
+- [OpenBMB / ModelBest](https://labs.renaissancelabs.eu/labs/openbmb-modelbest/): Open lab for big model base, linked to the Tsinghua NLP group's spin-out ModelBest, releasing the MiniCPM on-device models, VoxCPM speech an
+- [OpenCSG](https://labs.renaissancelabs.eu/labs/opencsg/): Initiative founded in 2023 that builds the CSGHub platform for managing models, datasets and agents, and releases open Chinese datasets and 
+- [OpenEuroLLM](https://labs.renaissancelabs.eu/labs/openeurollm/): EU-funded consortium of universities, companies and supercomputing centres building open, multilingual foundation models for the languages o
+- [OpenGPT-X](https://labs.renaissancelabs.eu/labs/opengpt-x/): German publicly funded consortium that trained the open Teuken-7B models, built from scratch for all 24 official languages of the European U
+- [OpenHands](https://labs.renaissancelabs.eu/labs/openhands/): Open-source platform for AI software-engineering agents, built by the former All Hands AI team and used by hundreds of contributors.
+- [OpenLLM France](https://labs.renaissancelabs.eu/labs/openllm-france/): French community and BPI-funded consortium building open commons for French, including the Lucie-7B and Luciole model families.
+- [OpenLLM-Ro](https://labs.renaissancelabs.eu/labs/openllm-ro/): Community of Romanian researchers releasing open Romanian language models, datasets, benchmarks and training code.
+- [OpenMOSS](https://labs.renaissancelabs.eu/labs/openmoss/): Fudan-linked research group at the Shanghai Innovation Institute behind the MOSS models, MOSS-TTS speech and image releases and interpretabi
+- [OpenThoughts](https://labs.renaissancelabs.eu/labs/openthoughts/): A research collective curating fully open reasoning datasets and recipes, from the OpenThoughts3 data recipe to the OpenThinker models.
+- [Oumi](https://labs.renaissancelabs.eu/labs/oumi/): A public benefit company building an unconditionally open platform for training, evaluating and deploying foundation models, with an open-so
+- [Part AI](https://labs.renaissancelabs.eu/labs/part-ai/): A Tehran-based developer of Persian-language models, known for the Dorna decoder LLMs and the TookaBERT and Tooka-SBERT encoders.
+- [Photoroom](https://labs.renaissancelabs.eu/labs/photoroom/): The Paris image-editing company that trains its own text-to-image models and releases them as open source under Apache 2.0.
+- [Physical Intelligence](https://labs.renaissancelabs.eu/labs/physical-intelligence/): A robotics foundation-model company whose pi0 family of vision-language-action models and openpi code give robot learning a shared open base
+- [Pleias](https://labs.renaissancelabs.eu/labs/pleias/): A Paris research company building language models and the Common Corpus dataset on openly licensed and rights-cleared data.
+- [Pluralis Research](https://labs.renaissancelabs.eu/labs/pluralis-research/): A research lab developing Protocol Learning, where large models are trained across many untrusted participants without any one holding the f
+- [Polygl0t](https://labs.renaissancelabs.eu/labs/polygl0t/): A University of Bonn project building open foundation models for low-resource languages, best known for the Tucano Portuguese models and the
+- [Polymathic AI](https://labs.renaissancelabs.eu/labs/polymathic-ai/): A Simons Foundation and Flatiron Institute backed collaboration building open foundation models and datasets for scientific data.
+- [Preferred Networks](https://labs.renaissancelabs.eu/labs/preferred-networks/): A Tokyo deep learning company behind Chainer, the MN-Core accelerator and the PLaMo Japanese language models.
+- [Prime Intellect](https://labs.renaissancelabs.eu/labs/prime-intellect/): A lab and compute platform working on distributed training, asynchronous reinforcement learning and open environments for agentic models.
+- [Princeton NLP Group](https://labs.renaissancelabs.eu/labs/princeton-nlp-group/): The Princeton NLP group, source of SWE-bench, SimPO and Tree of Thoughts, with many open benchmarks, methods and models.
+- [Prior Labs](https://labs.renaissancelabs.eu/labs/prior-labs/): A Freiburg company behind TabPFN, the tabular foundation model published in Nature that predicts on structured data without task-specific tr
+- [probabl](https://labs.renaissancelabs.eu/labs/probabl/): A Paris mission-driven company spun out of Inria to sustain scikit-learn and the open-source data science ecosystem around it.
+- [Projecte Aina](https://labs.renaissancelabs.eu/labs/projecte-aina/): A Catalan government initiative led by the Barcelona Supercomputing Center that builds open Catalan language models, speech resources and co
+- [Proxecto Nos](https://labs.renaissancelabs.eu/labs/proxecto-nos/): The Xunta de Galicia project, run by USC, that creates open Galician language models, corpora and speech tools.
+- [Pruna AI](https://labs.renaissancelabs.eu/labs/pruna-ai/): A model efficiency company that open-sources the pruna framework for compressing and accelerating AI models.
+- [pyannoteAI](https://labs.renaissancelabs.eu/labs/pyannoteai/): The creators of pyannote.audio, the open-source speaker diarization toolkit, now also offering hosted models through pyannoteAI.
+- [Qatar Computing Research Institute](https://labs.renaissancelabs.eu/labs/qatar-computing-research-institute/): Qatar's national computing research institute at HBKU, developer of Arabic language technology including the Fanar generative AI platform.
+- [Reka](https://labs.renaissancelabs.eu/labs/reka/): A multimodal AI company that releases selected open-weight models such as Reka Flash 3 and Reka Flash 3.1.
+- [rinna](https://labs.renaissancelabs.eu/labs/rinna/): A Japanese generative AI company known for releasing pretrained Japanese GPT, BERT and speech models, including the Youri and Nekomata LLMs.
+- [Roboflow](https://labs.renaissancelabs.eu/labs/roboflow/): A computer vision platform company that open-sources Supervision, Inference, RF-DETR and the Universe dataset hub.
+- [RWKV](https://labs.renaissancelabs.eu/labs/rwkv/): An open-source community behind the RWKV recurrent language model architecture, hosted as a Linux Foundation AI & Data project.
+- [Sakana AI](https://labs.renaissancelabs.eu/labs/sakana-ai/): A Tokyo research company founded by former Google researchers, known for evolutionary model merging and The AI Scientist.
+- [Sapienza NLP](https://labs.renaissancelabs.eu/labs/sapienza-nlp/): The Sapienza University of Rome NLP group led by Roberto Navigli, creator of BabelNet and the Minerva Italian language models.
+- [Sarvam AI](https://labs.renaissancelabs.eu/labs/sarvam-ai/): An Indian AI company building open and sovereign language models for Indian languages, including Sarvam 30B and 105B.
+- [Sesame](https://labs.renaissancelabs.eu/labs/sesame/): A conversational speech company that open-sourced the CSM-1B base speech model while building voice companions.
+- [Shanghai AI Laboratory](https://labs.renaissancelabs.eu/labs/shanghai-ai-laboratory/): A state-backed Chinese research laboratory behind the open Intern family of language and multimodal models: InternLM, InternVL and Intern-S1
+- [Softcatala](https://labs.renaissancelabs.eu/labs/softcatala/): A volunteer-driven Catalan non-profit that makes software, translation and speech tools available in Catalan.
+- [SpeakLeash](https://labs.renaissancelabs.eu/labs/speakleash/): A Polish open community collecting Polish text and building the Bielik models with ACK Cyfronet AGH.
+- [Sprakbanken Text](https://labs.renaissancelabs.eu/labs/sprakbanken-text/): The University of Gothenburg's national language data infrastructure, building Korp, Sparv and open resources for Swedish since 1975.
+- [SRI Lab](https://labs.renaissancelabs.eu/labs/sri-lab/): ETH Zurich's group on trustworthy machine learning, producing neural network verifiers, LMQL and ML-for-code tools.
+- [Stability AI](https://labs.renaissancelabs.eu/labs/stability-ai/): A London generative AI company behind Stable Diffusion that publishes open-weight image, video, audio and language models, many under commun
+- [Stanford CRFM](https://labs.renaissancelabs.eu/labs/stanford-crfm/): Stanford's Center for Research on Foundation Models, creators of the HELM evaluation framework and Alpaca.
+- [Stanford NLP Group](https://labs.renaissancelabs.eu/labs/stanford-nlp-group/): The Stanford NLP Group is a leading academic research group whose open software, including CoreNLP, GloVe, Stanza and DSPy, underpins much o
+- [StepFun](https://labs.renaissancelabs.eu/labs/stepfun/): StepFun is a Shanghai foundation-model company that has released open-weight language, speech and video models under permissive licenses.
+- [Stockmark](https://labs.renaissancelabs.eu/labs/stockmark/): Stockmark is a Tokyo company that has released large Japanese-language models, including the 100-billion-parameter Stockmark-100b, under per
+- [Swallow LLM](https://labs.renaissancelabs.eu/labs/swallow-llm/): Swallow is a Japanese LLM project at the Institute of Science Tokyo that continually pretrains open models to give them strong Japanese abil
+- [SWAP Research Group](https://labs.renaissancelabs.eu/labs/swap-research-group/): Bari's SWAP group, creators of the LLaMAntino family of open Italian language models.
+- [Swiss AI Initiative](https://labs.renaissancelabs.eu/labs/swiss-ai-initiative/): The Swiss AI Initiative is a national ETH Zurich and EPFL effort that trained the fully open Apertus language models on the Alps supercomput
+- [TAIDE](https://labs.renaissancelabs.eu/labs/taide/): TAIDE is a Taiwanese government-backed project releasing open Traditional Chinese language models for trustworthy local use.
+- [TakeLab](https://labs.renaissancelabs.eu/labs/takelab/): Zagreb's text analysis and knowledge engineering lab, a leading Croatian NLP group.
+- [TalTech Language Technology](https://labs.renaissancelabs.eu/labs/taltech-language-technology/): The TalTech language technology lab publishing open Estonian speech recognition and translation models.
+- [TartuNLP](https://labs.renaissancelabs.eu/labs/tartunlp/): TartuNLP is the University of Tartu's language technology group, building Estonian and Finno-Ugric models, translation and speech tools.
+- [Te Hiku Media](https://labs.renaissancelabs.eu/labs/te-hiku-media/): Te Hiku Media is a Māori iwi media organization in Kaitaia that builds te reo Māori speech technology under Māori data sovereignty.
+- [Technology Innovation Institute](https://labs.renaissancelabs.eu/labs/technology-innovation-institute/): TII is Abu Dhabi's government-funded research institute and the publisher of the Falcon open language models.
+- [The Alan Turing Institute](https://labs.renaissancelabs.eu/labs/the-alan-turing-institute/): The Alan Turing Institute is the UK's national institute for data science and AI, which maintains a large body of open research software.
+- [Tilde](https://labs.renaissancelabs.eu/labs/tilde/): Tilde is a Latvian language technology company that trained TildeOpen, an open 30B model covering 34 European languages.
+- [TNG Technology Consulting](https://labs.renaissancelabs.eu/labs/tng-technology-consulting/): TNG is a German technology consultancy that publishes open-weight DeepSeek merges such as the R1T Chimera models.
+- [Together AI](https://labs.renaissancelabs.eu/labs/together-ai/): Together AI is an AI cloud company whose research arm released RedPajama and advanced open work such as FlashAttention-2 and Mixture-of-Agen
+- [Transluce](https://labs.renaissancelabs.eu/labs/transluce/): Transluce is a nonprofit AI research lab building open tools to understand and oversee AI systems.
+- [Trillion Labs](https://labs.renaissancelabs.eu/labs/trillion-labs/): Trillion Labs is a Seoul startup that trains Korean and English foundation models from scratch and releases open weights.
+- [Turing Inc.](https://labs.renaissancelabs.eu/labs/turing-inc/): Turing is a Tokyo autonomous-driving company that releases the Heron vision-language models and datasets.
+- [TurkuNLP](https://labs.renaissancelabs.eu/labs/turkunlp/): TurkuNLP is the University of Turku's language technology group, known for FinBERT and, with Silo AI, the Poro and Viking models.
+- [UKP Lab](https://labs.renaissancelabs.eu/labs/ukp-lab/): The Ubiquitous Knowledge Processing Lab at TU Darmstadt created Sentence-BERT and publishes open NLP tools.
+- [Ultralytics](https://labs.renaissancelabs.eu/labs/ultralytics/): Ultralytics develops the YOLO model family and ultralytics library, released under AGPL-3.0 with enterprise licensing.
+- [Unsloth](https://labs.renaissancelabs.eu/labs/unsloth/): Unsloth is an open-source project and company making LLM fine-tuning and reinforcement learning faster and lighter.
+- [Upstage](https://labs.renaissancelabs.eu/labs/upstage/): Upstage is a Korean AI company behind the Solar language models and document processing engines, some released openly.
+- [Vector Institute](https://labs.renaissancelabs.eu/labs/vector-institute/): Vector Institute is a Toronto nonprofit AI research institute that also publishes open tools for LLM work, federated learning and health AI.
+- [VISTEC-depa AI Research Institute of Thailand](https://labs.renaissancelabs.eu/labs/vistec-depa-ai-research-institute-of-thailand/): VISTEC-depa AIRI is a Thai institute publishing Thai NLP datasets and models such as WangchanBERTa and WangchanLION.
+- [Visual Geometry Group](https://labs.renaissancelabs.eu/labs/visual-geometry-group/): Oxford's Visual Geometry Group, source of VGG networks and open vision datasets and tools.
+- [VITA](https://labs.renaissancelabs.eu/labs/vita/): EPFL's lab on socially aware AI for transportation, with open pose and trajectory code.
+- [Voxel51](https://labs.renaissancelabs.eu/labs/voxel51/): Voxel51 builds the open-source FiftyOne toolkit for curating datasets and evaluating computer vision models.
+- [YTU COSMOS AI Research Group](https://labs.renaissancelabs.eu/labs/ytu-cosmos-ai-research-group/): Yildiz Technical University's COSMOS group, publishing open Turkish language models.
+- [Z.ai](https://labs.renaissancelabs.eu/labs/z-ai/): Z.ai, formerly Zhipu AI, is a Tsinghua spinoff that releases the GLM models, including MIT-licensed open weights.
+- [Zyphra](https://labs.renaissancelabs.eu/labs/zyphra/): Zyphra is an AI lab in Palo Alto releasing open-weight models, including the ZAYA1-8B reasoning mixture-of-experts model.
+- [ÚFAL](https://labs.renaissancelabs.eu/labs/fal/): ÚFAL is Charles University's Institute of Formal and Applied Linguistics, behind UDPipe and Czech treebanks.

@@ -1,0 +1,2010 @@
+[
+ {
+  "id": "deepseek",
+  "contributions": [
+   {
+    "title": "DeepSeek-V3 and V3.2",
+    "note": "Large open-weight mixture-of-experts models with a detailed technical report; the V3 line is the lab's most downloaded release family."
+   },
+   {
+    "title": "DeepSeek-R1",
+    "note": "Open reasoning model trained with reinforcement learning, released with weights and a paper that opened up the recipe for reasoning models."
+   },
+   {
+    "title": "DeepSeek-V2 and DeepSeek LLM",
+    "note": "Earlier open base and chat models that introduced the efficient MoE and attention design later reused in V3."
+   },
+   {
+    "title": "DeepSeek-OCR and Prover work",
+    "note": "Open models and benchmarks beyond chat, including an OCR model and the ProverBench dataset for theorem proving."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "DeepSeek-V3",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "note": "Repository for the V3 model, one of the most starred in the org."
+   },
+   {
+    "name": "DeepSeek-R1",
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+    "note": "Repository for the R1 reasoning model."
+   },
+   {
+    "name": "awesome-deepseek-integration",
+    "url": "https://github.com/deepseek-ai/awesome-deepseek-integration",
+    "note": "Community list of software that integrates the DeepSeek API."
+   },
+   {
+    "name": "deepseek-harness",
+    "url": "https://github.com/deepseek-ai/deepseek-harness",
+    "note": "Plugin-style agent harness, the org's most starred repo."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "DeepSeek-V3.2",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3.2",
+    "kind": "model",
+    "note": "Most downloaded model in the organisation."
+   },
+   {
+    "name": "DeepSeek-V4-Flash-0731",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731",
+    "kind": "model",
+    "note": "Recent V4 Flash release."
+   },
+   {
+    "name": "DeepSeek-OCR",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-OCR",
+    "kind": "model",
+    "note": "Open OCR model."
+   },
+   {
+    "name": "DeepSeek-ProverBench",
+    "url": "https://huggingface.co/datasets/deepseek-ai/DeepSeek-ProverBench",
+    "kind": "dataset",
+    "note": "Benchmark for formal theorem proving."
+   }
+  ],
+  "papers": [
+   {
+    "title": "DeepSeek-V3 Technical Report",
+    "url": "https://arxiv.org/abs/2412.19437",
+    "year": 2024
+   },
+   {
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "url": "https://arxiv.org/abs/2501.12948",
+    "year": 2025
+   },
+   {
+    "title": "DeepSeek-V2: A Strong, Economical, and Efficient Mixture-of-Experts Language Model",
+    "url": "https://arxiv.org/abs/2405.04434",
+    "year": 2024
+   },
+   {
+    "title": "DeepSeek LLM: Scaling Open-Source Language Models with Longtermism",
+    "url": "https://arxiv.org/abs/2401.02954",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The official site prints a service email address; code and model questions go through GitHub issues and Hugging Face discussions.",
+  "github": "https://github.com/deepseek-ai",
+  "confidence": "high"
+ },
+ {
+  "id": "moonshot-ai",
+  "contributions": [
+   {
+    "title": "Kimi K2",
+    "note": "Large open-weight agentic model with a technical report, positioned for tool use and coding."
+   },
+   {
+    "title": "Kimi K3 and K3.1",
+    "note": "Newer flagship open-weight models, with K3 the most downloaded model on the lab's Hugging Face page."
+   },
+   {
+    "title": "Kimi-Audio",
+    "note": "Open audio foundation model for understanding, generation and conversation."
+   },
+   {
+    "title": "Kimi Code CLI",
+    "note": "Open-source command-line coding agent from the lab, successor to its earlier Python Kimi CLI."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "kimi-cli",
+    "url": "https://github.com/MoonshotAI/kimi-cli",
+    "note": "Archived legacy Kimi CLI, the most starred repo."
+   },
+   {
+    "name": "Kimi-K2",
+    "url": "https://github.com/MoonshotAI/Kimi-K2",
+    "note": "Repository for the Kimi K2 model series."
+   },
+   {
+    "name": "Kimi-K3",
+    "url": "https://github.com/MoonshotAI/Kimi-K3",
+    "note": "Repository for Kimi K3."
+   },
+   {
+    "name": "kimi-code",
+    "url": "https://github.com/MoonshotAI/kimi-code",
+    "note": "Kimi Code CLI for agentic coding."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Kimi-K3",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3",
+    "kind": "model",
+    "note": "Most downloaded model in the org."
+   },
+   {
+    "name": "Kimi-K2.5",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2.5",
+    "kind": "model",
+    "note": "Kimi K2.5 release."
+   },
+   {
+    "name": "Kimi-K2-Instruct",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2-Instruct",
+    "kind": "model",
+    "note": "Instruction-tuned K2."
+   },
+   {
+    "name": "PerceptionBench",
+    "url": "https://huggingface.co/datasets/moonshotai/PerceptionBench",
+    "kind": "dataset",
+    "note": "Multimodal perception benchmark."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Kimi K2: Open Agentic Intelligence",
+    "url": "https://arxiv.org/abs/2507.20534",
+    "year": 2025
+   },
+   {
+    "title": "Kimi k1.5: Scaling Reinforcement Learning with LLMs",
+    "url": "https://arxiv.org/abs/2501.12599",
+    "year": 2025
+   },
+   {
+    "title": "Muon is Scalable for LLM Training",
+    "url": "https://arxiv.org/abs/2502.16982",
+    "year": 2025
+   }
+  ],
+  "contact_note": "Reach the team through its website, GitHub issues or Hugging Face discussions.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "zai-zhipu",
+  "contributions": [
+   {
+    "title": "ChatGLM series",
+    "note": "Open bilingual Chinese-English chat models (ChatGLM-6B, 2 and 3) that were among the first widely used open Chinese LLMs."
+   },
+   {
+    "title": "GLM-130B",
+    "note": "Open bilingual 130B-parameter pre-trained model with a paper describing training and inference."
+   },
+   {
+    "title": "CogVideo and CogVideoX",
+    "note": "Open text and image to video generation models."
+   },
+   {
+    "title": "GLM-4.5 and GLM-5 family",
+    "note": "Open-weight agentic, reasoning and coding models, with GLM-5.3 Flash the most downloaded on its Hugging Face page."
+   },
+   {
+    "title": "Open-AutoGLM",
+    "note": "Open phone-agent model and framework for operating a smartphone."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ChatGLM-6B",
+    "url": "https://github.com/zai-org/ChatGLM-6B",
+    "note": "Open bilingual dialogue model, the org's most starred repo."
+   },
+   {
+    "name": "Open-AutoGLM",
+    "url": "https://github.com/zai-org/Open-AutoGLM",
+    "note": "Open phone agent model and framework."
+   },
+   {
+    "name": "ChatGLM3",
+    "url": "https://github.com/zai-org/ChatGLM3",
+    "note": "Third generation of ChatGLM."
+   },
+   {
+    "name": "CogVideo",
+    "url": "https://github.com/zai-org/CogVideo",
+    "note": "Text and image to video generation (CogVideoX)."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "GLM-5.3-Flash",
+    "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+    "kind": "model",
+    "note": "Most downloaded model in the org."
+   },
+   {
+    "name": "GLM-OCR",
+    "url": "https://huggingface.co/zai-org/GLM-OCR",
+    "kind": "model",
+    "note": "OCR model."
+   },
+   {
+    "name": "GLM-5.3",
+    "url": "https://huggingface.co/zai-org/GLM-5.3",
+    "kind": "model",
+    "note": "Flagship GLM release."
+   },
+   {
+    "name": "LongBench-v2",
+    "url": "https://huggingface.co/datasets/zai-org/LongBench-v2",
+    "kind": "dataset",
+    "note": "Long-context benchmark."
+   }
+  ],
+  "papers": [
+   {
+    "title": "ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools",
+    "url": "https://arxiv.org/abs/2406.12793",
+    "year": 2024
+   },
+   {
+    "title": "GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models",
+    "url": "https://arxiv.org/abs/2508.06471",
+    "year": 2025
+   },
+   {
+    "title": "CogVideoX: Text-to-Video Diffusion Models with An Expert Transformer",
+    "url": "https://arxiv.org/abs/2408.06072",
+    "year": 2024
+   },
+   {
+    "title": "GLM-130B: An Open Bilingual Pre-trained Model",
+    "url": "https://arxiv.org/abs/2210.02414",
+    "year": 2022
+   }
+  ],
+  "contact_note": "Contact via the official site, GitHub issues or Hugging Face discussions.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "minimax",
+  "contributions": [
+   {
+    "title": "MiniMax-01",
+    "note": "Open text and vision-language models built on lightning (linear) attention for very long context."
+   },
+   {
+    "title": "MiniMax-M1",
+    "note": "Open-weight hybrid-attention reasoning model, described by the lab as the first of its kind at large scale."
+   },
+   {
+    "title": "MiniMax-M2 line",
+    "note": "Open-weight agentic and coding models released through M2.5 and M2.7."
+   },
+   {
+    "title": "MiniMax-H3 and H3-Image",
+    "note": "Latest open-weight text and image models, the most downloaded on its Hugging Face page."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "skills",
+    "url": "https://github.com/MiniMax-AI/skills",
+    "note": "Agent skills collection, the org's most starred repo."
+   },
+   {
+    "name": "MiniMax-H3",
+    "url": "https://github.com/MiniMax-AI/MiniMax-H3",
+    "note": "Repository for the H3 model."
+   },
+   {
+    "name": "MiniMax-01",
+    "url": "https://github.com/MiniMax-AI/MiniMax-01",
+    "note": "Official repo for MiniMax-Text-01 and VL-01."
+   },
+   {
+    "name": "MiniMax-M1",
+    "url": "https://github.com/MiniMax-AI/MiniMax-M1",
+    "note": "Open-weight hybrid-attention reasoning model."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "MiniMax-H3",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+    "kind": "model",
+    "note": "Most downloaded model in the org."
+   },
+   {
+    "name": "MiniMax-M2.5",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+    "kind": "model",
+    "note": "M2.5 agentic model."
+   },
+   {
+    "name": "MiniMax-H3-Image",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image",
+    "kind": "model",
+    "note": "Image model."
+   },
+   {
+    "name": "SynLogic",
+    "url": "https://huggingface.co/datasets/MiniMaxAI/SynLogic",
+    "kind": "dataset",
+    "note": "Synthetic logic reasoning data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "MiniMax-01: Scaling Foundation Models with Lightning Attention",
+    "url": "https://arxiv.org/abs/2501.08313",
+    "year": 2025
+   },
+   {
+    "title": "MiniMax-M1: Scaling Test-Time Compute Efficiently with Lightning Attention",
+    "url": "https://arxiv.org/abs/2506.13585",
+    "year": 2025
+   }
+  ],
+  "contact_note": "Contact via the official site, GitHub issues or Hugging Face discussions.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "01-ai",
+  "contributions": [
+   {
+    "title": "Yi-6B and Yi-34B",
+    "note": "Open bilingual base and chat models trained from scratch, which ranked highly on open leaderboards on release."
+   },
+   {
+    "title": "Yi-200K long-context models",
+    "note": "Variants extending context to 200K tokens."
+   },
+   {
+    "title": "Yi-1.5",
+    "note": "Upgraded models with stronger coding, math and instruction following."
+   },
+   {
+    "title": "Yi-Coder",
+    "note": "Open code models under 10B parameters."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Yi",
+    "url": "https://github.com/01-ai/Yi",
+    "note": "Main repo for the Yi model series."
+   },
+   {
+    "name": "Yi-1.5",
+    "url": "https://github.com/01-ai/Yi-1.5",
+    "note": "Upgraded Yi models."
+   },
+   {
+    "name": "Yi-Coder",
+    "url": "https://github.com/01-ai/Yi-Coder",
+    "note": "Open code language models."
+   },
+   {
+    "name": "langcrew",
+    "url": "https://github.com/01-ai/langcrew",
+    "note": "Multi-agent development framework on LangGraph."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Yi-34B-Chat",
+    "url": "https://huggingface.co/01-ai/Yi-34B-Chat",
+    "kind": "model",
+    "note": "Chat model, among the most downloaded."
+   },
+   {
+    "name": "Yi-6B-Chat",
+    "url": "https://huggingface.co/01-ai/Yi-6B-Chat",
+    "kind": "model",
+    "note": "Small chat model."
+   },
+   {
+    "name": "Yi-1.5-9B-Chat",
+    "url": "https://huggingface.co/01-ai/Yi-1.5-9B-Chat",
+    "kind": "model",
+    "note": "Yi-1.5 chat model."
+   },
+   {
+    "name": "Yi-6B-200K",
+    "url": "https://huggingface.co/01-ai/Yi-6B-200K",
+    "kind": "model",
+    "note": "Long-context base model."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Yi: Open Foundation Models by 01.AI",
+    "url": "https://arxiv.org/abs/2403.04652",
+    "year": 2024
+   }
+  ],
+  "contact_note": "Contact via the official site, GitHub issues or Hugging Face discussions.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "stepfun",
+  "contributions": [
+   {
+    "title": "Step-3 and Step-3.5-Flash",
+    "note": "Open-weight language models with a model-system co-design paper; Step-3.5-Flash targets fast agentic use."
+   },
+   {
+    "title": "GOT-OCR 2.0",
+    "note": "Unified end-to-end OCR model that became widely downloaded."
+   },
+   {
+    "title": "Step-Video-T2V",
+    "note": "Open text-to-video foundation model with technical report."
+   },
+   {
+    "title": "Step1X-Edit and Step-Audio 2",
+    "note": "Open image-editing and end-to-end audio conversation models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Step-Video-T2V",
+    "url": "https://github.com/stepfun-ai/Step-Video-T2V",
+    "note": "Text-to-video model."
+   },
+   {
+    "name": "gelab-zero",
+    "url": "https://github.com/stepfun-ai/gelab-zero",
+    "note": "GUI agent solution."
+   },
+   {
+    "name": "Step1X-Edit",
+    "url": "https://github.com/stepfun-ai/Step1X-Edit",
+    "note": "Open image editing model."
+   },
+   {
+    "name": "Step-3.5-Flash",
+    "url": "https://github.com/stepfun-ai/Step-3.5-Flash",
+    "note": "Fast agentic language model."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Step-3.5-Flash",
+    "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+    "kind": "model",
+    "note": "Flagship fast model."
+   },
+   {
+    "name": "GOT-OCR2_0",
+    "url": "https://huggingface.co/stepfun-ai/GOT-OCR2_0",
+    "kind": "model",
+    "note": "OCR model."
+   },
+   {
+    "name": "step3",
+    "url": "https://huggingface.co/stepfun-ai/step3",
+    "kind": "model",
+    "note": "Step-3 model."
+   },
+   {
+    "name": "GEdit-Bench",
+    "url": "https://huggingface.co/datasets/stepfun-ai/GEdit-Bench",
+    "kind": "dataset",
+    "note": "Image editing benchmark."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Step-3 is Large yet Affordable: Model-system Co-design for Cost-effective Decoding",
+    "url": "https://arxiv.org/abs/2507.19427",
+    "year": 2025
+   },
+   {
+    "title": "Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model",
+    "url": "https://arxiv.org/abs/2502.10248",
+    "year": 2025
+   },
+   {
+    "title": "General OCR Theory: Towards OCR-2.0 via a Unified End-to-end Model",
+    "url": "https://arxiv.org/abs/2409.01704",
+    "year": 2024
+   }
+  ],
+  "contact_note": "Contact via the official site, GitHub issues or Hugging Face discussions.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "baai",
+  "contributions": [
+   {
+    "title": "BGE embedding models",
+    "note": "Open text embedding and reranker family (bge-small, bge-m3, bge-reranker) that is among the most downloaded on Hugging Face."
+   },
+   {
+    "title": "FlagEmbedding",
+    "note": "Open toolkit for retrieval and retrieval-augmented LLMs behind the BGE models."
+   },
+   {
+    "title": "Infinity-MM and other datasets",
+    "note": "Large open multimodal and speech datasets published on Hugging Face."
+   },
+   {
+    "title": "Embodied AI (RoboBrain, RoboOS)",
+    "note": "Open robotics models and operating system released through its FlagOpen GitHub organisation."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "FlagEmbedding",
+    "url": "https://github.com/FlagOpen/FlagEmbedding",
+    "note": "Retrieval and retrieval-augmented LLMs."
+   },
+   {
+    "name": "RoboBrain2.5",
+    "url": "https://github.com/FlagOpen/RoboBrain2.5",
+    "note": "Embodied brain model."
+   },
+   {
+    "name": "Robo-Dopamine",
+    "url": "https://github.com/FlagOpen/Robo-Dopamine",
+    "note": "Process reward modeling for robotic manipulation."
+   },
+   {
+    "name": "RoboOS",
+    "url": "https://github.com/FlagOpen/RoboOS",
+    "note": "Embodied operating system for multi-robot collaboration."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "bge-small-en-v1.5",
+    "url": "https://huggingface.co/BAAI/bge-small-en-v1.5",
+    "kind": "model",
+    "note": "Very widely used English embedding model."
+   },
+   {
+    "name": "bge-m3",
+    "url": "https://huggingface.co/BAAI/bge-m3",
+    "kind": "model",
+    "note": "Multilingual, multi-granularity embedding model."
+   },
+   {
+    "name": "bge-reranker-v2-m3",
+    "url": "https://huggingface.co/BAAI/bge-reranker-v2-m3",
+    "kind": "model",
+    "note": "Multilingual reranker."
+   },
+   {
+    "name": "Infinity-MM",
+    "url": "https://huggingface.co/datasets/BAAI/Infinity-MM",
+    "kind": "dataset",
+    "note": "Large multimodal instruction dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "M3-Embedding: Multi-Linguality, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation",
+    "url": "https://arxiv.org/abs/2402.03216",
+    "year": 2024
+   },
+   {
+    "title": "C-Pack: Packed Resources For General Chinese Embeddings",
+    "url": "https://arxiv.org/abs/2309.07597",
+    "year": 2023
+   }
+  ],
+  "contact_note": "Contact via the institute's website or the FlagOpen GitHub organisation.",
+  "github": "https://github.com/FlagOpen",
+  "confidence": "medium",
+  "discord_note": null
+ },
+ {
+  "id": "shanghai-ai-lab",
+  "contributions": [
+   {
+    "title": "InternLM series",
+    "note": "Open language models from InternLM to InternLM3, with base and chat versions and a technical report."
+   },
+   {
+    "title": "LMDeploy",
+    "note": "Open toolkit for compressing, deploying and serving LLMs."
+   },
+   {
+    "title": "MindSearch",
+    "note": "Open multi-agent web search framework in the style of AI search engines."
+   },
+   {
+    "title": "XTuner",
+    "note": "Training engine for fine-tuning and large MoE training."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "lmdeploy",
+    "url": "https://github.com/InternLM/lmdeploy",
+    "note": "Toolkit for compressing, deploying and serving LLMs."
+   },
+   {
+    "name": "InternLM",
+    "url": "https://github.com/InternLM/InternLM",
+    "note": "Official release of the InternLM series."
+   },
+   {
+    "name": "MindSearch",
+    "url": "https://github.com/InternLM/MindSearch",
+    "note": "LLM-based multi-agent web search framework."
+   },
+   {
+    "name": "xtuner",
+    "url": "https://github.com/InternLM/xtuner",
+    "note": "Training engine for large MoE models."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "internlm-chat-7b",
+    "url": "https://huggingface.co/internlm/internlm-chat-7b",
+    "kind": "model",
+    "note": "Early chat model."
+   },
+   {
+    "name": "internlm2-chat-7b",
+    "url": "https://huggingface.co/internlm/internlm2-chat-7b",
+    "kind": "model",
+    "note": "InternLM2 chat model."
+   },
+   {
+    "name": "internlm3-8b-instruct",
+    "url": "https://huggingface.co/internlm/internlm3-8b-instruct",
+    "kind": "model",
+    "note": "InternLM3 instruct model."
+   },
+   {
+    "name": "WildClawBench",
+    "url": "https://huggingface.co/datasets/internlm/WildClawBench",
+    "kind": "dataset",
+    "note": "Agent benchmark."
+   }
+  ],
+  "papers": [
+   {
+    "title": "InternLM2 Technical Report",
+    "url": "https://arxiv.org/abs/2403.17297",
+    "year": 2024
+   }
+  ],
+  "contact_note": "Contact via its website or GitHub and Hugging Face pages.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "opengvlab",
+  "contributions": [
+   {
+    "title": "InternVL family",
+    "note": "Open multimodal models that aim to match closed models, up to InternVL3."
+   },
+   {
+    "title": "LLaMA-Adapter",
+    "note": "Efficient instruction fine-tuning method for LLaMA."
+   },
+   {
+    "title": "MVBench and video work",
+    "note": "Benchmarks and training data for video understanding, including VideoChat-Flash."
+   },
+   {
+    "title": "Ask-Anything / InternGPT",
+    "note": "Early open video chat and interactive demo platforms."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "InternVL",
+    "url": "https://github.com/OpenGVLab/InternVL",
+    "note": "Open multimodal chat model family."
+   },
+   {
+    "name": "LLaMA-Adapter",
+    "url": "https://github.com/OpenGVLab/LLaMA-Adapter",
+    "note": "Fine-tuning LLaMA with a small number of parameters."
+   },
+   {
+    "name": "Ask-Anything",
+    "url": "https://github.com/OpenGVLab/Ask-Anything",
+    "note": "Video chat with LLMs."
+   },
+   {
+    "name": "InternGPT",
+    "url": "https://github.com/OpenGVLab/InternGPT",
+    "note": "Interactive demo platform."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "InternVL2-1B",
+    "url": "https://huggingface.co/OpenGVLab/InternVL2-1B",
+    "kind": "model",
+    "note": "Small InternVL2 model."
+   },
+   {
+    "name": "InternVL2_5-4B-MPO",
+    "url": "https://huggingface.co/OpenGVLab/InternVL2_5-4B-MPO",
+    "kind": "model",
+    "note": "InternVL2.5 with preference optimisation."
+   },
+   {
+    "name": "MVBench",
+    "url": "https://huggingface.co/datasets/OpenGVLab/MVBench",
+    "kind": "dataset",
+    "note": "Video understanding benchmark."
+   },
+   {
+    "name": "GUI-Odyssey",
+    "url": "https://huggingface.co/datasets/OpenGVLab/GUI-Odyssey",
+    "kind": "dataset",
+    "note": "GUI navigation dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks",
+    "url": "https://arxiv.org/abs/2312.14238",
+    "year": 2023
+   },
+   {
+    "title": "Expanding Performance Boundaries of Open-Source Multimodal Models with Model, Data, and Test-Time Scaling",
+    "url": "https://arxiv.org/abs/2412.05271",
+    "year": 2024
+   },
+   {
+    "title": "InternVL3: Exploring Advanced Training and Test-Time Recipes for Open-Source Multimodal Models",
+    "url": "https://arxiv.org/abs/2504.10479",
+    "year": 2025
+   }
+  ],
+  "contact_note": "Contact via its GitHub organisation, which serves as its website.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "opendatalab",
+  "contributions": [
+   {
+    "title": "MinerU",
+    "note": "Open document parser that turns PDFs and office files into LLM-ready markdown or JSON; by far the org's most starred project."
+   },
+   {
+    "title": "OmniDocBench",
+    "note": "Benchmark for document parsing evaluation, accepted at CVPR 2025."
+   },
+   {
+    "title": "PDF-Extract-Kit and DocLayout-YOLO",
+    "note": "Toolkit and layout detection model for PDF content extraction."
+   },
+   {
+    "title": "Open datasets",
+    "note": "Large open corpora such as AICC and SlimPajama-Meta-rater on Hugging Face."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "MinerU",
+    "url": "https://github.com/opendatalab/MinerU",
+    "note": "Document parsing into LLM-ready formats."
+   },
+   {
+    "name": "PDF-Extract-Kit",
+    "url": "https://github.com/opendatalab/PDF-Extract-Kit",
+    "note": "Toolkit for PDF content extraction."
+   },
+   {
+    "name": "DocLayout-YOLO",
+    "url": "https://github.com/opendatalab/DocLayout-YOLO",
+    "note": "Document layout analysis."
+   },
+   {
+    "name": "OmniDocBench",
+    "url": "https://github.com/opendatalab/OmniDocBench",
+    "note": "Document parsing benchmark."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "MinerU-HTML-v1.1-hunyuan0.5B-compact",
+    "url": "https://huggingface.co/opendatalab/MinerU-HTML-v1.1-hunyuan0.5B-compact",
+    "kind": "model",
+    "note": "Compact HTML extraction model."
+   },
+   {
+    "name": "MinerU2.5-2509-1.2B",
+    "url": "https://huggingface.co/opendatalab/MinerU2.5-2509-1.2B",
+    "kind": "model",
+    "note": "MinerU 2.5 document model."
+   },
+   {
+    "name": "OmniDocBench",
+    "url": "https://huggingface.co/datasets/opendatalab/OmniDocBench",
+    "kind": "dataset",
+    "note": "Document parsing benchmark."
+   },
+   {
+    "name": "AICC",
+    "url": "https://huggingface.co/datasets/opendatalab/AICC",
+    "kind": "dataset",
+    "note": "Large web corpus."
+   }
+  ],
+  "papers": [
+   {
+    "title": "MinerU: An Open-Source Solution for Precise Document Content Extraction",
+    "url": "https://arxiv.org/abs/2409.18839",
+    "year": 2024
+   },
+   {
+    "title": "OmniDocBench: Benchmarking Diverse PDF Document Parsing with Comprehensive Annotations",
+    "url": "https://arxiv.org/abs/2412.07626",
+    "year": 2024
+   },
+   {
+    "title": "DocLayout-YOLO: Enhancing Document Layout Analysis through Diverse Synthetic Data and Global-to-Local Adaptive Perception",
+    "url": "https://arxiv.org/abs/2410.12628",
+    "year": 2024
+   }
+  ],
+  "contact_note": "Contact via its website or GitHub issues.",
+  "huggingface": "https://huggingface.co/opendatalab",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "openbmb",
+  "contributions": [
+   {
+    "title": "MiniCPM",
+    "note": "Small, efficient on-device language models with a paper on scalable training strategies, up to MiniCPM5."
+   },
+   {
+    "title": "MiniCPM-V",
+    "note": "On-device multimodal models, a paper describing a GPT-4V-level model on a phone."
+   },
+   {
+    "title": "VoxCPM",
+    "note": "Open tokenizer-free TTS model with voice design and cloning, the org's most starred repo."
+   },
+   {
+    "title": "ChatDev and XAgent",
+    "note": "Open multi-agent software development and autonomous agent frameworks."
+   },
+   {
+    "title": "Ultra-FineWeb",
+    "note": "Open filtered web, code and math datasets for pre-training."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "VoxCPM",
+    "url": "https://github.com/OpenBMB/VoxCPM",
+    "note": "Tokenizer-free multilingual TTS."
+   },
+   {
+    "name": "ChatDev",
+    "url": "https://github.com/OpenBMB/ChatDev",
+    "note": "Multi-agent software development."
+   },
+   {
+    "name": "MiniCPM-V",
+    "url": "https://github.com/OpenBMB/MiniCPM-V",
+    "note": "On-device multimodal models."
+   },
+   {
+    "name": "MiniCPM",
+    "url": "https://github.com/OpenBMB/MiniCPM",
+    "note": "On-device LLMs."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "MiniCPM5-2B",
+    "url": "https://huggingface.co/openbmb/MiniCPM5-2B",
+    "kind": "model",
+    "note": "Small on-device LLM."
+   },
+   {
+    "name": "VoxCPM2",
+    "url": "https://huggingface.co/openbmb/VoxCPM2",
+    "kind": "model",
+    "note": "Multilingual TTS."
+   },
+   {
+    "name": "MiniCPM-V-4.7-35B-A3B",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+    "kind": "model",
+    "note": "MoE multimodal model."
+   },
+   {
+    "name": "Ultra-FineWeb",
+    "url": "https://huggingface.co/datasets/openbmb/Ultra-FineWeb",
+    "kind": "dataset",
+    "note": "Filtered web corpus."
+   }
+  ],
+  "papers": [
+   {
+    "title": "MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies",
+    "url": "https://arxiv.org/abs/2404.06395",
+    "year": 2024
+   },
+   {
+    "title": "MiniCPM-V: A GPT-4V Level MLLM on Your Phone",
+    "url": "https://arxiv.org/abs/2408.01800",
+    "year": 2024
+   },
+   {
+    "title": "ChatDev: Communicative Agents for Software Development",
+    "url": "https://arxiv.org/abs/2307.07924",
+    "year": 2023
+   }
+  ],
+  "contact_note": "Contact via its website or GitHub and Hugging Face pages.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "openmoss",
+  "contributions": [
+   {
+    "title": "MOSS",
+    "note": "Open tool-augmented conversational model from Fudan University, among the first open Chinese chat models."
+   },
+   {
+    "title": "MOSS-TTS family",
+    "note": "Open speech synthesis models, from long-form dialogue to a 100M-parameter CPU-capable model."
+   },
+   {
+    "title": "MOSS-Transcribe-Diarize",
+    "note": "0.9B model for long-form transcription with speaker diarization in 50+ languages."
+   },
+   {
+    "title": "SpeechGPT and AnyGPT",
+    "note": "Research on unified speech and multimodal language modelling."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "MOSS",
+    "url": "https://github.com/OpenMOSS/MOSS",
+    "note": "Tool-augmented conversational model."
+   },
+   {
+    "name": "MOSS-TTS-Nano",
+    "url": "https://github.com/OpenMOSS/MOSS-TTS-Nano",
+    "note": "Small multilingual TTS for CPU."
+   },
+   {
+    "name": "MOSS-TTS",
+    "url": "https://github.com/OpenMOSS/MOSS-TTS",
+    "note": "Speech generation model family."
+   },
+   {
+    "name": "MOSS-Image",
+    "url": "https://github.com/OpenMOSS/MOSS-Image",
+    "note": "5B DiT image model."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "MOSS-Audio-Tokenizer-Nano",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Audio-Tokenizer-Nano",
+    "kind": "model",
+    "note": "Audio tokenizer."
+   },
+   {
+    "name": "MOSS-TTS-Local-Transformer",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Local-Transformer",
+    "kind": "model",
+    "note": "TTS model."
+   },
+   {
+    "name": "MOSS-Transcribe-Diarize",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+    "kind": "model",
+    "note": "Transcription with diarization."
+   },
+   {
+    "name": "OmniAction",
+    "url": "https://huggingface.co/datasets/OpenMOSS-Team/OmniAction",
+    "kind": "dataset",
+    "note": "Action dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling",
+    "url": "https://arxiv.org/abs/2402.12226",
+    "year": 2024
+   },
+   {
+    "title": "SpeechGPT: Empowering Large Language Models with Intrinsic Cross-Modal Conversational Abilities",
+    "url": "https://arxiv.org/abs/2305.11000",
+    "year": 2023
+   }
+  ],
+  "contact_note": "Contact via the group's website or GitHub issues.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "baichuan",
+  "contributions": [
+   {
+    "title": "Baichuan-7B and 13B",
+    "note": "Early open Chinese-English base and chat models."
+   },
+   {
+    "title": "Baichuan 2",
+    "note": "Second generation open models with a paper."
+   },
+   {
+    "title": "Baichuan-M2 and M3",
+    "note": "Open medical-focused models, with M3 a 235B model for clinical inquiry."
+   },
+   {
+    "title": "Baichuan-Audio",
+    "note": "End-to-end speech interaction framework."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Baichuan-7B",
+    "url": "https://github.com/baichuan-inc/Baichuan-7B",
+    "note": "7B pretrained model."
+   },
+   {
+    "name": "Baichuan2",
+    "url": "https://github.com/baichuan-inc/Baichuan2",
+    "note": "Second generation series."
+   },
+   {
+    "name": "Baichuan-13B",
+    "url": "https://github.com/baichuan-inc/Baichuan-13B",
+    "note": "13B model."
+   },
+   {
+    "name": "Baichuan-M3-235B",
+    "url": "https://github.com/baichuan-inc/Baichuan-M3-235B",
+    "note": "Medical decision model."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Baichuan2-7B-Chat",
+    "url": "https://huggingface.co/baichuan-inc/Baichuan2-7B-Chat",
+    "kind": "model",
+    "note": "Most downloaded model."
+   },
+   {
+    "name": "Baichuan-7B",
+    "url": "https://huggingface.co/baichuan-inc/Baichuan-7B",
+    "kind": "model",
+    "note": "First Baichuan model."
+   },
+   {
+    "name": "Baichuan2-13B-Chat",
+    "url": "https://huggingface.co/baichuan-inc/Baichuan2-13B-Chat",
+    "kind": "model",
+    "note": "13B chat model."
+   },
+   {
+    "name": "OpenAudioBench",
+    "url": "https://huggingface.co/datasets/baichuan-inc/OpenAudioBench",
+    "kind": "dataset",
+    "note": "Audio benchmark."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Baichuan 2: Open Large-scale Language Models",
+    "url": "https://arxiv.org/abs/2309.10305",
+    "year": 2023
+   }
+  ],
+  "contact_note": "Contact via the website or GitHub and Hugging Face pages.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "hpc-ai-tech",
+  "contributions": [
+   {
+    "title": "Colossal-AI",
+    "note": "Open system for large-scale parallel training of deep learning models, with a unified interface."
+   },
+   {
+    "title": "Open-Sora",
+    "note": "Open video generation project; Open-Sora 2.0 reports training a commercial-level model for about 200k dollars."
+   },
+   {
+    "title": "Colossal-LLaMA-2",
+    "note": "Continual pre-training of LLaMA-2 as open Chinese-capable models."
+   },
+   {
+    "title": "FastFold, EnergonAI, SwiftInfer",
+    "note": "Open tools speeding up AlphaFold and large-model inference."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ColossalAI",
+    "url": "https://github.com/hpcaitech/ColossalAI",
+    "note": "Making large AI models cheaper, faster and more accessible."
+   },
+   {
+    "name": "Open-Sora",
+    "url": "https://github.com/hpcaitech/Open-Sora",
+    "note": "Democratizing efficient video production."
+   },
+   {
+    "name": "EnergonAI",
+    "url": "https://github.com/hpcaitech/EnergonAI",
+    "note": "Large-scale model inference."
+   },
+   {
+    "name": "FastFold",
+    "url": "https://github.com/hpcaitech/FastFold",
+    "note": "Optimising AlphaFold training and inference."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Open-Sora-v2",
+    "url": "https://huggingface.co/hpcai-tech/Open-Sora-v2",
+    "kind": "model",
+    "note": "Open-Sora 2.0 video model."
+   },
+   {
+    "name": "OpenSora-VAE-v1.2",
+    "url": "https://huggingface.co/hpcai-tech/OpenSora-VAE-v1.2",
+    "kind": "model",
+    "note": "Video VAE."
+   },
+   {
+    "name": "OpenSora-STDiT-v3",
+    "url": "https://huggingface.co/hpcai-tech/OpenSora-STDiT-v3",
+    "kind": "model",
+    "note": "Diffusion transformer."
+   },
+   {
+    "name": "Colossal-LLaMA-2-7b-base",
+    "url": "https://huggingface.co/hpcai-tech/Colossal-LLaMA-2-7b-base",
+    "kind": "model",
+    "note": "Continued pre-trained LLaMA-2."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Colossal-AI: A Unified Deep Learning System For Large-Scale Parallel Training",
+    "url": "https://arxiv.org/abs/2110.14883",
+    "year": 2021
+   },
+   {
+    "title": "Open-Sora 2.0: Training a Commercial-Level Video Generation Model in $200k",
+    "url": "https://arxiv.org/abs/2503.09642",
+    "year": 2025
+   }
+  ],
+  "contact_email": "service@hpc-ai.com",
+  "contact_note": "Its site prints a service email address; code questions go through GitHub issues.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "opencsg",
+  "contributions": [
+   {
+    "title": "Fineweb-Edu-Chinese datasets",
+    "note": "Open series of high-quality Chinese pre-training corpora, with a paper on the OpenCSG Chinese Corpus."
+   },
+   {
+    "title": "CSGHub",
+    "note": "Open-source platform for managing models, datasets and agents, comparable to Hugging Face and self-hostable."
+   },
+   {
+    "title": "Agentic models",
+    "note": "Open Agentic-27B and 30B-A3B language models."
+   },
+   {
+    "title": "csglite",
+    "note": "Lightweight local LLM inference tool with web UI."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "csghub",
+    "url": "https://github.com/OpenCSGs/csghub",
+    "note": "Open-source LLM management platform."
+   },
+   {
+    "name": "csghub-server",
+    "url": "https://github.com/OpenCSGs/csghub-server",
+    "note": "Backend server for CSGHub."
+   },
+   {
+    "name": "llm-inference",
+    "url": "https://github.com/OpenCSGs/llm-inference",
+    "note": "Platform for publishing LLM inference."
+   },
+   {
+    "name": "csglite",
+    "url": "https://github.com/OpenCSGs/csglite",
+    "note": "Lightweight local inference platform."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Fineweb-Edu-Chinese-V2.1",
+    "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.1",
+    "kind": "dataset",
+    "note": "Chinese edu corpus."
+   },
+   {
+    "name": "chinese-fineweb-edu",
+    "url": "https://huggingface.co/datasets/opencsg/chinese-fineweb-edu",
+    "kind": "dataset",
+    "note": "Original Chinese edu corpus."
+   },
+   {
+    "name": "Fineweb-Edu-Chinese-V2.2",
+    "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V2.2",
+    "kind": "dataset",
+    "note": "Chinese edu corpus."
+   },
+   {
+    "name": "Agentic-30B-A3B",
+    "url": "https://huggingface.co/opencsg/Agentic-30B-A3B",
+    "kind": "model",
+    "note": "MoE agentic model."
+   }
+  ],
+  "papers": [
+   {
+    "title": "OpenCSG Chinese Corpus: A Series of High-quality Chinese Datasets for LLM Training",
+    "url": "https://arxiv.org/abs/2501.08197",
+    "year": 2025
+   }
+  ],
+  "contact_note": "Contact via its website or GitHub issues.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "sakana-ai",
+  "contributions": [
+   {
+    "title": "The AI Scientist",
+    "note": "Open framework for automated scientific discovery, followed by a v2 using agentic tree search."
+   },
+   {
+    "title": "Evolutionary Model Merge",
+    "note": "Method that evolves merging recipes for existing open models, released with code."
+   },
+   {
+    "title": "Continuous Thought Machines and ShinkaEvolve",
+    "note": "Open research code on thought-dynamics neural nets and program evolution."
+   },
+   {
+    "title": "TinySwallow and benchmarks",
+    "note": "Small Japanese models and datasets such as ALE-Bench and EDINET-Bench."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "AI-Scientist",
+    "url": "https://github.com/SakanaAI/AI-Scientist",
+    "note": "Automated open-ended scientific discovery."
+   },
+   {
+    "name": "AI-Scientist-v2",
+    "url": "https://github.com/SakanaAI/AI-Scientist-v2",
+    "note": "Agentic tree search version."
+   },
+   {
+    "name": "continuous-thought-machines",
+    "url": "https://github.com/SakanaAI/continuous-thought-machines",
+    "note": "Continuous Thought Machines."
+   },
+   {
+    "name": "ShinkaEvolve",
+    "url": "https://github.com/SakanaAI/ShinkaEvolve",
+    "note": "Sample-efficient program evolution."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "TinySwallow-1.5B-Instruct",
+    "url": "https://huggingface.co/SakanaAI/TinySwallow-1.5B-Instruct",
+    "kind": "model",
+    "note": "Small Japanese instruct model."
+   },
+   {
+    "name": "TinySwallow-1.5B",
+    "url": "https://huggingface.co/SakanaAI/TinySwallow-1.5B",
+    "kind": "model",
+    "note": "Base model."
+   },
+   {
+    "name": "ALE-Bench",
+    "url": "https://huggingface.co/datasets/SakanaAI/ALE-Bench",
+    "kind": "dataset",
+    "note": "Algorithm engineering benchmark."
+   },
+   {
+    "name": "AI-CUDA-Engineer-Archive",
+    "url": "https://huggingface.co/datasets/SakanaAI/AI-CUDA-Engineer-Archive",
+    "kind": "dataset",
+    "note": "Archive of generated CUDA kernels."
+   }
+  ],
+  "papers": [
+   {
+    "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+    "url": "https://arxiv.org/abs/2408.06292",
+    "year": 2024
+   },
+   {
+    "title": "Evolutionary Optimization of Model Merging Recipes",
+    "url": "https://arxiv.org/abs/2403.13187",
+    "year": 2024
+   },
+   {
+    "title": "The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search",
+    "url": "https://arxiv.org/abs/2504.08066",
+    "year": 2025
+   },
+   {
+    "title": "Continuous Thought Machines",
+    "url": "https://arxiv.org/abs/2505.05522",
+    "year": 2025
+   }
+  ],
+  "contact_note": "Contact via its website, GitHub or Hugging Face pages.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "preferred-networks",
+  "contributions": [
+   {
+    "title": "Chainer and Optuna",
+    "note": "Open deep learning framework and the Optuna hyperparameter optimisation framework."
+   },
+   {
+    "title": "PLaMo models",
+    "note": "Japanese-focused language models, including PLaMo-100B trained from scratch."
+   },
+   {
+    "title": "plamo-embedding-1b",
+    "note": "Embedding model that is the most downloaded in its Hugging Face org."
+   },
+   {
+    "title": "plamo-translate",
+    "note": "Open translation models and a local CLI."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "PaintsChainer",
+    "url": "https://github.com/pfnet/PaintsChainer",
+    "note": "Line drawing colorization."
+   },
+   {
+    "name": "pfrl",
+    "url": "https://github.com/pfnet/pfrl",
+    "note": "PyTorch deep reinforcement learning library."
+   },
+   {
+    "name": "pysen",
+    "url": "https://github.com/pfnet/pysen",
+    "note": "Python linting tool."
+   },
+   {
+    "name": "plamo-translate-cli",
+    "url": "https://github.com/pfnet/plamo-translate-cli",
+    "note": "CLI for local translation with plamo-3-translate."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "plamo-embedding-1b",
+    "url": "https://huggingface.co/pfnet/plamo-embedding-1b",
+    "kind": "model",
+    "note": "Embedding model."
+   },
+   {
+    "name": "plamo-3-translate-0.8b-GGUF",
+    "url": "https://huggingface.co/pfnet/plamo-3-translate-0.8b-GGUF",
+    "kind": "model",
+    "note": "Small translation model."
+   },
+   {
+    "name": "plamo-2.1-2b-vl",
+    "url": "https://huggingface.co/pfnet/plamo-2.1-2b-vl",
+    "kind": "model",
+    "note": "Vision-language model."
+   },
+   {
+    "name": "bbh-ja",
+    "url": "https://huggingface.co/datasets/pfnet/bbh-ja",
+    "kind": "dataset",
+    "note": "Japanese BIG-Bench Hard."
+   }
+  ],
+  "papers": [
+   {
+    "title": "PLaMo-100B: A Ground-Up Language Model Designed for Japanese Proficiency",
+    "url": "https://arxiv.org/abs/2410.07563",
+    "year": 2024
+   },
+   {
+    "title": "Optuna: A Next-generation Hyperparameter Optimization Framework",
+    "url": "https://arxiv.org/abs/1907.10902",
+    "year": 2019
+   }
+  ],
+  "contact_note": "Contact via the website, GitHub or Hugging Face pages.",
+  "github": "https://github.com/pfnet",
+  "confidence": "medium",
+  "discord_note": null
+ },
+ {
+  "id": "llm-jp",
+  "contributions": [
+   {
+    "title": "LLM-jp models",
+    "note": "Fully open Japanese-capable LLMs, now through the LLM-jp-4 generation including thinking models."
+   },
+   {
+    "title": "Open corpora and SFT data",
+    "note": "Public Japanese corpora and instruction data, e.g. llm-jp-4.1 thinking SFT data."
+   },
+   {
+    "title": "Evaluation tools",
+    "note": "llm-jp-eval and a public leaderboard results dataset."
+   },
+   {
+    "title": "awesome-japanese-llm",
+    "note": "Widely used overview list of Japanese LLMs."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "awesome-japanese-llm",
+    "url": "https://github.com/llm-jp/awesome-japanese-llm",
+    "note": "Overview of Japanese LLMs."
+   },
+   {
+    "name": "llm-jp-eval",
+    "url": "https://github.com/llm-jp/llm-jp-eval",
+    "note": "Evaluation tool."
+   },
+   {
+    "name": "llm-jp-sft",
+    "url": "https://github.com/llm-jp/llm-jp-sft",
+    "note": "SFT code."
+   },
+   {
+    "name": "llm-jp-judge",
+    "url": "https://github.com/llm-jp/llm-jp-judge",
+    "note": "Automated generation evaluation."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "llm-jp-4-33b-thinking-gguf",
+    "url": "https://huggingface.co/llm-jp/llm-jp-4-33b-thinking-gguf",
+    "kind": "model",
+    "note": "33B thinking model."
+   },
+   {
+    "name": "llm-jp-4.1-8b-thinking",
+    "url": "https://huggingface.co/llm-jp/llm-jp-4.1-8b-thinking",
+    "kind": "model",
+    "note": "8B thinking model."
+   },
+   {
+    "name": "llm-jp-3-150m",
+    "url": "https://huggingface.co/llm-jp/llm-jp-3-150m",
+    "kind": "model",
+    "note": "Small model."
+   },
+   {
+    "name": "llm-jp-4.1-thinking-sft-data",
+    "url": "https://huggingface.co/datasets/llm-jp/llm-jp-4.1-thinking-sft-data",
+    "kind": "dataset",
+    "note": "SFT data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "LLM-jp: A Cross-organizational Project for the Research and Development of Fully Open Japanese LLMs",
+    "url": "https://arxiv.org/abs/2407.03963",
+    "year": 2024
+   }
+  ],
+  "contact_note": "Contact via its project website at NII.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "stockmark",
+  "contributions": [
+   {
+    "title": "Stockmark-13b",
+    "note": "Open 13B Japanese language model."
+   },
+   {
+    "title": "Japanese NER dataset",
+    "note": "Wikipedia-based named entity recognition dataset, with a GitHub repository."
+   },
+   {
+    "title": "DocReasoner",
+    "note": "Document reasoning vision-language model built on Qwen2.5-VL, with FP8 variant."
+   },
+   {
+    "title": "OmniDocBench-JASyn",
+    "note": "Synthetic Japanese document parsing benchmark."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "bert-book",
+    "url": "https://github.com/stockmarkteam/bert-book",
+    "note": "Support page for a book on NLP with BERT."
+   },
+   {
+    "name": "ner-wikipedia-dataset",
+    "url": "https://github.com/stockmarkteam/ner-wikipedia-dataset",
+    "note": "Japanese NER dataset."
+   },
+   {
+    "name": "mind-recommenders-pytorch",
+    "url": "https://github.com/stockmarkteam/mind-recommenders-pytorch",
+    "note": "Unofficial MIND recommender implementations."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "gpt-neox-japanese-1.4b",
+    "url": "https://huggingface.co/stockmark/gpt-neox-japanese-1.4b",
+    "kind": "model",
+    "note": "Japanese GPT-NeoX."
+   },
+   {
+    "name": "stockmark-13b",
+    "url": "https://huggingface.co/stockmark/stockmark-13b",
+    "kind": "model",
+    "note": "13B Japanese model."
+   },
+   {
+    "name": "OmniDocBench-JASyn",
+    "url": "https://huggingface.co/datasets/stockmark/OmniDocBench-JASyn",
+    "kind": "dataset",
+    "note": "Japanese doc benchmark."
+   },
+   {
+    "name": "ner-wikipedia-dataset",
+    "url": "https://huggingface.co/datasets/stockmark/ner-wikipedia-dataset",
+    "kind": "dataset",
+    "note": "NER dataset."
+   }
+  ],
+  "papers": [],
+  "contact_note": "Contact via its website.",
+  "github": "https://github.com/stockmarkteam",
+  "confidence": "medium",
+  "discord_note": null
+ },
+ {
+  "id": "rinna",
+  "contributions": [
+   {
+    "title": "Japanese GPT, BERT and CLIP models",
+    "note": "Early open pre-trained Japanese models such as japanese-gpt-neox-small."
+   },
+   {
+    "title": "Release of pre-trained models paper",
+    "note": "Paper describing its Japanese models."
+   },
+   {
+    "title": "Youko and Bakeneko",
+    "note": "Japanese continual pretraining of Llama and Qwen models."
+   },
+   {
+    "title": "Open speech and vision models",
+    "note": "Japanese CLIP and other models on Hugging Face."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "japanese-gpt-neox-small",
+    "url": "https://huggingface.co/rinna/japanese-gpt-neox-small",
+    "kind": "model",
+    "note": "Most downloaded model."
+   },
+   {
+    "name": "japanese-clip-vit-b-16",
+    "url": "https://huggingface.co/rinna/japanese-clip-vit-b-16",
+    "kind": "model",
+    "note": "Japanese CLIP."
+   },
+   {
+    "name": "japanese-roberta-base",
+    "url": "https://huggingface.co/rinna/japanese-roberta-base",
+    "kind": "model",
+    "note": "Japanese RoBERTa."
+   },
+   {
+    "name": "japanese-gpt2-medium",
+    "url": "https://huggingface.co/rinna/japanese-gpt2-medium",
+    "kind": "model",
+    "note": "Japanese GPT-2."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Release of Pre-Trained Models for the Japanese Language",
+    "url": "https://arxiv.org/abs/2404.01657",
+    "year": 2024
+   }
+  ],
+  "contact_note": "Contact via its website or Hugging Face page.",
+  "confidence": "medium",
+  "discord_note": null
+ },
+ {
+  "id": "turing",
+  "contributions": [
+   {
+    "title": "Heron",
+    "note": "Library integrating vision-language and video-language models, with Heron-NVILA models for Japanese."
+   },
+   {
+    "title": "Heron-Bench",
+    "note": "Benchmark for Japanese vision-language models."
+   },
+   {
+    "title": "CoVLA dataset",
+    "note": "Comprehensive vision-language-action dataset for autonomous driving."
+   },
+   {
+    "title": "Cauldron-JA",
+    "note": "Japanese vision-language dataset on Hugging Face."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "swan",
+    "url": "https://github.com/turingmotors/swan",
+    "note": "LM inference on FPGAs."
+   },
+   {
+    "name": "heron",
+    "url": "https://github.com/turingmotors/heron",
+    "note": "Vision and language model library."
+   },
+   {
+    "name": "One-D-Piece",
+    "url": "https://github.com/turingmotors/One-D-Piece",
+    "note": "Image tokenizer with quality-controllable compression."
+   },
+   {
+    "name": "NuScenes-MQA",
+    "url": "https://github.com/turingmotors/NuScenes-MQA",
+    "note": "Driving QA dataset."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Heron-NVILA-Lite-2B",
+    "url": "https://huggingface.co/turing-motors/Heron-NVILA-Lite-2B",
+    "kind": "model",
+    "note": "Small Heron VLM."
+   },
+   {
+    "name": "Heron-NVILA-Lite-1B",
+    "url": "https://huggingface.co/turing-motors/Heron-NVILA-Lite-1B",
+    "kind": "model",
+    "note": "1B VLM."
+   },
+   {
+    "name": "Cauldron-JA",
+    "url": "https://huggingface.co/datasets/turing-motors/Cauldron-JA",
+    "kind": "dataset",
+    "note": "Japanese VL dataset."
+   },
+   {
+    "name": "CoVLA-Dataset",
+    "url": "https://huggingface.co/datasets/turing-motors/CoVLA-Dataset",
+    "kind": "dataset",
+    "note": "Driving dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "CoVLA: Comprehensive Vision-Language-Action Dataset for Autonomous Driving",
+    "url": "https://arxiv.org/abs/2408.10845",
+    "year": 2024
+   },
+   {
+    "title": "Heron-Bench: A Benchmark for Evaluating Vision Language Models in Japanese",
+    "url": "https://arxiv.org/abs/2404.07824",
+    "year": 2024
+   }
+  ],
+  "contact_note": "Contact via its website.",
+  "confidence": "medium",
+  "discord_note": null
+ },
+ {
+  "id": "kotoba-technologies",
+  "contributions": [
+   {
+    "title": "Kotoba-Whisper",
+    "note": "Distilled Japanese speech recognition models in several versions up to v2.2."
+   },
+   {
+    "title": "Bilingual Kotoba-Whisper",
+    "note": "Japanese-English variant."
+   },
+   {
+    "title": "kotomamba",
+    "note": "Mamba training library."
+   },
+   {
+    "title": "Speech evaluation data",
+    "note": "Open evaluation and clustering datasets."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "kotoba-whisper",
+    "url": "https://github.com/kotoba-tech/kotoba-whisper",
+    "note": "Kotoba-Whisper code."
+   },
+   {
+    "name": "kotomamba",
+    "url": "https://github.com/kotoba-tech/kotomamba",
+    "note": "Mamba training library."
+   },
+   {
+    "name": "kotoba-speech-release",
+    "url": "https://github.com/kotoba-tech/kotoba-speech-release",
+    "note": "Speech model release."
+   },
+   {
+    "name": "kotoba-recipes",
+    "url": "https://github.com/kotoba-tech/kotoba-recipes",
+    "note": "Continual pre-training recipes."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "kotoba-whisper-v2.0",
+    "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0",
+    "kind": "model",
+    "note": "Main release."
+   },
+   {
+    "name": "kotoba-whisper-v2.2",
+    "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.2",
+    "kind": "model",
+    "note": "Latest version."
+   },
+   {
+    "name": "kotoba-whisper-v2.0-faster",
+    "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0-faster",
+    "kind": "model",
+    "note": "faster-whisper version."
+   },
+   {
+    "name": "kotoba-whisper-eval",
+    "url": "https://huggingface.co/datasets/kotoba-tech/kotoba-whisper-eval",
+    "kind": "dataset",
+    "note": "Evaluation data."
+   }
+  ],
+  "papers": [],
+  "contact_note": "Contact via its website or GitHub.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "swallow-llm",
+  "contributions": [
+   {
+    "title": "Swallow models",
+    "note": "Japanese-enhanced versions of Llama, Qwen and GPT-OSS models."
+   },
+   {
+    "title": "Swallow Corpus",
+    "note": "Large Japanese web corpus, with a paper on building it."
+   },
+   {
+    "title": "SwallowCode and SwallowMath",
+    "note": "Rewritten code and math data for pre-training, with a paper."
+   },
+   {
+    "title": "Evaluation frameworks",
+    "note": "Open evaluation code for base and instruct models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "swallow-evaluation-instruct",
+    "url": "https://github.com/swallow-llm/swallow-evaluation-instruct",
+    "note": "Evaluation framework for post-trained models."
+   },
+   {
+    "name": "swallow-evaluation",
+    "url": "https://github.com/swallow-llm/swallow-evaluation",
+    "note": "Evaluation scripts."
+   },
+   {
+    "name": "swallow-corpus",
+    "url": "https://github.com/swallow-llm/swallow-corpus",
+    "note": "Corpus code."
+   },
+   {
+    "name": "doubri",
+    "url": "https://github.com/swallow-llm/doubri",
+    "note": "Deduplication tool."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Llama-3-Swallow-8B-Instruct-v0.1",
+    "url": "https://huggingface.co/tokyotech-llm/Llama-3-Swallow-8B-Instruct-v0.1",
+    "kind": "model",
+    "note": "Japanese Llama 3."
+   },
+   {
+    "name": "Llama-3.1-Swallow-8B-Instruct-v0.5",
+    "url": "https://huggingface.co/tokyotech-llm/Llama-3.1-Swallow-8B-Instruct-v0.5",
+    "kind": "model",
+    "note": "Japanese Llama 3.1."
+   },
+   {
+    "name": "swallow-code-v2",
+    "url": "https://huggingface.co/datasets/tokyotech-llm/swallow-code-v2",
+    "kind": "dataset",
+    "note": "Code dataset."
+   },
+   {
+    "name": "swallow-math-v2",
+    "url": "https://huggingface.co/datasets/tokyotech-llm/swallow-math-v2",
+    "kind": "dataset",
+    "note": "Math dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Continual Pre-Training for Cross-Lingual LLM Adaptation: Enhancing Japanese Language Capabilities",
+    "url": "https://arxiv.org/abs/2404.17790",
+    "year": 2024
+   },
+   {
+    "title": "Building a Large Japanese Web Corpus for Large Language Models",
+    "url": "https://arxiv.org/abs/2404.17733",
+    "year": 2024
+   },
+   {
+    "title": "Rewriting Pre-Training Data Boosts LLM Performance in Math and Code",
+    "url": "https://arxiv.org/abs/2505.02881",
+    "year": 2025
+   }
+  ],
+  "contact_note": "Contact via the project website.",
+  "confidence": "high",
+  "discord_note": null
+ },
+ {
+  "id": "lightblue",
+  "contributions": [
+   {
+    "title": "Suzume",
+    "note": "Multilingual fine-tune of Llama 3 8B."
+   },
+   {
+    "title": "lb-reranker",
+    "note": "Open multilingual reranker."
+   },
+   {
+    "title": "Multilingual reasoning data",
+    "note": "Datasets such as reasoning-multilingual-R1-Llama-70B-train."
+   },
+   {
+    "title": "ALoFTRAG",
+    "note": "Local fine-tuning method for RAG, with a paper."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "lb-reranker",
+    "url": "https://github.com/lightblue-tech/lb-reranker",
+    "note": "Reranker."
+   },
+   {
+    "name": "M-IFEval",
+    "url": "https://github.com/lightblue-tech/M-IFEval",
+    "note": "Multilingual instruction-following evaluation."
+   },
+   {
+    "name": "shitsu",
+    "url": "https://github.com/lightblue-tech/shitsu",
+    "note": "Fast multilingual text quality classifier."
+   },
+   {
+    "name": "aloftrag",
+    "url": "https://github.com/lightblue-tech/aloftrag",
+    "note": "ALoFTRAG code."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "suzume-llama-3-8B-multilingual-orpo-borda-top25",
+    "url": "https://huggingface.co/lightblue/suzume-llama-3-8B-multilingual-orpo-borda-top25",
+    "kind": "model",
+    "note": "Suzume variant."
+   },
+   {
+    "name": "suzume-llama-3-8B-multilingual",
+    "url": "https://huggingface.co/lightblue/suzume-llama-3-8B-multilingual",
+    "kind": "model",
+    "note": "Suzume base."
+   },
+   {
+    "name": "rag_multilingual_training_negatives",
+    "url": "https://huggingface.co/datasets/lightblue/rag_multilingual_training_negatives",
+    "kind": "dataset",
+    "note": "RAG data."
+   },
+   {
+    "name": "reasoning-multilingual-R1-Llama-70B-train",
+    "url": "https://huggingface.co/datasets/lightblue/reasoning-multilingual-R1-Llama-70B-train",
+    "kind": "dataset",
+    "note": "Reasoning data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "ALoFTRAG: Automatic Local Fine Tuning for Retrieval Augmented Generation",
+    "url": "https://arxiv.org/abs/2501.11929",
+    "year": 2025
+   }
+  ],
+  "contact_note": "Contact via its website.",
+  "github": "https://github.com/lightblue-tech",
+  "confidence": "medium",
+  "discord_note": null
+ }
+]

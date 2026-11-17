@@ -1,0 +1,876 @@
+[
+ {
+  "id": "cartesia",
+  "tagline": "A San Francisco voice AI company founded by the Stanford authors of Mamba-style state-space models, which also releases open Rene and Llamba models.",
+  "about": [
+   "Cartesia was founded in 2023 by Karan Goel, Albert Gu, Arjun Desai and Brandon Yang, researchers who worked on state space models in Chris Re's group at Stanford. Goel serves as chief executive and Gu, a lead author of Mamba and a professor at Carnegie Mellon University, serves as chief scientist.",
+   "The company builds real-time voice systems on state-space architectures, which process sequences with a fixed-size state rather than attention over the whole context. It raised a $22 million seed round led by Index Ventures, bringing its total to $27 million, and a $64 million Series A led by Kleiner Perkins in March 2025.",
+   "Alongside its commercial speech products, Cartesia publishes open research artifacts on Hugging Face and GitHub. These include the Rene language model and the Llamba family of distilled recurrent models, described in a February 2025 paper that converts Llama models into recurrent form with a small fraction of the usual training data."
+  ],
+  "mission": "Cartesia aims to build real-time, on-device voice AI on state-space model architectures, and shares part of its model research openly.",
+  "known_for": [
+   "State-space model research from the authors of Mamba",
+   "Open Rene and Llamba models",
+   "Low-latency speech synthesis",
+   "Distilling Transformers into recurrent models"
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Goel, Gu, Desai and Yang launched Cartesia to commercialize state-space model research.",
+    "year": "2023"
+   },
+   {
+    "title": "Seed round",
+    "note": "A $22 million round led by Index Ventures brought total funding to $27 million.",
+    "year": "2024"
+   },
+   {
+    "title": "Llamba models",
+    "note": "Distilled recurrent versions of Llama released with a paper and open weights.",
+    "year": "2025"
+   },
+   {
+    "title": "Series A",
+    "note": "A $64 million round led by Kleiner Perkins, reported by Fortune.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Karan Goel",
+    "role": "Co-founder and chief executive",
+    "url": "https://krandiash.github.io",
+    "note": "Stanford PhD under Chris Re; works on sequence modeling."
+   },
+   {
+    "name": "Albert Gu",
+    "role": "Co-founder and chief scientist",
+    "url": "https://goombalab.github.io",
+    "note": "Professor at Carnegie Mellon University and lead author of Mamba."
+   },
+   {
+    "name": "Chris Re",
+    "role": "Stanford professor, advisor to the founders",
+    "url": "https://cs.stanford.edu/people/chrismre/",
+    "note": "Press reports list him on the Cartesia team."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Llamba: Scaling Distilled Recurrent Models for Efficient Language Processing",
+    "url": "https://arxiv.org/abs/2502.14458",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "center-for-ai-safety",
+  "tagline": "A San Francisco nonprofit reducing societal-scale AI risk through research, field-building and open benchmarks such as HarmBench and WMDP.",
+  "about": [
+   "The Center for AI Safety was started in 2022 and is led by Dan Hendrycks as executive and research director, with Oliver Zhang as managing director. Its stated purpose is to reduce societal-scale risks from artificial intelligence, and it organizes its staff into research, cloud and DevOps, projects and operations teams.",
+   "CAIS has operated a compute cluster since March 2023 that gives university safety researchers access to large models, and it has run machine learning safety workshops, a Trojan detection competition and a philosophy fellowship. In May 2023 it published the Statement on AI Risk, signed by more than 600 researchers and public figures.",
+   "Its research output includes widely used open evaluations. HarmBench standardizes tests of automated red teaming and refusal, WMDP measures hazardous knowledge and evaluates unlearning methods, and Humanity's Last Exam collects expert-written questions to measure frontier capability."
+  ],
+  "mission": "CAIS works to reduce societal-scale risks from AI through technical research, field-building and advocacy.",
+  "known_for": [
+   "Statement on AI Risk",
+   "HarmBench red-teaming benchmark",
+   "WMDP and Humanity's Last Exam benchmarks",
+   "Compute cluster for safety researchers"
+  ],
+  "contributions": [
+   {
+    "title": "Center founded",
+    "note": "Established as a nonprofit focused on societal-scale AI risk.",
+    "year": "2022"
+   },
+   {
+    "title": "Compute cluster",
+    "note": "Began providing GPU access to university safety researchers in March 2023.",
+    "year": "2023"
+   },
+   {
+    "title": "Statement on AI Risk",
+    "note": "Signed by more than 600 AI experts and public figures.",
+    "year": "2023"
+   },
+   {
+    "title": "HarmBench",
+    "note": "Open framework for evaluating automated red teaming and robust refusal.",
+    "year": "2024"
+   },
+   {
+    "title": "WMDP benchmark",
+    "note": "Open benchmark for hazardous knowledge and unlearning, with dozens of co-authors across institutions.",
+    "year": "2024"
+   },
+   {
+    "title": "Humanity's Last Exam",
+    "note": "Multimodal expert-written benchmark built with Scale AI and over a thousand contributors.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Dan Hendrycks",
+    "role": "Executive and research director",
+    "url": "https://danhendrycks.com",
+    "note": "Creator of MMLU and the GELU activation."
+   },
+   {
+    "name": "Oliver Zhang",
+    "role": "Managing director",
+    "url": "https://safe.ai/about",
+    "note": "Listed on the CAIS leadership page."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Humanity's Last Exam",
+    "url": "https://arxiv.org/abs/2501.14249",
+    "year": "2025"
+   },
+   {
+    "title": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning",
+    "url": "https://arxiv.org/abs/2403.03218",
+    "year": "2024"
+   },
+   {
+    "title": "HarmBench: A Standardized Evaluation Framework for Automated Red Teaming and Robust Refusal",
+    "url": "https://arxiv.org/abs/2402.04249",
+    "year": "2024"
+   },
+   {
+    "title": "Measuring Massive Multitask Language Understanding",
+    "url": "https://arxiv.org/abs/2009.03300",
+    "year": "2020"
+   }
+  ]
+ },
+ {
+  "id": "chcaa",
+  "contributions": [
+   {
+    "title": "DaCy",
+    "note": "Built an open Danish NLP pipeline on spaCy (arXiv 2107.05295).",
+    "year": "2021"
+   },
+   {
+    "title": "odyCy",
+    "note": "Released an Ancient Greek spaCy pipeline.",
+    "year": "2023"
+   },
+   {
+    "title": "Danish Foundation Models paper",
+    "note": "Center staff led the paper that set out the case for open Danish foundation models (arXiv 2311.07264).",
+    "year": "2023"
+   },
+   {
+    "title": "Scandinavian Embedding Benchmark",
+    "note": "Co-created an open embedding benchmark for Scandinavian languages (arXiv 2406.02396).",
+    "year": "2024"
+   },
+   {
+    "title": "Danish Dynaword",
+    "note": "Contributed to an openly licensed, continuously updated collection of Danish text (arXiv 2508.02271).",
+    "year": "2025"
+   }
+  ],
+  "papers": [
+   {
+    "title": "DaCy: A Unified Framework for Danish NLP",
+    "url": "https://arxiv.org/abs/2107.05295",
+    "year": "2021"
+   },
+   {
+    "title": "Danish Foundation Models",
+    "url": "https://arxiv.org/abs/2311.07264",
+    "year": "2023"
+   },
+   {
+    "title": "The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding",
+    "url": "https://arxiv.org/abs/2406.02396",
+    "year": "2024"
+   },
+   {
+    "title": "Dynaword: From One-shot to Continuously Developed Datasets",
+    "url": "https://arxiv.org/abs/2508.02271",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "chai-discovery",
+  "about": [
+   "Chai Discovery is a drug-discovery company founded in 2024 by Joshua Meier (chief executive), Jack Dent (president), Matthew McPartlon (chief technology officer) and Jacques Boitreaud. Its team came from OpenAI, Meta FAIR, Stripe and Google X, and it describes its work as predicting and reprogramming interactions between biomolecules.",
+   "Chai-1, released on 9 September 2024, predicts structures of proteins, small molecules, DNA and RNA. The company published weights and inference code under Apache 2.0 and reported 77 percent success on PoseBusters against 76 percent for AlphaFold3, with competitive results even when run without multiple sequence alignments.",
+   "Chai-2, announced in 2025 for de novo antibody design, is a separate model that sources describe as not openly released. Funding has included a $30 million seed round, a $70 million Series A in August 2025 led by Menlo Ventures and a $130 million Series B reported in January 2026."
+  ],
+  "mission": "Chai aims to let scientists design medicines computationally by predicting and engineering molecular interactions.",
+  "known_for": [
+   "Chai-1 open structure prediction",
+   "Apache 2.0 weights and code",
+   "Chai-2 antibody design"
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Founded in San Francisco by Meier, Dent, McPartlon and Boitreaud.",
+    "year": "2024"
+   },
+   {
+    "title": "Chai-1 released",
+    "note": "Open biomolecular structure model with Apache 2.0 weights and code, plus a free web interface.",
+    "year": "2024"
+   },
+   {
+    "title": "Series A",
+    "note": "A $70 million round led by Menlo Ventures, reported by Business Wire.",
+    "year": "2025"
+   },
+   {
+    "title": "Chai-2 antibody design",
+    "note": "A generative model for de novo antibody design, announced in 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "Series B",
+    "note": "A $130 million round led by General Catalyst and Oak HC/FT, reported by GEN.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Joshua Meier",
+    "role": "Co-founder and chief executive",
+    "url": "https://x.com/joshim5",
+    "note": "Previously at Absci, Facebook AI and OpenAI."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Chai-1: Decoding the molecular interactions of life",
+    "url": "https://www.biorxiv.org/content/10.1101/2024.10.10.615955",
+    "year": "2024"
+   }
+  ],
+  "_flag": "Only Chai-1 is open; Chai-2 and later models appear to be proprietary."
+ },
+ {
+  "id": "cjvt",
+  "tagline": "The University of Ljubljana centre that builds Slovene language resources, corpora and the open GaMS generative models.",
+  "about": [
+   "CJVT, the Centre for Language Resources and Technologies, is a research unit of the University of Ljubljana with its organizational base at the Faculty of Computer and Information Science and five other participating faculties. It develops and maintains digital language resources for contemporary Slovene and makes tools available free of charge.",
+   "Its resources include the Sloleks morphological lexicon, which invites users to vote on accentuation and pronunciation, the ssj500k training corpus and its successor SUK, and the Tolmac system for translating lectures from Slovene. The centre joined the ELEXIS lexicography network in 2020 and works within a national program on language resources and technologies for Slovene that runs from 2019 to 2027.",
+   "The GaMS (Generative Model for Slovene) family began in 2024 with a 1 billion parameter model and has grown to 2B, 9B and 27B releases built on Gemma. A March 2026 preprint presents GaMS3-12B, adapted from Gemma 3 with continual pretraining on about 140 billion tokens and an open OCR pipeline for digitizing older Slovene texts."
+  ],
+  "mission": "CJVT aims to build a long-term infrastructure of Slovene language resources and technology and to keep its tools and data openly available.",
+  "known_for": [
+   "Slovene corpora and lexicons",
+   "GaMS Slovene language models",
+   "Sloleks and ssj500k",
+   "Open language technology for a smaller language"
+  ],
+  "contributions": [
+   {
+    "title": "National language technology program",
+    "note": "CJVT began work in the national program on language resources and technologies for Slovene, running from 2019 to 2027.",
+    "year": "2019"
+   },
+   {
+    "title": "ELEXIS membership",
+    "note": "The centre joined the European lexicography infrastructure network.",
+    "year": "2020"
+   },
+   {
+    "title": "GaMS 1B",
+    "note": "Published the first Generative Model for Slovene with 1 billion parameters (arXiv 2410.06898).",
+    "year": "2024"
+   },
+   {
+    "title": "GaMS3-12B",
+    "note": "Presented a 12 billion parameter Slovene model adapted from Gemma 3, with an open OCR pipeline.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Simon Krek",
+    "role": "Centre contact and corpus author",
+    "url": "https://www.cjvt.si/en/",
+    "note": "Listed as contact on the CJVT site and author of Slovene corpora."
+   },
+   {
+    "name": "Marko Robnik-Sikonja",
+    "role": "Professor, GaMS lead author",
+    "url": "https://arxiv.org/abs/2603.01691",
+    "note": "Co-author of the GaMS papers at the Faculty of Computer and Information Science."
+   },
+   {
+    "name": "Domen Vres",
+    "role": "Researcher, GaMS first author",
+    "url": "https://arxiv.org/abs/2410.06898",
+    "note": "First author of the GaMS 1B paper."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Generative Model for Less-Resourced Language with 1 billion parameters",
+    "url": "https://arxiv.org/abs/2410.06898",
+    "year": "2024"
+   },
+   {
+    "title": "Building a Strong Instruction Language Model for a Less-Resourced Language",
+    "url": "https://arxiv.org/abs/2603.01691",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "ckip-lab",
+  "about": [
+   "CKIP, the Chinese Knowledge and Information Processing group, is a cross-institute research team of Academia Sinica's Institute of Information Science and Institute of Linguistics. The group dates itself to 1986 and aims to supply resources and research environments for Chinese natural language processing.",
+   "Its outputs include word segmentation, parsing, a sentence structure treebank, the Sinica Corpus, the E-HowNet lexical knowledge base, a Kangxi Dictionary ontology, language models and Chinese embeddings. Current research covers deep learning, knowledge representation, language understanding and knowledge extraction.",
+   "CKIP Transformers provides traditional Chinese ALBERT, BERT and GPT-2 models with tools for word segmentation, part-of-speech tagging and named entity recognition, distributed through GitHub, Hugging Face and PyPI under GPL-3.0. Wei-Yun Ma, an associate research fellow, is principal investigator of the lab."
+  ],
+  "key_people": [
+   {
+    "name": "Wei-Yun Ma",
+    "role": "Principal investigator, CKIP NLP lab",
+    "url": "https://homepage.iis.sinica.edu.tw/pages/ma/vita_en.html",
+    "note": "Associate research fellow at the Institute of Information Science; PhD from Columbia University."
+   }
+  ]
+ },
+ {
+  "id": "clips-antwerp",
+  "key_people": [
+   {
+    "name": "Tom De Smedt",
+    "role": "Author of Pattern",
+    "url": "https://jmlr2020.csail.mit.edu/papers/volume13/desmedt12a/desmedt12a.pdf",
+    "note": "First author of the 2012 JMLR paper on Pattern."
+   },
+   {
+    "name": "Walter Daelemans",
+    "role": "Professor and research director of CLiPS",
+    "url": "https://www.clips.uantwerpen.be/~walter/",
+    "note": "Full professor of computational linguistics at Antwerp since 1999; founded the ILK group at Tilburg."
+   },
+   {
+    "name": "Enrique Manjavacas",
+    "role": "Member of the clips GitHub organization",
+    "url": "https://emanjavacas.github.io",
+    "note": null
+   },
+   {
+    "name": "Stephan Tulkens",
+    "role": "Member of the clips GitHub organization",
+    "url": "http://stephantul.github.io/",
+    "note": null
+   },
+   {
+    "name": "Pieter Fivez",
+    "role": "Member of the clips GitHub organization",
+    "url": "https://www.uantwerpen.be/en/core-facilities/textua/",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Pattern repository",
+    "note": "The Pattern web mining module was published on GitHub.",
+    "year": "2011"
+   },
+   {
+    "title": "Pattern JMLR paper",
+    "note": "De Smedt and Daelemans described Pattern, a BSD-licensed Python package with Dutch modules, in JMLR.",
+    "year": "2012"
+   },
+   {
+    "title": "Creative web services with Pattern",
+    "note": "De Smedt, Nijs and Daelemans published a follow-up on applications built on Pattern.",
+    "year": "2014"
+   },
+   {
+    "title": "MFAQ",
+    "note": "Released a multilingual FAQ dataset (arXiv 2109.12870).",
+    "year": "2021"
+   }
+  ]
+ },
+ {
+  "id": "cltl-vu",
+  "about": [
+   "The Computational Linguistics and Text Mining Lab at Vrije Universiteit Amsterdam is led by Piek Vossen and Antske Fokkens. It has moved from computational lexicology and terminology toward broader work in AI and computational linguistics, with research themes in identity, reference and perspectives, meaning representation, and large language models and interpretability.",
+   "Vossen founded the Global WordNet Association in 2000 and presided over it until 2024, and the lab contributes to the Dutch Global Wordnet Grid. It states that it publishes models, software and resources as open source, and also teaches a Language and AI master's program.",
+   "MedRoBERTa.nl, introduced in 2021 by Stella Verkijk and Vossen, was pre-trained on nearly 10 million hospital notes from Amsterdam UMC. The lab's Python for Text Analysis course, created in 2016, has over 450 GitHub stars."
+  ],
+  "key_people": [
+   {
+    "name": "Piek Vossen",
+    "role": "Professor of Computational Lexicology; lab founder and head",
+    "url": "https://vossen.info",
+    "note": "Spinoza laureate (2013); founder of the Global WordNet Association."
+   },
+   {
+    "name": "Antske Fokkens",
+    "role": "Professor and co-lead of the lab",
+    "url": "https://vu.nl/en/research/scientists/antske-fokkens",
+    "note": null
+   },
+   {
+    "name": "Stella Verkijk",
+    "role": "MedRoBERTa.nl author",
+    "url": "https://research.vu.nl/en/publications/medrobertanl-a-language-model-for-dutch-electronic-health-records/",
+    "note": null
+   },
+   {
+    "name": "Lea Krause",
+    "role": "Member of the cltl GitHub organization",
+    "url": "https://lkra.github.io",
+    "note": null
+   },
+   {
+    "name": "Stefan Schouten",
+    "role": "Member of the cltl GitHub organization",
+    "url": "https://sfschouten.github.io",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Global WordNet Association",
+    "note": "Vossen founded the association that coordinates wordnets across languages.",
+    "year": "2000"
+   },
+   {
+    "title": "Python for Text Analysis",
+    "note": "The open teaching course repository was created.",
+    "year": "2016"
+   },
+   {
+    "title": "MedRoBERTa.nl",
+    "note": "Released a Dutch clinical language model trained on hospital notes.",
+    "year": "2021"
+   },
+   {
+    "title": "Medical model paper",
+    "note": "An Artificial Intelligence in Medicine article described the model's development and anonymization.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "compvis",
+  "key_people": [
+   {
+    "name": "Bjorn Ommer",
+    "role": "Head of the Computer Vision and Learning group, LMU Munich",
+    "url": "https://ommer-lab.com",
+    "note": null
+   },
+   {
+    "name": "Robin Rombach",
+    "role": "First author of latent diffusion; former group PhD student",
+    "url": "https://github.com/rromb",
+    "note": "LDM first author, listed as a group PhD student on the lab site."
+   },
+   {
+    "name": "Patrick Esser",
+    "role": "Co-author of latent diffusion and Taming Transformers",
+    "url": "https://github.com/pesser",
+    "note": "Maintainer of CompVis repositories including stable-diffusion."
+   },
+   {
+    "name": "Andreas Blattmann",
+    "role": "Latent diffusion co-author; co-founder of Black Forest Labs",
+    "url": "https://github.com/ablattmann",
+    "note": null
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Taming Transformers",
+    "note": "Combined convolutional and transformer models for high-resolution synthesis, with code released.",
+    "year": "2021"
+   },
+   {
+    "title": "Latent diffusion models",
+    "note": "The group presented high-resolution image synthesis with latent diffusion at CVPR and released code and models on GitHub.",
+    "year": "2022"
+   },
+   {
+    "title": "Stable Diffusion",
+    "note": "The group's latent diffusion work was the foundation for the Stable Diffusion image generator.",
+    "year": "2022"
+   },
+   {
+    "title": "CleanDIFT",
+    "note": "Released a method for extracting diffusion features without added noise.",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "contextual-ai",
+  "about": [
+   "Contextual AI is a company founded in 2023 by Douwe Kiela and Amanpreet Singh, both formerly at Facebook AI Research and Hugging Face. It builds retrieval-augmented generation systems for enterprise use and pairs its commercial platform with research that publishes open code and models.",
+   "The company raised a $20 million seed round led by Bain Capital Ventures in June 2023 and an $80 million Series A led by Greycroft in August 2024. Its research includes KTO, an alignment method that needs only a binary signal of whether an output is desirable, and GRIT, which trains one model for both generation and embedding.",
+   "Its GitHub and Hugging Face organizations host alignment libraries, retrieval models and an instruction-following reranker released in March 2025, aimed at practitioners who build their own RAG pipelines."
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Kiela and Singh founded the company to bring grounded language models to enterprises.",
+    "year": "2023"
+   },
+   {
+    "title": "KTO and GRIT papers",
+    "note": "Published methods for preference-free alignment and for unified generative and embedding models, with released code.",
+    "year": "2024"
+   },
+   {
+    "title": "Series A",
+    "note": "An $80 million round led by Greycroft.",
+    "year": "2024"
+   },
+   {
+    "title": "Instruction-following reranker",
+    "note": "Released a reranker whose ranking can be steered with natural-language instructions.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Douwe Kiela",
+    "role": "Co-founder; adjunct professor at Stanford",
+    "url": "https://douwekiela.github.io",
+    "note": "His site lists him as a former chief executive and now a researcher at Google DeepMind."
+   },
+   {
+    "name": "Amanpreet Singh",
+    "role": "Co-founder, former chief technology officer",
+    "url": "https://apsdehal.in",
+    "note": "His site describes the role as previous."
+   }
+  ]
+ },
+ {
+  "id": "crane-ai-labs",
+  "key_people": [
+   {
+    "name": "Kato Steven Mubiru",
+    "role": "Co-founder",
+    "url": "https://deepmind.google/models/gemma/gemmaverse/craneai/",
+    "note": "Listed on the Hugging Face organization team."
+   },
+   {
+    "name": "Bakunga Bronson",
+    "role": "Co-founder and chief technology officer",
+    "url": "https://my.linkedin.com/in/bakungabronson",
+    "note": "Also listed among engineers on Uganda's Project Crane."
+   }
+  ]
+ },
+ {
+  "id": "danish-foundation-models",
+  "about": [
+   "Danish Foundation Models is a collaborative effort across Danish universities and research institutions to develop, evaluate and adapt open language AI for Danish society. The core partners are the University of Southern Denmark, Aarhus University through its Center for Humanities Computing, the University of Copenhagen and the Alexandra Institute.",
+   "Its members include professors Bolette Sandford Pedersen at Copenhagen, Kristoffer Nielbo at Aarhus and Peter Schneider-Kamp at Southern Denmark, with Kenneth Enevoldsen and many postdoctoral and PhD researchers. The project argues that smaller languages risk exclusion as language models become infrastructure, and it publishes models and datasets openly on Hugging Face.",
+   "The 2023 paper Danish Foundation Models set out the program. Danish Dynaword, released in 2025, is an openly licensed, continuously updated collection of Danish text derived from the public parts of the Danish Gigaword, with a companion post-training dataset, dfm-dyna-instruct."
+  ],
+  "known_for": [
+   "Open Danish language models",
+   "Danish Dynaword open text collection",
+   "Scandinavian Embedding Benchmark",
+   "Cross-university collaboration in Denmark"
+  ],
+  "contributions": [
+   {
+    "title": "Danish Foundation Models paper",
+    "note": "The project's founding paper laid out open foundation models for Danish.",
+    "year": "2023"
+   },
+   {
+    "title": "Scandinavian Embedding Benchmarks",
+    "note": "Aarhus-led benchmark for text embeddings across Scandinavian languages.",
+    "year": "2024"
+   },
+   {
+    "title": "Danish Dynaword",
+    "note": "Openly licensed Danish text collection that is updated continuously.",
+    "year": "2025"
+   },
+   {
+    "title": "Dynaword paper",
+    "note": "Preprint describing continuously developed open datasets.",
+    "year": "2025"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Kristoffer Nielbo",
+    "role": "Professor, Aarhus University",
+    "url": "https://knielbo.github.io",
+    "note": null
+   },
+   {
+    "name": "Peter Schneider-Kamp",
+    "role": "Professor, University of Southern Denmark",
+    "url": "https://foundationmodels.dk/people.html",
+    "note": null
+   },
+   {
+    "name": "Bolette Sandford Pedersen",
+    "role": "Professor, University of Copenhagen",
+    "url": "https://foundationmodels.dk/people.html",
+    "note": null
+   },
+   {
+    "name": "Kenneth Enevoldsen",
+    "role": "Assistant Professor, Aarhus University",
+    "url": "https://foundationmodels.dk/people.html",
+    "note": "First author of the Danish Foundation Models paper."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Danish Foundation Models",
+    "url": "https://arxiv.org/abs/2311.07264",
+    "year": "2023"
+   },
+   {
+    "title": "The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding",
+    "url": "https://arxiv.org/abs/2406.02396",
+    "year": "2024"
+   },
+   {
+    "title": "Dynaword: From One-shot to Continuously Developed Datasets",
+    "url": "https://arxiv.org/abs/2508.02271",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "deep-cogito",
+  "about": [
+   "Deep Cogito was founded in San Francisco in 2024 by Drishan Arora, who led language-model work for generative search at Google, and Dhruv Malhotra, a former product lead at Google DeepMind. It describes its goal as building general superintelligence and argues that this requires advances in reasoning and iterative self-improvement.",
+   "The lab introduced iterated distillation and amplification (IDA) with the Cogito v1 Preview models in April 2025, followed by Cogito v2 Preview in July 2025. Cogito v2.1, released in November 2025 as a 671 billion parameter open-weight model, was post-trained from an openly licensed DeepSeek base model.",
+   "In August 2026 the company announced a $43 million Series A led by TQ Ventures, for total funding above $56 million. Reports say the money will fund hiring, training infrastructure, future open-weight Cogito models and an enterprise business."
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Arora and Malhotra started the lab in San Francisco.",
+    "year": "2024"
+   },
+   {
+    "title": "Cogito v1 Preview",
+    "note": "The lab introduced IDA with its first preview models.",
+    "year": "2025"
+   },
+   {
+    "title": "Cogito v2 Preview",
+    "note": "A second release moved from inference-time search toward self-improvement.",
+    "year": "2025"
+   },
+   {
+    "title": "Cogito v2.1",
+    "note": "A 671 billion parameter open-weight model post-trained from an open DeepSeek base, released in November.",
+    "year": "2025"
+   },
+   {
+    "title": "Series A",
+    "note": "A $43 million round led by TQ Ventures.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Drishan Arora",
+    "role": "Co-founder and chief executive",
+    "url": "https://www.nasdaq.com/press-release/deep-cogito-raises-43m-series-advance-post-training-engine-frontier-intelligence-2026",
+    "note": "Named in the company's Series A announcement; previously a senior engineer at Google."
+   },
+   {
+    "name": "Dhruv Malhotra",
+    "role": "Co-founder",
+    "url": "https://www.nasdaq.com/press-release/deep-cogito-raises-43m-series-advance-post-training-engine-frontier-intelligence-2026",
+    "note": "Previously a product lead at Google DeepMind; surname spelling varies across outlets."
+   }
+  ]
+ },
+ {
+  "id": "deep-learning-indaba",
+  "about": [
+   "Deep Learning Indaba was conceived to make Africans active shapers and owners of advances in artificial intelligence. The first Indaba ran from 10 to 15 September 2017 at the University of the Witwatersrand in Johannesburg with about 330 delegates, organized by a group that included Shakir Mohamed, Nyalleng Moorosi, Benjamin Rosman, Ulrich Paquet and Vukosi Marivate.",
+   "The organization is led by Indaba Abantu, a steering group of Africans across the continent and abroad, with an advisory board and a board of trustees. Its legal entity is Deep Learning Indaba Ltd, a non-profit company limited by guarantee registered in England and Wales. Mohamed, a DeepMind research director, is listed as co-founder and chair of the trustees.",
+   "Programs include the annual Indaba, locally organized IndabaX events, a mentorship program and awards. After Johannesburg in 2017 the gathering moved to Stellenbosch in 2018, and it later took place in Accra in 2023. The 2026 edition is planned for Nigeria, and the GitHub organization publishes open practical notebooks from each Indaba."
+  ],
+  "contributions": [
+   {
+    "title": "First Indaba",
+    "note": "Five-day series of introductory lectures in Johannesburg, hosted at Wits University with about 330 delegates.",
+    "year": "2017"
+   },
+   {
+    "title": "Indaba in Stellenbosch",
+    "note": "The second annual gathering, hosted by Stellenbosch University from 9 to 14 September.",
+    "year": "2018"
+   },
+   {
+    "title": "Indaba in Accra",
+    "note": "The 2023 edition was held in Ghana.",
+    "year": "2023"
+   },
+   {
+    "title": "2026 edition announced",
+    "note": "The organization announced that the 2026 gathering would take place in Nigeria.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Shakir Mohamed",
+    "role": "Co-founder and chair of the board of trustees",
+    "url": "https://www.shakirm.com",
+    "note": "Research director at DeepMind."
+   },
+   {
+    "name": "Vukosi Marivate",
+    "role": "Early organizer; professor at the University of Pretoria",
+    "url": "https://www.vima.co.za",
+    "note": "Chief investigator at Masakhane and founder of the Data Science for Social Impact group."
+   }
+  ]
+ },
+ {
+  "id": "deepseek",
+  "tagline": "A Hangzhou AI lab founded by Liang Wenfeng and owned by the hedge fund High-Flyer, known for open-weight V3, R1 and V4 models released under the MIT License.",
+  "about": [
+   "DeepSeek was founded on 17 July 2023 as a spin-off from the AI research lab of High-Flyer, a Chinese hedge fund that owns and backs it. Liang Wenfeng founded the company and serves as CEO, and it had about 160 employees in 2025.",
+   "The lab released DeepSeek-V2 in May 2024, which introduced multi-head latent attention within a mixture-of-experts design, and DeepSeek-V3 in December 2024. DeepSeek-R1 followed on 20 January 2025 alongside a chatbot, with weights under the MIT License. Later releases include V3.1 in August 2025, V3.2 in December 2025 and a V4 preview in April 2026.",
+   "Wikipedia reports that DeepSeek closed a $7 billion Series A at a $52 billion post-money valuation in May 2026, ending its reliance on its parent alone. The company publishes weights and technical reports but not training data, and several governments have restricted its use on official systems."
+  ],
+  "mission": "DeepSeek pursues capable general models and publishes weights and technical reports for them, funded originally by High-Flyer and, from 2026, by outside investors as well.",
+  "contributions": [
+   {
+    "title": "DeepSeek founded",
+    "note": "The company was established as a spin-off of High-Flyer's AI research lab.",
+    "year": "2023"
+   },
+   {
+    "title": "DeepSeek-V2",
+    "note": "The model introduced multi-head latent attention with a mixture-of-experts architecture.",
+    "year": "2024"
+   },
+   {
+    "title": "DeepSeek-V3",
+    "note": "A larger mixture-of-experts model was released in December 2024.",
+    "year": "2024"
+   },
+   {
+    "title": "DeepSeek-R1",
+    "note": "The reasoning model launched on 20 January 2025 and was released under the MIT License.",
+    "year": "2025"
+   },
+   {
+    "title": "DeepSeek-V3.2",
+    "note": "Released in December 2025, following V3.1 in August 2025.",
+    "year": "2025"
+   },
+   {
+    "title": "DeepSeek-V4 preview",
+    "note": "Previewed in April 2026, with Flash and Pro versions released later that year.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Liang Wenfeng",
+    "role": "Founder and CEO",
+    "url": "https://en.wikipedia.org/wiki/Liang_Wenfeng",
+    "note": "Also co-founder of the parent fund High-Flyer."
+   }
+  ]
+ },
+ {
+  "id": "dicta",
+  "about": [
+   "DICTA, the Israel Center for Text Analysis, was founded by Professor Moshe Koppel of Bar-Ilan University and builds language technology for Hebrew. Its early tools served Jewish studies and digital humanities researchers, including the Nakdan vowelization tool, a Scriptural Allusion Finder and an Abbreviation Expander.",
+   "The core research team includes Shaltiel Shmidman, Avi Shmidman, who holds dual affiliations with DICTA and Bar-Ilan University, and Koppel. Its Hugging Face organization dicta-il and its GitHub organization publish models and tools for Hebrew.",
+   "Its model line began with DictaBERT in 2023 and DictaLM in the same year. DictaLM 2.0 followed in 2024 with an enlarged Hebrew vocabulary, and the DictaLM 3.0 report of February 2026 presents open 24B, 12B and 1.7B models adapted from Mistral Small 3.1, NVIDIA Nemotron Nano V2 and Qwen3, hosted under Apache 2.0."
+  ],
+  "contributions": [
+   {
+    "title": "Nakdan",
+    "note": "Presented a professional Hebrew diacritizer at the ACL system demonstrations.",
+    "year": "2020"
+   },
+   {
+    "title": "Extra-large vocabulary Hebrew BERT",
+    "note": "Published a contrastive analysis of Hebrew BERT models and a new model.",
+    "year": "2022"
+   },
+   {
+    "title": "DictaBERT and DictaLM",
+    "note": "Released a BERT suite and the first generative DictaLM for Modern Hebrew.",
+    "year": "2023"
+   },
+   {
+    "title": "DictaLM 2.0",
+    "note": "Adapted LLMs to Hebrew with enhanced vocabulary and instruction capabilities.",
+    "year": "2024"
+   },
+   {
+    "title": "DictaLM 3.0",
+    "note": "Open Hebrew-centric 24B, 12B and 1.7B models with base and chat variants.",
+    "year": "2026"
+   }
+  ],
+  "key_people": [
+   {
+    "name": "Moshe Koppel",
+    "role": "Founder; professor of computer science, Bar-Ilan University",
+    "url": "https://u.cs.biu.ac.il/~koppel/",
+    "note": null
+   },
+   {
+    "name": "Avi Shmidman",
+    "role": "Researcher, DICTA and Bar-Ilan University",
+    "url": "https://dicta.org.il/",
+    "note": "Lead author on DictaBERT and DictaLM papers."
+   },
+   {
+    "name": "Shaltiel Shmidman",
+    "role": "Researcher, DICTA",
+    "url": "https://dicta.org.il/",
+    "note": "First author of DictaBERT and DictaLM 2.0."
+   }
+  ],
+  "papers": [
+   {
+    "title": "DictaBERT: A State-of-the-Art BERT Suite for Modern Hebrew",
+    "url": "https://arxiv.org/abs/2308.16687",
+    "year": "2023"
+   },
+   {
+    "title": "Introducing DictaLM -- A Large Generative Language Model for Modern Hebrew",
+    "url": "https://arxiv.org/abs/2309.14568",
+    "year": "2023"
+   },
+   {
+    "title": "Adapting LLMs to Hebrew: Unveiling DictaLM 2.0 with Enhanced Vocabulary and Instruction Capabilities",
+    "url": "https://arxiv.org/abs/2407.07080",
+    "year": "2024"
+   },
+   {
+    "title": "Dicta-LM 3.0: Advancing The Frontier of Hebrew Sovereign LLMs",
+    "url": "https://arxiv.org/abs/2602.02104",
+    "year": "2026"
+   }
+  ]
+ }
+]

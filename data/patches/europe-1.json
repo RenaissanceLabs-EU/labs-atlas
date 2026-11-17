@@ -1,0 +1,2385 @@
+[
+ {
+  "id": "mistral-ai",
+  "contributions": [
+   {
+    "title": "Mistral 7B",
+    "note": "Released Mistral 7B in September 2023 as an Apache-2.0 open-weight model that outperformed larger contemporaries."
+   },
+   {
+    "title": "Mixtral sparse mixture of experts",
+    "note": "Published Mixtral 8x7B as open weights, bringing mixture-of-experts models to the open community."
+   },
+   {
+    "title": "Multimodal Pixtral",
+    "note": "Released the Pixtral 12B vision-language model with a technical paper."
+   },
+   {
+    "title": "Voxtral speech models",
+    "note": "Extended its open releases to speech understanding with Voxtral, including a realtime model with a WebGPU demo."
+   },
+   {
+    "title": "Open coding agent",
+    "note": "Maintains the mistral-vibe command-line coding agent and the mistral-inference library on GitHub."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "mistral-inference",
+    "url": "https://github.com/mistralai/mistral-inference",
+    "note": "Official inference library for Mistral models (10,814 stars)"
+   },
+   {
+    "name": "mistral-vibe",
+    "url": "https://github.com/mistralai/mistral-vibe",
+    "note": "Minimal CLI coding agent by Mistral (5,401 stars)"
+   },
+   {
+    "name": "mistral-finetune",
+    "url": "https://github.com/mistralai/mistral-finetune",
+    "note": "Open-source repository (3,089 stars)"
+   },
+   {
+    "name": "cookbook",
+    "url": "https://github.com/mistralai/cookbook",
+    "note": "Open-source repository (2,367 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "mistralai/Mistral-7B-Instruct-v0.3",
+    "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
+    "kind": "model",
+    "note": "Model: 1,815,007 downloads, 3843 likes."
+   },
+   {
+    "name": "mistralai/Voxtral-Mini-4B-Realtime-2602",
+    "url": "https://huggingface.co/mistralai/Voxtral-Mini-4B-Realtime-2602",
+    "kind": "model",
+    "note": "Model: 1,546,100 downloads, 1062 likes."
+   },
+   {
+    "name": "mistralai/mmlu_speech",
+    "url": "https://huggingface.co/datasets/mistralai/mmlu_speech",
+    "kind": "dataset",
+    "note": "Dataset: 483 downloads, 20 likes."
+   },
+   {
+    "name": "mistralai/voxtral-tts-demo",
+    "url": "https://huggingface.co/spaces/mistralai/voxtral-tts-demo",
+    "kind": "space",
+    "note": "Space: 225 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Mistral 7B",
+    "url": "https://arxiv.org/abs/2310.06825",
+    "year": 2023
+   },
+   {
+    "title": "Mixtral of Experts",
+    "url": "https://arxiv.org/abs/2401.04088",
+    "year": 2024
+   },
+   {
+    "title": "Pixtral 12B",
+    "url": "https://arxiv.org/abs/2410.07073",
+    "year": 2024
+   },
+   {
+    "title": "Voxtral",
+    "url": "https://arxiv.org/abs/2507.13264",
+    "year": 2025
+   }
+  ],
+  "confidence": "high",
+  "discord": "https://discord.gg/mistralai",
+  "discord_note": "Official Discord community for developers using Mistral models and API."
+ },
+ {
+  "id": "hugging-face",
+  "contributions": [
+   {
+    "title": "Transformers library",
+    "note": "Maintains the Transformers library, the de facto standard for sharing and using pretrained models, with a 2019 system paper."
+   },
+   {
+    "title": "The Hub",
+    "note": "Runs the Hugging Face Hub where the open community hosts models, datasets and demo Spaces."
+   },
+   {
+    "title": "Diffusers and Datasets",
+    "note": "Built companion libraries for diffusion models and for dataset loading and processing."
+   },
+   {
+    "title": "SmolLM family",
+    "note": "Trains and openly documents small language models in the SmolLM series, with data-centric write-ups."
+   },
+   {
+    "title": "Agents tooling",
+    "note": "Released smolagents and a free agents course to teach and ship open agent workflows."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "note": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, a (169,101 stars)"
+   },
+   {
+    "name": "pytorch-image-models",
+    "url": "https://github.com/huggingface/pytorch-image-models",
+    "note": "The largest collection of PyTorch image encoders / backbones. Including train, eval, inference, export scripts (37,286 stars)"
+   },
+   {
+    "name": "agents-course",
+    "url": "https://github.com/huggingface/agents-course",
+    "note": "This repository contains the Hugging Face Agents Course. (35,062 stars)"
+   },
+   {
+    "name": "diffusers",
+    "url": "https://github.com/huggingface/diffusers",
+    "note": "🤗 Diffusers: State-of-the-art diffusion models for image, video, and audio generation in PyTorch. (34,928 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "huggingface/CodeBERTa-small-v1",
+    "url": "https://huggingface.co/huggingface/CodeBERTa-small-v1",
+    "kind": "model",
+    "note": "Model: 24,465 downloads, 94 likes."
+   },
+   {
+    "name": "huggingface/documentation-images",
+    "url": "https://huggingface.co/datasets/huggingface/documentation-images",
+    "kind": "dataset",
+    "note": "Dataset: 4,015,593 downloads, 257 likes."
+   },
+   {
+    "name": "huggingface/ai-deadlines",
+    "url": "https://huggingface.co/spaces/huggingface/ai-deadlines",
+    "kind": "space",
+    "note": "Space: 787 likes on the Hub."
+   },
+   {
+    "name": "huggingface/open-source-ai-year-in-review-2024",
+    "url": "https://huggingface.co/spaces/huggingface/open-source-ai-year-in-review-2024",
+    "kind": "space",
+    "note": "Space: 552 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "HuggingFace&#39;s Transformers: State-of-the-art Natural Language Processing",
+    "url": "https://arxiv.org/abs/1910.03771",
+    "year": 2019
+   },
+   {
+    "title": "Datasets: A Community Library for Natural Language Processing",
+    "url": "https://arxiv.org/abs/2109.02846",
+    "year": 2021
+   },
+   {
+    "title": "Zephyr: Direct Distillation of LM Alignment",
+    "url": "https://arxiv.org/abs/2310.16944",
+    "year": 2023
+   },
+   {
+    "title": "SmolLM2: When Smol Goes Big -- Data-Centric Training of a Small Language Model",
+    "url": "https://arxiv.org/abs/2502.02737",
+    "year": 2025
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kyutai",
+  "contributions": [
+   {
+    "title": "Moshi",
+    "note": "Released Moshi in 2024, an open real-time speech-text foundation model for full-duplex spoken dialogue."
+   },
+   {
+    "title": "Mimi codec",
+    "note": "Published the Mimi streaming neural audio codec used by its speech models."
+   },
+   {
+    "title": "Hibiki translation",
+    "note": "Released Hibiki, a model for simultaneous speech-to-speech translation, with a paper."
+   },
+   {
+    "title": "Streaming TTS and STT",
+    "note": "Open-sourced delayed-streams-modeling and the Unmute stack for streaming speech-to-text and text-to-speech."
+   },
+   {
+    "title": "Pocket TTS",
+    "note": "Released pocket-tts, a lightweight text-to-speech project that has gathered over ten thousand GitHub stars."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "moshi",
+    "url": "https://github.com/kyutai-labs/moshi",
+    "note": "Moshi is a speech-text foundation model and full-duplex spoken dialogue framework. It uses Mimi, a state-of-th (11,542 stars)"
+   },
+   {
+    "name": "pocket-tts",
+    "url": "https://github.com/kyutai-labs/pocket-tts",
+    "note": "A TTS that fits in your CPU (and pocket) (10,320 stars)"
+   },
+   {
+    "name": "delayed-streams-modeling",
+    "url": "https://github.com/kyutai-labs/delayed-streams-modeling",
+    "note": "Kyutai's Speech-To-Text and Text-To-Speech models based on the Delayed Streams Modeling framework. (3,053 stars)"
+   },
+   {
+    "name": "unmute",
+    "url": "https://github.com/kyutai-labs/unmute",
+    "note": "Make text LLMs listen and speak (1,553 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "kyutai/moshiko-pytorch-bf16",
+    "url": "https://huggingface.co/kyutai/moshiko-pytorch-bf16",
+    "kind": "model",
+    "note": "Model: 308,499 downloads, 266 likes."
+   },
+   {
+    "name": "kyutai/tts-1.6b-en_fr",
+    "url": "https://huggingface.co/kyutai/tts-1.6b-en_fr",
+    "kind": "model",
+    "note": "Model: 126,722 downloads, 384 likes."
+   },
+   {
+    "name": "kyutai/DailyTalkContiguous",
+    "url": "https://huggingface.co/datasets/kyutai/DailyTalkContiguous",
+    "kind": "dataset",
+    "note": "Dataset: 2,646 downloads, 22 likes."
+   },
+   {
+    "name": "kyutai/hibiki-samples",
+    "url": "https://huggingface.co/spaces/kyutai/hibiki-samples",
+    "kind": "space",
+    "note": "Space: 56 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Moshi: a speech-text foundation model for real-time dialogue",
+    "url": "https://arxiv.org/abs/2410.00037",
+    "year": 2024
+   },
+   {
+    "title": "High-Fidelity Simultaneous Speech-To-Speech Translation",
+    "url": "https://arxiv.org/abs/2502.03382",
+    "year": 2025
+   },
+   {
+    "title": "Streaming Sequence-to-Sequence Learning with Delayed Streams Modeling",
+    "url": "https://arxiv.org/abs/2509.08753",
+    "year": 2025
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pleias",
+  "contributions": [
+   {
+    "title": "Common Corpus",
+    "note": "Assembled and released Common Corpus, a very large dataset of public-domain and openly licensed text in many languages."
+   },
+   {
+    "title": "Models on open data",
+    "note": "Trained the Pleias language models only on permissibly licensed data."
+   },
+   {
+    "title": "Synthetic SYNTH dataset",
+    "note": "Released the SYNTH dataset and the small Baguettotron and Monad models trained on it."
+   },
+   {
+    "title": "YouTube-Commons",
+    "note": "Published transcripts of CC-BY YouTube videos as the YouTube-Commons dataset."
+   },
+   {
+    "title": "RAG tooling",
+    "note": "Open-sourced the Pleias-RAG-Library for retrieval-augmented generation with its small models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Quest-Best-Tokens",
+    "url": "https://github.com/Pleias/Quest-Best-Tokens",
+    "note": "An introduction to LLM Sampling (80 stars)"
+   },
+   {
+    "name": "pleias_ScholasticAI",
+    "url": "https://github.com/Pleias/pleias_ScholasticAI",
+    "note": "Open-source repository (72 stars)"
+   },
+   {
+    "name": "Pleias-RAG-Library",
+    "url": "https://github.com/Pleias/Pleias-RAG-Library",
+    "note": "Python library to use Pleias-RAG models (72 stars)"
+   },
+   {
+    "name": "marginalia",
+    "url": "https://github.com/Pleias/marginalia",
+    "note": "Open-source repository (67 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "PleIAs/Monad",
+    "url": "https://huggingface.co/PleIAs/Monad",
+    "kind": "model",
+    "note": "Model: 4,712 downloads, 72 likes."
+   },
+   {
+    "name": "PleIAs/Baguettotron",
+    "url": "https://huggingface.co/PleIAs/Baguettotron",
+    "kind": "model",
+    "note": "Model: 2,427 downloads, 270 likes."
+   },
+   {
+    "name": "PleIAs/common_corpus",
+    "url": "https://huggingface.co/datasets/PleIAs/common_corpus",
+    "kind": "dataset",
+    "note": "Dataset: 228,121 downloads, 452 likes."
+   },
+   {
+    "name": "PleIAs/PleIAs-Editor",
+    "url": "https://huggingface.co/spaces/PleIAs/PleIAs-Editor",
+    "kind": "space",
+    "note": "Space: 12 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Common Corpus: The Largest Collection of Ethical Data for LLM Pre-Training",
+    "url": "https://arxiv.org/abs/2506.01732",
+    "year": 2025
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "lighton",
+  "contributions": [
+   {
+    "title": "PyLate",
+    "note": "Created PyLate, a library for training and retrieving with late-interaction (ColBERT-style) models, with a paper."
+   },
+   {
+    "title": "GTE-ModernColBERT",
+    "note": "Released GTE-ModernColBERT-v1, a multi-vector retrieval model built on ModernBERT."
+   },
+   {
+    "title": "LightOnOCR",
+    "note": "Released the LightOnOCR family of compact end-to-end OCR vision-language models, with the 2-1B model passing 800k downloads."
+   },
+   {
+    "title": "Fast multi-vector search",
+    "note": "Open-sourced fast-plaid and next-plaid engines for efficient multi-vector search."
+   },
+   {
+    "title": "Protein language models",
+    "note": "Earlier open research includes RITA, a family of generative protein language models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "pylate",
+    "url": "https://github.com/lightonai/pylate",
+    "note": "Late Interaction Models Training & Retrieval (910 stars)"
+   },
+   {
+    "name": "next-plaid",
+    "url": "https://github.com/lightonai/next-plaid",
+    "note": "NextPlaid, ColGREP: Multi-vector search, from database to coding agents. (619 stars)"
+   },
+   {
+    "name": "fast-plaid",
+    "url": "https://github.com/lightonai/fast-plaid",
+    "note": "High-Performance Engine for Multi-Vector Search (286 stars)"
+   },
+   {
+    "name": "RITA",
+    "url": "https://github.com/lightonai/RITA",
+    "note": "RITA is a family of autoregressive protein models, developed by LightOn in collaboration with the OATML group  (100 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "lightonai/LightOnOCR-2-1B",
+    "url": "https://huggingface.co/lightonai/LightOnOCR-2-1B",
+    "kind": "model",
+    "note": "Model: 803,844 downloads, 852 likes."
+   },
+   {
+    "name": "lightonai/GTE-ModernColBERT-v1",
+    "url": "https://huggingface.co/lightonai/GTE-ModernColBERT-v1",
+    "kind": "model",
+    "note": "Model: 16,574 downloads, 180 likes."
+   },
+   {
+    "name": "lightonai/multilingual-embeddings-pre-training-curated",
+    "url": "https://huggingface.co/datasets/lightonai/multilingual-embeddings-pre-training-curated",
+    "kind": "dataset",
+    "note": "Dataset: 16,558 downloads, 5 likes."
+   },
+   {
+    "name": "lightonai/LightOnOCR-2-1B-Demo",
+    "url": "https://huggingface.co/spaces/lightonai/LightOnOCR-2-1B-Demo",
+    "kind": "space",
+    "note": "Space: 129 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "PyLate: Flexible Training and Retrieval for Late Interaction Models",
+    "url": "https://arxiv.org/abs/2508.03555",
+    "year": 2025
+   },
+   {
+    "title": "RITA: a Study on Scaling Up Generative Protein Sequence Models",
+    "url": "https://arxiv.org/abs/2205.05789",
+    "year": 2022
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "h-company",
+  "contributions": [
+   {
+    "title": "Holo1 models",
+    "note": "Released the Holo1 family of open vision-language models for grounding and navigating user interfaces."
+   },
+   {
+    "title": "Surfer-H agent",
+    "note": "Published Surfer-H together with Holo1, a cost-efficient web agent, in a technical paper."
+   },
+   {
+    "title": "Later Holo releases",
+    "note": "Continued with Holo1.5, Holo2 and Holo3 models, including quantised GGUF builds."
+   },
+   {
+    "title": "Benchmarks and data",
+    "note": "Shared the WebClick benchmark, agent trajectories and performance data on Hugging Face."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "Hcompany/Holo-3.1-35B-A3B-GGUF",
+    "url": "https://huggingface.co/Hcompany/Holo-3.1-35B-A3B-GGUF",
+    "kind": "model",
+    "note": "Model: 64,708 downloads, 54 likes."
+   },
+   {
+    "name": "Hcompany/Holo2-4B",
+    "url": "https://huggingface.co/Hcompany/Holo2-4B",
+    "kind": "model",
+    "note": "Model: 25,357 downloads, 27 likes."
+   },
+   {
+    "name": "Hcompany/trajectories",
+    "url": "https://huggingface.co/datasets/Hcompany/trajectories",
+    "kind": "dataset",
+    "note": "Dataset: 9,356 downloads, 41 likes."
+   },
+   {
+    "name": "Hcompany/Holo1-Navigation",
+    "url": "https://huggingface.co/spaces/Hcompany/Holo1-Navigation",
+    "kind": "space",
+    "note": "Space: 56 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Surfer-H Meets Holo1: Cost-Efficient Web Agent Powered by Open Weights",
+    "url": "https://arxiv.org/abs/2506.02865",
+    "year": 2025
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "black-forest-labs",
+  "contributions": [
+   {
+    "title": "FLUX.1 open weights",
+    "note": "Released FLUX.1 [schnell] and [dev] in 2024, which became widely used open-weight text-to-image models."
+   },
+   {
+    "title": "FLUX.1 Kontext",
+    "note": "Introduced Kontext for in-context image generation and editing, with a paper and the kontext-bench dataset."
+   },
+   {
+    "title": "FLUX.2 family",
+    "note": "Released the FLUX.2 models and the smaller klein variants alongside the flux2 inference repository."
+   },
+   {
+    "title": "Reference code",
+    "note": "Publishes official inference code and research code such as Self-Flow on GitHub."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "flux",
+    "url": "https://github.com/black-forest-labs/flux",
+    "note": "Official inference repo for FLUX.1 models (26,063 stars)"
+   },
+   {
+    "name": "flux2",
+    "url": "https://github.com/black-forest-labs/flux2",
+    "note": "Official inference repo for FLUX.2 models (2,879 stars)"
+   },
+   {
+    "name": "Self-Flow",
+    "url": "https://github.com/black-forest-labs/Self-Flow",
+    "note": "[ICML'26] Code and website for Self-Flow: Self-Supervised Flow Matching for Scalable Multi-Modal Synthesis (795 stars)"
+   },
+   {
+    "name": "flux-action",
+    "url": "https://github.com/black-forest-labs/flux-action",
+    "note": "FLUX 3 Action: open weights 7B world action model from Black Forest Labs. Train, fine-tune and run action pred (222 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "black-forest-labs/flux-3-image-klein-comfy",
+    "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-comfy",
+    "kind": "model",
+    "note": "Model: 1,115,161 downloads, 3355 likes."
+   },
+   {
+    "name": "black-forest-labs/FLUX.2-klein-base-4B",
+    "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
+    "kind": "model",
+    "note": "Model: 731,723 downloads, 197 likes."
+   },
+   {
+    "name": "black-forest-labs/kontext-bench",
+    "url": "https://huggingface.co/datasets/black-forest-labs/kontext-bench",
+    "kind": "dataset",
+    "note": "Dataset: 385 downloads, 68 likes."
+   },
+   {
+    "name": "black-forest-labs/FLUX.1-dev",
+    "url": "https://huggingface.co/spaces/black-forest-labs/FLUX.1-dev",
+    "kind": "space",
+    "note": "Space: 9584 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "FLUX.1 Kontext: Flow Matching for In-Context Image Generation and Editing in Latent Space",
+    "url": "https://arxiv.org/abs/2506.15742",
+    "year": 2025
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "stability-ai",
+  "contributions": [
+   {
+    "title": "Stable Diffusion",
+    "note": "Helped bring open latent diffusion to the public with the Stable Diffusion releases from 2022."
+   },
+   {
+    "title": "SDXL and turbo models",
+    "note": "Released SDXL 1.0, whose base model has been downloaded millions of times, plus fast SDXL-Turbo and SD-Turbo variants."
+   },
+   {
+    "title": "SD3 and rectified flow",
+    "note": "Published the Stable Diffusion 3 and 3.5 models based on rectified flow transformers, with a paper."
+   },
+   {
+    "title": "Video, 3D and language",
+    "note": "Released Stable Video Diffusion, Stable Fast 3D, TripoSR and the StableLM language models."
+   },
+   {
+    "title": "Open tools",
+    "note": "Maintains the generative-models repository, StableSwarmUI and Stable Cascade."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "generative-models",
+    "url": "https://github.com/Stability-AI/generative-models",
+    "note": "Generative Models by Stability AI (27,344 stars)"
+   },
+   {
+    "name": "StableLM",
+    "url": "https://github.com/Stability-AI/StableLM",
+    "note": "StableLM: Stability AI Language Models (15,644 stars)"
+   },
+   {
+    "name": "StableStudio",
+    "url": "https://github.com/Stability-AI/StableStudio",
+    "note": "Community interface for generative AI (9,033 stars)"
+   },
+   {
+    "name": "StableCascade",
+    "url": "https://github.com/Stability-AI/StableCascade",
+    "note": "Official Code for Stable Cascade (6,518 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "stabilityai/stable-diffusion-xl-base-1.0",
+    "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+    "kind": "model",
+    "note": "Model: 4,797,783 downloads, 8480 likes."
+   },
+   {
+    "name": "stabilityai/sdxl-turbo",
+    "url": "https://huggingface.co/stabilityai/sdxl-turbo",
+    "kind": "model",
+    "note": "Model: 583,716 downloads, 2673 likes."
+   },
+   {
+    "name": "stabilityai/stable-diffusion-3.5-large",
+    "url": "https://huggingface.co/spaces/stabilityai/stable-diffusion-3.5-large",
+    "kind": "space",
+    "note": "Space: 2053 likes on the Hub."
+   },
+   {
+    "name": "stabilityai/sd-turbo",
+    "url": "https://huggingface.co/stabilityai/sd-turbo",
+    "kind": "model",
+    "note": "Model: 389,992 downloads, 471 likes."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis",
+    "url": "https://arxiv.org/abs/2403.03206",
+    "year": 2024
+   },
+   {
+    "title": "SDXL: Improving Latent Diffusion Models for High-Resolution Image Synthesis",
+    "url": "https://arxiv.org/abs/2307.01952",
+    "year": 2023
+   },
+   {
+    "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+    "url": "https://arxiv.org/abs/2311.15127",
+    "year": 2023
+   },
+   {
+    "title": "Stable LM 2 1.6B Technical Report",
+    "url": "https://arxiv.org/abs/2402.17834",
+    "year": 2024
+   }
+  ],
+  "confidence": "high",
+  "discord": "https://discord.gg/stablediffusion",
+  "discord_note": "Community Discord for Stable Diffusion users and creators."
+ },
+ {
+  "id": "laion",
+  "contributions": [
+   {
+    "title": "LAION-400M and LAION-5B",
+    "note": "Created large open image-text datasets that made open training of CLIP-style and diffusion models possible."
+   },
+   {
+    "title": "OpenCLIP models",
+    "note": "Trained and released CLIP models on LAION-2B, with a scaling-laws study; the checkpoints have millions of downloads."
+   },
+   {
+    "title": "Open-Assistant",
+    "note": "Coordinated the crowd-sourced OpenAssistant conversation dataset and assistant project."
+   },
+   {
+    "title": "Audio and CLAP",
+    "note": "Released CLAP audio-text models and large audio datasets."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Open-Assistant",
+    "url": "https://github.com/LAION-AI/Open-Assistant",
+    "note": "OpenAssistant is a chat-based assistant that understands tasks, can interact with third-party systems, and ret (37,350 stars)"
+   },
+   {
+    "name": "CLAP",
+    "url": "https://github.com/LAION-AI/CLAP",
+    "note": "Contrastive Language-Audio Pretraining (2,346 stars)"
+   },
+   {
+    "name": "CLIP_benchmark",
+    "url": "https://github.com/LAION-AI/CLIP_benchmark",
+    "note": "CLIP-like model evaluation (819 stars)"
+   },
+   {
+    "name": "audio-dataset",
+    "url": "https://github.com/LAION-AI/audio-dataset",
+    "note": "Audio Dataset for training CLAP and other models (750 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "laion/clap-htsat-fused",
+    "url": "https://huggingface.co/laion/clap-htsat-fused",
+    "kind": "model",
+    "note": "Model: 9,227,991 downloads, 178 likes."
+   },
+   {
+    "name": "laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+    "url": "https://huggingface.co/laion/CLIP-ViT-B-32-laion2B-s34B-b79K",
+    "kind": "model",
+    "note": "Model: 5,040,528 downloads, 157 likes."
+   },
+   {
+    "name": "laion/small-overlapping-speech-bench",
+    "url": "https://huggingface.co/datasets/laion/small-overlapping-speech-bench",
+    "kind": "dataset",
+    "note": "Dataset: 103,925 downloads, 2 likes."
+   },
+   {
+    "name": "laion/CoCa",
+    "url": "https://huggingface.co/spaces/laion/CoCa",
+    "kind": "space",
+    "note": "Space: 126 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "LAION-5B: An open large-scale dataset for training next generation image-text models",
+    "url": "https://arxiv.org/abs/2210.08402",
+    "year": 2022
+   },
+   {
+    "title": "Reproducible scaling laws for contrastive language-image learning",
+    "url": "https://arxiv.org/abs/2212.07143",
+    "year": 2022
+   },
+   {
+    "title": "OpenAssistant Conversations -- Democratizing Large Language Model Alignment",
+    "url": "https://arxiv.org/abs/2304.07327",
+    "year": 2023
+   }
+  ],
+  "confidence": "high",
+  "discord": "https://discord.com/invite/eq3cAMZtCC",
+  "discord_note": "LAION community Discord for contributors and researchers working on open datasets and models."
+ },
+ {
+  "id": "openeurollm",
+  "contributions": [
+   {
+    "title": "EU-funded consortium",
+    "note": "Started on 1 February 2025 as an EU-funded effort coordinated by Charles University with AMD Silo AI as co-lead."
+   },
+   {
+    "title": "Distributed training infrastructure",
+    "note": "Built infrastructure for distributed training and cross-cluster evaluation, as described in its first-year progress post."
+   },
+   {
+    "title": "Reference models",
+    "note": "Released reference models at 2B and 100B scale in collaboration with HPLT and published prelude-base and a 256k tokenizer."
+   },
+   {
+    "title": "Open data catalogue",
+    "note": "Started a catalogue of LLM training datasets and published propella annotations and translated post-training datasets."
+   },
+   {
+    "title": "Public progress tracking",
+    "note": "Runs public Hugging Face Spaces for training progress and evaluations."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "openeurollm/datamix-2b-80-20",
+    "url": "https://huggingface.co/openeurollm/datamix-2b-80-20",
+    "kind": "model",
+    "note": "Model: 5,848 downloads, 0 likes."
+   },
+   {
+    "name": "openeurollm/prelude-base",
+    "url": "https://huggingface.co/openeurollm/prelude-base",
+    "kind": "model",
+    "note": "Model: 3,935 downloads, 21 likes."
+   },
+   {
+    "name": "openeurollm/propella-annotations",
+    "url": "https://huggingface.co/datasets/openeurollm/propella-annotations",
+    "kind": "dataset",
+    "note": "Dataset: 7,820 downloads, 22 likes."
+   },
+   {
+    "name": "openeurollm/oellm_progress",
+    "url": "https://huggingface.co/spaces/openeurollm/oellm_progress",
+    "kind": "space",
+    "note": "Space: 29 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "confidence": "high"
+ },
+ {
+  "id": "eurollm",
+  "contributions": [
+   {
+    "title": "EuroLLM models",
+    "note": "Released EuroLLM open multilingual models for European languages, with a 2024 paper."
+   },
+   {
+    "title": "EuroLLM-9B",
+    "note": "Published EuroLLM-9B and its Instruct version covering all 24 official EU languages plus 11 more."
+   },
+   {
+    "title": "Speech models",
+    "note": "Released mHuBERT-147, a compact multilingual speech model that is the project's most downloaded checkpoint."
+   },
+   {
+    "title": "Open data",
+    "note": "Shared datasets such as EuroWeb-2512 and long-context LongBlocks data on Hugging Face."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "mHuBERT-147-scripts",
+    "url": "https://github.com/utter-project/mHuBERT-147-scripts",
+    "note": "Collection of scripts from  mHuBERT-147. (35 stars)"
+   },
+   {
+    "name": "fairseq",
+    "url": "https://github.com/utter-project/fairseq",
+    "note": "This is a fork of the original fairseq repository (version 0.12.2) with added classes for training mHuBERT-147 (21 stars)"
+   },
+   {
+    "name": "SpireLM",
+    "url": "https://github.com/utter-project/SpireLM",
+    "note": "Open-source repository (10 stars)"
+   },
+   {
+    "name": "ELITR-Bench",
+    "url": "https://github.com/utter-project/ELITR-Bench",
+    "note": "Benchmark for the evaluation of long-context LLMs on meeting transcripts (6 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "utter-project/mHuBERT-147",
+    "url": "https://huggingface.co/utter-project/mHuBERT-147",
+    "kind": "model",
+    "note": "Model: 33,893 downloads, 108 likes."
+   },
+   {
+    "name": "utter-project/EuroLLM-1.7B-Instruct",
+    "url": "https://huggingface.co/utter-project/EuroLLM-1.7B-Instruct",
+    "kind": "model",
+    "note": "Model: 19,733 downloads, 104 likes."
+   },
+   {
+    "name": "utter-project/EuroWeb-2512",
+    "url": "https://huggingface.co/datasets/utter-project/EuroWeb-2512",
+    "kind": "dataset",
+    "note": "Dataset: 19,106 downloads, 6 likes."
+   },
+   {
+    "name": "utter-project/EuroLLM-1.7B",
+    "url": "https://huggingface.co/utter-project/EuroLLM-1.7B",
+    "kind": "model",
+    "note": "Model: 12,462 downloads, 123 likes."
+   }
+  ],
+  "papers": [
+   {
+    "title": "EuroLLM-9B: Technical Report",
+    "url": "https://arxiv.org/abs/2506.04079",
+    "year": 2025
+   },
+   {
+    "title": "EuroLLM: Multilingual Language Models for Europe",
+    "url": "https://arxiv.org/abs/2409.16235",
+    "year": 2024
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ai-sweden",
+  "contributions": [
+   {
+    "title": "GPT-SW3",
+    "note": "Led GPT-SW3, a family of 126M to 40B parameter models trained on roughly 320B tokens of Nordic languages, English and code."
+   },
+   {
+    "title": "Nordic Pile",
+    "note": "Assembled the training data for GPT-SW3, described in its published insights."
+   },
+   {
+    "title": "Swedish bias evaluation",
+    "note": "Released the BiaSWE dataset for evaluating bias in Swedish language models."
+   },
+   {
+    "title": "Swedish fine-tunes",
+    "note": "Publishes Swedish-adapted models such as Llama-3-8B-instruct and ModernBERT-large on its Hub organisation."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "AI-Sweden-Models/Llama-3-8B-instruct",
+    "url": "https://huggingface.co/AI-Sweden-Models/Llama-3-8B-instruct",
+    "kind": "model",
+    "note": "Model: 1,470 downloads, 13 likes."
+   },
+   {
+    "name": "AI-Sweden-Models/roberta-large-1160k",
+    "url": "https://huggingface.co/AI-Sweden-Models/roberta-large-1160k",
+    "kind": "model",
+    "note": "Model: 694 downloads, 12 likes."
+   },
+   {
+    "name": "AI-Sweden-Models/BiaSWE",
+    "url": "https://huggingface.co/datasets/AI-Sweden-Models/BiaSWE",
+    "kind": "dataset",
+    "note": "Dataset: 134 downloads, 4 likes."
+   },
+   {
+    "name": "AI-Sweden-Models/ModernBERT-large",
+    "url": "https://huggingface.co/AI-Sweden-Models/ModernBERT-large",
+    "kind": "model",
+    "note": "Model: 499 downloads, 7 likes."
+   }
+  ],
+  "papers": [
+   {
+    "title": "GPT-SW3: An Autoregressive Language Model for the Nordic Languages",
+    "url": "https://arxiv.org/abs/2305.12987",
+    "year": 2023
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "kblab",
+  "contributions": [
+   {
+    "title": "Swedish BERT",
+    "note": "Trained and released a Swedish BERT in 2020 from the National Library collections."
+   },
+   {
+    "title": "VoxRex speech model",
+    "note": "Released the VoxRex wav2vec2 Swedish speech model, now with over 700,000 downloads."
+   },
+   {
+    "title": "KB-Whisper",
+    "note": "Released KB-Whisper in March 2025, Whisper models fine-tuned on tens of thousands of hours of Swedish speech."
+   },
+   {
+    "title": "RixVox corpus",
+    "note": "Published the RixVox parliamentary speech dataset and a Swedish sentence-BERT."
+   },
+   {
+    "title": "Easy transcription",
+    "note": "Offers an easytranscriber demo Space built on its speech models."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "KBLab/wav2vec2-large-voxrex-swedish",
+    "url": "https://huggingface.co/KBLab/wav2vec2-large-voxrex-swedish",
+    "kind": "model",
+    "note": "Model: 728,037 downloads, 26 likes."
+   },
+   {
+    "name": "KBLab/sentence-bert-swedish-cased",
+    "url": "https://huggingface.co/KBLab/sentence-bert-swedish-cased",
+    "kind": "model",
+    "note": "Model: 38,229 downloads, 37 likes."
+   },
+   {
+    "name": "KBLab/rixvox-v2",
+    "url": "https://huggingface.co/datasets/KBLab/rixvox-v2",
+    "kind": "dataset",
+    "note": "Dataset: 5,545 downloads, 14 likes."
+   },
+   {
+    "name": "KBLab/easytranscriber-demo",
+    "url": "https://huggingface.co/spaces/KBLab/easytranscriber-demo",
+    "kind": "space",
+    "note": "Space: 4 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Playing with Words at the National Library of Sweden -- Making a Swedish BERT",
+    "url": "https://arxiv.org/abs/2007.01658",
+    "year": 2020
+   },
+   {
+    "title": "Hearing voices at the National Library -- a speech corpus and acoustic model for the Swedish language",
+    "url": "https://arxiv.org/abs/2205.03026",
+    "year": 2022
+   },
+   {
+    "title": "Swedish Whispers; Leveraging a Massive Speech Corpus for Swedish Speech Recognition",
+    "url": "https://arxiv.org/abs/2505.17538",
+    "year": 2025
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "tilde",
+  "contributions": [
+   {
+    "title": "TildeOpen LLM",
+    "note": "Released TildeOpen 30B, an open-weight dense model for 34 European languages, with a curriculum-learning paper accepted at LREC 2026."
+   },
+   {
+    "title": "Long-context variant",
+    "note": "Published a 64k-context version of TildeOpen-30b."
+   },
+   {
+    "title": "Translation data",
+    "note": "Released the TildeOpen-MT-Euro-mix dataset on Hugging Face."
+   },
+   {
+    "title": "MT tooling",
+    "note": "Open-sources translation tools such as terminology_translation and website-translator on GitHub."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "terminology_translation",
+    "url": "https://github.com/tilde-nlp/terminology_translation",
+    "note": "Open-source repository (5 stars)"
+   },
+   {
+    "name": "website-translator",
+    "url": "https://github.com/tilde-nlp/website-translator",
+    "note": "Website translation JS library for website localization (5 stars)"
+   },
+   {
+    "name": "c-eval",
+    "url": "https://github.com/tilde-nlp/c-eval",
+    "note": "Parallel corpora cleaning and evaluation tool (4 stars)"
+   },
+   {
+    "name": "et-mt-tools",
+    "url": "https://github.com/tilde-nlp/et-mt-tools",
+    "note": "This repository contains guidelines and tools for SMT system developement researched within the project \"EKT63 (4 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "TildeAI/TildeOpen-30b",
+    "url": "https://huggingface.co/TildeAI/TildeOpen-30b",
+    "kind": "model",
+    "note": "Model: 2,243 downloads, 172 likes."
+   },
+   {
+    "name": "TildeAI/TildeOpen-30b-64k",
+    "url": "https://huggingface.co/TildeAI/TildeOpen-30b-64k",
+    "kind": "model",
+    "note": "Model: 594 downloads, 3 likes."
+   },
+   {
+    "name": "TildeAI/TildeOpen-MT-Euro-mix",
+    "url": "https://huggingface.co/datasets/TildeAI/TildeOpen-MT-Euro-mix",
+    "kind": "dataset",
+    "note": "Dataset: 65 downloads, 1 likes."
+   },
+   {
+    "name": "TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
+    "url": "https://huggingface.co/TildeAI/TildeOpen8B-64k-wmt26-compression-task-cs-de-fp4a16",
+    "kind": "model",
+    "note": "Model: 17 downloads, 0 likes."
+   }
+  ],
+  "papers": [
+   {
+    "title": "TildeOpen LLM: Leveraging Curriculum Learning to Achieve Equitable Language Representation",
+    "url": "https://arxiv.org/abs/2603.08182",
+    "year": 2026
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "swiss-ai-initiative",
+  "contributions": [
+   {
+    "title": "Apertus",
+    "note": "Trained the fully open Apertus models at 8B and 70B and released weights, data recipes and a technical report."
+   },
+   {
+    "title": "Apertus v1.5",
+    "note": "Followed with Apertus v1.5 checkpoints at 8B and 70B and an open SFT mix."
+   },
+   {
+    "title": "Open pretraining data",
+    "note": "Published the pretrain-data repository describing the data pipeline."
+   },
+   {
+    "title": "Training code",
+    "note": "Shares a Megatron-LM fork and finetuning recipes for Apertus."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "pretrain-data",
+    "url": "https://github.com/swiss-ai/pretrain-data",
+    "note": "Pretraining data reconstruction scripts for Apertus (170 stars)"
+   },
+   {
+    "name": "apertus-tech-report",
+    "url": "https://github.com/swiss-ai/apertus-tech-report",
+    "note": "Tech Report of the Apertus LLM (144 stars)"
+   },
+   {
+    "name": "Megatron-LM",
+    "url": "https://github.com/swiss-ai/Megatron-LM",
+    "note": "Ongoing research training transformer models at scale (53 stars)"
+   },
+   {
+    "name": "ESFM",
+    "url": "https://github.com/swiss-ai/ESFM",
+    "note": "Open-source repository (47 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "swiss-ai/Apertus-8B-Instruct-2509",
+    "url": "https://huggingface.co/swiss-ai/Apertus-8B-Instruct-2509",
+    "kind": "model",
+    "note": "Model: 191,142 downloads, 505 likes."
+   },
+   {
+    "name": "swiss-ai/Apertus-8B-2509",
+    "url": "https://huggingface.co/swiss-ai/Apertus-8B-2509",
+    "kind": "model",
+    "note": "Model: 10,421 downloads, 175 likes."
+   },
+   {
+    "name": "swiss-ai/nasa",
+    "url": "https://huggingface.co/datasets/swiss-ai/nasa",
+    "kind": "dataset",
+    "note": "Dataset: 3,321 downloads, 2 likes."
+   },
+   {
+    "name": "swiss-ai/apertus-mini-webgpu",
+    "url": "https://huggingface.co/spaces/swiss-ai/apertus-mini-webgpu",
+    "kind": "space",
+    "note": "Space: 12 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Apertus: Democratizing Open and Compliant LLMs for Global Language Environments",
+    "url": "https://arxiv.org/abs/2509.14233",
+    "year": 2025
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "speakleash",
+  "contributions": [
+   {
+    "title": "Bielik models",
+    "note": "Developed the open Bielik Polish language models, from 7B v0.1 to 11B v3.0 Instruct."
+   },
+   {
+    "title": "Bielik v3 Small",
+    "note": "Published small Bielik v3 models with a technical report."
+   },
+   {
+    "title": "Polish evaluation",
+    "note": "Hosts the Open PL LLM Leaderboard, a Polish MT-Bench and EQ-Bench Spaces."
+   },
+   {
+    "title": "Community datasets",
+    "note": "Collects Polish text with a volunteer community and shares tools such as bielik-tools and Bielik-how-to-start."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Bielik-how-to-start",
+    "url": "https://github.com/speakleash/Bielik-how-to-start",
+    "note": "Skrypty, tutoriale oraz programistyczna baza wiedzy dotycząca pracy z modelem Bielik. (199 stars)"
+   },
+   {
+    "name": "speakleash",
+    "url": "https://github.com/speakleash/speakleash",
+    "note": "Open-source repository (84 stars)"
+   },
+   {
+    "name": "bielik-tools",
+    "url": "https://github.com/speakleash/bielik-tools",
+    "note": "Open-source repository (46 stars)"
+   },
+   {
+    "name": "eskadra-bielik-misja1",
+    "url": "https://github.com/speakleash/eskadra-bielik-misja1",
+    "note": "Eskadra Bielika - Misja 1 - repozytorium główne (44 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "speakleash/Bielik-11B-v3.0-Instruct",
+    "url": "https://huggingface.co/speakleash/Bielik-11B-v3.0-Instruct",
+    "kind": "model",
+    "note": "Model: 103,623 downloads, 160 likes."
+   },
+   {
+    "name": "speakleash/Bielik-11B-v2.3-Instruct",
+    "url": "https://huggingface.co/speakleash/Bielik-11B-v2.3-Instruct",
+    "kind": "model",
+    "note": "Model: 10,877 downloads, 52 likes."
+   },
+   {
+    "name": "speakleash/PES-2018-2022",
+    "url": "https://huggingface.co/datasets/speakleash/PES-2018-2022",
+    "kind": "dataset",
+    "note": "Dataset: 226 downloads, 1 likes."
+   },
+   {
+    "name": "speakleash/open_pl_llm_leaderboard",
+    "url": "https://huggingface.co/spaces/speakleash/open_pl_llm_leaderboard",
+    "kind": "space",
+    "note": "Space: 85 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Bielik 7B v0.1: A Polish Language Model -- Development, Insights, and Evaluation",
+    "url": "https://arxiv.org/abs/2410.18565",
+    "year": 2024
+   },
+   {
+    "title": "Bielik v3 Small: Technical Report",
+    "url": "https://arxiv.org/abs/2505.02550",
+    "year": 2025
+   },
+   {
+    "title": "Bielik 11B v2 Technical Report",
+    "url": "https://arxiv.org/abs/2505.02410",
+    "year": 2025
+   }
+  ],
+  "confidence": "high",
+  "discord": "https://discord.gg/ZJwCMrxwT7",
+  "discord_note": "Community Discord of the SpeakLeash project, for Bielik users and data contributors."
+ },
+ {
+  "id": "turkunlp",
+  "contributions": [
+   {
+    "title": "FinBERT",
+    "note": "Released FinBERT in 2019, the first widely used Finnish BERT models, with a paper."
+   },
+   {
+    "title": "Turku parser pipeline",
+    "note": "Maintains the Turku neural parser pipeline for multilingual dependency parsing."
+   },
+   {
+    "title": "Poro 34B",
+    "note": "Co-developed Poro 34B and analysed its multilingual training, with a 2024 paper."
+   },
+   {
+    "title": "FinGPT",
+    "note": "Published FinGPT, large generative models for Finnish, and later Finnish ModernBERT and FineWeb-style data."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Turku-neural-parser-pipeline",
+    "url": "https://github.com/TurkuNLP/Turku-neural-parser-pipeline",
+    "note": "A neural parsing pipeline for segmentation, morphological tagging, dependency parsing and lemmatization with p (116 stars)"
+   },
+   {
+    "name": "FinBERT",
+    "url": "https://github.com/TurkuNLP/FinBERT",
+    "note": "BERT model trained from scratch on Finnish (100 stars)"
+   },
+   {
+    "name": "Finnish-dep-parser",
+    "url": "https://github.com/TurkuNLP/Finnish-dep-parser",
+    "note": "The Finnish dependency parsing pipeline being developed by the Turku NLP group. Documentation: (51 stars)"
+   },
+   {
+    "name": "wikibert",
+    "url": "https://github.com/TurkuNLP/wikibert",
+    "note": "BERT models for many languages created from Wikipedia texts (33 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "TurkuNLP/sbert-cased-finnish-paraphrase",
+    "url": "https://huggingface.co/TurkuNLP/sbert-cased-finnish-paraphrase",
+    "kind": "model",
+    "note": "Model: 10,175 downloads, 4 likes."
+   },
+   {
+    "name": "TurkuNLP/bert-base-finnish-cased-v1",
+    "url": "https://huggingface.co/TurkuNLP/bert-base-finnish-cased-v1",
+    "kind": "model",
+    "note": "Model: 4,472 downloads, 10 likes."
+   },
+   {
+    "name": "TurkuNLP/register_oscar",
+    "url": "https://huggingface.co/datasets/TurkuNLP/register_oscar",
+    "kind": "dataset",
+    "note": "Dataset: 4,215 downloads, 5 likes."
+   },
+   {
+    "name": "TurkuNLP/finnish-modernbert-base",
+    "url": "https://huggingface.co/TurkuNLP/finnish-modernbert-base",
+    "kind": "model",
+    "note": "Model: 1,060 downloads, 0 likes."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Multilingual is not enough: BERT for Finnish",
+    "url": "https://arxiv.org/abs/1912.07076",
+    "year": 2019
+   },
+   {
+    "title": "Poro 34B and the Blessing of Multilinguality",
+    "url": "https://arxiv.org/abs/2404.01856",
+    "year": 2024
+   },
+   {
+    "title": "FinGPT: Large Generative Models for a Small Language",
+    "url": "https://arxiv.org/abs/2311.05640",
+    "year": 2023
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "nbailab",
+  "contributions": [
+   {
+    "title": "Norwegian BERT",
+    "note": "Released NB-BERT from the National Library of Norway collections, with a 2021 paper."
+   },
+   {
+    "title": "NB-Whisper and wav2vec2",
+    "note": "Released NB-Whisper and Norwegian wav2vec2 speech models, some with hundreds of thousands of downloads."
+   },
+   {
+    "title": "Norwegian Colossal Corpus",
+    "note": "Published the NCC text corpus and NPSC and NST speech corpora."
+   },
+   {
+    "title": "Sentence embeddings",
+    "note": "Released nb-sbert-base for Norwegian sentence embeddings."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "notram",
+    "url": "https://github.com/NbAiLab/notram",
+    "note": "Norwegian Transformer Model (123 stars)"
+   },
+   {
+    "name": "nb-whisper",
+    "url": "https://github.com/NbAiLab/nb-whisper",
+    "note": "Open-source repository (58 stars)"
+   },
+   {
+    "name": "nostram",
+    "url": "https://github.com/NbAiLab/nostram",
+    "note": "Norwegian Speech Transformer Models (19 stars)"
+   },
+   {
+    "name": "tokenizer-benchmark",
+    "url": "https://github.com/NbAiLab/tokenizer-benchmark",
+    "note": "Benchmark for Scandinavian Tokenizers (9 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "NbAiLab/nb-wav2vec2-1b-nynorsk",
+    "url": "https://huggingface.co/NbAiLab/nb-wav2vec2-1b-nynorsk",
+    "kind": "model",
+    "note": "Model: 500,530 downloads, 4 likes."
+   },
+   {
+    "name": "NbAiLab/nb-wav2vec2-1b-bokmaal-v2",
+    "url": "https://huggingface.co/NbAiLab/nb-wav2vec2-1b-bokmaal-v2",
+    "kind": "model",
+    "note": "Model: 444,207 downloads, 0 likes."
+   },
+   {
+    "name": "NbAiLab/NCC",
+    "url": "https://huggingface.co/datasets/NbAiLab/NCC",
+    "kind": "dataset",
+    "note": "Dataset: 1,617 downloads, 4 likes."
+   },
+   {
+    "name": "NbAiLab/nb-tts-voxcpm2-voices-2607-demo",
+    "url": "https://huggingface.co/spaces/NbAiLab/nb-tts-voxcpm2-voices-2607-demo",
+    "kind": "space",
+    "note": "Space: 8 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Operationalizing a National Digital Library: The Case for a Norwegian Transformer Model",
+    "url": "https://arxiv.org/abs/2104.09617",
+    "year": 2021
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ltg-oslo",
+  "contributions": [
+   {
+    "title": "NorBERT and NorBench",
+    "note": "Released NorBERT models and the NorBench benchmark for Norwegian language models."
+   },
+   {
+    "title": "NorMistral",
+    "note": "Released NorMistral models, including 7B and 11B variants and a long-context version, with a paper on continual training for languages of Norway."
+   },
+   {
+    "title": "GPT-BERT",
+    "note": "Published GPT-BERT, a hybrid masked and causal training approach from the BabyLM setting."
+   },
+   {
+    "title": "Norwegian corpora",
+    "note": "Maintains resources such as NorNE, NoReC, NorQuAD and instruction datasets."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "norne",
+    "url": "https://github.com/ltgoslo/norne",
+    "note": "Norwegian Named Entities annotations on top of NDT (Norwegian Dependency Treebank) (72 stars)"
+   },
+   {
+    "name": "gpt-bert",
+    "url": "https://github.com/ltgoslo/gpt-bert",
+    "note": "Official implementation of \"GPT or BERT: why not both?\" (64 stars)"
+   },
+   {
+    "name": "norec",
+    "url": "https://github.com/ltgoslo/norec",
+    "note": "Norwegian Review Corpus (51 stars)"
+   },
+   {
+    "name": "simple_elmo",
+    "url": "https://github.com/ltgoslo/simple_elmo",
+    "note": "Simple library to work with pre-trained ELMo models in TensorFlow (51 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ltg/normistral-7b-warm",
+    "url": "https://huggingface.co/ltg/normistral-7b-warm",
+    "kind": "model",
+    "note": "Model: 5,305 downloads, 31 likes."
+   },
+   {
+    "name": "ltg/gpt-bert-babylm-base",
+    "url": "https://huggingface.co/ltg/gpt-bert-babylm-base",
+    "kind": "model",
+    "note": "Model: 5,257 downloads, 10 likes."
+   },
+   {
+    "name": "ltg/nrk_quiz_qa",
+    "url": "https://huggingface.co/datasets/ltg/nrk_quiz_qa",
+    "kind": "dataset",
+    "note": "Dataset: 9,391 downloads, 3 likes."
+   },
+   {
+    "name": "ltg/nor-ud",
+    "url": "https://huggingface.co/spaces/ltg/nor-ud",
+    "kind": "space",
+    "note": "Space: 2 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "NorBench -- A Benchmark for Norwegian Language Models",
+    "url": "https://arxiv.org/abs/2305.03880",
+    "year": 2023
+   },
+   {
+    "title": "GPT or BERT: why not both?",
+    "url": "https://arxiv.org/abs/2410.24159",
+    "year": 2024
+   },
+   {
+    "title": "Small Languages, Big Models: A Study of Continual Training on Languages of Norway",
+    "url": "https://arxiv.org/abs/2412.06484",
+    "year": 2024
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "danish-foundation-models",
+  "contributions": [
+   {
+    "title": "Danish Dynaword",
+    "note": "Released Danish Dynaword, an openly licensed Danish text corpus, plus a Swedish counterpart."
+   },
+   {
+    "title": "DFM models",
+    "note": "Published DFM-Mimir language models and edda speech recognition models."
+   },
+   {
+    "title": "Project paper",
+    "note": "Described the vision and first results in the paper Danish Foundation Models."
+   },
+   {
+    "title": "Danish NLP tools",
+    "note": "Maintains tools such as DaCy and odyCy for Danish NLP pipelines."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "DaCy",
+    "url": "https://github.com/centre-for-humanities-computing/DaCy",
+    "note": "DaCy: The State of the Art Danish NLP pipeline using SpaCy (105 stars)"
+   },
+   {
+    "name": "embedding-explorer",
+    "url": "https://github.com/centre-for-humanities-computing/embedding-explorer",
+    "note": "Tools for interactive visual exploration of semantic embeddings. (51 stars)"
+   },
+   {
+    "name": "tweetopic",
+    "url": "https://github.com/centre-for-humanities-computing/tweetopic",
+    "note": "Blazing fast topic modelling for short texts. (37 stars)"
+   },
+   {
+    "name": "odyCy",
+    "url": "https://github.com/centre-for-humanities-computing/odyCy",
+    "note": "A general-purpose NLP pipeline for Ancient Greek (29 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "danish-foundation-models/DFM-Mimir-v1.5",
+    "url": "https://huggingface.co/danish-foundation-models/DFM-Mimir-v1.5",
+    "kind": "model",
+    "note": "Model: 3,684 downloads, 6 likes."
+   },
+   {
+    "name": "danish-foundation-models/DFM-Mimir",
+    "url": "https://huggingface.co/danish-foundation-models/DFM-Mimir",
+    "kind": "model",
+    "note": "Model: 3,033 downloads, 86 likes."
+   },
+   {
+    "name": "danish-foundation-models/danish-dynaword",
+    "url": "https://huggingface.co/datasets/danish-foundation-models/danish-dynaword",
+    "kind": "dataset",
+    "note": "Dataset: 16,676 downloads, 23 likes."
+   },
+   {
+    "name": "danish-foundation-models/edda-danish-asr",
+    "url": "https://huggingface.co/spaces/danish-foundation-models/edda-danish-asr",
+    "kind": "space",
+    "note": "Space: 2 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Danish Foundation Models",
+    "url": "https://arxiv.org/abs/2311.07264",
+    "year": 2023
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "sapienza-nlp",
+  "contributions": [
+   {
+    "title": "Minerva",
+    "note": "Trained the Minerva family of Italian-English language models from scratch, from 350M to 7B parameters."
+   },
+   {
+    "title": "ReLiK",
+    "note": "Released ReLiK, a fast entity linking and relation extraction framework."
+   },
+   {
+    "title": "Maverick coreference",
+    "note": "Released Maverick for efficient coreference resolution and the bookcoref dataset."
+   },
+   {
+    "title": "Italian benchmarks",
+    "note": "Published translated Italian benchmarks such as ARC and MMLU on Hugging Face."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "relik",
+    "url": "https://github.com/SapienzaNLP/relik",
+    "note": "Retrieve, Read and LinK: Fast and Accurate Entity Linking and Relation Extraction on an Academic Budget (ACL 2 (519 stars)"
+   },
+   {
+    "name": "extend",
+    "url": "https://github.com/SapienzaNLP/extend",
+    "note": "Entity Disambiguation as text extraction (ACL 2022) (182 stars)"
+   },
+   {
+    "name": "spring",
+    "url": "https://github.com/SapienzaNLP/spring",
+    "note": "SPRING is a seq2seq model for Text-to-AMR and AMR-to-Text (AAAI2021). (139 stars)"
+   },
+   {
+    "name": "maverick-coref",
+    "url": "https://github.com/SapienzaNLP/maverick-coref",
+    "note": "Open-source repository (71 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "sapienzanlp/Minerva-3B-base-v1.0",
+    "url": "https://huggingface.co/sapienzanlp/Minerva-3B-base-v1.0",
+    "kind": "model",
+    "note": "Model: 5,847 downloads, 58 likes."
+   },
+   {
+    "name": "sapienzanlp/Minerva-350M-base-v1.0",
+    "url": "https://huggingface.co/sapienzanlp/Minerva-350M-base-v1.0",
+    "kind": "model",
+    "note": "Model: 5,601 downloads, 17 likes."
+   },
+   {
+    "name": "sapienzanlp/INDAQA_CALAMITA",
+    "url": "https://huggingface.co/datasets/sapienzanlp/INDAQA_CALAMITA",
+    "kind": "dataset",
+    "note": "Dataset: 804 downloads, 2 likes."
+   },
+   {
+    "name": "sapienzanlp/ea-mt-leaderboard",
+    "url": "https://huggingface.co/spaces/sapienzanlp/ea-mt-leaderboard",
+    "kind": "space",
+    "note": "Space: 4 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "ReLiK: Retrieve and LinK, Fast and Accurate Entity Linking and Relation Extraction on an Academic Budget",
+    "url": "https://arxiv.org/abs/2408.00103",
+    "year": 2024
+   },
+   {
+    "title": "Maverick: Efficient and Accurate Coreference Resolution Defying Recent Trends",
+    "url": "https://arxiv.org/abs/2407.21489",
+    "year": 2024
+   },
+   {
+    "title": "Minerva LLMs: The First Family of Large Language Models Trained from Scratch on Italian Data",
+    "url": "https://aclanthology.org/2024.clicit-1.77.pdf",
+    "year": 2024
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "bsc-langtech",
+  "contributions": [
+   {
+    "title": "Salamandra",
+    "note": "Released the Salamandra open models at 2B, 7B and 40B scales for Spanish, Catalan and other European languages."
+   },
+   {
+    "title": "ALIA",
+    "note": "Contributes to ALIA, the Spanish public open language model initiative."
+   },
+   {
+    "title": "Translation model",
+    "note": "Published SalamandraTA for translation and a demo Space."
+   },
+   {
+    "title": "Bias and ASR resources",
+    "note": "Released CaBBQ and EsBBQ bias benchmarks and a Catalan ASR arena."
+   },
+   {
+    "title": "MrBERT",
+    "note": "Released MrBERT-es encoder models for Spanish."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "salamandra",
+    "url": "https://github.com/langtech-bsc/salamandra",
+    "note": "Open-source repository (33 stars)"
+   },
+   {
+    "name": "Wikiextractor-V2",
+    "url": "https://github.com/langtech-bsc/Wikiextractor-V2",
+    "note": "Enhaced version of Wikiextrator: A wikipedia dumps extractor (31 stars)"
+   },
+   {
+    "name": "alia",
+    "url": "https://github.com/langtech-bsc/alia",
+    "note": "Open-source repository (28 stars)"
+   },
+   {
+    "name": "AnonymizationPipeline",
+    "url": "https://github.com/langtech-bsc/AnonymizationPipeline",
+    "note": "Anonymization Pipeline for injesting data from outside of BSC that contains GDPR protected data. (19 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "BSC-LT/salamandra-7b-instruct",
+    "url": "https://huggingface.co/BSC-LT/salamandra-7b-instruct",
+    "kind": "model",
+    "note": "Model: 33,786 downloads, 85 likes."
+   },
+   {
+    "name": "BSC-LT/MrBERT-es",
+    "url": "https://huggingface.co/BSC-LT/MrBERT-es",
+    "kind": "model",
+    "note": "Model: 11,093 downloads, 12 likes."
+   },
+   {
+    "name": "BSC-LT/EsBBQ",
+    "url": "https://huggingface.co/datasets/BSC-LT/EsBBQ",
+    "kind": "dataset",
+    "note": "Dataset: 1,481 downloads, 0 likes."
+   },
+   {
+    "name": "BSC-LT/SalamandraTA-7B-Demo",
+    "url": "https://huggingface.co/spaces/BSC-LT/SalamandraTA-7B-Demo",
+    "kind": "space",
+    "note": "Space: 6 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Salamandra Technical Report",
+    "url": "https://arxiv.org/abs/2502.08489",
+    "year": 2025
+   }
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "insait",
+  "contributions": [
+   {
+    "title": "BgGPT",
+    "note": "Released BgGPT open Bulgarian language models, described in a 2024 paper on extending English-centric LLMs."
+   },
+   {
+    "title": "MamayLM",
+    "note": "Released the MamayLM Ukrainian models, first with ETH Zurich in 2025 and later at 4B, 12B and 27B sizes."
+   },
+   {
+    "title": "3D vision code",
+    "note": "Open-sourced research code such as GenieRedux, OccamLGS and USDNet."
+   },
+   {
+    "title": "Datasets",
+    "note": "Published datasets such as Articulate3D and FireScope-Bench on Hugging Face."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "GenieRedux",
+    "url": "https://github.com/insait-institute/GenieRedux",
+    "note": "A framework for training world models with virtual environments, complete with annotated environment dataset ( (79 stars)"
+   },
+   {
+    "name": "OccamLGS",
+    "url": "https://github.com/insait-institute/OccamLGS",
+    "note": "[BMVC 2025] Occam’s LGS: An Efficient Approach for Language Gaussian Splatting (73 stars)"
+   },
+   {
+    "name": "USDNet",
+    "url": "https://github.com/insait-institute/USDNet",
+    "note": "Open-source repository (34 stars)"
+   },
+   {
+    "name": "AR-VLA-lerobot",
+    "url": "https://github.com/insait-institute/AR-VLA-lerobot",
+    "note": "AR actor for specialist policy training (34 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "INSAIT-Institute/BgGPT-Gemma-3-27B-IT-GGUF",
+    "url": "https://huggingface.co/INSAIT-Institute/BgGPT-Gemma-3-27B-IT-GGUF",
+    "kind": "model",
+    "note": "Model: 2,878 downloads, 8 likes."
+   },
+   {
+    "name": "INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0-GGUF",
+    "url": "https://huggingface.co/INSAIT-Institute/MamayLM-Gemma-3-12B-IT-v2.0-GGUF",
+    "kind": "model",
+    "note": "Model: 1,895 downloads, 5 likes."
+   },
+   {
+    "name": "INSAIT-Institute/Articulate3D",
+    "url": "https://huggingface.co/datasets/INSAIT-Institute/Articulate3D",
+    "kind": "dataset",
+    "note": "Dataset: 3,556 downloads, 4 likes."
+   },
+   {
+    "name": "INSAIT-Institute/mamaylm-v1-blog",
+    "url": "https://huggingface.co/spaces/INSAIT-Institute/mamaylm-v1-blog",
+    "kind": "space",
+    "note": "Space: 27 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "BgGPT 1.0: Extending English-centric LLMs to other languages",
+    "url": "https://arxiv.org/abs/2412.10893",
+    "year": 2024
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "giskard",
+  "contributions": [
+   {
+    "title": "giskard-oss",
+    "note": "Maintains giskard-oss, an open-source library for testing and evaluating AI systems, with nearly 6k GitHub stars."
+   },
+   {
+    "title": "Phare benchmark",
+    "note": "Published the Phare multilingual safety benchmark, with a paper and open dataset."
+   },
+   {
+    "title": "Safety datasets",
+    "note": "Released StereoTales and scenario datasets based on HarmBench and Do-Not-Answer."
+   },
+   {
+    "title": "AI safety resources",
+    "note": "Curates the awesome-ai-safety list and a prompt-injections repository."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "giskard-oss",
+    "url": "https://github.com/Giskard-AI/giskard-oss",
+    "note": "🐢 Open-Source Evaluation & Testing library for LLM Agents (5,956 stars)"
+   },
+   {
+    "name": "awesome-ai-safety",
+    "url": "https://github.com/Giskard-AI/awesome-ai-safety",
+    "note": "📚 A curated list of papers & technical articles on AI Quality & Safety (228 stars)"
+   },
+   {
+    "name": "prompt-injections",
+    "url": "https://github.com/Giskard-AI/prompt-injections",
+    "note": "💉 Collection of prompt injections used in the open-source Giskard Scan (38 stars)"
+   },
+   {
+    "name": "giskard-vision",
+    "url": "https://github.com/Giskard-AI/giskard-vision",
+    "note": "📸  Open-Source Evaluation & Testing for Computer Vision AI systems (31 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "giskardai/StereoTales",
+    "url": "https://huggingface.co/datasets/giskardai/StereoTales",
+    "kind": "dataset",
+    "note": "Dataset: 387 downloads, 2 likes."
+   },
+   {
+    "name": "giskardai/giskard-evaluator",
+    "url": "https://huggingface.co/spaces/giskardai/giskard-evaluator",
+    "kind": "space",
+    "note": "Space: 5 likes on the Hub."
+   },
+   {
+    "name": "giskardai/harmbench-scenarios",
+    "url": "https://huggingface.co/datasets/giskardai/harmbench-scenarios",
+    "kind": "dataset",
+    "note": "Dataset: 325 downloads, 0 likes."
+   },
+   {
+    "name": "giskardai/phare",
+    "url": "https://huggingface.co/datasets/giskardai/phare",
+    "kind": "dataset",
+    "note": "Dataset: 272 downloads, 14 likes."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Phare: A Safety Probe for Large Language Models",
+    "url": "https://arxiv.org/abs/2505.11365",
+    "year": 2025
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "openllm-france",
+  "contributions": [
+   {
+    "title": "Lucie-7B",
+    "note": "Released Lucie-7B, an open French-focused model, with a technical paper and the open Lucie Training Dataset."
+   },
+   {
+    "title": "Luciole models",
+    "note": "Released Luciole models at 1B and 8B scale with training code and datasets."
+   },
+   {
+    "title": "Claire dialogue",
+    "note": "Published Claire models and datasets for French dialogue."
+   },
+   {
+    "title": "Manifesto",
+    "note": "Maintains a public manifesto for open-source French language models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Manifesto",
+    "url": "https://github.com/OpenLLM-France/Manifesto",
+    "note": "Page de préconfiguration de la communauté OpenLLM-France (53 stars)"
+   },
+   {
+    "name": "Lucie-Training",
+    "url": "https://github.com/OpenLLM-France/Lucie-Training",
+    "note": "Code for continual pretraining of LUCIE (53 stars)"
+   },
+   {
+    "name": "Lit-Claire",
+    "url": "https://github.com/OpenLLM-France/Lit-Claire",
+    "note": "Continual pretraining of foundation LLM using ⚡ Lightning Fabric (37 stars)"
+   },
+   {
+    "name": "Claire-datasets",
+    "url": "https://github.com/OpenLLM-France/Claire-datasets",
+    "note": "Lists of conversational datasets (21 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "OpenLLM-France/Luciole-8B-Instruct-1.1",
+    "url": "https://huggingface.co/OpenLLM-France/Luciole-8B-Instruct-1.1",
+    "kind": "model",
+    "note": "Model: 3,432 downloads, 12 likes."
+   },
+   {
+    "name": "OpenLLM-France/Lucie-7B-Instruct-human-data",
+    "url": "https://huggingface.co/OpenLLM-France/Lucie-7B-Instruct-human-data",
+    "kind": "model",
+    "note": "Model: 1,324 downloads, 7 likes."
+   },
+   {
+    "name": "OpenLLM-France/Lucie-Training-Dataset",
+    "url": "https://huggingface.co/datasets/OpenLLM-France/Lucie-Training-Dataset",
+    "kind": "dataset",
+    "note": "Dataset: 18,594 downloads, 40 likes."
+   },
+   {
+    "name": "OpenLLM-France/open-asr-leaderboard-luciole-audio",
+    "url": "https://huggingface.co/spaces/OpenLLM-France/open-asr-leaderboard-luciole-audio",
+    "kind": "space",
+    "note": "Space: 0 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "The Lucie-7B LLM and the Lucie Training Dataset: Open resources for multilingual language generation",
+    "url": "https://arxiv.org/abs/2503.12294",
+    "year": 2025
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "mixedbread",
+  "contributions": [
+   {
+    "title": "mxbai-embed-large-v1",
+    "note": "Released mxbai-embed-large-v1, an embedding model with over two million downloads."
+   },
+   {
+    "title": "German embeddings with deepset",
+    "note": "Co-released a German embedding model with deepset."
+   },
+   {
+    "title": "Reranker family",
+    "note": "Published the mxbai-rerank open rerankers."
+   },
+   {
+    "title": "2D Matryoshka embeddings",
+    "note": "Released 2D Matryoshka embedding models with an accompanying paper."
+   },
+   {
+    "title": "mgrep and tools",
+    "note": "Open-sourced mgrep, baguetter and batched on GitHub."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "mgrep",
+    "url": "https://github.com/mixedbread-ai/mgrep",
+    "note": "A calm, CLI-native way to semantically grep everything, like code, images, pdfs and more. (4,439 stars)"
+   },
+   {
+    "name": "baguetter",
+    "url": "https://github.com/mixedbread-ai/baguetter",
+    "note": "Baguetter is a flexible, efficient, and hackable search engine library implemented in Python. It's designed fo (214 stars)"
+   },
+   {
+    "name": "batched",
+    "url": "https://github.com/mixedbread-ai/batched",
+    "note": "The Batched API provides a flexible and efficient way to process multiple requests in a batch, with a primary  (161 stars)"
+   },
+   {
+    "name": "nga-art-search",
+    "url": "https://github.com/mixedbread-ai/nga-art-search",
+    "note": "Semantic Search for over 50,000 images from the National Gallery of Art collection (66 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "mixedbread-ai/mxbai-embed-large-v1",
+    "url": "https://huggingface.co/mixedbread-ai/mxbai-embed-large-v1",
+    "kind": "model",
+    "note": "Model: 2,194,389 downloads, 847 likes."
+   },
+   {
+    "name": "mixedbread-ai/deepset-mxbai-embed-de-large-v1",
+    "url": "https://huggingface.co/mixedbread-ai/deepset-mxbai-embed-de-large-v1",
+    "kind": "model",
+    "note": "Model: 578,018 downloads, 61 likes."
+   },
+   {
+    "name": "mixedbread-ai/baguetter",
+    "url": "https://huggingface.co/datasets/mixedbread-ai/baguetter",
+    "kind": "dataset",
+    "note": "Dataset: 933 downloads, 1 likes."
+   },
+   {
+    "name": "mixedbread-ai/mxbai-rerank-xsmall-v1",
+    "url": "https://huggingface.co/mixedbread-ai/mxbai-rerank-xsmall-v1",
+    "kind": "model",
+    "note": "Model: 541,817 downloads, 59 likes."
+   }
+  ],
+  "papers": [
+   {
+    "title": "2D Matryoshka Sentence Embeddings",
+    "url": "https://arxiv.org/abs/2402.14776",
+    "year": 2024
+   }
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "deepset",
+  "contributions": [
+   {
+    "title": "Haystack",
+    "note": "Maintains Haystack, an open-source framework for LLM and retrieval-augmented applications with about 27k GitHub stars."
+   },
+   {
+    "title": "FARM",
+    "note": "Built the earlier FARM framework for transfer learning in NLP."
+   },
+   {
+    "title": "SQuAD2 models",
+    "note": "Published the roberta-base-squad2 family of extractive question answering models, with hundreds of thousands of downloads."
+   },
+   {
+    "title": "German QA data",
+    "note": "Released GermanQuAD and GermanDPR, with a paper."
+   },
+   {
+    "title": "Prompt-injection data",
+    "note": "Published the prompt-injections dataset for classifier training."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "haystack",
+    "url": "https://github.com/deepset-ai/haystack",
+    "note": "Open-source AI orchestration framework for building context-engineered, production-ready LLM applications. Des (27,022 stars)"
+   },
+   {
+    "name": "FARM",
+    "url": "https://github.com/deepset-ai/FARM",
+    "note": ":house_with_garden: Fast & easy transfer learning for NLP. Harvesting language models for the industry. Focus  (1,755 stars)"
+   },
+   {
+    "name": "haystack-cookbook",
+    "url": "https://github.com/deepset-ai/haystack-cookbook",
+    "note": "👩🏻‍🍳 A collection of example notebooks using Haystack (551 stars)"
+   },
+   {
+    "name": "haystack-tutorials",
+    "url": "https://github.com/deepset-ai/haystack-tutorials",
+    "note": "Here you can find all the Tutorials for Haystack 📓 (378 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "deepset/roberta-base-squad2",
+    "url": "https://huggingface.co/deepset/roberta-base-squad2",
+    "kind": "model",
+    "note": "Model: 351,349 downloads, 979 likes."
+   },
+   {
+    "name": "deepset/bert-large-uncased-whole-word-masking-squad2",
+    "url": "https://huggingface.co/deepset/bert-large-uncased-whole-word-masking-squad2",
+    "kind": "model",
+    "note": "Model: 201,585 downloads, 31 likes."
+   },
+   {
+    "name": "deepset/prompt-injections",
+    "url": "https://huggingface.co/datasets/deepset/prompt-injections",
+    "kind": "dataset",
+    "note": "Dataset: 15,313 downloads, 200 likes."
+   },
+   {
+    "name": "deepset/autoquizzer",
+    "url": "https://huggingface.co/spaces/deepset/autoquizzer",
+    "kind": "space",
+    "note": "Space: 226 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "GermanQuAD and GermanDPR: Improving Non-English Question Answering and Passage Retrieval",
+    "url": "https://arxiv.org/abs/2104.12741",
+    "year": 2021
+   }
+  ],
+  "confidence": "high",
+  "discord": "https://discord.com/invite/Dr63fr9NDS",
+  "discord_note": "Community Discord for Haystack users and contributors."
+ },
+ {
+  "id": "explosion",
+  "contributions": [
+   {
+    "title": "spaCy",
+    "note": "Created and maintains spaCy, the open-source NLP library with about 34k GitHub stars."
+   },
+   {
+    "title": "Thinc",
+    "note": "Maintains Thinc, the machine learning library underlying spaCy."
+   },
+   {
+    "title": "Models and course",
+    "note": "Publishes spacy-models and the free spacy-course."
+   },
+   {
+    "title": "sense2vec",
+    "note": "Released sense2vec for context-aware word vectors."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "spaCy",
+    "url": "https://github.com/explosion/spaCy",
+    "note": "💫 Industrial-strength Natural Language Processing (NLP) in Python (34,062 stars)"
+   },
+   {
+    "name": "thinc",
+    "url": "https://github.com/explosion/thinc",
+    "note": "🔮 A refreshing functional take on deep learning, compatible with your favorite libraries (2,891 stars)"
+   },
+   {
+    "name": "spacy-course",
+    "url": "https://github.com/explosion/spacy-course",
+    "note": "👩‍🏫 Advanced NLP with spaCy: A free online course (2,433 stars)"
+   },
+   {
+    "name": "spacy-models",
+    "url": "https://github.com/explosion/spacy-models",
+    "note": "💫  Models for the spaCy Natural Language Processing (NLP) library (1,920 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "explosion/en_textcat_goemotions",
+    "url": "https://huggingface.co/explosion/en_textcat_goemotions",
+    "kind": "model",
+    "note": "Model: 31 downloads, 11 likes."
+   },
+   {
+    "name": "explosion/en_healthsea",
+    "url": "https://huggingface.co/explosion/en_healthsea",
+    "kind": "model",
+    "note": "Model: 15 downloads, 5 likes."
+   },
+   {
+    "name": "explosion/ner-fashion-brands",
+    "url": "https://huggingface.co/datasets/explosion/ner-fashion-brands",
+    "kind": "dataset",
+    "note": "Dataset: 39 downloads, 1 likes."
+   },
+   {
+    "name": "explosion/da_udv25_danishddt_trf",
+    "url": "https://huggingface.co/explosion/da_udv25_danishddt_trf",
+    "kind": "model",
+    "note": "Model: 14 downloads, 0 likes."
+   }
+  ],
+  "papers": [],
+  "confidence": "high"
+ },
+ {
+  "id": "pruna-ai",
+  "contributions": [
+   {
+    "title": "pruna library",
+    "note": "Open-sourced the pruna library for compressing and evaluating models."
+   },
+   {
+    "title": "Optimised model hub",
+    "note": "Published many compressed models on Hugging Face, from early Phi-3 mini builds to recent image models."
+   },
+   {
+    "title": "Efficiency resources",
+    "note": "Curates awesome-ai-efficiency and ai-efficiency-courses."
+   },
+   {
+    "title": "ComfyUI integration",
+    "note": "Released ComfyUI_pruna for use in ComfyUI workflows."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "pruna",
+    "url": "https://github.com/PrunaAI/pruna",
+    "note": "Pruna is a model optimization framework built for developers, enabling you to deliver faster, more efficient m (1,391 stars)"
+   },
+   {
+    "name": "awesome-ai-efficiency",
+    "url": "https://github.com/PrunaAI/awesome-ai-efficiency",
+    "note": "A curated list of materials on AI efficiency (240 stars)"
+   },
+   {
+    "name": "ai-efficiency-courses",
+    "url": "https://github.com/PrunaAI/ai-efficiency-courses",
+    "note": "Courses on building, compressing, evaluating, and deploying efficient AI models. (92 stars)"
+   },
+   {
+    "name": "ComfyUI_pruna",
+    "url": "https://github.com/PrunaAI/ComfyUI_pruna",
+    "note": "This is a ComfyUI node that integrates pruna (67 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "PrunaAI/P-H3-Image-Comfy",
+    "url": "https://huggingface.co/PrunaAI/P-H3-Image-Comfy",
+    "kind": "model",
+    "note": "Model: 1,200,813 downloads, 467 likes."
+   },
+   {
+    "name": "PrunaAI/P-Q-Image-2.1",
+    "url": "https://huggingface.co/PrunaAI/P-Q-Image-2.1",
+    "kind": "model",
+    "note": "Model: 24,238 downloads, 194 likes."
+   },
+   {
+    "name": "PrunaAI/media-assets",
+    "url": "https://huggingface.co/datasets/PrunaAI/media-assets",
+    "kind": "dataset",
+    "note": "Dataset: 39,092 downloads, 1 likes."
+   },
+   {
+    "name": "PrunaAI/P-H3-Image",
+    "url": "https://huggingface.co/spaces/PrunaAI/P-H3-Image",
+    "kind": "space",
+    "note": "Space: 175 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "confidence": "high",
+  "discord": "https://discord.gg/JFQmtFKCjd",
+  "discord_note": "Community Discord for users of the pruna library."
+ },
+ {
+  "id": "bioptimus",
+  "contributions": [
+   {
+    "title": "H-optimus-0",
+    "note": "Released H-optimus-0, a pathology foundation model, on Hugging Face."
+   },
+   {
+    "title": "H-optimus-1",
+    "note": "Followed with H-optimus-1."
+   },
+   {
+    "title": "H0-mini",
+    "note": "Released H0-mini, a distilled pathology model, with a paper on distilling foundation models."
+   },
+   {
+    "title": "Jumpstart repos",
+    "note": "Shares example code in jumpstart repositories on GitHub."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "releases",
+    "url": "https://github.com/bioptimus/releases",
+    "note": "Open-source repository (111 stars)"
+   },
+   {
+    "name": "h1-jumpstart",
+    "url": "https://github.com/bioptimus/h1-jumpstart",
+    "note": "Open-source repository (4 stars)"
+   },
+   {
+    "name": "m-jumpstart",
+    "url": "https://github.com/bioptimus/m-jumpstart",
+    "note": "Getting started with M-Optimus on AWS   SageMaker (2 stars)"
+   },
+   {
+    "name": "dynolog-bioptimus",
+    "url": "https://github.com/bioptimus/dynolog-bioptimus",
+    "note": "Customized fork of Dynolog. Dynolog is a telemetry daemon for (GPU & CPU) performance monitoring and tracing,  (1 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "bioptimus/H-optimus-0",
+    "url": "https://huggingface.co/bioptimus/H-optimus-0",
+    "kind": "model",
+    "note": "Model: 73,031 downloads, 121 likes."
+   },
+   {
+    "name": "bioptimus/H-optimus-1",
+    "url": "https://huggingface.co/bioptimus/H-optimus-1",
+    "kind": "model",
+    "note": "Model: 28,312 downloads, 86 likes."
+   },
+   {
+    "name": "bioptimus/H0-mini",
+    "url": "https://huggingface.co/bioptimus/H0-mini",
+    "kind": "model",
+    "note": "Model: 12,083 downloads, 43 likes."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Distilling foundation models for robust and efficient models in digital pathology",
+    "url": "https://arxiv.org/abs/2501.16239",
+    "year": 2025
+   }
+  ],
+  "confidence": "high"
+ }
+]

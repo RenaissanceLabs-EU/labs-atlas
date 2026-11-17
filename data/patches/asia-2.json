@@ -1,0 +1,1809 @@
+[
+ {
+  "id": "upstage",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "SOLAR 10.7B and depth up-scaling",
+    "note": "Published a 10.7B model built by depth up-scaling a smaller base model, which topped open leaderboards on release and spread the technique."
+   },
+   {
+    "title": "Solar Open 100B",
+    "note": "Released Solar-Open-100B on Hugging Face, now the lab's most downloaded model, showing a move to larger open weights."
+   },
+   {
+    "title": "Dataverse data pipeline",
+    "note": "Open-sourced Dataverse, a data processing and engineering framework for building LLM training data."
+   },
+   {
+    "title": "Evalverse evaluation toolkit",
+    "note": "Released Evalverse for unified LLM evaluation, plus the dp-bench document-parsing dataset."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "dataverse",
+    "url": "https://github.com/UpstageAI/dataverse",
+    "note": "Data engineering framework for LLM data, the org's top repo."
+   },
+   {
+    "name": "solar-prompt-cookbook",
+    "url": "https://github.com/UpstageAI/solar-prompt-cookbook",
+    "note": "Prompting examples for Solar models."
+   },
+   {
+    "name": "evalverse",
+    "url": "https://github.com/UpstageAI/evalverse",
+    "note": "Unified framework for evaluating LLMs."
+   },
+   {
+    "name": "cookbook",
+    "url": "https://github.com/UpstageAI/cookbook",
+    "note": "API examples and guides."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "upstage/Solar-Open-100B",
+    "url": "https://huggingface.co/upstage/Solar-Open-100B",
+    "kind": "model",
+    "note": "Most downloaded Upstage model."
+   },
+   {
+    "name": "upstage/SOLAR-10.7B-Instruct-v1.0",
+    "url": "https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0",
+    "kind": "model",
+    "note": "Instruction-tuned SOLAR 10.7B."
+   },
+   {
+    "name": "upstage/SOLAR-10.7B-v1.0",
+    "url": "https://huggingface.co/upstage/SOLAR-10.7B-v1.0",
+    "kind": "model",
+    "note": "Base depth-up-scaled model."
+   },
+   {
+    "name": "upstage/dp-bench",
+    "url": "https://huggingface.co/datasets/upstage/dp-bench",
+    "kind": "dataset",
+    "note": "Document parsing benchmark."
+   }
+  ],
+  "papers": [
+   {
+    "title": "SOLAR 10.7B: Scaling Large Language Models with Simple yet Effective Depth Up-Scaling",
+    "url": "https://arxiv.org/abs/2312.15166",
+    "year": 2023
+   }
+  ],
+  "discord": "https://discord.com/invite/upstage",
+  "discord_note": "Community server for Solar and Upstage API users, linked from upstage.ai.",
+  "contact_note": "Upstage lists a contact address and a community Discord on its website.",
+  "contact_email": "contact@upstage.ai"
+ },
+ {
+  "id": "trillion-labs",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Tri-series multilingual models",
+    "note": "Released the Tri family (e.g. Tri-7B) with a technical report, focused on Korean, English and other languages."
+   },
+   {
+    "title": "Gravity MoE models",
+    "note": "Published Gravity-30B-A5B preview and the TxGravity-30B-A5B-Open mixture-of-experts models."
+   },
+   {
+    "title": "gWorld GUI world model",
+    "note": "Open-weight 8B/32B world models that predict the next screen for mobile GUI agents."
+   },
+   {
+    "title": "Trida block-diffusion stack",
+    "note": "Released a repo for converting autoregressive LLMs into block-diffusion LLMs and serving them."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "gWorld",
+    "url": "https://github.com/trillion-labs/gWorld",
+    "note": "Open-weight GUI world model for mobile agents."
+   },
+   {
+    "name": "trida-stack",
+    "url": "https://github.com/trillion-labs/trida-stack",
+    "note": "Convert and serve block-diffusion LLMs."
+   },
+   {
+    "name": "claude-code-orchestrator",
+    "url": "https://github.com/trillion-labs/claude-code-orchestrator",
+    "note": "Dashboard for managing multiple Claude Code sessions."
+   },
+   {
+    "name": "nemoslides",
+    "url": "https://github.com/trillion-labs/nemoslides",
+    "note": "Open-weight slide generation fine-tuned on Nemotron."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "trillionlabs/Tri-7B",
+    "url": "https://huggingface.co/trillionlabs/Tri-7B",
+    "kind": "model",
+    "note": "Tri 7B base/instruct model."
+   },
+   {
+    "name": "trillionlabs/TxGravity-30B-A5B-Open",
+    "url": "https://huggingface.co/trillionlabs/TxGravity-30B-A5B-Open",
+    "kind": "model",
+    "note": "Open 30B MoE model."
+   },
+   {
+    "name": "trillionlabs/Tri-1.8B-Translation",
+    "url": "https://huggingface.co/trillionlabs/Tri-1.8B-Translation",
+    "kind": "model",
+    "note": "Small translation model."
+   },
+   {
+    "name": "trillionlabs/TheBioCollection",
+    "url": "https://huggingface.co/datasets/trillionlabs/TheBioCollection",
+    "kind": "dataset",
+    "note": "Bio-domain dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Trillion 7B Technical Report",
+    "url": "https://arxiv.org/abs/2504.15431",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact options are given on trillionlabs.co; their code and models are on GitHub and Hugging Face."
+ },
+ {
+  "id": "motif-technologies",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Motif 2.6B",
+    "note": "Released a 2.6B base model with a technical report."
+   },
+   {
+    "title": "Motif-3 and Motif-3-Base",
+    "note": "Published newer Motif-3 text models on Hugging Face."
+   },
+   {
+    "title": "Motif-Video-2B",
+    "note": "Released a 2B text-to-video model with GGUF files."
+   },
+   {
+    "title": "AgentTracer datasets",
+    "note": "Released agenttracer and agenttracer-bfcl datasets for agent evaluation."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "Motif-Technologies/Motif-3",
+    "url": "https://huggingface.co/Motif-Technologies/Motif-3",
+    "kind": "model",
+    "note": "Most downloaded Motif model."
+   },
+   {
+    "name": "Motif-Technologies/Motif-Video-2B-GGUF",
+    "url": "https://huggingface.co/Motif-Technologies/Motif-Video-2B-GGUF",
+    "kind": "model",
+    "note": "GGUF build of the video model."
+   },
+   {
+    "name": "Motif-Technologies/Motif-2.6B",
+    "url": "https://huggingface.co/Motif-Technologies/Motif-2.6B",
+    "kind": "model",
+    "note": "2.6B base model."
+   },
+   {
+    "name": "Motif-Technologies/agenttracer",
+    "url": "https://huggingface.co/datasets/Motif-Technologies/agenttracer",
+    "kind": "dataset",
+    "note": "Agent trace dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Motif 2.6B Technical Report",
+    "url": "https://arxiv.org/abs/2508.09148",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The website motiftech.io is minimal; Hugging Face is the main public channel."
+ },
+ {
+  "id": "ai-singapore",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "SEA-LION model family",
+    "note": "Released the SEA-LION models for Southeast Asian languages, from v1 through Gemma-, Qwen- and Apertus-based v4 variants."
+   },
+   {
+    "title": "SEA-HELM style evaluation sets",
+    "note": "Published NLU, NLG, NLR and instruction-following evaluation datasets for regional languages on Hugging Face."
+   },
+   {
+    "title": "TagUI open RPA tool",
+    "note": "Maintains TagUI, a free RPA tool with over 6,000 GitHub stars."
+   },
+   {
+    "title": "PeekingDuck",
+    "note": "Released a modular computer-vision inference framework."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "TagUI",
+    "url": "https://github.com/aisingapore/TagUI",
+    "note": "Free RPA tool, the org's most-starred repo."
+   },
+   {
+    "name": "sealion",
+    "url": "https://github.com/aisingapore/sealion",
+    "note": "Entry repo for SEA-LION models."
+   },
+   {
+    "name": "PeekingDuck",
+    "url": "https://github.com/aisingapore/PeekingDuck",
+    "note": "Modular computer vision inference framework."
+   },
+   {
+    "name": "TagUI-Bricks",
+    "url": "https://github.com/aisingapore/TagUI-Bricks",
+    "note": "Collection of TagUI workflows."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "aisingapore/Apertus-SEA-LION-v4-8B-IT-GGUF",
+    "url": "https://huggingface.co/aisingapore/Apertus-SEA-LION-v4-8B-IT-GGUF",
+    "kind": "model",
+    "note": "SEA-LION v4 8B instruct, GGUF."
+   },
+   {
+    "name": "aisingapore/Gemma-SEA-LION-v3-9B-IT",
+    "url": "https://huggingface.co/aisingapore/Gemma-SEA-LION-v3-9B-IT",
+    "kind": "model",
+    "note": "Gemma-based SEA-LION v3."
+   },
+   {
+    "name": "aisingapore/NLG-Machine-Translation",
+    "url": "https://huggingface.co/datasets/aisingapore/NLG-Machine-Translation",
+    "kind": "dataset",
+    "note": "Regional translation evaluation data."
+   },
+   {
+    "name": "aisingapore/NLU-Sentiment-Analysis",
+    "url": "https://huggingface.co/datasets/aisingapore/NLU-Sentiment-Analysis",
+    "kind": "dataset",
+    "note": "Sentiment evaluation data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "SEA-LION: Southeast Asian Languages in One Network",
+    "url": "https://arxiv.org/abs/2504.05747",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact and programme details are on aisingapore.org; SEA-LION materials are on GitHub and Hugging Face."
+ },
+ {
+  "id": "sarvam-ai",
+  "confidence": "high",
+  "github": "https://github.com/sarvamai",
+  "contributions": [
+   {
+    "title": "Sarvam-1",
+    "note": "Released a 2B model built for Indian languages."
+   },
+   {
+    "title": "Sarvam-M and Sarvam-Translate",
+    "note": "Published an instruct model and a translation model; Sarvam-Translate is the most downloaded."
+   },
+   {
+    "title": "Sarvam-105B",
+    "note": "Released a 105B open-weight model on Hugging Face."
+   },
+   {
+    "title": "Indic evaluation datasets",
+    "note": "Published MMLU-Indic, GSM8K-Indic, OCR and diarization benchmarks."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "sarvam-ai-cookbook",
+    "url": "https://github.com/sarvamai/sarvam-ai-cookbook",
+    "note": "Open-source cookbook for the Sarvam API."
+   },
+   {
+    "name": "skills",
+    "url": "https://github.com/sarvamai/skills",
+    "note": "Skills and examples for building with Sarvam."
+   },
+   {
+    "name": "llm_intent_entity",
+    "url": "https://github.com/sarvamai/llm_intent_entity",
+    "note": "Evaluation framework for ASR models."
+   },
+   {
+    "name": "sarvam-mcp",
+    "url": "https://github.com/sarvamai/sarvam-mcp",
+    "note": "Official Sarvam MCP server."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "sarvamai/sarvam-translate",
+    "url": "https://huggingface.co/sarvamai/sarvam-translate",
+    "kind": "model",
+    "note": "Most downloaded Sarvam model."
+   },
+   {
+    "name": "sarvamai/sarvam-1",
+    "url": "https://huggingface.co/sarvamai/sarvam-1",
+    "kind": "model",
+    "note": "2B Indic model."
+   },
+   {
+    "name": "sarvamai/sarvam-105b",
+    "url": "https://huggingface.co/sarvamai/sarvam-105b",
+    "kind": "model",
+    "note": "105B open-weight model."
+   },
+   {
+    "name": "sarvamai/mmlu-indic",
+    "url": "https://huggingface.co/datasets/sarvamai/mmlu-indic",
+    "kind": "dataset",
+    "note": "Indic MMLU."
+   }
+  ],
+  "papers": [],
+  "discord": "https://discord.com/invite/5rAsykttcs",
+  "discord_note": "Developer community Discord linked from sarvam.ai.",
+  "contact_note": "sarvam.ai has a Contact Us form and a developer community Discord."
+ },
+ {
+  "id": "ai4bharat",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "IndicTrans2",
+    "note": "Open translation models covering all 22 scheduled Indian languages."
+   },
+   {
+    "title": "IndicBERT, IndicBART and IndicXTREME",
+    "note": "Pretrained Indic language models and benchmark."
+   },
+   {
+    "title": "Sangraha and IndicVoices",
+    "note": "Large Indic text corpus and a speech dataset of natural speakers."
+   },
+   {
+    "title": "Indic TTS and ASR",
+    "note": "Released Indic-Parler-TTS and IndicConformer ASR models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "indicnlp_catalog",
+    "url": "https://github.com/AI4Bharat/indicnlp_catalog",
+    "note": "Catalog of NLP resources for Indic languages."
+   },
+   {
+    "name": "IndicTrans2",
+    "url": "https://github.com/AI4Bharat/IndicTrans2",
+    "note": "Translation models for 22 languages."
+   },
+   {
+    "name": "Indic-TTS",
+    "url": "https://github.com/AI4Bharat/Indic-TTS",
+    "note": "Text-to-speech for Indian languages."
+   },
+   {
+    "name": "IndicLLMSuite",
+    "url": "https://github.com/AI4Bharat/IndicLLMSuite",
+    "note": "Blueprint for Indic pretraining datasets."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ai4bharat/indictrans2-en-indic-dist-200M",
+    "url": "https://huggingface.co/ai4bharat/indictrans2-en-indic-dist-200M",
+    "kind": "model",
+    "note": "Distilled translation model."
+   },
+   {
+    "name": "ai4bharat/IndicBART",
+    "url": "https://huggingface.co/ai4bharat/IndicBART",
+    "kind": "model",
+    "note": "Seq2seq model for Indic languages."
+   },
+   {
+    "name": "ai4bharat/indic-parler-tts",
+    "url": "https://huggingface.co/ai4bharat/indic-parler-tts",
+    "kind": "model",
+    "note": "Indic TTS."
+   },
+   {
+    "name": "ai4bharat/sangraha",
+    "url": "https://huggingface.co/datasets/ai4bharat/sangraha",
+    "kind": "dataset",
+    "note": "Indic pretraining corpus."
+   }
+  ],
+  "papers": [
+   {
+    "title": "IndicTrans2: Towards High-Quality and Accessible Machine Translation Models for all 22 Scheduled Indian Languages",
+    "url": "https://arxiv.org/abs/2305.16307",
+    "year": 2023
+   },
+   {
+    "title": "Towards Leaving No Indic Language Behind: Building Monolingual Corpora, Benchmark and Models for Indic Languages",
+    "url": "https://arxiv.org/abs/2212.05409",
+    "year": 2022
+   },
+   {
+    "title": "IndicLLMSuite: A Blueprint for Creating Pre-training and Fine-Tuning Datasets for Indian Languages",
+    "url": "https://arxiv.org/abs/2403.06350",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.gg/HqJXnJNDaq",
+  "discord_note": "Community Discord linked from the AI4Bharat site.",
+  "contact_note": "AI4Bharat's website links a community Discord and its GitHub issue trackers."
+ },
+ {
+  "id": "bharatgen",
+  "confidence": "medium",
+  "github": "https://github.com/Bharatgen-Tech",
+  "contributions": [
+   {
+    "title": "Param language models",
+    "note": "Released Param family models such as Param-1 2.9B and Param2 17B-A2.4B Thinking."
+   },
+   {
+    "title": "Patram vision-language model",
+    "note": "Published patram-7b-instruct for Indian-context vision-language tasks."
+   },
+   {
+    "title": "BhashaBench",
+    "note": "Released BhashaBench evaluation sets (Multi, Krishi) for Indic domains."
+   },
+   {
+    "title": "AyurParam",
+    "note": "Published a domain model for Ayurveda."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Tables-Decoded",
+    "url": "https://github.com/Bharatgen-Tech/Tables-Decoded",
+    "note": "Table understanding repo."
+   },
+   {
+    "name": "syntheticgen",
+    "url": "https://github.com/Bharatgen-Tech/syntheticgen",
+    "note": "Synthetic data generation."
+   },
+   {
+    "name": "BhashaBench",
+    "url": "https://github.com/Bharatgen-Tech/BhashaBench",
+    "note": "BhashaBench code."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "bharatgenai/Param2-17B-A2.4B-Thinking",
+    "url": "https://huggingface.co/bharatgenai/Param2-17B-A2.4B-Thinking",
+    "kind": "model",
+    "note": "Most downloaded."
+   },
+   {
+    "name": "bharatgenai/patram-7b-instruct",
+    "url": "https://huggingface.co/bharatgenai/patram-7b-instruct",
+    "kind": "model",
+    "note": "Vision-language model."
+   },
+   {
+    "name": "bharatgenai/Param-1-2.9B-Instruct",
+    "url": "https://huggingface.co/bharatgenai/Param-1-2.9B-Instruct",
+    "kind": "model",
+    "note": "Instruct model."
+   },
+   {
+    "name": "bharatgenai/BhashaBench-Multi",
+    "url": "https://huggingface.co/datasets/bharatgenai/BhashaBench-Multi",
+    "kind": "dataset",
+    "note": "Multi-domain Indic benchmark."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "bharatgen.com has a Contact us page."
+ },
+ {
+  "id": "mbzuai",
+  "confidence": "medium",
+  "github": "https://github.com/mbzuai-oryx",
+  "contributions": [
+   {
+    "title": "Jais and Jais-chat",
+    "note": "Co-developed Arabic-centric open generative models."
+   },
+   {
+    "title": "LaMini-LM",
+    "note": "Released distilled instruction-tuned small models and the LaMini data."
+   },
+   {
+    "title": "GLaMM and Video-ChatGPT",
+    "note": "Open multimodal models for grounded and video conversation from the Oryx group."
+   },
+   {
+    "title": "AIN Arabic multimodal model",
+    "note": "Released AIN, an Arabic-English multimodal model, its most downloaded."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Awesome-LLM-Post-training",
+    "url": "https://github.com/mbzuai-oryx/Awesome-LLM-Post-training",
+    "note": "Survey and guide on LLM post-training."
+   },
+   {
+    "name": "Video-ChatGPT",
+    "url": "https://github.com/mbzuai-oryx/Video-ChatGPT",
+    "note": "Video conversation model."
+   },
+   {
+    "name": "groundingLMM",
+    "url": "https://github.com/mbzuai-oryx/groundingLMM",
+    "note": "GLaMM grounded multimodal model."
+   },
+   {
+    "name": "LLaVA-pp",
+    "url": "https://github.com/mbzuai-oryx/LLaVA-pp",
+    "note": "LLaVA with Phi-3 and Llama-3."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "MBZUAI/AIN",
+    "url": "https://huggingface.co/MBZUAI/AIN",
+    "kind": "model",
+    "note": "Arabic-English multimodal model."
+   },
+   {
+    "name": "MBZUAI/GeoPixel-7B",
+    "url": "https://huggingface.co/MBZUAI/GeoPixel-7B",
+    "kind": "model",
+    "note": "Remote-sensing grounding model."
+   },
+   {
+    "name": "MBZUAI/LaMini-GPT-124M",
+    "url": "https://huggingface.co/MBZUAI/LaMini-GPT-124M",
+    "kind": "model",
+    "note": "Distilled small model."
+   },
+   {
+    "name": "MBZUAI/Omni-Sets",
+    "url": "https://huggingface.co/datasets/MBZUAI/Omni-Sets",
+    "kind": "dataset",
+    "note": "Dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Jais and Jais-chat: Arabic-Centric Foundation and Instruction-Tuned Open Generative Large Language Models",
+    "url": "https://arxiv.org/abs/2308.16149",
+    "year": 2023
+   },
+   {
+    "title": "GLaMM: Pixel Grounding Large Multimodal Model",
+    "url": "https://arxiv.org/abs/2311.03356",
+    "year": 2023
+   },
+   {
+    "title": "Video-ChatGPT: Towards Detailed Video Understanding via Large Vision and Language Models",
+    "url": "https://arxiv.org/abs/2306.05424",
+    "year": 2023
+   },
+   {
+    "title": "LaMini-LM: A Diverse Herd of Distilled Models from Large-Scale Instructions",
+    "url": "https://arxiv.org/abs/2304.14402",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact routes are on mbzuai.ac.ae; individual research groups keep their own GitHub pages."
+ },
+ {
+  "id": "institute-of-foundation-models",
+  "confidence": "medium",
+  "github": "https://github.com/LLM360",
+  "huggingface": "https://huggingface.co/LLM360",
+  "contributions": [
+   {
+    "title": "Amber and Crystal",
+    "note": "Released fully open 7B models with checkpoints, data and code under the LLM360 effort."
+   },
+   {
+    "title": "K2-65B",
+    "note": "Published a 65B model trained on 1.4T tokens, with data, code and W&B logs."
+   },
+   {
+    "title": "TxT360 dataset",
+    "note": "Released TxT360, a pretraining dataset deduplicated across 99 CommonCrawl snapshots and 14 curated sources."
+   },
+   {
+    "title": "K2-Think and Reasoning360",
+    "note": "Released the K2-Think reasoning system and an open reasoning research repo."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "amber-train",
+    "url": "https://github.com/LLM360/amber-train",
+    "note": "Pretraining code for Amber 7B."
+   },
+   {
+    "name": "Reasoning360",
+    "url": "https://github.com/LLM360/Reasoning360",
+    "note": "Open research on large reasoning models."
+   },
+   {
+    "name": "Analysis360",
+    "url": "https://github.com/LLM360/Analysis360",
+    "note": "Open LLM analysis implementations."
+   },
+   {
+    "name": "MegaMath",
+    "url": "https://github.com/LLM360/MegaMath",
+    "note": "Open 370B-token math pretraining dataset."
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "LLM360: Towards Fully Transparent Open-Source LLMs",
+    "url": "https://arxiv.org/abs/2312.06550",
+    "year": 2023
+   },
+   {
+    "title": "K2-Think: A Parameter-Efficient Reasoning System",
+    "url": "https://arxiv.org/abs/2509.07604",
+    "year": 2025
+   }
+  ],
+  "discord": "https://discord.gg/jFPq9AycBu",
+  "discord_note": "Discord linked from llm360.ai for the LLM360 community.",
+  "contact_note": "llm360.ai lists Twitter, Discord, GitHub and email links."
+ },
+ {
+  "id": "tii-falcon",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Falcon 7B and 40B",
+    "note": "Released open Falcon models under permissive licences in 2023, which topped open leaderboards."
+   },
+   {
+    "title": "RefinedWeb",
+    "note": "Published a web-only pretraining dataset showing filtered web data can rival curated corpora."
+   },
+   {
+    "title": "Falcon Mamba",
+    "note": "Released the first competitive attention-free 7B model."
+   },
+   {
+    "title": "Falcon-H1",
+    "note": "Released a family of hybrid-head models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "jamrf",
+    "url": "https://github.com/tiiuae/jamrf",
+    "note": "SDR-based jamming with GNU Radio."
+   },
+   {
+    "name": "rclgo",
+    "url": "https://github.com/tiiuae/rclgo",
+    "note": "ROS client library for Go."
+   },
+   {
+    "name": "navigation",
+    "url": "https://github.com/tiiuae/navigation",
+    "note": "ROS2 3D navigation package."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "tiiuae/falcon-7b",
+    "url": "https://huggingface.co/tiiuae/falcon-7b",
+    "kind": "model",
+    "note": "Most downloaded Falcon model."
+   },
+   {
+    "name": "tiiuae/falcon-7b-instruct",
+    "url": "https://huggingface.co/tiiuae/falcon-7b-instruct",
+    "kind": "model",
+    "note": "Instruction-tuned 7B."
+   },
+   {
+    "name": "tiiuae/falcon-40b",
+    "url": "https://huggingface.co/tiiuae/falcon-40b",
+    "kind": "model",
+    "note": "40B base model."
+   },
+   {
+    "name": "tiiuae/falcon-refinedweb",
+    "url": "https://huggingface.co/datasets/tiiuae/falcon-refinedweb",
+    "kind": "dataset",
+    "note": "RefinedWeb dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "The Falcon Series of Open Language Models",
+    "url": "https://arxiv.org/abs/2311.16867",
+    "year": 2023
+   },
+   {
+    "title": "The RefinedWeb Dataset for Falcon LLM: Outperforming Curated Corpora with Web Data, and Web Data Only",
+    "url": "https://arxiv.org/abs/2306.01116",
+    "year": 2023
+   },
+   {
+    "title": "Falcon Mamba: The First Competitive Attention-free 7B Language Model",
+    "url": "https://arxiv.org/abs/2410.05355",
+    "year": 2024
+   },
+   {
+    "title": "Falcon-H1: A Family of Hybrid-Head Language Models Redefining Efficiency and Performance",
+    "url": "https://arxiv.org/abs/2507.22448",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "tii.ae lists institute contact options; Falcon models and datasets are on Hugging Face."
+ },
+ {
+  "id": "dicta",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "DictaBERT",
+    "note": "Released a BERT suite for modern Hebrew, with joint, NER and other variants."
+   },
+   {
+    "title": "DictaLM",
+    "note": "Published open generative Hebrew language models, later DictaLM 3.0 on Nemotron."
+   },
+   {
+    "title": "AlephBERTGimmel",
+    "note": "Released a Hebrew BERT with a 128K vocabulary."
+   },
+   {
+    "title": "Hebrew text tools and corpora",
+    "note": "Open Talmud with nikud and library download tools."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "alephbertgimmel",
+    "url": "https://github.com/Dicta-Israel-Center-for-Text-Analysis/alephbertgimmel",
+    "note": "Hebrew BERT with 128K vocabulary."
+   },
+   {
+    "name": "Talmud-Bavli-with-Nikud",
+    "url": "https://github.com/Dicta-Israel-Center-for-Text-Analysis/Talmud-Bavli-with-Nikud",
+    "note": "Talmud text with vowel marks."
+   },
+   {
+    "name": "Dicta-Library-Download",
+    "url": "https://github.com/Dicta-Israel-Center-for-Text-Analysis/Dicta-Library-Download",
+    "note": "Library download tool."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "dicta-il/dictabert-joint",
+    "url": "https://huggingface.co/dicta-il/dictabert-joint",
+    "kind": "model",
+    "note": "Joint Hebrew analysis model."
+   },
+   {
+    "name": "dicta-il/DictaLM-3.0-Nemotron-12B-Instruct-GGUF",
+    "url": "https://huggingface.co/dicta-il/DictaLM-3.0-Nemotron-12B-Instruct-GGUF",
+    "kind": "model",
+    "note": "Hebrew LLM."
+   },
+   {
+    "name": "dicta-il/dictabert",
+    "url": "https://huggingface.co/dicta-il/dictabert",
+    "kind": "model",
+    "note": "Hebrew BERT."
+   },
+   {
+    "name": "dicta-il/dictabert-ner",
+    "url": "https://huggingface.co/dicta-il/dictabert-ner",
+    "kind": "model",
+    "note": "Hebrew NER."
+   }
+  ],
+  "papers": [
+   {
+    "title": "DictaBERT: A State-of-the-Art BERT Suite for Modern Hebrew",
+    "url": "https://arxiv.org/abs/2308.16687",
+    "year": 2023
+   },
+   {
+    "title": "Introducing DictaLM -- A Large Generative Language Model for Modern Hebrew",
+    "url": "https://arxiv.org/abs/2309.14568",
+    "year": 2023
+   },
+   {
+    "title": "Large Pre-Trained Models with Extra-Large Vocabularies: A Contrastive Analysis of Hebrew BERT Models and a New One to Outperform Them All",
+    "url": "https://arxiv.org/abs/2211.15199",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "dicta.org.il hosts the tools and contact details."
+ },
+ {
+  "id": "ai21-labs",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Jamba",
+    "note": "Released the first production-grade hybrid Transformer-Mamba model with open weights."
+   },
+   {
+    "title": "Jamba-1.5",
+    "note": "Scaled the hybrid design to large models."
+   },
+   {
+    "title": "Jamba Reasoning and Jamba2 small models",
+    "note": "Published 3B Jamba models on Hugging Face."
+   },
+   {
+    "title": "Retrieval and context research",
+    "note": "Open code for in-context RALM and Parallel Context Windows."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "in-context-ralm",
+    "url": "https://github.com/AI21Labs/in-context-ralm",
+    "note": "In-context retrieval-augmented LMs."
+   },
+   {
+    "name": "lm-evaluation",
+    "url": "https://github.com/AI21Labs/lm-evaluation",
+    "note": "LLM evaluation suite."
+   },
+   {
+    "name": "Parallel-Context-Windows",
+    "url": "https://github.com/AI21Labs/Parallel-Context-Windows",
+    "note": "Context window extension."
+   },
+   {
+    "name": "ai21-python",
+    "url": "https://github.com/AI21Labs/ai21-python",
+    "note": "Python SDK."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ai21labs/Jamba-tiny-dev",
+    "url": "https://huggingface.co/ai21labs/Jamba-tiny-dev",
+    "kind": "model",
+    "note": "Small dev Jamba."
+   },
+   {
+    "name": "ai21labs/AI21-Jamba-Reasoning-3B",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba-Reasoning-3B",
+    "kind": "model",
+    "note": "3B reasoning model."
+   },
+   {
+    "name": "ai21labs/AI21-Jamba2-3B",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B",
+    "kind": "model",
+    "note": "Jamba2 3B."
+   },
+   {
+    "name": "ai21labs/LIFTBench",
+    "url": "https://huggingface.co/datasets/ai21labs/LIFTBench",
+    "kind": "dataset",
+    "note": "Benchmark."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Jamba: A Hybrid Transformer-Mamba Language Model",
+    "url": "https://arxiv.org/abs/2403.19887",
+    "year": 2024
+   },
+   {
+    "title": "Jamba-1.5: Hybrid Transformer-Mamba Models at Scale",
+    "url": "https://arxiv.org/abs/2408.12570",
+    "year": 2024
+   },
+   {
+    "title": "In-Context Retrieval-Augmented Language Models",
+    "url": "https://arxiv.org/abs/2302.00083",
+    "year": 2023
+   },
+   {
+    "title": "Parallel Context Windows for Large Language Models",
+    "url": "https://arxiv.org/abs/2212.10947",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "ai21.com has contact and sales forms; open work is on GitHub and Hugging Face."
+ },
+ {
+  "id": "typhoon-scb10x",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Typhoon Thai LLMs",
+    "note": "Released open Thai language models and a first Typhoon paper."
+   },
+   {
+    "title": "Typhoon 2",
+    "note": "Published open text and multimodal Thai models."
+   },
+   {
+    "title": "Typhoon OCR",
+    "note": "Released OCR models for Thai documents, including typhoon-ocr-3b and 1.5-2b."
+   },
+   {
+    "title": "Thai benchmarks and speech",
+    "note": "Published Thai exam, OCR benchmark and Isan dialect datasets, and a Whisper ASR model."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "typhoon-ai/typhoon2.5-qwen3-4b",
+    "url": "https://huggingface.co/typhoon-ai/typhoon2.5-qwen3-4b",
+    "kind": "model",
+    "note": "Most downloaded."
+   },
+   {
+    "name": "typhoon-ai/typhoon-ocr-3b",
+    "url": "https://huggingface.co/typhoon-ai/typhoon-ocr-3b",
+    "kind": "model",
+    "note": "Thai OCR model."
+   },
+   {
+    "name": "typhoon-ai/typhoon-whisper-turbo",
+    "url": "https://huggingface.co/typhoon-ai/typhoon-whisper-turbo",
+    "kind": "model",
+    "note": "Thai ASR."
+   },
+   {
+    "name": "typhoon-ai/thai_exam",
+    "url": "https://huggingface.co/datasets/typhoon-ai/thai_exam",
+    "kind": "dataset",
+    "note": "Thai exam benchmark."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Typhoon: Thai Large Language Models",
+    "url": "https://arxiv.org/abs/2312.13951",
+    "year": 2023
+   },
+   {
+    "title": "Typhoon 2: A Family of Open Text and Multimodal Thai Large Language Models",
+    "url": "https://arxiv.org/abs/2412.13702",
+    "year": 2024
+   }
+  ],
+  "discord": "https://discord.gg/9F6nrFXyNt",
+  "discord_note": "Community Discord linked from opentyphoon.ai.",
+  "contact_note": "opentyphoon.ai links a community Discord and model playground."
+ },
+ {
+  "id": "vistec-airesearch",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "WangchanBERTa",
+    "note": "Thai pretrained transformer models."
+   },
+   {
+    "title": "Thai wav2vec2 XLSR",
+    "note": "Fine-tuned Thai speech recognition model, over 850k downloads."
+   },
+   {
+    "title": "Thai datasets",
+    "note": "Released WangchanThaiInstruct, Thai SER and review datasets."
+   },
+   {
+    "title": "thai2transformers",
+    "note": "Open toolkit for Thai transformer pretraining."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "thai2transformers",
+    "url": "https://github.com/vistec-AI/thai2transformers",
+    "note": "Pretraining Thai transformers."
+   },
+   {
+    "name": "wav2vec2-large-xlsr-53-th",
+    "url": "https://github.com/vistec-AI/wav2vec2-large-xlsr-53-th",
+    "note": "Thai wav2vec2 fine-tuning."
+   },
+   {
+    "name": "commonvoice-th",
+    "url": "https://github.com/vistec-AI/commonvoice-th",
+    "note": "Kaldi recipe for Thai Common Voice."
+   },
+   {
+    "name": "dataset-releases",
+    "url": "https://github.com/vistec-AI/dataset-releases",
+    "note": "Dataset releases."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "airesearch/wav2vec2-large-xlsr-53-th",
+    "url": "https://huggingface.co/airesearch/wav2vec2-large-xlsr-53-th",
+    "kind": "model",
+    "note": "Thai ASR."
+   },
+   {
+    "name": "airesearch/wangchanberta-base-att-spm-uncased",
+    "url": "https://huggingface.co/airesearch/wangchanberta-base-att-spm-uncased",
+    "kind": "model",
+    "note": "WangchanBERTa."
+   },
+   {
+    "name": "airesearch/WangchanThaiInstruct",
+    "url": "https://huggingface.co/datasets/airesearch/WangchanThaiInstruct",
+    "kind": "dataset",
+    "note": "Thai instruction data."
+   },
+   {
+    "name": "airesearch/thai-ser",
+    "url": "https://huggingface.co/datasets/airesearch/thai-ser",
+    "kind": "dataset",
+    "note": "Thai speech emotion data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "WangchanBERTa: Pretraining transformer-based Thai Language Models",
+    "url": "https://arxiv.org/abs/2101.09635",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "airesearch.in.th lists the institute's contacts."
+ },
+ {
+  "id": "mesolitica",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Malaysian speech models",
+    "note": "Whisper and wav2vec2 models for Malay and mixed speech."
+   },
+   {
+    "title": "Malaysian TTS",
+    "note": "Released Malaysian-TTS models."
+   },
+   {
+    "title": "Malay embeddings and LLMs",
+    "note": "Released llama2 embedding 1B 8k and Malaysian LLM fine-tunes."
+   },
+   {
+    "title": "Malaysian-Emilia",
+    "note": "Published a Malaysian speech dataset."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "NLP-Models-Tensorflow",
+    "url": "https://github.com/mesolitica/NLP-Models-Tensorflow",
+    "note": "Collection of NLP models in TensorFlow."
+   },
+   {
+    "name": "vllm-whisper",
+    "url": "https://github.com/mesolitica/vllm-whisper",
+    "note": "Whisper serving engine."
+   },
+   {
+    "name": "llm-embedding",
+    "url": "https://github.com/mesolitica/llm-embedding",
+    "note": "Malaysian embedding fine-tuning."
+   },
+   {
+    "name": "multimodal-LLM",
+    "url": "https://github.com/mesolitica/multimodal-LLM",
+    "note": "Image, audio and text LLM."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "mesolitica/wav2vec2-xls-r-300m-mixed",
+    "url": "https://huggingface.co/mesolitica/wav2vec2-xls-r-300m-mixed",
+    "kind": "model",
+    "note": "Most downloaded."
+   },
+   {
+    "name": "mesolitica/llama2-embedding-1b-8k",
+    "url": "https://huggingface.co/mesolitica/llama2-embedding-1b-8k",
+    "kind": "model",
+    "note": "Embedding model."
+   },
+   {
+    "name": "mesolitica/Malaysian-TTS-0.6B-v1",
+    "url": "https://huggingface.co/mesolitica/Malaysian-TTS-0.6B-v1",
+    "kind": "model",
+    "note": "TTS."
+   },
+   {
+    "name": "mesolitica/Malaysian-Emilia",
+    "url": "https://huggingface.co/datasets/mesolitica/Malaysian-Emilia",
+    "kind": "dataset",
+    "note": "Speech dataset."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "mesolitica.com is the main site; GitHub issues are the open channel."
+ },
+ {
+  "id": "issai",
+  "confidence": "high",
+  "contact_email": "issai@nu.edu.kz",
+  "contributions": [
+   {
+    "title": "KazakhTTS",
+    "note": "Open-source Kazakh text-to-speech dataset and models."
+   },
+   {
+    "title": "Kazakh Speech Corpus",
+    "note": "Crowdsourced open Kazakh speech corpus with ASR baselines."
+   },
+   {
+    "title": "TurkicASR and TurkicTTS",
+    "note": "Multilingual ASR and TTS for ten Turkic languages."
+   },
+   {
+    "title": "Qolda models",
+    "note": "Released Qolda and Qolda-AVL-5B GGUF models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Kazakh_TTS",
+    "url": "https://github.com/IS2AI/Kazakh_TTS",
+    "note": "Kazakh TTS."
+   },
+   {
+    "name": "SpeakingFaces",
+    "url": "https://github.com/IS2AI/SpeakingFaces",
+    "note": "Visual-thermal-audio dataset."
+   },
+   {
+    "name": "TurkicASR",
+    "url": "https://github.com/IS2AI/TurkicASR",
+    "note": "ASR for ten Turkic languages."
+   },
+   {
+    "name": "TurkicTTS",
+    "url": "https://github.com/IS2AI/TurkicTTS",
+    "note": "TTS for ten Turkic languages."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "issai/Qolda_GGUF",
+    "url": "https://huggingface.co/issai/Qolda_GGUF",
+    "kind": "model",
+    "note": "Qolda model."
+   },
+   {
+    "name": "issai/Qolda-AVL-5B-GGUF",
+    "url": "https://huggingface.co/issai/Qolda-AVL-5B-GGUF",
+    "kind": "model",
+    "note": "Vision-language."
+   },
+   {
+    "name": "issai/Apples_HSI",
+    "url": "https://huggingface.co/datasets/issai/Apples_HSI",
+    "kind": "dataset",
+    "note": "Hyperspectral apples."
+   },
+   {
+    "name": "issai/Kazakh_Speech_Corpus_2",
+    "url": "https://huggingface.co/datasets/issai/Kazakh_Speech_Corpus_2",
+    "kind": "dataset",
+    "note": "Kazakh speech."
+   }
+  ],
+  "papers": [
+   {
+    "title": "KazakhTTS: An Open-Source Kazakh Text-to-Speech Synthesis Dataset",
+    "url": "https://arxiv.org/abs/2104.08459",
+    "year": 2021
+   },
+   {
+    "title": "A Crowdsourced Open-Source Kazakh Speech Corpus and Initial Speech Recognition Baseline",
+    "url": "https://arxiv.org/abs/2009.10334",
+    "year": 2020
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "issai.nu.edu.kz lists a general institute email."
+ },
+ {
+  "id": "qcri",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Fanar models",
+    "note": "Open Fanar Arabic-centric LLMs (9B, 27B) and multimodal Oryx model."
+   },
+   {
+    "title": "CrisisMMD",
+    "note": "Multimodal tweets from disasters, widely used."
+   },
+   {
+    "title": "Multimodal datasets",
+    "note": "MemeLens and M2CQA datasets."
+   },
+   {
+    "title": "Data systems",
+    "note": "Arabesque and NADEEF open code."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Arabesque",
+    "url": "https://github.com/qcri/Arabesque",
+    "note": "Scalable graph mining."
+   },
+   {
+    "name": "NADEEF",
+    "url": "https://github.com/qcri/NADEEF",
+    "note": "Data cleaning system."
+   },
+   {
+    "name": "dialectID",
+    "url": "https://github.com/qcri/dialectID",
+    "note": "Arabic dialect detection."
+   },
+   {
+    "name": "DeepER",
+    "url": "https://github.com/qcri/DeepER",
+    "note": "Entity resolution."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "QCRI/Fanar-1-9B-Instruct",
+    "url": "https://huggingface.co/QCRI/Fanar-1-9B-Instruct",
+    "kind": "model",
+    "note": "Fanar 9B."
+   },
+   {
+    "name": "QCRI/Fanar-2-27B-Instruct",
+    "url": "https://huggingface.co/QCRI/Fanar-2-27B-Instruct",
+    "kind": "model",
+    "note": "Fanar 2 27B."
+   },
+   {
+    "name": "QCRI/CrisisMMD",
+    "url": "https://huggingface.co/datasets/QCRI/CrisisMMD",
+    "kind": "dataset",
+    "note": "Crisis dataset."
+   },
+   {
+    "name": "QCRI/MemeLens",
+    "url": "https://huggingface.co/datasets/QCRI/MemeLens",
+    "kind": "dataset",
+    "note": "Meme dataset."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Fanar: An Arabic-Centric Multimodal Generative AI Platform",
+    "url": "https://arxiv.org/abs/2501.13944",
+    "year": 2025
+   },
+   {
+    "title": "CrisisMMD: Multimodal Twitter Datasets from Natural Disasters",
+    "url": "https://arxiv.org/abs/1805.00713",
+    "year": 2018
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact is via the HBKU QCRI page."
+ },
+ {
+  "id": "taide",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Llama3.1-TAIDE-LX-8B-Chat",
+    "note": "Traditional Chinese chat model with 131K context."
+   },
+   {
+    "title": "Gemma-3-TAIDE-12b-Chat",
+    "note": "Office-task Traditional Chinese model, with a 2602 update adding midtraining."
+   },
+   {
+    "title": "Embeddinggemma-GTAIDE",
+    "note": "Retrieval model for Taiwan regulations."
+   },
+   {
+    "title": "TAIDE bench",
+    "note": "Released taide-bench and TaiwanVQA evaluations."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "taide-bench-eval",
+    "url": "https://github.com/taide-taiwan/taide-bench-eval",
+    "note": "Benchmark evaluation code."
+   },
+   {
+    "name": "TaiwanVQA",
+    "url": "https://github.com/taide-taiwan/TaiwanVQA",
+    "note": "Taiwan visual QA."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "taide/Llama-3.1-TAIDE-LX-8B-Chat",
+    "url": "https://huggingface.co/taide/Llama-3.1-TAIDE-LX-8B-Chat",
+    "kind": "model",
+    "note": "Most downloaded."
+   },
+   {
+    "name": "taide/Gemma-3-TAIDE-12b-Chat",
+    "url": "https://huggingface.co/taide/Gemma-3-TAIDE-12b-Chat",
+    "kind": "model",
+    "note": "12B chat."
+   },
+   {
+    "name": "taide/embeddinggemma-GTAIDE-300m-2605",
+    "url": "https://huggingface.co/taide/embeddinggemma-GTAIDE-300m-2605",
+    "kind": "model",
+    "note": "Embeddings."
+   },
+   {
+    "name": "taide/taide-bench",
+    "url": "https://huggingface.co/datasets/taide/taide-bench",
+    "kind": "dataset",
+    "note": "Benchmark."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "taide.tw has a team and news pages with contact options."
+ },
+ {
+  "id": "ckip-lab",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "CKIP Tagger",
+    "note": "Neural Chinese word segmentation, POS tagging and NER."
+   },
+   {
+    "title": "CKIP Transformers",
+    "note": "BERT and ALBERT models for Traditional Chinese tasks."
+   },
+   {
+    "title": "CKIP CoreNLP",
+    "note": "Chinese NLP toolkit."
+   },
+   {
+    "title": "E-HowNet utilities",
+    "note": "Tools for E-HowNet."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ckiptagger",
+    "url": "https://github.com/ckiplab/ckiptagger",
+    "note": "Chinese word segmentation, POS and NER."
+   },
+   {
+    "name": "ckip-transformers",
+    "url": "https://github.com/ckiplab/ckip-transformers",
+    "note": "Transformers models."
+   },
+   {
+    "name": "ckipnlp",
+    "url": "https://github.com/ckiplab/ckipnlp",
+    "note": "CoreNLP toolkit."
+   },
+   {
+    "name": "ehownet",
+    "url": "https://github.com/ckiplab/ehownet",
+    "note": "E-HowNet utilities."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "ckiplab/bert-base-chinese-ner",
+    "url": "https://huggingface.co/ckiplab/bert-base-chinese-ner",
+    "kind": "model",
+    "note": "NER."
+   },
+   {
+    "name": "ckiplab/bert-base-chinese-ws",
+    "url": "https://huggingface.co/ckiplab/bert-base-chinese-ws",
+    "kind": "model",
+    "note": "Word segmentation."
+   },
+   {
+    "name": "ckiplab/bert-base-chinese-pos",
+    "url": "https://huggingface.co/ckiplab/bert-base-chinese-pos",
+    "kind": "model",
+    "note": "POS."
+   },
+   {
+    "name": "ckiplab/albert-tiny-chinese-ws",
+    "url": "https://huggingface.co/ckiplab/albert-tiny-chinese-ws",
+    "kind": "model",
+    "note": "Small WS."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "ckip.iis.sinica.edu.tw is the lab homepage."
+ },
+ {
+  "id": "buet-csebuetnlp",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "BanglaBERT",
+    "note": "Pretrained model and benchmark for Bangla understanding."
+   },
+   {
+    "title": "BanglaT5",
+    "note": "Sequence-to-sequence model and generation benchmarks."
+   },
+   {
+    "title": "XL-Sum",
+    "note": "Summarization dataset for 44 languages."
+   },
+   {
+    "title": "Bengali-English MT",
+    "note": "Datasets and models for machine translation."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "xl-sum",
+    "url": "https://github.com/csebuetnlp/xl-sum",
+    "note": "XL-Sum code, data, models."
+   },
+   {
+    "name": "banglabert",
+    "url": "https://github.com/csebuetnlp/banglabert",
+    "note": "BanglaBERT release."
+   },
+   {
+    "name": "banglanmt",
+    "url": "https://github.com/csebuetnlp/banglanmt",
+    "note": "Bangla NMT."
+   },
+   {
+    "name": "BanglaNLG",
+    "url": "https://github.com/csebuetnlp/BanglaNLG",
+    "note": "BanglaT5 release."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "csebuetnlp/banglabert",
+    "url": "https://huggingface.co/csebuetnlp/banglabert",
+    "kind": "model",
+    "note": "BanglaBERT."
+   },
+   {
+    "name": "csebuetnlp/mT5_multilingual_XLSum",
+    "url": "https://huggingface.co/csebuetnlp/mT5_multilingual_XLSum",
+    "kind": "model",
+    "note": "Multilingual summarizer."
+   },
+   {
+    "name": "csebuetnlp/xlsum",
+    "url": "https://huggingface.co/datasets/csebuetnlp/xlsum",
+    "kind": "dataset",
+    "note": "XL-Sum."
+   },
+   {
+    "name": "csebuetnlp/CrossSum",
+    "url": "https://huggingface.co/datasets/csebuetnlp/CrossSum",
+    "kind": "dataset",
+    "note": "Cross-lingual summarization."
+   }
+  ],
+  "papers": [
+   {
+    "title": "XL-Sum: Large-Scale Multilingual Abstractive Summarization for 44 Languages",
+    "url": "https://arxiv.org/abs/2106.13822",
+    "year": 2021
+   },
+   {
+    "title": "BanglaBERT: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in Bangla",
+    "url": "https://arxiv.org/abs/2101.00204",
+    "year": 2021
+   },
+   {
+    "title": "BanglaNLG and BanglaT5: Benchmarks and Resources for Evaluating Low-Resource Natural Language Generation in Bangla",
+    "url": "https://arxiv.org/abs/2205.11081",
+    "year": 2022
+   },
+   {
+    "title": "Not Low-Resource Anymore: Aligner Ensembling, Batch Filtering, and New Datasets for Bengali-English Machine Translation",
+    "url": "https://arxiv.org/abs/2009.09359",
+    "year": 2020
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The group site csebuetnlp.github.io links its GitHub and papers; GitHub issues are the open route."
+ },
+ {
+  "id": "hooshvare",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "ParsBERT",
+    "note": "Persian BERT model."
+   },
+   {
+    "title": "ParsGPT",
+    "note": "Persian GPT-2."
+   },
+   {
+    "title": "pn-summary",
+    "note": "Persian news summarization dataset."
+   },
+   {
+    "title": "BERT-fa models",
+    "note": "Persian bert-fa variants and NER."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "parsbert",
+    "url": "https://github.com/hooshvare/parsbert",
+    "note": "Persian BERT."
+   },
+   {
+    "name": "pn-summary",
+    "url": "https://github.com/hooshvare/pn-summary",
+    "note": "Persian summarization dataset."
+   },
+   {
+    "name": "parsgpt",
+    "url": "https://github.com/hooshvare/parsgpt",
+    "note": "Persian GPT2."
+   },
+   {
+    "name": "pdf2word",
+    "url": "https://github.com/hooshvare/pdf2word",
+    "note": "Persian PDF text extraction."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "HooshvareLab/bert-fa-zwnj-base",
+    "url": "https://huggingface.co/HooshvareLab/bert-fa-zwnj-base",
+    "kind": "model",
+    "note": "Persian BERT."
+   },
+   {
+    "name": "HooshvareLab/bert-fa-base-uncased",
+    "url": "https://huggingface.co/HooshvareLab/bert-fa-base-uncased",
+    "kind": "model",
+    "note": "Persian BERT."
+   },
+   {
+    "name": "HooshvareLab/bert-base-parsbert-uncased",
+    "url": "https://huggingface.co/HooshvareLab/bert-base-parsbert-uncased",
+    "kind": "model",
+    "note": "ParsBERT."
+   },
+   {
+    "name": "HooshvareLab/pn_summary",
+    "url": "https://huggingface.co/datasets/HooshvareLab/pn_summary",
+    "kind": "dataset",
+    "note": "Summarization."
+   }
+  ],
+  "papers": [
+   {
+    "title": "ParsBERT: Transformer-based Model for Persian Language Understanding",
+    "url": "https://arxiv.org/abs/2005.12515",
+    "year": 2020
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "The GitHub org page is the lab's public home; use issues on its repos."
+ },
+ {
+  "id": "part-ai",
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "TookaBERT",
+    "note": "Persian BERT base and large."
+   },
+   {
+    "title": "Tooka-SBERT",
+    "note": "Persian sentence embeddings."
+   },
+   {
+    "title": "Persian benchmarks",
+    "note": "PSRB and ParsiNLU-MC mirrors."
+   },
+   {
+    "title": "PartNLP",
+    "note": "Persian NLP package."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "PartNLP",
+    "url": "https://github.com/partdpai/PartNLP",
+    "note": "Persian NLP package."
+   },
+   {
+    "name": "persian_subwords",
+    "url": "https://github.com/partdpai/persian_subwords",
+    "note": "Persian OCR with subwords."
+   },
+   {
+    "name": "Part-2018-Deep-Learning-School",
+    "url": "https://github.com/partdpai/Part-2018-Deep-Learning-School",
+    "note": "Course materials."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "PartAI/TookaBERT-Base",
+    "url": "https://huggingface.co/PartAI/TookaBERT-Base",
+    "kind": "model",
+    "note": "Persian BERT."
+   },
+   {
+    "name": "PartAI/TookaBERT-Large",
+    "url": "https://huggingface.co/PartAI/TookaBERT-Large",
+    "kind": "model",
+    "note": "Large."
+   },
+   {
+    "name": "PartAI/Tooka-SBERT-V2-Large",
+    "url": "https://huggingface.co/PartAI/Tooka-SBERT-V2-Large",
+    "kind": "model",
+    "note": "Embeddings."
+   },
+   {
+    "name": "PartAI/PSRB",
+    "url": "https://huggingface.co/datasets/PartAI/PSRB",
+    "kind": "dataset",
+    "note": "Persian benchmark."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "partdp.ai has a contact page."
+ },
+ {
+  "id": "rwkv",
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "RWKV architecture",
+    "note": "RNN-style LLM architecture with transformer-level quality."
+   },
+   {
+    "title": "Eagle and Finch",
+    "note": "RWKV-5 and 6 models."
+   },
+   {
+    "title": "RWKV-7 Goose",
+    "note": "Newer architecture with dynamic state evolution."
+   },
+   {
+    "title": "rwkv.cpp",
+    "note": "CPU inference in INT4 to FP16."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "rwkv.cpp",
+    "url": "https://github.com/RWKV/rwkv.cpp",
+    "note": "CPU inference for RWKV."
+   },
+   {
+    "name": "RWKV-infctx-trainer",
+    "url": "https://github.com/RWKV/RWKV-infctx-trainer",
+    "note": "Infinite context trainer."
+   },
+   {
+    "name": "RWKV-LM",
+    "url": "https://github.com/RWKV/RWKV-LM",
+    "note": "Core RWKV repo."
+   },
+   {
+    "name": "rwkv-onnx",
+    "url": "https://github.com/RWKV/rwkv-onnx",
+    "note": "ONNX converter."
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "RWKV/v5-Eagle-7B-HF",
+    "url": "https://huggingface.co/RWKV/v5-Eagle-7B-HF",
+    "kind": "model",
+    "note": "Eagle 7B."
+   },
+   {
+    "name": "RWKV/rwkv-4-169m-pile",
+    "url": "https://huggingface.co/RWKV/rwkv-4-169m-pile",
+    "kind": "model",
+    "note": "Small Pile model."
+   },
+   {
+    "name": "RWKV/RWKV7-G1j-2.9B-20260831",
+    "url": "https://huggingface.co/RWKV/RWKV7-G1j-2.9B-20260831",
+    "kind": "model",
+    "note": "RWKV-7 2.9B."
+   },
+   {
+    "name": "RWKV/EagleX-WorldContinued",
+    "url": "https://huggingface.co/datasets/RWKV/EagleX-WorldContinued",
+    "kind": "dataset",
+    "note": "Training data."
+   }
+  ],
+  "papers": [
+   {
+    "title": "RWKV: Reinventing RNNs for the Transformer Era",
+    "url": "https://arxiv.org/abs/2305.13048",
+    "year": 2023
+   },
+   {
+    "title": "Eagle and Finch: RWKV with Matrix-Valued States and Dynamic Recurrence",
+    "url": "https://arxiv.org/abs/2404.05892",
+    "year": 2024
+   },
+   {
+    "title": "RWKV-7 \"Goose\" with Expressive Dynamic State Evolution",
+    "url": "https://arxiv.org/abs/2503.14456",
+    "year": 2025
+   }
+  ],
+  "discord": "https://discord.gg/bDSBUMeFpc",
+  "discord_note": "Main community Discord linked from rwkv.com.",
+  "contact_note": "rwkv.com links the community Discord and GitHub."
+ }
+]

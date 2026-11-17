@@ -1,0 +1,6090 @@
+[
+ {
+  "id": "photoroom",
+  "name": "Photoroom",
+  "type": "startup",
+  "founded": null,
+  "country": "France",
+  "city": "Paris",
+  "lat": 48.8566,
+  "lon": 2.3522,
+  "website": "https://www.photoroom.com",
+  "huggingface": "https://huggingface.co/Photoroom",
+  "github": "https://github.com/photoroom",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Paris-based image-editing company that also trains and releases its own text-to-image models (PRX) with open weights, plus open data tooling.",
+  "focus": [
+   "image generation",
+   "diffusion",
+   "computer vision"
+  ],
+  "notable_releases": [
+   {
+    "name": "PRX text-to-image models",
+    "url": "https://huggingface.co/Photoroom/prx-1024-t2i-beta",
+    "note": "Open-weight text-to-image model released on the Hub under Apache-2.0"
+   },
+   {
+    "name": "PRX code",
+    "url": "https://github.com/photoroom/PRX",
+    "note": "Training and inference code for the PRX models"
+   },
+   {
+    "name": "datago",
+    "url": "https://github.com/photoroom/datago",
+    "note": "Rust-based parallel dataloader for large image datasets"
+   },
+   {
+    "name": "midjourney-v6-recap",
+    "url": "https://huggingface.co/datasets/Photoroom/midjourney-v6-recap",
+    "note": "Recaptioned image dataset"
+   }
+  ],
+  "openness": "Commercial product company with an open research arm: PRX model weights are published on Hugging Face (Apache-2.0 on the checked model card) and several tooling repositories are public on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://www.photoroom.com",
+   "https://huggingface.co/Photoroom",
+   "https://github.com/photoroom"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "PRX open text-to-image family",
+    "note": "Published PRX text-to-image checkpoints (1024 and 512 variants) as open weights."
+   },
+   {
+    "title": "Data tooling",
+    "note": "Open-sourced datago and dataroom for fast loading and curation of large image datasets."
+   },
+   {
+    "title": "Foreground estimation",
+    "note": "Released code for approximate fast foreground colour estimation (ICIP 2021)."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "datago",
+    "url": "https://github.com/Photoroom/datago",
+    "note": "A natively parallel dataloader for Python, written in Rust. Serving data at GB/s speeds, while covering aspect (128 stars)"
+   },
+   {
+    "name": "fast-foreground-estimation",
+    "url": "https://github.com/Photoroom/fast-foreground-estimation",
+    "note": "Official repository for the paper Approximate Fast Foreground Colour Estimation. ICIP 2021. (93 stars)"
+   },
+   {
+    "name": "PRX",
+    "url": "https://github.com/Photoroom/PRX",
+    "note": "Open-source repository. (92 stars)"
+   },
+   {
+    "name": "dataroom",
+    "url": "https://github.com/Photoroom/dataroom",
+    "note": "Framework based on a vector dabase to store, manage and curate large image datasets (85 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Photoroom/prx-1024-t2i-beta",
+    "url": "https://huggingface.co/Photoroom/prx-1024-t2i-beta",
+    "kind": "model",
+    "note": "Model with 86 likes on the Hub."
+   },
+   {
+    "name": "Photoroom/prxpixel-t2i",
+    "url": "https://huggingface.co/Photoroom/prxpixel-t2i",
+    "kind": "model",
+    "note": "Model with 52 likes on the Hub."
+   },
+   {
+    "name": "Photoroom/midjourney-v6-recap",
+    "url": "https://huggingface.co/datasets/Photoroom/midjourney-v6-recap",
+    "kind": "dataset",
+    "note": "Dataset with 22 likes on the Hub."
+   },
+   {
+    "name": "Photoroom/PRX-Pixel",
+    "url": "https://huggingface.co/spaces/Photoroom/PRX-Pixel",
+    "kind": "space",
+    "note": "Space with 36 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the company website."
+ },
+ {
+  "id": "illuin",
+  "name": "Illuin Technology",
+  "type": "startup",
+  "founded": null,
+  "country": "France",
+  "city": "Paris",
+  "lat": 48.8566,
+  "lon": 2.3522,
+  "website": "https://www.illuin.tech",
+  "huggingface": "https://huggingface.co/illuin",
+  "github": "https://github.com/illuin-tech",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Paris AI company whose research team co-created ColPali visual document retrieval and the ViDoRe benchmark, and co-authored the CroissantLLM bilingual model.",
+  "focus": [
+   "document retrieval",
+   "vision-language models",
+   "NLP",
+   "evaluation"
+  ],
+  "notable_releases": [
+   {
+    "name": "ColPali / ColVision",
+    "url": "https://github.com/illuin-tech/colpali",
+    "note": "Code to train and run ColPali, ColQwen and related late-interaction vision retrievers"
+   },
+   {
+    "name": "vidore-benchmark",
+    "url": "https://github.com/illuin-tech/vidore-benchmark",
+    "note": "Evaluation code for the ViDoRe visual document retrieval benchmark"
+   },
+   {
+    "name": "GROUSE",
+    "url": "https://huggingface.co/datasets/illuin/grouse",
+    "note": "Dataset published on the Hub"
+   },
+   {
+    "name": "opyoid",
+    "url": "https://github.com/illuin-tech/opyoid",
+    "note": "Python dependency injection library"
+   }
+  ],
+  "openness": "Publishes research code, benchmarks and datasets under its illuin-tech GitHub organisation and illuin Hugging Face organisation; consulting and products are commercial.",
+  "people_public": [],
+  "sources": [
+   "https://www.illuin.tech",
+   "https://huggingface.co/illuin",
+   "https://github.com/illuin-tech",
+   "https://arxiv.org/abs/2407.01449"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "ColPali",
+    "note": "Introduced vision-language late-interaction retrieval that indexes document page images directly (arXiv 2407.01449)."
+   },
+   {
+    "title": "ViDoRe benchmark",
+    "note": "Released an evaluation suite and code for visual document retrieval."
+   },
+   {
+    "title": "CroissantLLM",
+    "note": "Co-authored an open French-English bilingual language model (arXiv 2402.00786)."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "colpali",
+    "url": "https://github.com/illuin-tech/colpali",
+    "note": "The code used to train and run inference with the ColVision models, e.g. ColPali, ColQwen2, and ColSmol. (2,855 stars)"
+   },
+   {
+    "name": "vidore-benchmark",
+    "url": "https://github.com/illuin-tech/vidore-benchmark",
+    "note": "Vision Document Retrieval (ViDoRe): Benchmark. Evaluation code for the ColPali paper. (278 stars)"
+   },
+   {
+    "name": "opyoid",
+    "url": "https://github.com/illuin-tech/opyoid",
+    "note": "Dependency injection library for Python (75 stars)"
+   },
+   {
+    "name": "contextual-embeddings",
+    "url": "https://github.com/illuin-tech/contextual-embeddings",
+    "note": "Model implementation for the contextual embeddings project (55 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "illuin/bert-large-uncased",
+    "url": "https://huggingface.co/illuin/bert-large-uncased",
+    "kind": "model",
+    "note": "Model with 0 likes on the Hub."
+   },
+   {
+    "name": "illuin/roberta-large-bne",
+    "url": "https://huggingface.co/illuin/roberta-large-bne",
+    "kind": "model",
+    "note": "Model with 0 likes on the Hub."
+   },
+   {
+    "name": "illuin/daedalus-traces",
+    "url": "https://huggingface.co/datasets/illuin/daedalus-traces",
+    "kind": "dataset",
+    "note": "Dataset with 5 likes on the Hub."
+   },
+   {
+    "name": "illuin/grouse",
+    "url": "https://huggingface.co/spaces/illuin/grouse",
+    "kind": "space",
+    "note": "Space with 1 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "ColPali: Efficient Document Retrieval with Vision Language Models",
+    "url": "https://arxiv.org/abs/2407.01449",
+    "year": 2024
+   },
+   {
+    "title": "CroissantLLM: A Truly Bilingual French-English Language Model",
+    "url": "https://arxiv.org/abs/2402.00786",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the company website."
+ },
+ {
+  "id": "almanach",
+  "name": "ALMAnaCH (Inria)",
+  "type": "institute",
+  "founded": null,
+  "country": "France",
+  "city": "Paris",
+  "lat": 48.8566,
+  "lon": 2.3522,
+  "website": "https://almanach.inria.fr",
+  "huggingface": "https://huggingface.co/almanach",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Inria Paris research team on language models and computational humanities, creators of the CamemBERT family of French language models.",
+  "focus": [
+   "NLP",
+   "French",
+   "language models",
+   "digital humanities"
+  ],
+  "notable_releases": [
+   {
+    "name": "CamemBERT",
+    "url": "https://huggingface.co/almanach/camembert-base",
+    "note": "Widely used French RoBERTa-style model"
+   },
+   {
+    "name": "CamemBERT-bio",
+    "url": "https://huggingface.co/almanach/camembert-bio-base",
+    "note": "French biomedical encoder"
+   },
+   {
+    "name": "Biomed-Enriched",
+    "url": "https://huggingface.co/datasets/almanach/Biomed-Enriched",
+    "note": "Biomedical dataset released on the Hub"
+   },
+   {
+    "name": "CamemBERT 2.0",
+    "url": "https://huggingface.co/almanach/camembertav2-base",
+    "note": "Updated French encoder"
+   }
+  ],
+  "openness": "Models and datasets are public on Hugging Face under the almanach organisation; CamemBERT checkpoints have very high download counts.",
+  "people_public": [],
+  "sources": [
+   "https://almanach.inria.fr",
+   "https://huggingface.co/almanach",
+   "https://arxiv.org/abs/1911.03894"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "CamemBERT",
+    "note": "Released the reference open French language model (arXiv 1911.03894)."
+   },
+   {
+    "title": "CamemBERT 2.0",
+    "note": "Updated French encoders with a refreshed tokenizer and data (arXiv 2411.08868)."
+   },
+   {
+    "title": "Domain datasets",
+    "note": "Published French biomedical models and datasets for open research."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "almanach/camembert-base",
+    "url": "https://huggingface.co/almanach/camembert-base",
+    "kind": "model",
+    "note": "Model with 117 likes on the Hub."
+   },
+   {
+    "name": "almanach/camembertav2-base",
+    "url": "https://huggingface.co/almanach/camembertav2-base",
+    "kind": "model",
+    "note": "Model with 28 likes on the Hub."
+   },
+   {
+    "name": "almanach/Biomed-Enriched",
+    "url": "https://huggingface.co/datasets/almanach/Biomed-Enriched",
+    "kind": "dataset",
+    "note": "Dataset with 10 likes on the Hub."
+   },
+   {
+    "name": "almanach/camembert-bio-gliner",
+    "url": "https://huggingface.co/spaces/almanach/camembert-bio-gliner",
+    "kind": "space",
+    "note": "Space with 10 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "CamemBERT: a Tasty French Language Model",
+    "url": "https://arxiv.org/abs/1911.03894",
+    "year": 2019
+   },
+   {
+    "title": "CamemBERT 2.0: A Smarter French Language Model Aged to Perfection",
+    "url": "https://arxiv.org/abs/2411.08868",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the Inria team page."
+ },
+ {
+  "id": "flowers-inria",
+  "name": "Flowers (Inria and Univ. Bordeaux)",
+  "type": "institute",
+  "founded": null,
+  "country": "France",
+  "city": "Bordeaux",
+  "lat": 44.8378,
+  "lon": -0.5792,
+  "website": "https://flowers.inria.fr",
+  "huggingface": null,
+  "github": "https://github.com/flowersteam",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Inria research team on developmental and curiosity-driven AI, open-ended learning and grounding language models through reinforcement learning.",
+  "focus": [
+   "reinforcement learning",
+   "open-ended learning",
+   "LLM agents",
+   "robotics"
+  ],
+  "notable_releases": [
+   {
+    "name": "Grounding LLMs with online RL",
+    "url": "https://github.com/flowersteam/Grounding_LLMs_with_online_RL",
+    "note": "Functional grounding of LLMs in BabyAI-Text"
+   },
+   {
+    "name": "lamorel",
+    "url": "https://github.com/flowersteam/lamorel",
+    "note": "Library for using LLMs in RL training loops"
+   },
+   {
+    "name": "TeachMyAgent",
+    "url": "https://github.com/flowersteam/TeachMyAgent",
+    "note": "Testbed for automatic curriculum learning in deep RL"
+   },
+   {
+    "name": "teachDeepRL",
+    "url": "https://github.com/flowersteam/teachDeepRL",
+    "note": "Teacher algorithms for deep RL"
+   }
+  ],
+  "openness": "Research code is released openly in the flowersteam GitHub organisation, typically alongside papers.",
+  "people_public": [],
+  "sources": [
+   "https://flowers.inria.fr",
+   "https://github.com/flowersteam"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "LLM grounding in RL",
+    "note": "Published code and the lamorel library for training LLM agents with online RL."
+   },
+   {
+    "title": "Curriculum learning testbeds",
+    "note": "Released TeachMyAgent for benchmarking automatic curriculum learning."
+   },
+   {
+    "title": "Open-ended learning",
+    "note": "Long-running open code for intrinsically motivated learning agents."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Grounding_LLMs_with_online_RL",
+    "url": "https://github.com/flowersteam/Grounding_LLMs_with_online_RL",
+    "note": "We perform functional grounding of LLMs' knowledge in BabyAI-Text (277 stars)"
+   },
+   {
+    "name": "lamorel",
+    "url": "https://github.com/flowersteam/lamorel",
+    "note": "Lamorel is a Python library designed for RL practitioners eager to use Large Language Models (LLMs). (247 stars)"
+   },
+   {
+    "name": "teachDeepRL",
+    "url": "https://github.com/flowersteam/teachDeepRL",
+    "note": "Open-source repository. (94 stars)"
+   },
+   {
+    "name": "TeachMyAgent",
+    "url": "https://github.com/flowersteam/TeachMyAgent",
+    "note": "TeachMyAgent is a testbed platform for Automatic Curriculum Learning methods in Deep RL. (78 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the team website."
+ },
+ {
+  "id": "linagora",
+  "name": "LINAGORA",
+  "type": "startup",
+  "founded": null,
+  "country": "France",
+  "city": "Paris",
+  "lat": 48.8566,
+  "lon": 2.3522,
+  "website": "https://linagora.com",
+  "huggingface": "https://huggingface.co/linagora",
+  "github": "https://github.com/linagora",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "French open-source software company behind the LinTO speech stack and partner in the Lucie French-focused open LLM project.",
+  "focus": [
+   "speech recognition",
+   "LLMs",
+   "open-source software"
+  ],
+  "notable_releases": [
+   {
+    "name": "LinTO ASR models",
+    "url": "https://huggingface.co/linagora/linto_stt_fr_fastconformer",
+    "note": "French speech recognition model"
+   },
+   {
+    "name": "Labess-7b-chat",
+    "url": "https://huggingface.co/linagora/Labess-7b-chat",
+    "note": "Tunisian Arabic chat model"
+   },
+   {
+    "name": "SUMM-RE",
+    "url": "https://huggingface.co/datasets/linagora/SUMM-RE",
+    "note": "French meeting speech dataset"
+   },
+   {
+    "name": "LinShare",
+    "url": "https://github.com/linagora/linshare",
+    "note": "Open-source secure file sharing"
+   }
+  ],
+  "openness": "Long-standing open-source publisher (GitHub and Hugging Face), including speech models and datasets under open licences.",
+  "people_public": [],
+  "sources": [
+   "https://linagora.com",
+   "https://huggingface.co/linagora",
+   "https://github.com/linagora",
+   "https://arxiv.org/abs/2503.12294"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "LinTO",
+    "note": "Open speech transcription tooling and models for French and Tunisian Arabic."
+   },
+   {
+    "title": "Lucie-7B",
+    "note": "Co-authored the Lucie-7B model and its open training dataset (arXiv 2503.12294)."
+   },
+   {
+    "title": "Open datasets",
+    "note": "Released audio datasets such as SUMM-RE and Tunisian Derja resources."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "hublin",
+    "url": "https://github.com/linagora/hublin",
+    "note": "DEPRECATED - An easy and free video conference service based on WebRTC (1,603 stars)"
+   },
+   {
+    "name": "linshare",
+    "url": "https://github.com/linagora/linshare",
+    "note": "LinShare - Secure File Sharing (582 stars)"
+   },
+   {
+    "name": "openpaas-esn",
+    "url": "https://github.com/linagora/openpaas-esn",
+    "note": "Open PaaS Enterprise Social Network (485 stars)"
+   },
+   {
+    "name": "jmap-client",
+    "url": "https://github.com/linagora/jmap-client",
+    "note": "This repository provides a javascript lib to make requests against a JMAP server. (72 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "linagora/linto-asr-ar-tn-0.1",
+    "url": "https://huggingface.co/linagora/linto-asr-ar-tn-0.1",
+    "kind": "model",
+    "note": "Model with 16 likes on the Hub."
+   },
+   {
+    "name": "linagora/linto_stt_fr_fastconformer",
+    "url": "https://huggingface.co/linagora/linto_stt_fr_fastconformer",
+    "kind": "model",
+    "note": "Model with 8 likes on the Hub."
+   },
+   {
+    "name": "linagora/linto-dataset-audio-ar-tn",
+    "url": "https://huggingface.co/datasets/linagora/linto-dataset-audio-ar-tn",
+    "kind": "dataset",
+    "note": "Dataset with 22 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "The Lucie-7B LLM and the Lucie Training Dataset: Open resources for multilingual language generation",
+    "url": "https://arxiv.org/abs/2503.12294",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the company website."
+ },
+ {
+  "id": "aleph-alpha",
+  "name": "Aleph Alpha",
+  "type": "startup",
+  "founded": null,
+  "country": "Germany",
+  "city": "Heidelberg",
+  "lat": 49.3988,
+  "lon": 8.6724,
+  "website": "https://aleph-alpha.com",
+  "huggingface": "https://huggingface.co/Aleph-Alpha",
+  "github": "https://github.com/Aleph-Alpha",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Heidelberg language-model company that publishes part of its research as open weights and datasets alongside commercial products.",
+  "focus": [
+   "language models",
+   "German",
+   "tokenization"
+  ],
+  "notable_releases": [
+   {
+    "name": "Kolibri-1",
+    "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+    "note": "German-English model with an Apache-2.0 card"
+   },
+   {
+    "name": "Pharia-1-LLM-7B-control",
+    "url": "https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control",
+    "note": "Open-weight 7B model under a custom open licence"
+   },
+   {
+    "name": "Aleph-Alpha-GermanWeb",
+    "url": "https://huggingface.co/datasets/Aleph-Alpha/Aleph-Alpha-GermanWeb",
+    "note": "German pre-training dataset"
+   },
+   {
+    "name": "Alpha-MoE",
+    "url": "https://github.com/Aleph-Alpha/Alpha-MoE",
+    "note": "Mixture-of-experts kernels and code"
+   }
+  ],
+  "openness": "Mixed: flagship products are commercial, but model weights, datasets and code are public on Hugging Face and GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://aleph-alpha.com",
+   "https://huggingface.co/Aleph-Alpha",
+   "https://github.com/Aleph-Alpha",
+   "https://arxiv.org/abs/2406.19223"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "T-FREE tokenizer-free LLMs",
+    "note": "Published a subword-tokenizer-free approach with code (arXiv 2406.19223)."
+   },
+   {
+    "title": "GermanWeb dataset",
+    "note": "Released a German pre-training corpus and the paper behind it (arXiv 2505.00022)."
+   },
+   {
+    "title": "Open models",
+    "note": "Put Pharia and Kolibri checkpoints on the Hub."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ts-rs",
+    "url": "https://github.com/Aleph-Alpha/ts-rs",
+    "note": "Generate TypeScript bindings from Rust types (1,958 stars)"
+   },
+   {
+    "name": "aleph-alpha-client",
+    "url": "https://github.com/Aleph-Alpha/aleph-alpha-client",
+    "note": "Python Client for the Aleph Alpha API (105 stars)"
+   },
+   {
+    "name": "intelligence-layer-sdk",
+    "url": "https://github.com/Aleph-Alpha/intelligence-layer-sdk",
+    "note": "a unified framework for leveraging LLMs (79 stars)"
+   },
+   {
+    "name": "Alpha-MoE",
+    "url": "https://github.com/Aleph-Alpha/Alpha-MoE",
+    "note": "Open-source repository. (77 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Aleph-Alpha/Kolibri-1",
+    "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+    "kind": "model",
+    "note": "Model with 1,013 likes on the Hub."
+   },
+   {
+    "name": "Aleph-Alpha/Pharia-1-LLM-7B-control",
+    "url": "https://huggingface.co/Aleph-Alpha/Pharia-1-LLM-7B-control",
+    "kind": "model",
+    "note": "Model with 71 likes on the Hub."
+   },
+   {
+    "name": "Aleph-Alpha/Aleph-Alpha-GermanWeb",
+    "url": "https://huggingface.co/datasets/Aleph-Alpha/Aleph-Alpha-GermanWeb",
+    "kind": "dataset",
+    "note": "Dataset with 28 likes on the Hub."
+   },
+   {
+    "name": "Aleph-Alpha/meta-eval-argilla",
+    "url": "https://huggingface.co/spaces/Aleph-Alpha/meta-eval-argilla",
+    "kind": "space",
+    "note": "Space with 0 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "T-FREE: Subword Tokenizer-Free Generative LLMs via Sparse Representations for Memory-Efficient Embeddings",
+    "url": "https://arxiv.org/abs/2406.19223",
+    "year": 2024
+   },
+   {
+    "title": "Aleph-Alpha-GermanWeb: Improving German-language LLM pre-training with model-based data curation and synthetic data generation",
+    "url": "https://arxiv.org/abs/2505.00022",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the company website."
+ },
+ {
+  "id": "dbmdz",
+  "name": "MDZ Digital Library team (Bavarian State Library)",
+  "type": "institute",
+  "founded": null,
+  "country": "Germany",
+  "city": "Munich",
+  "lat": 48.1351,
+  "lon": 11.582,
+  "website": "https://github.com/dbmdz",
+  "huggingface": "https://huggingface.co/dbmdz",
+  "github": "https://github.com/dbmdz",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Digital library team of the Bavarian State Library known for the widely used dbmdz German, Turkish and Italian BERT and ELECTRA models.",
+  "focus": [
+   "language models",
+   "digital libraries",
+   "OCR"
+  ],
+  "notable_releases": [
+   {
+    "name": "dbmdz BERT models",
+    "url": "https://github.com/dbmdz/berts",
+    "note": "DBMDZ BERT, DistilBERT, ELECTRA, GPT-2 and ConvBERT models"
+   },
+   {
+    "name": "BERTurk",
+    "url": "https://huggingface.co/dbmdz/bert-base-turkish-cased",
+    "note": "Turkish BERT model"
+   },
+   {
+    "name": "deep-eos",
+    "url": "https://github.com/dbmdz/deep-eos",
+    "note": "Sentence boundary detection networks"
+   },
+   {
+    "name": "solr-ocrhighlighting",
+    "url": "https://github.com/dbmdz/solr-ocrhighlighting",
+    "note": "OCR highlighting plugin for Solr"
+   }
+  ],
+  "openness": "All checked models and tools are public on Hugging Face and GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://github.com/dbmdz",
+   "https://huggingface.co/dbmdz",
+   "https://github.com/dbmdz"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "BERTurk and German BERTs",
+    "note": "Released popular open BERT models for Turkish, German and Italian."
+   },
+   {
+    "title": "Open library software",
+    "note": "Maintains OCR and IIIF tooling in the open."
+   },
+   {
+    "title": "Sentence boundary tools",
+    "note": "Published general-purpose neural sentence splitters."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "berts",
+    "url": "https://github.com/dbmdz/berts",
+    "note": "DBMDZ BERT, DistilBERT, ELECTRA, GPT-2 and ConvBERT models (157 stars)"
+   },
+   {
+    "name": "solr-ocrhighlighting",
+    "url": "https://github.com/dbmdz/solr-ocrhighlighting",
+    "note": "Highlighting various OCR formats directly in Solr (88 stars)"
+   },
+   {
+    "name": "deep-eos",
+    "url": "https://github.com/dbmdz/deep-eos",
+    "note": "General-Purpose Neural Networks for Sentence Boundary Detection (74 stars)"
+   },
+   {
+    "name": "mirador-textoverlay",
+    "url": "https://github.com/dbmdz/mirador-textoverlay",
+    "note": "Text Overlay plugin for Mirador 4 (63 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "dbmdz/bert-base-turkish-cased",
+    "url": "https://huggingface.co/dbmdz/bert-base-turkish-cased",
+    "kind": "model",
+    "note": "Model with 192 likes on the Hub."
+   },
+   {
+    "name": "dbmdz/bert-large-cased-finetuned-conll03-english",
+    "url": "https://huggingface.co/dbmdz/bert-large-cased-finetuned-conll03-english",
+    "kind": "model",
+    "note": "Model with 98 likes on the Hub."
+   },
+   {
+    "name": "dbmdz/detectron2-model-demo",
+    "url": "https://huggingface.co/spaces/dbmdz/detectron2-model-demo",
+    "kind": "space",
+    "note": "Space with 5 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the library team site."
+ },
+ {
+  "id": "cis-lmu",
+  "name": "CIS, LMU Munich",
+  "type": "academic",
+  "founded": null,
+  "country": "Germany",
+  "city": "Munich",
+  "lat": 48.1351,
+  "lon": 11.582,
+  "website": "https://www.cis.uni-muenchen.de",
+  "huggingface": "https://huggingface.co/cis-lmu",
+  "github": "https://github.com/cisnlp",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Centre for Information and Language Processing at LMU Munich, behind SimAlign, Glot500 and GlotLID for massively multilingual NLP.",
+  "focus": [
+   "multilingual NLP",
+   "low-resource languages",
+   "language identification"
+  ],
+  "notable_releases": [
+   {
+    "name": "GlotLID",
+    "url": "https://huggingface.co/cis-lmu/glotlid",
+    "note": "Language identification for over 2000 labels"
+   },
+   {
+    "name": "Glot500",
+    "url": "https://github.com/cisnlp/Glot500",
+    "note": "Multilingual corpora and models for 500 languages"
+   },
+   {
+    "name": "GlotCC",
+    "url": "https://huggingface.co/datasets/cis-lmu/GlotCC-V1",
+    "note": "Multilingual web corpus"
+   },
+   {
+    "name": "SimAlign",
+    "url": "https://github.com/cisnlp/simalign",
+    "note": "Word alignment with pretrained language models"
+   }
+  ],
+  "openness": "Code, models and corpora are public on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://www.cis.uni-muenchen.de",
+   "https://huggingface.co/cis-lmu",
+   "https://github.com/cisnlp",
+   "https://arxiv.org/abs/2305.12182"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "GlotLID",
+    "note": "Open language identification covering thousands of language labels (arXiv 2310.16248)."
+   },
+   {
+    "title": "Glot500",
+    "note": "Scaled corpora and language models to 500 languages (arXiv 2305.12182)."
+   },
+   {
+    "title": "SimAlign",
+    "note": "Released a widely used word alignment tool (arXiv 2004.08728)."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "simalign",
+    "url": "https://github.com/cisnlp/simalign",
+    "note": "[EMNLP 2020] Obtain Word Alignments using Pretrained Language Models (e.g., mBERT) (397 stars)"
+   },
+   {
+    "name": "GlotLID",
+    "url": "https://github.com/cisnlp/GlotLID",
+    "note": "[EMNLP 2023] 💬 Language Identification with Support for More Than 2000 Labels  (228 stars)"
+   },
+   {
+    "name": "Glot500",
+    "url": "https://github.com/cisnlp/Glot500",
+    "note": "[ACL 2023] Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages (109 stars)"
+   },
+   {
+    "name": "GlotScript",
+    "url": "https://github.com/cisnlp/GlotScript",
+    "note": "[LREC 2024] 🖋 Resource and Tool for Writing System Identification  (25 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "cis-lmu/glotlid",
+    "url": "https://huggingface.co/cis-lmu/glotlid",
+    "kind": "model",
+    "note": "Model with 109 likes on the Hub."
+   },
+   {
+    "name": "cis-lmu/glot500-base",
+    "url": "https://huggingface.co/cis-lmu/glot500-base",
+    "kind": "model",
+    "note": "Model with 20 likes on the Hub."
+   },
+   {
+    "name": "cis-lmu/GlotCC-V1",
+    "url": "https://huggingface.co/datasets/cis-lmu/GlotCC-V1",
+    "kind": "dataset",
+    "note": "Dataset with 63 likes on the Hub."
+   },
+   {
+    "name": "cis-lmu/glotlid-space",
+    "url": "https://huggingface.co/spaces/cis-lmu/glotlid-space",
+    "kind": "space",
+    "note": "Space with 30 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Glot500: Scaling Multilingual Corpora and Language Models to 500 Languages",
+    "url": "https://arxiv.org/abs/2305.12182",
+    "year": 2023
+   },
+   {
+    "title": "GlotLID: Language Identification for Low-Resource Languages",
+    "url": "https://arxiv.org/abs/2310.16248",
+    "year": 2023
+   },
+   {
+    "title": "SimAlign: High Quality Word Alignments without Parallel Training Data using Static and Contextualized Embeddings",
+    "url": "https://arxiv.org/abs/2004.08728",
+    "year": 2020
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the group website."
+ },
+ {
+  "id": "adapterhub",
+  "name": "AdapterHub",
+  "type": "academic",
+  "founded": null,
+  "country": "Germany",
+  "city": "Darmstadt",
+  "lat": 49.8728,
+  "lon": 8.6512,
+  "website": "https://adapterhub.ml",
+  "huggingface": "https://huggingface.co/AdapterHub",
+  "github": "https://github.com/adapter-hub",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Open-source community and library for parameter-efficient and modular transfer learning, started by researchers around UKP Lab in Darmstadt.",
+  "focus": [
+   "parameter-efficient fine-tuning",
+   "modular learning",
+   "NLP"
+  ],
+  "notable_releases": [
+   {
+    "name": "Adapters library",
+    "url": "https://github.com/adapter-hub/adapters",
+    "note": "Unified library for parameter-efficient and modular transfer learning"
+   },
+   {
+    "name": "AdapterHub Hub",
+    "url": "https://github.com/adapter-hub/Hub",
+    "note": "Archived central repository of pre-trained adapters"
+   },
+   {
+    "name": "Adapter checkpoints",
+    "url": "https://huggingface.co/AdapterHub/roberta-base-pf-scitail",
+    "note": "Pre-trained adapter on the Hub"
+   }
+  ],
+  "openness": "Fully open-source library and adapter checkpoints on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://adapterhub.ml",
+   "https://huggingface.co/AdapterHub",
+   "https://github.com/adapter-hub",
+   "https://arxiv.org/abs/2007.07779"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Adapters library",
+    "note": "Maintains a library with more than 2,800 GitHub stars for adapter-based fine-tuning."
+   },
+   {
+    "title": "AdapterHub framework",
+    "note": "Introduced a framework for sharing and composing adapters (arXiv 2007.07779)."
+   },
+   {
+    "title": "Hub integration",
+    "note": "Adapter weights are shared through the Hugging Face Hub."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "adapters",
+    "url": "https://github.com/adapter-hub/adapters",
+    "note": "A Unified Library for Parameter-Efficient and Modular Transfer Learning  (2,833 stars)"
+   },
+   {
+    "name": "Hub",
+    "url": "https://github.com/adapter-hub/Hub",
+    "note": "ARCHIVED. Please use https://docs.adapterhub.ml/huggingface_hub.html || 🔌 A central repository collecting pre- (69 stars)"
+   },
+   {
+    "name": "efficient-task-transfer",
+    "url": "https://github.com/adapter-hub/efficient-task-transfer",
+    "note": "Research code for \"What to Pre-Train on? Efficient Intermediate Task Selection\", EMNLP 2021 (37 stars)"
+   },
+   {
+    "name": "hgiyt",
+    "url": "https://github.com/adapter-hub/hgiyt",
+    "note": "Research code for the paper \"How Good is Your Tokenizer? On the Monolingual Performance of Multilingual Langua (27 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "AdapterHub/roberta-base-pf-scitail",
+    "url": "https://huggingface.co/AdapterHub/roberta-base-pf-scitail",
+    "kind": "model",
+    "note": "Model with 9 likes on the Hub."
+   },
+   {
+    "name": "AdapterHub/bert-base-uncased-pf-conll2000",
+    "url": "https://huggingface.co/AdapterHub/bert-base-uncased-pf-conll2000",
+    "kind": "model",
+    "note": "Model with 8 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "AdapterHub: A Framework for Adapting Transformers",
+    "url": "https://arxiv.org/abs/2007.07779",
+    "year": 2020
+   },
+   {
+    "title": "Adapters: A Unified Library for Parameter-Efficient and Modular Transfer Learning",
+    "url": "https://arxiv.org/abs/2311.11077",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the project website."
+ },
+ {
+  "id": "hplt",
+  "name": "HPLT (High Performance Language Technologies)",
+  "type": "institute",
+  "founded": null,
+  "country": "Czechia",
+  "city": "Prague",
+  "lat": 50.0755,
+  "lon": 14.4378,
+  "website": "https://hplt-project.org",
+  "huggingface": "https://huggingface.co/HPLT",
+  "github": "https://github.com/hplt-project",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "EU-funded consortium coordinated from Charles University that publishes petabyte-scale multilingual web corpora, translation models and data-cleaning tools.",
+  "focus": [
+   "multilingual datasets",
+   "machine translation",
+   "language models"
+  ],
+  "notable_releases": [
+   {
+    "name": "HPLT 3.0",
+    "url": "https://huggingface.co/datasets/HPLT/HPLT3.0",
+    "note": "Multilingual web corpus on the Hub"
+   },
+   {
+    "name": "HPLT 2.0 cleaned",
+    "url": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+    "note": "Cleaned version of the HPLT 2.0 corpus"
+   },
+   {
+    "name": "OpusCleaner",
+    "url": "https://github.com/hplt-project/OpusCleaner",
+    "note": "Web interface for cleaning translation data"
+   },
+   {
+    "name": "OpenLID",
+    "url": "https://huggingface.co/HPLT/OpenLID-v3",
+    "note": "Language identification model"
+   }
+  ],
+  "openness": "Datasets, models and tools are public (the HPLT3.0 card lists CC0).",
+  "people_public": [],
+  "sources": [
+   "https://hplt-project.org",
+   "https://huggingface.co/HPLT",
+   "https://github.com/hplt-project",
+   "https://arxiv.org/abs/2503.10267"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Open multilingual corpora",
+    "note": "Released HPLT 2.0 and 3.0 web corpora in dozens of languages."
+   },
+   {
+    "title": "Translation data tools",
+    "note": "Maintains OpusCleaner and OpusTrainer."
+   },
+   {
+    "title": "Language ID",
+    "note": "Released OpenLID language identification models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "sacremoses",
+    "url": "https://github.com/hplt-project/sacremoses",
+    "note": "Python port of Moses tokenizer, truecaser and normalizer (498 stars)"
+   },
+   {
+    "name": "OpusCleaner",
+    "url": "https://github.com/hplt-project/OpusCleaner",
+    "note": "OpusCleaner is a web interface that helps you select, clean and schedule your data for training machine transl (58 stars)"
+   },
+   {
+    "name": "OpusTrainer",
+    "url": "https://github.com/hplt-project/OpusTrainer",
+    "note": "Curriculum training (25 stars)"
+   },
+   {
+    "name": "data-analytics-tool",
+    "url": "https://github.com/hplt-project/data-analytics-tool",
+    "note": "HPLT Analytics (16 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "HPLT/OpenLID-v3",
+    "url": "https://huggingface.co/HPLT/OpenLID-v3",
+    "kind": "model",
+    "note": "Model with 5 likes on the Hub."
+   },
+   {
+    "name": "HPLT/translate-en-hr-v1.0-hplt_opus",
+    "url": "https://huggingface.co/HPLT/translate-en-hr-v1.0-hplt_opus",
+    "kind": "model",
+    "note": "Model with 4 likes on the Hub."
+   },
+   {
+    "name": "HPLT/HPLT2.0_cleaned",
+    "url": "https://huggingface.co/datasets/HPLT/HPLT2.0_cleaned",
+    "kind": "dataset",
+    "note": "Dataset with 55 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "An Expanded Massive Multilingual Dataset for High-Performance Language Technologies (HPLT)",
+    "url": "https://arxiv.org/abs/2503.10267",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the project website."
+ },
+ {
+  "id": "audeering",
+  "name": "audEERING",
+  "type": "startup",
+  "founded": null,
+  "country": "Germany",
+  "city": "Gilching",
+  "lat": 48.1086,
+  "lon": 11.3706,
+  "website": "https://www.audeering.com",
+  "huggingface": "https://huggingface.co/audeering",
+  "github": "https://github.com/audeering",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Audio AI company near Munich, maker of the open-source openSMILE toolkit and widely used speech emotion and age-gender models.",
+  "focus": [
+   "speech emotion recognition",
+   "audio analysis"
+  ],
+  "notable_releases": [
+   {
+    "name": "openSMILE",
+    "url": "https://github.com/audeering/opensmile",
+    "note": "Open-source multimedia feature extractor"
+   },
+   {
+    "name": "wav2vec2 emotion model",
+    "url": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+    "note": "Dimensional speech emotion model"
+   },
+   {
+    "name": "wav2vec2 age-gender model",
+    "url": "https://huggingface.co/audeering/wav2vec2-large-robust-24-ft-age-gender",
+    "note": "Age and gender estimation model"
+   },
+   {
+    "name": "audtorch",
+    "url": "https://github.com/audeering/audtorch",
+    "note": "Audio utilities and datasets for PyTorch"
+   }
+  ],
+  "openness": "Commercial company with a large public footprint: tools and several models are open on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://www.audeering.com",
+   "https://huggingface.co/audeering",
+   "https://github.com/audeering",
+   "https://arxiv.org/abs/2203.07378"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "openSMILE",
+    "note": "Maintains the long-standing open-source feature extraction toolkit."
+   },
+   {
+    "title": "Open emotion models",
+    "note": "Released wav2vec2-based emotion and age-gender models with very high download counts."
+   },
+   {
+    "title": "Research code",
+    "note": "Published how-to and tooling repositories for audio ML."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "opensmile",
+    "url": "https://github.com/audeering/opensmile",
+    "note": "The Munich Open-Source Large-Scale Multimedia Feature Extractor (859 stars)"
+   },
+   {
+    "name": "w2v2-how-to",
+    "url": "https://github.com/audeering/w2v2-how-to",
+    "note": "How to use our public wav2vec2 dimensional emotion model (564 stars)"
+   },
+   {
+    "name": "opensmile-python",
+    "url": "https://github.com/audeering/opensmile-python",
+    "note": "Python package for openSMILE (337 stars)"
+   },
+   {
+    "name": "audtorch",
+    "url": "https://github.com/audeering/audtorch",
+    "note": "Utils and data sets for audio and PyTorch (87 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+    "url": "https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+    "kind": "model",
+    "note": "Model with 177 likes on the Hub."
+   },
+   {
+    "name": "audeering/wav2vec2-large-robust-24-ft-age-gender",
+    "url": "https://huggingface.co/audeering/wav2vec2-large-robust-24-ft-age-gender",
+    "kind": "model",
+    "note": "Model with 88 likes on the Hub."
+   },
+   {
+    "name": "audeering/speech-analysis",
+    "url": "https://huggingface.co/spaces/audeering/speech-analysis",
+    "kind": "space",
+    "note": "Space with 4 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Dawn of the transformer era in speech emotion recognition: closing the valence gap",
+    "url": "https://arxiv.org/abs/2203.07378",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the company website."
+ },
+ {
+  "id": "but-fit",
+  "name": "BUT Speech@FIT",
+  "type": "academic",
+  "founded": null,
+  "country": "Czechia",
+  "city": "Brno",
+  "lat": 49.1951,
+  "lon": 16.6068,
+  "website": "https://speech.fit.vut.cz",
+  "huggingface": "https://huggingface.co/BUT-FIT",
+  "github": "https://github.com/BUTSpeechFIT",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "speech-web@fit.vut.cz",
+  "summary": "Speech and language research group at Brno University of Technology, open-sourcing speaker diarization toolkits and Czech language models.",
+  "focus": [
+   "speech processing",
+   "speaker diarization",
+   "Czech LLMs"
+  ],
+  "notable_releases": [
+   {
+    "name": "DiariZen",
+    "url": "https://github.com/BUTSpeechFIT/DiariZen",
+    "note": "Speaker diarization toolkit"
+   },
+   {
+    "name": "VBx",
+    "url": "https://github.com/BUTSpeechFIT/VBx",
+    "note": "Variational Bayes x-vector diarization"
+   },
+   {
+    "name": "csmpt7b",
+    "url": "https://huggingface.co/BUT-FIT/csmpt7b",
+    "note": "Czech 7B language model (Apache-2.0)"
+   },
+   {
+    "name": "TS-ASR-Whisper",
+    "url": "https://github.com/BUTSpeechFIT/TS-ASR-Whisper",
+    "note": "Target-speaker ASR with Whisper"
+   }
+  ],
+  "openness": "Toolkits and models are public on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://speech.fit.vut.cz",
+   "https://huggingface.co/BUT-FIT",
+   "https://github.com/BUTSpeechFIT",
+   "https://arxiv.org/abs/2409.09408"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "DiariZen",
+    "note": "Released a diarization toolkit with pre-trained WavLM-based models."
+   },
+   {
+    "title": "VBx diarization",
+    "note": "Open implementation of a widely used diarization recipe."
+   },
+   {
+    "title": "Czech LLM",
+    "note": "Published csmpt7b, a Czech-focused 7B model."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "DiariZen",
+    "url": "https://github.com/BUTSpeechFIT/DiariZen",
+    "note": "A toolkit for speaker diarization.  (569 stars)"
+   },
+   {
+    "name": "VBx",
+    "url": "https://github.com/BUTSpeechFIT/VBx",
+    "note": "Variational Bayes HMM over x-vectors diarization (291 stars)"
+   },
+   {
+    "name": "speakerbeam",
+    "url": "https://github.com/BUTSpeechFIT/speakerbeam",
+    "note": "Open-source repository. (158 stars)"
+   },
+   {
+    "name": "TS-ASR-Whisper",
+    "url": "https://github.com/BUTSpeechFIT/TS-ASR-Whisper",
+    "note": "Open-source repository. (128 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "BUT-FIT/diarizen-wavlm-large-s80-md",
+    "url": "https://huggingface.co/BUT-FIT/diarizen-wavlm-large-s80-md",
+    "kind": "model",
+    "note": "Model with 56 likes on the Hub."
+   },
+   {
+    "name": "BUT-FIT/diarizen-wavlm-large-s80-md-v2",
+    "url": "https://huggingface.co/BUT-FIT/diarizen-wavlm-large-s80-md-v2",
+    "kind": "model",
+    "note": "Model with 28 likes on the Hub."
+   },
+   {
+    "name": "BUT-FIT/BUT-LCC",
+    "url": "https://huggingface.co/datasets/BUT-FIT/BUT-LCC",
+    "kind": "dataset",
+    "note": "Dataset with 9 likes on the Hub."
+   },
+   {
+    "name": "BUT-FIT/EMMA_leaderboard",
+    "url": "https://huggingface.co/spaces/BUT-FIT/EMMA_leaderboard",
+    "kind": "space",
+    "note": "Space with 14 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Leveraging Self-Supervised Learning for Speaker Diarization",
+    "url": "https://arxiv.org/abs/2409.09408",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the group website."
+ },
+ {
+  "id": "alexandra-institute",
+  "name": "Alexandra Institute",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "Denmark",
+  "city": "Aarhus",
+  "lat": 56.1629,
+  "lon": 10.2039,
+  "website": "https://alexandra.dk",
+  "huggingface": "https://huggingface.co/alexandrainst",
+  "github": "https://github.com/alexandrainst",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Danish non-profit research and technology institute with open Danish NLP resources including DaNLP and the ScandEval benchmark.",
+  "focus": [
+   "Danish NLP",
+   "evaluation",
+   "responsible AI"
+  ],
+  "notable_releases": [
+   {
+    "name": "DaNLP",
+    "url": "https://github.com/alexandrainst/danlp",
+    "note": "Resources for Danish NLP"
+   },
+   {
+    "name": "scandi-nli",
+    "url": "https://huggingface.co/alexandrainst/scandi-nli-large",
+    "note": "Scandinavian NLI model"
+   },
+   {
+    "name": "multi-wiki-qa",
+    "url": "https://huggingface.co/datasets/alexandrainst/multi-wiki-qa",
+    "note": "Multilingual QA dataset"
+   },
+   {
+    "name": "responsible-ai",
+    "url": "https://github.com/alexandrainst/responsible-ai",
+    "note": "Responsible AI knowledge base"
+   }
+  ],
+  "openness": "Models, datasets and tools are public under the alexandrainst accounts on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://alexandra.dk",
+   "https://huggingface.co/alexandrainst",
+   "https://github.com/alexandrainst",
+   "https://arxiv.org/abs/2304.00906"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "DaNLP",
+    "note": "Maintains open Danish NLP datasets and models."
+   },
+   {
+    "title": "ScandEval",
+    "note": "Authored the Scandinavian benchmark later widened to European languages (arXiv 2304.00906)."
+   },
+   {
+    "title": "Open datasets",
+    "note": "Published QA, speech and NLI datasets on the Hub."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "danlp",
+    "url": "https://github.com/alexandrainst/danlp",
+    "note": "DaNLP is a repository for Natural Language Processing resources for the Danish Language. (209 stars)"
+   },
+   {
+    "name": "responsible-ai",
+    "url": "https://github.com/alexandrainst/responsible-ai",
+    "note": "Responsible AI knowledge base (119 stars)"
+   },
+   {
+    "name": "processing_websockets",
+    "url": "https://github.com/alexandrainst/processing_websockets",
+    "note": "A web socket library, including both server and client, for Processing (95 stars)"
+   },
+   {
+    "name": "alexandra-trackmap-panel",
+    "url": "https://github.com/alexandrainst/alexandra-trackmap-panel",
+    "note": "Grafana map plugin to visualise coordinates as markers, hexbin, ant path, or heatmap. (79 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "alexandrainst/scandi-nli-large",
+    "url": "https://huggingface.co/alexandrainst/scandi-nli-large",
+    "kind": "model",
+    "note": "Model with 11 likes on the Hub."
+   },
+   {
+    "name": "alexandrainst/da-sentiment-base",
+    "url": "https://huggingface.co/alexandrainst/da-sentiment-base",
+    "kind": "model",
+    "note": "Model with 4 likes on the Hub."
+   },
+   {
+    "name": "alexandrainst/multi-wiki-qa",
+    "url": "https://huggingface.co/datasets/alexandrainst/multi-wiki-qa",
+    "kind": "dataset",
+    "note": "Dataset with 25 likes on the Hub."
+   },
+   {
+    "name": "alexandrainst/radial-plot-generator",
+    "url": "https://huggingface.co/spaces/alexandrainst/radial-plot-generator",
+    "kind": "space",
+    "note": "Space with 7 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "ScandEval: A Benchmark for Scandinavian Natural Language Processing",
+    "url": "https://arxiv.org/abs/2304.00906",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the institute website."
+ },
+ {
+  "id": "chcaa",
+  "name": "Center for Humanities Computing (Aarhus)",
+  "type": "academic",
+  "founded": null,
+  "country": "Denmark",
+  "city": "Aarhus",
+  "lat": 56.1629,
+  "lon": 10.2039,
+  "website": "https://chc.au.dk",
+  "huggingface": "https://huggingface.co/chcaa",
+  "github": "https://github.com/centre-for-humanities-computing",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Aarhus University centre applying NLP to the humanities, authors of DaCy and the Scandinavian Embedding Benchmarks.",
+  "focus": [
+   "Danish NLP",
+   "embeddings",
+   "digital humanities"
+  ],
+  "notable_releases": [
+   {
+    "name": "DaCy",
+    "url": "https://github.com/centre-for-humanities-computing/DaCy",
+    "note": "State-of-the-art Danish NLP pipeline for spaCy"
+   },
+   {
+    "name": "odyCy",
+    "url": "https://github.com/centre-for-humanities-computing/odyCy",
+    "note": "NLP pipeline for Ancient Greek"
+   },
+   {
+    "name": "tweetopic",
+    "url": "https://github.com/centre-for-humanities-computing/tweetopic",
+    "note": "Topic modelling for short texts"
+   },
+   {
+    "name": "dansk-ner",
+    "url": "https://huggingface.co/datasets/chcaa/dansk-ner",
+    "note": "Danish NER dataset"
+   }
+  ],
+  "openness": "Code, models and corpora are public on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://chc.au.dk",
+   "https://huggingface.co/chcaa",
+   "https://github.com/centre-for-humanities-computing",
+   "https://arxiv.org/abs/2107.05295"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "DaCy",
+    "note": "Built an open Danish NLP pipeline (arXiv 2107.05295)."
+   },
+   {
+    "title": "Scandinavian Embedding Benchmarks",
+    "note": "Co-created an open embedding benchmark (arXiv 2406.02396)."
+   },
+   {
+    "title": "Ancient Greek models",
+    "note": "Released odyCy."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "DaCy",
+    "url": "https://github.com/centre-for-humanities-computing/DaCy",
+    "note": "DaCy: The State of the Art Danish NLP pipeline using SpaCy  (105 stars)"
+   },
+   {
+    "name": "tweetopic",
+    "url": "https://github.com/centre-for-humanities-computing/tweetopic",
+    "note": "Blazing fast topic modelling for short texts. (37 stars)"
+   },
+   {
+    "name": "odyCy",
+    "url": "https://github.com/centre-for-humanities-computing/odyCy",
+    "note": "A general-purpose NLP pipeline for Ancient Greek (29 stars)"
+   },
+   {
+    "name": "conspiracies",
+    "url": "https://github.com/centre-for-humanities-computing/conspiracies",
+    "note": "A python package for discovering and examining conspiracies using NLP. (10 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "chcaa/da_dacy_medium_trf",
+    "url": "https://huggingface.co/chcaa/da_dacy_medium_trf",
+    "kind": "model",
+    "note": "Model with 6 likes on the Hub."
+   },
+   {
+    "name": "chcaa/da_dacy_large_trf",
+    "url": "https://huggingface.co/chcaa/da_dacy_large_trf",
+    "kind": "model",
+    "note": "Model with 5 likes on the Hub."
+   },
+   {
+    "name": "chcaa/kb-books",
+    "url": "https://huggingface.co/datasets/chcaa/kb-books",
+    "kind": "dataset",
+    "note": "Dataset with 5 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "DaCy: A Unified Framework for Danish NLP",
+    "url": "https://arxiv.org/abs/2107.05295",
+    "year": 2021
+   },
+   {
+    "title": "The Scandinavian Embedding Benchmarks: Comprehensive Assessment of Multilingual and Monolingual Text Embedding",
+    "url": "https://arxiv.org/abs/2406.02396",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the centre website."
+ },
+ {
+  "id": "lvl-reykjavik",
+  "name": "Language and Voice Lab (Reykjavik University)",
+  "type": "academic",
+  "founded": null,
+  "country": "Iceland",
+  "city": "Reykjavik",
+  "lat": 64.1466,
+  "lon": -21.9426,
+  "website": "https://lvl.ru.is",
+  "huggingface": "https://huggingface.co/language-and-voice-lab",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Reykjavik University lab building open Icelandic speech recognition and synthesis models and large speech corpora.",
+  "focus": [
+   "Icelandic",
+   "speech recognition",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "Whisper Icelandic",
+    "url": "https://huggingface.co/language-and-voice-lab/whisper-large-icelandic-62640-steps-967h",
+    "note": "Fine-tuned Whisper for Icelandic"
+   },
+   {
+    "name": "wav2vec2 Icelandic",
+    "url": "https://huggingface.co/language-and-voice-lab/wav2vec2-large-xlsr-53-icelandic-ep30-967h",
+    "note": "Icelandic ASR model"
+   },
+   {
+    "name": "Samromur children",
+    "url": "https://huggingface.co/datasets/language-and-voice-lab/samromur_children",
+    "note": "Crowdsourced Icelandic speech"
+   },
+   {
+    "name": "Samromur Milljon",
+    "url": "https://huggingface.co/datasets/language-and-voice-lab/samromur_milljon",
+    "note": "Icelandic speech corpus"
+   }
+  ],
+  "openness": "Models and datasets are public on Hugging Face under the lab organisation.",
+  "people_public": [],
+  "sources": [
+   "https://lvl.ru.is",
+   "https://huggingface.co/language-and-voice-lab"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Samromur corpora",
+    "note": "Published large open Icelandic speech datasets."
+   },
+   {
+    "title": "Icelandic ASR",
+    "note": "Released fine-tuned wav2vec2 and Whisper models."
+   },
+   {
+    "title": "Radd-romur",
+    "note": "Published the raddromur_asr dataset."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "language-and-voice-lab/whisper-large-icelandic-62640-steps-967h",
+    "url": "https://huggingface.co/language-and-voice-lab/whisper-large-icelandic-62640-steps-967h",
+    "kind": "model",
+    "note": "Model with 5 likes on the Hub."
+   },
+   {
+    "name": "language-and-voice-lab/wav2vec2-large-xlsr-53-icelandic-ep30-967h",
+    "url": "https://huggingface.co/language-and-voice-lab/wav2vec2-large-xlsr-53-icelandic-ep30-967h",
+    "kind": "model",
+    "note": "Model with 3 likes on the Hub."
+   },
+   {
+    "name": "language-and-voice-lab/samromur_children",
+    "url": "https://huggingface.co/datasets/language-and-voice-lab/samromur_children",
+    "kind": "dataset",
+    "note": "Dataset with 9 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the lab website."
+ },
+ {
+  "id": "lumii-ailab",
+  "name": "AiLab (University of Latvia IMCS)",
+  "type": "academic",
+  "founded": null,
+  "country": "Latvia",
+  "city": "Riga",
+  "lat": 56.9496,
+  "lon": 24.1052,
+  "website": "https://ailab.lv",
+  "huggingface": null,
+  "github": "https://github.com/LUMII-AILab",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "info@ailab.lv",
+  "summary": "Artificial Intelligence Laboratory at the Institute of Mathematics and Computer Science, University of Latvia, building Latvian language resources.",
+  "focus": [
+   "Latvian NLP",
+   "lexicons",
+   "language models"
+  ],
+  "notable_releases": [
+   {
+    "name": "Tezaurs",
+    "url": "https://github.com/LUMII-AILab/Tezaurs",
+    "note": "Largest open lexical database of Latvian"
+   },
+   {
+    "name": "FullStack",
+    "url": "https://github.com/LUMII-AILab/FullStack",
+    "note": "Full stack of Latvian language resources"
+   },
+   {
+    "name": "LVBERT",
+    "url": "https://github.com/LUMII-AILab/LVBERT",
+    "note": "Latvian BERT model"
+   }
+  ],
+  "openness": "Language resources and models are public on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://ailab.lv",
+   "https://github.com/LUMII-AILab"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Tezaurs",
+    "note": "Maintains an open Latvian lexical database."
+   },
+   {
+    "title": "LVBERT",
+    "note": "Released a pretrained Latvian transformer model."
+   },
+   {
+    "title": "Latvian NLP stack",
+    "note": "Published a full stack of Latvian resources."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Tezaurs",
+    "url": "https://github.com/LUMII-AILab/Tezaurs",
+    "note": "The largest open lexical database of Latvian (65 stars)"
+   },
+   {
+    "name": "FullStack",
+    "url": "https://github.com/LUMII-AILab/FullStack",
+    "note": "Full Stack of Latvian Language Resources for Natural Language Understanding (NLU) and Generation (NLG) (16 stars)"
+   },
+   {
+    "name": "LVBERT",
+    "url": "https://github.com/LUMII-AILab/LVBERT",
+    "note": "Pretrained contextualized transformer-based state-of-the-art language model for Latvian (14 stars)"
+   },
+   {
+    "name": "NLP_Course",
+    "url": "https://github.com/LUMII-AILab/NLP_Course",
+    "note": "Studiju kursu \"Valodu tehnoloģiju pamati\" un \"Valodu tehnoloģiju lietojumi\" praktisko darbu materiāli (10 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via the address printed on the lab website."
+ },
+ {
+  "id": "taltech-nlp",
+  "name": "TalTech Language Technology (TalTechNLP)",
+  "type": "academic",
+  "founded": null,
+  "country": "Estonia",
+  "city": "Tallinn",
+  "lat": 59.437,
+  "lon": 24.7536,
+  "website": "https://taltech.ee",
+  "huggingface": "https://huggingface.co/TalTechNLP",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Tallinn University of Technology language technology group publishing Estonian speech and language models on Hugging Face.",
+  "focus": [
+   "Estonian",
+   "speech recognition",
+   "language identification"
+  ],
+  "notable_releases": [
+   {
+    "name": "VoxLingua107 ECAPA",
+    "url": "https://huggingface.co/TalTechNLP/voxlingua107-epaca-tdnn",
+    "note": "Spoken language identification model"
+   },
+   {
+    "name": "Whisper Estonian",
+    "url": "https://huggingface.co/TalTechNLP/whisper-large-et",
+    "note": "Estonian Whisper model"
+   },
+   {
+    "name": "voxlingua107_wds",
+    "url": "https://huggingface.co/datasets/TalTechNLP/voxlingua107_wds",
+    "note": "Language identification dataset"
+   }
+  ],
+  "openness": "Models and datasets are public on the TalTechNLP Hugging Face organisation.",
+  "people_public": [],
+  "sources": [
+   "https://taltech.ee",
+   "https://huggingface.co/TalTechNLP"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Estonian ASR",
+    "note": "Released Whisper models fine-tuned for Estonian."
+   },
+   {
+    "title": "Language ID",
+    "note": "Published VoxLingua107 language identification models."
+   },
+   {
+    "title": "Datasets",
+    "note": "Released Estonian summarization and inflection datasets."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "TalTechNLP/voxlingua107-epaca-tdnn",
+    "url": "https://huggingface.co/TalTechNLP/voxlingua107-epaca-tdnn",
+    "kind": "model",
+    "note": "Model with 33 likes on the Hub."
+   },
+   {
+    "name": "TalTechNLP/whisper-large-et",
+    "url": "https://huggingface.co/TalTechNLP/whisper-large-et",
+    "kind": "model",
+    "note": "Model with 8 likes on the Hub."
+   },
+   {
+    "name": "TalTechNLP/voxlingua107_wds",
+    "url": "https://huggingface.co/datasets/TalTechNLP/voxlingua107_wds",
+    "kind": "dataset",
+    "note": "Dataset with 5 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the university website."
+ },
+ {
+  "id": "nytk",
+  "name": "Hungarian Research Centre for Linguistics (NYTK, PULI)",
+  "type": "institute",
+  "founded": null,
+  "country": "Hungary",
+  "city": "Budapest",
+  "lat": 47.4979,
+  "lon": 19.0402,
+  "website": "https://nlp.nytud.hu",
+  "huggingface": "https://huggingface.co/NYTK",
+  "github": "https://github.com/nytud",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Language technology research group that publishes the PULI family of Hungarian language models along with corpora and the e-magyar text processing system.",
+  "focus": [
+   "Hungarian NLP",
+   "language models",
+   "corpora"
+  ],
+  "notable_releases": [
+   {
+    "name": "PULI-GPT-3SX",
+    "url": "https://huggingface.co/NYTK/PULI-GPT-3SX",
+    "note": "Hungarian GPT model"
+   },
+   {
+    "name": "PULI-LlumiX-32K",
+    "url": "https://huggingface.co/NYTK/PULI-LlumiX-32K",
+    "note": "Hungarian-English long-context model"
+   },
+   {
+    "name": "emtsv",
+    "url": "https://github.com/nytud/emtsv",
+    "note": "e-magyar text processing system"
+   },
+   {
+    "name": "NerKor",
+    "url": "https://github.com/nytud/NYTK-NerKor",
+    "note": "Hungarian NER corpus"
+   }
+  ],
+  "openness": "Models and datasets are public on Hugging Face and GitHub; some model cards use Llama-based licences.",
+  "people_public": [],
+  "sources": [
+   "https://nlp.nytud.hu",
+   "https://huggingface.co/NYTK",
+   "https://github.com/nytud"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "PULI models",
+    "note": "Published open Hungarian generative models."
+   },
+   {
+    "title": "e-magyar toolchain",
+    "note": "Maintains an open Hungarian text processing pipeline."
+   },
+   {
+    "title": "Benchmarks",
+    "note": "Released Hungarian benchmarks such as HuCOLA and HuWNLI."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "emtsv",
+    "url": "https://github.com/nytud/emtsv",
+    "note": "e-magyar text processing system -- inter-module communication via tsv + REST API (33 stars)"
+   },
+   {
+    "name": "hadifogoly-adatbazis",
+    "url": "https://github.com/nytud/hadifogoly-adatbazis",
+    "note": "A magyar hadifoglyok adatbázisának orosz-magyar transzkripciója (23 stars)"
+   },
+   {
+    "name": "emMorph",
+    "url": "https://github.com/nytud/emMorph",
+    "note": "Open-source repository. (18 stars)"
+   },
+   {
+    "name": "NYTK-NerKor",
+    "url": "https://github.com/nytud/NYTK-NerKor",
+    "note": "The home repository of the NerKor corpus, a Hungarian gold standard named entity annotated corpus containing 1 (16 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "NYTK/named-entity-recognition-nerkor-hubert-hungarian",
+    "url": "https://huggingface.co/NYTK/named-entity-recognition-nerkor-hubert-hungarian",
+    "kind": "model",
+    "note": "Model with 16 likes on the Hub."
+   },
+   {
+    "name": "NYTK/PULI-GPT-3SX",
+    "url": "https://huggingface.co/NYTK/PULI-GPT-3SX",
+    "kind": "model",
+    "note": "Model with 13 likes on the Hub."
+   },
+   {
+    "name": "NYTK/alpaca_hu_2k",
+    "url": "https://huggingface.co/datasets/NYTK/alpaca_hu_2k",
+    "kind": "dataset",
+    "note": "Dataset with 6 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the research group website."
+ },
+ {
+  "id": "takelab",
+  "name": "TakeLab (University of Zagreb)",
+  "type": "academic",
+  "founded": null,
+  "country": "Croatia",
+  "city": "Zagreb",
+  "lat": 45.815,
+  "lon": 15.9819,
+  "website": "http://takelab.fer.hr",
+  "huggingface": null,
+  "github": "https://github.com/takelab",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Text analysis and knowledge engineering lab at the Faculty of Electrical Engineering and Computing, University of Zagreb.",
+  "focus": [
+   "NLP",
+   "Croatian",
+   "data loading"
+  ],
+  "notable_releases": [
+   {
+    "name": "spacy-udpipe",
+    "url": "https://github.com/takelab/spacy-udpipe",
+    "note": "spaCy and UDPipe integration"
+   },
+   {
+    "name": "Podium",
+    "url": "https://github.com/takelab/podium",
+    "note": "Framework-agnostic NLP data loading library"
+   },
+   {
+    "name": "Coral",
+    "url": "https://github.com/takelab/Coral",
+    "note": "Corpus aligner"
+   }
+  ],
+  "openness": "Several libraries and tools are open on GitHub.",
+  "people_public": [],
+  "sources": [
+   "http://takelab.fer.hr",
+   "https://github.com/takelab"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "spacy-udpipe",
+    "note": "Maintains a spaCy wrapper for many languages with 160+ stars."
+   },
+   {
+    "title": "Podium",
+    "note": "Released a data preprocessing library for NLP."
+   },
+   {
+    "title": "Corpus tools",
+    "note": "Published alignment and annotation tools."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "spacy-udpipe",
+    "url": "https://github.com/TakeLab/spacy-udpipe",
+    "note": "spaCy + UDPipe (167 stars)"
+   },
+   {
+    "name": "podium",
+    "url": "https://github.com/TakeLab/podium",
+    "note": "Podium: a framework agnostic Python NLP library for data loading and preprocessing (60 stars)"
+   },
+   {
+    "name": "repetition-sl",
+    "url": "https://github.com/TakeLab/repetition-sl",
+    "note": "Open-source repository. (5 stars)"
+   },
+   {
+    "name": "Coral",
+    "url": "https://github.com/TakeLab/Coral",
+    "note": "Coral - Corpus aligner (2 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the faculty website."
+ },
+ {
+  "id": "jerteh",
+  "name": "JeRTeh (Society for Language Resources and Technologies)",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "Serbia",
+  "city": "Belgrade",
+  "lat": 44.7866,
+  "lon": 20.4489,
+  "website": "https://jerteh.rs",
+  "huggingface": "https://huggingface.co/jerteh",
+  "github": "https://github.com/jerteh",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Serbian society for language resources and technologies that releases Serbian GPT-2 and BERT-style models and corpora.",
+  "focus": [
+   "Serbian NLP",
+   "language models",
+   "corpora"
+  ],
+  "notable_releases": [
+   {
+    "name": "gpt2-orao",
+    "url": "https://huggingface.co/jerteh/gpt2-orao",
+    "note": "Serbian GPT-2 model"
+   },
+   {
+    "name": "Jerteh-355",
+    "url": "https://huggingface.co/jerteh/Jerteh-355",
+    "note": "Serbian language model"
+   },
+   {
+    "name": "SrpELTeC",
+    "url": "https://huggingface.co/datasets/jerteh/SrpELTeC",
+    "note": "Serbian literary corpus"
+   },
+   {
+    "name": "SrpKorNews",
+    "url": "https://huggingface.co/datasets/jerteh/SrpKorNews",
+    "note": "Serbian news corpus"
+   }
+  ],
+  "openness": "Models and datasets are public on Hugging Face and GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://jerteh.rs",
+   "https://huggingface.co/jerteh",
+   "https://github.com/jerteh"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Serbian LMs",
+    "note": "Released Serbian generative and encoder models."
+   },
+   {
+    "title": "Serbian corpora",
+    "note": "Published literary and news corpora."
+   },
+   {
+    "title": "Heritage tools",
+    "note": "Contributes tools for cultural heritage text processing."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "BEaSTagger",
+    "url": "https://github.com/jerteh/BEaSTagger",
+    "note": "Bidirectional, Expandable and Stacked Tagger --- BEaST. This package provides POS-tagging using a system compo (2 stars)"
+   },
+   {
+    "name": "It-Sr-NER",
+    "url": "https://github.com/jerteh/It-Sr-NER",
+    "note": "It-Sr-NER: CLARIN compatible NER and geoparsing web services  for Italian and Serbian parallel text (2 stars)"
+   },
+   {
+    "name": "NovaIskra",
+    "url": "https://github.com/jerteh/NovaIskra",
+    "note": "UNILIB & JeRTeh :: projekat u oblasti kulturnog nasleđa i bibliotečko-informacione delatnosti  (0 stars)"
+   },
+   {
+    "name": "srpELTeC-ijk",
+    "url": "https://github.com/jerteh/srpELTeC-ijk",
+    "note": "Serbian ELTeC ijekavijen collection (0 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "jerteh/gpt2-orao",
+    "url": "https://huggingface.co/jerteh/gpt2-orao",
+    "kind": "model",
+    "note": "Model with 13 likes on the Hub."
+   },
+   {
+    "name": "jerteh/Jerteh-355",
+    "url": "https://huggingface.co/jerteh/Jerteh-355",
+    "kind": "model",
+    "note": "Model with 5 likes on the Hub."
+   },
+   {
+    "name": "jerteh/SrpELTeC",
+    "url": "https://huggingface.co/datasets/jerteh/SrpELTeC",
+    "kind": "dataset",
+    "note": "Dataset with 3 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the society website."
+ },
+ {
+  "id": "classla",
+  "name": "CLASSLA (CLARIN Knowledge Centre for South Slavic languages)",
+  "type": "institute",
+  "founded": null,
+  "country": "Slovenia",
+  "city": "Ljubljana",
+  "lat": 46.0569,
+  "lon": 14.5058,
+  "website": "https://www.clarin.si/info/k-centre/",
+  "huggingface": "https://huggingface.co/classla",
+  "github": "https://github.com/clarinsi",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "helpdesk.classla@clarin.si",
+  "summary": "CLARIN knowledge centre providing open tools, models and corpora for Slovenian, Croatian, Serbian, Bosnian and Montenegrin.",
+  "focus": [
+   "South Slavic NLP",
+   "language models",
+   "corpora"
+  ],
+  "notable_releases": [
+   {
+    "name": "BERTic",
+    "url": "https://huggingface.co/classla/bcms-bertic",
+    "note": "Transformer for Bosnian, Croatian, Montenegrin and Serbian"
+   },
+   {
+    "name": "IPTC news topic classifier",
+    "url": "https://huggingface.co/classla/multilingual-IPTC-news-topic-classifier",
+    "note": "Multilingual news classifier"
+   },
+   {
+    "name": "ParlaSpeech",
+    "url": "https://huggingface.co/datasets/classla/ParlaSpeech-HR",
+    "note": "Parliamentary speech dataset"
+   },
+   {
+    "name": "classla",
+    "url": "https://github.com/clarinsi/classla",
+    "note": "Stanza fork for South Slavic languages"
+   }
+  ],
+  "openness": "Tools, models and datasets are public on Hugging Face and GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://www.clarin.si/info/k-centre/",
+   "https://huggingface.co/classla",
+   "https://github.com/clarinsi",
+   "https://arxiv.org/abs/2104.09243"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "BERTic",
+    "note": "Released a language model for BCMS languages (arXiv 2104.09243)."
+   },
+   {
+    "title": "Parliament data",
+    "note": "Published ParlaSpeech and ParlaSent resources."
+   },
+   {
+    "title": "CLASSLA pipeline",
+    "note": "Maintains annotation tools for South Slavic languages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "reldi-tagger",
+    "url": "https://github.com/clarinsi/reldi-tagger",
+    "note": "A tagger and lemmatiser for Croatian, Serbian and Slovene. (35 stars)"
+   },
+   {
+    "name": "geobert",
+    "url": "https://github.com/clarinsi/geobert",
+    "note": "Open-source repository. (20 stars)"
+   },
+   {
+    "name": "Slovene_ASR_e2e",
+    "url": "https://github.com/clarinsi/Slovene_ASR_e2e",
+    "note": "Automatic Speech Recognition tool (20 stars)"
+   },
+   {
+    "name": "csmtiser",
+    "url": "https://github.com/clarinsi/csmtiser",
+    "note": "A tool for text normalisation via character-level machine translation (13 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "classla/xlm-roberta-base-multilingual-text-genre-classifier",
+    "url": "https://huggingface.co/classla/xlm-roberta-base-multilingual-text-genre-classifier",
+    "kind": "model",
+    "note": "Model with 31 likes on the Hub."
+   },
+   {
+    "name": "classla/multilingual-IPTC-news-topic-classifier",
+    "url": "https://huggingface.co/classla/multilingual-IPTC-news-topic-classifier",
+    "kind": "model",
+    "note": "Model with 22 likes on the Hub."
+   },
+   {
+    "name": "classla/ParlaSent",
+    "url": "https://huggingface.co/datasets/classla/ParlaSent",
+    "kind": "dataset",
+    "note": "Dataset with 7 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "BERTić -- The Transformer Language Model for Bosnian, Croatian, Montenegrin and Serbian",
+    "url": "https://arxiv.org/abs/2104.09243",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the helpdesk address printed on the site."
+ },
+ {
+  "id": "proxecto-nos",
+  "name": "Proxecto Nos (University of Santiago de Compostela)",
+  "type": "academic",
+  "founded": null,
+  "country": "Spain",
+  "city": "Santiago de Compostela",
+  "lat": 42.8782,
+  "lon": -8.5448,
+  "website": "https://nos.gal",
+  "huggingface": "https://huggingface.co/proxectonos",
+  "github": "https://github.com/proxectonos",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Galician language technology project at Universidade de Santiago de Compostela releasing open Galician language models, corpora and speech tools.",
+  "focus": [
+   "Galician",
+   "language models",
+   "speech"
+  ],
+  "notable_releases": [
+   {
+    "name": "Carballo-bloom-1.3B",
+    "url": "https://huggingface.co/proxectonos/Carballo-bloom-1.3B",
+    "note": "Galician language model"
+   },
+   {
+    "name": "Llama-3.1-Carballo",
+    "url": "https://huggingface.co/proxectonos/Llama-3.1-Carballo",
+    "note": "Galician-adapted Llama"
+   },
+   {
+    "name": "Nos TTS",
+    "url": "https://huggingface.co/proxectonos/Nos_TTS-celtia-vits-graphemes",
+    "note": "Galician text to speech"
+   },
+   {
+    "name": "language-models repository",
+    "url": "https://github.com/proxectonos/language-models",
+    "note": "Galician language models"
+   }
+  ],
+  "openness": "Models, speech tools and corpora are public on Hugging Face and GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://nos.gal",
+   "https://huggingface.co/proxectonos",
+   "https://github.com/proxectonos"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Carballo models",
+    "note": "Open Galician generative models."
+   },
+   {
+    "title": "Galician speech",
+    "note": "Released TTS and ASR models for Galician."
+   },
+   {
+    "title": "Corpora",
+    "note": "Published Galician text and speech corpora."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "language-models",
+    "url": "https://github.com/proxectonos/language-models",
+    "note": "Modelos de lingua para o galego / Language models for Galician (7 stars)"
+   },
+   {
+    "name": "corpora",
+    "url": "https://github.com/proxectonos/corpora",
+    "note": "Corpus de texto ou voz en galego (monolingües e multilingües) para diferentes tarefas PLN/ Monolingual and mul (6 stars)"
+   },
+   {
+    "name": "pipeline",
+    "url": "https://github.com/proxectonos/pipeline",
+    "note": "Open-source repository. (3 stars)"
+   },
+   {
+    "name": "demos",
+    "url": "https://github.com/proxectonos/demos",
+    "note": "Nesta sección pode acceder ás diferentes demonstracións do proxecto Nós.  (2 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "proxectonos/Carballo-bloom-1.3B",
+    "url": "https://huggingface.co/proxectonos/Carballo-bloom-1.3B",
+    "kind": "model",
+    "note": "Model with 7 likes on the Hub."
+   },
+   {
+    "name": "proxectonos/Llama-3.1-Carballo",
+    "url": "https://huggingface.co/proxectonos/Llama-3.1-Carballo",
+    "kind": "model",
+    "note": "Model with 6 likes on the Hub."
+   },
+   {
+    "name": "proxectonos/Nos_Parlaspeech-GL",
+    "url": "https://huggingface.co/datasets/proxectonos/Nos_Parlaspeech-GL",
+    "kind": "dataset",
+    "note": "Dataset with 2 likes on the Hub."
+   },
+   {
+    "name": "proxectonos/Nos_LLM_galician",
+    "url": "https://huggingface.co/spaces/proxectonos/Nos_LLM_galician",
+    "kind": "space",
+    "note": "Space with 1 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the project website."
+ },
+ {
+  "id": "nlx-ulisboa",
+  "name": "NLX Group (University of Lisbon, PORTULAN)",
+  "type": "academic",
+  "founded": null,
+  "country": "Portugal",
+  "city": "Lisbon",
+  "lat": 38.7223,
+  "lon": -9.1393,
+  "website": "http://nlx.di.fc.ul.pt",
+  "huggingface": "https://huggingface.co/PORTULAN",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Natural Language and Speech group at the University of Lisbon, creators of Albertina and Gervasio Portuguese language models.",
+  "focus": [
+   "Portuguese NLP",
+   "language models"
+  ],
+  "notable_releases": [
+   {
+    "name": "Albertina 900M PT-PT",
+    "url": "https://huggingface.co/PORTULAN/albertina-900m-portuguese-ptpt-encoder",
+    "note": "Portuguese encoder"
+   },
+   {
+    "name": "Albertina PT-BR",
+    "url": "https://huggingface.co/PORTULAN/albertina-900m-portuguese-ptbr-encoder-brwac",
+    "note": "Brazilian variant"
+   },
+   {
+    "name": "Gervasio 7B",
+    "url": "https://huggingface.co/PORTULAN/gervasio-7b-portuguese-ptbr-decoder",
+    "note": "Portuguese decoder"
+   },
+   {
+    "name": "extraglue",
+    "url": "https://huggingface.co/datasets/PORTULAN/extraglue",
+    "note": "Portuguese GLUE-style benchmark"
+   }
+  ],
+  "openness": "Models and datasets are public on Hugging Face under the PORTULAN organisation.",
+  "people_public": [],
+  "sources": [
+   "http://nlx.di.fc.ul.pt",
+   "https://huggingface.co/PORTULAN",
+   "https://arxiv.org/abs/2305.06721"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Albertina",
+    "note": "Open Portuguese encoders (arXiv 2305.06721)."
+   },
+   {
+    "title": "Gervasio",
+    "note": "Open Portuguese decoder models (arXiv 2402.18766)."
+   },
+   {
+    "title": "Benchmarks",
+    "note": "Released ExtraGLUE and related Portuguese benchmarks."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "PORTULAN/albertina-900m-portuguese-ptbr-encoder-brwac",
+    "url": "https://huggingface.co/PORTULAN/albertina-900m-portuguese-ptbr-encoder-brwac",
+    "kind": "model",
+    "note": "Model with 39 likes on the Hub."
+   },
+   {
+    "name": "PORTULAN/albertina-900m-portuguese-ptpt-encoder",
+    "url": "https://huggingface.co/PORTULAN/albertina-900m-portuguese-ptpt-encoder",
+    "kind": "model",
+    "note": "Model with 34 likes on the Hub."
+   },
+   {
+    "name": "PORTULAN/extraglue",
+    "url": "https://huggingface.co/datasets/PORTULAN/extraglue",
+    "kind": "dataset",
+    "note": "Dataset with 7 likes on the Hub."
+   },
+   {
+    "name": "PORTULAN/portuguese-llm-leaderboard",
+    "url": "https://huggingface.co/spaces/PORTULAN/portuguese-llm-leaderboard",
+    "kind": "space",
+    "note": "Space with 0 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Advancing Neural Encoding of Portuguese with Transformer Albertina PT-*",
+    "url": "https://arxiv.org/abs/2305.06721",
+    "year": 2023
+   },
+   {
+    "title": "Advancing Generative AI for Portuguese with Open Decoder Gervásio PT*",
+    "url": "https://arxiv.org/abs/2402.18766",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the group website."
+ },
+ {
+  "id": "techiaith",
+  "name": "Language Technologies Unit (Bangor University)",
+  "type": "academic",
+  "founded": null,
+  "country": "United Kingdom",
+  "city": "Bangor",
+  "lat": 53.2274,
+  "lon": -4.1293,
+  "website": "https://techiaith.cymru",
+  "huggingface": "https://huggingface.co/techiaith",
+  "github": "https://github.com/techiaith",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Welsh language technology unit at Bangor University releasing Welsh speech, translation and language models.",
+  "focus": [
+   "Welsh",
+   "speech recognition",
+   "machine translation"
+  ],
+  "notable_releases": [
+   {
+    "name": "Welsh ASR",
+    "url": "https://github.com/techiaith/docker-huggingface-stt-cy",
+    "note": "Welsh speech recognition with Hugging Face"
+   },
+   {
+    "name": "Llama-3 Welsh CPT",
+    "url": "https://huggingface.co/techiaith/llama-3-8b-instruct-cpt-cy",
+    "note": "Welsh continued pre-training model"
+   },
+   {
+    "name": "Bangor transcripts",
+    "url": "https://huggingface.co/datasets/techiaith/banc-trawsgrifiadau-bangor",
+    "note": "Welsh speech transcripts"
+   },
+   {
+    "name": "Macsen",
+    "url": "https://github.com/techiaith/macsen",
+    "note": "Welsh digital assistant prototype"
+   }
+  ],
+  "openness": "Many repositories are public on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://techiaith.cymru",
+   "https://huggingface.co/techiaith",
+   "https://github.com/techiaith"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Welsh ASR",
+    "note": "Open Welsh speech recognition tooling."
+   },
+   {
+    "title": "Welsh translation data",
+    "note": "Published English-Welsh legislation and Senedd corpora."
+   },
+   {
+    "title": "Welsh TTS",
+    "note": "Released Welsh and English TTS resources."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "docker-moses-smt",
+    "url": "https://github.com/techiaith/docker-moses-smt",
+    "note": "Hwyluso cyfieithu peirianyddol MosesSMT i'r Gymraeg // Making MosesSMT machine translation easier for Welsh (a (16 stars)"
+   },
+   {
+    "name": "docker-huggingface-stt-cy",
+    "url": "https://github.com/techiaith/docker-huggingface-stt-cy",
+    "note": "Adnabod lleferydd Cymraeg i'r Gymraeg gyda HuggingFace  // Speech Recognition for Welsh with HuggingFace  (13 stars)"
+   },
+   {
+    "name": "pyfestival",
+    "url": "https://github.com/techiaith/pyfestival",
+    "note": "Amlapiwr Python C ar gyfer hwyluso rhaglennu gyda Festival | A Python C wrapper for simple coding with Festiva (11 stars)"
+   },
+   {
+    "name": "lecsicon-cymraeg-bangor",
+    "url": "https://github.com/techiaith/lecsicon-cymraeg-bangor",
+    "note": "Lecsicon cynhwysfawr o eirffurfiau'r Gymraeg yn seiliedig ar ddata gwirydd sillafu a gramadeg Cysill // A comp (11 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "techiaith/mt-dspec-health-en-cy",
+    "url": "https://huggingface.co/techiaith/mt-dspec-health-en-cy",
+    "kind": "model",
+    "note": "Model with 2 likes on the Hub."
+   },
+   {
+    "name": "techiaith/fullstop-welsh-punctuation-prediction",
+    "url": "https://huggingface.co/techiaith/fullstop-welsh-punctuation-prediction",
+    "kind": "model",
+    "note": "Model with 1 likes on the Hub."
+   },
+   {
+    "name": "techiaith/banc-trawsgrifiadau-bangor",
+    "url": "https://huggingface.co/datasets/techiaith/banc-trawsgrifiadau-bangor",
+    "kind": "dataset",
+    "note": "Dataset with 4 likes on the Hub."
+   },
+   {
+    "name": "techiaith/mimic",
+    "url": "https://huggingface.co/spaces/techiaith/mimic",
+    "kind": "space",
+    "note": "Space with 0 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the unit website."
+ },
+ {
+  "id": "softcatala",
+  "name": "Softcatala",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "Spain",
+  "city": "Barcelona",
+  "lat": 41.3874,
+  "lon": 2.1686,
+  "website": "https://www.softcatala.org",
+  "huggingface": "https://huggingface.co/softcatala",
+  "github": "https://github.com/Softcatala",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Catalan non-profit promoting Catalan in technology with open machine translation, speech and dictionary tools.",
+  "focus": [
+   "Catalan",
+   "machine translation",
+   "speech"
+  ],
+  "notable_releases": [
+   {
+    "name": "whisper-ctranslate2",
+    "url": "https://github.com/Softcatala/whisper-ctranslate2",
+    "note": "Whisper CLI based on CTranslate2"
+   },
+   {
+    "name": "nmt-softcatala",
+    "url": "https://github.com/Softcatala/nmt-softcatala",
+    "note": "Neural machine translation tools"
+   },
+   {
+    "name": "Catalan Whisper",
+    "url": "https://huggingface.co/softcatala/whisper-medium-ca",
+    "note": "Whisper for Catalan"
+   },
+   {
+    "name": "Catalan speech",
+    "url": "https://huggingface.co/datasets/softcatala/catalan-youtube-speech",
+    "note": "Catalan speech dataset"
+   }
+  ],
+  "openness": "Open-source tools, models and datasets on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://www.softcatala.org",
+   "https://huggingface.co/softcatala",
+   "https://github.com/Softcatala"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "whisper-ctranslate2",
+    "note": "Widely used open Whisper client (1,300+ stars)."
+   },
+   {
+    "title": "Catalan MT",
+    "note": "Open neural translation tooling for Catalan."
+   },
+   {
+    "title": "Datasets",
+    "note": "Published Catalan dictionaries and parallel corpora."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "whisper-ctranslate2",
+    "url": "https://github.com/Softcatala/whisper-ctranslate2",
+    "note": "Whisper command line client compatible with original OpenAI client based on CTranslate2. (1,375 stars)"
+   },
+   {
+    "name": "catalan-dict-tools",
+    "url": "https://github.com/Softcatala/catalan-dict-tools",
+    "note": "Tools for managing Catalan dictionaries (65 stars)"
+   },
+   {
+    "name": "nmt-softcatala",
+    "url": "https://github.com/Softcatala/nmt-softcatala",
+    "note": "This repository contains Neural Machine Translation tools built at Softcatalà  (45 stars)"
+   },
+   {
+    "name": "LanguageToolAndroidService",
+    "url": "https://github.com/Softcatala/LanguageToolAndroidService",
+    "note": "Experiments with spell checking on Android (33 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "softcatala/wav2vec2-large-xlsr-catala",
+    "url": "https://huggingface.co/softcatala/wav2vec2-large-xlsr-catala",
+    "kind": "model",
+    "note": "Model with 4 likes on the Hub."
+   },
+   {
+    "name": "softcatala/translate-cat-eng",
+    "url": "https://huggingface.co/softcatala/translate-cat-eng",
+    "kind": "model",
+    "note": "Model with 3 likes on the Hub."
+   },
+   {
+    "name": "softcatala/catalan-dictionary",
+    "url": "https://huggingface.co/datasets/softcatala/catalan-dictionary",
+    "kind": "dataset",
+    "note": "Dataset with 3 likes on the Hub."
+   },
+   {
+    "name": "softcatala/comparativa-tts-catala",
+    "url": "https://huggingface.co/spaces/softcatala/comparativa-tts-catala",
+    "kind": "space",
+    "note": "Space with 4 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the organisation website."
+ },
+ {
+  "id": "swap-uniba",
+  "name": "SWAP Research Group (University of Bari)",
+  "type": "academic",
+  "founded": null,
+  "country": "Italy",
+  "city": "Bari",
+  "lat": 41.1171,
+  "lon": 16.8719,
+  "website": "https://github.com/swapUniba",
+  "huggingface": "https://huggingface.co/swap-uniba",
+  "github": "https://github.com/swapUniba",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Semantic Web Access and Personalization group at the University of Bari, creators of the LLaMAntino Italian language models.",
+  "focus": [
+   "Italian LLMs",
+   "recommender systems"
+  ],
+  "notable_releases": [
+   {
+    "name": "LLaMAntino-3-ANITA",
+    "url": "https://huggingface.co/swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA",
+    "note": "Italian 8B instruct model"
+   },
+   {
+    "name": "LLaMAntino-2 chat 13B",
+    "url": "https://huggingface.co/swap-uniba/LLaMAntino-2-chat-13b-hf-UltraChat-ITA",
+    "note": "Italian chat model"
+   },
+   {
+    "name": "ClayRS",
+    "url": "https://github.com/swapUniba/ClayRS",
+    "note": "Recommender systems library"
+   },
+   {
+    "name": "LLaMAntino",
+    "url": "https://github.com/swapUniba/LLaMAntino",
+    "note": "Project repository"
+   }
+  ],
+  "openness": "Models are public on Hugging Face and code on GitHub; model cards follow Llama licences.",
+  "people_public": [],
+  "sources": [
+   "https://github.com/swapUniba",
+   "https://huggingface.co/swap-uniba",
+   "https://github.com/swapUniba",
+   "https://arxiv.org/abs/2405.07101"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "LLaMAntino",
+    "note": "Italian adaptations of Llama (arXiv 2405.07101)."
+   },
+   {
+    "title": "Italian benchmarks",
+    "note": "Translated evaluation datasets such as hellaswag_ita."
+   },
+   {
+    "title": "ClayRS",
+    "note": "Open recommender framework."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "LLaMAntino",
+    "url": "https://github.com/swapUniba/LLaMAntino",
+    "note": "Open-source repository. (39 stars)"
+   },
+   {
+    "name": "ClayRS",
+    "url": "https://github.com/swapUniba/ClayRS",
+    "note": "Complexly represent contents, build recommender systems, evaluate them. All in one place! (37 stars)"
+   },
+   {
+    "name": "ConvRecSysDataset",
+    "url": "https://github.com/swapUniba/ConvRecSysDataset",
+    "note": "Open-source repository. (9 stars)"
+   },
+   {
+    "name": "multimodal_ml1m_dbbook_lfm2k",
+    "url": "https://github.com/swapUniba/multimodal_ml1m_dbbook_lfm2k",
+    "note": "Open-source repository. (8 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA",
+    "url": "https://huggingface.co/swap-uniba/LLaMAntino-3-ANITA-8B-Inst-DPO-ITA",
+    "kind": "model",
+    "note": "Model with 31 likes on the Hub."
+   },
+   {
+    "name": "swap-uniba/LLaMAntino-2-chat-13b-hf-UltraChat-ITA",
+    "url": "https://huggingface.co/swap-uniba/LLaMAntino-2-chat-13b-hf-UltraChat-ITA",
+    "kind": "model",
+    "note": "Model with 16 likes on the Hub."
+   },
+   {
+    "name": "swap-uniba/itwiki-march-2024",
+    "url": "https://huggingface.co/datasets/swap-uniba/itwiki-march-2024",
+    "kind": "dataset",
+    "note": "Dataset with 2 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Advanced Natural-based interaction for the ITAlian language: LLaMAntino-3-ANITA",
+    "url": "https://arxiv.org/abs/2405.07101",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the group website."
+ },
+ {
+  "id": "gronlp",
+  "name": "GroNLP (University of Groningen)",
+  "type": "academic",
+  "founded": null,
+  "country": "Netherlands",
+  "city": "Groningen",
+  "lat": 53.2194,
+  "lon": 6.5665,
+  "website": "https://www.rug.nl/research/clcg/research/cl/",
+  "huggingface": "https://huggingface.co/GroNLP",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Computational linguistics group at the University of Groningen, known for BERTje, HateBERT and Dutch GPT-2 models.",
+  "focus": [
+   "Dutch NLP",
+   "language models"
+  ],
+  "notable_releases": [
+   {
+    "name": "HateBERT",
+    "url": "https://huggingface.co/GroNLP/hateBERT",
+    "note": "BERT retrained for abusive language detection"
+   },
+   {
+    "name": "bert-base-dutch-cased",
+    "url": "https://huggingface.co/GroNLP/bert-base-dutch-cased",
+    "note": "BERTje Dutch BERT"
+   },
+   {
+    "name": "gpt2-small-dutch",
+    "url": "https://huggingface.co/GroNLP/gpt2-small-dutch",
+    "note": "Dutch GPT-2"
+   },
+   {
+    "name": "dutch-cola",
+    "url": "https://huggingface.co/datasets/GroNLP/dutch-cola",
+    "note": "Dutch acceptability dataset"
+   }
+  ],
+  "openness": "Models and datasets are public on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://www.rug.nl/research/clcg/research/cl/",
+   "https://huggingface.co/GroNLP",
+   "https://arxiv.org/abs/1912.09582"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "BERTje",
+    "note": "Released a Dutch BERT (arXiv 1912.09582)."
+   },
+   {
+    "title": "HateBERT",
+    "note": "Released an abusive-language model (arXiv 2010.12472)."
+   },
+   {
+    "title": "Dutch GPT-2",
+    "note": "Published small Dutch and Italian GPT-2 models."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "GroNLP/hateBERT",
+    "url": "https://huggingface.co/GroNLP/hateBERT",
+    "kind": "model",
+    "note": "Model with 43 likes on the Hub."
+   },
+   {
+    "name": "GroNLP/bert-base-dutch-cased",
+    "url": "https://huggingface.co/GroNLP/bert-base-dutch-cased",
+    "kind": "model",
+    "note": "Model with 35 likes on the Hub."
+   },
+   {
+    "name": "GroNLP/ik-nlp-22_winemag",
+    "url": "https://huggingface.co/datasets/GroNLP/ik-nlp-22_winemag",
+    "kind": "dataset",
+    "note": "Dataset with 6 likes on the Hub."
+   },
+   {
+    "name": "GroNLP/neural-acoustic-distance",
+    "url": "https://huggingface.co/spaces/GroNLP/neural-acoustic-distance",
+    "kind": "space",
+    "note": "Space with 15 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "BERTje: A Dutch BERT Model",
+    "url": "https://arxiv.org/abs/1912.09582",
+    "year": 2019
+   },
+   {
+    "title": "HateBERT: Retraining BERT for Abusive Language Detection in English",
+    "url": "https://arxiv.org/abs/2010.12472",
+    "year": 2020
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the university website."
+ },
+ {
+  "id": "clips-antwerp",
+  "name": "CLiPS (University of Antwerp)",
+  "type": "academic",
+  "founded": null,
+  "country": "Belgium",
+  "city": "Antwerp",
+  "lat": 51.2194,
+  "lon": 4.4025,
+  "website": "https://www.uantwerpen.be/en/research-groups/clips/",
+  "huggingface": "https://huggingface.co/clips",
+  "github": "https://github.com/clips",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Computational linguistics group in Antwerp, creators of the Pattern web-mining library and Dutch embedding and FAQ resources.",
+  "focus": [
+   "Dutch NLP",
+   "embeddings",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "Pattern",
+    "url": "https://github.com/clips/pattern",
+    "note": "Web mining module for Python"
+   },
+   {
+    "name": "MQA",
+    "url": "https://huggingface.co/datasets/clips/mqa",
+    "note": "Multilingual QA dataset"
+   },
+   {
+    "name": "MFAQ",
+    "url": "https://huggingface.co/datasets/clips/mfaq",
+    "note": "Multilingual FAQ dataset"
+   },
+   {
+    "name": "e5 Dutch models",
+    "url": "https://huggingface.co/clips/e5-base-trm-nl",
+    "note": "Dutch E5 embeddings"
+   }
+  ],
+  "openness": "Code, datasets and models are public on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://www.uantwerpen.be/en/research-groups/clips/",
+   "https://huggingface.co/clips",
+   "https://github.com/clips",
+   "https://arxiv.org/abs/2109.12870"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Pattern",
+    "note": "Maintains the long-lived open web mining library (8,800+ stars)."
+   },
+   {
+    "title": "MFAQ",
+    "note": "Released a multilingual FAQ dataset (arXiv 2109.12870)."
+   },
+   {
+    "title": "Dutch embeddings",
+    "note": "Published Dutch embedding models."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "pattern",
+    "url": "https://github.com/clips/pattern",
+    "note": "Web mining module for Python, with tools for scraping, natural language processing, machine learning, network  (8,857 stars)"
+   },
+   {
+    "name": "clicr",
+    "url": "https://github.com/clips/clicr",
+    "note": "Machine reading comprehension on clinical case reports (154 stars)"
+   },
+   {
+    "name": "news-audit",
+    "url": "https://github.com/clips/news-audit",
+    "note": "Fake news detection, Google Summer of Code 2017 (92 stars)"
+   },
+   {
+    "name": "dutchembeddings",
+    "url": "https://github.com/clips/dutchembeddings",
+    "note": "Repository for the word embeddings experiments described in \"Evaluating Unsupervised Dutch Word Embeddings as  (86 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "clips/mfaq",
+    "url": "https://huggingface.co/clips/mfaq",
+    "kind": "model",
+    "note": "Model with 35 likes on the Hub."
+   },
+   {
+    "name": "clips/e5-large-trm-nl",
+    "url": "https://huggingface.co/clips/e5-large-trm-nl",
+    "kind": "model",
+    "note": "Model with 4 likes on the Hub."
+   },
+   {
+    "name": "clips/mqa",
+    "url": "https://huggingface.co/datasets/clips/mqa",
+    "kind": "dataset",
+    "note": "Dataset with 58 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "MFAQ: a Multilingual FAQ Dataset",
+    "url": "https://arxiv.org/abs/2109.12870",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the group website."
+ },
+ {
+  "id": "dtai-kuleuven",
+  "name": "DTAI (KU Leuven)",
+  "type": "academic",
+  "founded": null,
+  "country": "Belgium",
+  "city": "Leuven",
+  "lat": 50.8798,
+  "lon": 4.7005,
+  "website": "https://dtai.cs.kuleuven.be",
+  "huggingface": "https://huggingface.co/DTAI-KULeuven",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Machine learning and AI group at KU Leuven; its researchers released the RobBERT Dutch language models.",
+  "focus": [
+   "Dutch NLP",
+   "machine learning"
+  ],
+  "notable_releases": [
+   {
+    "name": "RobBERT-2023 large",
+    "url": "https://huggingface.co/DTAI-KULeuven/robbert-2023-dutch-large",
+    "note": "Dutch RoBERTa-based model"
+   },
+   {
+    "name": "RobBERT 2022 base",
+    "url": "https://huggingface.co/DTAI-KULeuven/robbert-2022-dutch-base",
+    "note": "Dutch base model"
+   },
+   {
+    "name": "RobBERT v2 sentiment",
+    "url": "https://huggingface.co/DTAI-KULeuven/robbert-v2-dutch-sentiment",
+    "note": "Dutch sentiment model"
+   }
+  ],
+  "openness": "RobBERT models are public on Hugging Face under the DTAI-KULeuven organisation.",
+  "people_public": [],
+  "sources": [
+   "https://dtai.cs.kuleuven.be",
+   "https://huggingface.co/DTAI-KULeuven",
+   "https://arxiv.org/abs/2001.06286"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "RobBERT",
+    "note": "Dutch RoBERTa (arXiv 2001.06286)."
+   },
+   {
+    "title": "RobBERT-2022",
+    "note": "Updated for evolving language (arXiv 2211.08192)."
+   },
+   {
+    "title": "RobBERT-2023",
+    "note": "Newer base and large checkpoints."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "DTAI-KULeuven/robbert-2023-dutch-large",
+    "url": "https://huggingface.co/DTAI-KULeuven/robbert-2023-dutch-large",
+    "kind": "model",
+    "note": "Model with 23 likes on the Hub."
+   },
+   {
+    "name": "DTAI-KULeuven/robbert-v2-dutch-sentiment",
+    "url": "https://huggingface.co/DTAI-KULeuven/robbert-v2-dutch-sentiment",
+    "kind": "model",
+    "note": "Model with 9 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "RobBERT: a Dutch RoBERTa-based Language Model",
+    "url": "https://arxiv.org/abs/2001.06286",
+    "year": 2020
+   },
+   {
+    "title": "RobBERT-2022: Updating a Dutch Language Model to Account for Evolving Language Use",
+    "url": "https://arxiv.org/abs/2211.08192",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the group website."
+ },
+ {
+  "id": "epfl-llm",
+  "name": "EPFL LLM Team (Meditron)",
+  "type": "academic",
+  "founded": null,
+  "country": "Switzerland",
+  "city": "Lausanne",
+  "lat": 46.5191,
+  "lon": 6.5668,
+  "website": "https://huggingface.co/epfl-llm",
+  "huggingface": "https://huggingface.co/epfl-llm",
+  "github": "https://github.com/epfLLM",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "EPFL team behind Meditron, open medical LLMs, and the Megatron-LLM trainer.",
+  "focus": [
+   "medical LLMs",
+   "training infrastructure"
+  ],
+  "notable_releases": [
+   {
+    "name": "meditron-7b",
+    "url": "https://huggingface.co/epfl-llm/meditron-7b",
+    "note": "Open medical LLM"
+   },
+   {
+    "name": "meditron-70b",
+    "url": "https://huggingface.co/epfl-llm/meditron-70b",
+    "note": "70B medical LLM"
+   },
+   {
+    "name": "guidelines",
+    "url": "https://huggingface.co/datasets/epfl-llm/guidelines",
+    "note": "Clinical guidelines corpus"
+   },
+   {
+    "name": "Megatron-LLM",
+    "url": "https://github.com/epfLLM/Megatron-LLM",
+    "note": "Distributed LLM trainer"
+   }
+  ],
+  "openness": "Weights, data and training code are public on Hugging Face and GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/epfl-llm",
+   "https://huggingface.co/epfl-llm",
+   "https://github.com/epfLLM",
+   "https://arxiv.org/abs/2311.16079"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Meditron",
+    "note": "Open-weight medical LLMs (arXiv 2311.16079)."
+   },
+   {
+    "title": "Guidelines corpus",
+    "note": "Released a clinical guidelines dataset."
+   },
+   {
+    "title": "Megatron-LLM",
+    "note": "Open trainer used for Meditron."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "meditron",
+    "url": "https://github.com/epfLLM/meditron",
+    "note": "Meditron is a suite of open-source medical Large Language Models (LLMs). (2,221 stars)"
+   },
+   {
+    "name": "Megatron-LLM",
+    "url": "https://github.com/epfLLM/Megatron-LLM",
+    "note": "distributed trainer for LLMs (591 stars)"
+   },
+   {
+    "name": "meditron-epfl",
+    "url": "https://github.com/epfLLM/meditron-epfl",
+    "note": "Official project website for Meditron, developed by the EPFL LLM team. (2 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "epfl-llm/meditron-7b",
+    "url": "https://huggingface.co/epfl-llm/meditron-7b",
+    "kind": "model",
+    "note": "Model with 331 likes on the Hub."
+   },
+   {
+    "name": "epfl-llm/meditron-70b",
+    "url": "https://huggingface.co/epfl-llm/meditron-70b",
+    "kind": "model",
+    "note": "Model with 274 likes on the Hub."
+   },
+   {
+    "name": "epfl-llm/guidelines",
+    "url": "https://huggingface.co/datasets/epfl-llm/guidelines",
+    "kind": "dataset",
+    "note": "Dataset with 167 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "MEDITRON-70B: Scaling Medical Pretraining for Large Language Models",
+    "url": "https://arxiv.org/abs/2311.16079",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the project website."
+ },
+ {
+  "id": "lightly",
+  "name": "Lightly",
+  "type": "startup",
+  "founded": null,
+  "country": "Switzerland",
+  "city": "Zurich",
+  "lat": 47.3769,
+  "lon": 8.5417,
+  "website": "https://www.lightly.ai",
+  "huggingface": "https://huggingface.co/lightly-ai",
+  "github": "https://github.com/lightly-ai",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Zurich startup open-sourcing self-supervised learning and vision training libraries.",
+  "focus": [
+   "computer vision",
+   "self-supervised learning"
+  ],
+  "notable_releases": [
+   {
+    "name": "lightly",
+    "url": "https://github.com/lightly-ai/lightly",
+    "note": "Self-supervised learning library (3,800+ stars)"
+   },
+   {
+    "name": "LightlyTrain",
+    "url": "https://github.com/lightly-ai/lightly-train",
+    "note": "Pretraining and fine-tuning for vision models"
+   },
+   {
+    "name": "LightlyStudio",
+    "url": "https://github.com/lightly-ai/lightly-studio",
+    "note": "Data platform for multimodal ML"
+   },
+   {
+    "name": "labelformat",
+    "url": "https://github.com/lightly-ai/labelformat",
+    "note": "Label converter"
+   }
+  ],
+  "openness": "Open-source libraries with a commercial platform alongside.",
+  "people_public": [],
+  "sources": [
+   "https://www.lightly.ai",
+   "https://huggingface.co/lightly-ai",
+   "https://github.com/lightly-ai"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "lightly",
+    "note": "Popular SSL framework."
+   },
+   {
+    "title": "LightlyTrain",
+    "note": "Training pipeline for vision models."
+   },
+   {
+    "title": "Datasets",
+    "note": "Published datasets on Hugging Face."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "lightly",
+    "url": "https://github.com/lightly-ai/lightly",
+    "note": "A python library for self-supervised learning and latent world models on images. (3,832 stars)"
+   },
+   {
+    "name": "lightly-train",
+    "url": "https://github.com/lightly-ai/lightly-train",
+    "note": "All-in-one training for vision models (YOLO, ViTs, RT-DETR, DINOv3): pretraining, fine-tuning, distillation. (1,741 stars)"
+   },
+   {
+    "name": "lightly-studio",
+    "url": "https://github.com/lightly-ai/lightly-studio",
+    "note": "LightlyStudio - The Unified Data Platform for Multimodal ML (911 stars)"
+   },
+   {
+    "name": "labelformat",
+    "url": "https://github.com/lightly-ai/labelformat",
+    "note": "A tool for converting computer vision label formats. (91 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "lightly-ai/simclrv1-imagenet1k-resnet50-4x",
+    "url": "https://huggingface.co/lightly-ai/simclrv1-imagenet1k-resnet50-4x",
+    "kind": "model",
+    "note": "Model with 1 likes on the Hub."
+   },
+   {
+    "name": "lightly-ai/simclrv1-imagenet1k-resnet50-1x",
+    "url": "https://huggingface.co/lightly-ai/simclrv1-imagenet1k-resnet50-1x",
+    "kind": "model",
+    "note": "Model with 0 likes on the Hub."
+   },
+   {
+    "name": "lightly-ai/epic-kitchens-100-clips",
+    "url": "https://huggingface.co/datasets/lightly-ai/epic-kitchens-100-clips",
+    "kind": "dataset",
+    "note": "Dataset with 4 likes on the Hub."
+   },
+   {
+    "name": "lightly-ai/SAMv2-Mask-Generator",
+    "url": "https://huggingface.co/spaces/lightly-ai/SAMv2-Mask-Generator",
+    "kind": "space",
+    "note": "Space with 18 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the company website."
+ },
+ {
+  "id": "ox-vgg",
+  "name": "Visual Geometry Group (Oxford)",
+  "type": "academic",
+  "founded": null,
+  "country": "United Kingdom",
+  "city": "Oxford",
+  "lat": 51.752,
+  "lon": -1.2577,
+  "website": "https://www.robots.ox.ac.uk/~vgg/",
+  "huggingface": null,
+  "github": "https://github.com/ox-vgg",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Computer vision research group in the Engineering Science department at the University of Oxford, long known for open datasets and tools such as VGGFace2, the VGG Image Annotator and the VGGT 3D reconstruction model.",
+  "focus": [
+   "computer vision",
+   "3D vision",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "VGGFace2",
+    "url": "https://github.com/ox-vgg/vgg_face2",
+    "note": "Large-scale face recognition dataset released with the VGGFace2 paper"
+   },
+   {
+    "name": "VGG Image Annotator (VIA)",
+    "url": "https://github.com/ox-vgg/via",
+    "note": "Browser-based image, audio and video annotation tool (GitHub mirror)"
+   },
+   {
+    "name": "VISE",
+    "url": "https://github.com/ox-vgg/vise",
+    "note": "Standalone image search engine for large collections"
+   },
+   {
+    "name": "VGG Face search",
+    "url": "https://github.com/ox-vgg/vgg_face_search",
+    "note": "Face finding engine with a preprocessing pipeline"
+   }
+  ],
+  "openness": "Datasets, annotation tools and research code are published openly on GitHub (mirrors of the group GitLab) and the group site, with permissive or research licences per project.",
+  "people_public": [],
+  "sources": [
+   "https://www.robots.ox.ac.uk/~vgg/",
+   "https://github.com/ox-vgg",
+   "https://arxiv.org/abs/1710.08092"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "VGGFace2 dataset",
+    "note": "Released a large face dataset covering pose and age variation (arXiv 1710.08092)."
+   },
+   {
+    "title": "VGGT",
+    "note": "Co-authored the feed-forward visual geometry transformer for 3D scene reconstruction (arXiv 2503.11651)."
+   },
+   {
+    "title": "Annotation tools",
+    "note": "Maintains the VGG Image Annotator and image search software used widely outside the group."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "vgg_face2",
+    "url": "https://github.com/ox-vgg/vgg_face2",
+    "note": "Open-source repository. (712 stars)"
+   },
+   {
+    "name": "via",
+    "url": "https://github.com/ox-vgg/via",
+    "note": "(MIRROR) see https://gitlab.com/vgg/via/ (249 stars)"
+   },
+   {
+    "name": "vise",
+    "url": "https://github.com/ox-vgg/vise",
+    "note": "(MIRROR of https://gitlab.com/vgg/vise) VGG Image Search Engine (VISE) is a standalone software for visual sea (52 stars)"
+   },
+   {
+    "name": "vgg_face_search",
+    "url": "https://github.com/ox-vgg/vgg_face_search",
+    "note": "(MIRROR) Face finding engine that runs on a local service. Includes a pipeline for preprocessing a user-define (21 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "VGGFace2: A dataset for recognising faces across pose and age",
+    "url": "https://arxiv.org/abs/1710.08092",
+    "year": 2017
+   },
+   {
+    "title": "VGGT: Visual Geometry Grounded Transformer",
+    "url": "https://arxiv.org/abs/2503.11651",
+    "year": 2025
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the group website."
+ },
+ {
+  "id": "oatml",
+  "name": "OATML (Oxford)",
+  "type": "academic",
+  "founded": null,
+  "country": "United Kingdom",
+  "city": "Oxford",
+  "lat": 51.752,
+  "lon": -1.2577,
+  "website": "https://oatml.cs.ox.ac.uk",
+  "huggingface": null,
+  "github": "https://github.com/OATML",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "oatml@cs.ox.ac.uk",
+  "summary": "Oxford Applied and Theoretical Machine Learning group in the Department of Computer Science at the University of Oxford, working on uncertainty, Bayesian deep learning and safe ML, with research code released on GitHub.",
+  "focus": [
+   "uncertainty",
+   "Bayesian deep learning"
+  ],
+  "notable_releases": [
+   {
+    "name": "bdl-benchmarks",
+    "url": "https://github.com/OATML/bdl-benchmarks",
+    "note": "Benchmark suite for Bayesian deep learning"
+   },
+   {
+    "name": "Non-parametric transformers",
+    "url": "https://github.com/OATML/non-parametric-transformers",
+    "note": "Code for attention between datapoints"
+   },
+   {
+    "name": "RHO-Loss",
+    "url": "https://github.com/OATML/RHO-Loss",
+    "note": "Code for prioritised training on learnable points"
+   },
+   {
+    "name": "OATomobile",
+    "url": "https://github.com/OATML/oatomobile",
+    "note": "Research framework for autonomous driving"
+   }
+  ],
+  "openness": "Papers ship with public GitHub repositories; the group also hosts datasets and benchmarks on its site.",
+  "people_public": [],
+  "sources": [
+   "https://oatml.cs.ox.ac.uk",
+   "https://github.com/OATML",
+   "https://arxiv.org/abs/2106.02584"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Bayesian deep learning benchmarks",
+    "note": "Released standardised benchmarks for uncertainty in deep learning."
+   },
+   {
+    "title": "Non-parametric transformers",
+    "note": "Published code for self-attention between datapoints (arXiv 2106.02584)."
+   },
+   {
+    "title": "RHO-Loss",
+    "note": "Released code for prioritised training that selects learnable data points (arXiv 2206.07137)."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "bdl-benchmarks",
+    "url": "https://github.com/OATML/bdl-benchmarks",
+    "note": "Bayesian Deep Learning Benchmarks (672 stars)"
+   },
+   {
+    "name": "non-parametric-transformers",
+    "url": "https://github.com/OATML/non-parametric-transformers",
+    "note": "Code for \"Self-Attention Between Datapoints: Going Beyond Individual Input-Output Pairs in Deep Learning\" (418 stars)"
+   },
+   {
+    "name": "RHO-Loss",
+    "url": "https://github.com/OATML/RHO-Loss",
+    "note": "Open-source repository. (217 stars)"
+   },
+   {
+    "name": "oatomobile",
+    "url": "https://github.com/OATML/oatomobile",
+    "note": "A research framework for autonomous driving (199 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "Self-Attention Between Datapoints: Going Beyond Individual Input-Output Pairs in Deep Learning",
+    "url": "https://arxiv.org/abs/2106.02584",
+    "year": 2021
+   },
+   {
+    "title": "Prioritized Training on Points that are Learnable, Worth Learning, and Not Yet Learnt",
+    "url": "https://arxiv.org/abs/2206.07137",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via address on the group website."
+ },
+ {
+  "id": "ucl-dark",
+  "name": "UCL DARK",
+  "type": "academic",
+  "founded": null,
+  "country": "United Kingdom",
+  "city": "London",
+  "lat": 51.5246,
+  "lon": -0.134,
+  "website": "https://ucl-dark.github.io",
+  "huggingface": null,
+  "github": "https://github.com/ucl-dark",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "UCL DARK (Deciding, Acting, and Reasoning with Knowledge) is a University College London lab working on reinforcement learning, open-endedness and LLM safety, releasing research code on GitHub.",
+  "focus": [
+   "reinforcement learning",
+   "LLM debate"
+  ],
+  "notable_releases": [
+   {
+    "name": "llm_debate",
+    "url": "https://github.com/ucl-dark/llm_debate",
+    "note": "Code release for the debate-with-persuasive-LLMs paper"
+   },
+   {
+    "name": "PAIRED",
+    "url": "https://github.com/ucl-dark/paired",
+    "note": "PyTorch implementation of PAIRED environment design"
+   },
+   {
+    "name": "Pax",
+    "url": "https://github.com/ucl-dark/pax",
+    "note": "JAX experiments for scalable opponent shaping"
+   },
+   {
+    "name": "SkillHack",
+    "url": "https://github.com/ucl-dark/skillhack",
+    "note": "Benchmark for skill transfer in open-ended RL"
+   }
+  ],
+  "openness": "Research code for papers is released on GitHub under the ucl-dark organisation.",
+  "people_public": [],
+  "sources": [
+   "https://ucl-dark.github.io",
+   "https://github.com/ucl-dark",
+   "https://arxiv.org/abs/2402.06782"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "LLM debate",
+    "note": "Released the code behind experiments on debating with more persuasive LLMs (arXiv 2402.06782)."
+   },
+   {
+    "title": "Multi-agent RL in JAX",
+    "note": "Published Pax for scalable opponent shaping."
+   },
+   {
+    "title": "Open-ended RL benchmarks",
+    "note": "Released SkillHack and PAIRED implementations."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "llm_debate",
+    "url": "https://github.com/ucl-dark/llm_debate",
+    "note": "Code release for \"Debating with More Persuasive LLMs Leads to More Truthful Answers\" (136 stars)"
+   },
+   {
+    "name": "paired",
+    "url": "https://github.com/ucl-dark/paired",
+    "note": "PAIRED in PyTorch 🔥 (66 stars)"
+   },
+   {
+    "name": "pax",
+    "url": "https://github.com/ucl-dark/pax",
+    "note": "Scalable Opponent Shaping Experiments in JAX  (27 stars)"
+   },
+   {
+    "name": "skillhack",
+    "url": "https://github.com/ucl-dark/skillhack",
+    "note": "SkillHack: A Benchmark for Skill Transfer in Open-Ended Reinforcement Learning (17 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "Debating with More Persuasive LLMs Leads to More Truthful Answers",
+    "url": "https://arxiv.org/abs/2402.06782",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the lab website."
+ },
+ {
+  "id": "edinburghnlp",
+  "name": "EdinburghNLP",
+  "type": "academic",
+  "founded": null,
+  "country": "United Kingdom",
+  "city": "Edinburgh",
+  "lat": 55.9533,
+  "lon": -3.1883,
+  "website": "https://edinburghnlp.inf.ed.ac.uk",
+  "huggingface": "https://huggingface.co/EdinburghNLP",
+  "github": "https://github.com/EdinburghNLP",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Natural language processing group at the University of Edinburgh, behind open tools and datasets including the Nematus NMT toolkit and the XSum summarisation dataset.",
+  "focus": [
+   "NLP",
+   "machine translation",
+   "summarization"
+  ],
+  "notable_releases": [
+   {
+    "name": "Nematus",
+    "url": "https://github.com/EdinburghNLP/nematus",
+    "note": "Open-source neural machine translation toolkit"
+   },
+   {
+    "name": "XSum dataset",
+    "url": "https://huggingface.co/datasets/EdinburghNLP/xsum",
+    "note": "Extreme summarisation dataset, with 150+ likes on the Hub"
+   },
+   {
+    "name": "awesome-hallucination-detection",
+    "url": "https://github.com/EdinburghNLP/awesome-hallucination-detection",
+    "note": "Curated list of LLM hallucination detection papers"
+   },
+   {
+    "name": "Refresh",
+    "url": "https://github.com/EdinburghNLP/Refresh",
+    "note": "Extractive summarisation with reinforcement learning"
+   }
+  ],
+  "openness": "Code and datasets are public on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://edinburghnlp.inf.ed.ac.uk",
+   "https://huggingface.co/EdinburghNLP",
+   "https://github.com/EdinburghNLP",
+   "https://arxiv.org/abs/1703.04357"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Nematus",
+    "note": "Released an open NMT toolkit used in WMT systems (arXiv 1703.04357)."
+   },
+   {
+    "title": "XSum",
+    "note": "Released a widely used single-sentence summarisation dataset (arXiv 1808.08745)."
+   },
+   {
+    "title": "Hallucination reading list",
+    "note": "Maintains a popular curated list of hallucination detection work."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "awesome-hallucination-detection",
+    "url": "https://github.com/EdinburghNLP/awesome-hallucination-detection",
+    "note": "List of papers on hallucination detection in LLMs. (1,141 stars)"
+   },
+   {
+    "name": "nematus",
+    "url": "https://github.com/EdinburghNLP/nematus",
+    "note": "Open-Source Neural Machine Translation in Tensorflow (805 stars)"
+   },
+   {
+    "name": "XSum",
+    "url": "https://github.com/EdinburghNLP/XSum",
+    "note": "Topic-Aware Convolutional Neural Networks for Extreme Summarization (378 stars)"
+   },
+   {
+    "name": "Refresh",
+    "url": "https://github.com/EdinburghNLP/Refresh",
+    "note": "Ranking Sentences for Extractive Summarization with Reinforcement Learning (275 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "EdinburghNLP/nunavut-hansard-eng",
+    "url": "https://huggingface.co/EdinburghNLP/nunavut-hansard-eng",
+    "kind": "model",
+    "note": "Model with 1 likes on the Hub."
+   },
+   {
+    "name": "EdinburghNLP/nunavut-hansard-iku",
+    "url": "https://huggingface.co/EdinburghNLP/nunavut-hansard-iku",
+    "kind": "model",
+    "note": "Model with 0 likes on the Hub."
+   },
+   {
+    "name": "EdinburghNLP/xsum",
+    "url": "https://huggingface.co/datasets/EdinburghNLP/xsum",
+    "kind": "dataset",
+    "note": "Dataset with 157 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Nematus: a Toolkit for Neural Machine Translation",
+    "url": "https://arxiv.org/abs/1703.04357",
+    "year": 2017
+   },
+   {
+    "title": "Don't Give Me the Details, Just the Summary! Topic-Aware Convolutional Neural Networks for Extreme Summarization",
+    "url": "https://arxiv.org/abs/1808.08745",
+    "year": 2018
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the group website."
+ },
+ {
+  "id": "apollo-research",
+  "name": "Apollo Research",
+  "type": "institute",
+  "founded": null,
+  "country": "United Kingdom",
+  "city": "London",
+  "lat": 51.5074,
+  "lon": -0.1278,
+  "website": "https://www.apolloresearch.ai",
+  "huggingface": "https://huggingface.co/apollo-research",
+  "github": "https://github.com/apolloresearch",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "London-based AI safety research organisation studying deceptive behaviour, evaluations and mechanistic interpretability, publishing code and datasets on GitHub and Hugging Face.",
+  "focus": [
+   "AI safety",
+   "evaluations",
+   "interpretability"
+  ],
+  "notable_releases": [
+   {
+    "name": "insider-trading",
+    "url": "https://github.com/apolloresearch/insider-trading",
+    "note": "Deception evaluation environment"
+   },
+   {
+    "name": "deception-detection",
+    "url": "https://github.com/apolloresearch/deception-detection",
+    "note": "Probes for detecting model deception"
+   },
+   {
+    "name": "e2e_sae",
+    "url": "https://github.com/apolloresearch/e2e_sae",
+    "note": "Sparse autoencoder training library"
+   },
+   {
+    "name": "APD",
+    "url": "https://github.com/apolloresearch/apd",
+    "note": "Attribution-based parameter decomposition"
+   }
+  ],
+  "openness": "Research code, SAE weights and datasets are public; its evaluations of frontier models are published as papers.",
+  "people_public": [],
+  "sources": [
+   "https://www.apolloresearch.ai",
+   "https://huggingface.co/apollo-research",
+   "https://github.com/apolloresearch",
+   "https://arxiv.org/abs/2412.04984"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Scheming evaluations",
+    "note": "Published an evaluation suite showing in-context scheming in frontier models (arXiv 2412.04984)."
+   },
+   {
+    "title": "End-to-end SAEs",
+    "note": "Released training code and weights for end-to-end sparse dictionary learning (arXiv 2405.12241)."
+   },
+   {
+    "title": "Deception probes",
+    "note": "Released code for detecting deception in model activations."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "insider-trading",
+    "url": "https://github.com/ApolloResearch/insider-trading",
+    "note": "Open-source repository. (66 stars)"
+   },
+   {
+    "name": "deception-detection",
+    "url": "https://github.com/ApolloResearch/deception-detection",
+    "note": "Open-source repository. (61 stars)"
+   },
+   {
+    "name": "e2e_sae",
+    "url": "https://github.com/ApolloResearch/e2e_sae",
+    "note": "Sparse Autoencoder Training Library (59 stars)"
+   },
+   {
+    "name": "apd",
+    "url": "https://github.com/ApolloResearch/apd",
+    "note": "Attribution-based Parameter Decomposition (35 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "apollo-research/gpt2_noLN",
+    "url": "https://huggingface.co/apollo-research/gpt2_noLN",
+    "kind": "model",
+    "note": "Model with 4 likes on the Hub."
+   },
+   {
+    "name": "apollo-research/e2e-saes-gpt2",
+    "url": "https://huggingface.co/apollo-research/e2e-saes-gpt2",
+    "kind": "model",
+    "note": "Model with 1 likes on the Hub."
+   },
+   {
+    "name": "apollo-research/contrastive-belief-updates",
+    "url": "https://huggingface.co/datasets/apollo-research/contrastive-belief-updates",
+    "kind": "dataset",
+    "note": "Dataset with 5 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Frontier Models are Capable of In-context Scheming",
+    "url": "https://arxiv.org/abs/2412.04984",
+    "year": 2024
+   },
+   {
+    "title": "Identifying Functionally Important Features with End-to-End Sparse Dictionary Learning",
+    "url": "https://arxiv.org/abs/2405.12241",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact through the website."
+ },
+ {
+  "id": "mlrs-malta",
+  "name": "MLRS (University of Malta)",
+  "type": "academic",
+  "founded": null,
+  "country": "Malta",
+  "city": "Msida",
+  "lat": 35.9022,
+  "lon": 14.4842,
+  "website": "https://mlrs.research.um.edu.mt",
+  "huggingface": "https://huggingface.co/MLRS",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Maltese Language Resource Server at the University of Malta, publishing open Maltese language models, corpora and speech data.",
+  "focus": [
+   "Maltese NLP"
+  ],
+  "notable_releases": [
+   {
+    "name": "BERTu",
+    "url": "https://huggingface.co/MLRS/BERTu",
+    "note": "Maltese BERT model"
+   },
+   {
+    "name": "mBERTu",
+    "url": "https://huggingface.co/MLRS/mBERTu",
+    "note": "Multilingual model adapted to Maltese"
+   },
+   {
+    "name": "Korpus Malti",
+    "url": "https://huggingface.co/datasets/MLRS/korpus_malti",
+    "note": "Large Maltese text corpus"
+   },
+   {
+    "name": "masri_synthetic",
+    "url": "https://huggingface.co/datasets/MLRS/masri_synthetic",
+    "note": "Synthetic Maltese speech dataset"
+   }
+  ],
+  "openness": "Models and corpora are published on the MLRS Hugging Face organisation and the MLRS site.",
+  "people_public": [],
+  "sources": [
+   "https://mlrs.research.um.edu.mt",
+   "https://huggingface.co/MLRS",
+   "https://arxiv.org/abs/2205.10517"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "BERTu and mBERTu",
+    "note": "Released the first BERT models for Maltese (arXiv 2205.10517)."
+   },
+   {
+    "title": "Korpus Malti",
+    "note": "Maintains and extends a large open Maltese corpus."
+   },
+   {
+    "title": "Maltese speech",
+    "note": "Published synthetic and real speech datasets."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "MLRS/BERTu",
+    "url": "https://huggingface.co/MLRS/BERTu",
+    "kind": "model",
+    "note": "Model with 7 likes on the Hub."
+   },
+   {
+    "name": "MLRS/mBERTu",
+    "url": "https://huggingface.co/MLRS/mBERTu",
+    "kind": "model",
+    "note": "Model with 4 likes on the Hub."
+   },
+   {
+    "name": "MLRS/korpus_malti",
+    "url": "https://huggingface.co/datasets/MLRS/korpus_malti",
+    "kind": "dataset",
+    "note": "Dataset with 9 likes on the Hub."
+   },
+   {
+    "name": "MLRS/MELABench",
+    "url": "https://huggingface.co/spaces/MLRS/MELABench",
+    "kind": "space",
+    "note": "Space with 0 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Pre-training Data Quality and Quantity for a Low-Resource Language: New Corpus and BERT Models for Maltese",
+    "url": "https://arxiv.org/abs/2205.10517",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via the site."
+ },
+ {
+  "id": "mtg-upf",
+  "name": "Music Technology Group (UPF)",
+  "type": "academic",
+  "founded": null,
+  "country": "Spain",
+  "city": "Barcelona",
+  "lat": 41.3874,
+  "lon": 2.1686,
+  "website": "https://www.upf.edu/web/mtg",
+  "huggingface": null,
+  "github": "https://github.com/MTG",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Music Technology Group at Universitat Pompeu Fabra, a research group building open-source audio and music analysis software including the Essentia library.",
+  "focus": [
+   "music AI",
+   "audio analysis"
+  ],
+  "notable_releases": [
+   {
+    "name": "Essentia",
+    "url": "https://github.com/MTG/essentia",
+    "note": "C++ library for audio and music analysis with Python bindings"
+   },
+   {
+    "name": "sms-tools",
+    "url": "https://github.com/MTG/sms-tools",
+    "note": "Sound analysis and synthesis tools for music applications"
+   },
+   {
+    "name": "essentia.js",
+    "url": "https://github.com/MTG/essentia.js",
+    "note": "WebAssembly port of Essentia for the browser"
+   },
+   {
+    "name": "DeepConvSep",
+    "url": "https://github.com/MTG/DeepConvSep",
+    "note": "Deep convolutional networks for musical source separation"
+   }
+  ],
+  "openness": "Libraries and research code are public on GitHub; Essentia is released as open source (AGPL with commercial licences available).",
+  "people_public": [],
+  "sources": [
+   "https://www.upf.edu/web/mtg",
+   "https://github.com/MTG"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Essentia",
+    "note": "Maintains a long-running open audio analysis library with 3,800+ GitHub stars."
+   },
+   {
+    "title": "Browser audio ML",
+    "note": "Ported Essentia to the web with essentia.js."
+   },
+   {
+    "title": "Source separation",
+    "note": "Released DeepConvSep for musical source separation."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "essentia",
+    "url": "https://github.com/MTG/essentia",
+    "note": "C++ library for audio and music analysis, description and synthesis, including Python bindings (3,808 stars)"
+   },
+   {
+    "name": "sms-tools",
+    "url": "https://github.com/MTG/sms-tools",
+    "note": "Sound analysis/synthesis tools for music applications (1,801 stars)"
+   },
+   {
+    "name": "essentia.js",
+    "url": "https://github.com/MTG/essentia.js",
+    "note": "JavaScript library for music/audio analysis and processing powered by Essentia WebAssembly (874 stars)"
+   },
+   {
+    "name": "DeepConvSep",
+    "url": "https://github.com/MTG/DeepConvSep",
+    "note": "Deep Convolutional Neural Networks for Musical Source Separation  (484 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact through the website."
+ },
+ {
+  "id": "ytu-cosmos",
+  "name": "YTU COSMOS AI Research Group",
+  "type": "academic",
+  "founded": null,
+  "country": "Turkey",
+  "city": "Istanbul",
+  "lat": 41.0082,
+  "lon": 28.9784,
+  "website": "https://huggingface.co/ytu-ce-cosmos",
+  "huggingface": "https://huggingface.co/ytu-ce-cosmos",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "COSMOS AI research group at the Computer Engineering Department of Yildiz Technical University in Istanbul, publishing open Turkish language models, corpora and benchmarks.",
+  "focus": [
+   "Turkish LLMs"
+  ],
+  "notable_releases": [
+   {
+    "name": "Turkish-Gemma-9b-T1",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-T1",
+    "note": "Turkish reasoning model built on Gemma"
+   },
+   {
+    "name": "Turkish-Llama-8b",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-v0.1",
+    "note": "Turkish-adapted Llama model"
+   },
+   {
+    "name": "Cosmos Turkish Corpus",
+    "url": "https://huggingface.co/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0",
+    "note": "Turkish text corpus"
+   },
+   {
+    "name": "gsm8k_tr",
+    "url": "https://huggingface.co/datasets/ytu-ce-cosmos/gsm8k_tr",
+    "note": "Turkish translation of GSM8K"
+   }
+  ],
+  "openness": "Model weights and datasets are public on Hugging Face; some checkpoints inherit Gemma or Llama licence terms.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/ytu-ce-cosmos",
+   "https://huggingface.co/ytu-ce-cosmos"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Turkish LLMs",
+    "note": "Released Turkish-specific Llama and Gemma based language models."
+   },
+   {
+    "title": "Turkish corpus",
+    "note": "Published the Cosmos Turkish Corpus."
+   },
+   {
+    "title": "Turkish benchmarks",
+    "note": "Released Turkish versions of reasoning benchmarks such as GSM8K and AIME24."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "ytu-ce-cosmos/Turkish-Gemma-9b-T1",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Gemma-9b-T1",
+    "kind": "model",
+    "note": "Model with 181 likes on the Hub."
+   },
+   {
+    "name": "ytu-ce-cosmos/Turkish-Llama-8b-v0.1",
+    "url": "https://huggingface.co/ytu-ce-cosmos/Turkish-Llama-8b-v0.1",
+    "kind": "model",
+    "note": "Model with 60 likes on the Hub."
+   },
+   {
+    "name": "ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0",
+    "url": "https://huggingface.co/datasets/ytu-ce-cosmos/Cosmos-Turkish-Corpus-v1.0",
+    "kind": "dataset",
+    "note": "Dataset with 28 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via university."
+ },
+ {
+  "id": "ipipan",
+  "name": "Institute of Computer Science PAS (IPI PAN)",
+  "type": "institute",
+  "founded": null,
+  "country": "Poland",
+  "city": "Warsaw",
+  "lat": 52.2297,
+  "lon": 21.0122,
+  "website": "https://ipipan.waw.pl",
+  "huggingface": "https://huggingface.co/ipipan",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Institute of Computer Science of the Polish Academy of Sciences, publishing open Polish retrieval models and question answering datasets.",
+  "focus": [
+   "Polish NLP",
+   "retrieval"
+  ],
+  "notable_releases": [
+   {
+    "name": "silver-retriever-base-v1",
+    "url": "https://huggingface.co/ipipan/silver-retriever-base-v1",
+    "note": "Polish passage retriever"
+   },
+   {
+    "name": "PolQA",
+    "url": "https://huggingface.co/datasets/ipipan/polqa",
+    "note": "Polish question answering dataset"
+   },
+   {
+    "name": "MAUPQA",
+    "url": "https://huggingface.co/datasets/ipipan/maupqa",
+    "note": "Polish passage retrieval dataset"
+   },
+   {
+    "name": "NKJP1M",
+    "url": "https://huggingface.co/datasets/ipipan/nkjp1m",
+    "note": "Annotated Polish corpus"
+   }
+  ],
+  "openness": "Models and datasets are published on the ipipan Hugging Face organisation.",
+  "people_public": [],
+  "sources": [
+   "https://ipipan.waw.pl",
+   "https://huggingface.co/ipipan",
+   "https://arxiv.org/abs/2309.08469"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Silver Retriever",
+    "note": "Released Polish neural passage retrievers (arXiv 2309.08469)."
+   },
+   {
+    "title": "PolQA",
+    "note": "Published a Polish QA dataset (arXiv 2212.08897)."
+   },
+   {
+    "title": "Polish corpora",
+    "note": "Provides NKJP-derived corpora."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "ipipan/silver-retriever-base-v1",
+    "url": "https://huggingface.co/ipipan/silver-retriever-base-v1",
+    "kind": "model",
+    "note": "Model with 14 likes on the Hub."
+   },
+   {
+    "name": "ipipan/silver-retriever-base-v1.1",
+    "url": "https://huggingface.co/ipipan/silver-retriever-base-v1.1",
+    "kind": "model",
+    "note": "Model with 12 likes on the Hub."
+   },
+   {
+    "name": "ipipan/polqa",
+    "url": "https://huggingface.co/datasets/ipipan/polqa",
+    "kind": "dataset",
+    "note": "Dataset with 13 likes on the Hub."
+   },
+   {
+    "name": "ipipan/nlprepl",
+    "url": "https://huggingface.co/spaces/ipipan/nlprepl",
+    "kind": "space",
+    "note": "Space with 4 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Silver Retriever: Advancing Neural Passage Retrieval for Polish Question Answering",
+    "url": "https://arxiv.org/abs/2309.08469",
+    "year": 2023
+   },
+   {
+    "title": "PolQA: Polish Question Answering Dataset",
+    "url": "https://arxiv.org/abs/2212.08897",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "clarin-pl",
+  "name": "CLARIN-PL (Wroclaw)",
+  "type": "academic",
+  "founded": null,
+  "country": "Poland",
+  "city": "Wroclaw",
+  "lat": 51.1079,
+  "lon": 17.0385,
+  "website": "https://clarin-pl.eu",
+  "huggingface": "https://huggingface.co/clarin-pl",
+  "github": "https://github.com/CLARIN-PL",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "CLARIN-PL is the Polish language technology infrastructure based at Wroclaw University of Science and Technology, publishing Polish NLP tools, models, benchmarks and corpora.",
+  "focus": [
+   "Polish NLP",
+   "benchmarks"
+  ],
+  "notable_releases": [
+   {
+    "name": "LEPISZCZE",
+    "url": "https://github.com/CLARIN-PL/LEPISZCZE",
+    "note": "Polish NLP benchmark"
+   },
+   {
+    "name": "embeddings",
+    "url": "https://github.com/CLARIN-PL/embeddings",
+    "note": "Text representation library for NLP tasks"
+   },
+   {
+    "name": "PolDeepNer",
+    "url": "https://github.com/CLARIN-PL/PolDeepNer",
+    "note": "Deep learning NER for Polish"
+   },
+   {
+    "name": "FastPDN",
+    "url": "https://huggingface.co/clarin-pl/FastPDN",
+    "note": "Named entity recogniser model"
+   }
+  ],
+  "openness": "Code, models and datasets are public on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://clarin-pl.eu",
+   "https://huggingface.co/clarin-pl",
+   "https://github.com/CLARIN-PL",
+   "https://arxiv.org/abs/2211.13112"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "LEPISZCZE",
+    "note": "Designed a Polish NLP benchmark (arXiv 2211.13112)."
+   },
+   {
+    "title": "Polish datasets",
+    "note": "Released corpora such as KPWr NER and PoQuAD."
+   },
+   {
+    "title": "Polish tools",
+    "note": "Maintains NER and embedding tools."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "embeddings",
+    "url": "https://github.com/CLARIN-PL/embeddings",
+    "note": "Embeddings: State-of-the-art Text Representations for Natural Language Processing tasks, an initial version of (37 stars)"
+   },
+   {
+    "name": "PolDeepNer",
+    "url": "https://github.com/CLARIN-PL/PolDeepNer",
+    "note": "Tool for named entity recognition for Polish based on deep learning. (31 stars)"
+   },
+   {
+    "name": "chatgpt-evaluation-01-2023",
+    "url": "https://github.com/CLARIN-PL/chatgpt-evaluation-01-2023",
+    "note": "Code, datasets and results of the ChatGPT evaluation presented in paper \"ChatGPT: Jack of all trades, master o (28 stars)"
+   },
+   {
+    "name": "LEPISZCZE",
+    "url": "https://github.com/CLARIN-PL/LEPISZCZE",
+    "note": "This is the way: designing and compiling LEPISZCZE, a comprehensive NLP benchmark for Polish (15 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "clarin-pl/FastPDN",
+    "url": "https://huggingface.co/clarin-pl/FastPDN",
+    "kind": "model",
+    "note": "Model with 12 likes on the Hub."
+   },
+   {
+    "name": "clarin-pl/fastText-kgr10",
+    "url": "https://huggingface.co/clarin-pl/fastText-kgr10",
+    "kind": "model",
+    "note": "Model with 2 likes on the Hub."
+   },
+   {
+    "name": "clarin-pl/kpwr-ner",
+    "url": "https://huggingface.co/datasets/clarin-pl/kpwr-ner",
+    "kind": "dataset",
+    "note": "Dataset with 10 likes on the Hub."
+   },
+   {
+    "name": "clarin-pl/datasets-explorer",
+    "url": "https://huggingface.co/spaces/clarin-pl/datasets-explorer",
+    "kind": "space",
+    "note": "Space with 2 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "This is the way: designing and compiling LEPISZCZE, a comprehensive NLP benchmark for Polish",
+    "url": "https://arxiv.org/abs/2211.13112",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "gpt-nl",
+  "name": "GPT-NL",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "Netherlands",
+  "city": "The Hague",
+  "lat": 52.0705,
+  "lon": 4.3007,
+  "website": "https://gpt-nl.nl",
+  "huggingface": "https://huggingface.co/GPT-NL",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Dutch non-profit collaboration between TNO, NFI and SURF building a responsible Dutch language model, publishing its permissioned public training corpus on Hugging Face.",
+  "focus": [
+   "Dutch LLM",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "GPT-NL Public Corpus",
+    "url": "https://huggingface.co/datasets/GPT-NL/GPT-NL_Public_Corpus",
+    "note": "Public training corpus (CC-BY-4.0 card)"
+   },
+   {
+    "name": "DuidelijkeTaal",
+    "url": "https://huggingface.co/datasets/GPT-NL/DuidelijkeTaal-v1.0-split",
+    "note": "Plain-language Dutch dataset"
+   },
+   {
+    "name": "dutch-proverbs",
+    "url": "https://huggingface.co/datasets/GPT-NL/dutch-proverbs",
+    "note": "Dutch proverbs dataset"
+   },
+   {
+    "name": "Collection metadata",
+    "url": "https://huggingface.co/datasets/GPT-NL/Collection-metadata",
+    "note": "Metadata for the collected corpus"
+   }
+  ],
+  "openness": "Public corpus and datasets are open on Hugging Face; open model weights could not be verified at the time of checking.",
+  "people_public": [],
+  "sources": [
+   "https://gpt-nl.nl",
+   "https://huggingface.co/GPT-NL"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Public Corpus",
+    "note": "Released a Dutch-focused public corpus under a CC-BY-4.0 card."
+   },
+   {
+    "title": "Dataset transparency",
+    "note": "Published collection metadata for its data."
+   },
+   {
+    "title": "Dutch national effort",
+    "note": "Partnership of three non-profit organisations aimed at a transparent Dutch LLM."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "GPT-NL/GPT-NL_Public_Corpus",
+    "url": "https://huggingface.co/datasets/GPT-NL/GPT-NL_Public_Corpus",
+    "kind": "dataset",
+    "note": "Dataset with 23 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "norwai",
+  "name": "NorwAI (NTNU)",
+  "type": "institute",
+  "founded": null,
+  "country": "Norway",
+  "city": "Trondheim",
+  "lat": 63.4305,
+  "lon": 10.3951,
+  "website": "https://www.ntnu.edu/norwai",
+  "huggingface": "https://huggingface.co/NorwAI",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Norwegian Research Center for AI Innovation at NTNU, publishing open-weight Norwegian language models.",
+  "focus": [
+   "Norwegian LLMs"
+  ],
+  "notable_releases": [
+   {
+    "name": "NorwAI-Mistral-7B",
+    "url": "https://huggingface.co/NorwAI/NorwAI-Mistral-7B",
+    "note": "Norwegian adaptation of Mistral 7B"
+   },
+   {
+    "name": "NorwAI-Mistral-7B-instruct",
+    "url": "https://huggingface.co/NorwAI/NorwAI-Mistral-7B-instruct",
+    "note": "Instruction-tuned variant"
+   },
+   {
+    "name": "NorwAI-Llama2-7B",
+    "url": "https://huggingface.co/NorwAI/NorwAI-Llama2-7B",
+    "note": "Norwegian Llama 2 model"
+   },
+   {
+    "name": "NorwAI-Magistral-24B-reasoning",
+    "url": "https://huggingface.co/NorwAI/NorwAI-Magistral-24B-reasoning",
+    "note": "24B Norwegian reasoning model"
+   }
+  ],
+  "openness": "Model weights are public on the NorwAI Hugging Face organisation.",
+  "people_public": [],
+  "sources": [
+   "https://www.ntnu.edu/norwai",
+   "https://huggingface.co/NorwAI"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Norwegian LLMs",
+    "note": "Released several Norwegian base and instruct models."
+   },
+   {
+    "title": "Reasoning model",
+    "note": "Published a 24B Norwegian reasoning model."
+   },
+   {
+    "title": "Open centre",
+    "note": "Publishes models through its open Hugging Face organisation."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "NorwAI/NorwAI-Magistral-24B-reasoning",
+    "url": "https://huggingface.co/NorwAI/NorwAI-Magistral-24B-reasoning",
+    "kind": "model",
+    "note": "Model with 16 likes on the Hub."
+   },
+   {
+    "name": "NorwAI/NorwAI-Mistral-7B-instruct",
+    "url": "https://huggingface.co/NorwAI/NorwAI-Mistral-7B-instruct",
+    "kind": "model",
+    "note": "Model with 12 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "ellis-alicante",
+  "name": "ELLIS Alicante",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "Spain",
+  "city": "Alicante",
+  "lat": 38.3452,
+  "lon": -0.481,
+  "website": "https://ellisalicante.org",
+  "huggingface": null,
+  "github": "https://github.com/ellisalicante",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "ELLIS Alicante is a non-profit research unit of the ELLIS network focused on human-centric AI, with research code and benchmarks on GitHub.",
+  "focus": [
+   "responsible AI"
+  ],
+  "notable_releases": [
+   {
+    "name": "GraphRewiring-Tutorial",
+    "url": "https://github.com/ellisalicante/GraphRewiring-Tutorial",
+    "note": "Tutorial code from the Learning on Graphs conference"
+   },
+   {
+    "name": "OpenFilter",
+    "url": "https://github.com/ellisalicante/OpenFilter",
+    "note": "Code for the OpenFilter paper"
+   },
+   {
+    "name": "LLMs-Mental-Health-Crisis",
+    "url": "https://github.com/ellisalicante/LLMs-Mental-Health-Crisis",
+    "note": "Evaluation of mental health crisis handling by LLMs"
+   },
+   {
+    "name": "Multilingual red teaming",
+    "url": "https://github.com/ellisalicante/multilingual-multimodal-red-teaming",
+    "note": "Code for multilingual and multimodal red teaming"
+   }
+  ],
+  "openness": "Paper code and evaluation repositories are public on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://ellisalicante.org",
+   "https://github.com/ellisalicante"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Graph learning tutorial",
+    "note": "Released a graph rewiring tutorial (Learning on Graphs 2022)."
+   },
+   {
+    "title": "LLM safety evaluation",
+    "note": "Published evaluation code on mental health crisis handling."
+   },
+   {
+    "title": "Red teaming",
+    "note": "Released multilingual and multimodal red teaming code."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "GraphRewiring-Tutorial",
+    "url": "https://github.com/ellisalicante/GraphRewiring-Tutorial",
+    "note": "This repository holds code and other relevant files for the Learning on Graphs 2022 (LoG) tutorial \"Graph Rewi (54 stars)"
+   },
+   {
+    "name": "OpenFilter",
+    "url": "https://github.com/ellisalicante/OpenFilter",
+    "note": "This repository refers to the paper currently under review for the 36th Conference on Neural Information Proce (13 stars)"
+   },
+   {
+    "name": "LLMs-Mental-Health-Crisis",
+    "url": "https://github.com/ellisalicante/LLMs-Mental-Health-Crisis",
+    "note": "JMIR MH 2026 - \"Between Help and Harm: An Evaluation of Mental Health Crisis Handling by LLMs\" Adrian Arnaiz-R (9 stars)"
+   },
+   {
+    "name": "multilingual-multimodal-red-teaming",
+    "url": "https://github.com/ellisalicante/multilingual-multimodal-red-teaming",
+    "note": "Repository accompanying our paper titled \"Beyond Words: Multilingual and Multimodal Red Teaming of MLLMs\", pre (3 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "spraakbanken",
+  "name": "Sprakbanken Text (University of Gothenburg)",
+  "type": "academic",
+  "founded": null,
+  "country": "Sweden",
+  "city": "Gothenburg",
+  "lat": 57.7089,
+  "lon": 11.9746,
+  "website": "https://spraakbanken.gu.se",
+  "huggingface": null,
+  "github": "https://github.com/spraakbanken",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Sprakbanken Text at the University of Gothenburg develops Swedish language resources and open tools such as the Sparv text analysis pipeline and the Korp corpus search.",
+  "focus": [
+   "Swedish NLP",
+   "corpora"
+  ],
+  "notable_releases": [
+   {
+    "name": "Sparv",
+    "url": "https://github.com/spraakbanken/sparv",
+    "note": "Text analysis pipeline"
+   },
+   {
+    "name": "Korp backend",
+    "url": "https://github.com/spraakbanken/korp-backend",
+    "note": "Backend for the Korp corpus search tool"
+   },
+   {
+    "name": "Korp frontend",
+    "url": "https://github.com/spraakbanken/korp-frontend",
+    "note": "Web frontend for corpus search"
+   },
+   {
+    "name": "multiged-2023",
+    "url": "https://github.com/spraakbanken/multiged-2023",
+    "note": "Multilingual grammatical error detection shared task resources"
+   }
+  ],
+  "openness": "Tools are open source on GitHub; corpora are distributed through the Sprakbanken service.",
+  "people_public": [],
+  "sources": [
+   "https://spraakbanken.gu.se",
+   "https://github.com/spraakbanken"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Sparv pipeline",
+    "note": "Maintains an open text annotation pipeline for Swedish."
+   },
+   {
+    "title": "Korp",
+    "note": "Maintains the corpus search platform used by many language banks."
+   },
+   {
+    "title": "Swedish corpora",
+    "note": "Distributes large Swedish text resources."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "sparv",
+    "url": "https://github.com/spraakbanken/sparv",
+    "note": "Språkbanken's text analysis tool (29 stars)"
+   },
+   {
+    "name": "korp-backend",
+    "url": "https://github.com/spraakbanken/korp-backend",
+    "note": "Backend for Korp, Språkbanken's corpus search tool (17 stars)"
+   },
+   {
+    "name": "korp-frontend",
+    "url": "https://github.com/spraakbanken/korp-frontend",
+    "note": "Frontend for Korp, a tool using the IMS Open Corpus Workbench (CWB). (16 stars)"
+   },
+   {
+    "name": "multiged-2023",
+    "url": "https://github.com/spraakbanken/multiged-2023",
+    "note": "Open-source repository. (15 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "dfki",
+  "name": "DFKI",
+  "type": "institute",
+  "founded": null,
+  "country": "Germany",
+  "city": "Kaiserslautern",
+  "lat": 49.4401,
+  "lon": 7.7491,
+  "website": "https://www.dfki.de",
+  "huggingface": "https://huggingface.co/DFKI",
+  "github": "https://github.com/DFKI",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "DFKI is the German Research Center for Artificial Intelligence, a non-profit research company with several sites, publishing research code and datasets on GitHub and Hugging Face.",
+  "focus": [
+   "AI research"
+  ],
+  "notable_releases": [
+   {
+    "name": "SphereCraft",
+    "url": "https://github.com/DFKI/spherecrafthub",
+    "note": "Repository for the SphereCraft paper"
+   },
+   {
+    "name": "Awesome-DFKI",
+    "url": "https://github.com/DFKI/Awesome-DFKI",
+    "note": "List of DFKI open projects"
+   },
+   {
+    "name": "TreeSatAI benchmark",
+    "url": "https://github.com/DFKI/treesatai_benchmark",
+    "note": "Tree species classification in remote sensing"
+   },
+   {
+    "name": "cghd",
+    "url": "https://github.com/DFKI/cghd",
+    "note": "Dataset of handwritten circuit diagram images"
+   }
+  ],
+  "openness": "Multiple public repositories and Hugging Face datasets; DFKI is broad, so openness varies by project.",
+  "people_public": [],
+  "sources": [
+   "https://www.dfki.de",
+   "https://huggingface.co/DFKI",
+   "https://github.com/DFKI"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Remote sensing benchmarks",
+    "note": "Released the TreeSatAI benchmark code."
+   },
+   {
+    "title": "Document datasets",
+    "note": "Published a handwritten circuit diagram dataset."
+   },
+   {
+    "title": "Open project index",
+    "note": "Maintains a curated list of open DFKI groups and projects."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "spherecrafthub",
+    "url": "https://github.com/DFKI/spherecrafthub",
+    "note": "The Github page for the SphereCraft paper (32 stars)"
+   },
+   {
+    "name": "Awesome-DFKI",
+    "url": "https://github.com/DFKI/Awesome-DFKI",
+    "note": "A curated list of awesome DFKI GitLabs, Groups and Projects. (27 stars)"
+   },
+   {
+    "name": "treesatai_benchmark",
+    "url": "https://github.com/DFKI/treesatai_benchmark",
+    "note": "Tree species classification using LightGBM in the context of project TreeSatAI (13 stars)"
+   },
+   {
+    "name": "cghd",
+    "url": "https://github.com/DFKI/cghd",
+    "note": "A Public Ground-Truth Dataset for Handwritten Circuit Diagram Images (12 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "DFKI/glove-th-cc100",
+    "url": "https://huggingface.co/DFKI/glove-th-cc100",
+    "kind": "model",
+    "note": "Model with 1 likes on the Hub."
+   },
+   {
+    "name": "DFKI/glove-sq-cc100",
+    "url": "https://huggingface.co/DFKI/glove-sq-cc100",
+    "kind": "model",
+    "note": "Model with 1 likes on the Hub."
+   },
+   {
+    "name": "DFKI/radr_intents",
+    "url": "https://huggingface.co/datasets/DFKI/radr_intents",
+    "kind": "dataset",
+    "note": "Dataset with 0 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "cardiffnlp",
+  "name": "Cardiff NLP",
+  "type": "academic",
+  "founded": null,
+  "country": "United Kingdom",
+  "city": "Cardiff",
+  "lat": 51.4816,
+  "lon": -3.1791,
+  "website": "https://www.cardiffnlp.org",
+  "huggingface": "https://huggingface.co/cardiffnlp",
+  "github": "https://github.com/cardiffnlp",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Cardiff NLP is the NLP group at Cardiff University, known for TweetEval, TweetNLP and the Twitter-RoBERTa models used widely for social media analysis.",
+  "focus": [
+   "social media NLP"
+  ],
+  "notable_releases": [
+   {
+    "name": "twitter-roberta-base-sentiment-latest",
+    "url": "https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest",
+    "note": "Sentiment model with millions of downloads"
+   },
+   {
+    "name": "tweet_eval",
+    "url": "https://huggingface.co/datasets/cardiffnlp/tweet_eval",
+    "note": "Unified benchmark for tweet classification"
+   },
+   {
+    "name": "TweetNLP",
+    "url": "https://github.com/cardiffnlp/tweetnlp",
+    "note": "Python library for Twitter NLP"
+   },
+   {
+    "name": "TimeLMs",
+    "url": "https://github.com/cardiffnlp/timelms",
+    "note": "Diachronic language models from Twitter"
+   }
+  ],
+  "openness": "Models, datasets and libraries are public on Hugging Face and GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://www.cardiffnlp.org",
+   "https://huggingface.co/cardiffnlp",
+   "https://github.com/cardiffnlp",
+   "https://arxiv.org/abs/2010.12421"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "TweetEval",
+    "note": "Created a unified benchmark for tweet classification (arXiv 2010.12421)."
+   },
+   {
+    "title": "TimeLMs",
+    "note": "Released diachronic language models (arXiv 2202.03829)."
+   },
+   {
+    "title": "XLM-T",
+    "note": "Released multilingual Twitter language models (arXiv 2104.12250)."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "tweeteval",
+    "url": "https://github.com/cardiffnlp/tweeteval",
+    "note": "Repository for TweetEval (406 stars)"
+   },
+   {
+    "name": "tweetnlp",
+    "url": "https://github.com/cardiffnlp/tweetnlp",
+    "note": "TweetNLP for all the NLP enthusiasts working on Twitter! The Python library tweetnlp provides a collection of  (395 stars)"
+   },
+   {
+    "name": "xlm-t",
+    "url": "https://github.com/cardiffnlp/xlm-t",
+    "note": "Repository for XLM-T, a framework for evaluating multilingual language models on Twitter data (167 stars)"
+   },
+   {
+    "name": "timelms",
+    "url": "https://github.com/cardiffnlp/timelms",
+    "note": "TimeLMs: Diachronic Language Models from Twitter (114 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "cardiffnlp/twitter-roberta-base-sentiment-latest",
+    "url": "https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment-latest",
+    "kind": "model",
+    "note": "Model with 858 likes on the Hub."
+   },
+   {
+    "name": "cardiffnlp/twitter-roberta-base-sentiment",
+    "url": "https://huggingface.co/cardiffnlp/twitter-roberta-base-sentiment",
+    "kind": "model",
+    "note": "Model with 343 likes on the Hub."
+   },
+   {
+    "name": "cardiffnlp/tweet_eval",
+    "url": "https://huggingface.co/datasets/cardiffnlp/tweet_eval",
+    "kind": "dataset",
+    "note": "Dataset with 164 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "TweetEval: Unified Benchmark and Comparative Evaluation for Tweet Classification",
+    "url": "https://arxiv.org/abs/2010.12421",
+    "year": 2020
+   },
+   {
+    "title": "TimeLMs: Diachronic Language Models from Twitter",
+    "url": "https://arxiv.org/abs/2202.03829",
+    "year": 2022
+   },
+   {
+    "title": "XLM-T: Multilingual Language Models in Twitter for Sentiment Analysis and Beyond",
+    "url": "https://arxiv.org/abs/2104.12250",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "automl-freiburg",
+  "name": "AutoML Groups (Freiburg and Hannover)",
+  "type": "academic",
+  "founded": null,
+  "country": "Germany",
+  "city": "Freiburg",
+  "lat": 47.999,
+  "lon": 7.8421,
+  "website": "https://www.automl.org",
+  "huggingface": null,
+  "github": "https://github.com/automl",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "AutoML research groups at the Universities of Freiburg and Hannover, maintainers of auto-sklearn, Auto-PyTorch and SMAC3.",
+  "focus": [
+   "AutoML"
+  ],
+  "notable_releases": [
+   {
+    "name": "auto-sklearn",
+    "url": "https://github.com/automl/auto-sklearn",
+    "note": "Automated machine learning with scikit-learn (8,000+ stars)"
+   },
+   {
+    "name": "Auto-PyTorch",
+    "url": "https://github.com/automl/Auto-PyTorch",
+    "note": "Architecture search and hyperparameter optimisation for PyTorch"
+   },
+   {
+    "name": "SMAC3",
+    "url": "https://github.com/automl/SMAC3",
+    "note": "Bayesian optimisation package for hyperparameters"
+   },
+   {
+    "name": "HpBandSter",
+    "url": "https://github.com/automl/HpBandSter",
+    "note": "Distributed Hyperband implementation"
+   }
+  ],
+  "openness": "Libraries are open source on GitHub under the automl organisation.",
+  "people_public": [],
+  "sources": [
+   "https://www.automl.org",
+   "https://github.com/automl",
+   "https://arxiv.org/abs/2109.09831"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "auto-sklearn",
+    "note": "Maintains a widely used open AutoML system."
+   },
+   {
+    "title": "SMAC3",
+    "note": "Released a versatile Bayesian optimisation package (arXiv 2109.09831)."
+   },
+   {
+    "title": "Auto-PyTorch",
+    "note": "Released automated deep learning tooling (arXiv 2006.13799)."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "auto-sklearn",
+    "url": "https://github.com/automl/auto-sklearn",
+    "note": "Automated Machine Learning with scikit-learn (8,148 stars)"
+   },
+   {
+    "name": "Auto-PyTorch",
+    "url": "https://github.com/automl/Auto-PyTorch",
+    "note": "Automatic architecture search and hyperparameter optimization for PyTorch (2,541 stars)"
+   },
+   {
+    "name": "SMAC3",
+    "url": "https://github.com/automl/SMAC3",
+    "note": "SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter Optimization (1,273 stars)"
+   },
+   {
+    "name": "HpBandSter",
+    "url": "https://github.com/automl/HpBandSter",
+    "note": "a distributed Hyperband implementation on Steroids (631 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "SMAC3: A Versatile Bayesian Optimization Package for Hyperparameter Optimization",
+    "url": "https://arxiv.org/abs/2109.09831",
+    "year": 2021
+   },
+   {
+    "title": "Auto-PyTorch Tabular: Multi-Fidelity MetaLearning for Efficient and Robust AutoDL",
+    "url": "https://arxiv.org/abs/2006.13799",
+    "year": 2020
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "aiml-tuda",
+  "name": "AIML Lab (TU Darmstadt)",
+  "type": "academic",
+  "founded": null,
+  "country": "Germany",
+  "city": "Darmstadt",
+  "lat": 49.8728,
+  "lon": 8.6512,
+  "website": "https://www.aiml.informatik.tu-darmstadt.de",
+  "huggingface": "https://huggingface.co/AIML-TUDA",
+  "github": "https://github.com/ml-research",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Artificial Intelligence and Machine Learning Lab at TU Darmstadt, open-sourcing safety tooling for vision-language and diffusion models such as LlavaGuard and Safe Latent Diffusion.",
+  "focus": [
+   "AI safety",
+   "vision-language"
+  ],
+  "notable_releases": [
+   {
+    "name": "LlavaGuard v1.2 7B",
+    "url": "https://huggingface.co/AIML-TUDA/LlavaGuard-v1.2-7B-OV-hf",
+    "note": "Vision-language safety model"
+   },
+   {
+    "name": "stable-diffusion-safe",
+    "url": "https://huggingface.co/AIML-TUDA/stable-diffusion-safe",
+    "note": "Safe Latent Diffusion checkpoint"
+   },
+   {
+    "name": "I2P",
+    "url": "https://huggingface.co/datasets/AIML-TUDA/i2p",
+    "note": "Inappropriate image prompts dataset"
+   },
+   {
+    "name": "semantic-image-editing",
+    "url": "https://github.com/ml-research/semantic-image-editing",
+    "note": "Code for semantic guidance in diffusion"
+   }
+  ],
+  "openness": "Models, datasets and code are public on Hugging Face and GitHub (ml-research).",
+  "people_public": [],
+  "sources": [
+   "https://www.aiml.informatik.tu-darmstadt.de",
+   "https://huggingface.co/AIML-TUDA",
+   "https://github.com/ml-research",
+   "https://arxiv.org/abs/2406.05113"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "LlavaGuard",
+    "note": "Released open VLM-based safeguards for datasets and models (arXiv 2406.05113)."
+   },
+   {
+    "title": "Safe Latent Diffusion",
+    "note": "Released a method and model for mitigating inappropriate generation (arXiv 2211.05105)."
+   },
+   {
+    "title": "SEGA",
+    "note": "Published semantic guidance for text-to-image models (arXiv 2301.12247)."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "semantic-image-editing",
+    "url": "https://github.com/ml-research/semantic-image-editing",
+    "note": "Open-source repository. (209 stars)"
+   },
+   {
+    "name": "liground",
+    "url": "https://github.com/ml-research/liground",
+    "note": "A free, open-source and modern Chess Variant Analysis GUI for the 21st century (160 stars)"
+   },
+   {
+    "name": "rational_activations",
+    "url": "https://github.com/ml-research/rational_activations",
+    "note": "Rational Activation Functions - Replacing Padé Activation Units (107 stars)"
+   },
+   {
+    "name": "safe-latent-diffusion",
+    "url": "https://github.com/ml-research/safe-latent-diffusion",
+    "note": "Official Implementation of Safe Latent Diffusion for Text2Image (97 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "AIML-TUDA/stable-diffusion-safe",
+    "url": "https://huggingface.co/AIML-TUDA/stable-diffusion-safe",
+    "kind": "model",
+    "note": "Model with 15 likes on the Hub."
+   },
+   {
+    "name": "AIML-TUDA/LlavaGuard-v1.0-7B",
+    "url": "https://huggingface.co/AIML-TUDA/LlavaGuard-v1.0-7B",
+    "kind": "model",
+    "note": "Model with 11 likes on the Hub."
+   },
+   {
+    "name": "AIML-TUDA/i2p",
+    "url": "https://huggingface.co/datasets/AIML-TUDA/i2p",
+    "kind": "dataset",
+    "note": "Dataset with 21 likes on the Hub."
+   },
+   {
+    "name": "AIML-TUDA/semantic-diffusion",
+    "url": "https://huggingface.co/spaces/AIML-TUDA/semantic-diffusion",
+    "kind": "space",
+    "note": "Space with 29 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "LlavaGuard: An Open VLM-based Framework for Safeguarding Vision Datasets and Models",
+    "url": "https://arxiv.org/abs/2406.05113",
+    "year": 2024
+   },
+   {
+    "title": "Safe Latent Diffusion: Mitigating Inappropriate Degeneration in Diffusion Models",
+    "url": "https://arxiv.org/abs/2211.05105",
+    "year": 2022
+   },
+   {
+    "title": "SEGA: Instructing Text-to-Image Models using Semantic Guidance",
+    "url": "https://arxiv.org/abs/2301.12247",
+    "year": 2023
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "bethgelab",
+  "name": "Bethge Lab (Tuebingen)",
+  "type": "academic",
+  "founded": null,
+  "country": "Germany",
+  "city": "Tubingen",
+  "lat": 48.5216,
+  "lon": 9.0576,
+  "website": "https://bethgelab.org",
+  "huggingface": "https://huggingface.co/bethgelab",
+  "github": "https://github.com/bethgelab",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Bethge Lab at the University of Tuebingen studies robustness and human-like vision, releasing Foolbox and several robustness benchmarks.",
+  "focus": [
+   "robustness",
+   "vision"
+  ],
+  "notable_releases": [
+   {
+    "name": "Foolbox",
+    "url": "https://github.com/bethgelab/foolbox",
+    "note": "Toolbox for adversarial examples (about 3,000 stars)"
+   },
+   {
+    "name": "imagecorruptions",
+    "url": "https://github.com/bethgelab/imagecorruptions",
+    "note": "Image corruption package for robustness tests"
+   },
+   {
+    "name": "model-vs-human",
+    "url": "https://github.com/bethgelab/model-vs-human",
+    "note": "Benchmark of models against human behaviour"
+   },
+   {
+    "name": "CuratedThoughts",
+    "url": "https://huggingface.co/datasets/bethgelab/CuratedThoughts",
+    "note": "Dataset on the Hub"
+   }
+  ],
+  "openness": "Code and datasets are open on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://bethgelab.org",
+   "https://huggingface.co/bethgelab",
+   "https://github.com/bethgelab",
+   "https://arxiv.org/abs/1707.04131"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Foolbox",
+    "note": "Released an adversarial robustness toolbox (arXiv 1707.04131)."
+   },
+   {
+    "title": "Robustness benchmarks",
+    "note": "Released corruption benchmarks (arXiv 1907.07484)."
+   },
+   {
+    "title": "Human vs machine vision",
+    "note": "Open benchmark comparing models to humans (arXiv 2106.07411)."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "foolbox",
+    "url": "https://github.com/bethgelab/foolbox",
+    "note": "A Python toolbox to create adversarial examples that fool neural networks in PyTorch, TensorFlow, and JAX (2,984 stars)"
+   },
+   {
+    "name": "imagecorruptions",
+    "url": "https://github.com/bethgelab/imagecorruptions",
+    "note": "Python package to corrupt arbitrary images. (486 stars)"
+   },
+   {
+    "name": "model-vs-human",
+    "url": "https://github.com/bethgelab/model-vs-human",
+    "note": "Benchmark your model on out-of-distribution datasets with carefully collected human comparison data (NeurIPS 2 (365 stars)"
+   },
+   {
+    "name": "siamese-mask-rcnn",
+    "url": "https://github.com/bethgelab/siamese-mask-rcnn",
+    "note": "Siamese Mask R-CNN model for one-shot instance segmentation (354 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "bethgelab/ViT-B-16-SigLIP-256_cabs-fm_recap_0.8",
+    "url": "https://huggingface.co/bethgelab/ViT-B-16-SigLIP-256_cabs-fm_recap_0.8",
+    "kind": "model",
+    "note": "Model with 1 likes on the Hub."
+   },
+   {
+    "name": "bethgelab/motion_energy_segmentation_model",
+    "url": "https://huggingface.co/bethgelab/motion_energy_segmentation_model",
+    "kind": "model",
+    "note": "Model with 0 likes on the Hub."
+   },
+   {
+    "name": "bethgelab/CuratedThoughts",
+    "url": "https://huggingface.co/datasets/bethgelab/CuratedThoughts",
+    "kind": "dataset",
+    "note": "Dataset with 45 likes on the Hub."
+   },
+   {
+    "name": "bethgelab/lm-similarity",
+    "url": "https://huggingface.co/spaces/bethgelab/lm-similarity",
+    "kind": "space",
+    "note": "Space with 17 likes on the Hub."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Foolbox: A Python toolbox to benchmark the robustness of machine learning models",
+    "url": "https://arxiv.org/abs/1707.04131",
+    "year": 2017
+   },
+   {
+    "title": "Benchmarking Robustness in Object Detection: Autonomous Driving when Winter is Coming",
+    "url": "https://arxiv.org/abs/1907.07484",
+    "year": 2019
+   },
+   {
+    "title": "Partial success in closing the gap between human and machine vision",
+    "url": "https://arxiv.org/abs/2106.07411",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "eth-sri",
+  "name": "SRI Lab (ETH Zurich)",
+  "type": "academic",
+  "founded": null,
+  "country": "Switzerland",
+  "city": "Zurich",
+  "lat": 47.3769,
+  "lon": 8.5417,
+  "website": "https://www.sri.inf.ethz.ch",
+  "huggingface": null,
+  "github": "https://github.com/eth-sri",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Secure, Reliable and Intelligent Systems Lab at ETH Zurich, publishing open code for LLM programming (LMQL), neural network verification and ML for code.",
+  "focus": [
+   "LLM programming",
+   "robustness"
+  ],
+  "notable_releases": [
+   {
+    "name": "LMQL",
+    "url": "https://github.com/eth-sri/lmql",
+    "note": "Query language for LLM programming (4,000+ stars)"
+   },
+   {
+    "name": "ERAN",
+    "url": "https://github.com/eth-sri/eran",
+    "note": "Robustness analyzer for deep networks"
+   },
+   {
+    "name": "Debin",
+    "url": "https://github.com/eth-sri/debin",
+    "note": "ML to deobfuscate binaries"
+   },
+   {
+    "name": "Securify2",
+    "url": "https://github.com/eth-sri/securify2",
+    "note": "Smart contract security analyzer"
+   }
+  ],
+  "openness": "Tools are public on GitHub, mostly under open-source licences.",
+  "people_public": [],
+  "sources": [
+   "https://www.sri.inf.ethz.ch",
+   "https://github.com/eth-sri",
+   "https://arxiv.org/abs/2212.06094"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "LMQL",
+    "note": "Created a language for constrained LLM programming (arXiv 2212.06094)."
+   },
+   {
+    "title": "Neural network verification",
+    "note": "Released ERAN for certifying robustness."
+   },
+   {
+    "title": "ML for code",
+    "note": "Released Debin for binary analysis."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "lmql",
+    "url": "https://github.com/eth-sri/lmql",
+    "note": "A language for constraint-guided and efficient LLM programming. (4,228 stars)"
+   },
+   {
+    "name": "securify2",
+    "url": "https://github.com/eth-sri/securify2",
+    "note": "Securify v2.0 (636 stars)"
+   },
+   {
+    "name": "debin",
+    "url": "https://github.com/eth-sri/debin",
+    "note": "Machine Learning to Deobfuscate Binaries (453 stars)"
+   },
+   {
+    "name": "eran",
+    "url": "https://github.com/eth-sri/eran",
+    "note": "ETH Robustness Analyzer for Deep Neural Networks (348 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "Prompting Is Programming: A Query Language for Large Language Models",
+    "url": "https://arxiv.org/abs/2212.06094",
+    "year": 2022
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "vita-epfl",
+  "name": "VITA (EPFL)",
+  "type": "academic",
+  "founded": null,
+  "country": "Switzerland",
+  "city": "Lausanne",
+  "lat": 46.5191,
+  "lon": 6.5668,
+  "website": "https://www.epfl.ch/labs/vita/",
+  "huggingface": null,
+  "github": "https://github.com/vita-epfl",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Visual Intelligence for Transportation lab at EPFL, publishing open code for pose estimation, trajectory prediction and video generation.",
+  "focus": [
+   "vision",
+   "autonomous driving"
+  ],
+  "notable_releases": [
+   {
+    "name": "Stable-Video-Infinity",
+    "url": "https://github.com/vita-epfl/Stable-Video-Infinity",
+    "note": "Infinite-length video generation (ICLR 2026 oral)"
+   },
+   {
+    "name": "CrowdNav",
+    "url": "https://github.com/vita-epfl/CrowdNav",
+    "note": "Crowd-aware robot navigation"
+   },
+   {
+    "name": "UniTraj",
+    "url": "https://github.com/vita-epfl/UniTraj",
+    "note": "Framework for vehicle trajectory prediction"
+   },
+   {
+    "name": "monoloco",
+    "url": "https://github.com/vita-epfl/monoloco",
+    "note": "3D vision from 2D keypoints"
+   }
+  ],
+  "openness": "Research code is public on GitHub for most papers.",
+  "people_public": [],
+  "sources": [
+   "https://www.epfl.ch/labs/vita/",
+   "https://github.com/vita-epfl",
+   "https://arxiv.org/abs/2103.02440"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "OpenPifPaf",
+    "note": "Released a composite-fields pose estimation library (arXiv 2103.02440)."
+   },
+   {
+    "title": "Trajectory prediction",
+    "note": "Released the UniTraj framework."
+   },
+   {
+    "title": "Video generation",
+    "note": "Released Stable Video Infinity."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Stable-Video-Infinity",
+    "url": "https://github.com/vita-epfl/Stable-Video-Infinity",
+    "note": "[ICLR 26 Oral] Stable Video Infinity: Infinite-Length Video Generation with Error Recycling (2,622 stars)"
+   },
+   {
+    "name": "CrowdNav",
+    "url": "https://github.com/vita-epfl/CrowdNav",
+    "note": "[ICRA] Crowd-aware Robot Navigation (742 stars)"
+   },
+   {
+    "name": "UniTraj",
+    "url": "https://github.com/vita-epfl/UniTraj",
+    "note": "A Unified Framework for scalable Vehicle Trajectory Prediction, ECCV 2024 (493 stars)"
+   },
+   {
+    "name": "monoloco",
+    "url": "https://github.com/vita-epfl/monoloco",
+    "note": "A 3D vision library from 2D keypoints: monocular and stereo 3D detection for humans, social distancing, and bo (462 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "OpenPifPaf: Composite Fields for Semantic Keypoint Detection and Spatio-Temporal Association",
+    "url": "https://arxiv.org/abs/2103.02440",
+    "year": 2021
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "aalto-speech",
+  "name": "Aalto Speech Recognition",
+  "type": "academic",
+  "founded": null,
+  "country": "Finland",
+  "city": "Espoo",
+  "lat": 60.1867,
+  "lon": 24.8275,
+  "website": "https://github.com/aalto-speech",
+  "huggingface": null,
+  "github": "https://github.com/aalto-speech",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Speech recognition group at Aalto University, long-term open-source publisher of the Morfessor morphology tool and AaltoASR toolkit.",
+  "focus": [
+   "speech",
+   "morphology"
+  ],
+  "notable_releases": [
+   {
+    "name": "Morfessor",
+    "url": "https://github.com/aalto-speech/morfessor",
+    "note": "Unsupervised morphological segmentation tool"
+   },
+   {
+    "name": "speaker-diarization",
+    "url": "https://github.com/aalto-speech/speaker-diarization",
+    "note": "Diarization scripts based on AaltoASR"
+   },
+   {
+    "name": "AaltoASR",
+    "url": "https://github.com/aalto-speech/AaltoASR",
+    "note": "Aalto automatic speech recognition tools"
+   },
+   {
+    "name": "subword-kaldi",
+    "url": "https://github.com/aalto-speech/subword-kaldi",
+    "note": "Subword lexicon FST handling for Kaldi"
+   }
+  ],
+  "openness": "Tools are open source on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://github.com/aalto-speech",
+   "https://github.com/aalto-speech"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Morfessor",
+    "note": "Maintains a widely used morphology tool (200+ stars)."
+   },
+   {
+    "title": "AaltoASR",
+    "note": "Open ASR toolkit."
+   },
+   {
+    "title": "Diarization",
+    "note": "Released speaker diarization scripts."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "morfessor",
+    "url": "https://github.com/aalto-speech/morfessor",
+    "note": "Morfessor is a tool for unsupervised and semi-supervised morphological segmentation (207 stars)"
+   },
+   {
+    "name": "speaker-diarization",
+    "url": "https://github.com/aalto-speech/speaker-diarization",
+    "note": "Speaker diarization scripts, based on AaltoASR (192 stars)"
+   },
+   {
+    "name": "AaltoASR",
+    "url": "https://github.com/aalto-speech/AaltoASR",
+    "note": "Aalto Automatic Speech Recognition tools (90 stars)"
+   },
+   {
+    "name": "subword-kaldi",
+    "url": "https://github.com/aalto-speech/subword-kaldi",
+    "note": "Properly handle position-dependent phones in a subword lexicon FST (31 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "cltl-vu",
+  "name": "CLTL (VU Amsterdam)",
+  "type": "academic",
+  "founded": null,
+  "country": "Netherlands",
+  "city": "Amsterdam",
+  "lat": 52.3676,
+  "lon": 4.9041,
+  "website": "https://cltl.nl",
+  "huggingface": "https://huggingface.co/CLTL",
+  "github": "https://github.com/cltl",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Computational Linguistics and Text Mining Lab at Vrije Universiteit Amsterdam, with open teaching material, Dutch wordnet resources and a Dutch medical language model.",
+  "focus": [
+   "Dutch NLP"
+  ],
+  "notable_releases": [
+   {
+    "name": "python-for-text-analysis",
+    "url": "https://github.com/cltl/python-for-text-analysis",
+    "note": "Popular open course on Python for text analysis"
+   },
+   {
+    "name": "OpenDutchWordnet",
+    "url": "https://github.com/cltl/OpenDutchWordnet",
+    "note": "Python module for the Open Dutch WordNet"
+   },
+   {
+    "name": "MedRoBERTa.nl",
+    "url": "https://huggingface.co/CLTL/MedRoBERTa.nl",
+    "note": "Dutch medical RoBERTa model"
+   },
+   {
+    "name": "EventStoryLine",
+    "url": "https://github.com/cltl/EventStoryLine",
+    "note": "Corpus for storyline extraction"
+   }
+  ],
+  "openness": "Courses, tools, datasets and models are public on GitHub and Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://cltl.nl",
+   "https://huggingface.co/CLTL",
+   "https://github.com/cltl"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "MedRoBERTa.nl",
+    "note": "Released a Dutch clinical language model."
+   },
+   {
+    "title": "Open Dutch WordNet",
+    "note": "Maintains tooling for Dutch lexical resources."
+   },
+   {
+    "title": "Teaching material",
+    "note": "Published a Python text analysis course with 450+ stars."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "python-for-text-analysis",
+    "url": "https://github.com/cltl/python-for-text-analysis",
+    "note": "If you want to use Python for text analysis, this course is for you! (457 stars)"
+   },
+   {
+    "name": "OpenDutchWordnet",
+    "url": "https://github.com/cltl/OpenDutchWordnet",
+    "note": "This repo provides a python module to work with Open Dutch WordNet.  It was created using python 3.4. (70 stars)"
+   },
+   {
+    "name": "pepper",
+    "url": "https://github.com/cltl/pepper",
+    "note": "VU-CLTL Pepper/Nao Application Repository (Python 2) (31 stars)"
+   },
+   {
+    "name": "wsd-dynamic-sense-vector",
+    "url": "https://github.com/cltl/wsd-dynamic-sense-vector",
+    "note": "Open-source repository. (25 stars)"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "CLTL/MedRoBERTa.nl",
+    "url": "https://huggingface.co/CLTL/MedRoBERTa.nl",
+    "kind": "model",
+    "note": "Model with 15 likes on the Hub."
+   },
+   {
+    "name": "CLTL/icf-domains",
+    "url": "https://huggingface.co/CLTL/icf-domains",
+    "kind": "model",
+    "note": "Model with 1 likes on the Hub."
+   },
+   {
+    "name": "CLTL/GoEmotions_mBERT",
+    "url": "https://huggingface.co/spaces/CLTL/GoEmotions_mBERT",
+    "kind": "space",
+    "note": "Space with 0 likes on the Hub."
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "mainlp",
+  "name": "MaiNLP (LMU Munich)",
+  "type": "academic",
+  "founded": null,
+  "country": "Germany",
+  "city": "Munich",
+  "lat": 48.1351,
+  "lon": 11.582,
+  "website": "https://mainlp.github.io",
+  "huggingface": null,
+  "github": "https://github.com/mainlp",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Munich AI and NLP lab at LMU Munich, publishing datasets and code on human label variation, relation extraction and low-resource Germanic languages.",
+  "focus": [
+   "NLP"
+  ],
+  "notable_releases": [
+   {
+    "name": "awesome-human-label-variation",
+    "url": "https://github.com/mainlp/awesome-human-label-variation",
+    "note": "Curated datasets with un-aggregated labels"
+   },
+   {
+    "name": "CrossRE",
+    "url": "https://github.com/mainlp/CrossRE",
+    "note": "Cross-domain relation extraction dataset"
+   },
+   {
+    "name": "germanic-lrl-corpora",
+    "url": "https://github.com/mainlp/germanic-lrl-corpora",
+    "note": "Overview of corpora for Germanic low-resource languages"
+   },
+   {
+    "name": "Multilingual-Refusal",
+    "url": "https://github.com/mainlp/Multilingual-Refusal",
+    "note": "Code on multilingual refusal in LLMs"
+   }
+  ],
+  "openness": "Datasets and code are public on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://mainlp.github.io",
+   "https://github.com/mainlp"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Human label variation",
+    "note": "Maintains a curated resource of annotator-disagreement datasets."
+   },
+   {
+    "title": "CrossRE",
+    "note": "Released a relation extraction dataset."
+   },
+   {
+    "title": "Low-resource Germanic NLP",
+    "note": "Compiled corpora overviews for dialects and low-resource Germanic languages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "awesome-human-label-variation",
+    "url": "https://github.com/mainlp/awesome-human-label-variation",
+    "note": "A curated list of awesome datasets with human label variation (un-aggregated labels) in Natural Language Proce (104 stars)"
+   },
+   {
+    "name": "CrossRE",
+    "url": "https://github.com/mainlp/CrossRE",
+    "note": "CrossRE: A Cross-Domain Dataset for Relation Extraction (Findings of EMNLP 2022) (49 stars)"
+   },
+   {
+    "name": "germanic-lrl-corpora",
+    "url": "https://github.com/mainlp/germanic-lrl-corpora",
+    "note": "Overview of corpora/datasets for Germanic low-resource languages and dialects. Accompanies \"A Survey of Corpor (28 stars)"
+   },
+   {
+    "name": "Multilingual-Refusal",
+    "url": "https://github.com/mainlp/Multilingual-Refusal",
+    "note": "Open-source repository. (19 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ },
+ {
+  "id": "heidelberg-nlp",
+  "name": "Heidelberg NLP",
+  "type": "academic",
+  "founded": null,
+  "country": "Germany",
+  "city": "Heidelberg",
+  "lat": 49.3988,
+  "lon": 8.6724,
+  "website": "https://www.cl.uni-heidelberg.de",
+  "huggingface": null,
+  "github": "https://github.com/Heidelberg-NLP",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Computational linguistics group at Heidelberg University, releasing benchmarks and models such as VALSE and Graph Language Models.",
+  "focus": [
+   "NLP"
+  ],
+  "notable_releases": [
+   {
+    "name": "GraphLanguageModels",
+    "url": "https://github.com/Heidelberg-NLP/GraphLanguageModels",
+    "note": "Code for Graph Language Models"
+   },
+   {
+    "name": "CoCo-Ex",
+    "url": "https://github.com/Heidelberg-NLP/CoCo-Ex",
+    "note": "Concept extraction and mapping from text"
+   },
+   {
+    "name": "VALSE",
+    "url": "https://github.com/Heidelberg-NLP/VALSE",
+    "note": "Benchmark for vision-language models centred on linguistic phenomena"
+   },
+   {
+    "name": "ancient-language-models",
+    "url": "https://github.com/Heidelberg-NLP/ancient-language-models",
+    "note": "Code for ancient language models"
+   }
+  ],
+  "openness": "Code and benchmarks are public on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://www.cl.uni-heidelberg.de",
+   "https://github.com/Heidelberg-NLP",
+   "https://arxiv.org/abs/2112.07566"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "VALSE",
+    "note": "Released a vision-language benchmark (arXiv 2112.07566)."
+   },
+   {
+    "title": "Graph Language Models",
+    "note": "Released code for graph-aware LMs (arXiv 2401.07105)."
+   },
+   {
+    "title": "Ancient language models",
+    "note": "Published models and code for ancient languages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "GraphLanguageModels",
+    "url": "https://github.com/Heidelberg-NLP/GraphLanguageModels",
+    "note": "Code for our paper \"Graph Language Models\" (78 stars)"
+   },
+   {
+    "name": "CoCo-Ex",
+    "url": "https://github.com/Heidelberg-NLP/CoCo-Ex",
+    "note": "CoCo-Ex extracts meaningful concepts from natural language texts and maps them to conjunct concept nodes in Co (59 stars)"
+   },
+   {
+    "name": "VALSE",
+    "url": "https://github.com/Heidelberg-NLP/VALSE",
+    "note": "Data repository for the VALSE benchmark. (40 stars)"
+   },
+   {
+    "name": "ancient-language-models",
+    "url": "https://github.com/Heidelberg-NLP/ancient-language-models",
+    "note": "Open-source repository. (36 stars)"
+   }
+  ],
+  "hf_highlights": [],
+  "papers": [
+   {
+    "title": "VALSE: A Task-Independent Benchmark for Vision and Language Models Centered on Linguistic Phenomena",
+    "url": "https://arxiv.org/abs/2112.07566",
+    "year": 2021
+   },
+   {
+    "title": "Graph Language Models",
+    "url": "https://arxiv.org/abs/2401.07105",
+    "year": 2024
+   }
+  ],
+  "discord_note": null,
+  "contact_note": "Contact via site."
+ }
+]

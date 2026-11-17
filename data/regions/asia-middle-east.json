@@ -1,0 +1,3889 @@
+[
+ {
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "type": "startup",
+  "founded": 2023,
+  "country": "China",
+  "city": "Hangzhou",
+  "lat": 30.27,
+  "lon": 120.16,
+  "website": "https://www.deepseek.com",
+  "huggingface": "https://huggingface.co/deepseek-ai",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": "service@deepseek.com",
+  "summary": "Hangzhou-based AI lab that publishes large language and reasoning models. Its Hugging Face organisation hosts more than 100 models and is among the most followed in the field.",
+  "focus": [
+   "language models",
+   "reasoning",
+   "Chinese",
+   "English"
+  ],
+  "notable_releases": [
+   {
+    "name": "DeepSeek on Hugging Face",
+    "url": "https://huggingface.co/deepseek-ai",
+    "note": "106 models, 30 papers"
+   }
+  ],
+  "openness": "Model weights are published on Hugging Face; licences vary by release (check each model card).",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/deepseek-ai",
+   "https://www.deepseek.com",
+   "https://huggingface.co/api/organizations/deepseek-ai/overview"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Hangzhou-based AI lab that publishes large language and reasoning models."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Reasoning",
+    "note": "Public work in the area of reasoning, as listed on its pages."
+   },
+   {
+    "title": "Chinese",
+    "note": "Public work in the area of Chinese, as listed on its pages."
+   },
+   {
+    "title": "English",
+    "note": "Public work in the area of English, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "DeepSeek on Hugging Face",
+    "url": "https://huggingface.co/deepseek-ai",
+    "kind": "model",
+    "note": "106 models, 30 papers"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Email printed on its official site"
+ },
+ {
+  "id": "moonshot-ai",
+  "name": "Moonshot AI (Kimi)",
+  "type": "startup",
+  "founded": 2023,
+  "country": "China",
+  "city": "Beijing",
+  "lat": 39.9,
+  "lon": 116.41,
+  "website": "https://www.moonshot.ai",
+  "huggingface": "https://huggingface.co/moonshotai",
+  "github": "https://github.com/moonshotai",
+  "x": "https://twitter.com/Kimi_Moonshot",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Beijing company behind the Kimi assistant and model family. It publishes Kimi model weights on Hugging Face.",
+  "focus": [
+   "language models",
+   "multimodal",
+   "agents",
+   "Chinese",
+   "English"
+  ],
+  "notable_releases": [
+   {
+    "name": "Kimi-K3",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3",
+    "note": "Kimi K3 model"
+   },
+   {
+    "name": "Kimi-K3.1-Pro",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "note": "Kimi K3.1 Pro"
+   },
+   {
+    "name": "Kimi-K2.6",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+    "note": "Kimi K2.6"
+   }
+  ],
+  "openness": "Open weights on Hugging Face; exact licence stated on each model card.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/moonshotai",
+   "https://www.moonshot.ai"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Beijing company behind the Kimi assistant and model family."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Multimodal",
+    "note": "Public work in the area of multimodal, as listed on its pages."
+   },
+   {
+    "title": "Agents",
+    "note": "Public work in the area of agents, as listed on its pages."
+   },
+   {
+    "title": "Chinese",
+    "note": "Public work in the area of Chinese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Moonshot AI (Kimi) on GitHub",
+    "url": "https://github.com/moonshotai",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Kimi-K3",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3",
+    "kind": "model",
+    "note": "Kimi K3 model"
+   },
+   {
+    "name": "Kimi-K3.1-Pro",
+    "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+    "kind": "model",
+    "note": "Kimi K3.1 Pro"
+   },
+   {
+    "name": "Kimi-K2.6",
+    "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+    "kind": "model",
+    "note": "Kimi K2.6"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "zai-zhipu",
+  "name": "Z.ai (Zhipu AI)",
+  "type": "startup",
+  "founded": 2019,
+  "country": "China",
+  "city": "Beijing",
+  "lat": 39.9,
+  "lon": 116.41,
+  "website": "https://z.ai",
+  "huggingface": "https://huggingface.co/zai-org",
+  "github": "https://github.com/zai-org",
+  "x": "https://twitter.com/Zai_org",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Builder of the ChatGLM and GLM model families, also working on agents, evaluation and graph research. Releases weights and training or inference techniques.",
+  "focus": [
+   "language models",
+   "agents",
+   "evaluation",
+   "Chinese",
+   "English"
+  ],
+  "notable_releases": [
+   {
+    "name": "GLM-5.3",
+    "url": "https://huggingface.co/zai-org/GLM-5.3",
+    "note": "GLM-5.3"
+   },
+   {
+    "name": "GLM-5.3-Flash",
+    "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+    "note": "GLM-5.3 Flash"
+   }
+  ],
+  "openness": "Open weights on Hugging Face and open code on GitHub; licences per model.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/zai-org",
+   "https://z.ai"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Builder of the ChatGLM and GLM model families, also working on agents, evaluation and graph research."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Agents",
+    "note": "Public work in the area of agents, as listed on its pages."
+   },
+   {
+    "title": "Evaluation",
+    "note": "Public work in the area of evaluation, as listed on its pages."
+   },
+   {
+    "title": "Chinese",
+    "note": "Public work in the area of Chinese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Z.ai (Zhipu AI) on GitHub",
+    "url": "https://github.com/zai-org",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "GLM-5.3",
+    "url": "https://huggingface.co/zai-org/GLM-5.3",
+    "kind": "model",
+    "note": "GLM-5.3"
+   },
+   {
+    "name": "GLM-5.3-Flash",
+    "url": "https://huggingface.co/zai-org/GLM-5.3-Flash",
+    "kind": "model",
+    "note": "GLM-5.3 Flash"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "minimax",
+  "name": "MiniMax",
+  "type": "startup",
+  "founded": 2021,
+  "country": "China",
+  "city": "Shanghai",
+  "lat": 31.23,
+  "lon": 121.47,
+  "website": "https://www.minimax.io",
+  "huggingface": "https://huggingface.co/MiniMaxAI",
+  "github": "https://github.com/MiniMax-AI",
+  "x": "https://twitter.com/MiniMax_AI",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Shanghai AI company publishing the MiniMax text and image model families as open weights.",
+  "focus": [
+   "language models",
+   "multimodal",
+   "image generation",
+   "Chinese",
+   "English"
+  ],
+  "notable_releases": [
+   {
+    "name": "MiniMax-H3",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+    "note": "MiniMax H3"
+   },
+   {
+    "name": "MiniMax-M2.5",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+    "note": "MiniMax M2.5"
+   },
+   {
+    "name": "MiniMax-M2.7",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+    "note": "MiniMax M2.7"
+   }
+  ],
+  "openness": "Open weights on Hugging Face; licence per model card.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/MiniMaxAI",
+   "https://www.minimax.io"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Shanghai AI company publishing the MiniMax text and image model families as open weights."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Multimodal",
+    "note": "Public work in the area of multimodal, as listed on its pages."
+   },
+   {
+    "title": "Image generation",
+    "note": "Public work in the area of image generation, as listed on its pages."
+   },
+   {
+    "title": "Chinese",
+    "note": "Public work in the area of Chinese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "MiniMax on GitHub",
+    "url": "https://github.com/MiniMax-AI",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "MiniMax-H3",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+    "kind": "model",
+    "note": "MiniMax H3"
+   },
+   {
+    "name": "MiniMax-M2.5",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.5",
+    "kind": "model",
+    "note": "MiniMax M2.5"
+   },
+   {
+    "name": "MiniMax-M2.7",
+    "url": "https://huggingface.co/MiniMaxAI/MiniMax-M2.7",
+    "kind": "model",
+    "note": "MiniMax M2.7"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "01-ai",
+  "name": "01.AI",
+  "type": "startup",
+  "founded": 2023,
+  "country": "China",
+  "city": "Beijing",
+  "lat": 39.9,
+  "lon": 116.41,
+  "website": "https://01.ai/",
+  "huggingface": "https://huggingface.co/01-ai",
+  "github": "https://github.com/01-ai",
+  "x": "https://twitter.com/01ai_yi",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Company founded by Kai-Fu Lee that released the Yi family of open language models.",
+  "focus": [
+   "language models",
+   "Chinese",
+   "English"
+  ],
+  "notable_releases": [
+   {
+    "name": "Yi-34B-Chat",
+    "url": "https://huggingface.co/01-ai/Yi-34B-Chat",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Yi-9B",
+    "url": "https://huggingface.co/01-ai/Yi-9B",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Yi-34B-200K",
+    "url": "https://huggingface.co/01-ai/Yi-34B-200K",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Yi weights are public on Hugging Face with code on GitHub; licence per model card.",
+  "people_public": [
+   "Kai-Fu Lee"
+  ],
+  "sources": [
+   "https://huggingface.co/01-ai",
+   "https://01.ai/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Company founded by Kai-Fu Lee that released the Yi family of open language models."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Chinese",
+    "note": "Public work in the area of Chinese, as listed on its pages."
+   },
+   {
+    "title": "English",
+    "note": "Public work in the area of English, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "01.AI on GitHub",
+    "url": "https://github.com/01-ai",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Yi-34B-Chat",
+    "url": "https://huggingface.co/01-ai/Yi-34B-Chat",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Yi-9B",
+    "url": "https://huggingface.co/01-ai/Yi-9B",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Yi-34B-200K",
+    "url": "https://huggingface.co/01-ai/Yi-34B-200K",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "stepfun",
+  "name": "StepFun",
+  "type": "startup",
+  "founded": 2023,
+  "country": "China",
+  "city": "Shanghai",
+  "lat": 31.23,
+  "lon": 121.47,
+  "website": "https://www.stepfun.com/",
+  "huggingface": "https://huggingface.co/stepfun-ai",
+  "github": "https://github.com/stepfun-ai",
+  "x": "https://twitter.com/StepFun_ai",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Chinese foundation-model company with 50+ models and a dozen datasets on Hugging Face.",
+  "focus": [
+   "language models",
+   "multimodal",
+   "speech"
+  ],
+  "notable_releases": [
+   {
+    "name": "Step-3.5-Flash",
+    "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+    "note": "Most liked model on its HF page"
+   },
+   {
+    "name": "Step-5-Preview",
+    "url": "https://huggingface.co/stepfun-ai/Step-5-Preview",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights released on Hugging Face and code on GitHub; licence per model.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/stepfun-ai",
+   "https://www.stepfun.com/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Chinese foundation-model company with 50+ models and a dozen datasets on Hugging Face."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Multimodal",
+    "note": "Public work in the area of multimodal, as listed on its pages."
+   },
+   {
+    "title": "Speech",
+    "note": "Public work in the area of speech, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "StepFun on GitHub",
+    "url": "https://github.com/stepfun-ai",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Step-3.5-Flash",
+    "url": "https://huggingface.co/stepfun-ai/Step-3.5-Flash",
+    "kind": "model",
+    "note": "Most liked model on its HF page"
+   },
+   {
+    "name": "Step-5-Preview",
+    "url": "https://huggingface.co/stepfun-ai/Step-5-Preview",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "baai",
+  "name": "BAAI (Beijing Academy of Artificial Intelligence)",
+  "type": "nonprofit",
+  "founded": 2018,
+  "country": "China",
+  "city": "Beijing",
+  "lat": 39.9,
+  "lon": 116.41,
+  "website": "https://www.baai.ac.cn/english.html",
+  "huggingface": "https://huggingface.co/BAAI",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Describes itself as a private non-profit AI research and development organisation in Beijing. Publishes models and datasets on Hugging Face.",
+  "focus": [
+   "datasets",
+   "language models",
+   "embodied AI",
+   "Chinese"
+  ],
+  "notable_releases": [
+   {
+    "name": "CS-Dialogue",
+    "url": "https://huggingface.co/datasets/BAAI/CS-Dialogue",
+    "note": "Dataset"
+   },
+   {
+    "name": "RealTalk-CN",
+    "url": "https://huggingface.co/datasets/BAAI/RealTalk-CN",
+    "note": "Dataset"
+   }
+  ],
+  "openness": "Models and datasets on Hugging Face; licences vary per release.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/BAAI",
+   "https://www.baai.ac.cn/english.html"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Describes itself as a private non-profit AI research and development organisation in Beijing."
+   },
+   {
+    "title": "Datasets",
+    "note": "Public work in the area of datasets, as listed on its pages."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Embodied ai",
+    "note": "Public work in the area of embodied AI, as listed on its pages."
+   },
+   {
+    "title": "Chinese",
+    "note": "Public work in the area of Chinese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "CS-Dialogue",
+    "url": "https://huggingface.co/datasets/BAAI/CS-Dialogue",
+    "kind": "dataset",
+    "note": "Dataset"
+   },
+   {
+    "name": "RealTalk-CN",
+    "url": "https://huggingface.co/datasets/BAAI/RealTalk-CN",
+    "kind": "dataset",
+    "note": "Dataset"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "shanghai-ai-lab",
+  "name": "Shanghai AI Laboratory (InternLM)",
+  "type": "institute",
+  "founded": 2020,
+  "country": "China",
+  "city": "Shanghai",
+  "lat": 31.23,
+  "lon": 121.47,
+  "website": "https://chat.intern-ai.org.cn/",
+  "huggingface": "https://huggingface.co/internlm",
+  "github": "https://github.com/internlm",
+  "x": "https://twitter.com/intern_lm",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Research laboratory that open-sources the Intern family of large language and multimodal models and a full toolchain. Government-backed.",
+  "focus": [
+   "language models",
+   "multimodal",
+   "toolchain",
+   "Chinese"
+  ],
+  "notable_releases": [
+   {
+    "name": "Sage-S2.1-Flash",
+    "url": "https://huggingface.co/internlm/Sage-S2.1-Flash",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "InternLumina-U2",
+    "url": "https://huggingface.co/internlm/InternLumina-U2",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open weights on Hugging Face and open code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/internlm",
+   "https://chat.intern-ai.org.cn/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Research laboratory that open-sources the Intern family of large language and multimodal models and a full toolchain."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Multimodal",
+    "note": "Public work in the area of multimodal, as listed on its pages."
+   },
+   {
+    "title": "Toolchain",
+    "note": "Public work in the area of toolchain, as listed on its pages."
+   },
+   {
+    "title": "Chinese",
+    "note": "Public work in the area of Chinese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Shanghai AI Laboratory (InternLM) on GitHub",
+    "url": "https://github.com/internlm",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Sage-S2.1-Flash",
+    "url": "https://huggingface.co/internlm/Sage-S2.1-Flash",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "InternLumina-U2",
+    "url": "https://huggingface.co/internlm/InternLumina-U2",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "opengvlab",
+  "name": "OpenGVLab",
+  "type": "academic",
+  "founded": null,
+  "country": "China",
+  "city": "Shanghai",
+  "lat": 31.23,
+  "lon": 121.47,
+  "website": "https://github.com/OpenGVLab",
+  "huggingface": "https://huggingface.co/OpenGVLab",
+  "github": "https://github.com/OpenGVLab",
+  "x": "https://twitter.com/opengvlab",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Vision-centred research group within Shanghai AI Lab behind InternVL-style multimodal models and video understanding work.",
+  "focus": [
+   "vision",
+   "multimodal",
+   "video"
+  ],
+  "notable_releases": [
+   {
+    "name": "Mono-InternVL-2B",
+    "url": "https://huggingface.co/OpenGVLab/Mono-InternVL-2B",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "SDLM-32B-D4",
+    "url": "https://huggingface.co/OpenGVLab/SDLM-32B-D4",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open weights on Hugging Face and open code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/OpenGVLab",
+   "https://github.com/OpenGVLab"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Vision-centred research group within Shanghai AI Lab behind InternVL-style multimodal models and video understanding work."
+   },
+   {
+    "title": "Vision",
+    "note": "Public work in the area of vision, as listed on its pages."
+   },
+   {
+    "title": "Multimodal",
+    "note": "Public work in the area of multimodal, as listed on its pages."
+   },
+   {
+    "title": "Video",
+    "note": "Public work in the area of video, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "OpenGVLab on GitHub",
+    "url": "https://github.com/OpenGVLab",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Mono-InternVL-2B",
+    "url": "https://huggingface.co/OpenGVLab/Mono-InternVL-2B",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "SDLM-32B-D4",
+    "url": "https://huggingface.co/OpenGVLab/SDLM-32B-D4",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "opendatalab",
+  "name": "OpenDataLab",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "China",
+  "city": "Shanghai",
+  "lat": 31.23,
+  "lon": 121.47,
+  "website": "https://opendatalab.com/",
+  "huggingface": "https://huggingface.co/OpenDataLab",
+  "github": "https://github.com/opendatalab",
+  "x": "https://twitter.com/OpenDataLab_AI",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Non-profit providing open datasets and tools for large models, including the MinerU document parser and the OmniDocBench benchmark.",
+  "focus": [
+   "datasets",
+   "document parsing",
+   "evaluation"
+  ],
+  "notable_releases": [
+   {
+    "name": "MinerU2.5-2509-1.2B",
+    "url": "https://huggingface.co/OpenDataLab/MinerU2.5-2509-1.2B",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "OmniDocBench",
+    "url": "https://huggingface.co/datasets/OpenDataLab/OmniDocBench",
+    "note": "Dataset"
+   }
+  ],
+  "openness": "Models and datasets on Hugging Face; tools on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/OpenDataLab",
+   "https://opendatalab.com/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Non-profit providing open datasets and tools for large models, including the MinerU document parser and the OmniDocBench benchmark."
+   },
+   {
+    "title": "Datasets",
+    "note": "Public work in the area of datasets, as listed on its pages."
+   },
+   {
+    "title": "Document parsing",
+    "note": "Public work in the area of document parsing, as listed on its pages."
+   },
+   {
+    "title": "Evaluation",
+    "note": "Public work in the area of evaluation, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "OpenDataLab on GitHub",
+    "url": "https://github.com/opendatalab",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "MinerU2.5-2509-1.2B",
+    "url": "https://huggingface.co/OpenDataLab/MinerU2.5-2509-1.2B",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "OmniDocBench",
+    "url": "https://huggingface.co/datasets/OpenDataLab/OmniDocBench",
+    "kind": "dataset",
+    "note": "Dataset"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "openbmb",
+  "name": "OpenBMB / ModelBest",
+  "type": "collective",
+  "founded": 2021,
+  "country": "China",
+  "city": "Beijing",
+  "lat": 39.9,
+  "lon": 116.41,
+  "website": "https://www.openbmb.cn",
+  "huggingface": "https://huggingface.co/openbmb",
+  "github": "https://github.com/OpenBMB",
+  "x": "https://twitter.com/OpenBMB",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Open lab for big model base working on foundation models and systems; known for the MiniCPM and MiniCPM-V model lines.",
+  "focus": [
+   "language models",
+   "multimodal",
+   "efficient models",
+   "Chinese"
+  ],
+  "notable_releases": [
+   {
+    "name": "MiniCPM-V-4.6",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "MiniCPM-V-4.7-35B-A3B",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "MiniCPM-OCR-1.0",
+    "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open weights on Hugging Face and code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/openbmb",
+   "https://www.openbmb.cn"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Open lab for big model base working on foundation models and systems; known for the MiniCPM and MiniCPM-V model lines."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Multimodal",
+    "note": "Public work in the area of multimodal, as listed on its pages."
+   },
+   {
+    "title": "Efficient models",
+    "note": "Public work in the area of efficient models, as listed on its pages."
+   },
+   {
+    "title": "Chinese",
+    "note": "Public work in the area of Chinese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "OpenBMB / ModelBest on GitHub",
+    "url": "https://github.com/OpenBMB",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "MiniCPM-V-4.6",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.6",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "MiniCPM-V-4.7-35B-A3B",
+    "url": "https://huggingface.co/openbmb/MiniCPM-V-4.7-35B-A3B",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "MiniCPM-OCR-1.0",
+    "url": "https://huggingface.co/openbmb/MiniCPM-OCR-1.0",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "openmoss",
+  "name": "OpenMOSS",
+  "type": "academic",
+  "founded": null,
+  "country": "China",
+  "city": "Shanghai",
+  "lat": 31.23,
+  "lon": 121.47,
+  "website": "http://openmoss.sii.edu.cn/",
+  "huggingface": "https://huggingface.co/OpenMOSS-Team",
+  "github": "https://github.com/OpenMOSS",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "LLM research group at the Shanghai Innovation Institution working with Fudan University, led by Prof. Xipeng Qiu.",
+  "focus": [
+   "language models",
+   "speech",
+   "image generation"
+  ],
+  "notable_releases": [
+   {
+    "name": "MOSS-Transcribe-Diarize",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "OmniVAE",
+    "url": "https://huggingface.co/OpenMOSS-Team/OmniVAE",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Models on Hugging Face, code on GitHub.",
+  "people_public": [
+   "Xipeng Qiu"
+  ],
+  "sources": [
+   "https://huggingface.co/OpenMOSS-Team",
+   "http://openmoss.sii.edu.cn/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "LLM research group at the Shanghai Innovation Institution working with Fudan University, led by Prof."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Speech",
+    "note": "Public work in the area of speech, as listed on its pages."
+   },
+   {
+    "title": "Image generation",
+    "note": "Public work in the area of image generation, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "OpenMOSS on GitHub",
+    "url": "https://github.com/OpenMOSS",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "MOSS-Transcribe-Diarize",
+    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "OmniVAE",
+    "url": "https://huggingface.co/OpenMOSS-Team/OmniVAE",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "baichuan",
+  "name": "Baichuan Intelligence",
+  "type": "startup",
+  "founded": 2023,
+  "country": "China",
+  "city": "Beijing",
+  "lat": 39.9,
+  "lon": 116.41,
+  "website": "https://ying.ai/",
+  "huggingface": "https://huggingface.co/baichuan-inc",
+  "github": "https://github.com/baichuan-inc",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Chinese LLM startup that publishes Baichuan models, recently medical-focused ones, on Hugging Face.",
+  "focus": [
+   "language models",
+   "medical",
+   "Chinese"
+  ],
+  "notable_releases": [
+   {
+    "name": "Baichuan-M3-235B-FP8",
+    "url": "https://huggingface.co/baichuan-inc/Baichuan-M3-235B-FP8",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Baichuan-M2-32B-Q4_K_M-GGUF",
+    "url": "https://huggingface.co/baichuan-inc/Baichuan-M2-32B-Q4_K_M-GGUF",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face and code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/baichuan-inc",
+   "https://ying.ai/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Chinese LLM startup that publishes Baichuan models, recently medical-focused ones, on Hugging Face."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Medical",
+    "note": "Public work in the area of medical, as listed on its pages."
+   },
+   {
+    "title": "Chinese",
+    "note": "Public work in the area of Chinese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Baichuan Intelligence on GitHub",
+    "url": "https://github.com/baichuan-inc",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Baichuan-M3-235B-FP8",
+    "url": "https://huggingface.co/baichuan-inc/Baichuan-M3-235B-FP8",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Baichuan-M2-32B-Q4_K_M-GGUF",
+    "url": "https://huggingface.co/baichuan-inc/Baichuan-M2-32B-Q4_K_M-GGUF",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "hpc-ai-tech",
+  "name": "HPC-AI Tech (Colossal-AI)",
+  "type": "startup",
+  "founded": 2021,
+  "country": "Singapore",
+  "city": "Singapore",
+  "lat": 1.35,
+  "lon": 103.82,
+  "website": "https://hpcaitech.com/",
+  "huggingface": "https://huggingface.co/hpcai-tech",
+  "github": "https://github.com/hpcaitech",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Company behind Colossal-AI distributed training tooling and the Open-Sora video generation models.",
+  "focus": [
+   "training infrastructure",
+   "video generation"
+  ],
+  "notable_releases": [
+   {
+    "name": "Open-Sora-v2",
+    "url": "https://huggingface.co/hpcai-tech/Open-Sora-v2",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "OpenSora-VAE-v1.3",
+    "url": "https://huggingface.co/hpcai-tech/OpenSora-VAE-v1.3",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open-source code and model weights.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/hpcai-tech",
+   "https://hpcaitech.com/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Company behind Colossal-AI distributed training tooling and the Open-Sora video generation models."
+   },
+   {
+    "title": "Training infrastructure",
+    "note": "Public work in the area of training infrastructure, as listed on its pages."
+   },
+   {
+    "title": "Video generation",
+    "note": "Public work in the area of video generation, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "HPC-AI Tech (Colossal-AI) on GitHub",
+    "url": "https://github.com/hpcaitech",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Open-Sora-v2",
+    "url": "https://huggingface.co/hpcai-tech/Open-Sora-v2",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "OpenSora-VAE-v1.3",
+    "url": "https://huggingface.co/hpcai-tech/OpenSora-VAE-v1.3",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "opencsg",
+  "name": "OpenCSG",
+  "type": "startup",
+  "founded": null,
+  "country": "China",
+  "city": "Beijing",
+  "lat": 39.9,
+  "lon": 116.41,
+  "website": "https://www.opencsg.com",
+  "huggingface": "https://huggingface.co/opencsg",
+  "github": "https://github.com/OpenCSGs",
+  "x": "https://twitter.com/OpenCsg",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Releases open Chinese datasets such as the Fineweb-Edu-Chinese series, and language models, plus a model software stack.",
+  "focus": [
+   "datasets",
+   "language models",
+   "Chinese"
+  ],
+  "notable_releases": [
+   {
+    "name": "Fineweb-Edu-Chinese-V3",
+    "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V3",
+    "note": "Dataset"
+   },
+   {
+    "name": "Agentic-27B-V2",
+    "url": "https://huggingface.co/opencsg/Agentic-27B-V2",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Datasets and models on Hugging Face; stack on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/opencsg",
+   "https://www.opencsg.com"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Releases open Chinese datasets such as the Fineweb-Edu-Chinese series, and language models, plus a model software stack."
+   },
+   {
+    "title": "Datasets",
+    "note": "Public work in the area of datasets, as listed on its pages."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Chinese",
+    "note": "Public work in the area of Chinese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "OpenCSG on GitHub",
+    "url": "https://github.com/OpenCSGs",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Fineweb-Edu-Chinese-V3",
+    "url": "https://huggingface.co/datasets/opencsg/Fineweb-Edu-Chinese-V3",
+    "kind": "dataset",
+    "note": "Dataset"
+   },
+   {
+    "name": "Agentic-27B-V2",
+    "url": "https://huggingface.co/opencsg/Agentic-27B-V2",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "sakana-ai",
+  "name": "Sakana AI",
+  "type": "startup",
+  "founded": 2023,
+  "country": "Japan",
+  "city": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "website": "https://sakana.ai",
+  "huggingface": "https://huggingface.co/SakanaAI",
+  "github": "https://github.com/SakanaAI",
+  "x": "https://twitter.com/SakanaAILabs",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Tokyo R&D company pursuing nature-inspired foundation models. Releases research code, models and Japanese datasets.",
+  "focus": [
+   "language models",
+   "evolutionary methods",
+   "datasets",
+   "Japanese"
+  ],
+  "notable_releases": [
+   {
+    "name": "JFinBench",
+    "url": "https://huggingface.co/datasets/SakanaAI/JFinBench",
+    "note": "Dataset"
+   },
+   {
+    "name": "EDINET-Bench",
+    "url": "https://huggingface.co/datasets/SakanaAI/EDINET-Bench",
+    "note": "Dataset"
+   },
+   {
+    "name": "FishMath-SFT-Data",
+    "url": "https://huggingface.co/datasets/SakanaAI/FishMath-SFT-Data",
+    "note": "Dataset"
+   }
+  ],
+  "openness": "Open weights, datasets and research code on Hugging Face and GitHub; some products closed.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/SakanaAI",
+   "https://sakana.ai"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Tokyo R&D company pursuing nature-inspired foundation models."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Evolutionary methods",
+    "note": "Public work in the area of evolutionary methods, as listed on its pages."
+   },
+   {
+    "title": "Datasets",
+    "note": "Public work in the area of datasets, as listed on its pages."
+   },
+   {
+    "title": "Japanese",
+    "note": "Public work in the area of Japanese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Sakana AI on GitHub",
+    "url": "https://github.com/SakanaAI",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "JFinBench",
+    "url": "https://huggingface.co/datasets/SakanaAI/JFinBench",
+    "kind": "dataset",
+    "note": "Dataset"
+   },
+   {
+    "name": "EDINET-Bench",
+    "url": "https://huggingface.co/datasets/SakanaAI/EDINET-Bench",
+    "kind": "dataset",
+    "note": "Dataset"
+   },
+   {
+    "name": "FishMath-SFT-Data",
+    "url": "https://huggingface.co/datasets/SakanaAI/FishMath-SFT-Data",
+    "kind": "dataset",
+    "note": "Dataset"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "preferred-networks",
+  "name": "Preferred Networks",
+  "type": "startup",
+  "founded": 2014,
+  "country": "Japan",
+  "city": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "website": "https://www.preferred.jp/en/",
+  "huggingface": "https://huggingface.co/pfnet",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Japanese deep learning company that publishes the PLaMo model family and related code.",
+  "focus": [
+   "language models",
+   "Japanese",
+   "finance"
+  ],
+  "notable_releases": [
+   {
+    "name": "plamo-3-8b-fin-instruct",
+    "url": "https://huggingface.co/pfnet/plamo-3-8b-fin-instruct",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "plamo-3-translate-8b-W4A16",
+    "url": "https://huggingface.co/pfnet/plamo-3-translate-8b-W4A16",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face; licences vary per model.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/pfnet",
+   "https://www.preferred.jp/en/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Japanese deep learning company that publishes the PLaMo model family and related code."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Japanese",
+    "note": "Public work in the area of Japanese, as listed on its pages."
+   },
+   {
+    "title": "Finance",
+    "note": "Public work in the area of finance, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "plamo-3-8b-fin-instruct",
+    "url": "https://huggingface.co/pfnet/plamo-3-8b-fin-instruct",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "plamo-3-translate-8b-W4A16",
+    "url": "https://huggingface.co/pfnet/plamo-3-translate-8b-W4A16",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "llm-jp",
+  "name": "LLM-jp",
+  "type": "collective",
+  "founded": 2023,
+  "country": "Japan",
+  "city": "Tokyo",
+  "lat": 35.69,
+  "lon": 139.75,
+  "website": "https://llm-jp.nii.ac.jp/en/",
+  "huggingface": "https://huggingface.co/llm-jp",
+  "github": "https://github.com/llm-jp",
+  "x": "https://twitter.com/llm_jp",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Community of over 1,000 researchers and engineers coordinated by Japan's National Institute of Informatics, building Japanese-capable open LLMs.",
+  "focus": [
+   "language models",
+   "Japanese",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "llm-jp-4-33b-thinking-gguf",
+    "url": "https://huggingface.co/llm-jp/llm-jp-4-33b-thinking-gguf",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "llm-jp-4.1-8b-thinking-gguf",
+    "url": "https://huggingface.co/llm-jp/llm-jp-4.1-8b-thinking-gguf",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open models, tools and corpora on Hugging Face and GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/llm-jp",
+   "https://llm-jp.nii.ac.jp/en/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Community of over 1,000 researchers and engineers coordinated by Japan's National Institute of Informatics, building Japanese-capable open LLMs."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Japanese",
+    "note": "Public work in the area of Japanese, as listed on its pages."
+   },
+   {
+    "title": "Datasets",
+    "note": "Public work in the area of datasets, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "LLM-jp on GitHub",
+    "url": "https://github.com/llm-jp",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "llm-jp-4-33b-thinking-gguf",
+    "url": "https://huggingface.co/llm-jp/llm-jp-4-33b-thinking-gguf",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "llm-jp-4.1-8b-thinking-gguf",
+    "url": "https://huggingface.co/llm-jp/llm-jp-4.1-8b-thinking-gguf",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "stockmark",
+  "name": "Stockmark",
+  "type": "startup",
+  "founded": 2016,
+  "country": "Japan",
+  "city": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "website": "https://stockmark.co.jp",
+  "huggingface": "https://huggingface.co/stockmark",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Tokyo company that releases Japanese document-reading and language models.",
+  "focus": [
+   "language models",
+   "documents",
+   "Japanese"
+  ],
+  "notable_releases": [
+   {
+    "name": "Stockmark-DocReasoner-Qwen2.5-VL-32B",
+    "url": "https://huggingface.co/stockmark/Stockmark-DocReasoner-Qwen2.5-VL-32B",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/stockmark",
+   "https://stockmark.co.jp"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Tokyo company that releases Japanese document-reading and language models."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Documents",
+    "note": "Public work in the area of documents, as listed on its pages."
+   },
+   {
+    "title": "Japanese",
+    "note": "Public work in the area of Japanese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "Stockmark-DocReasoner-Qwen2.5-VL-32B",
+    "url": "https://huggingface.co/stockmark/Stockmark-DocReasoner-Qwen2.5-VL-32B",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "rinna",
+  "name": "rinna",
+  "type": "startup",
+  "founded": 2020,
+  "country": "Japan",
+  "city": "Tokyo",
+  "lat": 35.66,
+  "lon": 139.73,
+  "website": "https://rinna.co.jp/",
+  "huggingface": "https://huggingface.co/rinna",
+  "github": "https://github.com/rinnakk",
+  "x": "https://twitter.com/rinna_research",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Japanese generative AI company with a long record of releasing pre-trained Japanese models.",
+  "focus": [
+   "language models",
+   "Japanese",
+   "speech"
+  ],
+  "notable_releases": [
+   {
+    "name": "qwen2.5-bakeneko-32b",
+    "url": "https://huggingface.co/rinna/qwen2.5-bakeneko-32b",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "llama-3-youko-70b",
+    "url": "https://huggingface.co/rinna/llama-3-youko-70b",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face and code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/rinna",
+   "https://rinna.co.jp/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Japanese generative AI company with a long record of releasing pre-trained Japanese models."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Japanese",
+    "note": "Public work in the area of Japanese, as listed on its pages."
+   },
+   {
+    "title": "Speech",
+    "note": "Public work in the area of speech, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "rinna on GitHub",
+    "url": "https://github.com/rinnakk",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "qwen2.5-bakeneko-32b",
+    "url": "https://huggingface.co/rinna/qwen2.5-bakeneko-32b",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "llama-3-youko-70b",
+    "url": "https://huggingface.co/rinna/llama-3-youko-70b",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "turing",
+  "name": "Turing Inc.",
+  "type": "startup",
+  "founded": 2021,
+  "country": "Japan",
+  "city": "Kashiwa",
+  "lat": 35.86,
+  "lon": 139.97,
+  "website": "https://tur.ing/en",
+  "huggingface": "https://huggingface.co/turing-motors",
+  "github": "https://github.com/turingmotors",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Autonomous driving company that releases the Heron vision-language models and related tooling.",
+  "focus": [
+   "vision-language",
+   "autonomous driving"
+  ],
+  "notable_releases": [
+   {
+    "name": "Heron-NVILA-Lite-33B-hf",
+    "url": "https://huggingface.co/turing-motors/Heron-NVILA-Lite-33B-hf",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "drive_titok_s_640",
+    "url": "https://huggingface.co/turing-motors/drive_titok_s_640",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face, code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/turing-motors",
+   "https://tur.ing/en"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Autonomous driving company that releases the Heron vision-language models and related tooling."
+   },
+   {
+    "title": "Vision-language",
+    "note": "Public work in the area of vision-language, as listed on its pages."
+   },
+   {
+    "title": "Autonomous driving",
+    "note": "Public work in the area of autonomous driving, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Turing Inc. on GitHub",
+    "url": "https://github.com/turingmotors",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Heron-NVILA-Lite-33B-hf",
+    "url": "https://huggingface.co/turing-motors/Heron-NVILA-Lite-33B-hf",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "drive_titok_s_640",
+    "url": "https://huggingface.co/turing-motors/drive_titok_s_640",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "kotoba-technologies",
+  "name": "Kotoba Technologies",
+  "type": "startup",
+  "founded": 2023,
+  "country": "Japan",
+  "city": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "website": "https://kotoba.tech",
+  "huggingface": "https://huggingface.co/kotoba-tech",
+  "github": "https://github.com/kotoba-tech",
+  "x": "https://twitter.com/kotoba_tech",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Builds speech-to-speech foundation models; known for the Kotoba-Whisper Japanese speech recognition models.",
+  "focus": [
+   "speech",
+   "Japanese"
+  ],
+  "notable_releases": [
+   {
+    "name": "kotoba-whisper-v2.2",
+    "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.2",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "kotoba-whisper-v2.0",
+    "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face, code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/kotoba-tech",
+   "https://kotoba.tech"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Builds speech-to-speech foundation models; known for the Kotoba-Whisper Japanese speech recognition models."
+   },
+   {
+    "title": "Speech",
+    "note": "Public work in the area of speech, as listed on its pages."
+   },
+   {
+    "title": "Japanese",
+    "note": "Public work in the area of Japanese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Kotoba Technologies on GitHub",
+    "url": "https://github.com/kotoba-tech",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "kotoba-whisper-v2.2",
+    "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.2",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "kotoba-whisper-v2.0",
+    "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.0",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "swallow-llm",
+  "name": "Swallow LLM",
+  "type": "academic",
+  "founded": 2023,
+  "country": "Japan",
+  "city": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "website": "https://swallow-llm.github.io/",
+  "huggingface": "https://huggingface.co/tokyotech-llm",
+  "github": "https://github.com/swallow-llm",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "LLM project led by the Okazaki and Yokota labs at the Institute of Science Tokyo, adapting open models for Japanese.",
+  "focus": [
+   "language models",
+   "Japanese",
+   "medical"
+  ],
+  "notable_releases": [
+   {
+    "name": "GPT-OSS-Swallow-120B-RL-v0.1",
+    "url": "https://huggingface.co/tokyotech-llm/GPT-OSS-Swallow-120B-RL-v0.1",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Medical-Qwen3-Swallow-8B",
+    "url": "https://huggingface.co/tokyotech-llm/Medical-Qwen3-Swallow-8B",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face, code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/tokyotech-llm",
+   "https://swallow-llm.github.io/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "LLM project led by the Okazaki and Yokota labs at the Institute of Science Tokyo, adapting open models for Japanese."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Japanese",
+    "note": "Public work in the area of Japanese, as listed on its pages."
+   },
+   {
+    "title": "Medical",
+    "note": "Public work in the area of medical, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Swallow LLM on GitHub",
+    "url": "https://github.com/swallow-llm",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "GPT-OSS-Swallow-120B-RL-v0.1",
+    "url": "https://huggingface.co/tokyotech-llm/GPT-OSS-Swallow-120B-RL-v0.1",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Medical-Qwen3-Swallow-8B",
+    "url": "https://huggingface.co/tokyotech-llm/Medical-Qwen3-Swallow-8B",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "lightblue",
+  "name": "Lightblue",
+  "type": "startup",
+  "founded": null,
+  "country": "Japan",
+  "city": "Tokyo",
+  "lat": 35.68,
+  "lon": 139.69,
+  "website": "https://www.lightblue-tech.com/",
+  "huggingface": "https://huggingface.co/lightblue",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Tokyo firm that releases open models such as rerankers on Hugging Face.",
+  "focus": [
+   "language models",
+   "reranking",
+   "Japanese"
+  ],
+  "notable_releases": [
+   {
+    "name": "lb-reranker-0.5B-v1.0",
+    "url": "https://huggingface.co/lightblue/lb-reranker-0.5B-v1.0",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/lightblue",
+   "https://www.lightblue-tech.com/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Tokyo firm that releases open models such as rerankers on Hugging Face."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Reranking",
+    "note": "Public work in the area of reranking, as listed on its pages."
+   },
+   {
+    "title": "Japanese",
+    "note": "Public work in the area of Japanese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "lb-reranker-0.5B-v1.0",
+    "url": "https://huggingface.co/lightblue/lb-reranker-0.5B-v1.0",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "upstage",
+  "name": "Upstage",
+  "type": "startup",
+  "founded": 2020,
+  "country": "South Korea",
+  "city": "Seoul",
+  "lat": 37.57,
+  "lon": 126.98,
+  "website": "https://upstage.ai",
+  "huggingface": "https://huggingface.co/upstage",
+  "github": "https://github.com/upstageai",
+  "x": "https://twitter.com/upstageai",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Korean AI company building the Solar language models and document processing engines; some models released openly.",
+  "focus": [
+   "language models",
+   "documents",
+   "Korean"
+  ],
+  "notable_releases": [
+   {
+    "name": "Solar-Open2-250B",
+    "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "TinySolar-187m-4k",
+    "url": "https://huggingface.co/upstage/TinySolar-187m-4k",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Selected open weights on Hugging Face; commercial API for others.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/upstage",
+   "https://upstage.ai"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Korean AI company building the Solar language models and document processing engines; some models released openly."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Documents",
+    "note": "Public work in the area of documents, as listed on its pages."
+   },
+   {
+    "title": "Korean",
+    "note": "Public work in the area of Korean, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Upstage on GitHub",
+    "url": "https://github.com/upstageai",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Solar-Open2-250B",
+    "url": "https://huggingface.co/upstage/Solar-Open2-250B",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "TinySolar-187m-4k",
+    "url": "https://huggingface.co/upstage/TinySolar-187m-4k",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "trillion-labs",
+  "name": "Trillion Labs",
+  "type": "startup",
+  "founded": null,
+  "country": "South Korea",
+  "city": "Seoul",
+  "lat": 37.57,
+  "lon": 126.98,
+  "website": "https://trillionlabs.co",
+  "huggingface": "https://huggingface.co/trillionlabs",
+  "github": "https://github.com/trillion-labs",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Korean foundation model startup publishing models such as Zoro and GravityOCR-KO.",
+  "focus": [
+   "language models",
+   "Korean",
+   "OCR"
+  ],
+  "notable_releases": [
+   {
+    "name": "Zoro-1",
+    "url": "https://huggingface.co/trillionlabs/Zoro-1",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "GravityOCR-KO",
+    "url": "https://huggingface.co/trillionlabs/GravityOCR-KO",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/trillionlabs",
+   "https://trillionlabs.co"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Korean foundation model startup publishing models such as Zoro and GravityOCR-KO."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Korean",
+    "note": "Public work in the area of Korean, as listed on its pages."
+   },
+   {
+    "title": "Ocr",
+    "note": "Public work in the area of OCR, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Trillion Labs on GitHub",
+    "url": "https://github.com/trillion-labs",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Zoro-1",
+    "url": "https://huggingface.co/trillionlabs/Zoro-1",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "GravityOCR-KO",
+    "url": "https://huggingface.co/trillionlabs/GravityOCR-KO",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "motif-technologies",
+  "name": "Motif Technologies",
+  "type": "startup",
+  "founded": null,
+  "country": "South Korea",
+  "city": "Seoul",
+  "lat": 37.57,
+  "lon": 126.98,
+  "website": "https://motiftech.io/",
+  "huggingface": "https://huggingface.co/Motif-Technologies",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Korean AI company publishing Motif base models and open optimizer and activation kernels.",
+  "focus": [
+   "language models",
+   "training efficiency",
+   "Korean"
+  ],
+  "notable_releases": [
+   {
+    "name": "Motif-3-Base",
+    "url": "https://huggingface.co/Motif-Technologies/Motif-3-Base",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "optimizer",
+    "url": "https://huggingface.co/Motif-Technologies/optimizer",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights and kernels on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/Motif-Technologies",
+   "https://motiftech.io/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Korean AI company publishing Motif base models and open optimizer and activation kernels."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Training efficiency",
+    "note": "Public work in the area of training efficiency, as listed on its pages."
+   },
+   {
+    "title": "Korean",
+    "note": "Public work in the area of Korean, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "Motif-3-Base",
+    "url": "https://huggingface.co/Motif-Technologies/Motif-3-Base",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "optimizer",
+    "url": "https://huggingface.co/Motif-Technologies/optimizer",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "ai-singapore",
+  "name": "AI Singapore (SEA-LION)",
+  "type": "nonprofit",
+  "founded": 2017,
+  "country": "Singapore",
+  "city": "Singapore",
+  "lat": 1.35,
+  "lon": 103.82,
+  "website": "https://www.aisingapore.org",
+  "huggingface": "https://huggingface.co/aisingapore",
+  "github": "https://github.com/aisingapore",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "National AI programme (government-funded) behind the SEA-LION family of Southeast Asian language models.",
+  "focus": [
+   "language models",
+   "Southeast Asian languages"
+  ],
+  "notable_releases": [
+   {
+    "name": "Gemma-SEA-LION-v4-27B-IT",
+    "url": "https://huggingface.co/aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Gemma-SEA-LION-v4-27B-VL",
+    "url": "https://huggingface.co/aisingapore/Gemma-SEA-LION-v4-27B-VL",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face and code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/aisingapore",
+   "https://www.aisingapore.org"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "National AI programme (government-funded) behind the SEA-LION family of Southeast Asian language models."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Southeast asian languages",
+    "note": "Public work in the area of Southeast Asian languages, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "AI Singapore (SEA-LION) on GitHub",
+    "url": "https://github.com/aisingapore",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Gemma-SEA-LION-v4-27B-IT",
+    "url": "https://huggingface.co/aisingapore/Gemma-SEA-LION-v4-27B-IT",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Gemma-SEA-LION-v4-27B-VL",
+    "url": "https://huggingface.co/aisingapore/Gemma-SEA-LION-v4-27B-VL",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "sarvam-ai",
+  "name": "Sarvam AI",
+  "type": "startup",
+  "founded": 2023,
+  "country": "India",
+  "city": "Bengaluru",
+  "lat": 12.97,
+  "lon": 77.59,
+  "website": "https://www.sarvam.ai/",
+  "huggingface": "https://huggingface.co/sarvamai",
+  "github": null,
+  "x": "https://twitter.com/SarvamAI",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Indian startup building models for Indian languages, with several open-weight releases.",
+  "focus": [
+   "language models",
+   "translation",
+   "Indic languages"
+  ],
+  "notable_releases": [
+   {
+    "name": "sarvam-30b",
+    "url": "https://huggingface.co/sarvamai/sarvam-30b",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "sarvam-105b",
+    "url": "https://huggingface.co/sarvamai/sarvam-105b",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "sarvam-translate",
+    "url": "https://huggingface.co/sarvamai/sarvam-translate",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open weights on Hugging Face; no GitHub org listed.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/sarvamai",
+   "https://www.sarvam.ai/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Indian startup building models for Indian languages, with several open-weight releases."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Translation",
+    "note": "Public work in the area of translation, as listed on its pages."
+   },
+   {
+    "title": "Indic languages",
+    "note": "Public work in the area of Indic languages, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "sarvam-30b",
+    "url": "https://huggingface.co/sarvamai/sarvam-30b",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "sarvam-105b",
+    "url": "https://huggingface.co/sarvamai/sarvam-105b",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "sarvam-translate",
+    "url": "https://huggingface.co/sarvamai/sarvam-translate",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "ai4bharat",
+  "name": "AI4Bharat",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "India",
+  "city": "Chennai",
+  "lat": 13.08,
+  "lon": 80.27,
+  "website": "https://ai4bharat.iitm.ac.in/",
+  "huggingface": "https://huggingface.co/ai4bharat",
+  "github": "https://github.com/AI4Bharat",
+  "x": "https://twitter.com/ai4bharat",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Non-profit initiative at IIT Madras building open datasets, models and applications for Indian languages.",
+  "focus": [
+   "datasets",
+   "speech",
+   "translation",
+   "Indic languages"
+  ],
+  "notable_releases": [
+   {
+    "name": "indic-conformer-600m-multilingual",
+    "url": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "indic-seamless",
+    "url": "https://huggingface.co/ai4bharat/indic-seamless",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "indictrans2-indic-en-dist-200M",
+    "url": "https://huggingface.co/ai4bharat/indictrans2-indic-en-dist-200M",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open datasets, models and code.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/ai4bharat",
+   "https://ai4bharat.iitm.ac.in/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Non-profit initiative at IIT Madras building open datasets, models and applications for Indian languages."
+   },
+   {
+    "title": "Datasets",
+    "note": "Public work in the area of datasets, as listed on its pages."
+   },
+   {
+    "title": "Speech",
+    "note": "Public work in the area of speech, as listed on its pages."
+   },
+   {
+    "title": "Translation",
+    "note": "Public work in the area of translation, as listed on its pages."
+   },
+   {
+    "title": "Indic languages",
+    "note": "Public work in the area of Indic languages, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "AI4Bharat on GitHub",
+    "url": "https://github.com/AI4Bharat",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "indic-conformer-600m-multilingual",
+    "url": "https://huggingface.co/ai4bharat/indic-conformer-600m-multilingual",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "indic-seamless",
+    "url": "https://huggingface.co/ai4bharat/indic-seamless",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "indictrans2-indic-en-dist-200M",
+    "url": "https://huggingface.co/ai4bharat/indictrans2-indic-en-dist-200M",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "bharatgen",
+  "name": "BharatGen",
+  "type": "institute",
+  "founded": null,
+  "country": "India",
+  "city": "Mumbai",
+  "lat": 19.08,
+  "lon": 72.88,
+  "website": "https://bharatgen.com/",
+  "huggingface": "https://huggingface.co/bharatgenai",
+  "github": null,
+  "x": "https://twitter.com/BharatGen_Com",
+  "discord": null,
+  "linkedin": "https://linkedin.com/company/bharatgen",
+  "contact_email": null,
+  "summary": "India-focused consortium releasing language, speech and vision models plus the BhashaBench evaluation suite. Government-funded.",
+  "focus": [
+   "language models",
+   "evaluation",
+   "Indic languages"
+  ],
+  "notable_releases": [
+   {
+    "name": "Param2-17B-A2.4B-Thinking",
+    "url": "https://huggingface.co/bharatgenai/Param2-17B-A2.4B-Thinking",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Shrutam-2",
+    "url": "https://huggingface.co/bharatgenai/Shrutam-2",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "patram-7b-instruct",
+    "url": "https://huggingface.co/bharatgenai/patram-7b-instruct",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/bharatgenai",
+   "https://bharatgen.com/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "India-focused consortium releasing language, speech and vision models plus the BhashaBench evaluation suite."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Evaluation",
+    "note": "Public work in the area of evaluation, as listed on its pages."
+   },
+   {
+    "title": "Indic languages",
+    "note": "Public work in the area of Indic languages, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "Param2-17B-A2.4B-Thinking",
+    "url": "https://huggingface.co/bharatgenai/Param2-17B-A2.4B-Thinking",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Shrutam-2",
+    "url": "https://huggingface.co/bharatgenai/Shrutam-2",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "patram-7b-instruct",
+    "url": "https://huggingface.co/bharatgenai/patram-7b-instruct",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "mbzuai",
+  "name": "MBZUAI",
+  "type": "academic",
+  "founded": 2019,
+  "country": "United Arab Emirates",
+  "city": "Abu Dhabi",
+  "lat": 24.45,
+  "lon": 54.38,
+  "website": "https://mbzuai.ac.ae/",
+  "huggingface": "https://huggingface.co/MBZUAI",
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Graduate-level AI university in Abu Dhabi that publishes models and datasets on Hugging Face.",
+  "focus": [
+   "research",
+   "language models",
+   "vision"
+  ],
+  "notable_releases": [
+   {
+    "name": "TerraFM",
+    "url": "https://huggingface.co/MBZUAI/TerraFM",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "MedChain-R1",
+    "url": "https://huggingface.co/MBZUAI/MedChain-R1",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Models on Hugging Face; Arabic and multilingual releases.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/MBZUAI",
+   "https://mbzuai.ac.ae/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Graduate-level AI university in Abu Dhabi that publishes models and datasets on Hugging Face."
+   },
+   {
+    "title": "Research",
+    "note": "Public work in the area of research, as listed on its pages."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Vision",
+    "note": "Public work in the area of vision, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "TerraFM",
+    "url": "https://huggingface.co/MBZUAI/TerraFM",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "MedChain-R1",
+    "url": "https://huggingface.co/MBZUAI/MedChain-R1",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "institute-of-foundation-models",
+  "name": "Institute of Foundation Models (LLM360)",
+  "type": "institute",
+  "founded": null,
+  "country": "United Arab Emirates",
+  "city": "Abu Dhabi",
+  "lat": 24.45,
+  "lon": 54.38,
+  "website": "https://www.llm360.ai",
+  "huggingface": null,
+  "github": null,
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Research institute associated with the LLM360 open training effort; the legacy Hugging Face org notes its namespace has moved to IFM.",
+  "focus": [
+   "language models",
+   "training transparency"
+  ],
+  "notable_releases": [],
+  "openness": "LLM360 is known for releasing training artefacts; the legacy HF org shows no public models.",
+  "people_public": [],
+  "sources": [
+   "https://www.llm360.ai"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Research institute associated with the LLM360 open training effort; the legacy Hugging Face org notes its namespace has moved to IFM."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Training transparency",
+    "note": "Public work in the area of training transparency, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "tii-falcon",
+  "name": "Technology Innovation Institute (Falcon)",
+  "type": "institute",
+  "founded": 2020,
+  "country": "United Arab Emirates",
+  "city": "Abu Dhabi",
+  "lat": 24.45,
+  "lon": 54.38,
+  "website": "https://www.tii.ae/",
+  "huggingface": "https://huggingface.co/tiiuae",
+  "github": "https://github.com/tiiuae",
+  "x": "https://twitter.com/TIIuae",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Research centre of the Abu Dhabi government's Advanced Technology Research Council, publisher of the Falcon models. Government-funded.",
+  "focus": [
+   "language models",
+   "vision",
+   "1-bit models"
+  ],
+  "notable_releases": [
+   {
+    "name": "Falcon-OCR",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Falcon-Perception",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Falcon3-10B-Base-1.58bit-prequantized",
+    "url": "https://huggingface.co/tiiuae/Falcon3-10B-Base-1.58bit-prequantized",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face and code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/tiiuae",
+   "https://www.tii.ae/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Research centre of the Abu Dhabi government's Advanced Technology Research Council, publisher of the Falcon models."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Vision",
+    "note": "Public work in the area of vision, as listed on its pages."
+   },
+   {
+    "title": "1-bit models",
+    "note": "Public work in the area of 1-bit models, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Technology Innovation Institute (Falcon) on GitHub",
+    "url": "https://github.com/tiiuae",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Falcon-OCR",
+    "url": "https://huggingface.co/tiiuae/Falcon-OCR",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Falcon-Perception",
+    "url": "https://huggingface.co/tiiuae/Falcon-Perception",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Falcon3-10B-Base-1.58bit-prequantized",
+    "url": "https://huggingface.co/tiiuae/Falcon3-10B-Base-1.58bit-prequantized",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "dicta",
+  "name": "DICTA: Israel Center for Text Analysis",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "Israel",
+  "city": "Jerusalem",
+  "lat": 31.77,
+  "lon": 35.22,
+  "website": "https://dicta.org.il/",
+  "huggingface": "https://huggingface.co/dicta-il",
+  "github": "https://github.com/Dicta-Israel-Center-for-Text-Analysis",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Non-profit building Hebrew language models and tools, including the DictaLM open-weight collection.",
+  "focus": [
+   "language models",
+   "Hebrew",
+   "NLP tools"
+  ],
+  "notable_releases": [
+   {
+    "name": "dictabert-lex",
+    "url": "https://huggingface.co/dicta-il/dictabert-lex",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "dictabert-joint",
+    "url": "https://huggingface.co/dicta-il/dictabert-joint",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open-weight Hebrew models.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/dicta-il",
+   "https://dicta.org.il/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Non-profit building Hebrew language models and tools, including the DictaLM open-weight collection."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Hebrew",
+    "note": "Public work in the area of Hebrew, as listed on its pages."
+   },
+   {
+    "title": "Nlp tools",
+    "note": "Public work in the area of NLP tools, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "DICTA: Israel Center for Text Analysis on GitHub",
+    "url": "https://github.com/Dicta-Israel-Center-for-Text-Analysis",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "dictabert-lex",
+    "url": "https://huggingface.co/dicta-il/dictabert-lex",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "dictabert-joint",
+    "url": "https://huggingface.co/dicta-il/dictabert-joint",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "ai21-labs",
+  "name": "AI21 Labs",
+  "type": "startup",
+  "founded": 2017,
+  "country": "Israel",
+  "city": "Tel Aviv",
+  "lat": 32.09,
+  "lon": 34.78,
+  "website": "https://ai21.com",
+  "huggingface": "https://huggingface.co/ai21labs",
+  "github": "https://github.com/AI21Labs",
+  "x": "https://twitter.com/AI21Labs",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Israeli enterprise AI company. Partly open: Jamba models are published on Hugging Face while products are commercial.",
+  "focus": [
+   "language models",
+   "enterprise"
+  ],
+  "notable_releases": [
+   {
+    "name": "AI21-Jamba2-Mini",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-Mini",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "AI21-Jamba2-3B",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Selected open weights; licence per model card.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/ai21labs",
+   "https://ai21.com"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Israeli enterprise AI company."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Enterprise",
+    "note": "Public work in the area of enterprise, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "AI21 Labs on GitHub",
+    "url": "https://github.com/AI21Labs",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "AI21-Jamba2-Mini",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-Mini",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "AI21-Jamba2-3B",
+    "url": "https://huggingface.co/ai21labs/AI21-Jamba2-3B",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "typhoon-scb10x",
+  "name": "Typhoon (SCB 10X)",
+  "type": "startup",
+  "founded": null,
+  "country": "Thailand",
+  "city": "Bangkok",
+  "lat": 13.76,
+  "lon": 100.5,
+  "website": "https://opentyphoon.ai/",
+  "huggingface": "https://huggingface.co/typhoon-ai",
+  "github": null,
+  "x": "https://twitter.com/opentyphoon",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Thai-language AI effort publishing OCR models and benchmarks, safety and speech datasets. Backed by SCB 10X; confirm independence.",
+  "focus": [
+   "language models",
+   "OCR",
+   "Thai"
+  ],
+  "notable_releases": [
+   {
+    "name": "typhoon-ocr2-0.8b-GGUF",
+    "url": "https://huggingface.co/typhoon-ai/typhoon-ocr2-0.8b-GGUF",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Models and datasets on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/typhoon-ai",
+   "https://opentyphoon.ai/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Thai-language AI effort publishing OCR models and benchmarks, safety and speech datasets."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Ocr",
+    "note": "Public work in the area of OCR, as listed on its pages."
+   },
+   {
+    "title": "Thai",
+    "note": "Public work in the area of Thai, as listed on its pages."
+   }
+  ],
+  "github_highlights": [],
+  "hf_highlights": [
+   {
+    "name": "typhoon-ocr2-0.8b-GGUF",
+    "url": "https://huggingface.co/typhoon-ai/typhoon-ocr2-0.8b-GGUF",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "vistec-airesearch",
+  "name": "VISTEC-depa AI Research Institute of Thailand",
+  "type": "academic",
+  "founded": null,
+  "country": "Thailand",
+  "city": "Rayong",
+  "lat": 12.72,
+  "lon": 101.15,
+  "website": "https://airesearch.in.th/",
+  "huggingface": "https://huggingface.co/airesearch",
+  "github": "https://github.com/vistec-AI",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Thai institute with 200+ models and Thai datasets on Hugging Face.",
+  "focus": [
+   "Thai",
+   "datasets",
+   "language models"
+  ],
+  "notable_releases": [
+   {
+    "name": "Qwen3-8B-ReTool-w-CoBe",
+    "url": "https://huggingface.co/airesearch/Qwen3-8B-ReTool-w-CoBe",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Models and datasets on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/airesearch",
+   "https://airesearch.in.th/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Thai institute with 200+ models and Thai datasets on Hugging Face."
+   },
+   {
+    "title": "Thai",
+    "note": "Public work in the area of Thai, as listed on its pages."
+   },
+   {
+    "title": "Datasets",
+    "note": "Public work in the area of datasets, as listed on its pages."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "VISTEC-depa AI Research Institute of Thailand on GitHub",
+    "url": "https://github.com/vistec-AI",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Qwen3-8B-ReTool-w-CoBe",
+    "url": "https://huggingface.co/airesearch/Qwen3-8B-ReTool-w-CoBe",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "mesolitica",
+  "name": "Mesolitica (MaLLaM)",
+  "type": "startup",
+  "founded": null,
+  "country": "Malaysia",
+  "city": "Kuala Lumpur",
+  "lat": 3.14,
+  "lon": 101.69,
+  "website": "https://mesolitica.com/",
+  "huggingface": "https://huggingface.co/mesolitica",
+  "github": "https://github.com/mesolitica",
+  "x": "https://twitter.com/mesolitica",
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Malaysian multimodal AI lab releasing Malay translation, TTS and language models.",
+  "focus": [
+   "Malay",
+   "speech",
+   "translation"
+  ],
+  "notable_releases": [
+   {
+    "name": "Malaysian-TTS-4B-v0.1",
+    "url": "https://huggingface.co/mesolitica/Malaysian-TTS-4B-v0.1",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "nanot5-base-malaysian-translation-v2",
+    "url": "https://huggingface.co/mesolitica/nanot5-base-malaysian-translation-v2",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open weights.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/mesolitica",
+   "https://mesolitica.com/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Malaysian multimodal AI lab releasing Malay translation, TTS and language models."
+   },
+   {
+    "title": "Malay",
+    "note": "Public work in the area of Malay, as listed on its pages."
+   },
+   {
+    "title": "Speech",
+    "note": "Public work in the area of speech, as listed on its pages."
+   },
+   {
+    "title": "Translation",
+    "note": "Public work in the area of translation, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Mesolitica (MaLLaM) on GitHub",
+    "url": "https://github.com/mesolitica",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Malaysian-TTS-4B-v0.1",
+    "url": "https://huggingface.co/mesolitica/Malaysian-TTS-4B-v0.1",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "nanot5-base-malaysian-translation-v2",
+    "url": "https://huggingface.co/mesolitica/nanot5-base-malaysian-translation-v2",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "issai",
+  "name": "ISSAI (Nazarbayev University)",
+  "type": "institute",
+  "founded": 2019,
+  "country": "Kazakhstan",
+  "city": "Astana",
+  "lat": 51.17,
+  "lon": 71.45,
+  "website": "http://issai.nu.edu.kz",
+  "huggingface": "https://huggingface.co/issai",
+  "github": "https://github.com/IS2AI",
+  "x": null,
+  "discord": null,
+  "linkedin": "https://linkedin.com/company/institute-of-smart-systems-and-artificial-intelligence",
+  "contact_email": null,
+  "summary": "AI institute at Nazarbayev University working on Kazakh-language AI.",
+  "focus": [
+   "Kazakh",
+   "speech",
+   "language models"
+  ],
+  "notable_releases": [
+   {
+    "name": "foggen",
+    "url": "https://huggingface.co/issai/foggen",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Models on Hugging Face and code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/issai",
+   "http://issai.nu.edu.kz"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "AI institute at Nazarbayev University working on Kazakh-language AI."
+   },
+   {
+    "title": "Kazakh",
+    "note": "Public work in the area of Kazakh, as listed on its pages."
+   },
+   {
+    "title": "Speech",
+    "note": "Public work in the area of speech, as listed on its pages."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "ISSAI (Nazarbayev University) on GitHub",
+    "url": "https://github.com/IS2AI",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "foggen",
+    "url": "https://huggingface.co/issai/foggen",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "qcri",
+  "name": "Qatar Computing Research Institute",
+  "type": "institute",
+  "founded": null,
+  "country": "Qatar",
+  "city": "Doha",
+  "lat": 25.29,
+  "lon": 51.53,
+  "website": "https://www.hbku.edu.qa/en/qcri",
+  "huggingface": "https://huggingface.co/QCRI",
+  "github": "https://github.com/qcri",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Research institute of HBKU focused on Arabic technology, multilingual NLP and responsible AI. Government-linked.",
+  "focus": [
+   "Arabic",
+   "NLP",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "LlamaLens",
+    "url": "https://huggingface.co/QCRI/LlamaLens",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "MemeLens-VLM",
+    "url": "https://huggingface.co/QCRI/MemeLens-VLM",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open models and datasets.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/QCRI",
+   "https://www.hbku.edu.qa/en/qcri"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Research institute of HBKU focused on Arabic technology, multilingual NLP and responsible AI."
+   },
+   {
+    "title": "Arabic",
+    "note": "Public work in the area of Arabic, as listed on its pages."
+   },
+   {
+    "title": "Nlp",
+    "note": "Public work in the area of NLP, as listed on its pages."
+   },
+   {
+    "title": "Datasets",
+    "note": "Public work in the area of datasets, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Qatar Computing Research Institute on GitHub",
+    "url": "https://github.com/qcri",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "LlamaLens",
+    "url": "https://huggingface.co/QCRI/LlamaLens",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "MemeLens-VLM",
+    "url": "https://huggingface.co/QCRI/MemeLens-VLM",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "taide",
+  "name": "TAIDE",
+  "type": "institute",
+  "founded": 2023,
+  "country": "Taiwan",
+  "city": "Taipei",
+  "lat": 25.03,
+  "lon": 121.57,
+  "website": "https://taide.tw/",
+  "huggingface": "https://huggingface.co/taide",
+  "github": "https://github.com/taide-taiwan",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Taiwan trustworthy AI dialogue engine project releasing Traditional Chinese models. Government-initiated.",
+  "focus": [
+   "language models",
+   "Traditional Chinese"
+  ],
+  "notable_releases": [
+   {
+    "name": "Gemma-3-TAIDE-12b-Chat",
+    "url": "https://huggingface.co/taide/Gemma-3-TAIDE-12b-Chat",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Llama-3.1-TAIDE-LX-8B-Chat",
+    "url": "https://huggingface.co/taide/Llama-3.1-TAIDE-LX-8B-Chat",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/taide",
+   "https://taide.tw/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Taiwan trustworthy AI dialogue engine project releasing Traditional Chinese models."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Traditional chinese",
+    "note": "Public work in the area of Traditional Chinese, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "TAIDE on GitHub",
+    "url": "https://github.com/taide-taiwan",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Gemma-3-TAIDE-12b-Chat",
+    "url": "https://huggingface.co/taide/Gemma-3-TAIDE-12b-Chat",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Llama-3.1-TAIDE-LX-8B-Chat",
+    "url": "https://huggingface.co/taide/Llama-3.1-TAIDE-LX-8B-Chat",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "ckip-lab",
+  "name": "CKIP Lab (Academia Sinica)",
+  "type": "academic",
+  "founded": null,
+  "country": "Taiwan",
+  "city": "Taipei",
+  "lat": 25.03,
+  "lon": 121.57,
+  "website": "https://ckip.iis.sinica.edu.tw/",
+  "huggingface": "https://huggingface.co/ckiplab",
+  "github": "https://github.com/ckiplab",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Non-profit NLP lab publishing Chinese NLP models including Han Chinese models.",
+  "focus": [
+   "Chinese NLP",
+   "language models"
+  ],
+  "notable_releases": [
+   {
+    "name": "bert-base-han-chinese-pos-xiandai",
+    "url": "https://huggingface.co/ckiplab/bert-base-han-chinese-pos-xiandai",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Models on Hugging Face and code on GitHub.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/ckiplab",
+   "https://ckip.iis.sinica.edu.tw/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Non-profit NLP lab publishing Chinese NLP models including Han Chinese models."
+   },
+   {
+    "title": "Chinese nlp",
+    "note": "Public work in the area of Chinese NLP, as listed on its pages."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "CKIP Lab (Academia Sinica) on GitHub",
+    "url": "https://github.com/ckiplab",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "bert-base-han-chinese-pos-xiandai",
+    "url": "https://huggingface.co/ckiplab/bert-base-han-chinese-pos-xiandai",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "buet-csebuetnlp",
+  "name": "BUET CSE NLP Group",
+  "type": "academic",
+  "founded": null,
+  "country": "Bangladesh",
+  "city": "Dhaka",
+  "lat": 23.81,
+  "lon": 90.41,
+  "website": "https://csebuetnlp.github.io/",
+  "huggingface": "https://huggingface.co/csebuetnlp",
+  "github": "https://github.com/csebuetnlp",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "University research group on low-resource Bangla NLP, releasing BanglaBERT and BanglaT5.",
+  "focus": [
+   "Bangla",
+   "NLP",
+   "datasets"
+  ],
+  "notable_releases": [
+   {
+    "name": "banglabert",
+    "url": "https://huggingface.co/csebuetnlp/banglabert",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "banglat5_nmt_bn_en",
+    "url": "https://huggingface.co/csebuetnlp/banglat5_nmt_bn_en",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open models and datasets.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/csebuetnlp",
+   "https://csebuetnlp.github.io/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "University research group on low-resource Bangla NLP, releasing BanglaBERT and BanglaT5."
+   },
+   {
+    "title": "Bangla",
+    "note": "Public work in the area of Bangla, as listed on its pages."
+   },
+   {
+    "title": "Nlp",
+    "note": "Public work in the area of NLP, as listed on its pages."
+   },
+   {
+    "title": "Datasets",
+    "note": "Public work in the area of datasets, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "BUET CSE NLP Group on GitHub",
+    "url": "https://github.com/csebuetnlp",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "banglabert",
+    "url": "https://huggingface.co/csebuetnlp/banglabert",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "banglat5_nmt_bn_en",
+    "url": "https://huggingface.co/csebuetnlp/banglat5_nmt_bn_en",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "hooshvare",
+  "name": "Hooshvare Research Lab",
+  "type": "nonprofit",
+  "founded": null,
+  "country": "Iran",
+  "city": "Tehran",
+  "lat": 35.69,
+  "lon": 51.39,
+  "website": "https://github.com/hooshvare/",
+  "huggingface": "https://huggingface.co/HooshvareLab",
+  "github": "https://github.com/hooshvare",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Non-profit lab publishing Persian NLP models such as ParsBERT and Persian GPT-2.",
+  "focus": [
+   "Persian",
+   "NLP"
+  ],
+  "notable_releases": [
+   {
+    "name": "gpt2-fa",
+    "url": "https://huggingface.co/HooshvareLab/gpt2-fa",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "roberta-fa-zwnj-base",
+    "url": "https://huggingface.co/HooshvareLab/roberta-fa-zwnj-base",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open models.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/HooshvareLab",
+   "https://github.com/hooshvare/"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Non-profit lab publishing Persian NLP models such as ParsBERT and Persian GPT-2."
+   },
+   {
+    "title": "Persian",
+    "note": "Public work in the area of Persian, as listed on its pages."
+   },
+   {
+    "title": "Nlp",
+    "note": "Public work in the area of NLP, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Hooshvare Research Lab on GitHub",
+    "url": "https://github.com/hooshvare",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "gpt2-fa",
+    "url": "https://huggingface.co/HooshvareLab/gpt2-fa",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "roberta-fa-zwnj-base",
+    "url": "https://huggingface.co/HooshvareLab/roberta-fa-zwnj-base",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "part-ai",
+  "name": "Part AI",
+  "type": "startup",
+  "founded": null,
+  "country": "Iran",
+  "city": "Tehran",
+  "lat": 35.69,
+  "lon": 51.39,
+  "website": "https://partdp.ai/en",
+  "huggingface": "https://huggingface.co/PartAI",
+  "github": "https://github.com/partdpai",
+  "x": null,
+  "discord": null,
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Iranian company publishing Persian Dorna and Tooka models.",
+  "focus": [
+   "Persian",
+   "language models",
+   "embeddings"
+  ],
+  "notable_releases": [
+   {
+    "name": "Dorna-Llama3-8B-Instruct",
+    "url": "https://huggingface.co/PartAI/Dorna-Llama3-8B-Instruct",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Tooka-SBERT",
+    "url": "https://huggingface.co/PartAI/Tooka-SBERT",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Weights on Hugging Face.",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/PartAI",
+   "https://partdp.ai/en"
+  ],
+  "confidence": "medium",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Iranian company publishing Persian Dorna and Tooka models."
+   },
+   {
+    "title": "Persian",
+    "note": "Public work in the area of Persian, as listed on its pages."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Embeddings",
+    "note": "Public work in the area of embeddings, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "Part AI on GitHub",
+    "url": "https://github.com/partdpai",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "Dorna-Llama3-8B-Instruct",
+    "url": "https://huggingface.co/PartAI/Dorna-Llama3-8B-Instruct",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "Tooka-SBERT",
+    "url": "https://huggingface.co/PartAI/Tooka-SBERT",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": null,
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ },
+ {
+  "id": "rwkv",
+  "name": "RWKV",
+  "type": "collective",
+  "founded": null,
+  "country": "Hong Kong",
+  "city": "Hong Kong",
+  "lat": 22.32,
+  "lon": 114.17,
+  "website": "https://www.rwkv.com/",
+  "huggingface": "https://huggingface.co/RWKV",
+  "github": "https://github.com/RWKV",
+  "x": "https://twitter.com/RWKV_AI",
+  "discord": "https://discord.gg/bDSBUMeFpc",
+  "linkedin": null,
+  "contact_email": null,
+  "summary": "Open-source community behind the RWKV RNN-style language model architecture, now a Linux Foundation AI project. Location is approximate.",
+  "focus": [
+   "language models",
+   "architecture",
+   "training infrastructure"
+  ],
+  "notable_releases": [
+   {
+    "name": "RWKV7-G1l-13.3B-20261031",
+    "url": "https://huggingface.co/RWKV/RWKV7-G1l-13.3B-20261031",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "RWKV7-G1l-7.2B-20261031",
+    "url": "https://huggingface.co/RWKV/RWKV7-G1l-7.2B-20261031",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "openness": "Open weights and code (RWKV-LM, RWKV-Runner).",
+  "people_public": [],
+  "sources": [
+   "https://huggingface.co/RWKV",
+   "https://www.rwkv.com/"
+  ],
+  "confidence": "high",
+  "contributions": [
+   {
+    "title": "Overview",
+    "note": "Open-source community behind the RWKV RNN-style language model architecture, now a Linux Foundation AI project."
+   },
+   {
+    "title": "Language models",
+    "note": "Public work in the area of language models, as listed on its pages."
+   },
+   {
+    "title": "Architecture",
+    "note": "Public work in the area of architecture, as listed on its pages."
+   },
+   {
+    "title": "Training infrastructure",
+    "note": "Public work in the area of training infrastructure, as listed on its pages."
+   }
+  ],
+  "github_highlights": [
+   {
+    "name": "RWKV on GitHub",
+    "url": "https://github.com/RWKV",
+    "note": "Organisation page linked from its official profile"
+   }
+  ],
+  "hf_highlights": [
+   {
+    "name": "RWKV7-G1l-13.3B-20261031",
+    "url": "https://huggingface.co/RWKV/RWKV7-G1l-13.3B-20261031",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   },
+   {
+    "name": "RWKV7-G1l-7.2B-20261031",
+    "url": "https://huggingface.co/RWKV/RWKV7-G1l-7.2B-20261031",
+    "kind": "model",
+    "note": "Model or dataset on its Hugging Face page"
+   }
+  ],
+  "papers": [],
+  "discord_note": "Public Discord community for the project",
+  "contact_note": "Contact via its website or Hugging Face/GitHub organisation page"
+ }
+]

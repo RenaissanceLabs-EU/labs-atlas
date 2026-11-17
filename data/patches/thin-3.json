@@ -1,0 +1,574 @@
+[
+ {
+  "id": "digital-umuganda",
+  "key_people": [
+   {
+    "name": "Audace Niyonkuru",
+    "role": "Founder and CEO",
+    "url": "https://blogs.nvidia.com/blog/common-voice-conversational-ai",
+    "note": "Named as founder and CEO in NVIDIA and Mozilla coverage of the Common Voice work."
+   },
+   {
+    "name": "Ali Nyiringabo",
+    "role": "Co-founder",
+    "url": "https://blogs.nvidia.com/blog/common-voice-conversational-ai",
+    "note": "Named as a co-founder in NVIDIA coverage."
+   },
+   {
+    "name": "Samuel Rutunda",
+    "role": "Team member, Hugging Face organization",
+    "url": "https://huggingface.co/rutsam",
+    "note": "Listed among the twelve members of the Hugging Face organization."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Kinyarwanda voice hackathon",
+    "note": "A 2019 Mozilla and GIZ hackathon in Kigali launched the Kinyarwanda voice data effort; the winning idea adapted the umuganda community-work tradition to collect speech.",
+    "year": "2019"
+   },
+   {
+    "title": "Common Voice contributions",
+    "note": "The company became a leading African contributor to Mozilla Common Voice, building open Kinyarwanda speech data and models.",
+    "year": "2019-2022"
+   }
+  ]
+ },
+ {
+  "id": "epoch-ai",
+  "key_people": [
+   {
+    "name": "Jaime Sevilla",
+    "role": "CEO and board member",
+    "url": "https://epoch.ai/about/team/jaime-sevilla",
+    "note": ""
+   },
+   {
+    "name": "María de la Lama",
+    "role": "COO and board member",
+    "url": "https://epoch.ai/about/team/maria-de-la-lama",
+    "note": ""
+   },
+   {
+    "name": "Yafah Edelman",
+    "role": "Chief Scientific Officer",
+    "url": "https://epoch.ai/about/team/yafah-edelman",
+    "note": ""
+   },
+   {
+    "name": "Bret Sepulveda",
+    "role": "Chief Technology Officer",
+    "url": "https://epoch.ai/about/team/bret-sepulveda",
+    "note": ""
+   },
+   {
+    "name": "Greg Burnham",
+    "role": "Head of Benchmarks",
+    "url": "https://epoch.ai/about/team/greg-burnham",
+    "note": ""
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Volunteer group forms",
+    "note": "Epoch AI began as volunteers collecting and analyzing data on AI progress.",
+    "year": "2021"
+   },
+   {
+    "title": "Training compute trends paper",
+    "note": "The 2022 paper on compute trends led to the founding of the organization.",
+    "year": "2022"
+   },
+   {
+    "title": "Public databases",
+    "note": "Maintains open databases on ML hardware, model training compute, AI investment, GPU clusters and data centers.",
+    "year": "Ongoing"
+   },
+   {
+    "title": "Benchmarks and evaluations",
+    "note": "Runs independent evaluations and builds benchmarks, including FrontierMath.",
+    "year": "Ongoing"
+   }
+  ]
+ },
+ {
+  "id": "essential-ai",
+  "key_people": [
+   {
+    "name": "Ashish Vaswani",
+    "role": "CEO",
+    "url": "https://www.essential.ai",
+    "note": "Author of the Rnj-1 announcement; co-author of the Transformer paper."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Essential-Web v1.0: 24T tokens of organized web data",
+    "url": "https://arxiv.org/abs/2506.14111",
+    "year": "2025"
+   },
+   {
+    "title": "Practical Efficiency of Muon for Pretraining",
+    "url": "https://arxiv.org/abs/2505.02222",
+    "year": "2025"
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Practical efficiency of Muon",
+    "note": "Research paper on the Muon optimizer for pretraining.",
+    "year": "May 2025"
+   },
+   {
+    "title": "Essential-Web v1.0",
+    "note": "Release of a 24-trillion-token organized web dataset.",
+    "year": "June 2025"
+   },
+   {
+    "title": "Rnj-1",
+    "note": "Announcement of base and instruction-tuned models.",
+    "year": "December 2025"
+   }
+  ]
+ },
+ {
+  "id": "explosion",
+  "key_people": [
+   {
+    "name": "Ines Montani",
+    "role": "CEO and founder",
+    "url": "https://ines.io",
+    "note": ""
+   },
+   {
+    "name": "Matthew Honnibal",
+    "role": "CTO and founder",
+    "url": "https://honnibal.dev",
+    "note": ""
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Company founded",
+    "note": "Explosion was founded in Berlin by Matthew Honnibal and Ines Montani.",
+    "year": "2016"
+   },
+   {
+    "title": "SignalFire investment",
+    "note": "Sold 5% of the company to SignalFire for $6 million.",
+    "year": "2021"
+   },
+   {
+    "title": "Follow-on investment",
+    "note": "SignalFire invested a further $3 million.",
+    "year": "2022"
+   },
+   {
+    "title": "Return to independence",
+    "note": "Described its return to running as an independent, self-sufficient company with no further venture funding sought.",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "far-ai",
+  "key_people": [
+   {
+    "name": "Adam Gleave",
+    "role": "Co-founder and CEO",
+    "url": "https://far.ai/author/adam-gleave",
+    "note": ""
+   },
+   {
+    "name": "Karl Berzins",
+    "role": "Co-founder and President",
+    "url": "https://far.ai/author/karl-berzins",
+    "note": ""
+   },
+   {
+    "name": "Kellin Pelrine",
+    "role": "Head of Technology, Frontier Safety",
+    "url": "https://far.ai/author/kellin-pelrine",
+    "note": ""
+   },
+   {
+    "name": "Boston Nyer",
+    "role": "Chief Operating Officer",
+    "url": "https://far.ai/author/boston-nyer",
+    "note": ""
+   },
+   {
+    "name": "Chris Cundy",
+    "role": "Member of Technical Staff",
+    "url": "https://far.ai/author/chris-cundy",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "fbk-mt",
+  "key_people": [
+   {
+    "name": "Luisa Bentivogli",
+    "role": "Head of Unit",
+    "url": "https://mt.fbk.eu/people/",
+    "note": ""
+   },
+   {
+    "name": "Matteo Negri",
+    "role": "Senior Research Scientist",
+    "url": "https://mt.fbk.eu/people/",
+    "note": ""
+   },
+   {
+    "name": "Mauro Cettolo",
+    "role": "Senior Research Scientist",
+    "url": "https://mt.fbk.eu/people/",
+    "note": ""
+   },
+   {
+    "name": "Marco Gaido",
+    "role": "Researcher",
+    "url": "https://mt.fbk.eu/people/",
+    "note": ""
+   },
+   {
+    "name": "Beatrice Savoldi",
+    "role": "Researcher, gender bias in NLP",
+    "url": "https://mt.fbk.eu/people/",
+    "note": ""
+   }
+  ],
+  "contributions": [
+   {
+    "title": "simulstream release",
+    "note": "Software for simultaneous speech translation released.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "futurehouse",
+  "key_people": [
+   {
+    "name": "Sam Rodriques",
+    "role": "CEO and co-founder",
+    "url": "https://www.futurehouse.org/team/sam-rodriques",
+    "note": ""
+   },
+   {
+    "name": "Andrew White",
+    "role": "Head of Science and co-founder",
+    "url": "https://www.futurehouse.org/team/andrew-white",
+    "note": ""
+   },
+   {
+    "name": "Jessica Wu",
+    "role": "Head of Operations",
+    "url": "https://www.futurehouse.org/team/jessica-wu",
+    "note": ""
+   }
+  ],
+  "contributions": [
+   {
+    "title": "FutureHouse founded",
+    "note": "Founded in San Francisco as a nonprofit by Sam Rodriques and Andrew White.",
+    "year": "2023"
+   },
+   {
+    "title": "Edison Scientific spin-out",
+    "note": "A for-profit company, Edison Scientific, spun out of FutureHouse.",
+    "year": "2025"
+   },
+   {
+    "title": "Kosmos",
+    "note": "Launched an AI Scientist for autonomous complex analyses.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "genmo",
+  "key_people": [
+   {
+    "name": "Paras Jain",
+    "role": "Co-founder and CEO",
+    "url": "https://www.forwardfuture.ai/p/reimagining-creativity-paras-jain-on-genmo-s-vision-and-the-future-of-generative-ai",
+    "note": ""
+   },
+   {
+    "name": "Ajay Jain",
+    "role": "Co-founder",
+    "url": "https://thursdai.news/guests/ajayj_",
+    "note": "Sources differ on his title."
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Mochi 1",
+    "note": "First public open-source video model, released under Apache 2.0.",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "gensyn",
+  "key_people": [
+   {
+    "name": "Ben Fielding",
+    "role": "Co-founder",
+    "url": "https://www.gensyn.ai/about",
+    "note": ""
+   },
+   {
+    "name": "Harry Grieve",
+    "role": "Co-founder",
+    "url": "https://www.gensyn.ai/about",
+    "note": ""
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Gensyn founded",
+    "note": "Founded in London by Ben Fielding and Harry Grieve.",
+    "year": "2020"
+   },
+   {
+    "title": "Series A",
+    "note": "a16z crypto led a $43 million Series A.",
+    "year": "2023"
+   }
+  ]
+ },
+ {
+  "id": "ghana-nlp",
+  "key_people": [
+   {
+    "name": "Paul Azunre",
+    "role": "Co-founder",
+    "url": "https://yen.com.gh/education/255014-paul-azunre-nsmq-winner-develops-app-translates-twi-english/",
+    "note": "Described as co-founder of Ghana NLP in press coverage."
+   }
+  ],
+  "papers": [
+   {
+    "title": "Nsanku: Evaluating Zero-Shot Translation Performance of LLMs for Ghanaian Languages",
+    "url": "https://arxiv.org/abs/2605.04208",
+    "year": "2026"
+   }
+  ],
+  "contributions": [
+   {
+    "title": "ABENA",
+    "note": "Introduced a BERT-based language model for Twi.",
+    "year": "2020"
+   },
+   {
+    "title": "ghana-speech dataset",
+    "note": "Released 2,247 hours of speech across 42 Ghanaian languages, followed by a phoneme ASR model.",
+    "year": "2026"
+   }
+  ]
+ },
+ {
+  "id": "goodfire",
+  "key_people": [
+   {
+    "name": "Eric Ho",
+    "role": "Co-founder and CEO",
+    "url": "https://sequoiacap.com/podcast/training-data-eric-ho",
+    "note": ""
+   },
+   {
+    "name": "Tom McGrath",
+    "role": "Co-founder and Chief Scientist",
+    "url": "https://lsvp.com/stories/goodfire-building-interpretable-ai/",
+    "note": "Previously co-founded Google DeepMind's interpretability team."
+   },
+   {
+    "name": "Dan Balsam",
+    "role": "Co-founder and CTO",
+    "url": "https://lsvp.com/stories/goodfire-building-interpretable-ai/",
+    "note": ""
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Goodfire founded",
+    "note": "Founded in San Francisco by Eric Ho, Dan Balsam and Tom McGrath.",
+    "year": "2024"
+   },
+   {
+    "title": "Ember",
+    "note": "Launched a platform for mechanistic interpretability research.",
+    "year": "2024"
+   },
+   {
+    "title": "Series A",
+    "note": "Announced a $50 million Series A led by Menlo Ventures.",
+    "year": "2025"
+   }
+  ]
+ },
+ {
+  "id": "gorilla",
+  "key_people": [
+   {
+    "name": "Shishir G. Patil",
+    "role": "Lead researcher",
+    "url": "https://people.eecs.berkeley.edu/~shishirpatil/",
+    "note": ""
+   },
+   {
+    "name": "Tianjun Zhang",
+    "role": "Researcher",
+    "url": "https://tianjunz.github.io/",
+    "note": ""
+   },
+   {
+    "name": "Xin Wang",
+    "role": "Researcher",
+    "url": "https://xinw.ai/",
+    "note": ""
+   },
+   {
+    "name": "Joseph E. Gonzalez",
+    "role": "Professor, UC Berkeley",
+    "url": "https://people.eecs.berkeley.edu/~jegonzal/",
+    "note": ""
+   }
+  ],
+  "papers": [
+   {
+    "title": "Gorilla: Large Language Model Connected with Massive APIs",
+    "url": "https://arxiv.org/abs/2305.15334",
+    "year": "2023"
+   },
+   {
+    "title": "RAFT: Adapting Language Model to Domain Specific RAG",
+    "url": "https://arxiv.org/abs/2403.10131",
+    "year": "2024"
+   },
+   {
+    "title": "GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications",
+    "url": "https://arxiv.org/abs/2404.06921",
+    "year": "2024"
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Gorilla paper",
+    "note": "Introduced an LLM connected to large API collections.",
+    "year": "2023"
+   },
+   {
+    "title": "RAFT",
+    "note": "Retrieval-aware fine-tuning method.",
+    "year": "2024"
+   },
+   {
+    "title": "GoEX",
+    "note": "Runtime for LLM-generated actions.",
+    "year": "2024"
+   }
+  ]
+ },
+ {
+  "id": "h-company",
+  "key_people": [
+   {
+    "name": "Gautier Cloix",
+    "role": "CEO",
+    "url": "https://www.hcompany.ai/team",
+    "note": ""
+   },
+   {
+    "name": "Géraldine Lafontaine",
+    "role": "COO",
+    "url": "https://www.hcompany.ai/team",
+    "note": ""
+   },
+   {
+    "name": "Laurent Sifre",
+    "role": "Chair of the Scientific Committee",
+    "url": "https://www.hcompany.ai/team",
+    "note": ""
+   },
+   {
+    "name": "Maxime Defauw",
+    "role": "Head of Forward Deployed",
+    "url": "https://www.hcompany.ai/team",
+    "note": ""
+   },
+   {
+    "name": "Caroline Charra",
+    "role": "Head of Product",
+    "url": "https://www.hcompany.ai/team",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "hazy-research",
+  "key_people": [
+   {
+    "name": "Chris Ré",
+    "role": "Professor and group lead",
+    "url": "https://cs.stanford.edu/~chrismre/",
+    "note": ""
+   },
+   {
+    "name": "Kelly Buchanan",
+    "role": "Postdoctoral researcher",
+    "url": "https://www.ekbuchanan.com/",
+    "note": ""
+   },
+   {
+    "name": "Jon Saad-Falcon",
+    "role": "PhD student",
+    "url": "https://jonsaadfalcon.com/",
+    "note": ""
+   },
+   {
+    "name": "Divya Nori",
+    "role": "PhD student",
+    "url": "https://divnori.github.io/",
+    "note": ""
+   },
+   {
+    "name": "Roberto Garcia",
+    "role": "PhD student",
+    "url": "https://roberto09.github.io/",
+    "note": ""
+   }
+  ]
+ },
+ {
+  "id": "helsinki-nlp",
+  "key_people": [
+   {
+    "name": "Jörg Tiedemann",
+    "role": "Group leader",
+    "url": "https://blogs.helsinki.fi/language-technology/",
+    "note": ""
+   }
+  ],
+  "contributions": [
+   {
+    "title": "Language technology begins at Helsinki",
+    "note": "The discipline began at the Department of General Linguistics.",
+    "year": "1987"
+   },
+   {
+    "title": "Move to Modern Languages",
+    "note": "The unit moved to the Department of Modern Languages.",
+    "year": "2010"
+   },
+   {
+    "title": "Move to Digital Humanities",
+    "note": "The unit moved to the Department of Digital Humanities.",
+    "year": "2018"
+   }
+  ]
+ }
+]
