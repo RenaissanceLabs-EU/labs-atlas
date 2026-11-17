@@ -13,7 +13,16 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(ROOT)
 DOMAIN = "labs.renaissancelabs.eu"
 SITE = "https://" + DOMAIN
-TODAY = datetime.date.today().isoformat()
+def _data_date():
+    import collections as _c
+    dates = _c.Counter()
+    for p in glob.glob(os.path.join(ROOT, "data/openness/*.json")):
+        try: dates[json.load(open(p)).get("fetched")] += 1
+        except Exception: pass
+    return (dates.most_common(1)[0][0] if dates else None) or datetime.date.today().isoformat()
+
+
+TODAY = os.environ.get("ATLAS_DATE") or _data_date()
 
 TYPES = {
     "startup": "Independent company",
@@ -263,6 +272,104 @@ def load_people(labs):
     return PEOPLE
 
 
+PERMISSIVE = {"apache-2.0", "mit", "bsd-2-clause", "bsd-3-clause", "bsd", "isc", "cc-by-4.0", "cc-by-3.0", "cc-by-2.0", "cc0-1.0", "unlicense", "zlib", "bsl-1.0", "afl-3.0", "artistic-2.0", "openmdw-1.1", "wtfpl", "ofl-1.1", "odc-by", "pddl", "cdla-permissive-2.0", "cdla-permissive-1.0"}
+COPYLEFT = {"gpl-2.0", "gpl-3.0", "gpl", "agpl-3.0", "lgpl-2.1", "lgpl-3.0", "lgpl", "mpl-2.0", "epl-2.0", "cc-by-sa-4.0", "cc-by-sa-3.0", "odbl", "cdla-sharing-1.0"}
+PRETTY = {"apache-2.0": "Apache-2.0", "mit": "MIT", "bsd-2-clause": "BSD-2-Clause", "bsd-3-clause": "BSD-3-Clause", "bsd": "BSD", "isc": "ISC",
+          "cc-by-4.0": "CC BY 4.0", "cc-by-3.0": "CC BY 3.0", "cc-by-sa-4.0": "CC BY-SA 4.0", "cc-by-nc-4.0": "CC BY-NC 4.0", "cc-by-nc-sa-4.0": "CC BY-NC-SA 4.0",
+          "cc-by-nc-nd-4.0": "CC BY-NC-ND 4.0", "cc0-1.0": "CC0 1.0", "agpl-3.0": "AGPL-3.0", "gpl-3.0": "GPL-3.0", "gpl-2.0": "GPL-2.0", "lgpl-3.0": "LGPL-3.0",
+          "mpl-2.0": "MPL-2.0", "unlicense": "Unlicense", "openrail": "OpenRAIL", "openrail++": "OpenRAIL++", "creativeml-openrail-m": "CreativeML OpenRAIL-M",
+          "bigscience-openrail-m": "BigScience OpenRAIL-M", "llama2": "Llama 2", "llama3": "Llama 3", "llama3.1": "Llama 3.1", "llama3.2": "Llama 3.2", "llama3.3": "Llama 3.3",
+          "llama4": "Llama 4", "gemma": "Gemma terms", "openmdw-1.1": "OpenMDW-1.1", "other": "Custom licence", "noassertion": "Custom licence", "none": "Not stated",
+          "odc-by": "ODC-By", "odbl": "ODbL", "ofl-1.1": "OFL-1.1", "afl-3.0": "AFL-3.0", "artistic-2.0": "Artistic-2.0"}
+
+
+def lic_key(k):
+    k = (k or "none").lower()
+    return "other" if k == "noassertion" else k
+
+
+def lic_class(k):
+    k = lic_key(k)
+    if k in PERMISSIVE: return "permissive"
+    if k in COPYLEFT: return "copyleft"
+    if k == "none": return "unstated"
+    return "restricted"
+
+
+def lic_name(k):
+    k = lic_key(k)
+    if k in PRETTY: return PRETTY[k]
+    m = re.match(r"^cc-([a-z-]+?)-(\d(?:\.\d)?)$", k)
+    if m: return f"CC {m.group(1).upper()} {m.group(2)}"
+    return k.upper() if re.fullmatch(r"[a-z0-9.+\-]+", k) and len(k) <= 14 else k
+
+
+def lic_status(counts):
+    total = sum((counts or {}).values())
+    if not total: return None
+    op = sum(v for k, v in counts.items() if lic_class(k) in ("permissive", "copyleft"))
+    rs = sum(v for k, v in counts.items() if lic_class(k) == "restricted")
+    share = op / total
+    if share >= 0.7: return "open"
+    if share >= 0.3: return "mixed"
+    return "restricted" if rs >= total * 0.3 else "unstated"
+
+
+def lic_chips(counts):
+    out = {}
+    for k, v in (counts or {}).items():
+        out[lic_key(k)] = out.get(lic_key(k), 0) + v
+    return [{"name": lic_name(k), "count": v, "cls": lic_class(k)} for k, v in sorted(out.items(), key=lambda kv: -kv[1])][:6]
+
+
+def days_since(iso):
+    try:
+        d = datetime.datetime.fromisoformat(iso.replace("Z", "+00:00"))
+        return (datetime.datetime.now(datetime.timezone.utc) - d).days
+    except Exception:
+        return None
+
+
+def ago(days):
+    if days is None: return "unknown"
+    if days <= 0: return "today"
+    if days == 1: return "yesterday"
+    if days < 30: return f"{days} days ago"
+    if days < 60: return "1 month ago"
+    if days < 365: return f"{days // 30} months ago"
+    y = days // 365
+    return f"{y} year{'s' if y > 1 else ''} ago"
+
+
+def lab_openness(lid):
+    """Licence status and freshness from data/openness/<id>.json (fetched by tools/fetch_openness.py)."""
+    p = f"data/openness/{lid}.json"
+    if not os.path.exists(p): return None, None
+    try: d = json.load(open(p, encoding="utf-8"))
+    except Exception: return None, None
+    g, h = d.get("github") or {}, d.get("hf") or {}
+    lic = {}
+    if h.get("models"):
+        lic["weights"] = {"status": lic_status(h.get("model_licenses")), "chips": lic_chips(h.get("model_licenses")), "n": h.get("models"), "sample": sum((h.get("model_licenses") or {}).values())}
+    if g.get("repos"):
+        lic["code"] = {"status": lic_status(g.get("licenses")), "chips": lic_chips(g.get("licenses")), "n": g.get("repos"), "sample": sum((g.get("licenses") or {}).values())}
+    if h.get("datasets"):
+        lic["data"] = {"status": lic_status(h.get("dataset_licenses")), "chips": lic_chips(h.get("dataset_licenses")), "n": h.get("datasets"), "sample": sum((h.get("dataset_licenses") or {}).values())}
+    lic["as_of"] = d.get("fetched")
+    acts = [x for x in (g.get("last_push"), h.get("last_modified"), (h.get("latest_model") or {}).get("created"), (h.get("latest_dataset") or {}).get("created")) if x]
+    fresh = None
+    if acts:
+        last = max(acts)
+        days = days_since(last)
+        rel = [x for x in ((h.get("latest_model") or {}), (h.get("latest_dataset") or {})) if x.get("created")]
+        for x in rel: x["kind"] = "model" if "/datasets/" not in x["url"] else "dataset"
+        latest = max(rel, key=lambda x: x["created"]) if rel else None
+        fresh = {"last_activity": last[:10], "days": days, "status": "active" if (days is not None and days <= 90) else "quiet" if (days is not None and days <= 365) else "dormant",
+                 "latest": ({"name": latest["name"], "url": latest["url"], "date": latest["created"][:10], "kind": latest["kind"], "days": days_since(latest["created"])} if latest else None),
+                 "recent_repos_90d": g.get("recent_repos_90d"), "latest_repo": g.get("latest_repo")}
+    return lic, fresh
+
+
 def esc(s):
     return html.escape(str(s if s is not None else ""), quote=True)
 
@@ -402,10 +509,11 @@ def lab_page(l, labs):
     if l["founded"]: stats.append(("Founded", str(l["founded"])))
     stats.append(("Type", TYPES[l["type"]]))
     stats.append(("Based in", loc or l["region"]))
+    if l.get("fresh"): stats.append(("Last activity", ago(l["fresh"]["days"]).capitalize(), l["fresh"]["last_activity"]))
     if l["papers"]: stats.append(("Key papers", str(len(l["papers"]))))
     feat = len(l["github_highlights"]) + len(l["hf_highlights"])
     if feat: stats.append(("Featured projects", str(feat)))
-    stats_html = "".join(f'<div><dt>{esc(k)}</dt><dd>{esc(v)}</dd></div>' for k, v in stats)
+    stats_html = "".join(f'<div><dt>{esc(s[0])}</dt><dd' + (f' data-ago="{esc(s[2])}" data-cap="1"' if len(s) > 2 else "") + f'>{esc(s[1])}</dd></div>' for s in stats)
 
     sections, toc = [], []
 
@@ -446,6 +554,8 @@ def lab_page(l, labs):
 
     gh = panel("gh", "github", "GitHub", l["github"], l["github_highlights"])
     hf = panel("hf", "hf", "Hugging Face", l["huggingface"], l["hf_highlights"], kinds=True)
+    fr = fresh_section(l)
+    if fr: add("activity", "Recent activity", fr)
     if gh or hf:
         add("open-source", "Open source", f'<div class="panels">{gh}{hf}</div>')
 
@@ -463,8 +573,8 @@ def lab_page(l, labs):
             cards += ext(n["url"], inner + icon("arrow", 16), "release") if n["url"] else f'<div class="release">{inner}</div>'
         add("releases", "Notable releases", f'<div class="releases">{cards}</div>')
 
-    if l["openness"]:
-        add("openness", "Openness", f'<p class="open-note">{esc(l["openness"])}</p>')
+    osec = open_section(l)
+    if osec: add("openness", "Openness and licences", osec)
 
     if l["key_people"] or any(a["lab"] == l["id"] and a["current"] for pr in PEOPLE.values() for a in pr["affiliations"]):
         with_profile, without = [], []
@@ -550,13 +660,67 @@ def lab_page(l, labs):
 """ + foot()
 
 
+STATUS_LABEL = {"open": "Open", "mixed": "Mixed", "restricted": "Restricted", "unstated": "Not stated"}
+FRESH_LABEL = {"active": "Active", "quiet": "Quiet", "dormant": "Dormant"}
+
+
+def lic_tile(title, d, hint):
+    if not d: return f'<div class="otile none"><div class="otop"><b>{title}</b><span class="spill s-none">No data</span></div><p class="ohint">{hint}</p></div>'
+    st = d.get("status") or "unstated"
+    chips = "".join(f'<span class="lchip {esc(c["cls"])}">{esc(c["name"])}<i>{c["count"]}</i></span>' for c in d["chips"])
+    return (f'<div class="otile"><div class="otop"><b>{title}</b><span class="spill s-{st}">{STATUS_LABEL.get(st, "Not stated")}</span></div>'
+            f'<div class="lchips">{chips}</div><p class="ohint">{esc(hint)}</p></div>')
+
+
+def open_section(l):
+    lic = l.get("lic")
+    if not lic and not l["openness"]: return ""
+    tiles = ""
+    if lic:
+        tiles = ('<div class="open-grid">'
+                 + lic_tile("Weights", lic.get("weights"), f'From the {lic["weights"]["sample"]} most downloaded of {lic["weights"]["n"]:,} models on Hugging Face.' if lic.get("weights") else "No models found on Hugging Face.")
+                 + lic_tile("Code", lic.get("code"), f'From the {lic["code"]["sample"]} most starred of {lic["code"]["n"]:,} public GitHub repos.' if lic.get("code") else "No public GitHub repositories found.")
+                 + lic_tile("Data", lic.get("data"), f'From the {lic["data"]["sample"]} newest of {lic["data"]["n"]:,} datasets on Hugging Face.' if lic.get("data") else "No datasets found on Hugging Face.")
+                 + "</div>")
+        tiles += f'<p class="fine">Licence tags as published on GitHub and Hugging Face, checked {esc(lic.get("as_of"))}. Open means mostly permissive or copyleft licences; Mixed means a blend; Restricted means mostly custom or non-commercial terms.</p>'
+    note = f'<p class="open-note">{esc(l["openness"])}</p>' if l["openness"] else ""
+    return tiles + note
+
+
+def fresh_section(l):
+    f = l.get("fresh")
+    if not f: return ""
+    cards = []
+    lt = f.get("latest")
+    if lt:
+        cards.append(f'<div class="fcard"><span class="eyebrow">Latest upload</span>{ext(lt["url"], esc(lt["name"]), "fname")}<small>{esc(lt["kind"].title())} on Hugging Face · {esc(lt["date"])} · {ago_span(lt["date"], lt.get("days"))}</small></div>')
+    lr = f.get("latest_repo")
+    if lr and lr.get("pushed"):
+        cards.append(f'<div class="fcard"><span class="eyebrow">Latest code push</span>{ext(lr["url"], esc(lr["name"]), "fname")}<small>{esc(lr["pushed"][:10])} · {ago_span(lr["pushed"][:10])}</small></div>')
+    if f.get("recent_repos_90d") is not None:
+        cards.append(f'<div class="fcard"><span class="eyebrow">Repos updated, last 90 days</span><b class="fbig">{f["recent_repos_90d"]}</b><small>public GitHub repositories with new commits</small></div>')
+    head = f'<p class="fstate f-{f["status"]}"><span class="fdot f-{f["status"]}"></span>{FRESH_LABEL[f["status"]]}: last public activity {ago_span(f["last_activity"], f["days"])} ({esc(f["last_activity"])})</p>'
+    return head + f'<div class="fgrid">{"".join(cards)}</div><p class="fine">Based on public GitHub pushes and Hugging Face uploads, refreshed weekly.</p>'
+
+
+def ago_span(iso, days=None):
+    d = days if days is not None else days_since(iso)
+    return f'<span data-ago="{esc(iso)}">{esc(ago(d))}</span>'
+
+
+def fresh_dot(l):
+    f = l.get("fresh")
+    if not f: return ""
+    return f'<span class="fdot f-{f["status"]}" title="{FRESH_LABEL[f["status"]]}: last activity {esc(ago(f["days"]))}"></span>'
+
+
 def card(l):
     loc = ", ".join(x for x in (l["city"], l["country"]) if x)
     hay = " ".join([l["name"], l["alias"] or "", l["city"], l["country"], l["region"], l["summary"], " ".join(l["focus"]), TYPES[l["type"]]]).lower()
     tags = "".join(f'<span class="tag">{esc(f)}</span>' for f in l["focus"][:3])
     return (f'<a class="card" href="/labs/{esc(l["id"])}/" data-id="{esc(l["id"])}" data-type="{esc(l["type"])}" '
             f'data-region="{esc(l["region"])}" data-focus="{esc("|".join(f.lower() for f in l["focus"]))}" data-search="{esc(hay)}">'
-            f'<span class="card-top">{logo_html(l, "logo sm")}<span class="loc">{esc(TYPES[l["type"]])}<br>{esc(loc)}</span></span>'
+            f'<span class="card-top">{logo_html(l, "logo sm")}<span class="loc">{esc(TYPES[l["type"]])}<br>{esc(loc)}</span>{fresh_dot(l)}</span>'
             f'<h3>{esc(l["name"])}</h3><p>{esc(l["tagline"] or l["summary"])}</p><span class="tags">{tags}</span></a>')
 
 
@@ -577,6 +741,13 @@ def index_page(labs):
     fopts = '<option value="all">All focus areas</option>' + "".join(f'<option value="{esc(f)}">{esc(f)}</option>' for f in top_focus)
     legend = "".join(f'<span><i style="background:{TYPE_COLOR[t]}"></i>{esc(TYPES[t])}</span>' for t in TYPES if type_counts[t])
     cards = "".join(card(l) for l in labs)
+    recent = sorted([l for l in labs if (l.get("fresh") or {}).get("latest") and (l["fresh"]["latest"].get("days") if l["fresh"]["latest"].get("days") is not None else 999) <= 60],
+                    key=lambda l: l["fresh"]["latest"]["days"])[:10]
+    rail = "".join(
+        f'<div class="rcard"><a class="rhead" href="/labs/{esc(l["id"])}/">{logo_html(l, "logo sm")}<span><b>{esc(l["name"])}</b><small>{ago_span(l["fresh"]["latest"]["date"], l["fresh"]["latest"]["days"])}</small></span></a>'
+        f'{ext(l["fresh"]["latest"]["url"], esc(l["fresh"]["latest"]["name"].split("/")[-1]), "rname")}<small>{esc(l["fresh"]["latest"]["kind"].title())} on Hugging Face</small></div>' for l in recent)
+    recent_html = (f'<section class="wrap recent"><div class="rtitle"><h2>New from the labs</h2><p>Models and datasets published in the last 60 days.</p></div><div class="rail">{rail}</div></section>' if recent else "")
+    n_active = sum(1 for l in labs if (l.get("fresh") or {}).get("status") == "active")
     title = "Open Labs Atlas · Independent AI labs committed to open source"
     desc = f"A map and directory of {len(labs)} independent AI labs in {countries} countries that build in the open: open weights, open code, open data."
     return head(title, desc, "/") + f"""<main id="main">
@@ -599,12 +770,16 @@ def index_page(labs):
       <div class="peek" id="peek" aria-live="polite"></div>
     </div>
   </div>
+  {recent_html}
   <div class="toolbar">
     <div class="wrap">
       <div class="search"><input id="q" type="search" placeholder="Search labs, places, topics" aria-label="Search labs"></div>
       <div class="chips" role="group" aria-label="Type">{chips}</div>
       <select class="sel" id="region" aria-label="Region">{ropts}</select>
       <select class="sel" id="focus" aria-label="Focus area">{fopts}</select>
+      <select class="sel" id="activity" aria-label="Activity"><option value="all">Any activity</option><option value="active">Active, last 90 days ({n_active})</option><option value="quiet">Quiet, under a year</option><option value="dormant">Dormant, over a year</option></select>
+      <select class="sel" id="weights" aria-label="Weights licence"><option value="all">Any weights licence</option><option value="open">Open weights</option><option value="mixed">Mixed licences</option><option value="restricted">Restricted licences</option></select>
+      <select class="sel" id="sort" aria-label="Sort"><option value="name">Sort: A to Z</option><option value="recent">Sort: recently active</option></select>
       <button class="chip" id="shuffle" type="button">Surprise me</button>
       <span class="count" id="count" aria-live="polite">{len(labs)} labs</span>
     </div>
@@ -876,13 +1051,20 @@ def main():
             l["mlon"] = round(l["lon"] + r * math.cos(ang) / max(0.2, math.cos(math.radians(l["lat"]))), 5)
     for l in labs:
         l["logo"] = os.path.exists(f"assets/logos/{l['id']}.png")
+        l["lic"], l["fresh"] = lab_openness(l["id"])
     write("data/labs.json", json.dumps({"generated": TODAY, "count": len(labs), "labs": labs}, ensure_ascii=False, indent=1))
-    cols = ["id", "name", "type", "founded", "country", "city", "region", "lat", "lon", "website", "huggingface", "github", "x", "discord", "linkedin", "contact_email", "summary", "focus", "openness"]
+    cols = ["id", "name", "type", "founded", "country", "city", "region", "lat", "lon", "website", "huggingface", "github", "x", "discord", "linkedin", "contact_email", "summary", "focus", "openness",
+            "weights_licences", "code_licences", "data_licences", "activity_status", "last_activity"]
+    def derived(l):
+        lic, f = l.get("lic") or {}, l.get("fresh") or {}
+        pick = lambda k: (f'{(lic.get(k) or {}).get("status") or ""}: ' + ", ".join(c["name"] for c in (lic.get(k) or {}).get("chips", []))) if lic.get(k) else ""
+        return {"weights_licences": pick("weights"), "code_licences": pick("code"), "data_licences": pick("data"), "activity_status": f.get("status", ""), "last_activity": f.get("last_activity", "")}
     with open("labs.csv", "w", encoding="utf-8", newline="") as f:
         w = csv.writer(f)
         w.writerow(cols)
         for l in labs:
-            w.writerow([("; ".join(l[c]) if c == "focus" else l[c]) for c in cols])
+            dv = derived(l)
+            w.writerow([("; ".join(l[c]) if c == "focus" else (dv[c] if c in dv else l[c])) for c in cols])
     write("index.html", index_page(labs))
     write("about/index.html", about_page(labs))
     write("map/index.html", map_page(labs))

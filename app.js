@@ -70,6 +70,21 @@
     apply();
   })();
 
+  /* ---------- relative dates: computed in the browser so they never go stale ---------- */
+  (function () {
+    var nodes = document.querySelectorAll('[data-ago]');
+    if (!nodes.length) return;
+    var now = Date.now();
+    nodes.forEach(function (n) {
+      var t = Date.parse(n.getAttribute('data-ago')); if (isNaN(t)) return;
+      var d = Math.floor((now - t) / 86400000), s;
+      if (d <= 0) s = 'today'; else if (d === 1) s = 'yesterday'; else if (d < 30) s = d + ' days ago';
+      else if (d < 60) s = '1 month ago'; else if (d < 365) s = Math.floor(d / 30) + ' months ago';
+      else { var y = Math.floor(d / 365); s = y + ' year' + (y > 1 ? 's' : '') + ' ago'; }
+      n.textContent = n.hasAttribute('data-cap') ? s.charAt(0).toUpperCase() + s.slice(1) : s;
+    });
+  })();
+
   /* ---------- lab page: highlight current section in the contents list ---------- */
   function tocSpy() {
     var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
@@ -253,13 +268,16 @@
     labs.forEach(function (l) { hay[l.id] = [l.name, l.alias || '', l.city, l.country, l.region, l.summary, (l.focus || []).join(' '), TYPES[l.type] || ''].join(' ').toLowerCase(); });
     var q = document.getElementById('q'), typeBtns = document.querySelectorAll('[data-type]'),
       regionSel = document.getElementById('region'), focusSel = document.getElementById('focus'), countEl = document.getElementById('count');
-    var state = { q: '', type: 'all', region: 'all', focus: 'all' }, visible = {};
+    var activitySel = document.getElementById('activity'), weightsSel = document.getElementById('weights'), sortSel = document.getElementById('sort');
+    var state = { q: '', type: 'all', region: 'all', focus: 'all', activity: 'all', weights: 'all' }, visible = {};
     function apply() {
       var n = 0, term = state.q.trim().toLowerCase();
       labs.forEach(function (l) {
         var ok = (state.type === 'all' || l.type === state.type) &&
           (state.region === 'all' || l.region === state.region) &&
           (state.focus === 'all' || (l.focus || []).some(function (f) { return f.toLowerCase() === state.focus; })) &&
+          (state.activity === 'all' || (l.fresh && l.fresh.status === state.activity)) &&
+          (state.weights === 'all' || (l.lic && l.lic.weights && l.lic.weights.status === state.weights)) &&
           (!term || hay[l.id].indexOf(term) > -1);
         visible[l.id] = ok;
         if (ok) n++;
@@ -279,6 +297,14 @@
     });
     if (regionSel) regionSel.addEventListener('change', function () { state.region = regionSel.value; apply(); focusRegion(state.region === 'all' ? null : state.region); });
     if (focusSel) focusSel.addEventListener('change', function () { state.focus = focusSel.value; apply(); });
+    if (activitySel) activitySel.addEventListener('change', function () { state.activity = activitySel.value; apply(); });
+    if (weightsSel) weightsSel.addEventListener('change', function () { state.weights = weightsSel.value; apply(); });
+    if (sortSel) sortSel.addEventListener('change', function () {
+      var gridEl = document.getElementById('grid'); if (!gridEl) return;
+      var order = labs.slice();
+      if (sortSel.value === 'recent') order.sort(function (a, b) { var x = a.fresh ? a.fresh.days : 99999, y = b.fresh ? b.fresh.days : 99999; return x - y; });
+      order.forEach(function (l) { var c = cardById[l.id]; if (c) gridEl.appendChild(c); });
+    });
     cards.forEach(function (c) {
       c.addEventListener('mouseenter', function () { var o = pins[c.dataset.id]; if (o) o.node.classList.add('on'); });
       c.addEventListener('mouseleave', function () { var o = pins[c.dataset.id]; if (o && !peek.classList.contains('show')) o.node.classList.remove('on'); });

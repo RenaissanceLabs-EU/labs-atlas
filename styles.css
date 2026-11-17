@@ -497,3 +497,45 @@ body.fullmap { overflow: hidden; }
   .bar nav a { white-space: nowrap; }
   .bar nav a[href="https://renaissancelabs.eu/"] { display: none; }
 }
+
+/* openness and freshness */
+.open-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+.otile { padding: 18px 18px 16px; border: 1px solid var(--rule); border-radius: 14px; background: #fffdf8; min-width: 0; }
+.otile.none { background: transparent; border-style: dashed; }
+.otop { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.otop b { font: 500 20px/1.2 var(--serif); }
+.spill { padding: 3px 10px; border-radius: 999px; font: 600 11.5px/1.5 var(--sans); letter-spacing: 0.05em; text-transform: uppercase; }
+.s-open { background: #dcebe3; color: #285540; } .s-mixed { background: #f3e3b6; color: #6b5420; }
+.s-restricted { background: #f2d9d0; color: #7a3a26; } .s-unstated, .s-none { background: var(--paper-deep); color: var(--ink-faint); }
+.lchips { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 10px; }
+.lchip { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 8px; border: 1px solid var(--rule); font-size: 13px; background: var(--paper); }
+.lchip i { font-style: normal; font-size: 11.5px; color: var(--ink-faint); }
+.lchip.permissive { border-color: #b9d6c6; } .lchip.copyleft { border-color: #c5cde3; }
+.lchip.restricted { border-color: #e6c3b6; } .lchip.unstated { border-style: dashed; color: var(--ink-faint); }
+.ohint { font-size: 13px; color: var(--ink-faint); line-height: 1.45; }
+.open-grid + .fine { margin-bottom: 18px; }
+.fstate { display: flex; align-items: center; gap: 10px; font: 500 17px/1.4 var(--sans); margin-bottom: 16px; }
+.fdot { display: inline-block; flex: none; width: 10px; height: 10px; border-radius: 50%; background: var(--ink-faint); }
+.fdot.f-active { background: #3f9a6a; box-shadow: 0 0 0 4px rgba(63, 154, 106, 0.18); }
+.fdot.f-quiet { background: #c79a3f; } .fdot.f-dormant { background: #b5a999; }
+.fgrid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 14px; }
+.fcard { display: grid; gap: 6px; align-content: start; padding: 16px 18px; border: 1px solid var(--rule); border-radius: 14px; background: #fffdf8; min-width: 0; }
+.fcard .eyebrow { font-size: 11px; }
+.fname { font: 500 18px/1.3 var(--serif); text-decoration: none; overflow-wrap: anywhere; }
+a.fname:hover { color: var(--gold); }
+.fcard small { color: var(--ink-soft); font-size: 13.5px; }
+.fbig { font: 400 40px/1 var(--serif); }
+.card-top .fdot { margin-left: auto; align-self: flex-start; margin-top: 6px; }
+
+/* recently released strip */
+.recent { padding-top: clamp(28px, 5vh, 52px); padding-bottom: 8px; }
+.rtitle { display: flex; align-items: baseline; gap: 16px; flex-wrap: wrap; margin-bottom: 16px; }
+.rtitle h2 { font-size: clamp(24px, 2.6vw, 32px); }
+.rtitle p { color: var(--ink-soft); font-size: 15px; }
+.rail { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 10px; scroll-snap-type: x proximity; }
+.rcard { flex: 0 0 260px; scroll-snap-align: start; display: grid; gap: 8px; padding: 14px 16px; border: 1px solid var(--rule); border-radius: 14px; background: #fffdf8; min-width: 0; }
+.rhead { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+.rhead b { font: 500 16px/1.2 var(--serif); display: block; }
+.rhead small, .rcard > small { color: var(--ink-faint); font-size: 12.5px; }
+.rname { font: 600 15px/1.35 var(--sans); text-decoration: none; overflow-wrap: anywhere; }
+a.rname:hover { color: var(--gold); }
