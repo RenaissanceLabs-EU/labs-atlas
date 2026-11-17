@@ -539,3 +539,11 @@ a.fname:hover { color: var(--gold); }
 .rhead small, .rcard > small { color: var(--ink-faint); font-size: 12.5px; }
 .rname { font: 600 15px/1.35 var(--sans); text-decoration: none; overflow-wrap: anywhere; }
 a.rname:hover { color: var(--gold); }
+
+/* touch screens: the small map card is a real link to the lab page */
+.tip.below { transform: translate(-50%, 16px); }
+@media (max-width: 760px), (pointer: coarse) {
+  a.tip { text-decoration: none; color: var(--paper); padding: 10px 12px 10px 12px; max-width: 250px; gap: 10px; }
+  a.tip.show { pointer-events: auto; }
+  a.tip::after { content: '\203A'; margin-left: 4px; font-size: 24px; line-height: 1; color: #d8cfbd; }
+}

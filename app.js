@@ -126,6 +126,7 @@
   function bigMap(labs, land, borders) {
     var host = document.getElementById('map');
     var tip = document.getElementById('tip');
+    var isTouch = window.matchMedia('(max-width: 760px), (pointer: coarse)').matches, selectedLab = null;
     var peek = document.getElementById('peek');
     var full = host.hasAttribute('data-full'), free = host.hasAttribute('data-free-zoom');
     var width = 1000, height = 540;
@@ -200,12 +201,14 @@
       tip.textContent = '';
       var tb = h('div', 'tip-text'); tb.appendChild(h('b', null, l.name)); tb.appendChild(h('span', null, l.city + ', ' + l.country));
       tip.appendChild(logoNode(l, 'xs')); tip.appendChild(tb);
-      tip.style.left = q[0] + 'px'; tip.style.top = q[1] + 'px';
+      tip.setAttribute('href', '/labs/' + l.id + '/');
+      tip.classList.toggle('below', q[1] < 90);
+      tip.style.left = Math.max(70, Math.min(host.clientWidth - 70, q[0])) + 'px'; tip.style.top = q[1] + 'px';
       tip.classList.add('show');
     }
     function hideTip() { tip.classList.remove('show'); }
 
-    function closePeek() { peek.classList.remove('show'); for (var id in pins) pins[id].node.classList.remove('on'); }
+    function closePeek() { selectedLab = null; hideTip(); peek.classList.remove('show'); for (var id in pins) pins[id].node.classList.remove('on'); }
     function select(id, fly) {
       var o = pins[id]; if (!o) return;
       var l = o.lab;
@@ -224,7 +227,7 @@
       row.appendChild(a1); if (l.website) row.appendChild(a2);
       [x, head, p, row].forEach(function (n) { peek.appendChild(n); });
       peek.classList.add('show');
-      peekUrl = '/labs/' + l.id + '/'; selectedAt = Date.now();
+      peekUrl = '/labs/' + l.id + '/'; selectedAt = Date.now(); selectedLab = l;
       hideTip();
       if (fly) flyTo(o.p, Math.max(k, spreadScale(o)));
       var card = document.querySelector('.card[data-id="' + id + '"]');
@@ -241,7 +244,10 @@
       var cy = height / 2;
       var t = d3.zoomIdentity.translate(width / 2, cy).scale(scale).translate(-p[0], -p[1]);
       flying = true; hideTip(); host.classList.add('flying');
-      clearTimeout(flyT); flyT = setTimeout(function () { flying = false; host.classList.remove('flying'); }, 960);
+      clearTimeout(flyT); flyT = setTimeout(function () {
+        flying = false; host.classList.remove('flying');
+        if (isTouch && selectedLab && pins[selectedLab.id] && peek.classList.contains('show')) showTip(selectedLab, pins[selectedLab.id].p);
+      }, 960);
       d3.select(svg).transition().duration(900).ease(d3.easeCubicInOut).call(zoom.transform, t);
     }
     function reset() { closePeek(); d3.select(svg).transition().duration(700).call(zoom.transform, d3.zoomIdentity); }

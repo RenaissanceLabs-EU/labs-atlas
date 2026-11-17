@@ -766,7 +766,7 @@ def index_page(labs):
       <div class="map-ui"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset view">⟲</button><a class="mbtn" href="/map/" title="Full-page map" aria-label="Open full-page map">⤢</a></div>
       <div class="legend" aria-hidden="true">{legend}</div>
       <div class="hint" id="hint" aria-hidden="true">Hold Ctrl or ⌘ and scroll to zoom</div>
-      <div class="tip" id="tip" role="tooltip"></div>
+      <a class="tip" id="tip" href="#" role="tooltip" tabindex="-1"></a>
       <div class="peek" id="peek" aria-live="polite"></div>
     </div>
   </div>
@@ -821,7 +821,7 @@ def map_page(labs):
     </details>
     <div class="map-ui"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset view">⟲</button><a class="mbtn" href="/" title="Back to list" aria-label="Back to the list view">×</a></div>
     <div class="legend" aria-hidden="true">{legend}</div>
-    <div class="tip" id="tip" role="tooltip"></div>
+    <a class="tip" id="tip" href="#" role="tooltip" tabindex="-1"></a>
     <div class="peek" id="peek" aria-live="polite"></div>
   </div>
 </main>
