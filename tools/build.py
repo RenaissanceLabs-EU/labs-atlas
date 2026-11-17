@@ -209,6 +209,7 @@ def load():
 
 
 PEOPLE = {}        # id -> person record (public fields only)
+LAB_NAMES_BY_ID = {}
 PEOPLE_BY_NAME = {}  # normalised real name -> id
 
 
@@ -218,6 +219,10 @@ def norm(s):
 
 def load_people(labs):
     lab_ids = {l["id"] for l in labs}
+    name2id = {}
+    for l in labs:
+        name2id[norm(l["name"])] = l["id"]
+        if l.get("alias"): name2id.setdefault(norm(l["alias"]), l["id"])
     PEOPLE.clear(); PEOPLE_BY_NAME.clear()
     for path in sorted(glob.glob("data/people/*.json")):
         try:
@@ -235,6 +240,9 @@ def load_people(labs):
         for a in (r.get("affiliations") or []):
             if isinstance(a, dict) and (a.get("org") or a.get("lab")):
                 lab = a.get("lab") if a.get("lab") in lab_ids else None
+                if lab is None and a.get("org"):
+                    org_n = norm(re.sub(r"\(.*?\)", "", a["org"]))
+                    lab = name2id.get(org_n)
                 aff.append({"lab": lab, "org": s_or_none(a.get("org"), 120), "role": s_or_none(a.get("role"), 160),
                             "current": bool(a.get("current", True)), "since": a.get("since") if isinstance(a.get("since"), int) else None})
         act = {}
@@ -459,24 +467,32 @@ def lab_page(l, labs):
         add("openness", "Openness", f'<p class="open-note">{esc(l["openness"])}</p>')
 
     if l["key_people"] or any(a["lab"] == l["id"] and a["current"] for pr in PEOPLE.values() for a in pr["affiliations"]):
-        cards = ""
+        with_profile, without = [], []
+
+        def profile_card(pr, role, note=None):
+            av_img = f'<img src="/assets/people/{esc(pr["id"])}.png" alt="" width="48" height="48" loading="lazy">' if pr["avatar"] else esc(monogram(pr["display"]))
+            av = f'<a class="avatar prof" href="/people/{esc(pr["id"])}/" tabindex="-1" aria-hidden="true">{av_img}</a>'
+            others = [x for x in pr["affiliations"] if x["lab"] and x["lab"] != l["id"] and x["current"] and x["lab"] in LAB_NAMES_BY_ID]
+            also = '<small class="also">Also at ' + ", ".join(f'<a href="/labs/{esc(x["lab"])}/">{esc(LAB_NAMES_BY_ID[x["lab"]])}</a>' for x in others[:2]) + "</small>" if others else ""
+            return (f'<li class="has-profile">{av}<div><a class="pname" href="/people/{esc(pr["id"])}/">{esc(pr["display"])}</a><span class="ptag">Profile</span>'
+                    + (f'<small>{esc(role)}</small>' if role else "") + (f'<p>{esc(note)}</p>' if note else "") + also + spark_svg(pr, "pspark") + "</div></li>")
+
         for p in l["key_people"]:
-            av = f'<span class="avatar" aria-hidden="true">{esc(monogram(p["name"]))}</span>'
             pid = PEOPLE_BY_NAME.get(norm(p["name"]))
             if pid:
-                nm = f'<a class="pname" href="/people/{esc(pid)}/">{esc(p["name"])}</a>'
+                with_profile.append(profile_card(PEOPLE[pid], p.get("role"), p.get("note")))
             else:
-                nm = ext(p["url"], esc(p["name"]), "pname") if p.get("url") else f'<span class="pname">{esc(p["name"])}</span>'
-            role = f'<small>{esc(p["role"])}</small>' if p.get("role") else ""
-            note = f'<p>{esc(p["note"])}</p>' if p.get("note") else ""
-            cards += f'<li>{av}<div>{nm}{role}{note}</div></li>'
+                av = f'<span class="avatar" aria-hidden="true">{esc(monogram(p["name"]))}</span>'
+                nm = ext(p["url"], esc(p["name"]) + " " + icon("arrow", 13), "pname ext") if p.get("url") else f'<span class="pname">{esc(p["name"])}</span>'
+                role = f'<small>{esc(p["role"])}</small>' if p.get("role") else ""
+                note = f'<p>{esc(p["note"])}</p>' if p.get("note") else ""
+                without.append(f'<li class="no-profile">{av}<div>{nm}{role}{note}</div></li>')
         seen = {norm(p["name"]) for p in l["key_people"]}
         for pr in sorted(PEOPLE.values(), key=lambda x: (1 if x.get("contributor") else 0, x["display"].lower())):
             if any(a["lab"] == l["id"] and a["current"] for a in pr["affiliations"]) and norm(pr["name"] or "") not in seen:
                 a = next(a for a in pr["affiliations"] if a["lab"] == l["id"] and a["current"])
-                tag = "handle" if pr["kind"] == "handle" else None
-                cards += f'<li><span class="avatar" aria-hidden="true">{esc(monogram(pr["display"]))}</span><div><a class="pname" href="/people/{esc(pr["id"])}/">{esc(pr["display"])}</a>' + (f'<small>{esc(a["role"])}</small>' if a.get("role") else "") + '</div></li>'
-        add("people", "People", f'<ul class="people-grid">{cards}</ul><p class="fine">Listed from the lab\'s own pages and public profiles.</p>')
+                with_profile.append(profile_card(pr, a.get("role")))
+        add("people", "People", f'<ul class="people-grid">{"".join(with_profile)}{"".join(without)}</ul><p class="fine">Cards with a gold ring and a Profile tag have a full page with public activity. Listed from the lab\'s own pages and public profiles.</p>')
 
     tiles = []
 
@@ -655,6 +671,16 @@ def about_page(labs):
 """ + foot()
 
 
+def spark_svg(pr, cls="spark"):
+    cal = ((pr.get("activity") or {}).get("github") or {}).get("calendar")
+    if not (cal and cal.get("weeks")): return ""
+    tot = [sum(w) for w in cal["weeks"]]
+    mx = max(tot) or 1
+    if mx < 1: return ""
+    pts = " ".join(f"{i*3},{22 - int(20*t/mx)}" for i, t in enumerate(tot))
+    return f'<svg class="{cls}" viewBox="0 0 {len(tot)*3} 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="{pts}" fill="none" stroke="#c79a3f" stroke-width="1.6"/></svg>'
+
+
 SHADES = ["#efe6d2", "#f3e3b6", "#e6c46f", "#c79a3f", "#8c6a2a"]
 
 
@@ -798,15 +824,10 @@ def people_index(labs_by_id):
         role = (aff or {}).get("role") or ""
         kind = "handle" if p["kind"] == "handle" else "independent" if p["independent"] else "contributor" if p.get("contributor") else "lab"
         av = f'<span class="logo sm"><img src="/assets/people/{esc(p["id"])}.png" alt="" width="46" height="46" loading="lazy"></span>' if p["avatar"] else f'<span class="logo sm mono" style="--h:{sum(ord(c) for c in p["display"]) % 40 + 28}" aria-hidden="true">{esc(monogram(p["display"]))}</span>'
-        spark = ""
-        cal = (a.get("github") or {}).get("calendar")
-        if cal and cal.get("weeks"):
-            tot = [sum(w) for w in cal["weeks"]]
-            mx = max(tot) or 1
-            pts = " ".join(f"{i*3},{22 - int(20*t/mx)}" for i, t in enumerate(tot))
-            spark = f'<svg class="spark" viewBox="0 0 {len(tot)*3} 24" preserveAspectRatio="none" aria-hidden="true"><polyline points="{pts}" fill="none" stroke="#c79a3f" stroke-width="1.6"/></svg>'
+        spark = spark_svg(p)
         hay = " ".join([p["display"], p["name"] or "", where, role, p["bio"], " ".join(p["known_for"])]).lower()
-        cards.append(f'<a class="card pcard" href="/people/{esc(p["id"])}/" data-kind="{kind}" data-search="{esc(hay)}"><span class="card-top">{av}<span class="loc">{esc(where) or "Independent"}<br>{esc(role)[:60]}</span></span><h3>{esc(p["display"])}</h3><p>{esc(p["bio"])}</p>{spark}</a>')
+        where_html = (f'<a class="lablink" href="/labs/{esc(lab["id"])}/">{esc(lab["name"])}</a>' if lab else esc(where or "Independent"))
+        cards.append(f'<article class="card pcard" data-kind="{kind}" data-search="{esc(hay)}"><span class="card-top">{av}<span class="loc">{where_html}<br>{esc(role)[:60]}</span></span><h3><a class="stretch" href="/people/{esc(p["id"])}/">{esc(p["display"])}</a></h3><p>{esc(p["bio"])}</p>{spark}</article>')
     n = len(PEOPLE)
     return head("People · Open Labs Atlas", f"{n} people behind open AI: founders, researchers, maintainers and independent builders, with their public GitHub, Hugging Face and research activity.", "/people/") + f"""<main id="main">
   <section class="intro" style="padding-bottom:20px">
@@ -838,6 +859,7 @@ def main():
         print("no labs found in data/regions/*.json"); sys.exit(1)
     shutil.rmtree("labs", ignore_errors=True)
     shutil.rmtree("people", ignore_errors=True)
+    LAB_NAMES_BY_ID.clear(); LAB_NAMES_BY_ID.update({l["id"]: l["name"] for l in labs})
     load_people(labs)
     # labs that share (almost) the same city point get a small ring offset for the map only (mlat/mlon)
     import collections
