@@ -149,7 +149,7 @@ h3 { font-size: 18px; font-weight: 600; line-height: 1.35; }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
 
 .map-ui { position: absolute; right: clamp(16px, 3vw, 40px); top: 14px; display: flex; flex-direction: column; gap: 6px; z-index: 5; }
-.map-ui button {
+.map-ui button, .map-ui .mbtn {
   width: 36px; height: 36px; border-radius: 6px; border: 1px solid var(--rule);
   background: color-mix(in srgb, var(--paper) 94%, transparent); color: var(--ink);
   font: 500 18px/1 var(--sans); cursor: pointer; backdrop-filter: blur(6px);
@@ -421,3 +421,24 @@ a.pname:hover { color: var(--gold); }
 .peek p { margin-top: 12px; }
 .tip { display: flex; align-items: center; gap: 10px; }
 .tip-text b { display: block; }
+
+.map-ui .mbtn { display: grid; place-items: center; text-decoration: none; }
+.map-ui .mbtn:hover { background: var(--paper-deep); }
+
+/* full-page map */
+body.fullmap { overflow: hidden; }
+.map.full { aspect-ratio: auto; min-height: 0; max-height: none; width: 100%; height: calc(100vh - 57px); height: calc(100svh - 57px); border: 0; border-radius: 0; touch-action: none; }
+.map.full .map-ui { top: 16px; right: 16px; }
+.map.full .legend { left: 16px; bottom: 16px; }
+.map.full .peek { right: 16px; bottom: 16px; }
+.fm-panel { position: absolute; z-index: 9; left: 16px; top: 16px; width: min(400px, calc(100% - 90px)); background: color-mix(in srgb, var(--paper) 95%, transparent); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px); border: 1px solid var(--rule); border-radius: 12px; box-shadow: 0 14px 40px rgba(60, 44, 18, 0.12); }
+.fm-panel summary { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 16px; cursor: pointer; font: 500 17px/1 var(--serif); list-style: none; }
+.fm-panel summary::-webkit-details-marker { display: none; }
+.fm-panel summary .count { margin: 0; font: 400 13px var(--sans); }
+.fm-body { display: grid; gap: 10px; padding: 0 14px 14px; }
+.fm-body input { width: 100%; font: 400 15px/1 var(--sans); padding: 11px 14px; border-radius: 6px; border: 1px solid var(--rule); background: #fffdf8; color: var(--ink); }
+.fm-body .chips { gap: 6px; }
+.fm-row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.fm-row .sel { flex: 1 1 140px; min-width: 0; }
+.fm-row a.chip { text-decoration: none; }
+@media (max-width: 760px) { .map.full .legend { display: none; } .fm-panel { width: calc(100% - 80px); } }

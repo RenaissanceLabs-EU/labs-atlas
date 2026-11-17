@@ -2,7 +2,7 @@
 (function () {
   'use strict';
   var NS = 'http://www.w3.org/2000/svg';
-  var TYPES = { startup: 'Independent company', nonprofit: 'Nonprofit', collective: 'Community collective', institute: 'Institute', academic: 'Academic lab' };
+  var TYPES = { startup: 'Independent company', nonprofit: 'Nonprofit', collective: 'Community collective', institute: 'Institute', academic: 'Academic lab', corporate: 'Large company' };
 
   function el(tag, attrs, parent) {
     var n = document.createElementNS(NS, tag);
@@ -17,6 +17,7 @@
     return n;
   }
 
+  function ll(l) { return [l.mlon != null ? l.mlon : l.lon, l.mlat != null ? l.mlat : l.lat]; }
   function monogram(name) { var p = (name.match(/[A-Za-z0-9]+/g) || ['?']); return p.length === 1 ? p[0].slice(0, 2).toUpperCase() : (p[0][0] + p[1][0]).toUpperCase(); }
   function hueOf(name) { var s = 0; for (var i = 0; i < name.length; i++) s += name.charCodeAt(i); return s % 40 + 28; }
   function logoNode(l, cls) {
@@ -60,18 +61,18 @@
     if (!host || !lab) return;
     var w = 400, hgt = 250;
     var svg = el('svg', { viewBox: '0 0 ' + w + ' ' + hgt, role: 'img', 'aria-label': 'Location of ' + lab.name }, host);
-    var proj = d3.geoMercator().center([lab.lon, lab.lat]).scale(w * 1.1).translate([w / 2, hgt / 2]);
+    var proj = d3.geoMercator().center(ll(lab)).scale(w * 1.1).translate([w / 2, hgt / 2]);
     var path = d3.geoPath(proj);
     el('path', { d: path(land), fill: '#efe6d2' }, svg);
     el('path', { d: path(borders), fill: 'none', stroke: '#fdfaf3', 'stroke-width': 0.8 }, svg);
     labs.forEach(function (l) {
       if (l.id === id) return;
-      var p = proj([l.lon, l.lat]);
+      var p = proj(ll(l));
       if (!p || p[0] < 0 || p[0] > w || p[1] < 0 || p[1] > hgt) return;
       var a = el('a', { href: '/labs/' + l.id + '/' }, svg);
       el('circle', { cx: p[0], cy: p[1], r: 4, fill: '#c79a3f', stroke: '#fffaf0', 'stroke-width': 1, opacity: 0.8 }, a).appendChild(Object.assign(el('title', {}), { textContent: l.name }));
     });
-    var c = proj([lab.lon, lab.lat]);
+    var c = proj(ll(lab));
     el('circle', { cx: c[0], cy: c[1], r: 16, fill: 'rgba(246,196,83,.35)' }, svg);
     el('circle', { cx: c[0], cy: c[1], r: 7, fill: '#9a7a48', stroke: '#fffaf0', 'stroke-width': 2 }, svg);
   }
@@ -81,7 +82,9 @@
     var host = document.getElementById('map');
     var tip = document.getElementById('tip');
     var peek = document.getElementById('peek');
+    var full = host.hasAttribute('data-full'), free = host.hasAttribute('data-free-zoom');
     var width = 1000, height = 540;
+    if (full) height = Math.max(300, Math.round(1000 * host.clientHeight / Math.max(1, host.clientWidth)));
     var svg = el('svg', { viewBox: '0 0 ' + width + ' ' + height, role: 'img', 'aria-label': 'World map of independent open source AI labs' }, host);
     var g = el('g', {}, svg);
     var proj = d3.geoNaturalEarth1().fitExtent([[8, 8], [width - 8, height - 8]], { type: 'Sphere' });
@@ -98,7 +101,7 @@
     var pins = {};
     var visibleSet = null;
     labs.forEach(function (l, i) {
-      var p = proj([l.lon, l.lat]);
+      var p = proj(ll(l));
       if (!p) return;
       var pin = el('g', { class: 'pin t-' + l.type, transform: 'translate(' + p[0] + ',' + p[1] + ')', tabindex: 0, role: 'link', 'aria-label': l.name + ', ' + l.city + ', ' + l.country }, pinLayer);
       var inner = el('g', { class: 'inner' }, pin);
@@ -125,10 +128,10 @@
     var hintEl = document.getElementById('hint'), hintT = null;
     function hint() { if (!hintEl) return; hintEl.classList.add('show'); clearTimeout(hintT); hintT = setTimeout(function () { hintEl.classList.remove('show'); }, 1400); }
     var zoom = d3.zoom().filter(function (ev) {
-      if (ev.type === 'wheel') { if (ev.ctrlKey || ev.metaKey) return true; hint(); return false; }
-      if (ev.type && ev.type.indexOf('touch') === 0) return ev.touches && ev.touches.length >= 2;
+      if (ev.type === 'wheel') { if (free || ev.ctrlKey || ev.metaKey) return true; hint(); return false; }
+      if (ev.type && ev.type.indexOf('touch') === 0) return free || (ev.touches && ev.touches.length >= 2);
       return !ev.button;
-    }).clickDistance(8).scaleExtent([1, 40]).translateExtent([[-40, -40], [width + 40, height + 40]]).on('zoom', function (ev) {
+    }).clickDistance(8).scaleExtent([1, 1200]).translateExtent([[-40, -40], [width + 40, height + 40]]).on('zoom', function (ev) {
       tf = ev.transform; k = tf.k;
       g.setAttribute('transform', tf.toString());
       var s = 1 / Math.sqrt(k);
@@ -175,9 +178,16 @@
       [x, head, p, row].forEach(function (n) { peek.appendChild(n); });
       peek.classList.add('show');
       hideTip();
-      if (fly) flyTo(o.p, Math.max(k, 5));
+      if (fly) flyTo(o.p, Math.max(k, spreadScale(o)));
       var card = document.querySelector('.card[data-id="' + id + '"]');
       if (card) card.classList.add('flash');
+    }
+    /* zoom level at which the nearest neighbouring pin is about 38px away */
+    function spreadScale(o) {
+      var dmin = Infinity;
+      for (var id in pins) { var q2 = pins[id]; if (q2 === o) continue; var dx = q2.p[0] - o.p[0], dy = q2.p[1] - o.p[1], d = Math.sqrt(dx * dx + dy * dy); if (d > 1e-6 && d < dmin) dmin = d; }
+      var ppu = host.clientWidth / width;
+      return Math.min(900, Math.max(5, 38 / (dmin * ppu)));
     }
     function flyTo(p, scale) {
       var cy = host.clientWidth < 760 ? height * 0.34 : height / 2;
@@ -203,27 +213,30 @@
       flyTo(p, v[2]);
     }
 
-    /* ---------- filters ---------- */
+    /* ---------- filters (data driven; the list cards are optional) ---------- */
     var cards = Array.prototype.slice.call(document.querySelectorAll('.card'));
+    var cardById = {}; cards.forEach(function (c) { cardById[c.dataset.id] = c; });
+    var hay = {};
+    labs.forEach(function (l) { hay[l.id] = [l.name, l.alias || '', l.city, l.country, l.region, l.summary, (l.focus || []).join(' '), TYPES[l.type] || ''].join(' ').toLowerCase(); });
     var q = document.getElementById('q'), typeBtns = document.querySelectorAll('[data-type]'),
       regionSel = document.getElementById('region'), focusSel = document.getElementById('focus'), countEl = document.getElementById('count');
-    var state = { q: '', type: 'all', region: 'all', focus: 'all' };
+    var state = { q: '', type: 'all', region: 'all', focus: 'all' }, visible = {};
     function apply() {
       var n = 0, term = state.q.trim().toLowerCase();
-      cards.forEach(function (c) {
-        var ok = (state.type === 'all' || c.dataset.type === state.type) &&
-          (state.region === 'all' || c.dataset.region === state.region) &&
-          (state.focus === 'all' || (' ' + c.dataset.focus + ' ').indexOf(' ' + state.focus + ' ') > -1 || c.dataset.focus.split('|').indexOf(state.focus) > -1) &&
-          (!term || c.dataset.search.indexOf(term) > -1);
-        c.hidden = !ok;
+      labs.forEach(function (l) {
+        var ok = (state.type === 'all' || l.type === state.type) &&
+          (state.region === 'all' || l.region === state.region) &&
+          (state.focus === 'all' || (l.focus || []).some(function (f) { return f.toLowerCase() === state.focus; })) &&
+          (!term || hay[l.id].indexOf(term) > -1);
+        visible[l.id] = ok;
         if (ok) n++;
-        var pin = pins[c.dataset.id];
-        if (pin) pin.node.classList.toggle('dim', !ok);
+        var c = cardById[l.id]; if (c) c.hidden = !ok;
+        var pin = pins[l.id]; if (pin) pin.node.classList.toggle('dim', !ok);
       });
-      countEl.textContent = n + (n === 1 ? ' lab' : ' labs');
-      document.getElementById('empty').hidden = n !== 0;
+      if (countEl) countEl.textContent = n + (n === 1 ? ' lab' : ' labs');
+      var em = document.getElementById('empty'); if (em) em.hidden = n !== 0;
     }
-    q.addEventListener('input', function () { state.q = q.value; apply(); });
+    if (q) q.addEventListener('input', function () { state.q = q.value; apply(); });
     typeBtns.forEach(function (b) {
       b.addEventListener('click', function () {
         state.type = b.dataset.type;
@@ -231,19 +244,21 @@
         apply();
       });
     });
-    regionSel.addEventListener('change', function () { state.region = regionSel.value; apply(); focusRegion(state.region === 'all' ? null : state.region); });
-    focusSel.addEventListener('change', function () { state.focus = focusSel.value; apply(); });
+    if (regionSel) regionSel.addEventListener('change', function () { state.region = regionSel.value; apply(); focusRegion(state.region === 'all' ? null : state.region); });
+    if (focusSel) focusSel.addEventListener('change', function () { state.focus = focusSel.value; apply(); });
     cards.forEach(function (c) {
       c.addEventListener('mouseenter', function () { var o = pins[c.dataset.id]; if (o) o.node.classList.add('on'); });
       c.addEventListener('mouseleave', function () { var o = pins[c.dataset.id]; if (o && !peek.classList.contains('show')) o.node.classList.remove('on'); });
     });
-    document.getElementById('shuffle').addEventListener('click', function () {
-      var vis = cards.filter(function (c) { return !c.hidden; });
+    var shuffleBtn = document.getElementById('shuffle');
+    if (shuffleBtn) shuffleBtn.addEventListener('click', function () {
+      var vis = labs.filter(function (l) { return visible[l.id]; });
       if (!vis.length) return;
-      var c = vis[Math.floor(Math.random() * vis.length)];
-      document.getElementById('map').scrollIntoView({ behavior: 'smooth', block: 'center' });
-      select(c.dataset.id, true);
+      var l = vis[Math.floor(Math.random() * vis.length)];
+      if (!full) host.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      select(l.id, true);
     });
+    var fp = document.querySelector('.fm-panel'); if (fp && window.innerWidth < 760) fp.removeAttribute('open');
     var hash = location.hash.replace('#', '');
     if (hash && pins[hash]) setTimeout(function () { select(hash, true); }, 300);
     apply();

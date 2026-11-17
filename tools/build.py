@@ -252,7 +252,7 @@ def logo_html(l, cls="logo"):
     return f'<span class="{cls} mono" style="--h:{hue}" aria-hidden="true">{esc(monogram(l["name"]))}</span>'
 
 
-def head(title, desc, path, extra="", image_id="home", image_alt=None):
+def head(title, desc, path, extra="", image_id="home", image_alt=None, body_class=""):
     url = SITE + path
     img = f"{SITE}/assets/og/{image_id}.jpg"
     alt = image_alt or "Open Labs Atlas: a world map of independent AI labs committed to open source"
@@ -285,16 +285,26 @@ def head(title, desc, path, extra="", image_id="home", image_alt=None):
 <link rel="preload" href="/assets/fonts/fraunces-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/styles.css">
 {extra}</head>
-<body>
+<body{(' class="' + body_class + '"') if body_class else ""}>
 <a class="skip" href="#main">Skip to content</a>
 <header class="bar">
   <a class="brand" href="https://renaissancelabs.eu/"><img src="/assets/mark.png" alt="" width="28" height="28"><span>Renaissance Labs</span></a>
   <nav aria-label="Main">
     <a href="/">Atlas</a>
+    <a href="/map/">Full map</a>
     <a href="/about/">About</a>
     <a href="https://renaissancelabs.eu/">Main site</a>
   </nav>
 </header>
+"""
+
+
+def scripts():
+    return """<script src="/assets/vendor/d3.min.js"></script>
+<script src="/assets/vendor/topojson-client.min.js"></script>
+<script src="/app.js" defer></script>
+</body>
+</html>
 """
 
 
@@ -508,7 +518,7 @@ def index_page(labs):
   </section>
   <div class="mapwrap">
     <div class="map" id="map">
-      <div class="map-ui"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset view">⟲</button></div>
+      <div class="map-ui"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset view">⟲</button><a class="mbtn" href="/map/" title="Full-page map" aria-label="Open full-page map">⤢</a></div>
       <div class="legend" aria-hidden="true">{legend}</div>
       <div class="hint" id="hint" aria-hidden="true">Hold Ctrl or ⌘ and scroll to zoom</div>
       <div class="tip" id="tip" role="tooltip"></div>
@@ -531,6 +541,42 @@ def index_page(labs):
   </section>
 </main>
 """ + foot()
+
+
+def map_page(labs):
+    regions = sorted({l["region"] for l in labs})
+    order = ["Europe", "North America", "Latin America", "Asia", "Middle East", "Africa", "Oceania", "Other"]
+    regions.sort(key=lambda r: order.index(r) if r in order else 99)
+    foc = {}
+    for l in labs:
+        for f in l["focus"]:
+            foc[f.lower()] = foc.get(f.lower(), 0) + 1
+    top_focus = [f for f, _ in sorted(foc.items(), key=lambda kv: (-kv[1], kv[0])) if foc[f] >= 3][:40]
+    type_counts = {t: sum(1 for l in labs if l["type"] == t) for t in TYPES}
+    chips = '<button class="chip" data-type="all" aria-pressed="true">All</button>' + "".join(
+        f'<button class="chip" data-type="{t}" aria-pressed="false">{esc(TYPES[t])}</button>' for t in TYPES if type_counts[t])
+    ropts = '<option value="all">All regions</option>' + "".join(f'<option value="{esc(r)}">{esc(r)} ({sum(1 for l in labs if l["region"] == r)})</option>' for r in regions)
+    fopts = '<option value="all">All focus areas</option>' + "".join(f'<option value="{esc(f)}">{esc(f)}</option>' for f in top_focus)
+    legend = "".join(f'<span><i style="background:{TYPE_COLOR[t]}"></i>{esc(TYPES[t])}</span>' for t in TYPES if type_counts[t])
+    desc = f"Full-page world map of {len(labs)} independent AI labs committed to open source. Search, filter and zoom to find labs near you."
+    return head("Full map · Open Labs Atlas", desc, "/map/", body_class="fullmap") + f"""<main id="main">
+  <div class="map full" id="map" data-full data-free-zoom>
+    <details class="fm-panel" open>
+      <summary><span>Search and filters</span><span class="count" id="count" aria-live="polite">{len(labs)} labs</span></summary>
+      <div class="fm-body">
+        <input id="q" type="search" placeholder="Search labs, places, topics" aria-label="Search labs">
+        <div class="chips" role="group" aria-label="Type">{chips}</div>
+        <div class="fm-row"><select class="sel" id="region" aria-label="Region">{ropts}</select><select class="sel" id="focus" aria-label="Focus area">{fopts}</select></div>
+        <div class="fm-row"><button class="chip" id="shuffle" type="button">Surprise me</button><a class="chip" href="/">List view</a></div>
+      </div>
+    </details>
+    <div class="map-ui"><button id="zin" aria-label="Zoom in">+</button><button id="zout" aria-label="Zoom out">−</button><button id="zreset" aria-label="Reset view">⟲</button><a class="mbtn" href="/" title="Back to list" aria-label="Back to the list view">×</a></div>
+    <div class="legend" aria-hidden="true">{legend}</div>
+    <div class="tip" id="tip" role="tooltip"></div>
+    <div class="peek" id="peek" aria-live="polite"></div>
+  </div>
+</main>
+""" + scripts()
 
 
 def about_page(labs):
@@ -562,6 +608,19 @@ def main():
     if not labs:
         print("no labs found in data/regions/*.json"); sys.exit(1)
     shutil.rmtree("labs", ignore_errors=True)
+    # labs that share (almost) the same city point get a small ring offset for the map only (mlat/mlon)
+    import collections
+    groups = collections.defaultdict(list)
+    for l in labs:
+        groups[(round(l["lat"], 2), round(l["lon"], 2))].append(l)
+    for g in groups.values():
+        if len(g) < 2: continue
+        g.sort(key=lambda x: x["id"])
+        r = min(0.12, 0.025 * math.sqrt(len(g)))
+        for i, l in enumerate(g):
+            ang = 2 * math.pi * i / len(g) - math.pi / 2
+            l["mlat"] = round(l["lat"] + r * math.sin(ang), 5)
+            l["mlon"] = round(l["lon"] + r * math.cos(ang) / max(0.2, math.cos(math.radians(l["lat"]))), 5)
     for l in labs:
         l["logo"] = os.path.exists(f"assets/logos/{l['id']}.png")
     write("data/labs.json", json.dumps({"generated": TODAY, "count": len(labs), "labs": labs}, ensure_ascii=False, indent=1))
@@ -573,9 +632,10 @@ def main():
             w.writerow([("; ".join(l[c]) if c == "focus" else l[c]) for c in cols])
     write("index.html", index_page(labs))
     write("about/index.html", about_page(labs))
+    write("map/index.html", map_page(labs))
     for l in labs:
         write(f"labs/{l['id']}/index.html", lab_page(l, labs))
-    urls = ["/", "/about/"] + [f"/labs/{l['id']}/" for l in labs]
+    urls = ["/", "/map/", "/about/"] + [f"/labs/{l['id']}/" for l in labs]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
           "".join(f"<url><loc>{SITE}{u}</loc><lastmod>{TODAY}</lastmod></url>\n" for u in urls) + "</urlset>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")

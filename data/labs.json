@@ -320,6 +320,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "adapterhub",
+   "mlat": 49.8295,
+   "mlon": 8.6512,
    "logo": true
   },
   {
@@ -474,6 +476,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "agentica",
+   "mlat": 37.8156,
+   "mlon": -122.273,
    "logo": true
   },
   {
@@ -631,6 +635,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "ai-singapore",
+   "mlat": 1.31464,
+   "mlon": 103.82,
    "logo": true
   },
   {
@@ -769,6 +775,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "ai-sweden",
+   "mlat": 57.67354,
+   "mlon": 11.9746,
    "logo": true
   },
   {
@@ -1253,6 +1261,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "ailab",
+   "mlat": 56.91424,
+   "mlon": 24.1052,
    "logo": true
   },
   {
@@ -1444,6 +1454,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "aiml-lab",
+   "mlat": 49.89445,
+   "mlon": 8.70939,
    "logo": true
   },
   {
@@ -1636,6 +1648,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "aleph-alpha",
+   "mlat": 49.36344,
+   "mlon": 8.6724,
    "logo": true
   },
   {
@@ -1823,6 +1837,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "alexandra-institute",
+   "mlat": 56.1196,
+   "mlon": 10.2039,
    "logo": true
   },
   {
@@ -2022,6 +2038,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "ai2",
+   "mlat": 47.57084,
+   "mlon": -122.3321,
    "logo": true
   },
   {
@@ -2189,6 +2207,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "almanach",
+   "mlat": 48.75352,
+   "mlon": 2.3522,
    "logo": true
   },
   {
@@ -2367,6 +2387,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "answer-ai",
+   "mlat": 37.6549,
+   "mlon": -122.4194,
    "logo": true
   },
   {
@@ -2559,6 +2581,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "apollo-research",
+   "mlat": 51.44126,
+   "mlon": -0.1278,
    "logo": true
   },
   {
@@ -2847,6 +2871,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "arc-prize-foundation",
+   "mlat": 37.65771,
+   "mlon": -122.38676,
    "logo": true
   },
   {
@@ -3011,6 +3037,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "arcee-ai",
+   "mlat": 37.66599,
+   "mlon": -122.35565,
    "logo": true
   },
   {
@@ -3362,6 +3390,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "automl-groups",
+   "mlat": 47.9557,
+   "mlon": 7.8421,
    "logo": true
   },
   {
@@ -3531,6 +3561,8 @@
    "confidence": "medium",
    "region": "Asia",
    "id": "baai",
+   "mlat": 39.8441,
+   "mlon": 116.41,
    "logo": true
   },
   {
@@ -3700,6 +3732,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "bespoke-labs",
+   "mlat": 37.3428,
+   "mlon": -122.0839,
    "logo": true
   },
   {
@@ -4218,6 +4252,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "bigcode",
+   "mlat": 40.6569,
+   "mlon": -74.006,
    "logo": true
   },
   {
@@ -4407,6 +4443,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "bigscience",
+   "mlat": 48.76048,
+   "mlon": 2.40879,
    "logo": true
   },
   {
@@ -4571,6 +4609,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "bioptimus",
+   "mlat": 48.78042,
+   "mlon": 2.45775,
    "logo": true
   },
   {
@@ -4731,6 +4771,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "black-forest-labs",
+   "mlat": 48.02065,
+   "mlon": 7.89814,
    "logo": true
   },
   {
@@ -4855,6 +4897,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "boltz",
+   "mlat": 42.33824,
+   "mlon": -71.1097,
    "logo": true
   },
   {
@@ -4962,6 +5006,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "browser-use",
+   "mlat": 37.67937,
+   "mlon": -122.32752,
    "logo": true
   },
   {
@@ -5121,6 +5167,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "bsc-language-technologies-lab",
+   "mlat": 41.3374,
+   "mlon": 2.1686,
    "logo": true
   },
   {
@@ -5573,6 +5621,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "canopy-labs",
+   "mlat": 37.69721,
+   "mlon": -122.30369,
    "logo": true
   },
   {
@@ -5894,6 +5944,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "cartesia",
+   "mlat": 37.71869,
+   "mlon": -122.28527,
    "logo": true
   },
   {
@@ -6072,6 +6124,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "center-for-ai-safety",
+   "mlat": 37.7428,
+   "mlon": -122.27312,
    "logo": true
   },
   {
@@ -6269,6 +6323,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "center-for-humanities-computing",
+   "mlat": 56.18455,
+   "mlon": 10.27125,
    "logo": true
   },
   {
@@ -6386,6 +6442,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "chai-discovery",
+   "mlat": 37.7684,
+   "mlon": -122.26781,
    "logo": true
   },
   {
@@ -6579,6 +6637,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "cis-lmu-munich",
+   "mlat": 48.0792,
+   "mlon": 11.582,
    "logo": true
   },
   {
@@ -6750,6 +6810,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "cjvt",
+   "mlat": 46.02154,
+   "mlon": 14.5058,
    "logo": true
   },
   {
@@ -6869,6 +6931,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "ckip-lab",
+   "mlat": 24.99464,
+   "mlon": 121.57,
    "logo": true
   },
   {
@@ -7210,6 +7274,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "classla",
+   "mlat": 46.09226,
+   "mlon": 14.5058,
    "logo": true
   },
   {
@@ -7901,6 +7967,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "compvis",
+   "mlat": 48.11783,
+   "mlon": 11.66166,
    "logo": true
   },
   {
@@ -8048,6 +8116,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "contextual-ai",
+   "mlat": 37.40775,
+   "mlon": -122.0367,
    "logo": true
   },
   {
@@ -8372,6 +8442,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "danish-foundation-models",
+   "mlat": 56.18455,
+   "mlon": 10.13655,
    "logo": true
   },
   {
@@ -8498,6 +8570,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "deep-cogito",
+   "mlat": 37.79431,
+   "mlon": -122.26958,
    "logo": true
   },
   {
@@ -8625,6 +8699,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "deep-learning-indaba",
+   "mlat": 51.46616,
+   "mlon": -0.04471,
    "logo": true
   },
   {
@@ -8953,6 +9029,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "deepset",
+   "mlat": 52.4767,
+   "mlon": 13.405,
    "logo": true
   },
   {
@@ -10091,6 +10169,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "ellamind",
+   "mlat": 51.13034,
+   "mlon": 10.4515,
    "logo": true
   },
   {
@@ -10405,6 +10485,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "epfl-llm-team",
+   "mlat": 46.48374,
+   "mlon": 6.5668,
    "logo": true
   },
   {
@@ -10566,6 +10648,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "epoch-ai",
+   "mlat": 37.81932,
+   "mlon": -122.27837,
    "logo": true
   },
   {
@@ -10699,6 +10783,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "essential-ai",
+   "mlat": 37.84224,
+   "mlon": -122.29374,
    "logo": true
   },
   {
@@ -10854,6 +10940,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "eurollm",
+   "mlat": 38.68694,
+   "mlon": -9.1393,
    "logo": true
   },
   {
@@ -11005,6 +11093,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "explosion",
+   "mlat": 52.54165,
+   "mlon": 13.46663,
    "logo": true
   },
   {
@@ -11143,6 +11233,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "far-ai",
+   "mlat": 37.85423,
+   "mlon": -122.20565,
    "logo": true
   },
   {
@@ -11275,6 +11367,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "fast-ai",
+   "mlat": 37.86202,
+   "mlon": -122.315,
    "logo": true
   },
   {
@@ -11749,6 +11843,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "futurehouse",
+   "mlat": 37.87772,
+   "mlon": -122.34113,
    "logo": true
   },
   {
@@ -11843,6 +11939,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "genmo",
+   "mlat": 37.88862,
+   "mlon": -122.37092,
    "logo": true
   },
   {
@@ -11979,6 +12077,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "gensyn",
+   "mlat": 51.52212,
+   "mlon": -0.02419,
    "logo": true
   },
   {
@@ -12269,6 +12369,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "giskard",
+   "mlat": 48.81065,
+   "mlon": 2.49244,
    "logo": true
   },
   {
@@ -12403,6 +12505,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "goodfire",
+   "mlat": 37.8942,
+   "mlon": -122.40299,
    "logo": true
   },
   {
@@ -12547,6 +12651,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "gorilla",
+   "mlat": 37.91673,
+   "mlon": -122.23138,
    "logo": true
   },
   {
@@ -12957,6 +13063,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "h-company",
+   "mlat": 48.84709,
+   "mlon": 2.5082,
    "logo": true
   },
   {
@@ -13114,6 +13222,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "hazy-research",
+   "mlat": 37.3775,
+   "mlon": -122.1697,
    "logo": true
   },
   {
@@ -13271,6 +13381,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "heidelberg-nlp",
+   "mlat": 49.43416,
+   "mlon": 8.6724,
    "logo": true
   },
   {
@@ -13784,6 +13896,8 @@
    "confidence": "high",
    "region": "Middle East",
    "id": "hooshvare-research-lab",
+   "mlat": 35.65464,
+   "mlon": 51.39,
    "logo": true
   },
   {
@@ -13945,6 +14059,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "hpc-ai-tech",
+   "mlat": 1.38536,
+   "mlon": 103.82,
    "logo": true
   },
   {
@@ -14125,6 +14241,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "hplt",
+   "mlat": 50.09715,
+   "mlon": 14.49623,
    "logo": true
   },
   {
@@ -14316,6 +14434,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "hugging-face",
+   "mlat": 48.88481,
+   "mlon": 2.50289,
    "logo": true
   },
   {
@@ -14866,6 +14986,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "illuin-technology",
+   "mlat": 48.91872,
+   "mlon": 2.47722,
    "logo": true
   },
   {
@@ -15399,6 +15521,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "institute-for-machine-learning-jku-linz",
+   "mlat": 48.27154,
+   "mlon": 14.2858,
    "logo": true
   },
   {
@@ -15561,6 +15685,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "institute-of-computer-science-pas",
+   "mlat": 52.19434,
+   "mlon": 21.0122,
    "logo": true
   },
   {
@@ -15679,6 +15805,8 @@
    "confidence": "medium",
    "region": "Middle East",
    "id": "institute-of-foundation-models",
+   "mlat": 24.4067,
+   "mlon": 54.38,
    "logo": true
   },
   {
@@ -16491,6 +16619,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "kotoba-technologies",
+   "mlat": 35.61876,
+   "mlon": 139.69,
    "logo": true
   },
   {
@@ -16695,6 +16825,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "kyutai",
+   "mlat": 48.94424,
+   "mlon": 2.43467,
    "logo": true
   },
   {
@@ -17189,6 +17321,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "language-and-voice-lab",
+   "mlat": 64.11124,
+   "mlon": -21.9426,
    "logo": true
   },
   {
@@ -18038,6 +18172,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "letta",
+   "mlat": 37.8942,
+   "mlon": -122.43581,
    "logo": true
   },
   {
@@ -18169,6 +18305,8 @@
    "confidence": "medium",
    "region": "Asia",
    "id": "lightblue",
+   "mlat": 35.64938,
+   "mlon": 139.75529,
    "logo": true
   },
   {
@@ -18329,6 +18467,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "lightly",
+   "mlat": 47.3336,
+   "mlon": 8.5417,
    "logo": true
   },
   {
@@ -18466,6 +18606,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "lightning-ai",
+   "mlat": 40.69553,
+   "mlon": -73.93586,
    "logo": true
   },
   {
@@ -18658,6 +18800,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "lighton",
+   "mlat": 48.95792,
+   "mlon": 2.38099,
    "logo": true
   },
   {
@@ -18832,6 +18976,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "linagora",
+   "mlat": 48.95792,
+   "mlon": 2.32341,
    "logo": true
   },
   {
@@ -19006,6 +19152,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "liquid-ai",
+   "mlat": 42.40896,
+   "mlon": -71.1097,
    "logo": true
   },
   {
@@ -19309,6 +19457,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "lmarena",
+   "mlat": 37.88862,
+   "mlon": -122.46788,
    "logo": true
   },
   {
@@ -19566,6 +19716,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "mainlp",
+   "mlat": 48.18033,
+   "mlon": 11.63123,
    "logo": true
   },
   {
@@ -19716,6 +19868,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "marin",
+   "mlat": 37.4275,
+   "mlon": -122.10674,
    "logo": true
   },
   {
@@ -19899,6 +20053,8 @@
    "confidence": "medium",
    "region": "Middle East",
    "id": "mbzuai",
+   "mlat": 24.47165,
+   "mlon": 54.42119,
    "logo": true
   },
   {
@@ -20066,6 +20222,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "mdz-digital-library-team",
+   "mlat": 48.18033,
+   "mlon": 11.53277,
    "logo": true
   },
   {
@@ -20396,6 +20554,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "metr",
+   "mlat": 37.91673,
+   "mlon": -122.31462,
    "logo": true
   },
   {
@@ -20739,6 +20899,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "minimax",
+   "mlat": 31.18,
+   "mlon": 121.47,
    "logo": true
   },
   {
@@ -20931,6 +21093,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "mistral-ai",
+   "mlat": 48.94424,
+   "mlon": 2.26973,
    "logo": true
   },
   {
@@ -21090,6 +21254,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "mixedbread",
+   "mlat": 52.54165,
+   "mlon": 13.34337,
    "logo": true
   },
   {
@@ -21272,6 +21438,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "mi-eind",
+   "mlat": 64.18196,
+   "mlon": -21.9426,
    "logo": true
   },
   {
@@ -21462,6 +21630,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "mlcommons",
+   "mlat": 37.87772,
+   "mlon": -122.49767,
    "logo": true
   },
   {
@@ -21737,6 +21907,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "moondream",
+   "mlat": 37.86202,
+   "mlon": -122.5238,
    "logo": true
   },
   {
@@ -21918,6 +22090,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "moonshot-ai",
+   "mlat": 39.88273,
+   "mlon": 116.4793,
    "logo": true
   },
   {
@@ -22043,6 +22217,8 @@
    "confidence": "medium",
    "region": "Asia",
    "id": "motif-technologies",
+   "mlat": 37.5267,
+   "mlon": 126.98,
    "logo": true
   },
   {
@@ -22213,6 +22389,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "mozilla-ai",
+   "mlat": 37.84224,
+   "mlon": -122.54506,
    "logo": true
   },
   {
@@ -22362,6 +22540,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "music-technology-group",
+   "mlat": 41.3874,
+   "mlon": 2.23524,
    "logo": true
   },
   {
@@ -22686,6 +22866,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "neuphonic",
+   "mlat": 51.56699,
+   "mlon": -0.08169,
    "logo": true
   },
   {
@@ -22812,6 +22994,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "neuronpedia",
+   "mlat": 37.81932,
+   "mlon": -122.56043,
    "logo": true
   },
   {
@@ -22977,6 +23161,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "nlx-group",
+   "mlat": 38.75766,
+   "mlon": -9.1393,
    "logo": true
   },
   {
@@ -23152,6 +23338,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "nomic-ai",
+   "mlat": 40.75803,
+   "mlon": -73.96265,
    "logo": true
   },
   {
@@ -23482,6 +23670,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "nous-research",
+   "mlat": 40.75803,
+   "mlon": -74.04935,
    "logo": true
   },
   {
@@ -23652,6 +23842,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "novasky",
+   "mlat": 37.85423,
+   "mlon": -122.34035,
    "logo": true
   },
   {
@@ -24068,6 +24260,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "nxai",
+   "mlat": 48.34226,
+   "mlon": 14.2858,
    "logo": true
   },
   {
@@ -24228,6 +24422,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "oatml",
+   "mlat": 51.71664,
+   "mlon": -1.2577,
    "logo": true
   },
   {
@@ -24404,6 +24600,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "occiglot",
+   "mlat": 51.20106,
+   "mlon": 10.4515,
    "logo": true
   },
   {
@@ -24571,6 +24769,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "open-climate-fix",
+   "mlat": 51.56699,
+   "mlon": -0.17391,
    "logo": true
   },
   {
@@ -24762,6 +24962,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "openbmb-modelbest",
+   "mlat": 39.94523,
+   "mlon": 116.45283,
    "logo": true
   },
   {
@@ -24901,6 +25103,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "opencsg",
+   "mlat": 39.94523,
+   "mlon": 116.36717,
    "logo": true
   },
   {
@@ -25039,6 +25243,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "openeurollm",
+   "mlat": 50.09715,
+   "mlon": 14.37937,
    "logo": true
   },
   {
@@ -25531,6 +25737,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "openllm-france",
+   "mlat": 48.91872,
+   "mlon": 2.22718,
    "logo": true
   },
   {
@@ -25885,6 +26093,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "openmoss",
+   "mlat": 31.23,
+   "mlon": 121.52847,
    "logo": true
   },
   {
@@ -26058,6 +26268,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "openthoughts",
+   "mlat": 37.40775,
+   "mlon": -122.1311,
    "logo": true
   },
   {
@@ -26209,6 +26421,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "oumi",
+   "mlat": 47.64156,
+   "mlon": -122.3321,
    "logo": true
   },
   {
@@ -26363,6 +26577,8 @@
    "confidence": "medium",
    "region": "Middle East",
    "id": "part-ai",
+   "mlat": 35.72536,
+   "mlon": 51.39,
    "logo": true
   },
   {
@@ -26537,6 +26753,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "photoroom",
+   "mlat": 48.88481,
+   "mlon": 2.20151,
    "logo": true
   },
   {
@@ -26713,6 +26931,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "physical-intelligence",
+   "mlat": 37.79431,
+   "mlon": -122.56922,
    "logo": true
   },
   {
@@ -26875,6 +27095,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "pleias",
+   "mlat": 48.84709,
+   "mlon": 2.1962,
    "logo": true
   },
   {
@@ -27013,6 +27235,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "pluralis-research",
+   "mlat": 37.7684,
+   "mlon": -122.57099,
    "logo": true
   },
   {
@@ -27385,6 +27609,8 @@
    "confidence": "medium",
    "region": "North America",
    "id": "polymathic-ai",
+   "mlat": 40.69553,
+   "mlon": -74.07614,
    "logo": true
   },
   {
@@ -27553,6 +27779,8 @@
    "confidence": "medium",
    "region": "Asia",
    "id": "preferred-networks",
+   "mlat": 35.71062,
+   "mlon": 139.75529,
    "logo": true
   },
   {
@@ -27728,6 +27956,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "prime-intellect",
+   "mlat": 37.7428,
+   "mlon": -122.56568,
    "logo": true
   },
   {
@@ -28085,6 +28315,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "prior-labs",
+   "mlat": 48.02065,
+   "mlon": 7.78606,
    "logo": true
   },
   {
@@ -28222,6 +28454,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "probabl",
+   "mlat": 48.81065,
+   "mlon": 2.21196,
    "logo": true
   },
   {
@@ -28387,6 +28621,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "projecte-aina",
+   "mlat": 41.4374,
+   "mlon": 2.1686,
    "logo": true
   },
   {
@@ -28721,6 +28957,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "pruna-ai",
+   "mlat": 48.78042,
+   "mlon": 2.24665,
    "logo": true
   },
   {
@@ -28892,6 +29130,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "pyannoteai",
+   "mlat": 48.76048,
+   "mlon": 2.29561,
    "logo": true
   },
   {
@@ -29772,6 +30012,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "sakana-ai",
+   "mlat": 35.74124,
+   "mlon": 139.69,
    "logo": true
   },
   {
@@ -30220,6 +30462,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "sesame",
+   "mlat": 37.71869,
+   "mlon": -122.55353,
    "logo": true
   },
   {
@@ -30373,6 +30617,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "shanghai-ai-laboratory",
+   "mlat": 31.28,
+   "mlon": 121.47,
    "logo": true
   },
   {
@@ -30529,6 +30775,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "softcatala",
+   "mlat": 41.3874,
+   "mlon": 2.10196,
    "logo": true
   },
   {
@@ -30700,6 +30948,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "speakleash",
+   "mlat": 52.26506,
+   "mlon": 21.0122,
    "logo": true
   },
   {
@@ -30842,6 +31092,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "sprakbanken-text",
+   "mlat": 57.74426,
+   "mlon": 11.9746,
    "logo": true
   },
   {
@@ -30979,6 +31231,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "sri-lab",
+   "mlat": 47.39855,
+   "mlon": 8.59708,
    "logo": true
   },
   {
@@ -31166,6 +31420,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "stability-ai",
+   "mlat": 51.52212,
+   "mlon": -0.23141,
    "logo": true
   },
   {
@@ -31334,6 +31590,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "stanford-crfm",
+   "mlat": 37.4775,
+   "mlon": -122.1697,
    "logo": true
   },
   {
@@ -31531,6 +31789,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "stanford-nlp-group",
+   "mlat": 37.4275,
+   "mlon": -122.23266,
    "logo": true
   },
   {
@@ -31704,6 +31964,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "stepfun",
+   "mlat": 31.23,
+   "mlon": 121.41153,
    "logo": true
   },
   {
@@ -31840,6 +32102,8 @@
    "confidence": "medium",
    "region": "Asia",
    "id": "stockmark",
+   "mlat": 35.71062,
+   "mlon": 139.62471,
    "logo": true
   },
   {
@@ -32014,6 +32278,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "swallow-llm",
+   "mlat": 35.64938,
+   "mlon": 139.62471,
    "logo": true
   },
   {
@@ -32338,6 +32604,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "swiss-ai-initiative",
+   "mlat": 47.39855,
+   "mlon": 8.48632,
    "logo": true
   },
   {
@@ -32465,6 +32733,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "taide",
+   "mlat": 25.06536,
+   "mlon": 121.57,
    "logo": true
   },
   {
@@ -33163,6 +33433,8 @@
    "confidence": "high",
    "region": "Middle East",
    "id": "technology-innovation-institute",
+   "mlat": 24.47165,
+   "mlon": 54.33881,
    "logo": true
   },
   {
@@ -33309,6 +33581,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "the-alan-turing-institute",
+   "mlat": 51.46616,
+   "mlon": -0.21089,
    "logo": true
   },
   {
@@ -33469,6 +33743,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "tilde",
+   "mlat": 56.98496,
+   "mlon": 24.1052,
    "logo": true
   },
   {
@@ -33604,6 +33880,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "tng-technology-consulting",
+   "mlat": 48.11783,
+   "mlon": 11.50234,
    "logo": true
   },
   {
@@ -33785,6 +34063,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "together-ai",
+   "mlat": 37.69721,
+   "mlon": -122.53511,
    "logo": true
   },
   {
@@ -33949,6 +34229,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "transluce",
+   "mlat": 37.67937,
+   "mlon": -122.51128,
    "logo": true
   },
   {
@@ -34106,6 +34388,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "trillion-labs",
+   "mlat": 37.59165,
+   "mlon": 127.02731,
    "logo": true
   },
   {
@@ -34616,6 +34900,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "ukp-lab",
+   "mlat": 49.89445,
+   "mlon": 8.59301,
    "logo": true
   },
   {
@@ -34884,6 +35170,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "unsloth",
+   "mlat": 37.66599,
+   "mlon": -122.48315,
    "logo": true
   },
   {
@@ -35034,6 +35322,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "upstage",
+   "mlat": 37.59165,
+   "mlon": 126.93269,
    "logo": true
   },
   {
@@ -35437,6 +35727,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "visual-geometry-group",
+   "mlat": 51.78736,
+   "mlon": -1.2577,
    "logo": true
   },
   {
@@ -35566,6 +35858,8 @@
    "confidence": "medium",
    "region": "Europe",
    "id": "vita",
+   "mlat": 46.55446,
+   "mlon": 6.5668,
    "logo": true
   },
   {
@@ -35988,6 +36282,8 @@
    "confidence": "high",
    "region": "Asia",
    "id": "z-ai",
+   "mlat": 39.88273,
+   "mlon": 116.3407,
    "logo": true
   },
   {
@@ -36146,6 +36442,8 @@
    "confidence": "high",
    "region": "North America",
    "id": "zyphra",
+   "mlat": 37.65771,
+   "mlon": -122.45204,
    "logo": true
   },
   {
@@ -36304,6 +36602,8 @@
    "confidence": "high",
    "region": "Europe",
    "id": "fal",
+   "mlat": 50.0322,
+   "mlon": 14.4378,
    "logo": true
   }
  ]
