@@ -17,6 +17,15 @@
     return n;
   }
 
+  function monogram(name) { var p = (name.match(/[A-Za-z0-9]+/g) || ['?']); return p.length === 1 ? p[0].slice(0, 2).toUpperCase() : (p[0][0] + p[1][0]).toUpperCase(); }
+  function hueOf(name) { var s = 0; for (var i = 0; i < name.length; i++) s += name.charCodeAt(i); return s % 40 + 28; }
+  function logoNode(l, cls) {
+    var s = h('span', 'logo ' + (cls || ''));
+    if (l.logo) { var im = new Image(); im.alt = ''; im.src = '/assets/logos/' + l.id + '.png'; s.appendChild(im); }
+    else { s.classList.add('mono'); s.style.setProperty('--h', hueOf(l.name)); s.textContent = monogram(l.name); }
+    return s;
+  }
+
   Promise.all([
     fetch('/data/labs.json').then(function (r) { return r.json(); }),
     fetch('/assets/vendor/countries-110m.json').then(function (r) { return r.json(); })
@@ -81,8 +90,10 @@
     el('path', { d: path(d3.geoGraticule10()), class: 'graticule' }, g);
     el('path', { d: path(land), class: 'land' }, g);
     el('path', { d: path(borders), class: 'borders' }, g);
-    el('path', { d: path(land), class: 'outline' }, g);
 
+    var defs = el('defs', {}, svg);
+    var clip = el('clipPath', { id: 'lgclip', clipPathUnits: 'objectBoundingBox' }, defs);
+    el('circle', { cx: 0.5, cy: 0.5, r: 0.5 }, clip);
     var pinLayer = el('g', {}, g);
     var pins = {};
     var visibleSet = null;
@@ -92,35 +103,41 @@
       var pin = el('g', { class: 'pin t-' + l.type, transform: 'translate(' + p[0] + ',' + p[1] + ')', tabindex: 0, role: 'link', 'aria-label': l.name + ', ' + l.city + ', ' + l.country }, pinLayer);
       var inner = el('g', { class: 'inner' }, pin);
       el('circle', { class: 'halo', r: 11 }, inner);
-      var pu = el('circle', { class: 'pulse', r: 5 }, inner);
-      pu.style.animationDelay = ((i * 137) % 3400) + 'ms';
       el('circle', { class: 'dot', r: 4.2 }, inner);
-      pin.addEventListener('mouseenter', function () { showTip(l, p); });
+      var lg = el('g', { class: 'lg' }, pin);
+      el('circle', { class: 'lg-ring', r: 12.5 }, lg);
+      var hasLogo = !!l.logo, im = null;
+      if (hasLogo) { im = el('image', { x: -10, y: -10, width: 20, height: 20, 'clip-path': 'url(#lgclip)', preserveAspectRatio: 'xMidYMid meet' }, lg); }
+      else { var tx = el('text', { class: 'lg-mono', 'text-anchor': 'middle', dy: '0.36em' }, lg); tx.textContent = monogram(l.name); }
+      pin.addEventListener('mouseenter', function () { if (!flying) showTip(l, p); });
       pin.addEventListener('mouseleave', hideTip);
-      pin.addEventListener('focus', function () { showTip(l, p); });
+      pin.addEventListener('focus', function () { if (!flying && pin.matches(':focus-visible')) showTip(l, p); });
       pin.addEventListener('blur', hideTip);
       pin.addEventListener('click', function (e) { e.stopPropagation(); select(l.id, true); });
       pin.addEventListener('keydown', function (e) { if (e.key === 'Enter') select(l.id, true); });
-      pins[l.id] = { node: pin, inner: inner, p: p, lab: l };
+      pins[l.id] = { node: pin, inner: inner, lg: lg, img: im, p: p, lab: l, loaded: false };
     });
 
-    var k = 1, tf = d3.zoomIdentity;
+    var k = 1, tf = d3.zoomIdentity, flying = false, flyT = null, logosOn = false;
+    function loadLogos() {
+      for (var id in pins) { var o = pins[id]; if (o.img && !o.loaded) { o.loaded = true; o.img.setAttribute('href', '/assets/logos/' + id + '.png'); } }
+    }
     var hintEl = document.getElementById('hint'), hintT = null;
     function hint() { if (!hintEl) return; hintEl.classList.add('show'); clearTimeout(hintT); hintT = setTimeout(function () { hintEl.classList.remove('show'); }, 1400); }
     var zoom = d3.zoom().filter(function (ev) {
       if (ev.type === 'wheel') { if (ev.ctrlKey || ev.metaKey) return true; hint(); return false; }
       if (ev.type && ev.type.indexOf('touch') === 0) return ev.touches && ev.touches.length >= 2;
       return !ev.button;
-    }).scaleExtent([1, 40]).translateExtent([[-40, -40], [width + 40, height + 40]]).on('zoom', function (ev) {
+    }).clickDistance(8).scaleExtent([1, 40]).translateExtent([[-40, -40], [width + 40, height + 40]]).on('zoom', function (ev) {
       tf = ev.transform; k = tf.k;
       g.setAttribute('transform', tf.toString());
       var s = 1 / Math.sqrt(k);
       for (var id in pins) pins[id].inner.setAttribute('transform', 'scale(' + s + ')');
+      var on = k >= 3;
+      if (on !== logosOn) { logosOn = on; host.classList.toggle('logos', on); if (on) loadLogos(); }
+      if (on) { var ls = 'scale(' + (1 / k) + ')'; for (var j in pins) pins[j].lg.setAttribute('transform', ls); }
       hideTip();
-      document.querySelectorAll('.land,.borders,.outline,.graticule').forEach(function (n) { n.style.strokeWidth = ''; });
-      borderW(k);
     });
-    function borderW(kk) { var b = host.querySelector('.borders'); if (b) b.style.strokeWidth = (0.6 / kk) + 'px'; var o = host.querySelector('.outline'); if (o) o.style.strokeWidth = (0.6 / kk) + 'px'; }
     d3.select(svg).call(zoom).on('dblclick.zoom', null);
     svg.addEventListener('click', function () { closePeek(); });
 
@@ -131,8 +148,8 @@
       var sc = pt.matrixTransform(svg.getScreenCTM()), hr = host.getBoundingClientRect();
       q = [sc.x - hr.left, sc.y - hr.top];
       tip.textContent = '';
-      var b = h('b', null, l.name); var s = h('span', null, l.city + ', ' + l.country);
-      tip.appendChild(b); tip.appendChild(s);
+      var tb = h('div', 'tip-text'); tb.appendChild(h('b', null, l.name)); tb.appendChild(h('span', null, l.city + ', ' + l.country));
+      tip.appendChild(logoNode(l, 'xs')); tip.appendChild(tb);
       tip.style.left = q[0] + 'px'; tip.style.top = q[1] + 'px';
       tip.classList.add('show');
     }
@@ -143,23 +160,30 @@
       var o = pins[id]; if (!o) return;
       var l = o.lab;
       for (var i in pins) pins[i].node.classList.toggle('on', i === id);
+      pinLayer.appendChild(o.node);
       peek.textContent = '';
       var x = h('button', 'x', '×'); x.setAttribute('aria-label', 'Close'); x.addEventListener('click', closePeek);
       var eye = h('div', 'loc'); var bd = h('span', 'badge ' + l.type); eye.appendChild(bd); eye.appendChild(document.createTextNode((TYPES[l.type] || l.type) + ' · ' + l.city + ', ' + l.country));
       eye.style.cssText = 'font-size:12.5px;color:#958c80;letter-spacing:.04em';
-      var t = h('h3', null, l.name); var p = h('p', null, l.summary);
+      var t = h('h3', null, l.name); var p = h('p', null, l.tagline || l.summary);
+      var head = h('div', 'peek-head'); var col = h('div', 'peek-col'); col.appendChild(eye); col.appendChild(t);
+      head.appendChild(logoNode(l, 'md')); head.appendChild(col);
       var row = h('div', 'row');
       var a1 = h('a', 'btn small', 'Open lab page'); a1.href = '/labs/' + l.id + '/';
       var a2 = h('a', 'btn small ghost', 'Website'); a2.href = l.website; a2.target = '_blank'; a2.rel = 'noopener';
       row.appendChild(a1); if (l.website) row.appendChild(a2);
-      [x, eye, t, p, row].forEach(function (n) { peek.appendChild(n); });
+      [x, head, p, row].forEach(function (n) { peek.appendChild(n); });
       peek.classList.add('show');
+      hideTip();
       if (fly) flyTo(o.p, Math.max(k, 5));
       var card = document.querySelector('.card[data-id="' + id + '"]');
       if (card) card.classList.add('flash');
     }
     function flyTo(p, scale) {
-      var t = d3.zoomIdentity.translate(width / 2, height / 2).scale(scale).translate(-p[0], -p[1]);
+      var cy = host.clientWidth < 760 ? height * 0.34 : height / 2;
+      var t = d3.zoomIdentity.translate(width / 2, cy).scale(scale).translate(-p[0], -p[1]);
+      flying = true; hideTip(); host.classList.add('flying');
+      clearTimeout(flyT); flyT = setTimeout(function () { flying = false; host.classList.remove('flying'); }, 960);
       d3.select(svg).transition().duration(900).ease(d3.easeCubicInOut).call(zoom.transform, t);
     }
     function reset() { closePeek(); d3.select(svg).transition().duration(700).call(zoom.transform, d3.zoomIdentity); }

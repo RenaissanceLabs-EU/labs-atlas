@@ -148,7 +148,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "aalto-speech-recognition"
+   "id": "aalto-speech-recognition",
+   "logo": true
   },
   {
    "orig_id": "adapterhub",
@@ -318,7 +319,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "adapterhub"
+   "id": "adapterhub",
+   "logo": true
   },
   {
    "orig_id": "agentica",
@@ -471,7 +473,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "agentica"
+   "id": "agentica",
+   "logo": true
   },
   {
    "orig_id": "ai-singapore",
@@ -627,7 +630,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "ai-singapore"
+   "id": "ai-singapore",
+   "logo": true
   },
   {
    "orig_id": "ai-sweden",
@@ -764,7 +768,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "ai-sweden"
+   "id": "ai-sweden",
+   "logo": true
   },
   {
    "orig_id": "ai21-labs",
@@ -935,7 +940,8 @@
    ],
    "confidence": "high",
    "region": "Middle East",
-   "id": "ai21-labs"
+   "id": "ai21-labs",
+   "logo": true
   },
   {
    "orig_id": "ai4bharat",
@@ -1103,7 +1109,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "ai4bharat"
+   "id": "ai4bharat",
+   "logo": true
   },
   {
    "orig_id": "lumii-ailab",
@@ -1245,7 +1252,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "ailab"
+   "id": "ailab",
+   "logo": true
   },
   {
    "orig_id": "aiml-tuda",
@@ -1435,7 +1443,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "aiml-lab"
+   "id": "aiml-lab",
+   "logo": true
   },
   {
    "orig_id": "aleph-alpha",
@@ -1626,7 +1635,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "aleph-alpha"
+   "id": "aleph-alpha",
+   "logo": true
   },
   {
    "orig_id": "alexandra-institute",
@@ -1812,7 +1822,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "alexandra-institute"
+   "id": "alexandra-institute",
+   "logo": true
   },
   {
    "orig_id": "allen-institute-for-ai",
@@ -2010,7 +2021,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "ai2"
+   "id": "ai2",
+   "logo": true
   },
   {
    "orig_id": "almanach",
@@ -2176,7 +2188,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "almanach"
+   "id": "almanach",
+   "logo": true
   },
   {
    "orig_id": "answer-ai",
@@ -2353,7 +2366,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "answer-ai"
+   "id": "answer-ai",
+   "logo": true
   },
   {
    "orig_id": "apollo-research",
@@ -2544,7 +2558,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "apollo-research"
+   "id": "apollo-research",
+   "logo": true
   },
   {
    "orig_id": "arc-institute",
@@ -2690,7 +2705,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "arc-institute"
+   "id": "arc-institute",
+   "logo": true
   },
   {
    "orig_id": "arc-prize",
@@ -2830,7 +2846,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "arc-prize-foundation"
+   "id": "arc-prize-foundation",
+   "logo": true
   },
   {
    "orig_id": "arcee-ai",
@@ -2993,7 +3010,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "arcee-ai"
+   "id": "arcee-ai",
+   "logo": true
   },
   {
    "orig_id": "audeering",
@@ -3173,7 +3191,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "audeering"
+   "id": "audeering",
+   "logo": true
   },
   {
    "orig_id": "automl-freiburg",
@@ -3342,7 +3361,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "automl-groups"
+   "id": "automl-groups",
+   "logo": true
   },
   {
    "orig_id": "baai",
@@ -3510,7 +3530,8 @@
    ],
    "confidence": "medium",
    "region": "Asia",
-   "id": "baai"
+   "id": "baai",
+   "logo": true
   },
   {
    "orig_id": "bespoke-labs",
@@ -3678,7 +3699,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "bespoke-labs"
+   "id": "bespoke-labs",
+   "logo": true
   },
   {
    "orig_id": "bethgelab",
@@ -3869,7 +3891,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "bethge-lab"
+   "id": "bethge-lab",
+   "logo": true
   },
   {
    "orig_id": "bharatgen",
@@ -4002,7 +4025,8 @@
    ],
    "confidence": "medium",
    "region": "Asia",
-   "id": "bharatgen"
+   "id": "bharatgen",
+   "logo": true
   },
   {
    "orig_id": "bigcode",
@@ -4193,7 +4217,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "bigcode"
+   "id": "bigcode",
+   "logo": true
   },
   {
    "orig_id": "bigscience",
@@ -4381,7 +4406,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "bigscience"
+   "id": "bigscience",
+   "logo": true
   },
   {
    "orig_id": "bioptimus",
@@ -4544,7 +4570,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "bioptimus"
+   "id": "bioptimus",
+   "logo": true
   },
   {
    "orig_id": "black-forest-labs",
@@ -4703,7 +4730,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "black-forest-labs"
+   "id": "black-forest-labs",
+   "logo": true
   },
   {
    "orig_id": "boltz",
@@ -4826,7 +4854,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "boltz"
+   "id": "boltz",
+   "logo": true
   },
   {
    "orig_id": "browser-use",
@@ -4932,7 +4961,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "browser-use"
+   "id": "browser-use",
+   "logo": true
   },
   {
    "orig_id": "bsc-langtech",
@@ -5090,7 +5120,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "bsc-language-technologies-lab"
+   "id": "bsc-language-technologies-lab",
+   "logo": true
   },
   {
    "orig_id": "buet-csebuetnlp",
@@ -5273,7 +5304,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "buet-cse-nlp-group"
+   "id": "buet-cse-nlp-group",
+   "logo": true
   },
   {
    "orig_id": "but-fit",
@@ -5455,7 +5487,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "but-speech-fit"
+   "id": "but-speech-fit",
+   "logo": true
   },
   {
    "orig_id": "canopy-labs",
@@ -5539,7 +5572,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "canopy-labs"
+   "id": "canopy-labs",
+   "logo": true
   },
   {
    "orig_id": "cardiffnlp",
@@ -5717,7 +5751,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "cardiff-nlp"
+   "id": "cardiff-nlp",
+   "logo": true
   },
   {
    "orig_id": "cartesia",
@@ -5858,7 +5893,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "cartesia"
+   "id": "cartesia",
+   "logo": true
   },
   {
    "orig_id": "center-for-ai-safety",
@@ -6035,7 +6071,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "center-for-ai-safety"
+   "id": "center-for-ai-safety",
+   "logo": true
   },
   {
    "orig_id": "chcaa",
@@ -6231,7 +6268,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "center-for-humanities-computing"
+   "id": "center-for-humanities-computing",
+   "logo": true
   },
   {
    "orig_id": "chai-discovery",
@@ -6347,7 +6385,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "chai-discovery"
+   "id": "chai-discovery",
+   "logo": true
   },
   {
    "orig_id": "cis-lmu",
@@ -6539,7 +6578,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "cis-lmu-munich"
+   "id": "cis-lmu-munich",
+   "logo": true
   },
   {
    "orig_id": "cjvt",
@@ -6709,7 +6749,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "cjvt"
+   "id": "cjvt",
+   "logo": true
   },
   {
    "orig_id": "ckip-lab",
@@ -6827,7 +6868,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "ckip-lab"
+   "id": "ckip-lab",
+   "logo": true
   },
   {
    "orig_id": "clarin-pl",
@@ -6996,7 +7038,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "clarin-pl"
+   "id": "clarin-pl",
+   "logo": true
   },
   {
    "orig_id": "classla",
@@ -7166,7 +7209,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "classla"
+   "id": "classla",
+   "logo": true
   },
   {
    "orig_id": "clips-antwerp",
@@ -7342,7 +7386,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "clips"
+   "id": "clips",
+   "logo": true
   },
   {
    "orig_id": "cltl-vu",
@@ -7509,7 +7554,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "cltl"
+   "id": "cltl",
+   "logo": true
   },
   {
    "orig_id": "common-crawl",
@@ -7662,7 +7708,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "common-crawl-foundation"
+   "id": "common-crawl-foundation",
+   "logo": true
   },
   {
    "orig_id": "compvis",
@@ -7853,7 +7900,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "compvis"
+   "id": "compvis",
+   "logo": true
   },
   {
    "orig_id": "contextual-ai",
@@ -7999,7 +8047,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "contextual-ai"
+   "id": "contextual-ai",
+   "logo": true
   },
   {
    "orig_id": "crane-ai-labs",
@@ -8139,7 +8188,8 @@
    ],
    "confidence": "medium",
    "region": "Africa",
-   "id": "crane-ai-labs"
+   "id": "crane-ai-labs",
+   "logo": true
   },
   {
    "orig_id": "danish-foundation-models",
@@ -8321,7 +8371,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "danish-foundation-models"
+   "id": "danish-foundation-models",
+   "logo": true
   },
   {
    "orig_id": "deep-cogito",
@@ -8446,7 +8497,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "deep-cogito"
+   "id": "deep-cogito",
+   "logo": true
   },
   {
    "orig_id": "deep-learning-indaba",
@@ -8572,7 +8624,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "deep-learning-indaba"
+   "id": "deep-learning-indaba",
+   "logo": true
   },
   {
    "orig_id": "deepseek",
@@ -8740,7 +8793,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "deepseek"
+   "id": "deepseek",
+   "logo": true
   },
   {
    "orig_id": "deepset",
@@ -8898,7 +8952,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "deepset"
+   "id": "deepset",
+   "logo": true
   },
   {
    "orig_id": "dfki",
@@ -9069,7 +9124,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "dfki"
+   "id": "dfki",
+   "logo": true
   },
   {
    "orig_id": "dicta",
@@ -9241,7 +9297,8 @@
    ],
    "confidence": "high",
    "region": "Middle East",
-   "id": "dicta-israel-center-for-text-analysis"
+   "id": "dicta-israel-center-for-text-analysis",
+   "logo": true
   },
   {
    "orig_id": "digital-umuganda",
@@ -9364,7 +9421,8 @@
    ],
    "confidence": "medium",
    "region": "Africa",
-   "id": "digital-umuganda"
+   "id": "digital-umuganda",
+   "logo": true
   },
   {
    "orig_id": "dtai-kuleuven",
@@ -9515,7 +9573,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "dtai"
+   "id": "dtai",
+   "logo": true
   },
   {
    "orig_id": "edinburghnlp",
@@ -9705,7 +9764,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "edinburghnlp"
+   "id": "edinburghnlp",
+   "logo": true
   },
   {
    "orig_id": "eleutherai",
@@ -9907,7 +9967,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "eleutherai"
+   "id": "eleutherai",
+   "logo": true
   },
   {
    "orig_id": "ellamind",
@@ -10029,7 +10090,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "ellamind"
+   "id": "ellamind",
+   "logo": true
   },
   {
    "orig_id": "ellis-alicante",
@@ -10173,7 +10235,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "ellis-alicante"
+   "id": "ellis-alicante",
+   "logo": true
   },
   {
    "orig_id": "epfl-llm",
@@ -10341,7 +10404,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "epfl-llm-team"
+   "id": "epfl-llm-team",
+   "logo": true
   },
   {
    "orig_id": "epoch-ai",
@@ -10501,7 +10565,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "epoch-ai"
+   "id": "epoch-ai",
+   "logo": true
   },
   {
    "orig_id": "essential-ai",
@@ -10633,7 +10698,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "essential-ai"
+   "id": "essential-ai",
+   "logo": true
   },
   {
    "orig_id": "eurollm",
@@ -10787,7 +10853,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "eurollm"
+   "id": "eurollm",
+   "logo": true
   },
   {
    "orig_id": "explosion",
@@ -10937,7 +11004,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "explosion"
+   "id": "explosion",
+   "logo": true
   },
   {
    "orig_id": "far-ai",
@@ -11074,7 +11142,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "far-ai"
+   "id": "far-ai",
+   "logo": true
   },
   {
    "orig_id": "fast-ai",
@@ -11205,7 +11274,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "fast-ai"
+   "id": "fast-ai",
+   "logo": true
   },
   {
    "orig_id": "fbk-mt",
@@ -11384,7 +11454,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "fbk-machine-translation-unit"
+   "id": "fbk-machine-translation-unit",
+   "logo": true
   },
   {
    "orig_id": "flowers-inria",
@@ -11513,7 +11584,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "flowers"
+   "id": "flowers",
+   "logo": true
   },
   {
    "orig_id": "futurehouse",
@@ -11676,7 +11748,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "futurehouse"
+   "id": "futurehouse",
+   "logo": true
   },
   {
    "orig_id": "genmo",
@@ -11769,7 +11842,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "genmo"
+   "id": "genmo",
+   "logo": true
   },
   {
    "orig_id": "gensyn",
@@ -11904,7 +11978,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "gensyn"
+   "id": "gensyn",
+   "logo": true
   },
   {
    "orig_id": "ghana-nlp",
@@ -12050,7 +12125,8 @@
    ],
    "confidence": "high",
    "region": "Africa",
-   "id": "ghana-nlp"
+   "id": "ghana-nlp",
+   "logo": true
   },
   {
    "orig_id": "giskard",
@@ -12192,7 +12268,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "giskard"
+   "id": "giskard",
+   "logo": true
   },
   {
    "orig_id": "goodfire",
@@ -12325,7 +12402,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "goodfire"
+   "id": "goodfire",
+   "logo": true
   },
   {
    "orig_id": "gorilla",
@@ -12468,7 +12546,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "gorilla"
+   "id": "gorilla",
+   "logo": true
   },
   {
    "orig_id": "gpt-nl",
@@ -12576,7 +12655,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "gpt-nl"
+   "id": "gpt-nl",
+   "logo": true
   },
   {
    "orig_id": "gronlp",
@@ -12727,7 +12807,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "gronlp"
+   "id": "gronlp",
+   "logo": true
   },
   {
    "orig_id": "h-company",
@@ -12875,7 +12956,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "h-company"
+   "id": "h-company",
+   "logo": true
   },
   {
    "orig_id": "hazy-research",
@@ -13031,7 +13113,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "hazy-research"
+   "id": "hazy-research",
+   "logo": true
   },
   {
    "orig_id": "heidelberg-nlp",
@@ -13187,7 +13270,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "heidelberg-nlp"
+   "id": "heidelberg-nlp",
+   "logo": true
   },
   {
    "orig_id": "helsinki-nlp",
@@ -13351,7 +13435,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "helsinki-nlp"
+   "id": "helsinki-nlp",
+   "logo": true
   },
   {
    "orig_id": "hitz",
@@ -13530,7 +13615,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "hitz-basque-center-for-language-technology"
+   "id": "hitz-basque-center-for-language-technology",
+   "logo": true
   },
   {
    "orig_id": "hooshvare",
@@ -13697,7 +13783,8 @@
    ],
    "confidence": "high",
    "region": "Middle East",
-   "id": "hooshvare-research-lab"
+   "id": "hooshvare-research-lab",
+   "logo": true
   },
   {
    "orig_id": "hpc-ai-tech",
@@ -13857,7 +13944,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "hpc-ai-tech"
+   "id": "hpc-ai-tech",
+   "logo": true
   },
   {
    "orig_id": "hplt",
@@ -14036,7 +14124,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "hplt"
+   "id": "hplt",
+   "logo": true
   },
   {
    "orig_id": "hugging-face",
@@ -14226,7 +14315,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "hugging-face"
+   "id": "hugging-face",
+   "logo": true
   },
   {
    "orig_id": "nytk",
@@ -14398,7 +14488,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "hungarian-research-centre-for-linguistics"
+   "id": "hungarian-research-centre-for-linguistics",
+   "logo": true
   },
   {
    "orig_id": "idiap",
@@ -14588,7 +14679,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "idiap-research-institute"
+   "id": "idiap-research-institute",
+   "logo": true
   },
   {
    "orig_id": "illuin",
@@ -14773,7 +14865,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "illuin-technology"
+   "id": "illuin-technology",
+   "logo": true
   },
   {
    "orig_id": "ilsp-athena",
@@ -14921,7 +15014,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "ilsp-athena-research-center"
+   "id": "ilsp-athena-research-center",
+   "logo": true
   },
   {
    "orig_id": "insait",
@@ -15107,7 +15201,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "insait"
+   "id": "insait",
+   "logo": true
   },
   {
    "orig_id": "ml-jku",
@@ -15303,7 +15398,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "institute-for-machine-learning-jku-linz"
+   "id": "institute-for-machine-learning-jku-linz",
+   "logo": true
   },
   {
    "orig_id": "ipipan",
@@ -15464,7 +15560,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "institute-of-computer-science-pas"
+   "id": "institute-of-computer-science-pas",
+   "logo": true
   },
   {
    "orig_id": "institute-of-foundation-models",
@@ -15581,7 +15678,8 @@
    ],
    "confidence": "medium",
    "region": "Middle East",
-   "id": "institute-of-foundation-models"
+   "id": "institute-of-foundation-models",
+   "logo": true
   },
   {
    "orig_id": "issai",
@@ -15749,7 +15847,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "issai"
+   "id": "issai",
+   "logo": true
   },
   {
    "orig_id": "jerteh",
@@ -15915,7 +16014,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "jerteh"
+   "id": "jerteh",
+   "logo": true
   },
   {
    "orig_id": "kblab",
@@ -16067,7 +16167,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "kblab"
+   "id": "kblab",
+   "logo": true
   },
   {
    "orig_id": "kinit",
@@ -16238,7 +16339,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "kempelen-institute-of-intelligent-technologies"
+   "id": "kempelen-institute-of-intelligent-technologies",
+   "logo": true
   },
   {
    "orig_id": "kotoba-technologies",
@@ -16388,7 +16490,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "kotoba-technologies"
+   "id": "kotoba-technologies",
+   "logo": true
   },
   {
    "orig_id": "kyutai",
@@ -16591,7 +16694,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "kyutai"
+   "id": "kyutai",
+   "logo": true
   },
   {
    "orig_id": "laion",
@@ -16792,7 +16896,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "laion"
+   "id": "laion",
+   "logo": true
   },
   {
    "orig_id": "lang-uk",
@@ -16955,7 +17060,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "lang-uk"
+   "id": "lang-uk",
+   "logo": true
   },
   {
    "orig_id": "lvl-reykjavik",
@@ -17082,7 +17188,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "language-and-voice-lab"
+   "id": "language-and-voice-lab",
+   "logo": true
   },
   {
    "orig_id": "techiaith",
@@ -17254,7 +17361,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "language-technologies-unit"
+   "id": "language-technologies-unit",
+   "logo": true
   },
   {
    "orig_id": "ltg-oslo",
@@ -17441,7 +17549,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "language-technology-group-university-of-oslo"
+   "id": "language-technology-group-university-of-oslo",
+   "logo": true
   },
   {
    "orig_id": "latam-gpt",
@@ -17593,7 +17702,8 @@
    ],
    "confidence": "high",
    "region": "Latin America",
-   "id": "latam-gpt"
+   "id": "latam-gpt",
+   "logo": true
   },
   {
    "orig_id": "lelapa-ai",
@@ -17770,7 +17880,8 @@
    ],
    "confidence": "high",
    "region": "Africa",
-   "id": "lelapa-ai"
+   "id": "lelapa-ai",
+   "logo": true
   },
   {
    "orig_id": "letta",
@@ -17926,7 +18037,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "letta"
+   "id": "letta",
+   "logo": true
   },
   {
    "orig_id": "lightblue",
@@ -18056,7 +18168,8 @@
    ],
    "confidence": "medium",
    "region": "Asia",
-   "id": "lightblue"
+   "id": "lightblue",
+   "logo": true
   },
   {
    "orig_id": "lightly",
@@ -18215,7 +18328,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "lightly"
+   "id": "lightly",
+   "logo": true
   },
   {
    "orig_id": "lightning-ai",
@@ -18351,7 +18465,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "lightning-ai"
+   "id": "lightning-ai",
+   "logo": true
   },
   {
    "orig_id": "lighton",
@@ -18542,7 +18657,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "lighton"
+   "id": "lighton",
+   "logo": true
   },
   {
    "orig_id": "linagora",
@@ -18715,7 +18831,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "linagora"
+   "id": "linagora",
+   "logo": true
   },
   {
    "orig_id": "liquid-ai",
@@ -18888,7 +19005,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "liquid-ai"
+   "id": "liquid-ai",
+   "logo": true
   },
   {
    "orig_id": "llm-jp",
@@ -19033,7 +19151,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "llm-jp"
+   "id": "llm-jp",
+   "logo": true
   },
   {
    "orig_id": "lmarena",
@@ -19189,7 +19308,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "lmarena"
+   "id": "lmarena",
+   "logo": true
   },
   {
    "orig_id": "maincode",
@@ -19306,7 +19426,8 @@
    ],
    "confidence": "high",
    "region": "Oceania",
-   "id": "maincode"
+   "id": "maincode",
+   "logo": true
   },
   {
    "orig_id": "mainlp",
@@ -19444,7 +19565,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "mainlp"
+   "id": "mainlp",
+   "logo": true
   },
   {
    "orig_id": "marin",
@@ -19593,7 +19715,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "marin"
+   "id": "marin",
+   "logo": true
   },
   {
    "orig_id": "mbzuai",
@@ -19775,7 +19898,8 @@
    ],
    "confidence": "medium",
    "region": "Middle East",
-   "id": "mbzuai"
+   "id": "mbzuai",
+   "logo": true
   },
   {
    "orig_id": "dbmdz",
@@ -19941,7 +20065,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "mdz-digital-library-team"
+   "id": "mdz-digital-library-team",
+   "logo": true
   },
   {
    "orig_id": "mesolitica",
@@ -20097,7 +20222,8 @@
    ],
    "confidence": "medium",
    "region": "Asia",
-   "id": "mesolitica"
+   "id": "mesolitica",
+   "logo": true
   },
   {
    "orig_id": "metr",
@@ -20269,7 +20395,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "metr"
+   "id": "metr",
+   "logo": true
   },
   {
    "orig_id": "mila",
@@ -20430,7 +20557,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "mila-quebec-ai-institute"
+   "id": "mila-quebec-ai-institute",
+   "logo": true
   },
   {
    "orig_id": "minimax",
@@ -20610,7 +20738,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "minimax"
+   "id": "minimax",
+   "logo": true
   },
   {
    "orig_id": "mistral-ai",
@@ -20801,7 +20930,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "mistral-ai"
+   "id": "mistral-ai",
+   "logo": true
   },
   {
    "orig_id": "mixedbread",
@@ -20959,7 +21089,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "mixedbread"
+   "id": "mixedbread",
+   "logo": true
   },
   {
    "orig_id": "mideind",
@@ -21140,7 +21271,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "mi-eind"
+   "id": "mi-eind",
+   "logo": true
   },
   {
    "orig_id": "mlcommons",
@@ -21329,7 +21461,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "mlcommons"
+   "id": "mlcommons",
+   "logo": true
   },
   {
    "orig_id": "mlrs-malta",
@@ -21481,7 +21614,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "mlrs"
+   "id": "mlrs",
+   "logo": true
   },
   {
    "orig_id": "moondream",
@@ -21602,7 +21736,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "moondream"
+   "id": "moondream",
+   "logo": true
   },
   {
    "orig_id": "moonshot-ai",
@@ -21782,7 +21917,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "moonshot-ai"
+   "id": "moonshot-ai",
+   "logo": true
   },
   {
    "orig_id": "motif-technologies",
@@ -21906,7 +22042,8 @@
    ],
    "confidence": "medium",
    "region": "Asia",
-   "id": "motif-technologies"
+   "id": "motif-technologies",
+   "logo": true
   },
   {
    "orig_id": "mozilla-ai",
@@ -22075,7 +22212,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "mozilla-ai"
+   "id": "mozilla-ai",
+   "logo": true
   },
   {
    "orig_id": "mtg-upf",
@@ -22223,7 +22361,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "music-technology-group"
+   "id": "music-technology-group",
+   "logo": true
   },
   {
    "orig_id": "nbailab",
@@ -22399,7 +22538,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "nb-ai-lab"
+   "id": "nb-ai-lab",
+   "logo": true
   },
   {
    "orig_id": "neuphonic",
@@ -22545,7 +22685,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "neuphonic"
+   "id": "neuphonic",
+   "logo": true
   },
   {
    "orig_id": "neuronpedia",
@@ -22670,7 +22811,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "neuronpedia"
+   "id": "neuronpedia",
+   "logo": true
   },
   {
    "orig_id": "nlx-ulisboa",
@@ -22834,7 +22976,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "nlx-group"
+   "id": "nlx-group",
+   "logo": true
   },
   {
    "orig_id": "nomic-ai",
@@ -23008,7 +23151,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "nomic-ai"
+   "id": "nomic-ai",
+   "logo": true
   },
   {
    "orig_id": "norwai",
@@ -23151,7 +23295,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "norwai"
+   "id": "norwai",
+   "logo": true
   },
   {
    "orig_id": "nous-research",
@@ -23336,7 +23481,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "nous-research"
+   "id": "nous-research",
+   "logo": true
   },
   {
    "orig_id": "novasky",
@@ -23505,7 +23651,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "novasky"
+   "id": "novasky",
+   "logo": true
   },
   {
    "orig_id": "nvidia",
@@ -23718,7 +23865,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "nvidia"
+   "id": "nvidia",
+   "logo": true
   },
   {
    "orig_id": "nxai",
@@ -23919,7 +24067,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "nxai"
+   "id": "nxai",
+   "logo": true
   },
   {
    "orig_id": "oatml",
@@ -24078,7 +24227,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "oatml"
+   "id": "oatml",
+   "logo": true
   },
   {
    "orig_id": "occiglot",
@@ -24253,7 +24403,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "occiglot"
+   "id": "occiglot",
+   "logo": true
   },
   {
    "orig_id": "open-climate-fix",
@@ -24419,7 +24570,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "open-climate-fix"
+   "id": "open-climate-fix",
+   "logo": true
   },
   {
    "orig_id": "openbmb",
@@ -24609,7 +24761,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "openbmb-modelbest"
+   "id": "openbmb-modelbest",
+   "logo": true
   },
   {
    "orig_id": "opencsg",
@@ -24747,7 +24900,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "opencsg"
+   "id": "opencsg",
+   "logo": true
   },
   {
    "orig_id": "openeurollm",
@@ -24884,7 +25038,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "openeurollm"
+   "id": "openeurollm",
+   "logo": true
   },
   {
    "orig_id": "opengpt-x",
@@ -25065,7 +25220,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "opengpt-x"
+   "id": "opengpt-x",
+   "logo": true
   },
   {
    "orig_id": "openhands",
@@ -25203,7 +25359,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "openhands"
+   "id": "openhands",
+   "logo": true
   },
   {
    "orig_id": "openllm-france",
@@ -25373,7 +25530,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "openllm-france"
+   "id": "openllm-france",
+   "logo": true
   },
   {
    "orig_id": "openllm-ro",
@@ -25558,7 +25716,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "openllm-ro"
+   "id": "openllm-ro",
+   "logo": true
   },
   {
    "orig_id": "openmoss",
@@ -25725,7 +25884,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "openmoss"
+   "id": "openmoss",
+   "logo": true
   },
   {
    "orig_id": "open-thoughts",
@@ -25897,7 +26057,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "openthoughts"
+   "id": "openthoughts",
+   "logo": true
   },
   {
    "orig_id": "oumi",
@@ -26047,7 +26208,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "oumi"
+   "id": "oumi",
+   "logo": true
   },
   {
    "orig_id": "part-ai",
@@ -26200,7 +26362,8 @@
    ],
    "confidence": "medium",
    "region": "Middle East",
-   "id": "part-ai"
+   "id": "part-ai",
+   "logo": true
   },
   {
    "orig_id": "photoroom",
@@ -26373,7 +26536,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "photoroom"
+   "id": "photoroom",
+   "logo": true
   },
   {
    "orig_id": "physical-intelligence",
@@ -26548,7 +26712,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "physical-intelligence"
+   "id": "physical-intelligence",
+   "logo": true
   },
   {
    "orig_id": "pleias",
@@ -26709,7 +26874,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "pleias"
+   "id": "pleias",
+   "logo": true
   },
   {
    "orig_id": "pluralis-research",
@@ -26846,7 +27012,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "pluralis-research"
+   "id": "pluralis-research",
+   "logo": true
   },
   {
    "orig_id": "polygl0t",
@@ -27023,7 +27190,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "polygl0t"
+   "id": "polygl0t",
+   "logo": true
   },
   {
    "orig_id": "polymathic-ai",
@@ -27216,7 +27384,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "polymathic-ai"
+   "id": "polymathic-ai",
+   "logo": true
   },
   {
    "orig_id": "preferred-networks",
@@ -27383,7 +27552,8 @@
    ],
    "confidence": "medium",
    "region": "Asia",
-   "id": "preferred-networks"
+   "id": "preferred-networks",
+   "logo": true
   },
   {
    "orig_id": "prime-intellect",
@@ -27557,7 +27727,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "prime-intellect"
+   "id": "prime-intellect",
+   "logo": true
   },
   {
    "orig_id": "princeton-nlp",
@@ -27732,7 +27903,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "princeton-nlp-group"
+   "id": "princeton-nlp-group",
+   "logo": true
   },
   {
    "orig_id": "prior-labs",
@@ -27912,7 +28084,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "prior-labs"
+   "id": "prior-labs",
+   "logo": true
   },
   {
    "orig_id": "probabl",
@@ -28048,7 +28221,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "probabl"
+   "id": "probabl",
+   "logo": true
   },
   {
    "orig_id": "projecte-aina",
@@ -28212,7 +28386,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "projecte-aina"
+   "id": "projecte-aina",
+   "logo": true
   },
   {
    "orig_id": "proxecto-nos",
@@ -28379,7 +28554,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "proxecto-nos"
+   "id": "proxecto-nos",
+   "logo": true
   },
   {
    "orig_id": "pruna-ai",
@@ -28544,7 +28720,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "pruna-ai"
+   "id": "pruna-ai",
+   "logo": true
   },
   {
    "orig_id": "pyannote",
@@ -28714,7 +28891,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "pyannoteai"
+   "id": "pyannoteai",
+   "logo": true
   },
   {
    "orig_id": "qcri",
@@ -28872,7 +29050,8 @@
    ],
    "confidence": "medium",
    "region": "Middle East",
-   "id": "qatar-computing-research-institute"
+   "id": "qatar-computing-research-institute",
+   "logo": true
   },
   {
    "orig_id": "reka-ai",
@@ -28998,7 +29177,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "reka"
+   "id": "reka",
+   "logo": true
   },
   {
    "orig_id": "rinna",
@@ -29116,7 +29296,8 @@
    ],
    "confidence": "medium",
    "region": "Asia",
-   "id": "rinna"
+   "id": "rinna",
+   "logo": true
   },
   {
    "orig_id": "roboflow",
@@ -29268,7 +29449,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "roboflow"
+   "id": "roboflow",
+   "logo": true
   },
   {
    "orig_id": "rwkv",
@@ -29409,7 +29591,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "rwkv"
+   "id": "rwkv",
+   "logo": true
   },
   {
    "orig_id": "sakana-ai",
@@ -29588,7 +29771,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "sakana-ai"
+   "id": "sakana-ai",
+   "logo": true
   },
   {
    "orig_id": "sapienza-nlp",
@@ -29754,7 +29938,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "sapienza-nlp"
+   "id": "sapienza-nlp",
+   "logo": true
   },
   {
    "orig_id": "sarvam-ai",
@@ -29905,7 +30090,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "sarvam-ai"
+   "id": "sarvam-ai",
+   "logo": true
   },
   {
    "orig_id": "sesame",
@@ -30033,7 +30219,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "sesame"
+   "id": "sesame",
+   "logo": true
   },
   {
    "orig_id": "shanghai-ai-lab",
@@ -30185,7 +30372,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "shanghai-ai-laboratory"
+   "id": "shanghai-ai-laboratory",
+   "logo": true
   },
   {
    "orig_id": "softcatala",
@@ -30340,7 +30528,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "softcatala"
+   "id": "softcatala",
+   "logo": true
   },
   {
    "orig_id": "speakleash",
@@ -30510,7 +30699,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "speakleash"
+   "id": "speakleash",
+   "logo": true
   },
   {
    "orig_id": "spraakbanken",
@@ -30651,7 +30841,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "sprakbanken-text"
+   "id": "sprakbanken-text",
+   "logo": true
   },
   {
    "orig_id": "eth-sri",
@@ -30787,7 +30978,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "sri-lab"
+   "id": "sri-lab",
+   "logo": true
   },
   {
    "orig_id": "stability-ai",
@@ -30973,7 +31165,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "stability-ai"
+   "id": "stability-ai",
+   "logo": true
   },
   {
    "orig_id": "stanford-crfm",
@@ -31140,7 +31333,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "stanford-crfm"
+   "id": "stanford-crfm",
+   "logo": true
   },
   {
    "orig_id": "stanford-nlp",
@@ -31336,7 +31530,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "stanford-nlp-group"
+   "id": "stanford-nlp-group",
+   "logo": true
   },
   {
    "orig_id": "stepfun",
@@ -31508,7 +31703,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "stepfun"
+   "id": "stepfun",
+   "logo": true
   },
   {
    "orig_id": "stockmark",
@@ -31643,7 +31839,8 @@
    ],
    "confidence": "medium",
    "region": "Asia",
-   "id": "stockmark"
+   "id": "stockmark",
+   "logo": true
   },
   {
    "orig_id": "swallow-llm",
@@ -31816,7 +32013,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "swallow-llm"
+   "id": "swallow-llm",
+   "logo": true
   },
   {
    "orig_id": "swap-uniba",
@@ -31973,7 +32171,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "swap-research-group"
+   "id": "swap-research-group",
+   "logo": true
   },
   {
    "orig_id": "swiss-ai-initiative",
@@ -32138,7 +32337,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "swiss-ai-initiative"
+   "id": "swiss-ai-initiative",
+   "logo": true
   },
   {
    "orig_id": "taide",
@@ -32264,7 +32464,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "taide"
+   "id": "taide",
+   "logo": true
   },
   {
    "orig_id": "takelab",
@@ -32379,7 +32580,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "takelab"
+   "id": "takelab",
+   "logo": true
   },
   {
    "orig_id": "taltech-nlp",
@@ -32491,7 +32693,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "taltech-language-technology"
+   "id": "taltech-language-technology",
+   "logo": true
   },
   {
    "orig_id": "tartunlp",
@@ -32660,7 +32863,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "tartunlp"
+   "id": "tartunlp",
+   "logo": true
   },
   {
    "orig_id": "te-hiku-media",
@@ -32780,7 +32984,8 @@
    ],
    "confidence": "high",
    "region": "Oceania",
-   "id": "te-hiku-media"
+   "id": "te-hiku-media",
+   "logo": true
   },
   {
    "orig_id": "tii-falcon",
@@ -32957,7 +33162,8 @@
    ],
    "confidence": "high",
    "region": "Middle East",
-   "id": "technology-innovation-institute"
+   "id": "technology-innovation-institute",
+   "logo": true
   },
   {
    "orig_id": "alan-turing-institute",
@@ -33102,7 +33308,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "the-alan-turing-institute"
+   "id": "the-alan-turing-institute",
+   "logo": true
   },
   {
    "orig_id": "tilde",
@@ -33261,7 +33468,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "tilde"
+   "id": "tilde",
+   "logo": true
   },
   {
    "orig_id": "tng",
@@ -33395,7 +33603,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "tng-technology-consulting"
+   "id": "tng-technology-consulting",
+   "logo": true
   },
   {
    "orig_id": "together-ai",
@@ -33575,7 +33784,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "together-ai"
+   "id": "together-ai",
+   "logo": true
   },
   {
    "orig_id": "transluce",
@@ -33738,7 +33948,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "transluce"
+   "id": "transluce",
+   "logo": true
   },
   {
    "orig_id": "trillion-labs",
@@ -33894,7 +34105,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "trillion-labs"
+   "id": "trillion-labs",
+   "logo": true
   },
   {
    "orig_id": "turing",
@@ -34048,7 +34260,8 @@
    ],
    "confidence": "medium",
    "region": "Asia",
-   "id": "turing-inc"
+   "id": "turing-inc",
+   "logo": true
   },
   {
    "orig_id": "turkunlp",
@@ -34235,7 +34448,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "turkunlp"
+   "id": "turkunlp",
+   "logo": true
   },
   {
    "orig_id": "ukp-lab",
@@ -34401,7 +34615,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "ukp-lab"
+   "id": "ukp-lab",
+   "logo": true
   },
   {
    "orig_id": "ultralytics",
@@ -34528,7 +34743,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "ultralytics"
+   "id": "ultralytics",
+   "logo": true
   },
   {
    "orig_id": "unsloth",
@@ -34667,7 +34883,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "unsloth"
+   "id": "unsloth",
+   "logo": true
   },
   {
    "orig_id": "upstage",
@@ -34816,7 +35033,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "upstage"
+   "id": "upstage",
+   "logo": true
   },
   {
    "orig_id": "vector-institute",
@@ -34932,7 +35150,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "vector-institute"
+   "id": "vector-institute",
+   "logo": true
   },
   {
    "orig_id": "vistec-airesearch",
@@ -35076,7 +35295,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "vistec-depa-ai-research-institute-of-thailand"
+   "id": "vistec-depa-ai-research-institute-of-thailand",
+   "logo": true
   },
   {
    "orig_id": "ox-vgg",
@@ -35216,7 +35436,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "visual-geometry-group"
+   "id": "visual-geometry-group",
+   "logo": true
   },
   {
    "orig_id": "vita-epfl",
@@ -35344,7 +35565,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "vita"
+   "id": "vita",
+   "logo": true
   },
   {
    "orig_id": "voxel51",
@@ -35477,7 +35699,8 @@
    ],
    "confidence": "medium",
    "region": "North America",
-   "id": "voxel51"
+   "id": "voxel51",
+   "logo": true
   },
   {
    "orig_id": "ytu-cosmos",
@@ -35597,7 +35820,8 @@
    ],
    "confidence": "medium",
    "region": "Europe",
-   "id": "ytu-cosmos-ai-research-group"
+   "id": "ytu-cosmos-ai-research-group",
+   "logo": true
   },
   {
    "orig_id": "zai-zhipu",
@@ -35763,7 +35987,8 @@
    ],
    "confidence": "high",
    "region": "Asia",
-   "id": "z-ai"
+   "id": "z-ai",
+   "logo": true
   },
   {
    "orig_id": "zyphra",
@@ -35920,7 +36145,8 @@
    ],
    "confidence": "high",
    "region": "North America",
-   "id": "zyphra"
+   "id": "zyphra",
+   "logo": true
   },
   {
    "orig_id": "ufal",
@@ -36077,7 +36303,8 @@
    ],
    "confidence": "high",
    "region": "Europe",
-   "id": "fal"
+   "id": "fal",
+   "logo": true
   }
  ]
 }

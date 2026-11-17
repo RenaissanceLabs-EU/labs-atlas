@@ -252,8 +252,10 @@ def logo_html(l, cls="logo"):
     return f'<span class="{cls} mono" style="--h:{hue}" aria-hidden="true">{esc(monogram(l["name"]))}</span>'
 
 
-def head(title, desc, path, extra=""):
+def head(title, desc, path, extra="", image_id="home", image_alt=None):
     url = SITE + path
+    img = f"{SITE}/assets/og/{image_id}.jpg"
+    alt = image_alt or "Open Labs Atlas: a world map of independent AI labs committed to open source"
     return f"""<!doctype html>
 <html lang="en">
 <head>
@@ -262,10 +264,22 @@ def head(title, desc, path, extra=""):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{esc(url)}">
+<meta property="og:site_name" content="Open Labs Atlas by Renaissance Labs">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{esc(url)}">
+<meta property="og:locale" content="en_GB">
+<meta property="og:image" content="{esc(img)}">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{esc(alt)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:image" content="{esc(img)}">
+<meta name="twitter:image:alt" content="{esc(alt)}">
 <meta name="theme-color" content="#fdfaf3">
 <link rel="icon" href="/assets/favicon.png">
 <link rel="preload" href="/assets/fonts/fraunces-latin-opsz-normal.woff2" as="font" type="font/woff2" crossorigin>
@@ -425,7 +439,9 @@ def lab_page(l, labs):
     alias = f'<span class="alias">{esc(l["alias"])}</span>' if l["alias"] else ""
     notice_html = f'<div class="wrap"><p class="notice"><b>Update</b> {esc(l["notice"])}</p></div>' if l["notice"] else ""
 
-    return head(f"{l['name']} · Open Labs Atlas", (tagline or "")[:200], f"/labs/{l['id']}/", extra) + f"""<main id="main" data-lab-page="{esc(l['id'])}">
+    social_img = l["id"] if os.path.exists(f"assets/og/{l['id']}.jpg") else "home"
+    return head(f"{l['name']} · Open Labs Atlas", (tagline or "")[:200], f"/labs/{l['id']}/", extra, social_img,
+                f"{l['name']}: {tagline}"[:300]) + f"""<main id="main" data-lab-page="{esc(l['id'])}">
   <section class="lab-hero">
     <div class="wrap hero-grid">
       <div class="hero-main">
@@ -546,6 +562,8 @@ def main():
     if not labs:
         print("no labs found in data/regions/*.json"); sys.exit(1)
     shutil.rmtree("labs", ignore_errors=True)
+    for l in labs:
+        l["logo"] = os.path.exists(f"assets/logos/{l['id']}.png")
     write("data/labs.json", json.dumps({"generated": TODAY, "count": len(labs), "labs": labs}, ensure_ascii=False, indent=1))
     cols = ["id", "name", "type", "founded", "country", "city", "region", "lat", "lon", "website", "huggingface", "github", "x", "discord", "linkedin", "contact_email", "summary", "focus", "openness"]
     with open("labs.csv", "w", encoding="utf-8", newline="") as f:

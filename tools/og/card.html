@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>og card</title>
+<style>
+@font-face { font-family: 'Fraunces'; font-style: normal; font-weight: 100 900; src: url(/assets/fonts/fraunces-latin-opsz-normal.woff2) format('woff2'); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+20AC, U+2122; }
+@font-face { font-family: 'Fraunces'; font-style: normal; font-weight: 100 900; src: url(/assets/fonts/fraunces-latin-ext-opsz-normal.woff2) format('woff2'); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+1E00-1EFF; }
+@font-face { font-family: 'Fraunces'; font-style: italic; font-weight: 100 900; src: url(/assets/fonts/fraunces-latin-opsz-italic.woff2) format('woff2'); }
+:root { --paper:#fdfaf3; --ink:#1c1a17; --soft:#625b52; --faint:#958c80; --rule:#e6dfd1; --gold:#9a7a48; --land:#efe6d2; }
+* { box-sizing: border-box; margin: 0; }
+html, body { width: 1200px; height: 630px; overflow: hidden; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+.card { position: relative; width: 1200px; height: 630px; background:
+  radial-gradient(520px 420px at 88% 8%, rgba(246,196,83,.26), transparent 70%),
+  radial-gradient(420px 360px at 4% 100%, rgba(154,122,72,.10), transparent 70%), var(--paper); }
+.frame { position: absolute; inset: 22px; border: 1px solid var(--rule); border-radius: 22px; }
+.left { position: absolute; left: 70px; top: 66px; width: 600px; bottom: 66px; display: flex; flex-direction: column; }
+.top { display: flex; align-items: center; gap: 22px; margin-bottom: 30px; }
+.logo { flex: none; width: 104px; height: 104px; border-radius: 24px; background: #fff; border: 1px solid var(--rule); box-shadow: 0 10px 30px rgba(60,44,18,.10); display: grid; place-items: center; overflow: hidden; }
+.logo img { width: 100%; height: 100%; object-fit: contain; padding: 12px; }
+.logo.mono { font: 500 40px/1 'Fraunces', Georgia, serif; }
+.eyebrow { font-size: 17px; letter-spacing: .13em; text-transform: uppercase; color: var(--gold); font-weight: 600; line-height: 1.4; }
+h1 { font-family: 'Fraunces', Georgia, serif; font-weight: 400; letter-spacing: -.02em; line-height: 1.04; font-size: 82px; text-wrap: balance; }
+h1.m { font-size: 64px; } h1.s { font-size: 52px; }
+.tag { margin-top: 24px; font-size: 30px; line-height: 1.38; color: var(--soft); display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; text-wrap: pretty; }
+.foot { margin-top: auto; display: flex; align-items: center; gap: 12px; font-size: 20px; color: var(--soft); white-space: nowrap; }
+.foot img { width: 34px; height: 34px; }
+.foot b { color: var(--ink); font-weight: 600; }
+.foot .dom { margin-left: auto; color: var(--faint); }
+.map { position: absolute; right: 70px; border: 1px solid var(--rule); border-radius: 26px; overflow: hidden; background: radial-gradient(80% 80% at 50% 45%, #fffdf8, #f6f0e2); box-shadow: 0 26px 70px rgba(60,44,18,.14); }
+.map.lab { top: 95px; width: 400px; height: 440px; }
+.map.home { top: 165px; width: 500px; height: 300px; right: 50px; }
+.map svg { width: 100%; height: 100%; display: block; }
+.pinlabel { position: absolute; right: 70px; top: 552px; width: 400px; text-align: center; font-size: 22px; color: var(--soft); }
+.stats { display: flex; gap: 40px; margin-top: 30px; }
+.stats b { display: block; font: 400 56px/1 'Fraunces', Georgia, serif; }
+.stats span { font-size: 16px; letter-spacing: .14em; text-transform: uppercase; color: var(--faint); }
+</style>
+</head>
+<body>
+<div class="card" id="card"><div class="frame"></div>
+  <div class="left" id="left"></div>
+</div>
+<script src="/assets/vendor/d3.min.js"></script>
+<script src="/assets/vendor/topojson-client.min.js"></script>
+<script>
+(function () {
+  var NS = 'http://www.w3.org/2000/svg';
+  var TYPES = { startup: 'Independent company', nonprofit: 'Nonprofit', collective: 'Community collective', institute: 'Institute', academic: 'Academic lab', corporate: 'Large company' };
+  var COLORS = { startup: '#c79a3f', nonprofit: '#4f7a6a', collective: '#a35c47', institute: '#5a6f9a', academic: '#7d6a9a', corporate: '#6b6459' };
+  function h(tag, cls, text) { var n = document.createElement(tag); if (cls) n.className = cls; if (text != null) n.textContent = text; return n; }
+  function el(tag, a, p) { var n = document.createElementNS(NS, tag); for (var k in a) n.setAttribute(k, a[k]); if (p) p.appendChild(n); return n; }
+  function monogram(name) { var p = (name.match(/[A-Za-z0-9]+/g) || ['?']); return p.length === 1 ? p[0].slice(0, 2).toUpperCase() : (p[0][0] + p[1][0]).toUpperCase(); }
+  var id = new URLSearchParams(location.search).get('id') || 'home';
+  Promise.all([fetch('/data/labs.json').then(function (r) { return r.json(); }), fetch('/assets/vendor/countries-110m.json').then(function (r) { return r.json(); })]).then(function (res) {
+    var labs = res[0].labs, world = res[1];
+    var land = topojson.feature(world, world.objects.land), borders = topojson.mesh(world, world.objects.countries, function (a, b) { return a !== b; });
+    var left = document.getElementById('left'), card = document.getElementById('card');
+    var mapBox = h('div', 'map ' + (id === 'home' ? 'home' : 'lab')); card.appendChild(mapBox);
+    var W = id === 'home' ? 500 : 400, H = id === 'home' ? 300 : 440;
+    var svg = el('svg', { viewBox: '0 0 ' + W + ' ' + H }, mapBox);
+    var proj, path;
+    if (id === 'home') {
+      proj = d3.geoNaturalEarth1().fitExtent([[6, 6], [W - 6, H - 6]], { type: 'Sphere' });
+    } else {
+      var lab0 = labs.find(function (l) { return l.id === id; });
+      proj = d3.geoMercator().center([lab0.lon, lab0.lat]).scale(W * 1.25).translate([W / 2, H / 2]);
+    }
+    path = d3.geoPath(proj);
+    el('path', { d: path(land), fill: '#efe6d2' }, svg);
+    el('path', { d: path(borders), fill: 'none', stroke: '#fdfaf3', 'stroke-width': 0.8 }, svg);
+    if (id === 'home') {
+      labs.forEach(function (l) { var p = proj([l.lon, l.lat]); if (!p) return; el('circle', { cx: p[0], cy: p[1], r: 4.4, fill: COLORS[l.type] || '#c79a3f', stroke: '#fffaf0', 'stroke-width': 1, opacity: 0.95 }, svg); });
+      left.style.width = '540px';
+      left.appendChild(h('div', 'eyebrow', 'Open Labs Atlas'));
+      left.lastChild.style.marginTop = '8px';
+      var t = h('h1', 'm', 'The open frontier of intelligence.'); t.style.marginTop = '22px'; left.appendChild(t);
+      left.appendChild(h('p', 'tag', 'A world map of independent labs releasing open weights, open code and open data, with a page for each.'));
+      var countries = {}; labs.forEach(function (l) { countries[l.country] = 1; });
+      var st = h('div', 'stats');
+      [[labs.length, 'labs'], [Object.keys(countries).length, 'countries']].forEach(function (x) { var d = h('div'); d.appendChild(h('b', null, String(x[0]))); d.appendChild(h('span', null, x[1])); st.appendChild(d); });
+      left.appendChild(st);
+    } else {
+      var lab = lab0;
+      labs.forEach(function (l) { if (l.id === id) return; var p = proj([l.lon, l.lat]); if (!p || p[0] < 0 || p[0] > W || p[1] < 0 || p[1] > H) return; el('circle', { cx: p[0], cy: p[1], r: 5, fill: '#c79a3f', stroke: '#fffaf0', 'stroke-width': 1.5, opacity: 0.75 }, svg); });
+      var c = proj([lab.lon, lab.lat]);
+      el('circle', { cx: c[0], cy: c[1], r: 30, fill: 'rgba(246,196,83,.38)' }, svg);
+      el('circle', { cx: c[0], cy: c[1], r: 11, fill: COLORS[lab.type] || '#9a7a48', stroke: '#fffaf0', 'stroke-width': 3 }, svg);
+      var top = h('div', 'top');
+      var logo = h('div', 'logo');
+      var img = new Image(); img.alt = '';
+      img.onerror = function () { logo.textContent = monogram(lab.name); logo.className = 'logo mono'; logo.style.background = 'linear-gradient(145deg,#f6e7c3,#e2c27d)'; logo.style.color = '#5a4420'; };
+      img.src = '/assets/logos/' + lab.id + '.png'; logo.appendChild(img);
+      top.appendChild(logo);
+      var loc = [lab.city, lab.country].filter(Boolean).join(', ');
+      top.appendChild(h('div', 'eyebrow', TYPES[lab.type] + (loc ? ' · ' + loc : '')));
+      left.appendChild(top);
+      var n = lab.name.length; left.appendChild(h('h1', n > 30 ? 's' : n > 18 ? 'm' : '', lab.name));
+      left.appendChild(h('p', 'tag', lab.tagline || lab.summary));
+    }
+    var foot = h('div', 'foot'); var m = new Image(); m.src = '/assets/mark.png'; foot.appendChild(m);
+    var b = h('span'); b.innerHTML = '<b>Open Labs Atlas</b> · Renaissance Labs'; foot.appendChild(b);
+    foot.appendChild(h('span', 'dom', 'labs.renaissancelabs.eu'));
+    left.appendChild(foot);
+    document.title = 'ready';
+  });
+})();
+</script>
+</body>
+</html>
