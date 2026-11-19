@@ -101,81 +101,6 @@ class FeedLinks(HTMLParser):
                 self.links.append(fields.get("href", ""))
 
 
-class SourceText(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.parts = []
-        self.hidden = 0
-
-    def handle_starttag(self, tag, attrs):
-        if tag in {"script", "style"}:
-            self.hidden += 1
-        if tag in {"p", "br", "li", "div", "h1", "h2", "h3"}:
-            self.parts.append("\n")
-
-    def handle_endtag(self, tag):
-        if tag in {"script", "style"}:
-            self.hidden = max(0, self.hidden - 1)
-        if tag in {"p", "li", "div"}:
-            self.parts.append("\n")
-
-    def handle_data(self, data):
-        if not self.hidden:
-            self.parts.append(data)
-
-
-def excerpt(markup):
-    parser = SourceText()
-    parser.feed(markup[:16000])
-    lines = [line.split() for line in "".join(parser.parts).splitlines()
-             if not line.lstrip().startswith(("http", "Full Changelog"))]
-    candidates = [words for words in lines if len(words) >= 7]
-    if not candidates:
-        return None
-    words = next((words for words in candidates
-                  if re.search(r"\b(?:introduc\w*|add(?:s|ed)?|enable\w*|launch\w*|releas\w*)\b",
-                               " ".join(words[:24]), re.I)), candidates[0])
-    return " ".join(words[:24]) + ("…" if len(words) > 24 else "")
-
-
-SIGNALS = (
-    (r"\b(?:training (?:data|dataset|code)|pretraining (?:data|dataset)|training corpus)\b",
-     "Training resources can help researchers reproduce results or train on similar data."),
-    (r"\b(?:benchmark|evaluation suite|leaderboard)\b",
-     "Evaluation tools give researchers a way to compare systems on a shared task."),
-    (r"\b(?:open[- ]weights?|model weights|checkpoints?)\b",
-     "Access to weights or checkpoints lets researchers inspect and test the model directly."),
-    (r"\b(?:on-device|runs? locally|edge devices?|lower memory|less memory|faster inference)\b",
-     "Deployment and inference changes affect where the system can run and what resources it needs."),
-    (r"\b(?:multilingual|new languages?|speech recognition|text-to-speech|image generation|vision-language)\b",
-     "This concerns a capability that can change which tasks or languages the system supports."),
-)
-ROUTINE = re.compile(r"\b(?:dependency updates?|bump dependencies|documentation only|changelog only|nightly build)\b", re.I)
-
-
-def editorial(entry):
-    kind = entry["kind"]
-    title = entry["title"]
-    summary = entry.get("summary")
-    evidence = f"{title} {summary or ''}"
-    reason = next((reason for pattern, reason in SIGNALS if re.search(pattern, evidence, re.I)), None)
-    if kind == "repository_activity" or ROUTINE.search(title):
-        return False, None
-    if kind == "release":
-        substantive = bool(reason and re.search(r"\b(?:add(?:s|ed)?|introduc\w*|support\w*|enable\w*|releas\w*|launch\w*)\b",
-                                               evidence, re.I))
-        return substantive, reason if substantive else None
-    if kind == "dataset":
-        return True, reason or "A published dataset gives researchers material they can inspect or use, subject to its terms."
-    if kind == "model":
-        derivative = re.search(r"\b(?:gguf|mlx|quantized|quantization|awq|gptq|nvfp4|fp8|int[48]|[248]bit)\b", title, re.I)
-        return not derivative, reason or (
-            "A smaller or converted variant may run on different hardware." if derivative else
-            "A model publication gives researchers a concrete artifact to evaluate for their own tasks."
-        )
-    return bool(reason), reason
-
-
 def syndicated(data, address):
     root = ET.fromstring(data)
     tag = root.tag.rsplit("}", 1)[-1]
@@ -202,10 +127,6 @@ def syndicated(data, address):
         date = next((d for field in date_fields if (d := node.findtext("{*}" + field))), None)
         entry = item(node.findtext("{*}title", ""),
                      urljoin(urljoin(entry_base, link.get(xml_base, "")), href.strip()), date)
-        for field in ("summary", "description", "content", "encoded"):
-            if summary := excerpt(node.findtext("{*}" + field, "")):
-                entry["summary"] = summary
-                break
         entries.append(entry)
     return entries
 
@@ -219,16 +140,9 @@ def fetch(kind, address):
                                  if href and (link := url(urljoin(final_url, href)))))[:3]
     if kind in {"model", "dataset"}:
         prefix = "datasets/" if kind == "dataset" else ""
-        items = []
-        for entry in json.loads(data):
-            if not entry.get("id"):
-                continue
-            publication = item(entry["id"], "https://huggingface.co/" + prefix + entry["id"],
-                               entry.get("createdAt"))
-            if task := entry.get("pipeline_tag"):
-                publication["summary"] = f"Hugging Face lists its task as {task.replace('-', ' ')}."
-            items.append(publication)
-        return items
+        return [item(entry["id"], "https://huggingface.co/" + prefix + entry["id"],
+                     entry.get("createdAt"))
+                for entry in json.loads(data) if entry.get("id")]
     return syndicated(data, final_url)
 
 
@@ -323,6 +237,21 @@ def collect(labs, config, cache, workers, offline):
     return feed_entries, health
 
 
+def curated(labs, path):
+    by_id = {lab["id"]: lab for lab in labs}
+    for post in json.loads(path.read_bytes()):
+        lab = by_id.get(post["lab_id"])
+        if lab is None:
+            continue
+        summary = post["summary"].strip()
+        if not summary or summary.casefold() == post["title"].strip().casefold():
+            raise ValueError(f"Highlight needs an original summary: {post['url']}")
+        yield lab, post["kind"], None, {
+            **item(post["title"], post["url"], post["published"]),
+            "summary": summary, "highlight": True,
+        }
+
+
 def select(entries, days, limit):
     unique = {}
     for lab, kind, source, entry in entries:
@@ -334,29 +263,31 @@ def select(entries, days, limit):
             continue
         identity = canonical(link)
         previous = unique.get(identity)
-        priority = (bool(source), date.isoformat())
-        if previous and priority <= (bool(previous["source_url"]), previous["published"]):
+        priority = (bool(entry.get("highlight")), bool(source), date.isoformat())
+        if previous and priority <= (previous["highlight"], bool(previous["source_url"]), previous["published"]):
             continue
         unique[identity] = {
-            **entry, "published": date.isoformat(), "kind": kind,
+            **item(entry["title"], link, date.isoformat()),
+            "highlight": bool(entry.get("highlight")), "kind": kind,
             "lab_id": lab["id"], "lab_name": lab["name"], "source_url": source,
             "id": "urn:sha256:" + sha256(identity.encode()).hexdigest(),
         }
+        if entry.get("highlight"):
+            unique[identity]["summary"] = entry["summary"]
     counts = Counter()
     by_kind = Counter()
     selected = []
-    ordered = sorted(unique.values(), key=lambda entry: (entry["published"], entry["id"]), reverse=True)
+    ordered = sorted(unique.values(), key=lambda entry: (entry["highlight"], entry["published"], entry["id"]), reverse=True)
     for entry in ordered:
         lab = entry["lab_id"]
         pair = (lab, entry["kind"])
         if counts[lab] < 5 and by_kind[pair] < 2:
             counts[lab] += 1
             by_kind[pair] += 1
-            entry["highlight"], entry["why_it_matters"] = editorial(entry)
             selected.append(entry)
         if len(selected) == limit:
             break
-    return selected
+    return sorted(selected, key=lambda entry: (entry["published"], entry["id"]), reverse=True)
 
 
 def rss(entries, feed_url):
@@ -383,8 +314,6 @@ def rss(entries, feed_url):
         ET.SubElement(node, "category").text = entry["kind"]
         if entry.get("summary"):
             ET.SubElement(node, "description").text = entry["summary"]
-        if entry["why_it_matters"]:
-            ET.SubElement(node, f"{{{NS}}}whyItMatters").text = entry["why_it_matters"]
         ET.SubElement(node, f"{{{NS}}}highlight").text = str(entry["highlight"]).lower()
         ET.SubElement(node, f"{{{NS}}}lab", id=entry["lab_id"]).text = entry["lab_name"]
         if entry["source_url"]:
@@ -396,6 +325,7 @@ def rss(entries, feed_url):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--atlas", default=str(HERE.parents[1] / "data/labs.json"))
+    parser.add_argument("--highlights", type=Path, default=HERE / "highlights.json")
     parser.add_argument("--sources", type=Path, default=HERE / "sources.json")
     parser.add_argument("--output", type=Path, default=HERE / "public")
     parser.add_argument("--cache", type=Path, default=HERE / ".cache")
@@ -416,6 +346,7 @@ def main():
         parser.error("unknown Atlas ID: " + ", ".join(sorted(set(args.lab) - {lab["id"] for lab in labs})))
     config = json.loads(args.sources.read_bytes())
     candidates, health = collect(labs, config, args.cache, args.workers, args.offline)
+    candidates.extend(curated(labs, args.highlights))
     entries = select(candidates, args.days, args.limit)
     write(args.output / "stream.xml", rss(entries, args.feed_url))
     write_json(args.output / "stream.json", {"items": entries})

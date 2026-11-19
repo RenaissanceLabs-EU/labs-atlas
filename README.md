@@ -36,3 +36,10 @@ and after the weekly Atlas refresh. Each item carries the lab's Atlas ID.
 Run a local snapshot build with
 `python3 tools/feed/build_feed.py --offline --output /tmp/atlas-stream`.
 Add explicit lab blog, video, or release sources in `tools/feed/sources.json`.
+
+The iOS Highlights feed uses the editorial entries in `tools/feed/highlights.json`.
+Add a source URL, Atlas ID, publication date, headline and an original summary
+that explains the concrete change or finding. Read the source first and keep
+experimental results scoped to what was measured. Automated items remain
+available in All updates. The scheduled refresh publishes the editorial file
+alongside the raw feed, and recent highlights stay eligible for 45 days.

@@ -1,0 +1,34 @@
+[
+  {
+    "lab_id": "hugging-face",
+    "kind": "blog",
+    "published": "2026-11-18T00:00:00Z",
+    "url": "https://huggingface.co/blog/moe-expert-streaming",
+    "title": "An experiment runs a 180B model on a 32 GB Mac",
+    "summary": "Tarek Ziadé got Qwen3.8-Flash-Next running by shrinking parts of the model and loading them from the SSD only when needed. It took about five hours to convert the model, and the first version generated around 10 tokens per second."
+  },
+  {
+    "lab_id": "epoch-ai",
+    "kind": "blog",
+    "published": "2026-11-18T00:00:00Z",
+    "url": "https://epoch.ai/data-insights/agentic-inference-capacity-growth",
+    "title": "Chip capacity for AI agents grew faster than raw computing power",
+    "summary": "Epoch AI estimates that chips sold through mid-2026 could handle 4.6 times as much agent-style work as a year earlier, while their peak computing power grew 2.6 times. The comparison uses a fixed set of tasks that reuse long stretches of context."
+  },
+  {
+    "lab_id": "bespoke-labs",
+    "kind": "blog",
+    "published": "2026-11-16T00:00:00Z",
+    "url": "https://bespokelabs.ai/blog/reflection-as-a-method-to-reduce-reward-hacking",
+    "title": "Bespoke Labs got a model to cheat less on coding tests",
+    "summary": "The team took examples where a model exploited a loophole in a coding task, had it write the solution it should have given, then trained it on those corrections. On the tasks studied, the share of attempts that exploited loopholes fell from about 65% to 3%."
+  },
+  {
+    "lab_id": "ai2",
+    "kind": "blog",
+    "published": "2026-11-13T08:00:00Z",
+    "url": "https://allenai.org/blog/xybench",
+    "title": "Ai2 tests whether assistants spot the problem behind a question",
+    "summary": "Ai2 released XYBench, a set of more than 8,000 questions built around mistaken assumptions. One asks how to thicken sliding cupcake frosting, when the better fix is to let the cupcakes cool. The dataset and test code are public."
+  }
+]
