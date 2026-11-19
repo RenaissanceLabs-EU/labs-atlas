@@ -474,7 +474,7 @@ def scripts():
 def foot():
     return """<footer class="foot wrap">
   <p class="brand"><img src="/assets/mark.png" alt="" width="22" height="22"> Renaissance Labs · Open Labs Atlas · Made in Europe</p>
-  <p class="foot-links"><a href="/labs.csv">Download data (CSV)</a><a href="https://discord.gg/6JUezWZbAm">Suggest a lab on Discord</a><a href="https://huggingface.co/RenaissanceLabsEU">Hugging Face</a><a href="https://github.com/BirgerMoell/renaissancelabs.eu">GitHub</a></p>
+  <p class="foot-links"><a href="/privacy/">Privacy policy</a><a href="/labs.csv">Download data (CSV)</a><a href="https://discord.gg/6JUezWZbAm">Suggest a lab on Discord</a><a href="https://huggingface.co/RenaissanceLabsEU">Hugging Face</a><a href="https://github.com/BirgerMoell/renaissancelabs.eu">GitHub</a></p>
 </footer>
 <script src="/assets/vendor/d3.min.js"></script>
 <script src="/assets/vendor/topojson-client.min.js"></script>
@@ -1075,7 +1075,7 @@ def main():
             write(f"people/{p['id']}/index.html", person_page(p, labs_by_id))
     for l in labs:
         write(f"labs/{l['id']}/index.html", lab_page(l, labs))
-    urls = ["/", "/map/", "/about/"] + (["/people/"] + [f"/people/{i}/" for i in PEOPLE] if PEOPLE else []) + [f"/labs/{l['id']}/" for l in labs]
+    urls = ["/", "/map/", "/about/", "/privacy/"] + (["/people/"] + [f"/people/{i}/" for i in PEOPLE] if PEOPLE else []) + [f"/labs/{l['id']}/" for l in labs]
     write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
           "".join(f"<url><loc>{SITE}{u}</loc><lastmod>{TODAY}</lastmod></url>\n" for u in urls) + "</urlset>\n")
     write("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {SITE}/sitemap.xml\n")
