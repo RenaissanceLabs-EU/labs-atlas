@@ -748,13 +748,13 @@ def index_page(labs):
         f'{ext(l["fresh"]["latest"]["url"], esc(l["fresh"]["latest"]["name"].split("/")[-1]), "rname")}<small>{esc(l["fresh"]["latest"]["kind"].title())} on Hugging Face</small></div>' for l in recent)
     recent_html = (f'<section class="wrap recent"><div class="rtitle"><h2>New from the labs</h2><p>Models and datasets published in the last 60 days.</p></div><div class="rail">{rail}</div></section>' if recent else "")
     n_active = sum(1 for l in labs if (l.get("fresh") or {}).get("status") == "active")
-    title = "Open Labs Atlas · Independent AI labs committed to open source"
-    desc = f"A map and directory of {len(labs)} independent AI labs in {countries} countries that build in the open: open weights, open code, open data."
+    title = "Open Labs Atlas · AI research around the world"
+    desc = f"Explore {len(labs)} AI research teams in {countries} countries and the model weights, code, and datasets they publish."
     return head(title, desc, "/") + f"""<main id="main">
   <section class="intro">
     <p class="eyebrow">Open Labs Atlas</p>
-    <h1>The open frontier of intelligence.</h1>
-    <p class="lede">A world map of independent labs releasing open weights, open code and open data, with a page for each.</p>
+    <h1>Mapping AI research.</h1>
+    <p class="lede">Explore research teams around the world and see the model weights, code, and datasets they make public.</p>
     <div class="stats">
       <div class="stat"><b>{len(labs)}</b><span>labs</span></div>
       <div class="stat"><b>{countries}</b><span>countries</span></div>
