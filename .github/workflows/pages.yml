@@ -33,9 +33,9 @@ jobs:
       - uses: actions/cache@v4
         with:
           path: ${{ runner.temp }}/atlas-feed-cache
-          key: atlas-feed-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          key: atlas-feed-v2-${{ github.run_id }}-${{ github.run_attempt }}
           restore-keys: |
-            atlas-feed-v1-
+            atlas-feed-v2-
       - name: Stage Atlas and generate updates
         run: |
           mkdir _site
