@@ -1,0 +1,15 @@
+{
+  "hugging-face": {
+    "blog": [
+      "https://huggingface.co/blog/feed.xml"
+    ],
+    "media": [
+      "https://www.youtube.com/feeds/videos.xml?channel_id=UCHlNU7kIZhRgSbhHvFoy72w"
+    ]
+  },
+  "nvidia": {
+    "blog": [
+      "https://blogs.nvidia.com/feed/"
+    ]
+  }
+}

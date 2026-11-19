@@ -1,0 +1,63 @@
+name: Publish Atlas and RSS feed
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "37 */4 * * *"
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Refresh licences and activity]
+    types: [completed]
+    branches: [main]
+
+concurrency:
+  group: atlas-pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/atlas-feed-cache
+          key: atlas-feed-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            atlas-feed-v1-
+      - name: Stage Atlas and generate updates
+        run: |
+          mkdir _site
+          git archive HEAD | tar -x -C _site
+          rm -rf _site/.github _site/tools
+          python3 tools/feed/build_feed.py --atlas data/labs.json \
+            --feed-url https://labs.renaissancelabs.eu/stream.xml \
+            --cache "$RUNNER_TEMP/atlas-feed-cache" --output _site --limit 300
+          python3 -c 'import xml.etree.ElementTree as ET; assert ET.parse("_site/stream.xml").find("channel/item") is not None'
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

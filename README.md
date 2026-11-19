@@ -26,3 +26,13 @@ A lab is listed when it works on AI models, data, tooling or infrastructure and 
 ## Licence
 
 Code: MIT. Lab data in `data/` and `labs.csv`: CC BY 4.0, please credit "Open Labs Atlas by Renaissance Labs". Logos belong to their respective organisations and are shown to identify them.
+
+## Updates feed
+
+GitHub Pages serves `/stream.xml` (RSS) and `/stream.json` (JSON).
+The Pages workflow rebuilds the feed every four hours, on pushes to main,
+and after the weekly Atlas refresh. Each item carries the lab's Atlas ID.
+
+Run a local snapshot build with
+`python3 tools/feed/build_feed.py --offline --output /tmp/atlas-stream`.
+Add explicit lab blog, video, or release sources in `tools/feed/sources.json`.
