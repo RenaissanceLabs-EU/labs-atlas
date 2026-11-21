@@ -48,3 +48,11 @@ For You also draws from Hugging Face Daily Papers. This source adds links to
 the original arXiv records, community vote counts and whether a code or
 project link was supplied. The app uses those signals to rank candidates.
 Editorial summaries still come from the Highlights file.
+
+The Renaissance Labs Briefing also automatically writes short model and data
+release notes from public Hugging Face repository metadata. The existing
+four-hour workflow checks recent first-party Atlas publications, confirms a
+supported license and actual weight or data files in a public repository
+revision, and accepts up to two qualifying items per publication day.
+Release notes use the task, parameter count or dataset size from verified
+metadata. Research claims still go through the reviewed Highlights file.

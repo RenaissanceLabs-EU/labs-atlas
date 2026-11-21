@@ -278,6 +278,118 @@ def curated(labs, path, include_papers=True):
         }
 
 
+TASKS = {
+    "automatic-speech-recognition": "turning audio into text",
+    "text-classification": "sorting text into categories",
+    "text-generation": "generating text",
+    "image-text-to-text": "answering questions about images",
+    "text-to-speech": "turning text into speech",
+    "text-to-image": "generating images from text",
+    "image-to-video": "generating video from an image",
+    "sentence-similarity": "finding text with similar meaning",
+    "feature-extraction": "turning inputs into numerical representations",
+    "translation": "translating text between languages",
+    "object-detection": "finding objects in images",
+}
+LICENSES = {
+    "apache-2.0": "Apache 2.0", "mit": "MIT", "bsd-3-clause": "BSD 3-Clause",
+    "bsd-2-clause": "BSD 2-Clause", "cc-by-4.0": "CC BY 4.0", "cc0-1.0": "CC0",
+    "odc-by": "Open Data Commons Attribution",
+}
+DERIVATIVE = re.compile(
+    r"\b(gguf|mlx|fp8|bf16|nvfp4|gptq|awq|quant\w*|lora|adapter|test|demo|sft|dapo|teacher|preview|alpha|"
+    r"checkpoint|merge|converted|distill\w*|(?:int)?[248][- ]?bit)\b", re.I
+)
+
+
+def artifact_brief(lab, kind, address, entry, metadata):
+    card = metadata.get("cardData") or {}
+    identifier = "/".join(urlsplit(entry["url"]).path.strip("/").split("/")[-2:])
+    if metadata.get("id") != identifier or metadata.get("private") is not False or metadata.get("gated"):
+        return None
+    license_name = LICENSES.get(str(card.get("license", "")).lower())
+    revision = metadata.get("sha") or ""
+    if not license_name or not re.fullmatch(r"[0-9a-f]{40}", revision):
+        return None
+    names = [file.get("rfilename", "") for file in metadata.get("siblings", [])]
+    short = identifier.split("/")[-1]
+    if kind == "model":
+        task = TASKS.get(metadata.get("pipeline_tag"))
+        parameters = (metadata.get("safetensors") or {}).get("total")
+        if not task or not isinstance(parameters, int) or parameters < 1_000_000:
+            return None
+        if not any(name.endswith(".safetensors") and "adapter" not in name.lower() for name in names):
+            return None
+        magnitude, label = (1e9, "billion") if parameters >= 1e9 else (1e6, "million")
+        size = f"{parameters / magnitude:.2f}".rstrip("0").rstrip(".")
+        headline = f"{short} publishes weights for {task}"
+        summary = (f"{lab['name']} released a model for {task} with about {size} {label} parameters. "
+                   f"The repository includes downloadable weights under {license_name}.")
+        topic, resource = "Model release", "Model weights"
+    else:
+        info = card.get("dataset_info")
+        splits = info.get("splits", []) if isinstance(info, dict) else []
+        rows = sum(part.get("num_examples") or 0 for part in splits if isinstance(part, dict))
+        if rows < 1_000 or not any(name.endswith((".parquet", ".jsonl", ".csv", ".arrow")) for name in names):
+            return None
+        headline = f"{lab['name']} publishes the {short} dataset"
+        summary = (f"The dataset card lists {rows:,} examples across {len(splits)} splits. "
+                   f"The data files are available under {license_name}.")
+        topic, resource = "Dataset release", "Dataset files"
+    return lab, kind, address, {
+        **item(headline, entry["url"], entry["published"]), "highlight": True,
+        "summary": summary, "brief_topic": topic, "source_profile": None,
+        "resources": [{"label": resource, "url": entry["url"] + "/tree/" + revision}],
+        "automated": True,
+    }
+
+
+def automatic_briefs(candidates, reviewed, cache, workers, offline):
+    reviewed_urls = {canonical(link) for _, _, _, post in reviewed
+                     for link in [post["url"], *(resource["url"] for resource in post["resources"])]}
+    eligible = {}
+    for lab, kind, source, entry in candidates:
+        if not source or kind not in {"model", "dataset"} or DERIVATIVE.search(entry["title"]):
+            continue
+        date = timestamp(entry["published"])
+        if not date or not NOW - timedelta(days=10) <= date <= NOW:
+            continue
+        if canonical(entry["url"]) not in reviewed_urls:
+            eligible.setdefault(entry["url"], (lab, kind, source, entry))
+
+    def inspect(candidate):
+        lab, kind, source, entry = candidate
+        parts = account(entry["url"], "huggingface.co")
+        expected = 2 if kind == "model" else 3
+        if len(parts) != expected or (kind == "dataset" and parts[0] != "datasets"):
+            return None
+        address = "https://huggingface.co/api/" + ("models/" if kind == "model" else "") + "/".join(parts)
+        path = cache / ("brief-" + sha256(address.encode()).hexdigest() + ".json")
+        try:
+            if offline:
+                metadata = json.loads(path.read_bytes())
+            else:
+                metadata = json.loads(get(address)[0])
+                write_json(path, metadata)
+            return artifact_brief(lab, kind, address, entry, metadata)
+        except (OSError, ValueError, KeyError, TypeError):
+            return None
+
+    ordered = sorted(eligible.values(), key=lambda candidate: candidate[3]["published"], reverse=True)
+    with ThreadPoolExecutor(max_workers=min(workers, 6)) as pool:
+        verified = [brief for brief in pool.map(inspect, ordered[:40]) if brief]
+    dates = Counter()
+    labs = set()
+    for brief in verified:
+        lab, _, _, entry = brief
+        day = timestamp(entry["published"]).date()
+        if dates[day] >= 2 or (day, lab["id"]) in labs:
+            continue
+        dates[day] += 1
+        labs.add((day, lab["id"]))
+        yield brief
+
+
 def select(entries, days, limit):
     unique = {}
     for lab, kind, source, entry in entries:
@@ -304,6 +416,7 @@ def select(entries, days, limit):
             unique[identity].update(
                 summary=entry["summary"], brief_topic=entry["brief_topic"],
                 resources=entry["resources"], source_profile=entry["source_profile"],
+                automated=bool(entry.get("automated")),
             )
         if kind == "paper":
             unique[identity].update(
@@ -332,7 +445,7 @@ def rss(entries, feed_url):
     ET.register_namespace("atom", ATOM)
     root = ET.Element("rss", version="2.0")
     channel = ET.SubElement(root, "channel")
-    ET.SubElement(channel, "title").text = "Renaissance Labs Updates"
+    ET.SubElement(channel, "title").text = "Renaissance Labs Briefing"
     ET.SubElement(channel, "link").text = SITE
     ET.SubElement(channel, "description").text = (
         "Releases, publications, and updates from labs in the Renaissance Labs Atlas."
@@ -386,7 +499,11 @@ def main():
     config = json.loads(args.sources.read_bytes())
     candidates, health = collect(labs, config, args.cache, args.workers, args.offline,
                                  include_papers=not args.lab)
-    candidates.extend(curated(labs, args.highlights, include_papers=not args.lab))
+    reviewed = list(curated(labs, args.highlights, include_papers=not args.lab))
+    automated = list(automatic_briefs(candidates, reviewed, args.cache, args.workers, args.offline))
+    candidates.extend(reviewed)
+    candidates.extend(automated)
+    print(f"{len(automated)} automated briefs passed verification")
     entries = select(candidates, args.days, args.limit)
     write(args.output / "stream.xml", rss(entries, args.feed_url))
     write_json(args.output / "stream.json", {"items": entries})
