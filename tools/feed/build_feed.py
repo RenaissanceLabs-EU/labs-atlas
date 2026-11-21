@@ -298,7 +298,7 @@ LICENSES = {
 }
 DERIVATIVE = re.compile(
     r"\b(gguf|mlx|fp8|bf16|nvfp4|gptq|awq|quant\w*|lora|adapter|test|demo|sft|dapo|teacher|preview|alpha|"
-    r"checkpoint|merge|converted|distill\w*|(?:int)?[248][- ]?bit)\b", re.I
+    r"checkpoint|merge|optimizedtokenizer|converted|distill\w*|(?:int)?[248][- ]?bit)\b", re.I
 )
 
 
