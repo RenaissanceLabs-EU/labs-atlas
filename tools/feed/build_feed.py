@@ -206,6 +206,9 @@ def collect(labs, config, cache, workers, offline, include_papers=True):
     if include_papers:
         by_id[PAPERS["id"]] = PAPERS
         owners["paper", PAPER_SOURCE].add(PAPERS["id"])
+        for project_id, project in config.get("_engineering", {}).items():
+            by_id.setdefault(project_id, {"id": project_id, "name": project["name"]})
+            owners["engineering", project["feed"]].add(project_id)
 
     def read(source):
         kind, address = source
@@ -428,11 +431,14 @@ def select(entries, days, limit):
     counts = Counter()
     by_kind = Counter()
     selected = []
-    ordered = sorted(unique.values(), key=lambda entry: (entry["highlight"], entry["kind"] == "paper", entry["published"], entry["id"]), reverse=True)
+    ordered = sorted(unique.values(), key=lambda entry: (entry["highlight"], entry["kind"] in {"engineering", "paper"}, entry["published"], entry["id"]), reverse=True)
     for entry in ordered:
         lab = entry["lab_id"]
         pair = (lab, entry["kind"])
         lab_cap, category_cap = (24, 24) if lab == PAPERS["id"] else (5, 2)
+        if entry["kind"] == "engineering":
+            lab_cap, category_cap = 6, 5
+
         if entry["highlight"] or (counts[lab] < lab_cap and by_kind[pair] < category_cap):
             counts[lab] += 1
             by_kind[pair] += 1

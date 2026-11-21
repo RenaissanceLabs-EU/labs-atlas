@@ -102,5 +102,57 @@
         "url": "https://huggingface.co/Reson8/Rumble-2-Flash"
       }
     ]
+  },
+  {
+    "lab_id": "vllm",
+    "source_name": "vLLM",
+    "kind": "engineering",
+    "published": "2026-11-20T00:00:00Z",
+    "url": "https://vllm.ai/blog/2026-11-20-inkling2-mini",
+    "title": "vLLM now serves models that loop through their own layers",
+    "summary": "Inkling 2 Mini runs its middle 12 layers three times per token with shared weights and separate KV caches. vLLM also serves a research checkpoint where you can vary the loop count and share the cache between passes. The launch supports Blackwell, Hopper and DGX Spark.",
+    "brief_topic": "Serving and inference",
+    "resources": [
+      {
+        "label": "Serving recipe",
+        "url": "https://vllm.ai/blog/2026-11-20-inkling2-mini#tldr"
+      },
+      {
+        "label": "Research checkpoint",
+        "url": "https://huggingface.co/thinkingmachines/TML-d24-varloop-research"
+      }
+    ]
+  },
+  {
+    "lab_id": "vllm",
+    "source_name": "vLLM",
+    "kind": "engineering",
+    "published": "2026-11-18T00:00:00Z",
+    "url": "https://vllm.ai/blog/2026-11-18-flydsl-monokernels",
+    "title": "Fusing decode kernels cuts waits at low concurrency on AMD",
+    "summary": "vLLM’s opt-in FlyDSL path combines several decode stages in a persistent GPU launch. The gains are strongest for one active request. At concurrency four, one eight-GPU DeepSeek-V4.1-Flash server delivered 26% less throughput than two four-GPU replicas in the reported configuration.",
+    "brief_topic": "Serving and inference",
+    "resources": [
+      {
+        "label": "Benchmark discussion",
+        "url": "https://github.com/vllm-project/vllm/pull/64101"
+      }
+    ]
+  },
+  {
+    "lab_id": "pytorch",
+    "source_name": "PyTorch",
+    "kind": "engineering",
+    "published": "2026-11-12T16:45:26Z",
+    "url": "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels/",
+    "title": "Helion picks faster kernel settings without autotuning",
+    "summary": "Helion now analyzes a kernel at compile time to pick block sizes and warp counts. Across six vLLM reduction kernels on H100, those settings were 1.27× as fast as the handwritten CUDA baseline, versus 1.31× with full autotuning. The defaults currently target H100 and B200 on Triton.",
+    "brief_topic": "Kernels and compilers",
+    "resources": [
+      {
+        "label": "Helion project",
+        "url": "https://pytorch.org/projects/helion/"
+      }
+    ]
   }
 ]

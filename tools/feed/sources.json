@@ -11,5 +11,15 @@
     "blog": [
       "https://blogs.nvidia.com/feed/"
     ]
+  },
+  "_engineering": {
+    "vllm": {
+      "name": "vLLM",
+      "feed": "https://vllm.ai/blog/rss.xml"
+    },
+    "pytorch": {
+      "name": "PyTorch",
+      "feed": "https://pytorch.org/blog/feed/"
+    }
   }
 }

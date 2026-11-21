@@ -56,3 +56,8 @@ supported license and actual weight or data files in a public repository
 revision, and accepts up to two qualifying items per publication day.
 Release notes use the task, parameter count or dataset size from verified
 metadata. Research claims still go through the reviewed Highlights file.
+
+The engineering feeds in `tools/feed/sources.json` watch vLLM and PyTorch
+directly. Reviewed engineering stories should state what changed, what was
+measured (with the hardware, workload, or baseline), and any condition
+that materially changes how the result should be interpreted.
