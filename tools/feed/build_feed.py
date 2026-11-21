@@ -272,7 +272,7 @@ def curated(labs, path, include_papers=True):
             **item(post["title"], post["url"], post["published"]),
             "summary": summary, "highlight": True,
             "brief_topic": post.get("brief_topic"),
-            "source_profile": url(post.get("source_profile")),
+            "source_profile": url(post.get("source_profile")) or None,
             "resources": [{"label": resource["label"], "url": resource["url"]}
                           for resource in post.get("resources", []) if url(resource["url"])],
         }
