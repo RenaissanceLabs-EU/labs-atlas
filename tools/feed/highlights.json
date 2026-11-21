@@ -30,5 +30,21 @@
     "url": "https://allenai.org/blog/xybench",
     "title": "Ai2 tests whether assistants spot the problem behind a question",
     "summary": "Ai2 released XYBench, a set of more than 8,000 questions built around mistaken assumptions. One asks how to thicken sliding cupcake frosting, when the better fix is to let the cupcakes cool. The dataset and test code are public."
+  },
+  {
+    "lab_id": "kyutai",
+    "kind": "paper",
+    "published": "2026-11-19T18:17:38Z",
+    "url": "https://arxiv.org/abs/2611.26540",
+    "title": "Kyutai streams a talking avatar from live audio",
+    "summary": "AURA builds video a chunk at a time from incoming speech, so it can start without waiting for several seconds of audio. In the team’s tests, the smaller model streamed 576p on one GPU. Kyutai released the weights and a training dataset."
+  },
+  {
+    "lab_id": "daily-papers",
+    "kind": "paper",
+    "published": "2026-11-19T18:59:53Z",
+    "url": "https://arxiv.org/abs/2611.26627",
+    "title": "A small adjustment recovered most gains from image-model retraining",
+    "summary": "Researchers added a fixed set of numerical adjustments to a frozen image generator. On six image models they recovered 90–96% of the measured gains from reinforcement-learning post-training. For one model, the adjustments used 65 times fewer parameters than its trained adapter."
   }
 ]

@@ -43,3 +43,8 @@ that explains the concrete change or finding. Read the source first and keep
 experimental results scoped to what was measured. Automated items remain
 available in All updates. The scheduled refresh publishes the editorial file
 alongside the raw feed, and recent highlights stay eligible for 45 days.
+
+For You also draws from Hugging Face Daily Papers. This source adds links to
+the original arXiv records, community vote counts and whether a code or
+project link was supplied. The app uses those signals to rank candidates.
+Editorial summaries still come from the Highlights file.

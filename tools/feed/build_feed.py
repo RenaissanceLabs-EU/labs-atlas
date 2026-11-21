@@ -23,6 +23,8 @@ ATOM = "http://www.w3.org/2005/Atom"
 LIMIT = 8 * 1024 * 1024
 TRACKING = {"fbclid", "gclid", "mc_cid", "mc_eid"}
 NOW = datetime.now(timezone.utc)
+PAPERS = {"id": "daily-papers", "name": "Daily Papers"}
+PAPER_SOURCE = "https://huggingface.co/api/daily_papers?limit=40"
 
 
 def url(value):
@@ -133,6 +135,18 @@ def syndicated(data, address):
 
 def fetch(kind, address):
     data, final_url = get(address)
+    if kind == "paper":
+        entries = []
+        for record in json.loads(data):
+            paper = record["paper"]
+            identifier = paper["id"]
+            if not re.fullmatch(r"[0-9]{4}\.[0-9]{4,5}", identifier):
+                continue
+            entry = item(paper["title"], f"https://arxiv.org/abs/{identifier}", paper["publishedAt"])
+            entry["paper_votes"] = paper.get("upvotes") or 0
+            entry["has_code"] = bool(paper.get("githubRepo") or paper.get("projectPage"))
+            entries.append(entry)
+        return entries
     if kind == "discover":
         parser = FeedLinks()
         parser.feed(data.decode("utf-8", errors="replace"))
@@ -182,12 +196,16 @@ def snapshot(lab):
         yield "repository_activity", item(repo["name"], repo.get("url"), repo.get("pushed"))
 
 
-def collect(labs, config, cache, workers, offline):
+def collect(labs, config, cache, workers, offline, include_papers=True):
     by_id = {lab["id"]: lab for lab in labs}
     owners = defaultdict(set)
     for lab in labs:
         for source in sources(lab, config):
             owners[source].add(lab["id"])
+
+    if include_papers:
+        by_id[PAPERS["id"]] = PAPERS
+        owners["paper", PAPER_SOURCE].add(PAPERS["id"])
 
     def read(source):
         kind, address = source
@@ -237,8 +255,10 @@ def collect(labs, config, cache, workers, offline):
     return feed_entries, health
 
 
-def curated(labs, path):
+def curated(labs, path, include_papers=True):
     by_id = {lab["id"]: lab for lab in labs}
+    if include_papers:
+        by_id[PAPERS["id"]] = PAPERS
     for post in json.loads(path.read_bytes()):
         lab = by_id.get(post["lab_id"])
         if lab is None:
@@ -265,6 +285,8 @@ def select(entries, days, limit):
         previous = unique.get(identity)
         priority = (bool(entry.get("highlight")), bool(source), date.isoformat())
         if previous and priority <= (previous["highlight"], bool(previous["source_url"]), previous["published"]):
+            if kind == "paper" and source:
+                previous.update(paper_votes=entry["paper_votes"], has_code=entry["has_code"])
             continue
         unique[identity] = {
             **item(entry["title"], link, date.isoformat()),
@@ -274,14 +296,20 @@ def select(entries, days, limit):
         }
         if entry.get("highlight"):
             unique[identity]["summary"] = entry["summary"]
+        if kind == "paper":
+            unique[identity].update(
+                paper_votes=entry.get("paper_votes", (previous or {}).get("paper_votes", 0)),
+                has_code=entry.get("has_code", (previous or {}).get("has_code", False)),
+            )
     counts = Counter()
     by_kind = Counter()
     selected = []
-    ordered = sorted(unique.values(), key=lambda entry: (entry["highlight"], entry["published"], entry["id"]), reverse=True)
+    ordered = sorted(unique.values(), key=lambda entry: (entry["highlight"], entry["kind"] == "paper", entry["published"], entry["id"]), reverse=True)
     for entry in ordered:
         lab = entry["lab_id"]
         pair = (lab, entry["kind"])
-        if counts[lab] < 5 and by_kind[pair] < 2:
+        lab_cap, category_cap = (24, 24) if lab == PAPERS["id"] else (5, 2)
+        if entry["highlight"] or (counts[lab] < lab_cap and by_kind[pair] < category_cap):
             counts[lab] += 1
             by_kind[pair] += 1
             selected.append(entry)
@@ -345,8 +373,9 @@ def main():
     if args.lab and set(args.lab) - {lab["id"] for lab in labs}:
         parser.error("unknown Atlas ID: " + ", ".join(sorted(set(args.lab) - {lab["id"] for lab in labs})))
     config = json.loads(args.sources.read_bytes())
-    candidates, health = collect(labs, config, args.cache, args.workers, args.offline)
-    candidates.extend(curated(labs, args.highlights))
+    candidates, health = collect(labs, config, args.cache, args.workers, args.offline,
+                                 include_papers=not args.lab)
+    candidates.extend(curated(labs, args.highlights, include_papers=not args.lab))
     entries = select(candidates, args.days, args.limit)
     write(args.output / "stream.xml", rss(entries, args.feed_url))
     write_json(args.output / "stream.json", {"items": entries})
