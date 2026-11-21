@@ -753,8 +753,8 @@ def index_page(labs):
     return head(title, desc, "/") + f"""<main id="main">
   <section class="intro">
     <p class="eyebrow">Open Labs Atlas</p>
-    <h1>Mapping AI research.</h1>
-    <p class="lede">Explore research teams around the world and see the model weights, code, and datasets they make public.</p>
+    <h1>The open frontier of intelligence.</h1>
+    <p class="lede">A world map of independent labs releasing open weights, open code and open data, with a page for each.</p>
     <div class="stats">
       <div class="stat"><b>{len(labs)}</b><span>labs</span></div>
       <div class="stat"><b>{countries}</b><span>countries</span></div>
