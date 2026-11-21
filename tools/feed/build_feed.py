@@ -261,6 +261,8 @@ def curated(labs, path, include_papers=True):
         by_id[PAPERS["id"]] = PAPERS
     for post in json.loads(path.read_bytes()):
         lab = by_id.get(post["lab_id"])
+        if lab is None and include_papers and post.get("source_name"):
+            lab = {"id": post["lab_id"], "name": post["source_name"]}
         if lab is None:
             continue
         summary = post["summary"].strip()
@@ -269,6 +271,10 @@ def curated(labs, path, include_papers=True):
         yield lab, post["kind"], None, {
             **item(post["title"], post["url"], post["published"]),
             "summary": summary, "highlight": True,
+            "brief_topic": post.get("brief_topic"),
+            "source_profile": url(post.get("source_profile")),
+            "resources": [{"label": resource["label"], "url": resource["url"]}
+                          for resource in post.get("resources", []) if url(resource["url"])],
         }
 
 
@@ -295,7 +301,10 @@ def select(entries, days, limit):
             "id": "urn:sha256:" + sha256(identity.encode()).hexdigest(),
         }
         if entry.get("highlight"):
-            unique[identity]["summary"] = entry["summary"]
+            unique[identity].update(
+                summary=entry["summary"], brief_topic=entry["brief_topic"],
+                resources=entry["resources"], source_profile=entry["source_profile"],
+            )
         if kind == "paper":
             unique[identity].update(
                 paper_votes=entry.get("paper_votes", (previous or {}).get("paper_votes", 0)),
@@ -342,6 +351,8 @@ def rss(entries, feed_url):
         ET.SubElement(node, "category").text = entry["kind"]
         if entry.get("summary"):
             ET.SubElement(node, "description").text = entry["summary"]
+        for resource in entry.get("resources", []):
+            ET.SubElement(node, f"{{{NS}}}resource", label=resource["label"]).text = resource["url"]
         ET.SubElement(node, f"{{{NS}}}highlight").text = str(entry["highlight"]).lower()
         ET.SubElement(node, f"{{{NS}}}lab", id=entry["lab_id"]).text = entry["lab_name"]
         if entry["source_url"]:

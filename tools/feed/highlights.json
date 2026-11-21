@@ -5,7 +5,14 @@
     "published": "2026-11-18T00:00:00Z",
     "url": "https://huggingface.co/blog/moe-expert-streaming",
     "title": "An experiment runs a 180B model on a 32 GB Mac",
-    "summary": "Tarek Ziadé got Qwen3.8-Flash-Next running by shrinking parts of the model and loading them from the SSD only when needed. It took about five hours to convert the model, and the first version generated around 10 tokens per second."
+    "summary": "Tarek Ziadé got Qwen3.8-Flash-Next running by shrinking parts of the model and loading them from the SSD only when needed. It took about five hours to convert the model, and the first version generated around 10 tokens per second.",
+    "brief_topic": "Local inference",
+    "resources": [
+      {
+        "label": "Run the experiment",
+        "url": "https://github.com/tarekziade/moe-expert-streaming"
+      }
+    ]
   },
   {
     "lab_id": "epoch-ai",
@@ -13,7 +20,8 @@
     "published": "2026-11-18T00:00:00Z",
     "url": "https://epoch.ai/data-insights/agentic-inference-capacity-growth",
     "title": "Chip capacity for AI agents grew faster than raw computing power",
-    "summary": "Epoch AI estimates that chips sold through mid-2026 could handle 4.6 times as much agent-style work as a year earlier, while their peak computing power grew 2.6 times. The comparison uses a fixed set of tasks that reuse long stretches of context."
+    "summary": "Epoch AI estimates that chips sold through mid-2026 could handle 4.6 times as much agent-style work as a year earlier, while their peak computing power grew 2.6 times. The comparison uses a fixed set of tasks that reuse long stretches of context.",
+    "brief_topic": "Industry analysis"
   },
   {
     "lab_id": "bespoke-labs",
@@ -21,7 +29,8 @@
     "published": "2026-11-16T00:00:00Z",
     "url": "https://bespokelabs.ai/blog/reflection-as-a-method-to-reduce-reward-hacking",
     "title": "Bespoke Labs got a model to cheat less on coding tests",
-    "summary": "The team took examples where a model exploited a loophole in a coding task, had it write the solution it should have given, then trained it on those corrections. On the tasks studied, the share of attempts that exploited loopholes fell from about 65% to 3%."
+    "summary": "The team took examples where a model exploited a loophole in a coding task, had it write the solution it should have given, then trained it on those corrections. On the tasks studied, the share of attempts that exploited loopholes fell from about 65% to 3%.",
+    "brief_topic": "Training research"
   },
   {
     "lab_id": "ai2",
@@ -29,7 +38,18 @@
     "published": "2026-11-13T08:00:00Z",
     "url": "https://allenai.org/blog/xybench",
     "title": "Ai2 tests whether assistants spot the problem behind a question",
-    "summary": "Ai2 released XYBench, a set of more than 8,000 questions built around mistaken assumptions. One asks how to thicken sliding cupcake frosting, when the better fix is to let the cupcakes cool. The dataset and test code are public."
+    "summary": "Ai2 released XYBench, a set of more than 8,000 questions built around mistaken assumptions. One asks how to thicken sliding cupcake frosting, when the better fix is to let the cupcakes cool. The dataset and test code are public.",
+    "brief_topic": "Evaluation",
+    "resources": [
+      {
+        "label": "Benchmark code",
+        "url": "https://github.com/allenai/XYBench"
+      },
+      {
+        "label": "Dataset",
+        "url": "https://huggingface.co/datasets/allenai/XYBench-dataset"
+      }
+    ]
   },
   {
     "lab_id": "kyutai",
@@ -37,7 +57,14 @@
     "published": "2026-11-19T18:17:38Z",
     "url": "https://arxiv.org/abs/2611.26540",
     "title": "Kyutai streams a talking avatar from live audio",
-    "summary": "AURA builds video a chunk at a time from incoming speech, so it can start without waiting for several seconds of audio. In the team’s tests, the smaller model streamed 576p on one GPU. Kyutai released the weights and a training dataset."
+    "summary": "AURA builds video a chunk at a time from incoming speech, so it can start without waiting for several seconds of audio. In the team’s tests, the smaller model streamed 576p on one GPU. Kyutai released the weights and a training dataset.",
+    "brief_topic": "Model release",
+    "resources": [
+      {
+        "label": "Project and weights",
+        "url": "https://kyutai.org/aura/"
+      }
+    ]
   },
   {
     "lab_id": "daily-papers",
@@ -45,6 +72,30 @@
     "published": "2026-11-19T18:59:53Z",
     "url": "https://arxiv.org/abs/2611.26627",
     "title": "A small adjustment recovered most gains from image-model retraining",
-    "summary": "Researchers added a fixed set of numerical adjustments to a frozen image generator. On six image models they recovered 90–96% of the measured gains from reinforcement-learning post-training. For one model, the adjustments used 65 times fewer parameters than its trained adapter."
+    "summary": "Researchers added a fixed set of numerical adjustments to a frozen image generator. On six image models they recovered 90–96% of the measured gains from reinforcement-learning post-training. For one model, the adjustments used 65 times fewer parameters than its trained adapter.",
+    "brief_topic": "Training research",
+    "resources": [
+      {
+        "label": "Experiments",
+        "url": "https://rl-is-steering.github.io/"
+      }
+    ]
+  },
+  {
+    "lab_id": "reson8",
+    "source_name": "Reson8",
+    "source_profile": "https://huggingface.co/Reson8",
+    "kind": "model",
+    "published": "2026-11-18T00:00:00Z",
+    "url": "https://huggingface.co/blog/rumble-2-flash",
+    "title": "A 0.5B speech model transcribes in 40+ languages",
+    "summary": "Reson8 released Rumble-2-Flash under Apache 2.0. It works with Transformers and vLLM, detects the language automatically, and lets you choose whether numbers appear as words or digits.",
+    "brief_topic": "Model release",
+    "resources": [
+      {
+        "label": "Model weights",
+        "url": "https://huggingface.co/Reson8/Rumble-2-Flash"
+      }
+    ]
   }
 ]
