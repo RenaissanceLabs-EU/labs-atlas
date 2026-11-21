@@ -273,6 +273,7 @@ def curated(labs, path, include_papers=True):
             "summary": summary, "highlight": True,
             "brief_topic": post.get("brief_topic"),
             "source_profile": url(post.get("source_profile")) or None,
+            "artwork": post.get("artwork"),
             "resources": [{"label": resource["label"], "url": resource["url"]}
                           for resource in post.get("resources", []) if url(resource["url"])],
         }
@@ -417,6 +418,7 @@ def select(entries, days, limit):
                 summary=entry["summary"], brief_topic=entry["brief_topic"],
                 resources=entry["resources"], source_profile=entry["source_profile"],
                 automated=bool(entry.get("automated")),
+                artwork=entry.get("artwork"),
             )
         if kind == "paper":
             unique[identity].update(

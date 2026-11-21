@@ -21,7 +21,12 @@
     "url": "https://epoch.ai/data-insights/agentic-inference-capacity-growth",
     "title": "Chip capacity for AI agents grew faster than raw computing power",
     "summary": "Epoch AI estimates that chips sold through mid-2026 could handle 4.6 times as much agent-style work as a year earlier, while their peak computing power grew 2.6 times. The comparison uses a fixed set of tasks that reuse long stretches of context.",
-    "brief_topic": "Industry analysis"
+    "brief_topic": "Industry analysis",
+    "artwork": {
+      "url": "https://epoch.ai/assets/images/data-insights/agentic-inference-capacity-growth/agentic-inference-capacity-growth.png",
+      "alt": "Chart comparing estimated chip capacity for AI agents and peak compute from Q2 2025 to Q2 2026.",
+      "credit": "Figure by Jason Li, Epoch AI · CC BY"
+    }
   },
   {
     "lab_id": "bespoke-labs",
