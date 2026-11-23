@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17",
+ "generated": "2026-11-23",
  "count": 227,
  "labs": [
   {
@@ -188,18 +188,18 @@
      "n": 80,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 8,
     "latest_repo": {
-     "name": "asa-acoustic-pooling",
-     "url": "https://github.com/aalto-speech/asa-acoustic-pooling",
-     "pushed": "2026-11-16T23:58:57Z"
+     "name": "dta-server",
+     "url": "https://github.com/aalto-speech/dta-server",
+     "pushed": "2026-11-23T13:49:51Z"
     }
    }
   },
@@ -415,18 +415,18 @@
      "n": 10,
      "sample": 10
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-04-26",
-    "days": 204,
+    "days": 210,
     "status": "quiet",
     "latest": {
      "name": "AdapterHub/m2qa-xlm-roberta-base-mad-x-domain-product-reviews",
      "url": "https://huggingface.co/AdapterHub/m2qa-xlm-roberta-base-mad-x-domain-product-reviews",
      "date": "2024-06-05",
      "kind": "model",
-     "days": 894
+     "days": 900
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -638,18 +638,18 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-09-21",
-    "days": 56,
+    "days": 62,
     "status": "active",
     "latest": {
      "name": "agentica-org/DeepSWE-Verifier",
      "url": "https://huggingface.co/agentica-org/DeepSWE-Verifier",
      "date": "2025-07-01",
      "kind": "model",
-     "days": 504
+     "days": 510
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -819,16 +819,16 @@
    "logo": true,
    "lic": {
     "weights": {
-     "status": "open",
+     "status": "mixed",
      "chips": [
       {
        "name": "MIT",
-       "count": 18,
+       "count": 17,
        "cls": "permissive"
       },
       {
        "name": "Llama 3.1",
-       "count": 5,
+       "count": 6,
        "cls": "restricted"
       },
       {
@@ -837,7 +837,7 @@
        "cls": "restricted"
       }
      ],
-     "n": 90,
+     "n": 115,
      "sample": 25
     },
     "code": {
@@ -904,24 +904,24 @@
      "n": 29,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-08",
-    "days": 8,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
-     "name": "aisingapore/opthamology_vignette_100",
-     "url": "https://huggingface.co/datasets/aisingapore/opthamology_vignette_100",
-     "date": "2026-10-21",
-     "kind": "dataset",
-     "days": 27
+     "name": "aisingapore/Qwen-SEA-LION-v5-9B-SpecDecoder",
+     "url": "https://huggingface.co/aisingapore/Qwen-SEA-LION-v5-9B-SpecDecoder",
+     "date": "2026-11-22",
+     "kind": "model",
+     "days": 1
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 6,
     "latest_repo": {
-     "name": "TagUI",
-     "url": "https://github.com/aisingapore/TagUI",
-     "pushed": "2026-11-08T21:56:20Z"
+     "name": "sealion",
+     "url": "https://github.com/aisingapore/sealion",
+     "pushed": "2026-11-23T07:11:37Z"
     }
    }
   },
@@ -1114,18 +1114,18 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-06-24",
-    "days": 146,
+    "days": 152,
     "status": "quiet",
     "latest": {
      "name": "AI-Sweden-Models/Dolci-Instruct-SFT-translated",
      "url": "https://huggingface.co/datasets/AI-Sweden-Models/Dolci-Instruct-SFT-translated",
      "date": "2026-04-10",
      "kind": "dataset",
-     "days": 221
+     "days": 227
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -1354,18 +1354,18 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-14",
-    "days": 3,
+    "days": 9,
     "status": "active",
     "latest": {
      "name": "ai21labs/LIFTBench",
      "url": "https://huggingface.co/datasets/ai21labs/LIFTBench",
      "date": "2026-10-15",
      "kind": "dataset",
-     "days": 33
+     "days": 39
     },
     "recent_repos_90d": 2,
     "latest_repo": {
@@ -1549,18 +1549,18 @@
      "chips": [
       {
        "name": "MIT",
-       "count": 18,
+       "count": 17,
+       "cls": "permissive"
+      },
+      {
+       "name": "Apache-2.0",
+       "count": 3,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
        "count": 2,
        "cls": "unstated"
-      },
-      {
-       "name": "Apache-2.0",
-       "count": 2,
-       "cls": "permissive"
       },
       {
        "name": "CC BY 4.0",
@@ -1595,7 +1595,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 91,
+     "n": 92,
      "sample": 15
     },
     "data": {
@@ -1635,10 +1635,10 @@
      "n": 93,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -1646,13 +1646,13 @@
      "url": "https://huggingface.co/datasets/ai4bharat/IndicIFBench",
      "date": "2026-10-30",
      "kind": "dataset",
-     "days": 18
+     "days": 24
     },
-    "recent_repos_90d": 10,
+    "recent_repos_90d": 13,
     "latest_repo": {
-     "name": "Shoonya-Backend",
-     "url": "https://github.com/AI4Bharat/Shoonya-Backend",
-     "pushed": "2026-11-17T04:37:44Z"
+     "name": "Anudesh-Backend",
+     "url": "https://github.com/AI4Bharat/Anudesh-Backend",
+     "pushed": "2026-11-23T08:48:12Z"
     }
    }
   },
@@ -1838,18 +1838,18 @@
      "n": 30,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-11",
-    "days": 5,
+    "last_activity": "2026-11-19",
+    "days": 4,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 7,
     "latest_repo": {
-     "name": "TreebankTools",
-     "url": "https://github.com/LUMII-AILab/TreebankTools",
-     "pushed": "2026-11-11T18:50:35Z"
+     "name": "NLP_Course",
+     "url": "https://github.com/LUMII-AILab/NLP_Course",
+     "pushed": "2026-11-19T12:16:45Z"
     }
    }
   },
@@ -2147,24 +2147,24 @@
      "n": 42,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 1,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "AIML-TUDA/COCOLogic-v2",
      "url": "https://huggingface.co/datasets/AIML-TUDA/COCOLogic-v2",
      "date": "2026-07-14",
      "kind": "dataset",
-     "days": 126
+     "days": 132
     },
     "recent_repos_90d": 3,
     "latest_repo": {
      "name": "ml-research.github.io",
      "url": "https://github.com/ml-research/ml-research.github.io",
-     "pushed": "2026-11-16T07:27:59Z"
+     "pushed": "2026-11-23T14:14:12Z"
     }
    }
   },
@@ -2423,24 +2423,24 @@
      "n": 3,
      "sample": 3
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 1,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "Aleph-Alpha/Kolibri-1-BF16",
      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1-BF16",
      "date": "2026-10-02",
      "kind": "model",
-     "days": 46
+     "days": 52
     },
-    "recent_repos_90d": 5,
+    "recent_repos_90d": 2,
     "latest_repo": {
-     "name": "pharia_data_sdk",
-     "url": "https://github.com/Aleph-Alpha/pharia_data_sdk",
-     "pushed": "2026-11-16T00:21:33Z"
+     "name": "aleph-alpha-inference",
+     "url": "https://github.com/Aleph-Alpha/aleph-alpha-inference",
+     "pushed": "2026-11-23T14:35:41Z"
     }
    }
   },
@@ -2714,24 +2714,24 @@
      "n": 29,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-14",
-    "days": 3,
+    "last_activity": "2026-11-20",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "alexandrainst/mmBERT-small-multi-wiki-qa-synthetic-hallucinations-with-ragtruth-uk",
      "url": "https://huggingface.co/alexandrainst/mmBERT-small-multi-wiki-qa-synthetic-hallucinations-with-ragtruth-uk",
      "date": "2026-07-10",
      "kind": "model",
-     "days": 129
+     "days": 136
     },
     "recent_repos_90d": 22,
     "latest_repo": {
-     "name": "sn-graph",
-     "url": "https://github.com/alexandrainst/sn-graph",
-     "pushed": "2026-11-14T04:55:12Z"
+     "name": "european_values",
+     "url": "https://github.com/alexandrainst/european_values",
+     "pushed": "2026-11-20T23:53:33Z"
     }
    }
   },
@@ -2941,16 +2941,21 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 23,
+       "count": 22,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
        "count": 2,
        "cls": "unstated"
+      },
+      {
+       "name": "Custom licence",
+       "count": 1,
+       "cls": "restricted"
       }
      ],
-     "n": 983,
+     "n": 985,
      "sample": 25
     },
     "code": {
@@ -3007,24 +3012,24 @@
      "n": 1299,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "allenai/toyblocks-data",
-     "url": "https://huggingface.co/datasets/allenai/toyblocks-data",
-     "date": "2026-11-05",
-     "kind": "dataset",
-     "days": 11
+     "name": "allenai/LitAgent-Joint-SFT-9B-lg7eae-2n",
+     "url": "https://huggingface.co/allenai/LitAgent-Joint-SFT-9B-lg7eae-2n",
+     "date": "2026-11-20",
+     "kind": "model",
+     "days": 2
     },
-    "recent_repos_90d": 53,
+    "recent_repos_90d": 59,
     "latest_repo": {
      "name": "Olmo-core",
      "url": "https://github.com/allenai/Olmo-core",
-     "pushed": "2026-11-17T09:59:35Z"
+     "pushed": "2026-11-23T14:38:00Z"
     }
    }
   },
@@ -3241,18 +3246,18 @@
      "n": 43,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-21",
-    "days": 26,
+    "days": 32,
     "status": "active",
     "latest": {
      "name": "almanach/molt-blt-660m",
      "url": "https://huggingface.co/almanach/molt-blt-660m",
      "date": "2026-10-21",
      "kind": "model",
-     "days": 26
+     "days": 32
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -3474,7 +3479,7 @@
        "cls": "unstated"
       }
      ],
-     "n": 98,
+     "n": 99,
      "sample": 15
     },
     "data": {
@@ -3499,10 +3504,10 @@
      "n": 17,
      "sample": 17
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -3510,13 +3515,13 @@
      "url": "https://huggingface.co/answerdotai/LateOn-regularized-onnx",
      "date": "2026-09-18",
      "kind": "model",
-     "days": 59
+     "days": 65
     },
-    "recent_repos_90d": 89,
+    "recent_repos_90d": 65,
     "latest_repo": {
-     "name": "mdhtml",
-     "url": "https://github.com/AnswerDotAI/mdhtml",
-     "pushed": "2026-11-17T11:21:12Z"
+     "name": "baocd",
+     "url": "https://github.com/AnswerDotAI/baocd",
+     "pushed": "2026-11-23T14:36:37Z"
     }
    }
   },
@@ -3775,10 +3780,10 @@
      "n": 9,
      "sample": 9
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -3786,13 +3791,13 @@
      "url": "https://huggingface.co/datasets/apollo-research/rl-dynamics-gradient-sketches-toy-adam5e5",
      "date": "2026-09-24",
      "kind": "dataset",
-     "days": 54
+     "days": 60
     },
     "recent_repos_90d": 0,
     "latest_repo": {
      "name": "watcher-bin",
      "url": "https://github.com/ApolloResearch/watcher-bin",
-     "pushed": "2026-11-16T15:36:44Z"
+     "pushed": "2026-11-23T11:43:48Z"
     }
    }
   },
@@ -4024,24 +4029,24 @@
      "n": 22,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-13",
-    "days": 4,
+    "last_activity": "2026-11-19",
+    "days": 3,
     "status": "active",
     "latest": {
      "name": "arcinstitute/PIE_splits",
      "url": "https://huggingface.co/datasets/arcinstitute/PIE_splits",
      "date": "2026-10-05",
      "kind": "dataset",
-     "days": 42
+     "days": 48
     },
-    "recent_repos_90d": 13,
+    "recent_repos_90d": 12,
     "latest_repo": {
-     "name": "ScreenPro2",
-     "url": "https://github.com/ArcInstitute/ScreenPro2",
-     "pushed": "2026-11-13T06:25:41Z"
+     "name": "pie",
+     "url": "https://github.com/ArcInstitute/pie",
+     "pushed": "2026-11-19T23:53:53Z"
     }
    }
   },
@@ -4234,10 +4239,10 @@
      "n": 3,
      "sample": 3
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-12",
+    "last_activity": "2026-11-19",
     "days": 4,
     "status": "active",
     "latest": {
@@ -4245,13 +4250,13 @@
      "url": "https://huggingface.co/arcprize/trm_arc_prize_verification",
      "date": "2025-10-15",
      "kind": "model",
-     "days": 397
+     "days": 403
     },
     "recent_repos_90d": 6,
     "latest_repo": {
-     "name": "arc-agi-3-benchmarking",
-     "url": "https://github.com/arcprize/arc-agi-3-benchmarking",
-     "pushed": "2026-11-12T22:21:35Z"
+     "name": "arc-agi-benchmarking",
+     "url": "https://github.com/arcprize/arc-agi-benchmarking",
+     "pushed": "2026-11-19T14:01:17Z"
     }
    }
   },
@@ -4426,12 +4431,12 @@
      "chips": [
       {
        "name": "Custom licence",
-       "count": 12,
+       "count": 11,
        "cls": "restricted"
       },
       {
        "name": "Apache-2.0",
-       "count": 9,
+       "count": 10,
        "cls": "permissive"
       },
       {
@@ -4507,24 +4512,24 @@
      "n": 63,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-21",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "arcee-ai/Trinity-Large-Thinking-NVFP4",
      "url": "https://huggingface.co/arcee-ai/Trinity-Large-Thinking-NVFP4",
      "date": "2026-04-08",
      "kind": "model",
-     "days": 222
+     "days": 228
     },
-    "recent_repos_90d": 1,
+    "recent_repos_90d": 2,
     "latest_repo": {
      "name": "nac",
      "url": "https://github.com/arcee-ai/nac",
-     "pushed": "2026-11-17T11:25:02Z"
+     "pushed": "2026-11-21T00:54:49Z"
     }
    }
   },
@@ -4738,10 +4743,10 @@
      "n": 34,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -4749,13 +4754,13 @@
      "url": "https://huggingface.co/audeering/wav2small",
      "date": "2025-08-06",
      "kind": "model",
-     "days": 467
+     "days": 473
     },
     "recent_repos_90d": 17,
     "latest_repo": {
-     "name": "audbackend",
-     "url": "https://github.com/audeering/audbackend",
-     "pushed": "2026-11-17T11:03:05Z"
+     "name": "audbcards",
+     "url": "https://github.com/audeering/audbcards",
+     "pushed": "2026-11-23T10:05:22Z"
     }
    }
   },
@@ -4953,10 +4958,10 @@
      "n": 94,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": null,
@@ -4964,7 +4969,7 @@
     "latest_repo": {
      "name": "SyntheticEvolution",
      "url": "https://github.com/automl/SyntheticEvolution",
-     "pushed": "2026-11-16T14:29:05Z"
+     "pushed": "2026-11-23T13:43:41Z"
     }
    }
   },
@@ -5185,7 +5190,7 @@
        "cls": "unstated"
       }
      ],
-     "n": 35,
+     "n": 36,
      "sample": 15
     },
     "data": {
@@ -5225,10 +5230,10 @@
      "n": 131,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -5236,13 +5241,13 @@
      "url": "https://huggingface.co/BAAI/PingPongRealWorldRL",
      "date": "2026-11-03",
      "kind": "model",
-     "days": 14
+     "days": 20
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 4,
     "latest_repo": {
      "name": "HumanCOIN-DataManager",
      "url": "https://github.com/FlagOpen/HumanCOIN-DataManager",
-     "pushed": "2026-11-17T09:20:45Z"
+     "pushed": "2026-11-23T11:43:04Z"
     }
    }
   },
@@ -5444,16 +5449,16 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 9,
+       "count": 10,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
-       "count": 6,
+       "count": 5,
        "cls": "unstated"
       }
      ],
-     "n": 15,
+     "n": 16,
      "sample": 15
     },
     "data": {
@@ -5483,10 +5488,10 @@
      "n": 27,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -5494,13 +5499,13 @@
      "url": "https://huggingface.co/datasets/bespokelabs/nimble-v4-max-decision-index",
      "date": "2026-10-18",
      "kind": "dataset",
-     "days": 29
+     "days": 35
     },
-    "recent_repos_90d": 6,
+    "recent_repos_90d": 7,
     "latest_repo": {
      "name": "sandbox-router",
      "url": "https://github.com/bespokelabsai/sandbox-router",
-     "pushed": "2026-11-17T08:33:10Z"
+     "pushed": "2026-11-23T06:31:50Z"
     }
    }
   },
@@ -5777,24 +5782,24 @@
      "n": 20,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-17",
-    "days": 0,
+    "days": 6,
     "status": "active",
     "latest": {
      "name": "bethgelab/video_saliency",
      "url": "https://huggingface.co/datasets/bethgelab/video_saliency",
      "date": "2026-10-02",
      "kind": "dataset",
-     "days": 45
+     "days": 52
     },
-    "recent_repos_90d": 4,
+    "recent_repos_90d": 5,
     "latest_repo": {
      "name": "alignment-pattern-analysis",
      "url": "https://github.com/bethgelab/alignment-pattern-analysis",
-     "pushed": "2026-11-17T08:41:18Z"
+     "pushed": "2026-11-17T13:52:48Z"
     }
    }
   },
@@ -5998,18 +6003,18 @@
      "n": 8,
      "sample": 8
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-10-07",
-    "days": 41,
+    "last_activity": "2026-11-21",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "bharatgenai/BhashaBench-Multi",
      "url": "https://huggingface.co/datasets/bharatgenai/BhashaBench-Multi",
      "date": "2026-06-05",
      "kind": "dataset",
-     "days": 165
+     "days": 171
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -6279,20 +6284,20 @@
      "n": 93,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-16",
-    "days": 0,
+    "days": 6,
     "status": "active",
     "latest": {
      "name": "bigcode/autocodearena-v0",
      "url": "https://huggingface.co/datasets/bigcode/autocodearena-v0",
      "date": "2025-09-30",
      "kind": "dataset",
-     "days": 413
+     "days": 419
     },
-    "recent_repos_90d": 1,
+    "recent_repos_90d": 2,
     "latest_repo": {
      "name": "opt-out-v2",
      "url": "https://github.com/bigcode-project/opt-out-v2",
@@ -6562,18 +6567,18 @@
      "n": 10,
      "sample": 10
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-12",
-    "days": 35,
+    "days": 41,
     "status": "active",
     "latest": {
      "name": "bigscience/bloom-7b1-petals",
      "url": "https://huggingface.co/bigscience/bloom-7b1-petals",
      "date": "2023-01-22",
      "kind": "model",
-     "days": 1395
+     "days": 1401
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -6778,18 +6783,18 @@
      "n": 3,
      "sample": 3
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-22",
-    "days": 25,
+    "days": 32,
     "status": "active",
     "latest": {
      "name": "bioptimus/H0-mini",
      "url": "https://huggingface.co/bioptimus/H0-mini",
      "date": "2025-02-26",
      "kind": "model",
-     "days": 628
+     "days": 634
     },
     "recent_repos_90d": 2,
     "latest_repo": {
@@ -6966,16 +6971,16 @@
      "chips": [
       {
        "name": "Custom licence",
-       "count": 17,
+       "count": 16,
        "cls": "restricted"
       },
       {
        "name": "Apache-2.0",
-       "count": 8,
+       "count": 9,
        "cls": "permissive"
       }
      ],
-     "n": 42,
+     "n": 43,
      "sample": 25
     },
     "code": {
@@ -7012,18 +7017,18 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 1,
+    "last_activity": "2026-11-19",
+    "days": 4,
     "status": "active",
     "latest": {
-     "name": "black-forest-labs/flux-3-image-klein-pup",
-     "url": "https://huggingface.co/black-forest-labs/flux-3-image-klein-pup",
-     "date": "2026-10-14",
+     "name": "black-forest-labs/hf-spaces-moderation-client",
+     "url": "https://huggingface.co/black-forest-labs/hf-spaces-moderation-client",
+     "date": "2026-11-16",
      "kind": "model",
-     "days": 33
+     "days": 6
     },
     "recent_repos_90d": 4,
     "latest_repo": {
@@ -7188,18 +7193,18 @@
      "n": 10,
      "sample": 10
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-05-29",
-    "days": 172,
+    "days": 178,
     "status": "quiet",
     "latest": {
      "name": "boltz-community/boltz-2",
      "url": "https://huggingface.co/boltz-community/boltz-2",
      "date": "2025-06-06",
      "kind": "model",
-     "days": 528
+     "days": 535
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -7352,10 +7357,10 @@
      "n": 51,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -7363,13 +7368,13 @@
      "url": "https://huggingface.co/browser-use/bu-30b-a3b-preview",
      "date": "2025-12-11",
      "kind": "model",
-     "days": 341
+     "days": 347
     },
-    "recent_repos_90d": 32,
+    "recent_repos_90d": 36,
     "latest_repo": {
-     "name": "sdk",
-     "url": "https://github.com/browser-use/sdk",
-     "pushed": "2026-11-17T08:40:11Z"
+     "name": "browser-use-examples",
+     "url": "https://github.com/browser-use/browser-use-examples",
+     "pushed": "2026-11-23T00:14:47Z"
     }
    }
   },
@@ -7539,7 +7544,7 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 20,
+       "count": 21,
        "cls": "permissive"
       },
       {
@@ -7551,11 +7556,6 @@
        "name": "Custom licence",
        "count": 1,
        "cls": "restricted"
-      },
-      {
-       "name": "MIT",
-       "count": 1,
-       "cls": "permissive"
       }
      ],
      "n": 104,
@@ -7625,24 +7625,24 @@
      "n": 50,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-13",
-    "days": 3,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "BSC-LT/salamandra-7b-fc-private-test",
      "url": "https://huggingface.co/BSC-LT/salamandra-7b-fc-private-test",
      "date": "2026-11-05",
      "kind": "model",
-     "days": 11
+     "days": 18
     },
     "recent_repos_90d": 10,
     "latest_repo": {
-     "name": "eloquence-interactive-playground",
-     "url": "https://github.com/langtech-bsc/eloquence-interactive-playground",
-     "pushed": "2026-11-09T13:55:42Z"
+     "name": "mt-wrapper",
+     "url": "https://github.com/langtech-bsc/mt-wrapper",
+     "pushed": "2026-11-23T13:12:06Z"
     }
    }
   },
@@ -7871,18 +7871,18 @@
      "n": 11,
      "sample": 11
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-20",
-    "days": 28,
+    "days": 34,
     "status": "active",
     "latest": {
      "name": "csebuetnlp/BanglaSocialBias",
      "url": "https://huggingface.co/datasets/csebuetnlp/BanglaSocialBias",
      "date": "2024-07-03",
      "kind": "dataset",
-     "days": 866
+     "days": 872
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -8080,7 +8080,7 @@
      "chips": [
       {
        "name": "CC BY 4.0",
-       "count": 7,
+       "count": 8,
        "cls": "permissive"
       },
       {
@@ -8089,14 +8089,14 @@
        "cls": "permissive"
       },
       {
-       "name": "Not stated",
-       "count": 6,
-       "cls": "unstated"
+       "name": "CC BY-NC 4.0",
+       "count": 5,
+       "cls": "restricted"
       },
       {
-       "name": "CC BY-NC 4.0",
+       "name": "Not stated",
        "count": 4,
-       "cls": "restricted"
+       "cls": "unstated"
       },
       {
        "name": "MIT",
@@ -8116,13 +8116,13 @@
        "cls": "unstated"
       },
       {
-       "name": "MIT",
-       "count": 4,
+       "name": "Apache-2.0",
+       "count": 5,
        "cls": "permissive"
       },
       {
-       "name": "Apache-2.0",
-       "count": 4,
+       "name": "MIT",
+       "count": 3,
        "cls": "permissive"
       },
       {
@@ -8156,24 +8156,24 @@
      "n": 11,
      "sample": 11
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-15",
-    "days": 1,
+    "last_activity": "2026-11-20",
+    "days": 3,
     "status": "active",
     "latest": {
      "name": "BUT-FIT/Pandemonium",
      "url": "https://huggingface.co/BUT-FIT/Pandemonium",
      "date": "2026-10-21",
      "kind": "model",
-     "days": 26
+     "days": 33
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 6,
     "latest_repo": {
-     "name": "besst-dataset",
-     "url": "https://github.com/BUTSpeechFIT/besst-dataset",
-     "pushed": "2026-11-15T21:20:35Z"
+     "name": "ORCA",
+     "url": "https://github.com/BUTSpeechFIT/ORCA",
+     "pushed": "2026-11-20T12:54:49Z"
     }
    }
   },
@@ -8310,18 +8310,18 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2025-12-05",
-    "days": 346,
+    "days": 352,
     "status": "quiet",
     "latest": {
      "name": "canopylabs/3b-hi-ft-research_release",
      "url": "https://huggingface.co/canopylabs/3b-hi-ft-research_release",
      "date": "2025-04-08",
      "kind": "model",
-     "days": 587
+     "days": 593
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -8537,7 +8537,7 @@
      "chips": [
       {
        "name": "Not stated",
-       "count": 7,
+       "count": 8,
        "cls": "unstated"
       },
       {
@@ -8556,8 +8556,8 @@
        "cls": "copyleft"
       }
      ],
-     "n": 13,
-     "sample": 13
+     "n": 14,
+     "sample": 14
     },
     "data": {
      "status": "restricted",
@@ -8596,24 +8596,24 @@
      "n": 18,
      "sample": 18
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-10-14",
-    "days": 33,
+    "last_activity": "2026-11-19",
+    "days": 3,
     "status": "active",
     "latest": {
      "name": "cardiffnlp/GrainWiC",
      "url": "https://huggingface.co/datasets/cardiffnlp/GrainWiC",
      "date": "2026-09-18",
      "kind": "dataset",
-     "days": 59
+     "days": 65
     },
-    "recent_repos_90d": 1,
+    "recent_repos_90d": 2,
     "latest_repo": {
      "name": "cardiffnlp.github.io",
      "url": "https://github.com/cardiffnlp/cardiffnlp.github.io",
-     "pushed": "2026-10-14T15:06:12Z"
+     "pushed": "2026-11-19T14:56:47Z"
     }
    }
   },
@@ -8762,17 +8762,12 @@
    "logo": true,
    "lic": {
     "weights": {
-     "status": "mixed",
+     "status": "open",
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 13,
+       "count": 22,
        "cls": "permissive"
-      },
-      {
-       "name": "Not stated",
-       "count": 9,
-       "cls": "unstated"
       }
      ],
      "n": 22,
@@ -8797,13 +8792,13 @@
        "cls": "permissive"
       }
      ],
-     "n": 18,
+     "n": 15,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -8811,13 +8806,13 @@
      "url": "https://huggingface.co/cartesia-ai/hnet_2stage_XL_code",
      "date": "2025-07-11",
      "kind": "model",
-     "days": 493
+     "days": 500
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 10,
     "latest_repo": {
      "name": "cartesia-mcp",
      "url": "https://github.com/cartesia-ai/cartesia-mcp",
-     "pushed": "2026-11-17T02:44:01Z"
+     "pushed": "2026-11-23T03:29:46Z"
     }
    }
   },
@@ -9040,36 +9035,41 @@
       },
       {
        "name": "Not stated",
-       "count": 4,
+       "count": 3,
        "cls": "unstated"
       },
       {
        "name": "Apache-2.0",
        "count": 2,
        "cls": "permissive"
+      },
+      {
+       "name": "CC BY 4.0",
+       "count": 1,
+       "cls": "permissive"
       }
      ],
      "n": 14,
      "sample": 14
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-12",
-    "days": 5,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "cais/hle-diamond",
      "url": "https://huggingface.co/datasets/cais/hle-diamond",
      "date": "2026-09-23",
      "kind": "dataset",
-     "days": 55
+     "days": 61
     },
     "recent_repos_90d": 4,
     "latest_repo": {
-     "name": "cheatbench",
-     "url": "https://github.com/centerforaisafety/cheatbench",
-     "pushed": "2026-11-12T06:00:38Z"
+     "name": "Intro_to_ML_Safety",
+     "url": "https://github.com/centerforaisafety/Intro_to_ML_Safety",
+     "pushed": "2026-11-23T00:22:14Z"
     }
    }
   },
@@ -9348,10 +9348,10 @@
      "n": 31,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -9359,13 +9359,13 @@
      "url": "https://huggingface.co/datasets/chcaa/eno-poetry-annotations",
      "date": "2026-11-04",
      "kind": "dataset",
-     "days": 12
+     "days": 18
     },
     "recent_repos_90d": 15,
     "latest_repo": {
-     "name": "noisy-text",
-     "url": "https://github.com/centre-for-humanities-computing/noisy-text",
-     "pushed": "2026-11-16T20:13:08Z"
+     "name": "DaCy",
+     "url": "https://github.com/centre-for-humanities-computing/DaCy",
+     "pushed": "2026-11-22T22:18:41Z"
     }
    }
   },
@@ -9517,24 +9517,24 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-10-27",
-    "days": 21,
+    "last_activity": "2026-11-19",
+    "days": 3,
     "status": "active",
     "latest": {
      "name": "chaidiscovery/chai-1",
      "url": "https://huggingface.co/chaidiscovery/chai-1",
      "date": "2024-11-27",
      "kind": "model",
-     "days": 719
+     "days": 725
     },
     "recent_repos_90d": 1,
     "latest_repo": {
      "name": "chai-lab",
      "url": "https://github.com/chaidiscovery/chai-lab",
-     "pushed": "2026-10-27T01:22:40Z"
+     "pushed": "2026-11-19T22:56:20Z"
     }
    }
   },
@@ -9829,18 +9829,18 @@
      "n": 16,
      "sample": 16
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-09",
-    "days": 7,
+    "days": 14,
     "status": "active",
     "latest": {
      "name": "cis-lmu/cs-lid-eval",
      "url": "https://huggingface.co/datasets/cis-lmu/cs-lid-eval",
      "date": "2026-11-06",
      "kind": "dataset",
-     "days": 10
+     "days": 17
     },
     "recent_repos_90d": 6,
     "latest_repo": {
@@ -10033,17 +10033,12 @@
       },
       {
        "name": "CC BY-SA 4.0",
-       "count": 5,
+       "count": 6,
        "cls": "copyleft"
       },
       {
        "name": "Apache-2.0",
        "count": 4,
-       "cls": "permissive"
-      },
-      {
-       "name": "MIT",
-       "count": 1,
        "cls": "permissive"
       }
      ],
@@ -10109,24 +10104,24 @@
      "n": 34,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 0,
+    "last_activity": "2026-11-21",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "cjvt/DASSLE_2.0",
      "url": "https://huggingface.co/datasets/cjvt/DASSLE_2.0",
      "date": "2026-09-22",
      "kind": "dataset",
-     "days": 55
+     "days": 61
     },
-    "recent_repos_90d": 8,
+    "recent_repos_90d": 9,
     "latest_repo": {
-     "name": "parlaspeech",
-     "url": "https://github.com/clarinsi/parlaspeech",
-     "pushed": "2026-11-16T12:56:34Z"
+     "name": "STARK",
+     "url": "https://github.com/clarinsi/STARK",
+     "pushed": "2026-11-21T08:48:16Z"
     }
    }
   },
@@ -10295,18 +10290,18 @@
      "n": 15,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-08-07",
-    "days": 102,
+    "days": 108,
     "status": "quiet",
     "latest": {
      "name": "ckiplab/bert-base-han-chinese-pos-xiandai",
      "url": "https://huggingface.co/ckiplab/bert-base-han-chinese-pos-xiandai",
      "date": "2023-01-13",
      "kind": "model",
-     "days": 1403
+     "days": 1409
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -10501,18 +10496,13 @@
       },
       {
        "name": "CC BY 4.0",
-       "count": 2,
+       "count": 3,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
        "count": 1,
        "cls": "unstated"
-      },
-      {
-       "name": "CC BY-NC-SA 3.0",
-       "count": 1,
-       "cls": "restricted"
       }
      ],
      "n": 186,
@@ -10582,18 +10572,18 @@
      "n": 21,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-04",
-    "days": 12,
+    "days": 18,
     "status": "active",
     "latest": {
      "name": "clarin-pl/gov-llm-as-a-judge",
      "url": "https://huggingface.co/datasets/clarin-pl/gov-llm-as-a-judge",
      "date": "2026-10-31",
      "kind": "dataset",
-     "days": 16
+     "days": 22
     },
     "recent_repos_90d": 2,
     "latest_repo": {
@@ -10847,24 +10837,24 @@
      "n": 21,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 0,
+    "last_activity": "2026-11-21",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "classla/ParlaCAP-Topic-Classifier",
      "url": "https://huggingface.co/classla/ParlaCAP-Topic-Classifier",
      "date": "2025-05-13",
      "kind": "model",
-     "days": 553
+     "days": 559
     },
-    "recent_repos_90d": 8,
+    "recent_repos_90d": 9,
     "latest_repo": {
-     "name": "parlaspeech",
-     "url": "https://github.com/clarinsi/parlaspeech",
-     "pushed": "2026-11-16T12:56:34Z"
+     "name": "STARK",
+     "url": "https://github.com/clarinsi/STARK",
+     "pushed": "2026-11-21T08:48:16Z"
     }
    }
   },
@@ -11136,24 +11126,24 @@
      "n": 44,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-09-09",
-    "days": 69,
+    "last_activity": "2026-11-20",
+    "days": 3,
     "status": "active",
     "latest": {
      "name": "clips/SynEmbedNL",
      "url": "https://huggingface.co/datasets/clips/SynEmbedNL",
      "date": "2026-04-07",
      "kind": "dataset",
-     "days": 223
+     "days": 230
     },
     "recent_repos_90d": 3,
     "latest_repo": {
-     "name": "representative_claims",
-     "url": "https://github.com/clips/representative_claims",
-     "pushed": "2026-09-09T09:33:59Z"
+     "name": "toposcope",
+     "url": "https://github.com/clips/toposcope",
+     "pushed": "2026-11-20T08:00:09Z"
     }
    }
   },
@@ -11379,24 +11369,24 @@
      "n": 91,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-11",
-    "days": 6,
+    "last_activity": "2026-11-17",
+    "days": 5,
     "status": "active",
     "latest": {
      "name": "CLTL/icf17-levels",
      "url": "https://huggingface.co/CLTL/icf17-levels",
      "date": "2025-12-30",
      "kind": "model",
-     "days": 321
+     "days": 328
     },
     "recent_repos_90d": 8,
     "latest_repo": {
-     "name": "GWC2027",
-     "url": "https://github.com/cltl/GWC2027",
-     "pushed": "2026-11-11T09:40:48Z"
+     "name": "cltl-homepage",
+     "url": "https://github.com/cltl/cltl-homepage",
+     "pushed": "2026-11-17T16:57:06Z"
     }
    }
   },
@@ -11603,24 +11593,24 @@
      "n": 12,
      "sample": 12
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-15",
-    "days": 1,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "commoncrawl/llms.txt",
      "url": "https://huggingface.co/datasets/commoncrawl/llms.txt",
      "date": "2026-08-10",
      "kind": "dataset",
-     "days": 99
+     "days": 105
     },
-    "recent_repos_90d": 19,
+    "recent_repos_90d": 17,
     "latest_repo": {
-     "name": "warc2zip",
-     "url": "https://github.com/commoncrawl/warc2zip",
-     "pushed": "2026-11-15T22:43:37Z"
+     "name": "cc-crawl-statistics",
+     "url": "https://github.com/commoncrawl/cc-crawl-statistics",
+     "pushed": "2026-11-23T12:01:37Z"
     }
    }
   },
@@ -11904,18 +11894,18 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-10",
-    "days": 37,
+    "days": 43,
     "status": "active",
     "latest": {
      "name": "CompVis/WhatMoves",
      "url": "https://huggingface.co/CompVis/WhatMoves",
      "date": "2026-09-02",
      "kind": "model",
-     "days": 75
+     "days": 82
     },
     "recent_repos_90d": 6,
     "latest_repo": {
@@ -12079,12 +12069,12 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 18,
+       "count": 19,
        "cls": "permissive"
       },
       {
        "name": "CC BY-NC-SA 4.0",
-       "count": 5,
+       "count": 4,
        "cls": "restricted"
       },
       {
@@ -12135,20 +12125,20 @@
      "n": 34,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-08-20",
-    "days": 89,
-    "status": "active",
+    "days": 95,
+    "status": "quiet",
     "latest": {
      "name": "ContextualAI/ctxl-rerank-v2-instruct-multilingual-6b-fp8",
      "url": "https://huggingface.co/ContextualAI/ctxl-rerank-v2-instruct-multilingual-6b-fp8",
      "date": "2026-04-23",
      "kind": "model",
-     "days": 208
+     "days": 214
     },
-    "recent_repos_90d": 2,
+    "recent_repos_90d": 0,
     "latest_repo": {
      "name": "contextual-client-node",
      "url": "https://github.com/ContextualAI/contextual-client-node",
@@ -12356,18 +12346,18 @@
      "n": 13,
      "sample": 13
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-10",
-    "days": 6,
+    "days": 12,
     "status": "active",
     "latest": {
      "name": "CraneAILabs/afrimed-pii-afroxlmr",
      "url": "https://huggingface.co/CraneAILabs/afrimed-pii-afroxlmr",
      "date": "2026-09-14",
      "kind": "model",
-     "days": 64
+     "days": 70
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -12567,17 +12557,22 @@
        "cls": "permissive"
       },
       {
-       "name": "Gemma terms",
-       "count": 6,
+       "name": "Custom licence",
+       "count": 3,
        "cls": "restricted"
       },
       {
        "name": "MIT",
        "count": 3,
        "cls": "permissive"
+      },
+      {
+       "name": "Gemma terms",
+       "count": 3,
+       "cls": "restricted"
       }
      ],
-     "n": 36,
+     "n": 41,
      "sample": 25
     },
     "code": {
@@ -12634,24 +12629,24 @@
      "n": 44,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "danish-foundation-models/DFM-Mimir-v1.8-Mini",
-     "url": "https://huggingface.co/danish-foundation-models/DFM-Mimir-v1.8-Mini",
-     "date": "2026-11-16",
+     "name": "danish-foundation-models/DFM-Mimir-v1.8-GGUF",
+     "url": "https://huggingface.co/danish-foundation-models/DFM-Mimir-v1.8-GGUF",
+     "date": "2026-11-23",
      "kind": "model",
      "days": 0
     },
     "recent_repos_90d": 15,
     "latest_repo": {
-     "name": "noisy-text",
-     "url": "https://github.com/centre-for-humanities-computing/noisy-text",
-     "pushed": "2026-11-16T20:13:08Z"
+     "name": "DaCy",
+     "url": "https://github.com/centre-for-humanities-computing/DaCy",
+     "pushed": "2026-11-22T22:18:41Z"
     }
    }
   },
@@ -12827,18 +12822,18 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2025-11-21",
-    "days": 360,
-    "status": "quiet",
+    "days": 367,
+    "status": "dormant",
     "latest": {
      "name": "deepcogito/cogito-671b-v2.1-FP8",
      "url": "https://huggingface.co/deepcogito/cogito-671b-v2.1-FP8",
      "date": "2025-10-25",
      "kind": "model",
-     "days": 388
+     "days": 394
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -12999,11 +12994,11 @@
      "n": 10,
      "sample": 10
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-15",
-    "days": 1,
+    "days": 7,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 1,
@@ -13249,24 +13244,24 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-13",
-    "days": 3,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "deepseek-ai/DeepSeek-V4.1-Flash-1017",
      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
      "date": "2026-10-17",
      "kind": "model",
-     "days": 31
+     "days": 37
     },
-    "recent_repos_90d": 19,
+    "recent_repos_90d": 17,
     "latest_repo": {
      "name": "chat-demo",
      "url": "https://github.com/deepseek-ai/chat-demo",
-     "pushed": "2026-11-13T14:33:08Z"
+     "pushed": "2026-11-23T10:14:13Z"
     }
    }
   },
@@ -13441,13 +13436,18 @@
       },
       {
        "name": "MIT",
-       "count": 11,
+       "count": 10,
        "cls": "permissive"
       },
       {
        "name": "Apache-2.0",
        "count": 1,
        "cls": "permissive"
+      },
+      {
+       "name": "Not stated",
+       "count": 1,
+       "cls": "unstated"
       }
      ],
      "n": 47,
@@ -13487,10 +13487,10 @@
      "n": 5,
      "sample": 5
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -13498,13 +13498,13 @@
      "url": "https://huggingface.co/datasets/deepset/stackoverflow-survey-2023-text-sql",
      "date": "2023-11-21",
      "kind": "dataset",
-     "days": 1092
+     "days": 1098
     },
     "recent_repos_90d": 12,
     "latest_repo": {
      "name": "haystack",
      "url": "https://github.com/deepset-ai/haystack",
-     "pushed": "2026-11-17T11:26:54Z"
+     "pushed": "2026-11-23T14:40:04Z"
     }
    }
   },
@@ -13741,24 +13741,24 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-18",
+    "days": 4,
     "status": "active",
     "latest": {
      "name": "DFKI/SD1.5_mitigated_memorization",
      "url": "https://huggingface.co/datasets/DFKI/SD1.5_mitigated_memorization",
      "date": "2025-10-14",
      "kind": "dataset",
-     "days": 399
+     "days": 405
     },
-    "recent_repos_90d": 4,
+    "recent_repos_90d": 5,
     "latest_repo": {
      "name": "ATIC",
      "url": "https://github.com/DFKI/ATIC",
-     "pushed": "2026-11-17T08:21:59Z"
+     "pushed": "2026-11-18T20:27:41Z"
     }
    }
   },
@@ -13940,7 +13940,7 @@
      "chips": [
       {
        "name": "CC BY 4.0",
-       "count": 12,
+       "count": 13,
        "cls": "permissive"
       },
       {
@@ -13950,7 +13950,7 @@
       },
       {
        "name": "Custom licence",
-       "count": 3,
+       "count": 2,
        "cls": "restricted"
       }
      ],
@@ -13996,18 +13996,18 @@
      "n": 5,
      "sample": 5
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-25",
-    "days": 22,
+    "days": 29,
     "status": "active",
     "latest": {
      "name": "dicta-il/wordlist",
      "url": "https://huggingface.co/datasets/dicta-il/wordlist",
      "date": "2026-08-06",
      "kind": "dataset",
-     "days": 103
+     "days": 109
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -14150,11 +14150,6 @@
        "cls": "unstated"
       },
       {
-       "name": "CC",
-       "count": 2,
-       "cls": "restricted"
-      },
-      {
        "name": "MIT",
        "count": 2,
        "cls": "permissive"
@@ -14168,6 +14163,11 @@
        "name": "CC BY-SA 4.0",
        "count": 1,
        "cls": "copyleft"
+      },
+      {
+       "name": "CC",
+       "count": 1,
+       "cls": "restricted"
       },
       {
        "name": "Custom licence",
@@ -14205,18 +14205,18 @@
      "n": 22,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-06-23",
-    "days": 147,
+    "days": 153,
     "status": "quiet",
     "latest": {
      "name": "DigitalUmuganda/Afrivoice_V2",
      "url": "https://huggingface.co/datasets/DigitalUmuganda/Afrivoice_V2",
      "date": "2026-06-23",
      "kind": "dataset",
-     "days": 147
+     "days": 153
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -14391,18 +14391,18 @@
      "n": 12,
      "sample": 12
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2025-12-30",
-    "days": 321,
+    "days": 328,
     "status": "quiet",
     "latest": {
      "name": "DTAI-KULeuven/mbert-corona-tweets-belgium-relevance",
      "url": "https://huggingface.co/DTAI-KULeuven/mbert-corona-tweets-belgium-relevance",
      "date": "2024-06-12",
      "kind": "model",
-     "days": 887
+     "days": 893
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -14680,18 +14680,18 @@
      "n": 10,
      "sample": 10
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-15",
-    "days": 1,
+    "days": 7,
     "status": "active",
     "latest": {
      "name": "EdinburghNLP/CIRCUS",
      "url": "https://huggingface.co/datasets/EdinburghNLP/CIRCUS",
      "date": "2026-11-02",
      "kind": "dataset",
-     "days": 15
+     "days": 21
     },
     "recent_repos_90d": 3,
     "latest_repo": {
@@ -14980,10 +14980,10 @@
      "n": 297,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -14991,13 +14991,13 @@
      "url": "https://huggingface.co/EleutherAI/pythia-160m-weight-seed2-corrected",
      "date": "2026-11-01",
      "kind": "model",
-     "days": 15
+     "days": 21
     },
-    "recent_repos_90d": 10,
+    "recent_repos_90d": 13,
     "latest_repo": {
-     "name": "bergson",
-     "url": "https://github.com/EleutherAI/bergson",
-     "pushed": "2026-11-17T06:37:05Z"
+     "name": "gpt-neox",
+     "url": "https://github.com/EleutherAI/gpt-neox",
+     "pushed": "2026-11-23T00:54:53Z"
     }
    }
   },
@@ -15192,24 +15192,24 @@
      "n": 39,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-11",
-    "days": 5,
+    "last_activity": "2026-11-18",
+    "days": 4,
     "status": "active",
     "latest": {
      "name": "ellamind/RefinedGAW",
      "url": "https://huggingface.co/datasets/ellamind/RefinedGAW",
      "date": "2026-08-18",
      "kind": "dataset",
-     "days": 90
+     "days": 96
     },
     "recent_repos_90d": 4,
     "latest_repo": {
-     "name": "base-eval",
-     "url": "https://github.com/ellamind/base-eval",
-     "pushed": "2026-11-11T20:57:51Z"
+     "name": "eval-hive",
+     "url": "https://github.com/ellamind/eval-hive",
+     "pushed": "2026-11-18T18:34:24Z"
     }
    }
   },
@@ -15380,18 +15380,18 @@
      "n": 16,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-10-02",
-    "days": 46,
+    "last_activity": "2026-11-17",
+    "days": 6,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 2,
     "latest_repo": {
      "name": "BigFive-LLM-Evaluation",
      "url": "https://github.com/ellisalicante/BigFive-LLM-Evaluation",
-     "pushed": "2026-10-02T10:37:15Z"
+     "pushed": "2026-11-17T13:07:32Z"
     }
    }
   },
@@ -15607,18 +15607,18 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2024-05-20",
-    "days": 910,
+    "days": 916,
     "status": "dormant",
     "latest": {
      "name": "epfl-llm/guidelines",
      "url": "https://huggingface.co/datasets/epfl-llm/guidelines",
      "date": "2023-11-21",
      "kind": "dataset",
-     "days": 1092
+     "days": 1098
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -15818,18 +15818,18 @@
      "n": 36,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-15",
-    "days": 2,
+    "last_activity": "2026-11-19",
+    "days": 3,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 14,
     "latest_repo": {
-     "name": "training-cost-trends",
-     "url": "https://github.com/epoch-research/training-cost-trends",
-     "pushed": "2026-11-15T11:12:56Z"
+     "name": "ai-chip-counts",
+     "url": "https://github.com/epoch-research/ai-chip-counts",
+     "pushed": "2026-11-19T22:59:31Z"
     }
    }
   },
@@ -16029,18 +16029,18 @@
      "n": 21,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-05-26",
-    "days": 175,
+    "days": 181,
     "status": "quiet",
     "latest": {
      "name": "EssentialAI/rnj-1.5-instruct",
      "url": "https://huggingface.co/EssentialAI/rnj-1.5-instruct",
      "date": "2026-04-22",
      "kind": "model",
-     "days": 208
+     "days": 214
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -16212,7 +16212,7 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 14,
+       "count": 15,
        "cls": "permissive"
       },
       {
@@ -16227,7 +16227,7 @@
       },
       {
        "name": "CC BY-NC 4.0",
-       "count": 2,
+       "count": 1,
        "cls": "restricted"
       }
      ],
@@ -16288,18 +16288,18 @@
      "n": 8,
      "sample": 8
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-16",
-    "days": 1,
+    "days": 7,
     "status": "active",
     "latest": {
      "name": "utter-project/VisionBlocks",
      "url": "https://huggingface.co/datasets/utter-project/VisionBlocks",
      "date": "2026-09-29",
      "kind": "dataset",
-     "days": 49
+     "days": 55
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -16523,24 +16523,24 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-22",
+    "days": 1,
     "status": "active",
     "latest": {
      "name": "explosion/ner-drugs",
      "url": "https://huggingface.co/datasets/explosion/ner-drugs",
      "date": "2023-10-23",
      "kind": "dataset",
-     "days": 1120
+     "days": 1127
     },
-    "recent_repos_90d": 23,
+    "recent_repos_90d": 24,
     "latest_repo": {
      "name": "ellf-templates",
      "url": "https://github.com/explosion/ellf-templates",
-     "pushed": "2026-11-17T11:06:22Z"
+     "pushed": "2026-11-22T11:45:43Z"
     }
    }
   },
@@ -16711,11 +16711,11 @@
      "n": 29,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-22",
-    "days": 25,
+    "days": 31,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 14,
@@ -16882,18 +16882,18 @@
      "n": 89,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-15",
-    "days": 1,
+    "last_activity": "2026-11-22",
+    "days": 0,
     "status": "active",
     "latest": null,
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 5,
     "latest_repo": {
      "name": "fastforest",
      "url": "https://github.com/fastai/fastforest",
-     "pushed": "2026-11-15T21:35:25Z"
+     "pushed": "2026-11-22T20:53:24Z"
     }
    }
   },
@@ -17163,24 +17163,24 @@
      "n": 15,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-03",
-    "days": 13,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "FBK-MT/MCIF-ST",
      "url": "https://huggingface.co/datasets/FBK-MT/MCIF-ST",
      "date": "2026-07-26",
      "kind": "dataset",
-     "days": 114
+     "days": 120
     },
-    "recent_repos_90d": 6,
+    "recent_repos_90d": 3,
     "latest_repo": {
-     "name": "mcif",
-     "url": "https://github.com/hlt-mt/mcif",
-     "pushed": "2026-11-03T16:49:57Z"
+     "name": "iwslt-modelcompression",
+     "url": "https://github.com/hlt-mt/iwslt-modelcompression",
+     "pushed": "2026-11-23T10:32:40Z"
     }
    }
   },
@@ -17336,18 +17336,18 @@
      "n": 64,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-06",
-    "days": 11,
+    "last_activity": "2026-11-19",
+    "days": 3,
     "status": "active",
     "latest": null,
-    "recent_repos_90d": 6,
+    "recent_repos_90d": 7,
     "latest_repo": {
-     "name": "DQUEST",
-     "url": "https://github.com/flowersteam/DQUEST",
-     "pushed": "2026-11-06T07:33:32Z"
+     "name": "evaluation-miaam",
+     "url": "https://github.com/flowersteam/evaluation-miaam",
+     "pushed": "2026-11-19T16:14:46Z"
     }
    }
   },
@@ -17588,10 +17588,10 @@
      "n": 6,
      "sample": 6
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -17599,13 +17599,13 @@
      "url": "https://huggingface.co/datasets/futurehouse/hle-gold-bio-chem",
      "date": "2025-07-10",
      "kind": "dataset",
-     "days": 494
+     "days": 500
     },
-    "recent_repos_90d": 1,
+    "recent_repos_90d": 3,
     "latest_repo": {
-     "name": "ldp",
-     "url": "https://github.com/Future-House/ldp",
-     "pushed": "2026-11-17T06:26:10Z"
+     "name": "aviary",
+     "url": "https://github.com/Future-House/aviary",
+     "pushed": "2026-11-23T03:11:44Z"
     }
    }
   },
@@ -17729,18 +17729,18 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-22",
-    "days": 25,
+    "days": 31,
     "status": "active",
     "latest": {
      "name": "genmo/mochi-1-preview",
      "url": "https://huggingface.co/genmo/mochi-1-preview",
      "date": "2024-10-22",
      "kind": "model",
-     "days": 756
+     "days": 762
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -17915,18 +17915,18 @@
      "n": 30,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": null,
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 11,
     "latest_repo": {
-     "name": "codeassist",
-     "url": "https://github.com/gensyn-ai/codeassist",
-     "pushed": "2026-11-16T23:52:48Z"
+     "name": "delphi-brand",
+     "url": "https://github.com/gensyn-ai/delphi-brand",
+     "pushed": "2026-11-23T13:35:45Z"
     }
    }
   },
@@ -18133,24 +18133,24 @@
      "n": 7,
      "sample": 7
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-11",
-    "days": 5,
+    "last_activity": "2026-11-19",
+    "days": 4,
     "status": "active",
     "latest": {
      "name": "Ghana-NLP/ENGLISH_TWI_PARALLEL_TEXT",
      "url": "https://huggingface.co/datasets/Ghana-NLP/ENGLISH_TWI_PARALLEL_TEXT",
      "date": "2025-11-14",
      "kind": "dataset",
-     "days": 367
+     "days": 374
     },
-    "recent_repos_90d": 16,
+    "recent_repos_90d": 14,
     "latest_repo": {
-     "name": "kasa-health",
-     "url": "https://github.com/GhanaNLP/kasa-health",
-     "pushed": "2026-11-11T19:45:17Z"
+     "name": "nsanku-mt-benchmark",
+     "url": "https://github.com/GhanaNLP/nsanku-mt-benchmark",
+     "pushed": "2026-11-19T05:34:33Z"
     }
    }
   },
@@ -18343,10 +18343,10 @@
      "n": 6,
      "sample": 6
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -18354,13 +18354,13 @@
      "url": "https://huggingface.co/datasets/giskardai/harmbench-scenarios",
      "date": "2026-06-24",
      "kind": "dataset",
-     "days": 146
+     "days": 152
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 8,
     "latest_repo": {
-     "name": "giskard-docs",
-     "url": "https://github.com/Giskard-AI/giskard-docs",
-     "pushed": "2026-11-17T03:49:27Z"
+     "name": "giskard-actions",
+     "url": "https://github.com/Giskard-AI/giskard-actions",
+     "pushed": "2026-11-23T11:17:12Z"
     }
    }
   },
@@ -18536,7 +18536,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 20,
+     "n": 22,
      "sample": 15
     },
     "data": {
@@ -18551,24 +18551,24 @@
      "n": 3,
      "sample": 3
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-10",
-    "days": 6,
+    "last_activity": "2026-11-19",
+    "days": 3,
     "status": "active",
     "latest": {
      "name": "Goodfire/reward-hack-data",
      "url": "https://huggingface.co/datasets/Goodfire/reward-hack-data",
      "date": "2026-10-08",
      "kind": "dataset",
-     "days": 39
+     "days": 45
     },
-    "recent_repos_90d": 8,
+    "recent_repos_90d": 10,
     "latest_repo": {
-     "name": "evee-plus-demo",
-     "url": "https://github.com/goodfire-ai/evee-plus-demo",
-     "pushed": "2026-11-10T16:29:42Z"
+     "name": "geometric-supervision",
+     "url": "https://github.com/goodfire-ai/geometric-supervision",
+     "pushed": "2026-11-19T15:45:58Z"
     }
    }
   },
@@ -18774,18 +18774,18 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-17",
-    "days": 31,
+    "days": 37,
     "status": "active",
     "latest": {
      "name": "gorilla-llm/gorilla-openfunctions-v2-gguf",
      "url": "https://huggingface.co/gorilla-llm/gorilla-openfunctions-v2-gguf",
      "date": "2024-03-09",
      "kind": "model",
-     "days": 983
+     "days": 989
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -18926,18 +18926,18 @@
      "n": 4,
      "sample": 4
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2025-12-16",
-    "days": 336,
+    "days": 342,
     "status": "quiet",
     "latest": {
      "name": "GPT-NL/DuidelijkeTaal-v1.0-split",
      "url": "https://huggingface.co/datasets/GPT-NL/DuidelijkeTaal-v1.0-split",
      "date": "2025-12-16",
      "kind": "dataset",
-     "days": 336
+     "days": 342
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -19100,12 +19100,12 @@
      "chips": [
       {
        "name": "Not stated",
-       "count": 22,
+       "count": 21,
        "cls": "unstated"
       },
       {
        "name": "Apache-2.0",
-       "count": 3,
+       "count": 4,
        "cls": "permissive"
       }
      ],
@@ -19149,18 +19149,18 @@
      "n": 11,
      "sample": 11
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2025-11-17",
-    "days": 364,
-    "status": "quiet",
+    "days": 371,
+    "status": "dormant",
     "latest": {
      "name": "GroNLP/squad-nl-v1.1",
      "url": "https://huggingface.co/datasets/GroNLP/squad-nl-v1.1",
      "date": "2024-12-20",
      "kind": "dataset",
-     "days": 696
+     "days": 703
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -19356,18 +19356,18 @@
      "n": 4,
      "sample": 4
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-09-28",
-    "days": 49,
+    "days": 56,
     "status": "active",
     "latest": {
      "name": "Hcompany/trajectories",
      "url": "https://huggingface.co/datasets/Hcompany/trajectories",
      "date": "2026-09-28",
      "kind": "dataset",
-     "days": 50
+     "days": 56
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -19537,7 +19537,7 @@
      "chips": [
       {
        "name": "Not stated",
-       "count": 15,
+       "count": 14,
        "cls": "unstated"
       },
       {
@@ -19552,7 +19552,7 @@
       },
       {
        "name": "Custom licence",
-       "count": 2,
+       "count": 3,
        "cls": "restricted"
       }
      ],
@@ -19603,24 +19603,24 @@
      "n": 57,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-02",
-    "days": 14,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "hazyresearch/ncm-datasets",
      "url": "https://huggingface.co/datasets/hazyresearch/ncm-datasets",
      "date": "2026-10-13",
      "kind": "dataset",
-     "days": 34
+     "days": 41
     },
-    "recent_repos_90d": 5,
+    "recent_repos_90d": 4,
     "latest_repo": {
-     "name": "joules_to_gdp",
-     "url": "https://github.com/HazyResearch/joules_to_gdp",
-     "pushed": "2026-11-02T21:33:13Z"
+     "name": "ncm",
+     "url": "https://github.com/HazyResearch/ncm",
+     "pushed": "2026-11-23T09:09:59Z"
     }
    }
   },
@@ -19810,11 +19810,11 @@
      "n": 23,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-07-14",
-    "days": 125,
+    "days": 131,
     "status": "quiet",
     "latest": null,
     "recent_repos_90d": 0,
@@ -19995,12 +19995,12 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 20,
+       "count": 21,
        "cls": "permissive"
       },
       {
        "name": "CC BY 4.0",
-       "count": 5,
+       "count": 4,
        "cls": "permissive"
       }
      ],
@@ -20071,10 +20071,10 @@
      "n": 53,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -20082,13 +20082,13 @@
      "url": "https://huggingface.co/Helsinki-NLP/mammoth-eng_spa-g3a3-l3-h4d768",
      "date": "2026-10-16",
      "kind": "model",
-     "days": 32
+     "days": 38
     },
     "recent_repos_90d": 13,
     "latest_repo": {
-     "name": "MARMoT",
-     "url": "https://github.com/Helsinki-NLP/MARMoT",
-     "pushed": "2026-11-17T11:15:30Z"
+     "name": "mammoth",
+     "url": "https://github.com/Helsinki-NLP/mammoth",
+     "pushed": "2026-11-23T14:34:16Z"
     }
    }
   },
@@ -20301,7 +20301,7 @@
        "cls": "unstated"
       }
      ],
-     "n": 178,
+     "n": 180,
      "sample": 25
     },
     "code": {
@@ -20340,14 +20340,14 @@
        "cls": "copyleft"
       },
       {
-       "name": "Not stated",
-       "count": 5,
-       "cls": "unstated"
+       "name": "CC BY 4.0",
+       "count": 4,
+       "cls": "permissive"
       },
       {
-       "name": "CC BY 4.0",
-       "count": 3,
-       "cls": "permissive"
+       "name": "Not stated",
+       "count": 4,
+       "cls": "unstated"
       },
       {
        "name": "Custom licence",
@@ -20365,21 +20365,21 @@
        "cls": "restricted"
       }
      ],
-     "n": 108,
+     "n": 109,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-13",
-    "days": 3,
+    "last_activity": "2026-11-21",
+    "days": 1,
     "status": "active",
     "latest": {
-     "name": "HiTZ/wordnet-synthetic-examples-definitions",
-     "url": "https://huggingface.co/datasets/HiTZ/wordnet-synthetic-examples-definitions",
-     "date": "2026-11-13",
-     "kind": "dataset",
-     "days": 3
+     "name": "HiTZ/Latxa-3-122B-A10B-FP8",
+     "url": "https://huggingface.co/HiTZ/Latxa-3-122B-A10B-FP8",
+     "date": "2026-11-18",
+     "kind": "model",
+     "days": 4
     },
     "recent_repos_90d": 7,
     "latest_repo": {
@@ -20615,18 +20615,18 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2024-01-20",
-    "days": 1032,
+    "days": 1038,
     "status": "dormant",
     "latest": {
      "name": "HooshvareLab/pn_summary",
      "url": "https://huggingface.co/datasets/HooshvareLab/pn_summary",
      "date": "2022-03-02",
      "kind": "dataset",
-     "days": 1720
+     "days": 1726
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -20849,10 +20849,10 @@
      "n": 1,
      "sample": 0
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -20860,13 +20860,13 @@
      "url": "https://huggingface.co/hpcai-tech/Open-Sora-v2-Video-DC-AE",
      "date": "2025-03-10",
      "kind": "model",
-     "days": 617
+     "days": 623
     },
     "recent_repos_90d": 0,
     "latest_repo": {
      "name": "ColossalAI",
      "url": "https://github.com/hpcaitech/ColossalAI",
-     "pushed": "2026-11-17T09:47:56Z"
+     "pushed": "2026-11-23T08:43:13Z"
     }
    }
   },
@@ -21128,24 +21128,24 @@
      "n": 10,
      "sample": 10
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-08",
-    "days": 8,
+    "last_activity": "2026-11-20",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "HPLT/DocHPLT-v3-clean",
      "url": "https://huggingface.co/datasets/HPLT/DocHPLT-v3-clean",
      "date": "2026-09-14",
      "kind": "dataset",
-     "days": 63
+     "days": 70
     },
     "recent_repos_90d": 4,
     "latest_repo": {
-     "name": "hplt-e",
-     "url": "https://github.com/hplt-project/hplt-e",
-     "pushed": "2026-11-08T16:29:09Z"
+     "name": "HPLT-textpipes",
+     "url": "https://github.com/hplt-project/HPLT-textpipes",
+     "pushed": "2026-11-20T17:02:56Z"
     }
    }
   },
@@ -21378,7 +21378,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 96,
+     "n": 97,
      "sample": 15
     },
     "data": {
@@ -21418,10 +21418,10 @@
      "n": 50,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -21429,13 +21429,13 @@
      "url": "https://huggingface.co/datasets/huggingface/funes-thomasmustier-pi-sessions",
      "date": "2026-11-05",
      "kind": "dataset",
-     "days": 12
+     "days": 18
     },
-    "recent_repos_90d": 36,
+    "recent_repos_90d": 62,
     "latest_repo": {
-     "name": "tokenizers",
-     "url": "https://github.com/huggingface/tokenizers",
-     "pushed": "2026-11-17T11:30:05Z"
+     "name": "transformers",
+     "url": "https://github.com/huggingface/transformers",
+     "pushed": "2026-11-23T14:41:10Z"
     }
    }
   },
@@ -21613,16 +21613,11 @@
    "logo": true,
    "lic": {
     "weights": {
-     "status": "mixed",
+     "status": "open",
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 12,
-       "cls": "permissive"
-      },
-      {
-       "name": "MIT",
-       "count": 5,
+       "count": 14,
        "cls": "permissive"
       },
       {
@@ -21631,9 +21626,9 @@
        "cls": "restricted"
       },
       {
-       "name": "Llama 2",
-       "count": 1,
-       "cls": "restricted"
+       "name": "MIT",
+       "count": 4,
+       "cls": "permissive"
       },
       {
        "name": "Llama 3.1",
@@ -21641,9 +21636,9 @@
        "cls": "restricted"
       },
       {
-       "name": "Not stated",
+       "name": "Llama 2",
        "count": 1,
-       "cls": "unstated"
+       "cls": "restricted"
       }
      ],
      "n": 42,
@@ -21723,24 +21718,24 @@
      "n": 11,
      "sample": 11
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 0,
+    "last_activity": "2026-11-18",
+    "days": 4,
     "status": "active",
     "latest": {
      "name": "NYTK/HuBoolQ",
      "url": "https://huggingface.co/datasets/NYTK/HuBoolQ",
      "date": "2026-06-16",
      "kind": "dataset",
-     "days": 154
+     "days": 160
     },
-    "recent_repos_90d": 2,
+    "recent_repos_90d": 3,
     "latest_repo": {
      "name": "hugme",
      "url": "https://github.com/nytud/hugme",
-     "pushed": "2026-11-16T16:40:15Z"
+     "pushed": "2026-11-18T16:19:53Z"
     }
    }
   },
@@ -21954,7 +21949,7 @@
        "cls": "restricted"
       }
      ],
-     "n": 57,
+     "n": 58,
      "sample": 25
     },
     "code": {
@@ -21994,24 +21989,24 @@
      "n": 83,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "Idiap/OmniHead",
-     "url": "https://huggingface.co/Idiap/OmniHead",
-     "date": "2026-09-07",
+     "name": "Idiap/HeadTracking",
+     "url": "https://huggingface.co/Idiap/HeadTracking",
+     "date": "2026-11-23",
      "kind": "model",
-     "days": 70
+     "days": 0
     },
-    "recent_repos_90d": 28,
+    "recent_repos_90d": 30,
     "latest_repo": {
-     "name": "fakehuman",
-     "url": "https://github.com/idiap/fakehuman",
-     "pushed": "2026-11-16T15:21:39Z"
+     "name": "mp-df-ds",
+     "url": "https://github.com/idiap/mp-df-ds",
+     "pushed": "2026-11-23T13:39:59Z"
     }
    }
   },
@@ -22207,13 +22202,13 @@
      "status": "open",
      "chips": [
       {
-       "name": "MIT",
-       "count": 4,
+       "name": "Apache-2.0",
+       "count": 5,
        "cls": "permissive"
       },
       {
-       "name": "Apache-2.0",
-       "count": 3,
+       "name": "MIT",
+       "count": 5,
        "cls": "permissive"
       },
       {
@@ -22222,15 +22217,15 @@
        "cls": "unstated"
       }
      ],
-     "n": 9,
-     "sample": 9
+     "n": 12,
+     "sample": 12
     },
     "code": {
      "status": "open",
      "chips": [
       {
        "name": "MIT",
-       "count": 12,
+       "count": 11,
        "cls": "permissive"
       },
       {
@@ -22242,14 +22237,24 @@
        "name": "AGPL-3.0",
        "count": 1,
        "cls": "copyleft"
+      },
+      {
+       "name": "LGPL-3.0",
+       "count": 1,
+       "cls": "copyleft"
       }
      ],
      "n": 21,
      "sample": 15
     },
     "data": {
-     "status": "mixed",
+     "status": "open",
      "chips": [
+      {
+       "name": "Apache-2.0",
+       "count": 2,
+       "cls": "permissive"
+      },
       {
        "name": "Custom licence",
        "count": 1,
@@ -22261,27 +22266,27 @@
        "cls": "permissive"
       }
      ],
-     "n": 2,
-     "sample": 2
+     "n": 4,
+     "sample": 4
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "illuin/daedalus-traces",
-     "url": "https://huggingface.co/datasets/illuin/daedalus-traces",
-     "date": "2026-10-05",
-     "kind": "dataset",
-     "days": 43
+     "name": "illuin/camembert-base",
+     "url": "https://huggingface.co/illuin/camembert-base",
+     "date": "2026-11-22",
+     "kind": "model",
+     "days": 0
     },
     "recent_repos_90d": 6,
     "latest_repo": {
-     "name": "wombat",
-     "url": "https://github.com/illuin-tech/wombat",
-     "pushed": "2026-11-17T10:51:38Z"
+     "name": "wombat-k8s",
+     "url": "https://github.com/illuin-tech/wombat-k8s",
+     "pushed": "2026-11-23T11:08:22Z"
     }
    }
   },
@@ -22448,30 +22453,30 @@
        "cls": "restricted"
       },
       {
+       "name": "CC BY 4.0",
+       "count": 2,
+       "cls": "permissive"
+      },
+      {
        "name": "Not stated",
-       "count": 3,
+       "count": 2,
        "cls": "unstated"
       },
       {
        "name": "MIT",
        "count": 1,
        "cls": "permissive"
-      },
-      {
-       "name": "CC BY 4.0",
-       "count": 1,
-       "cls": "permissive"
       }
      ],
-     "n": 55,
+     "n": 56,
      "sample": 25
     },
     "data": {
-     "status": "unstated",
+     "status": "mixed",
      "chips": [
       {
        "name": "Not stated",
-       "count": 11,
+       "count": 10,
        "cls": "unstated"
       },
       {
@@ -22500,21 +22505,21 @@
        "cls": "permissive"
       }
      ],
-     "n": 53,
+     "n": 54,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-10",
-    "days": 6,
+    "days": 13,
     "status": "active",
     "latest": {
      "name": "ilsp/mythotopia_art_visuals",
      "url": "https://huggingface.co/datasets/ilsp/mythotopia_art_visuals",
      "date": "2026-11-10",
      "kind": "dataset",
-     "days": 6
+     "days": 13
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -22748,7 +22753,7 @@
        "cls": "restricted"
       }
      ],
-     "n": 67,
+     "n": 68,
      "sample": 15
     },
     "data": {
@@ -22783,24 +22788,24 @@
      "n": 75,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-12",
-    "days": 4,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "INSAIT-Institute/LADDER-RobotArena-Long",
      "url": "https://huggingface.co/INSAIT-Institute/LADDER-RobotArena-Long",
      "date": "2026-11-11",
      "kind": "model",
-     "days": 6
+     "days": 12
     },
-    "recent_repos_90d": 27,
+    "recent_repos_90d": 26,
     "latest_repo": {
-     "name": "ladder",
-     "url": "https://github.com/insait-institute/ladder",
-     "pushed": "2026-11-12T19:33:46Z"
+     "name": "vision-website",
+     "url": "https://github.com/insait-institute/vision-website",
+     "pushed": "2026-11-23T13:24:16Z"
     }
    }
   },
@@ -23054,20 +23059,20 @@
      "n": 12,
      "sample": 12
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-16",
-    "days": 0,
+    "days": 6,
     "status": "active",
     "latest": {
      "name": "ml-jku/moleculariq-v0.0",
      "url": "https://huggingface.co/datasets/ml-jku/moleculariq-v0.0",
      "date": "2026-02-26",
      "kind": "dataset",
-     "days": 264
+     "days": 270
     },
-    "recent_repos_90d": 8,
+    "recent_repos_90d": 9,
     "latest_repo": {
      "name": "neural-gyrokinetics",
      "url": "https://github.com/ml-jku/neural-gyrokinetics",
@@ -23288,18 +23293,18 @@
      "n": 9,
      "sample": 9
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-12",
-    "days": 35,
+    "days": 41,
     "status": "active",
     "latest": {
      "name": "ipipan/llms4eu-benchmarks-inputs",
      "url": "https://huggingface.co/datasets/ipipan/llms4eu-benchmarks-inputs",
      "date": "2026-10-12",
      "kind": "dataset",
-     "days": 35
+     "days": 41
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -23442,18 +23447,18 @@
      "n": 21,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-14",
-    "days": 2,
+    "last_activity": "2026-11-22",
+    "days": 0,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 3,
     "latest_repo": {
-     "name": "mini_task_runner",
-     "url": "https://github.com/LLM360/mini_task_runner",
-     "pushed": "2026-11-14T22:39:23Z"
+     "name": "Eval360",
+     "url": "https://github.com/LLM360/Eval360",
+     "pushed": "2026-11-22T20:28:28Z"
     }
    }
   },
@@ -23631,17 +23636,17 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 14,
+       "count": 16,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
-       "count": 4,
+       "count": 3,
        "cls": "unstated"
       },
       {
        "name": "CC BY-NC 4.0",
-       "count": 4,
+       "count": 3,
        "cls": "restricted"
       },
       {
@@ -23655,7 +23660,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 38,
+     "n": 40,
      "sample": 25
     },
     "code": {
@@ -23717,18 +23722,18 @@
      "n": 80,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-21",
+    "days": 1,
     "status": "active",
     "latest": {
-     "name": "issai/Qwen3.5-4B-Kazakh-OptimizedTokenizer",
-     "url": "https://huggingface.co/issai/Qwen3.5-4B-Kazakh-OptimizedTokenizer",
+     "name": "issai/Qolda-AVL-5B-OptimizedTokenizer",
+     "url": "https://huggingface.co/issai/Qolda-AVL-5B-OptimizedTokenizer",
      "date": "2026-11-17",
      "kind": "model",
-     "days": 0
+     "days": 5
     },
     "recent_repos_90d": 10,
     "latest_repo": {
@@ -23961,18 +23966,18 @@
      "n": 7,
      "sample": 7
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-22",
-    "days": 25,
+    "days": 32,
     "status": "active",
     "latest": {
      "name": "jerteh/GeminiKnowledge-sr",
      "url": "https://huggingface.co/datasets/jerteh/GeminiKnowledge-sr",
      "date": "2025-02-20",
      "kind": "dataset",
-     "days": 634
+     "days": 640
     },
     "recent_repos_90d": 2,
     "latest_repo": {
@@ -24184,18 +24189,18 @@
      "n": 5,
      "sample": 5
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-15",
-    "days": 33,
+    "days": 39,
     "status": "active",
     "latest": {
      "name": "KBLab/svwikiqa",
      "url": "https://huggingface.co/datasets/KBLab/svwikiqa",
      "date": "2025-05-15",
      "kind": "dataset",
-     "days": 550
+     "days": 556
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -24402,7 +24407,7 @@
        "cls": "restricted"
       }
      ],
-     "n": 43,
+     "n": 44,
      "sample": 25
     },
     "code": {
@@ -24454,18 +24459,18 @@
      "n": 6,
      "sample": 6
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-09",
-    "days": 7,
+    "last_activity": "2026-11-20",
+    "days": 2,
     "status": "active",
     "latest": {
-     "name": "kinit/qwen35-9b-hyperproof-dapo-full-two-stage-reasoning-8k-gradient-reasoning-adaptive-hints",
-     "url": "https://huggingface.co/kinit/qwen35-9b-hyperproof-dapo-full-two-stage-reasoning-8k-gradient-reasoning-adaptive-hints",
-     "date": "2026-11-09",
+     "name": "kinit/qwen35-9b-hyperproof-dapo-full-two-stage-8k-gradient-reasoning-3.6k-dataset_modified-prompt",
+     "url": "https://huggingface.co/kinit/qwen35-9b-hyperproof-dapo-full-two-stage-8k-gradient-reasoning-3.6k-dataset_modified-prompt",
+     "date": "2026-11-20",
      "kind": "model",
-     "days": 7
+     "days": 2
     },
     "recent_repos_90d": 7,
     "latest_repo": {
@@ -24679,24 +24684,24 @@
      "n": 4,
      "sample": 4
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-15",
-    "days": 2,
+    "last_activity": "2026-11-18",
+    "days": 5,
     "status": "active",
     "latest": {
      "name": "kotoba-tech/kotoba-whisper-v2.2",
      "url": "https://huggingface.co/kotoba-tech/kotoba-whisper-v2.2",
      "date": "2024-10-18",
      "kind": "model",
-     "days": 759
+     "days": 765
     },
     "recent_repos_90d": 5,
     "latest_repo": {
      "name": "dotsu-ota-v2",
      "url": "https://github.com/kotoba-tech/dotsu-ota-v2",
-     "pushed": "2026-11-15T01:36:40Z"
+     "pushed": "2026-11-18T13:18:05Z"
     }
    }
   },
@@ -24935,7 +24940,7 @@
        "cls": "copyleft"
       }
      ],
-     "n": 94,
+     "n": 97,
      "sample": 25
     },
     "code": {
@@ -24957,21 +24962,21 @@
        "cls": "unstated"
       }
      ],
-     "n": 35,
+     "n": 36,
      "sample": 15
     },
     "data": {
      "status": "mixed",
      "chips": [
       {
+       "name": "CC BY-NC 4.0",
+       "count": 5,
+       "cls": "restricted"
+      },
+      {
        "name": "CC BY 4.0",
        "count": 4,
        "cls": "permissive"
-      },
-      {
-       "name": "CC BY-NC 4.0",
-       "count": 4,
-       "cls": "restricted"
       },
       {
        "name": "CC BY-NC-SA 4.0",
@@ -24994,27 +24999,27 @@
        "cls": "copyleft"
       }
      ],
-     "n": 12,
-     "sample": 12
+     "n": 13,
+     "sample": 13
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "kyutai/reki-2b-robocasa365",
-     "url": "https://huggingface.co/kyutai/reki-2b-robocasa365",
-     "date": "2026-10-05",
+     "name": "kyutai/AURA-1.3B-Teacher-TalkVerse",
+     "url": "https://huggingface.co/kyutai/AURA-1.3B-Teacher-TalkVerse",
+     "date": "2026-11-18",
      "kind": "model",
-     "days": 43
+     "days": 4
     },
-    "recent_repos_90d": 28,
+    "recent_repos_90d": 29,
     "latest_repo": {
      "name": "pocket-tts",
      "url": "https://github.com/kyutai-labs/pocket-tts",
-     "pushed": "2026-11-16T16:54:34Z"
+     "pushed": "2026-11-23T10:03:41Z"
     }
    }
   },
@@ -25225,12 +25230,12 @@
      "chips": [
       {
        "name": "MIT",
-       "count": 16,
+       "count": 15,
        "cls": "permissive"
       },
       {
        "name": "Apache-2.0",
-       "count": 5,
+       "count": 6,
        "cls": "permissive"
       },
       {
@@ -25244,7 +25249,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 1113,
+     "n": 1115,
      "sample": 25
     },
     "code": {
@@ -25275,50 +25280,50 @@
      "sample": 15
     },
     "data": {
-     "status": "mixed",
+     "status": "restricted",
      "chips": [
       {
-       "name": "CC BY 4.0",
-       "count": 8,
-       "cls": "permissive"
-      },
-      {
        "name": "Custom licence",
-       "count": 7,
+       "count": 14,
        "cls": "restricted"
       },
       {
        "name": "Not stated",
-       "count": 4,
+       "count": 3,
        "cls": "unstated"
       },
       {
-       "name": "CC BY-NC 4.0",
+       "name": "CC BY 4.0",
+       "count": 2,
+       "cls": "permissive"
+      },
+      {
+       "name": "CC BY-NC-SA 4.0",
        "count": 1,
        "cls": "restricted"
       }
      ],
-     "n": 698,
+     "n": 716,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "laion/Humaneness-Voice-Large-1.7-Singing-Experimental",
-     "url": "https://huggingface.co/laion/Humaneness-Voice-Large-1.7-Singing-Experimental",
-     "date": "2026-11-17",
-     "kind": "model",
+     "name": "laion/laion-cell-012",
+     "url": "https://huggingface.co/datasets/laion/laion-cell-012",
+     "date": "2026-11-23",
+     "kind": "dataset",
      "days": 0
     },
     "recent_repos_90d": 27,
     "latest_repo": {
-     "name": "singing-voice-data-lab",
-     "url": "https://github.com/LAION-AI/singing-voice-data-lab",
-     "pushed": "2026-11-17T07:56:56Z"
+     "name": "roar",
+     "url": "https://github.com/LAION-AI/roar",
+     "pushed": "2026-11-23T09:23:56Z"
     }
    }
   },
@@ -25552,18 +25557,18 @@
      "n": 21,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-08-24",
-    "days": 84,
+    "days": 90,
     "status": "active",
     "latest": {
      "name": "lang-uk/perestoroha-ocr",
      "url": "https://huggingface.co/datasets/lang-uk/perestoroha-ocr",
      "date": "2026-04-26",
      "kind": "dataset",
-     "days": 204
+     "days": 210
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -25737,18 +25742,18 @@
      "n": 7,
      "sample": 7
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2025-04-25",
-    "days": 571,
+    "days": 577,
     "status": "dormant",
     "latest": {
      "name": "language-and-voice-lab/talromur_e_loudnorm_xvector_finetune_fastspeech2",
      "url": "https://huggingface.co/language-and-voice-lab/talromur_e_loudnorm_xvector_finetune_fastspeech2",
      "date": "2024-03-22",
      "kind": "model",
-     "days": 969
+     "days": 975
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -26033,18 +26038,18 @@
      "n": 18,
      "sample": 18
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-12",
-    "days": 5,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "techiaith/stt_cy_parakeet_tdt_ctc_110m",
      "url": "https://huggingface.co/techiaith/stt_cy_parakeet_tdt_ctc_110m",
      "date": "2026-10-13",
      "kind": "model",
-     "days": 35
+     "days": 41
     },
     "recent_repos_90d": 5,
     "latest_repo": {
@@ -26247,12 +26252,12 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 17,
+       "count": 18,
        "cls": "permissive"
       },
       {
        "name": "CC BY 4.0",
-       "count": 5,
+       "count": 4,
        "cls": "permissive"
       },
       {
@@ -26338,10 +26343,10 @@
      "n": 31,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-22",
     "days": 0,
     "status": "active",
     "latest": {
@@ -26349,13 +26354,13 @@
      "url": "https://huggingface.co/ltg/LlamaDictionary-en_ML38BI-DPO",
      "date": "2026-10-28",
      "kind": "model",
-     "days": 20
+     "days": 26
     },
     "recent_repos_90d": 3,
     "latest_repo": {
      "name": "llm-dashboard",
      "url": "https://github.com/ltgoslo/llm-dashboard",
-     "pushed": "2026-11-17T09:55:34Z"
+     "pushed": "2026-11-22T18:36:30Z"
     }
    }
   },
@@ -26568,18 +26573,18 @@
      "n": 24,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-28",
-    "days": 19,
+    "days": 25,
     "status": "active",
     "latest": {
      "name": "latam-gpt/LatamGPT-Corpus-1.0-research",
      "url": "https://huggingface.co/datasets/latam-gpt/LatamGPT-Corpus-1.0-research",
      "date": "2026-08-31",
      "kind": "dataset",
-     "days": 77
+     "days": 84
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -26808,18 +26813,18 @@
      "n": 12,
      "sample": 12
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-08-13",
-    "days": 96,
+    "days": 102,
     "status": "quiet",
     "latest": {
      "name": "lelapa/noisy_www_general_merged_zu_10pct",
      "url": "https://huggingface.co/datasets/lelapa/noisy_www_general_merged_zu_10pct",
      "date": "2025-11-15",
      "kind": "dataset",
-     "days": 366
+     "days": 373
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -27037,10 +27042,10 @@
      "n": 6,
      "sample": 6
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -27048,13 +27053,13 @@
      "url": "https://huggingface.co/datasets/letta-ai/frontier-memory-corpus",
      "date": "2026-10-21",
      "kind": "dataset",
-     "days": 26
+     "days": 32
     },
-    "recent_repos_90d": 21,
+    "recent_repos_90d": 20,
     "latest_repo": {
      "name": "letta-code",
      "url": "https://github.com/letta-ai/letta-code",
-     "pushed": "2026-11-17T07:25:44Z"
+     "pushed": "2026-11-23T14:05:36Z"
     }
    }
   },
@@ -27272,18 +27277,18 @@
      "n": 31,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-03-14",
-    "days": 247,
+    "days": 253,
     "status": "quiet",
     "latest": {
      "name": "lightblue/DeepSeek-R1-Distill-Qwen-14B-Multilingual",
      "url": "https://huggingface.co/lightblue/DeepSeek-R1-Distill-Qwen-14B-Multilingual",
      "date": "2025-01-31",
      "kind": "model",
-     "days": 655
+     "days": 661
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -27505,8 +27510,13 @@
      "sample": 15
     },
     "data": {
-     "status": "restricted",
+     "status": "mixed",
      "chips": [
+      {
+       "name": "MIT",
+       "count": 1,
+       "cls": "permissive"
+      },
       {
        "name": "Not stated",
        "count": 1,
@@ -27518,27 +27528,27 @@
        "cls": "restricted"
       }
      ],
-     "n": 2,
-     "sample": 2
+     "n": 3,
+     "sample": 3
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "lightly-ai/coco_subset_128_images",
-     "url": "https://huggingface.co/datasets/lightly-ai/coco_subset_128_images",
-     "date": "2026-09-15",
+     "name": "lightly-ai/grand_tour_mcap_clips",
+     "url": "https://huggingface.co/datasets/lightly-ai/grand_tour_mcap_clips",
+     "date": "2026-11-05",
      "kind": "dataset",
-     "days": 62
+     "days": 18
     },
-    "recent_repos_90d": 8,
+    "recent_repos_90d": 7,
     "latest_repo": {
      "name": "lightly-studio",
      "url": "https://github.com/lightly-ai/lightly-studio",
-     "pushed": "2026-11-17T11:28:48Z"
+     "pushed": "2026-11-23T14:36:33Z"
     }
    }
   },
@@ -27693,18 +27703,18 @@
      "n": 20,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 9,
     "latest_repo": {
-     "name": "litData",
-     "url": "https://github.com/Lightning-AI/litData",
-     "pushed": "2026-11-17T09:19:04Z"
+     "name": "pytorch-lightning",
+     "url": "https://github.com/Lightning-AI/pytorch-lightning",
+     "pushed": "2026-11-23T14:35:36Z"
     }
    }
   },
@@ -27983,18 +27993,18 @@
      "n": 90,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-03",
-    "days": 13,
+    "days": 19,
     "status": "active",
     "latest": {
      "name": "lightonai/mSlideOn-sparse-vectors",
      "url": "https://huggingface.co/datasets/lightonai/mSlideOn-sparse-vectors",
      "date": "2026-10-22",
      "kind": "dataset",
-     "days": 25
+     "days": 31
     },
     "recent_repos_90d": 10,
     "latest_repo": {
@@ -28207,12 +28217,12 @@
      "chips": [
       {
        "name": "AGPL-3.0",
-       "count": 12,
+       "count": 11,
        "cls": "copyleft"
       },
       {
        "name": "MIT",
-       "count": 2,
+       "count": 3,
        "cls": "permissive"
       },
       {
@@ -28261,10 +28271,10 @@
      "n": 11,
      "sample": 11
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -28272,13 +28282,13 @@
      "url": "https://huggingface.co/linagora/dotsocr",
      "date": "2025-09-17",
      "kind": "model",
-     "days": 425
+     "days": 431
     },
-    "recent_repos_90d": 58,
+    "recent_repos_90d": 60,
     "latest_repo": {
-     "name": "twake-on-matrix",
-     "url": "https://github.com/linagora/twake-on-matrix",
-     "pushed": "2026-11-17T11:32:00Z"
+     "name": "twake-tasks",
+     "url": "https://github.com/linagora/twake-tasks",
+     "pushed": "2026-11-23T14:43:46Z"
     }
    }
   },
@@ -28494,7 +28504,7 @@
        "cls": "unstated"
       }
      ],
-     "n": 32,
+     "n": 35,
      "sample": 15
     },
     "data": {
@@ -28519,10 +28529,10 @@
      "n": 10,
      "sample": 10
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -28530,13 +28540,13 @@
      "url": "https://huggingface.co/LiquidAI/d1-Omni-2B-GGUF",
      "date": "2026-10-27",
      "kind": "model",
-     "days": 20
+     "days": 26
     },
-    "recent_repos_90d": 13,
+    "recent_repos_90d": 18,
     "latest_repo": {
-     "name": "docs",
-     "url": "https://github.com/Liquid4All/docs",
-     "pushed": "2026-11-17T07:31:56Z"
+     "name": "sglang-diffusion-lfm",
+     "url": "https://github.com/Liquid4All/sglang-diffusion-lfm",
+     "pushed": "2026-11-23T00:21:42Z"
     }
    }
   },
@@ -28695,7 +28705,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 275,
+     "n": 278,
      "sample": 25
     },
     "code": {
@@ -28730,7 +28740,7 @@
      "chips": [
       {
        "name": "Not stated",
-       "count": 8,
+       "count": 9,
        "cls": "unstated"
       },
       {
@@ -28745,17 +28755,17 @@
       },
       {
        "name": "Apache-2.0",
-       "count": 2,
+       "count": 1,
        "cls": "permissive"
       }
      ],
-     "n": 64,
+     "n": 63,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -28763,13 +28773,13 @@
      "url": "https://huggingface.co/datasets/llm-jp/simple-evals-mm-explore",
      "date": "2026-11-13",
      "kind": "dataset",
-     "days": 4
+     "days": 10
     },
-    "recent_repos_90d": 18,
+    "recent_repos_90d": 17,
     "latest_repo": {
-     "name": "simple-evals-mm",
-     "url": "https://github.com/llm-jp/simple-evals-mm",
-     "pushed": "2026-11-17T11:21:06Z"
+     "name": "awesome-japanese-llm",
+     "url": "https://github.com/llm-jp/awesome-japanese-llm",
+     "pushed": "2026-11-23T12:12:09Z"
     }
    }
   },
@@ -28998,24 +29008,24 @@
      "n": 28,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-20",
+    "days": 3,
     "status": "active",
     "latest": {
      "name": "lmarena-ai/arena-webdev-preferences",
      "url": "https://huggingface.co/datasets/lmarena-ai/arena-webdev-preferences",
      "date": "2026-11-12",
      "kind": "dataset",
-     "days": 4
+     "days": 10
     },
-    "recent_repos_90d": 0,
+    "recent_repos_90d": 1,
     "latest_repo": {
      "name": "lm-sys.github.io",
      "url": "https://github.com/lm-sys/lm-sys.github.io",
-     "pushed": "2026-11-17T11:18:28Z"
+     "pushed": "2026-11-20T02:12:49Z"
     }
    }
   },
@@ -29166,18 +29176,18 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-30",
-    "days": 17,
+    "days": 23,
     "status": "active",
     "latest": {
      "name": "Maincode/Matilda-Platypus-7B-Base",
      "url": "https://huggingface.co/Maincode/Matilda-Platypus-7B-Base",
      "date": "2026-10-28",
      "kind": "model",
-     "days": 20
+     "days": 26
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -29356,18 +29366,18 @@
      "n": 78,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-04",
-    "days": 12,
+    "last_activity": "2026-11-19",
+    "days": 4,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 9,
     "latest_repo": {
-     "name": "NaLiBaSID",
-     "url": "https://github.com/mainlp/NaLiBaSID",
-     "pushed": "2026-11-04T12:02:47Z"
+     "name": "mainlp.github.io",
+     "url": "https://github.com/mainlp/mainlp.github.io",
+     "pushed": "2026-11-19T13:01:41Z"
     }
    }
   },
@@ -29528,8 +29538,13 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 25,
+       "count": 24,
        "cls": "permissive"
+      },
+      {
+       "name": "Not stated",
+       "count": 1,
+       "cls": "unstated"
       }
      ],
      "n": 360,
@@ -29594,10 +29609,10 @@
      "n": 97,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -29605,13 +29620,13 @@
      "url": "https://huggingface.co/datasets/marin-community/Atlantic-CC-Sample",
      "date": "2026-11-03",
      "kind": "dataset",
-     "days": 14
+     "days": 20
     },
-    "recent_repos_90d": 10,
+    "recent_repos_90d": 13,
     "latest_repo": {
      "name": "marin-logbooks",
      "url": "https://github.com/marin-community/marin-logbooks",
-     "pushed": "2026-11-17T11:34:23Z"
+     "pushed": "2026-11-23T14:41:44Z"
     }
    }
   },
@@ -29856,7 +29871,7 @@
        "cls": "restricted"
       }
      ],
-     "n": 60,
+     "n": 61,
      "sample": 15
     },
     "data": {
@@ -29896,24 +29911,24 @@
      "n": 70,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 1,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "MBZUAI/MedChain-R1",
      "url": "https://huggingface.co/MBZUAI/MedChain-R1",
      "date": "2026-11-09",
      "kind": "model",
-     "days": 7
+     "days": 13
     },
     "recent_repos_90d": 29,
     "latest_repo": {
-     "name": "TerraFM",
-     "url": "https://github.com/mbzuai-oryx/TerraFM",
-     "pushed": "2026-11-13T14:12:00Z"
+     "name": "LoopedWSP",
+     "url": "https://github.com/mbzuai-oryx/LoopedWSP",
+     "pushed": "2026-11-23T14:04:15Z"
     }
    }
   },
@@ -30115,10 +30130,10 @@
      "n": 24,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -30126,13 +30141,13 @@
      "url": "https://huggingface.co/dbmdz/detectron2-v2-model",
      "date": "2023-08-28",
      "kind": "model",
-     "days": 1177
+     "days": 1183
     },
-    "recent_repos_90d": 10,
+    "recent_repos_90d": 17,
     "latest_repo": {
-     "name": "mirador-canvasnavigation",
-     "url": "https://github.com/dbmdz/mirador-canvasnavigation",
-     "pushed": "2026-11-16T23:15:46Z"
+     "name": "wolpi",
+     "url": "https://github.com/dbmdz/wolpi",
+     "pushed": "2026-11-23T13:14:48Z"
     }
    }
   },
@@ -30344,18 +30359,18 @@
      "n": 206,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-01-23",
-    "days": 298,
+    "days": 304,
     "status": "quiet",
     "latest": {
      "name": "mesolitica/Malaysian-TTS-4B-v0.1",
      "url": "https://huggingface.co/mesolitica/Malaysian-TTS-4B-v0.1",
      "date": "2025-09-03",
      "kind": "model",
-     "days": 440
+     "days": 446
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -30554,13 +30569,13 @@
        "cls": "permissive"
       }
      ],
-     "n": 33,
+     "n": 34,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": null,
@@ -30568,7 +30583,7 @@
     "latest_repo": {
      "name": "hawk",
      "url": "https://github.com/METR/hawk",
-     "pushed": "2026-11-17T11:23:48Z"
+     "pushed": "2026-11-23T14:36:25Z"
     }
    }
   },
@@ -30761,18 +30776,18 @@
      "n": 76,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": null,
-    "recent_repos_90d": 13,
+    "recent_repos_90d": 17,
     "latest_repo": {
      "name": "skills",
      "url": "https://github.com/mila-iqia/skills",
-     "pushed": "2026-11-16T21:16:50Z"
+     "pushed": "2026-11-23T14:28:53Z"
     }
    }
   },
@@ -31010,7 +31025,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 39,
+     "n": 41,
      "sample": 15
     },
     "data": {
@@ -31035,10 +31050,10 @@
      "n": 7,
      "sample": 7
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -31046,13 +31061,13 @@
      "url": "https://huggingface.co/MiniMaxAI/MiniMax-H3-Image-PE",
      "date": "2026-11-08",
      "kind": "model",
-     "days": 8
+     "days": 14
     },
-    "recent_repos_90d": 21,
+    "recent_repos_90d": 22,
     "latest_repo": {
      "name": "MiniMax-Code-MiniApps",
      "url": "https://github.com/MiniMax-AI/MiniMax-Code-MiniApps",
-     "pushed": "2026-11-17T11:31:48Z"
+     "pushed": "2026-11-23T14:10:04Z"
     }
    }
   },
@@ -31301,18 +31316,18 @@
      "n": 4,
      "sample": 4
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-17",
-    "days": 0,
+    "days": 6,
     "status": "active",
     "latest": {
      "name": "mistralai/Mistral-Large-4-1T-A52B-NVFP4",
      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B-NVFP4",
      "date": "2026-10-15",
      "kind": "model",
-     "days": 32
+     "days": 38
     },
     "recent_repos_90d": 9,
     "latest_repo": {
@@ -31519,7 +31534,7 @@
        "cls": "restricted"
       }
      ],
-     "n": 39,
+     "n": 40,
      "sample": 15
     },
     "data": {
@@ -31534,24 +31549,24 @@
      "n": 12,
      "sample": 12
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-11",
-    "days": 6,
+    "last_activity": "2026-11-20",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "mixedbread-ai/incompebench-lenient",
      "url": "https://huggingface.co/datasets/mixedbread-ai/incompebench-lenient",
      "date": "2026-02-12",
      "kind": "dataset",
-     "days": 278
+     "days": 284
     },
     "recent_repos_90d": 14,
     "latest_repo": {
-     "name": "mixedbread-labs",
-     "url": "https://github.com/mixedbread-ai/mixedbread-labs",
-     "pushed": "2026-11-11T01:41:51Z"
+     "name": "mixedbread-ts",
+     "url": "https://github.com/mixedbread-ai/mixedbread-ts",
+     "pushed": "2026-11-20T16:59:49Z"
     }
    }
   },
@@ -31820,10 +31835,10 @@
      "n": 15,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -31831,13 +31846,13 @@
      "url": "https://huggingface.co/mideind/kyutai-stt-1b-is-en",
      "date": "2026-05-29",
      "kind": "model",
-     "days": 171
+     "days": 178
     },
-    "recent_repos_90d": 9,
+    "recent_repos_90d": 8,
     "latest_repo": {
      "name": "Netskrafl",
      "url": "https://github.com/mideind/Netskrafl",
-     "pushed": "2026-11-16T11:48:27Z"
+     "pushed": "2026-11-23T12:26:57Z"
     }
    }
   },
@@ -32067,10 +32082,10 @@
      "n": 5,
      "sample": 5
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -32078,13 +32093,13 @@
      "url": "https://huggingface.co/datasets/MLCommons/unsupervised_peoples_speech",
      "date": "2023-11-10",
      "kind": "dataset",
-     "days": 1103
+     "days": 1109
     },
-    "recent_repos_90d": 30,
+    "recent_repos_90d": 34,
     "latest_repo": {
-     "name": "chakra",
-     "url": "https://github.com/mlcommons/chakra",
-     "pushed": "2026-11-17T10:39:18Z"
+     "name": "policy_fabric",
+     "url": "https://github.com/mlcommons/policy_fabric",
+     "pushed": "2026-11-23T08:37:03Z"
     }
    }
   },
@@ -32290,18 +32305,18 @@
      "n": 8,
      "sample": 8
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-05-08",
-    "days": 192,
+    "days": 199,
     "status": "quiet",
     "latest": {
      "name": "MLRS/BERTu_SentiMalti",
      "url": "https://huggingface.co/MLRS/BERTu_SentiMalti",
      "date": "2026-03-29",
      "kind": "model",
-     "days": 232
+     "days": 238
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -32445,14 +32460,14 @@
        "cls": "permissive"
       },
       {
-       "name": "CC BY 4.0",
-       "count": 2,
-       "cls": "permissive"
-      },
-      {
        "name": "Custom licence",
        "count": 2,
        "cls": "restricted"
+      },
+      {
+       "name": "CC BY 4.0",
+       "count": 2,
+       "cls": "permissive"
       }
      ],
      "n": 14,
@@ -32512,18 +32527,18 @@
      "n": 39,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-25",
-    "days": 22,
+    "days": 28,
     "status": "active",
     "latest": {
      "name": "moondream/clef-lora",
      "url": "https://huggingface.co/moondream/clef-lora",
      "date": "2026-10-19",
      "kind": "model",
-     "days": 28
+     "days": 34
     },
     "recent_repos_90d": 3,
     "latest_repo": {
@@ -32777,10 +32792,10 @@
      "n": 3,
      "sample": 3
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -32788,13 +32803,13 @@
      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
      "date": "2026-11-02",
      "kind": "model",
-     "days": 15
+     "days": 21
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 5,
     "latest_repo": {
      "name": "kimi-code",
      "url": "https://github.com/MoonshotAI/kimi-code",
-     "pushed": "2026-11-17T11:35:13Z"
+     "pushed": "2026-11-23T14:18:32Z"
     }
    }
   },
@@ -32959,18 +32974,18 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-19",
+    "days": 4,
     "status": "active",
     "latest": {
-     "name": "Motif-Technologies/agenttracer-bfcl",
-     "url": "https://huggingface.co/datasets/Motif-Technologies/agenttracer-bfcl",
+     "name": "Motif-Technologies/agenttracer-tooluse",
+     "url": "https://huggingface.co/datasets/Motif-Technologies/agenttracer-tooluse",
      "date": "2026-11-05",
      "kind": "dataset",
-     "days": 12
+     "days": 18
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -33153,7 +33168,7 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 12,
+       "count": 11,
        "cls": "permissive"
       },
       {
@@ -33209,7 +33224,7 @@
        "cls": "copyleft"
       }
      ],
-     "n": 68,
+     "n": 69,
      "sample": 15
     },
     "data": {
@@ -33224,10 +33239,10 @@
      "n": 3,
      "sample": 3
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -33235,13 +33250,13 @@
      "url": "https://huggingface.co/mozilla-ai/kmcb-v1",
      "date": "2026-09-17",
      "kind": "model",
-     "days": 60
+     "days": 67
     },
-    "recent_repos_90d": 28,
+    "recent_repos_90d": 30,
     "latest_repo": {
      "name": "otari",
      "url": "https://github.com/mozilla-ai/otari",
-     "pushed": "2026-11-17T11:29:16Z"
+     "pushed": "2026-11-23T14:42:12Z"
     }
    }
   },
@@ -33428,18 +33443,18 @@
      "n": 94,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 14,
     "latest_repo": {
-     "name": "sms-tools-materials",
-     "url": "https://github.com/MTG/sms-tools-materials",
-     "pushed": "2026-11-16T16:23:14Z"
+     "name": "freesound",
+     "url": "https://github.com/MTG/freesound",
+     "pushed": "2026-11-23T14:18:40Z"
     }
    }
   },
@@ -33639,22 +33654,17 @@
        "cls": "permissive"
       },
       {
-       "name": "Llama 3.1",
-       "count": 1,
-       "cls": "restricted"
+       "name": "Not stated",
+       "count": 2,
+       "cls": "unstated"
       },
       {
        "name": "Gemma terms",
        "count": 1,
        "cls": "restricted"
-      },
-      {
-       "name": "Not stated",
-       "count": 1,
-       "cls": "unstated"
       }
      ],
-     "n": 259,
+     "n": 258,
      "sample": 25
     },
     "code": {
@@ -33711,18 +33721,18 @@
      "n": 55,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-09",
-    "days": 7,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
-     "name": "NbAiLab/normform-nynorsk-nasjonalbiblioteknorm",
-     "url": "https://huggingface.co/datasets/NbAiLab/normform-nynorsk-nasjonalbiblioteknorm",
-     "date": "2026-11-09",
-     "kind": "dataset",
-     "days": 8
+     "name": "NbAiLab/nordlyd-asr-qwen06B-nov26preview",
+     "url": "https://huggingface.co/NbAiLab/nordlyd-asr-qwen06B-nov26preview",
+     "date": "2026-11-18",
+     "kind": "model",
+     "days": 5
     },
     "recent_repos_90d": 2,
     "latest_repo": {
@@ -33937,18 +33947,18 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-16",
-    "days": 0,
+    "days": 6,
     "status": "active",
     "latest": {
      "name": "neuphonic/neudecide",
      "url": "https://huggingface.co/neuphonic/neudecide",
      "date": "2026-10-06",
      "kind": "model",
-     "days": 42
+     "days": 48
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -34137,24 +34147,24 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-13",
-    "days": 4,
+    "last_activity": "2026-11-21",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "neuronpedia/icalens-qwen3.6-27b",
      "url": "https://huggingface.co/neuronpedia/icalens-qwen3.6-27b",
      "date": "2026-11-07",
      "kind": "model",
-     "days": 10
+     "days": 16
     },
     "recent_repos_90d": 2,
     "latest_repo": {
      "name": "neuronpedia",
      "url": "https://github.com/hijohnnylin/neuronpedia",
-     "pushed": "2026-11-13T04:46:57Z"
+     "pushed": "2026-11-21T06:07:35Z"
     }
    }
   },
@@ -34364,18 +34374,18 @@
      "n": 4,
      "sample": 4
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-09-03",
-    "days": 74,
+    "days": 80,
     "status": "active",
     "latest": {
      "name": "PORTULAN/gervasio-70b-portuguese-ptpt-decoder-quantized-4bit",
      "url": "https://huggingface.co/PORTULAN/gervasio-70b-portuguese-ptpt-decoder-quantized-4bit",
      "date": "2025-09-03",
      "kind": "model",
-     "days": 440
+     "days": 446
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -34629,18 +34639,18 @@
      "n": 32,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-10",
-    "days": 38,
+    "days": 44,
     "status": "active",
     "latest": {
      "name": "nomic-ai/aec-bench",
      "url": "https://huggingface.co/datasets/nomic-ai/aec-bench",
      "date": "2026-04-01",
      "kind": "dataset",
-     "days": 229
+     "days": 235
     },
     "recent_repos_90d": 3,
     "latest_repo": {
@@ -34806,18 +34816,18 @@
      "n": 8,
      "sample": 8
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-01-09",
-    "days": 312,
+    "days": 318,
     "status": "quiet",
     "latest": {
      "name": "NorwAI/NorwAI-Magistral-24B-reasoning",
      "url": "https://huggingface.co/NorwAI/NorwAI-Magistral-24B-reasoning",
      "date": "2025-09-10",
      "kind": "model",
-     "days": 433
+     "days": 439
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -35016,12 +35026,12 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 8,
+       "count": 9,
        "cls": "permissive"
       },
       {
        "name": "Llama 3",
-       "count": 7,
+       "count": 6,
        "cls": "restricted"
       },
       {
@@ -35087,10 +35097,10 @@
      "n": 41,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -35098,13 +35108,13 @@
      "url": "https://huggingface.co/datasets/NousResearch/arete-data-pairs",
      "date": "2026-11-06",
      "kind": "dataset",
-     "days": 10
+     "days": 16
     },
-    "recent_repos_90d": 14,
+    "recent_repos_90d": 15,
     "latest_repo": {
      "name": "hermes-agent",
      "url": "https://github.com/NousResearch/hermes-agent",
-     "pushed": "2026-11-17T11:37:36Z"
+     "pushed": "2026-11-23T14:45:47Z"
     }
    }
   },
@@ -35302,7 +35312,7 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 4,
+       "count": 3,
        "cls": "permissive"
       },
       {
@@ -35316,8 +35326,8 @@
        "cls": "unstated"
       }
      ],
-     "n": 8,
-     "sample": 8
+     "n": 7,
+     "sample": 7
     },
     "data": {
      "status": "unstated",
@@ -35336,24 +35346,24 @@
      "n": 16,
      "sample": 16
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-20",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "NovaSky-AI/DeepResearch-Data",
      "url": "https://huggingface.co/datasets/NovaSky-AI/DeepResearch-Data",
      "date": "2025-11-26",
      "kind": "dataset",
-     "days": 356
+     "days": 362
     },
     "recent_repos_90d": 3,
     "latest_repo": {
-     "name": "SkyRL",
-     "url": "https://github.com/NovaSky-AI/SkyRL",
-     "pushed": "2026-11-17T09:00:56Z"
+     "name": "skyrl-wheels",
+     "url": "https://github.com/NovaSky-AI/skyrl-wheels",
+     "pushed": "2026-11-20T20:12:38Z"
     }
    }
   },
@@ -35572,11 +35582,11 @@
    "logo": true,
    "lic": {
     "weights": {
-     "status": "restricted",
+     "status": "mixed",
      "chips": [
       {
        "name": "Custom licence",
-       "count": 18,
+       "count": 17,
        "cls": "restricted"
       },
       {
@@ -35590,17 +35600,17 @@
        "cls": "permissive"
       },
       {
-       "name": "CC BY 4.0",
-       "count": 1,
+       "name": "OpenMDW-1.1",
+       "count": 2,
        "cls": "permissive"
       },
       {
-       "name": "OpenMDW-1.1",
+       "name": "CC BY 4.0",
        "count": 1,
        "cls": "permissive"
       }
      ],
-     "n": 1059,
+     "n": 1064,
      "sample": 25
     },
     "code": {
@@ -35608,21 +35618,16 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 11,
+       "count": 12,
        "cls": "permissive"
       },
       {
        "name": "Custom licence",
        "count": 3,
        "cls": "restricted"
-      },
-      {
-       "name": "BSD-3-Clause",
-       "count": 1,
-       "cls": "permissive"
       }
      ],
-     "n": 98,
+     "n": 92,
      "sample": 15
     },
     "data": {
@@ -35635,18 +35640,18 @@
       },
       {
        "name": "Apache-2.0",
-       "count": 4,
+       "count": 5,
        "cls": "permissive"
-      },
-      {
-       "name": "Custom licence",
-       "count": 3,
-       "cls": "restricted"
       },
       {
        "name": "Not stated",
        "count": 2,
        "cls": "unstated"
+      },
+      {
+       "name": "Custom licence",
+       "count": 2,
+       "cls": "restricted"
       },
       {
        "name": "BSD-3-Clause",
@@ -35659,27 +35664,27 @@
        "cls": "permissive"
       }
      ],
-     "n": 360,
+     "n": 362,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
-     "url": "https://huggingface.co/nvidia/Qwen3.8-Flash-Next-NVFP4-QAD",
-     "date": "2026-11-17",
-     "kind": "model",
-     "days": 0
+     "name": "nvidia/ovstorage-cicd-public",
+     "url": "https://huggingface.co/datasets/nvidia/ovstorage-cicd-public",
+     "date": "2026-11-20",
+     "kind": "dataset",
+     "days": 3
     },
-    "recent_repos_90d": 4,
+    "recent_repos_90d": 23,
     "latest_repo": {
-     "name": "cuda-quantum",
-     "url": "https://github.com/NVIDIA/cuda-quantum",
-     "pushed": "2026-11-17T11:35:25Z"
+     "name": "Model-Optimizer",
+     "url": "https://github.com/NVIDIA/Model-Optimizer",
+     "pushed": "2026-11-23T14:46:50Z"
     }
    }
   },
@@ -35936,24 +35941,24 @@
      "n": 15,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 1,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "NX-AI/KronLSTM-SWA-1.5B-100B-32k",
      "url": "https://huggingface.co/NX-AI/KronLSTM-SWA-1.5B-100B-32k",
      "date": "2026-10-16",
      "kind": "model",
-     "days": 32
+     "days": 38
     },
-    "recent_repos_90d": 13,
+    "recent_repos_90d": 12,
     "latest_repo": {
      "name": "linktree",
      "url": "https://github.com/NX-AI/linktree",
-     "pushed": "2026-11-16T05:22:17Z"
+     "pushed": "2026-11-23T05:23:34Z"
     }
    }
   },
@@ -36136,11 +36141,11 @@
      "n": 8,
      "sample": 8
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-07-12",
-    "days": 128,
+    "days": 134,
     "status": "quiet",
     "latest": null,
     "recent_repos_90d": 0,
@@ -36380,18 +36385,18 @@
      "n": 6,
      "sample": 6
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2024-12-09",
-    "days": 708,
+    "days": 714,
     "status": "dormant",
     "latest": {
      "name": "occiglot/arcX",
      "url": "https://huggingface.co/datasets/occiglot/arcX",
      "date": "2024-12-06",
      "kind": "dataset",
-     "days": 710
+     "days": 716
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -36606,7 +36611,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 43,
+     "n": 44,
      "sample": 15
     },
     "data": {
@@ -36626,10 +36631,10 @@
      "n": 5,
      "sample": 5
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -36637,13 +36642,13 @@
      "url": "https://huggingface.co/openclimatefix/cloudcasting_example_models",
      "date": "2025-01-24",
      "kind": "model",
-     "days": 661
+     "days": 668
     },
-    "recent_repos_90d": 18,
+    "recent_repos_90d": 22,
     "latest_repo": {
-     "name": "site-forecast-app",
-     "url": "https://github.com/openclimatefix/site-forecast-app",
-     "pushed": "2026-11-17T11:04:08Z"
+     "name": "nged-ml-research",
+     "url": "https://github.com/openclimatefix/nged-ml-research",
+     "pushed": "2026-11-23T14:38:43Z"
     }
    }
   },
@@ -36857,18 +36862,18 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 11,
+       "count": 12,
        "cls": "permissive"
-      },
-      {
-       "name": "AGPL-3.0",
-       "count": 2,
-       "cls": "copyleft"
       },
       {
        "name": "Not stated",
        "count": 2,
        "cls": "unstated"
+      },
+      {
+       "name": "AGPL-3.0",
+       "count": 1,
+       "cls": "copyleft"
       }
      ],
      "n": 92,
@@ -36906,10 +36911,10 @@
      "n": 51,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -36917,13 +36922,13 @@
      "url": "https://huggingface.co/openbmb/MiniCPM-OCR-Jev-gguf",
      "date": "2026-10-26",
      "kind": "model",
-     "days": 22
+     "days": 28
     },
-    "recent_repos_90d": 28,
+    "recent_repos_90d": 26,
     "latest_repo": {
-     "name": "PilotDeck",
-     "url": "https://github.com/OpenBMB/PilotDeck",
-     "pushed": "2026-11-17T10:41:24Z"
+     "name": "StaffDeck",
+     "url": "https://github.com/OpenBMB/StaffDeck",
+     "pushed": "2026-11-23T11:37:44Z"
     }
    }
   },
@@ -37073,12 +37078,12 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 12,
+       "count": 10,
        "cls": "permissive"
       },
       {
        "name": "Llama 2",
-       "count": 7,
+       "count": 8,
        "cls": "restricted"
       },
       {
@@ -37088,7 +37093,7 @@
       },
       {
        "name": "Custom licence",
-       "count": 2,
+       "count": 3,
        "cls": "restricted"
       }
      ],
@@ -37149,10 +37154,10 @@
      "n": 15,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -37160,13 +37165,13 @@
      "url": "https://huggingface.co/opencsg/Agentic-27B-V2",
      "date": "2026-11-17",
      "kind": "model",
-     "days": 0
+     "days": 6
     },
-    "recent_repos_90d": 12,
+    "recent_repos_90d": 13,
     "latest_repo": {
      "name": "csglite",
      "url": "https://github.com/OpenCSGs/csglite",
-     "pushed": "2026-11-17T11:36:07Z"
+     "pushed": "2026-11-23T08:45:18Z"
     }
    }
   },
@@ -37315,12 +37320,12 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 11,
+       "count": 12,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
-       "count": 10,
+       "count": 9,
        "cls": "unstated"
       },
       {
@@ -37329,7 +37334,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 106,
+     "n": 107,
      "sample": 25
     },
     "data": {
@@ -37364,18 +37369,18 @@
      "n": 47,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-19",
+    "days": 3,
     "status": "active",
     "latest": {
-     "name": "openeurollm/EuroMultiSynth-Instruct-decontaminated-v0.1",
-     "url": "https://huggingface.co/datasets/openeurollm/EuroMultiSynth-Instruct-decontaminated-v0.1",
-     "date": "2026-11-16",
-     "kind": "dataset",
-     "days": 0
+     "name": "openeurollm/datamix-0.7b-UltraData-Stack-v3-L2-100bt",
+     "url": "https://huggingface.co/openeurollm/datamix-0.7b-UltraData-Stack-v3-L2-100bt",
+     "date": "2026-11-17",
+     "kind": "model",
+     "days": 6
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -37614,18 +37619,18 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2025-08-11",
-    "days": 462,
+    "days": 468,
     "status": "dormant",
     "latest": {
      "name": "openGPT-X/Teuken-7B-instruct-v0.6",
      "url": "https://huggingface.co/openGPT-X/Teuken-7B-instruct-v0.6",
      "date": "2025-07-28",
      "kind": "model",
-     "days": 477
+     "days": 483
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -37835,10 +37840,10 @@
      "n": 11,
      "sample": 11
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -37846,13 +37851,13 @@
      "url": "https://huggingface.co/datasets/OpenHands/openhands-index",
      "date": "2026-05-29",
      "kind": "dataset",
-     "days": 172
+     "days": 178
     },
-    "recent_repos_90d": 13,
+    "recent_repos_90d": 21,
     "latest_repo": {
-     "name": "enterprise",
-     "url": "https://github.com/OpenHands/enterprise",
-     "pushed": "2026-11-17T11:14:34Z"
+     "name": "OpenHands-Cloud",
+     "url": "https://github.com/OpenHands/OpenHands-Cloud",
+     "pushed": "2026-11-23T14:45:44Z"
     }
    }
   },
@@ -38090,10 +38095,10 @@
      "n": 19,
      "sample": 19
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -38101,13 +38106,13 @@
      "url": "https://huggingface.co/OpenLLM-France/Luciole-8B-KD-Math-Thinking-1.1-FP8",
      "date": "2026-11-05",
      "kind": "model",
-     "days": 12
+     "days": 18
     },
     "recent_repos_90d": 1,
     "latest_repo": {
      "name": "Luciole-Training",
      "url": "https://github.com/OpenLLM-France/Luciole-Training",
-     "pushed": "2026-11-17T10:47:01Z"
+     "pushed": "2026-11-23T08:36:18Z"
     }
    }
   },
@@ -38302,12 +38307,17 @@
      "chips": [
       {
        "name": "CC BY-NC 4.0",
-       "count": 23,
+       "count": 22,
        "cls": "restricted"
       },
       {
        "name": "Llama 2",
        "count": 2,
+       "cls": "restricted"
+      },
+      {
+       "name": "Llama 3.2",
+       "count": 1,
        "cls": "restricted"
       }
      ],
@@ -38353,18 +38363,18 @@
      "n": 54,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-06-12",
-    "days": 157,
+    "days": 163,
     "status": "quiet",
     "latest": {
      "name": "OpenLLM-Ro/ro_sft_cosyn",
      "url": "https://huggingface.co/datasets/OpenLLM-Ro/ro_sft_cosyn",
      "date": "2026-06-04",
      "kind": "dataset",
-     "days": 165
+     "days": 171
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -38549,16 +38559,16 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 23,
+       "count": 24,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
-       "count": 2,
+       "count": 1,
        "cls": "unstated"
       }
      ],
-     "n": 193,
+     "n": 194,
      "sample": 25
     },
     "code": {
@@ -38593,12 +38603,7 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 5,
-       "cls": "permissive"
-      },
-      {
-       "name": "MIT",
-       "count": 4,
+       "count": 6,
        "cls": "permissive"
       },
       {
@@ -38612,6 +38617,11 @@
        "cls": "unstated"
       },
       {
+       "name": "MIT",
+       "count": 3,
+       "cls": "permissive"
+      },
+      {
        "name": "CC BY 4.0",
        "count": 2,
        "cls": "permissive"
@@ -38622,27 +38632,27 @@
        "cls": "restricted"
       }
      ],
-     "n": 40,
+     "n": 42,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "OpenMOSS-Team/GTAVBench",
-     "url": "https://huggingface.co/datasets/OpenMOSS-Team/GTAVBench",
-     "date": "2026-11-08",
-     "kind": "dataset",
-     "days": 8
+     "name": "OpenMOSS-Team/VideoGym-LTX-2.3",
+     "url": "https://huggingface.co/OpenMOSS-Team/VideoGym-LTX-2.3",
+     "date": "2026-11-23",
+     "kind": "model",
+     "days": 0
     },
-    "recent_repos_90d": 27,
+    "recent_repos_90d": 26,
     "latest_repo": {
      "name": "MOVA",
      "url": "https://github.com/OpenMOSS/MOVA",
-     "pushed": "2026-11-17T08:50:59Z"
+     "pushed": "2026-11-23T08:37:13Z"
     }
    }
   },
@@ -38867,18 +38877,18 @@
      "n": 19,
      "sample": 19
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-08",
-    "days": 8,
+    "days": 15,
     "status": "active",
     "latest": {
      "name": "open-thoughts/OpenThinkerAgent-8B-ColdStartSFTForRL",
      "url": "https://huggingface.co/open-thoughts/OpenThinkerAgent-8B-ColdStartSFTForRL",
      "date": "2026-06-09",
      "kind": "model",
-     "days": 161
+     "days": 167
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -39073,7 +39083,7 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 5,
+       "count": 6,
        "cls": "permissive"
       },
       {
@@ -39082,8 +39092,8 @@
        "cls": "unstated"
       }
      ],
-     "n": 7,
-     "sample": 7
+     "n": 8,
+     "sample": 8
     },
     "data": {
      "status": "mixed",
@@ -39112,10 +39122,10 @@
      "n": 20,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -39123,13 +39133,13 @@
      "url": "https://huggingface.co/oumi-ai/banking77-intent-classifier",
      "date": "2026-07-27",
      "kind": "model",
-     "days": 112
+     "days": 118
     },
-    "recent_repos_90d": 3,
+    "recent_repos_90d": 4,
     "latest_repo": {
-     "name": "oumi",
-     "url": "https://github.com/oumi-ai/oumi",
-     "pushed": "2026-11-16T23:25:30Z"
+     "name": "oumi-plugins",
+     "url": "https://github.com/oumi-ai/oumi-plugins",
+     "pushed": "2026-11-23T14:29:05Z"
     }
    }
   },
@@ -39350,18 +39360,18 @@
      "n": 5,
      "sample": 5
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2025-05-26",
-    "days": 539,
+    "days": 545,
     "status": "dormant",
     "latest": {
      "name": "PartAI/Tooka-SBERT-V2-Small",
      "url": "https://huggingface.co/PartAI/Tooka-SBERT-V2-Small",
      "date": "2025-05-13",
      "kind": "model",
-     "days": 552
+     "days": 559
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -39603,24 +39613,24 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-15",
-    "days": 1,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "Photoroom/prxpixel-t2i",
      "url": "https://huggingface.co/Photoroom/prxpixel-t2i",
      "date": "2026-06-11",
      "kind": "model",
-     "days": 158
+     "days": 164
     },
-    "recent_repos_90d": 4,
+    "recent_repos_90d": 3,
     "latest_repo": {
      "name": "datago",
      "url": "https://github.com/Photoroom/datago",
-     "pushed": "2026-11-15T22:15:04Z"
+     "pushed": "2026-11-23T10:19:54Z"
     }
    }
   },
@@ -39853,18 +39863,18 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-01",
-    "days": 15,
+    "days": 21,
     "status": "active",
     "latest": {
      "name": "physical-intelligence/aloha_pen_uncap_diverse",
      "url": "https://huggingface.co/datasets/physical-intelligence/aloha_pen_uncap_diverse",
      "date": "2025-02-02",
      "kind": "dataset",
-     "days": 653
+     "days": 659
     },
     "recent_repos_90d": 2,
     "latest_repo": {
@@ -40043,12 +40053,12 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 24,
+       "count": 23,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
-       "count": 1,
+       "count": 2,
        "cls": "unstated"
       }
      ],
@@ -40087,8 +40097,13 @@
      "chips": [
       {
        "name": "Not stated",
-       "count": 16,
+       "count": 15,
        "cls": "unstated"
+      },
+      {
+       "name": "CC BY 4.0",
+       "count": 2,
+       "cls": "permissive"
       },
       {
        "name": "CC BY-SA 4.0",
@@ -40101,31 +40116,26 @@
        "cls": "restricted"
       },
       {
-       "name": "CC BY 4.0",
-       "count": 1,
-       "cls": "permissive"
-      },
-      {
        "name": "CC BY-NC 4.0",
        "count": 1,
        "cls": "restricted"
       }
      ],
-     "n": 62,
+     "n": 63,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-13",
-    "days": 3,
+    "last_activity": "2026-11-18",
+    "days": 4,
     "status": "active",
     "latest": {
-     "name": "PleIAs/audio_samples",
-     "url": "https://huggingface.co/datasets/PleIAs/audio_samples",
-     "date": "2026-08-07",
+     "name": "PleIAs/synth-ethics-mcq-100k",
+     "url": "https://huggingface.co/datasets/PleIAs/synth-ethics-mcq-100k",
+     "date": "2026-11-18",
      "kind": "dataset",
-     "days": 101
+     "days": 4
     },
     "recent_repos_90d": 4,
     "latest_repo": {
@@ -40292,18 +40302,18 @@
      "n": 7,
      "sample": 7
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-10-30",
-    "days": 18,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": null,
-    "recent_repos_90d": 3,
+    "recent_repos_90d": 2,
     "latest_repo": {
-     "name": "agora",
-     "url": "https://github.com/PluralisResearch/agora",
-     "pushed": "2026-10-30T00:37:32Z"
+     "name": "ProtocolNanoGPT",
+     "url": "https://github.com/PluralisResearch/ProtocolNanoGPT",
+     "pushed": "2026-11-23T05:09:43Z"
     }
    }
   },
@@ -40556,24 +40566,24 @@
      "n": 24,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-14",
-    "days": 2,
+    "last_activity": "2026-11-20",
+    "days": 3,
     "status": "active",
     "latest": {
      "name": "Polygl0t/GigaLekh-ablation-EDU-1.5B",
      "url": "https://huggingface.co/Polygl0t/GigaLekh-ablation-EDU-1.5B",
      "date": "2026-05-07",
      "kind": "model",
-     "days": 194
+     "days": 200
     },
     "recent_repos_90d": 2,
     "latest_repo": {
      "name": "llm-foundry",
      "url": "https://github.com/Polygl0t/llm-foundry",
-     "pushed": "2026-11-14T13:33:40Z"
+     "pushed": "2026-11-20T12:16:58Z"
     }
    }
   },
@@ -40839,18 +40849,18 @@
      "n": 21,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-24",
-    "days": 23,
+    "days": 29,
     "status": "active",
     "latest": {
      "name": "polymathic-ai/LORE-examples",
      "url": "https://huggingface.co/datasets/polymathic-ai/LORE-examples",
      "date": "2026-07-13",
      "kind": "dataset",
-     "days": 126
+     "days": 132
     },
     "recent_repos_90d": 5,
     "latest_repo": {
@@ -41035,12 +41045,12 @@
      "chips": [
       {
        "name": "Custom licence",
-       "count": 20,
+       "count": 21,
        "cls": "restricted"
       },
       {
        "name": "Apache-2.0",
-       "count": 5,
+       "count": 4,
        "cls": "permissive"
       }
      ],
@@ -41101,20 +41111,20 @@
      "n": 7,
      "sample": 7
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-19",
+    "days": 4,
     "status": "active",
     "latest": {
      "name": "pfnet/plamo-3-8b-fin-instruct",
      "url": "https://huggingface.co/pfnet/plamo-3-8b-fin-instruct",
      "date": "2026-11-08",
      "kind": "model",
-     "days": 8
+     "days": 15
     },
-    "recent_repos_90d": 5,
+    "recent_repos_90d": 6,
     "latest_repo": {
      "name": "kaptest",
      "url": "https://github.com/pfnet/kaptest",
@@ -41380,10 +41390,10 @@
      "n": 75,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -41391,13 +41401,13 @@
      "url": "https://huggingface.co/PrimeIntellect/DeepSeek-V4.1-Flash-bf16",
      "date": "2026-10-15",
      "kind": "model",
-     "days": 33
+     "days": 39
     },
-    "recent_repos_90d": 8,
+    "recent_repos_90d": 14,
     "latest_repo": {
      "name": "prime-rl",
      "url": "https://github.com/PrimeIntellect-ai/prime-rl",
-     "pushed": "2026-11-17T08:05:23Z"
+     "pushed": "2026-11-23T14:47:08Z"
     }
    }
   },
@@ -41578,11 +41588,11 @@
    "logo": true,
    "lic": {
     "weights": {
-     "status": "mixed",
+     "status": "unstated",
      "chips": [
       {
        "name": "Not stated",
-       "count": 13,
+       "count": 14,
        "cls": "unstated"
       },
       {
@@ -41597,7 +41607,7 @@
       },
       {
        "name": "MIT",
-       "count": 2,
+       "count": 1,
        "cls": "permissive"
       }
      ],
@@ -41648,18 +41658,18 @@
      "n": 47,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-10-27",
-    "days": 20,
+    "days": 27,
     "status": "active",
     "latest": {
      "name": "princeton-nlp/queen_pawn-8",
      "url": "https://huggingface.co/princeton-nlp/queen_pawn-8",
      "date": "2026-10-02",
      "kind": "model",
-     "days": 45
+     "days": 51
     },
     "recent_repos_90d": 2,
     "latest_repo": {
@@ -41886,10 +41896,10 @@
      "n": 13,
      "sample": 13
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -41897,13 +41907,13 @@
      "url": "https://huggingface.co/Prior-Labs/tabpfn_3_5",
      "date": "2026-09-09",
      "kind": "model",
-     "days": 68
+     "days": 74
     },
-    "recent_repos_90d": 8,
+    "recent_repos_90d": 6,
     "latest_repo": {
-     "name": "TabPFN",
-     "url": "https://github.com/PriorLabs/TabPFN",
-     "pushed": "2026-11-17T11:35:20Z"
+     "name": "tabpfn-time-series",
+     "url": "https://github.com/PriorLabs/tabpfn-time-series",
+     "pushed": "2026-11-23T14:28:19Z"
     }
    }
   },
@@ -42102,10 +42112,10 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -42113,13 +42123,13 @@
      "url": "https://huggingface.co/datasets/probabl-ai/LLM_article",
      "date": "2024-04-22",
      "kind": "dataset",
-     "days": 938
+     "days": 944
     },
-    "recent_repos_90d": 12,
+    "recent_repos_90d": 15,
     "latest_repo": {
      "name": "skore",
      "url": "https://github.com/probabl-ai/skore",
-     "pushed": "2026-11-17T11:08:11Z"
+     "pushed": "2026-11-23T14:48:13Z"
     }
    }
   },
@@ -42396,18 +42406,18 @@
      "n": 71,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-04",
-    "days": 13,
+    "days": 19,
     "status": "active",
     "latest": {
      "name": "projecte-aina/vinclat",
      "url": "https://huggingface.co/datasets/projecte-aina/vinclat",
      "date": "2026-02-03",
      "kind": "dataset",
-     "days": 286
+     "days": 292
     },
     "recent_repos_90d": 6,
     "latest_repo": {
@@ -42590,23 +42600,18 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 13,
+       "count": 15,
        "cls": "permissive"
       },
       {
        "name": "MIT",
-       "count": 9,
+       "count": 8,
        "cls": "permissive"
       },
       {
        "name": "Llama 3.1",
        "count": 2,
        "cls": "restricted"
-      },
-      {
-       "name": "Not stated",
-       "count": 1,
-       "cls": "unstated"
       }
      ],
      "n": 63,
@@ -42671,18 +42676,18 @@
      "n": 63,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-03",
-    "days": 13,
+    "days": 20,
     "status": "active",
     "latest": {
      "name": "proxectonos/Nos_StyleTTS2-Celtia-GL",
      "url": "https://huggingface.co/proxectonos/Nos_StyleTTS2-Celtia-GL",
      "date": "2026-06-30",
      "kind": "model",
-     "days": 140
+     "days": 146
     },
     "recent_repos_90d": 4,
     "latest_repo": {
@@ -42921,24 +42926,24 @@
      "n": 6,
      "sample": 6
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-12",
-    "days": 4,
+    "last_activity": "2026-11-21",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "PrunaAI/P-Q-Image-2.1-Remove-Object-Comfy",
      "url": "https://huggingface.co/PrunaAI/P-Q-Image-2.1-Remove-Object-Comfy",
      "date": "2026-11-10",
      "kind": "model",
-     "days": 6
+     "days": 12
     },
     "recent_repos_90d": 7,
     "latest_repo": {
      "name": "pruna",
      "url": "https://github.com/PrunaAI/pruna",
-     "pushed": "2026-11-09T21:55:32Z"
+     "pushed": "2026-11-21T00:06:36Z"
     }
    }
   },
@@ -43164,24 +43169,24 @@
      "n": 24,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-19",
+    "days": 3,
     "status": "active",
     "latest": {
      "name": "pyannote/speaker-diarization-community-1-cloud",
      "url": "https://huggingface.co/pyannote/speaker-diarization-community-1-cloud",
      "date": "2025-09-13",
      "kind": "model",
-     "days": 429
+     "days": 435
     },
-    "recent_repos_90d": 4,
+    "recent_repos_90d": 6,
     "latest_repo": {
      "name": "pyannote-audio",
      "url": "https://github.com/pyannote/pyannote-audio",
-     "pushed": "2026-11-17T07:51:49Z"
+     "pushed": "2026-11-19T20:40:10Z"
     }
    }
   },
@@ -43455,10 +43460,10 @@
      "n": 68,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-15",
+    "last_activity": "2026-11-21",
     "days": 2,
     "status": "active",
     "latest": {
@@ -43466,13 +43471,13 @@
      "url": "https://huggingface.co/datasets/QCRI/verivul-dataset",
      "date": "2026-11-06",
      "kind": "dataset",
-     "days": 10
+     "days": 16
     },
     "recent_repos_90d": 10,
     "latest_repo": {
-     "name": "cyber_publications",
-     "url": "https://github.com/qcri/cyber_publications",
-     "pushed": "2026-11-15T00:04:05Z"
+     "name": "codebadger",
+     "url": "https://github.com/qcri/codebadger",
+     "pushed": "2026-11-21T14:33:48Z"
     }
    }
   },
@@ -43664,24 +43669,24 @@
      "n": 4,
      "sample": 4
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-10-28",
-    "days": 20,
+    "last_activity": "2026-11-19",
+    "days": 4,
     "status": "active",
     "latest": {
      "name": "RekaAI/Reka-Inverse-Dynamics-Model",
      "url": "https://huggingface.co/RekaAI/Reka-Inverse-Dynamics-Model",
      "date": "2026-10-01",
      "kind": "model",
-     "days": 47
+     "days": 53
     },
     "recent_repos_90d": 5,
     "latest_repo": {
-     "name": "openclaw-provider-public",
-     "url": "https://github.com/reka-ai/openclaw-provider-public",
-     "pushed": "2026-10-28T08:44:19Z"
+     "name": "reka-hermes",
+     "url": "https://github.com/reka-ai/reka-hermes",
+     "pushed": "2026-11-19T04:23:43Z"
     }
    }
   },
@@ -43813,14 +43818,14 @@
        "cls": "permissive"
       },
       {
-       "name": "Apache-2.0",
+       "name": "Llama 2",
        "count": 4,
-       "cls": "permissive"
+       "cls": "restricted"
       },
       {
-       "name": "Llama 2",
+       "name": "Apache-2.0",
        "count": 3,
-       "cls": "restricted"
+       "cls": "permissive"
       },
       {
        "name": "Llama 3",
@@ -43841,18 +43846,18 @@
      "n": 61,
      "sample": 25
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2025-03-23",
-    "days": 603,
+    "days": 610,
     "status": "dormant",
     "latest": {
      "name": "rinna/qwen2.5-bakeneko-32b-instruct-v2-gptq-int4",
      "url": "https://huggingface.co/rinna/qwen2.5-bakeneko-32b-instruct-v2-gptq-int4",
      "date": "2025-03-16",
      "kind": "model",
-     "days": 610
+     "days": 616
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -44055,10 +44060,10 @@
      "n": 61,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -44066,13 +44071,13 @@
      "url": "https://huggingface.co/Roboflow/rf-detr-segmentation",
      "date": "2026-05-11",
      "kind": "model",
-     "days": 190
+     "days": 196
     },
-    "recent_repos_90d": 10,
+    "recent_repos_90d": 16,
     "latest_repo": {
      "name": "inference",
      "url": "https://github.com/roboflow/inference",
-     "pushed": "2026-11-17T08:51:26Z"
+     "pushed": "2026-11-23T14:47:27Z"
     }
    }
   },
@@ -44223,12 +44228,12 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 15,
+       "count": 13,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
-       "count": 10,
+       "count": 12,
        "cls": "unstated"
       }
      ],
@@ -44274,24 +44279,24 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 0,
+    "last_activity": "2026-11-22",
+    "days": 1,
     "status": "active",
     "latest": {
      "name": "RWKV/RWKV7-G1l-13.3B-20261031",
      "url": "https://huggingface.co/RWKV/RWKV7-G1l-13.3B-20261031",
      "date": "2026-10-31",
      "kind": "model",
-     "days": 16
+     "days": 22
     },
-    "recent_repos_90d": 0,
+    "recent_repos_90d": 1,
     "latest_repo": {
      "name": "rwkv-tracker",
      "url": "https://github.com/RWKV/rwkv-tracker",
-     "pushed": "2026-11-16T12:58:32Z"
+     "pushed": "2026-11-22T12:44:00Z"
     }
    }
   },
@@ -44478,16 +44483,16 @@
    "logo": true,
    "lic": {
     "weights": {
-     "status": "open",
+     "status": "mixed",
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 17,
+       "count": 16,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
-       "count": 2,
+       "count": 3,
        "cls": "unstated"
       },
       {
@@ -44538,7 +44543,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 62,
+     "n": 64,
      "sample": 15
     },
     "data": {
@@ -44551,7 +44556,7 @@
       },
       {
        "name": "Apache-2.0",
-       "count": 4,
+       "count": 5,
        "cls": "permissive"
       },
       {
@@ -44575,27 +44580,27 @@
        "cls": "restricted"
       }
      ],
-     "n": 19,
-     "sample": 19
+     "n": 20,
+     "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "SakanaAI/JFinBench",
-     "url": "https://huggingface.co/datasets/SakanaAI/JFinBench",
-     "date": "2026-11-16",
+     "name": "SakanaAI/coffeebench-trajectories",
+     "url": "https://huggingface.co/datasets/SakanaAI/coffeebench-trajectories",
+     "date": "2026-11-21",
      "kind": "dataset",
-     "days": 1
+     "days": 2
     },
-    "recent_repos_90d": 15,
+    "recent_repos_90d": 16,
     "latest_repo": {
-     "name": "AI-Scientist-v3",
-     "url": "https://github.com/SakanaAI/AI-Scientist-v3",
-     "pushed": "2026-11-17T11:24:08Z"
+     "name": "plastic-rnns",
+     "url": "https://github.com/SakanaAI/plastic-rnns",
+     "pushed": "2026-11-23T07:18:48Z"
     }
    }
   },
@@ -44771,7 +44776,7 @@
      "chips": [
       {
        "name": "Not stated",
-       "count": 10,
+       "count": 11,
        "cls": "unstated"
       },
       {
@@ -44785,14 +44790,14 @@
        "cls": "restricted"
       },
       {
-       "name": "CC",
-       "count": 3,
-       "cls": "restricted"
-      },
-      {
        "name": "MIT",
        "count": 2,
        "cls": "permissive"
+      },
+      {
+       "name": "CC",
+       "count": 2,
+       "cls": "restricted"
       },
       {
        "name": "CC BY-SA 4.0",
@@ -44857,18 +44862,18 @@
      "n": 40,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-02",
-    "days": 14,
+    "days": 20,
     "status": "active",
     "latest": {
      "name": "sapienzanlp/ape-bge-small",
      "url": "https://huggingface.co/sapienzanlp/ape-bge-small",
      "date": "2026-10-24",
      "kind": "model",
-     "days": 23
+     "days": 30
     },
     "recent_repos_90d": 4,
     "latest_repo": {
@@ -45035,7 +45040,7 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 10,
+       "count": 12,
        "cls": "permissive"
       },
       {
@@ -45064,8 +45069,8 @@
        "cls": "restricted"
       }
      ],
-     "n": 15,
-     "sample": 15
+     "n": 17,
+     "sample": 17
     },
     "code": {
      "status": "mixed",
@@ -45098,12 +45103,12 @@
        "cls": "unstated"
       },
       {
-       "name": "CC BY 4.0",
-       "count": 3,
+       "name": "Apache-2.0",
+       "count": 4,
        "cls": "permissive"
       },
       {
-       "name": "Apache-2.0",
+       "name": "CC BY 4.0",
        "count": 3,
        "cls": "permissive"
       },
@@ -45123,27 +45128,27 @@
        "cls": "copyleft"
       }
      ],
-     "n": 17,
-     "sample": 17
+     "n": 18,
+     "sample": 18
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-13",
-    "days": 3,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
-     "name": "sarvamai/prism",
-     "url": "https://huggingface.co/sarvamai/prism",
-     "date": "2026-11-02",
-     "kind": "model",
-     "days": 15
+     "name": "sarvamai/samvaad-bench-v2.1",
+     "url": "https://huggingface.co/datasets/sarvamai/samvaad-bench-v2.1",
+     "date": "2026-11-21",
+     "kind": "dataset",
+     "days": 2
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 6,
     "latest_repo": {
-     "name": "skills",
-     "url": "https://github.com/sarvamai/skills",
-     "pushed": "2026-11-13T15:42:41Z"
+     "name": "sarvam-mcp",
+     "url": "https://github.com/sarvamai/sarvam-mcp",
+     "pushed": "2026-11-23T10:35:36Z"
     }
    }
   },
@@ -45312,24 +45317,24 @@
      "n": 3,
      "sample": 3
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-15",
-    "days": 2,
+    "last_activity": "2026-11-22",
+    "days": 1,
     "status": "active",
     "latest": {
      "name": "sesame/csm-1b",
      "url": "https://huggingface.co/sesame/csm-1b",
      "date": "2025-03-06",
      "kind": "model",
-     "days": 620
+     "days": 626
     },
     "recent_repos_90d": 2,
     "latest_repo": {
      "name": "link",
      "url": "https://github.com/SesameAILabs/link",
-     "pushed": "2026-11-15T04:41:51Z"
+     "pushed": "2026-11-22T04:45:56Z"
     }
    }
   },
@@ -45493,12 +45498,12 @@
      "chips": [
       {
        "name": "Custom licence",
-       "count": 14,
+       "count": 13,
        "cls": "restricted"
       },
       {
        "name": "Apache-2.0",
-       "count": 9,
+       "count": 10,
        "cls": "permissive"
       },
       {
@@ -45569,10 +45574,10 @@
      "n": 27,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -45580,13 +45585,13 @@
      "url": "https://huggingface.co/internlm/Sage-S2.1-Flash",
      "date": "2026-11-15",
      "kind": "model",
-     "days": 2
+     "days": 8
     },
-    "recent_repos_90d": 17,
+    "recent_repos_90d": 19,
     "latest_repo": {
      "name": "lmdeploy",
      "url": "https://github.com/InternLM/lmdeploy",
-     "pushed": "2026-11-17T08:29:21Z"
+     "pushed": "2026-11-23T11:01:58Z"
     }
    }
   },
@@ -45794,7 +45799,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 70,
+     "n": 69,
      "sample": 15
     },
     "data": {
@@ -45834,10 +45839,10 @@
      "n": 10,
      "sample": 10
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -45845,13 +45850,13 @@
      "url": "https://huggingface.co/datasets/softcatala/mantinc-catalan-drift",
      "date": "2026-09-03",
      "kind": "dataset",
-     "days": 74
+     "days": 80
     },
-    "recent_repos_90d": 16,
+    "recent_repos_90d": 17,
     "latest_repo": {
-     "name": "arena-cat",
-     "url": "https://github.com/Softcatala/arena-cat",
-     "pushed": "2026-11-17T06:48:40Z"
+     "name": "nmt-softcatala",
+     "url": "https://github.com/Softcatala/nmt-softcatala",
+     "pushed": "2026-11-23T13:36:03Z"
     }
    }
   },
@@ -46033,21 +46038,16 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 21,
+       "count": 22,
        "cls": "permissive"
       },
       {
        "name": "CC BY-NC 4.0",
        "count": 3,
        "cls": "restricted"
-      },
-      {
-       "name": "Not stated",
-       "count": 1,
-       "cls": "unstated"
       }
      ],
-     "n": 127,
+     "n": 129,
      "sample": 25
     },
     "code": {
@@ -46084,24 +46084,24 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-22",
+    "days": 1,
     "status": "active",
     "latest": {
-     "name": "speakleash/Bielik-11B-v3.0-Instruct-NVFP4A16",
-     "url": "https://huggingface.co/speakleash/Bielik-11B-v3.0-Instruct-NVFP4A16",
-     "date": "2026-11-16",
+     "name": "speakleash/Bielik-PL-11B-v3.0-Instruct-GGUF",
+     "url": "https://huggingface.co/speakleash/Bielik-PL-11B-v3.0-Instruct-GGUF",
+     "date": "2026-11-20",
      "kind": "model",
-     "days": 1
+     "days": 3
     },
-    "recent_repos_90d": 2,
+    "recent_repos_90d": 4,
     "latest_repo": {
-     "name": "bielik-one",
-     "url": "https://github.com/speakleash/bielik-one",
-     "pushed": "2026-11-17T09:14:23Z"
+     "name": "European-LLM-download-leaderboard",
+     "url": "https://github.com/speakleash/European-LLM-download-leaderboard",
+     "pushed": "2026-11-22T14:24:51Z"
     }
    }
   },
@@ -46271,18 +46271,18 @@
      "n": 91,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": null,
-    "recent_repos_90d": 41,
+    "recent_repos_90d": 42,
     "latest_repo": {
-     "name": "metadata",
-     "url": "https://github.com/spraakbanken/metadata",
-     "pushed": "2026-11-17T08:52:17Z"
+     "name": "sparv",
+     "url": "https://github.com/spraakbanken/sparv",
+     "pushed": "2026-11-23T14:26:26Z"
     }
    }
   },
@@ -46452,18 +46452,18 @@
      "n": 97,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 0,
+    "last_activity": "2026-11-21",
+    "days": 2,
     "status": "active",
     "latest": null,
-    "recent_repos_90d": 21,
+    "recent_repos_90d": 22,
     "latest_repo": {
-     "name": "baxbench-website",
-     "url": "https://github.com/eth-sri/baxbench-website",
-     "pushed": "2026-11-16T17:43:50Z"
+     "name": "leanlean-october",
+     "url": "https://github.com/eth-sri/leanlean-october",
+     "pushed": "2026-11-21T08:31:50Z"
     }
    }
   },
@@ -46685,7 +46685,7 @@
        "cls": "copyleft"
       }
      ],
-     "n": 119,
+     "n": 120,
      "sample": 25
     },
     "code": {
@@ -46715,24 +46715,24 @@
      "n": 50,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-09",
-    "days": 7,
+    "last_activity": "2026-11-17",
+    "days": 5,
     "status": "active",
     "latest": {
-     "name": "stabilityai/sdxl-base-amdnpu-medusa",
-     "url": "https://huggingface.co/stabilityai/sdxl-base-amdnpu-medusa",
-     "date": "2026-10-26",
+     "name": "stabilityai/sdxl-turbo-amdnpu-medusa",
+     "url": "https://huggingface.co/stabilityai/sdxl-turbo-amdnpu-medusa",
+     "date": "2026-11-09",
      "kind": "model",
-     "days": 21
+     "days": 14
     },
     "recent_repos_90d": 6,
     "latest_repo": {
-     "name": "stable-audio-3",
-     "url": "https://github.com/Stability-AI/stable-audio-3",
-     "pushed": "2026-11-02T20:29:06Z"
+     "name": "Awesome-Stable-Audio",
+     "url": "https://github.com/Stability-AI/Awesome-Stable-Audio",
+     "pushed": "2026-11-17T17:21:36Z"
     }
    }
   },
@@ -46982,18 +46982,18 @@
      "n": 9,
      "sample": 9
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-09-01",
-    "days": 77,
+    "days": 83,
     "status": "active",
     "latest": {
      "name": "stanford-crfm/arabic-enterprise",
      "url": "https://huggingface.co/datasets/stanford-crfm/arabic-enterprise",
      "date": "2026-04-20",
      "kind": "dataset",
-     "days": 210
+     "days": 216
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -47288,24 +47288,24 @@
      "n": 18,
      "sample": 18
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-15",
-    "days": 1,
+    "last_activity": "2026-11-23",
+    "days": 0,
     "status": "active",
     "latest": {
      "name": "stanfordnlp/stanza-yrl",
      "url": "https://huggingface.co/stanfordnlp/stanza-yrl",
      "date": "2026-09-29",
      "kind": "model",
-     "days": 48
+     "days": 54
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 6,
     "latest_repo": {
-     "name": "stanza",
-     "url": "https://github.com/stanfordnlp/stanza",
-     "pushed": "2026-11-15T23:10:39Z"
+     "name": "CoreNLP",
+     "url": "https://github.com/stanfordnlp/CoreNLP",
+     "pushed": "2026-11-23T09:19:40Z"
     }
    }
   },
@@ -47555,24 +47555,24 @@
      "n": 13,
      "sample": 13
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-14",
-    "days": 3,
+    "last_activity": "2026-11-21",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "stepfun-ai/Step-5-Preview-NVFP4",
      "url": "https://huggingface.co/stepfun-ai/Step-5-Preview-NVFP4",
      "date": "2026-10-14",
      "kind": "model",
-     "days": 34
+     "days": 40
     },
     "recent_repos_90d": 4,
     "latest_repo": {
      "name": "Step-Code",
      "url": "https://github.com/stepfun-ai/Step-Code",
-     "pushed": "2026-11-14T09:55:26Z"
+     "pushed": "2026-11-21T03:57:18Z"
     }
    }
   },
@@ -47790,18 +47790,18 @@
      "n": 5,
      "sample": 5
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-08-10",
-    "days": 99,
+    "days": 105,
     "status": "quiet",
     "latest": {
      "name": "stockmark/Stockmark-Nemotron-3-Nano-Omni-JapanDocReader-FP8",
      "url": "https://huggingface.co/stockmark/Stockmark-Nemotron-3-Nano-Omni-JapanDocReader-FP8",
      "date": "2026-07-29",
      "kind": "model",
-     "days": 111
+     "days": 117
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -48083,18 +48083,18 @@
      "n": 19,
      "sample": 19
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-10",
-    "days": 6,
+    "days": 13,
     "status": "active",
     "latest": {
      "name": "tokyotech-llm/Medical-GPT-OSS-Swallow-120B",
      "url": "https://huggingface.co/tokyotech-llm/Medical-GPT-OSS-Swallow-120B",
      "date": "2026-06-10",
      "kind": "model",
-     "days": 160
+     "days": 166
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -48267,7 +48267,7 @@
      "chips": [
       {
        "name": "Llama 2",
-       "count": 8,
+       "count": 9,
        "cls": "restricted"
       },
       {
@@ -48277,12 +48277,12 @@
       },
       {
        "name": "Not stated",
-       "count": 5,
+       "count": 6,
        "cls": "unstated"
       },
       {
        "name": "Llama 3.1",
-       "count": 3,
+       "count": 2,
        "cls": "restricted"
       },
       {
@@ -48353,24 +48353,24 @@
      "n": 25,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-10-12",
-    "days": 36,
+    "last_activity": "2026-11-17",
+    "days": 5,
     "status": "active",
     "latest": {
      "name": "swap-uniba/ecommerce-user-sim",
      "url": "https://huggingface.co/datasets/swap-uniba/ecommerce-user-sim",
      "date": "2026-10-12",
      "kind": "dataset",
-     "days": 36
+     "days": 42
     },
     "recent_repos_90d": 1,
     "latest_repo": {
      "name": "MasterWebsite",
      "url": "https://github.com/swapUniba/MasterWebsite",
-     "pushed": "2026-09-14T12:11:47Z"
+     "pushed": "2026-11-17T16:58:47Z"
     }
    }
   },
@@ -48556,7 +48556,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 31,
+     "n": 39,
      "sample": 25
     },
     "code": {
@@ -48623,24 +48623,24 @@
      "n": 36,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "swiss-ai/Apertus-v1.5-70B-base",
-     "url": "https://huggingface.co/swiss-ai/Apertus-v1.5-70B-base",
-     "date": "2026-09-23",
+     "name": "swiss-ai/tiny-processor-apertus1p5",
+     "url": "https://huggingface.co/swiss-ai/tiny-processor-apertus1p5",
+     "date": "2026-11-17",
      "kind": "model",
-     "days": 55
+     "days": 6
     },
-    "recent_repos_90d": 38,
+    "recent_repos_90d": 33,
     "latest_repo": {
      "name": "evals-post-train",
      "url": "https://github.com/swiss-ai/evals-post-train",
-     "pushed": "2026-11-17T10:41:41Z"
+     "pushed": "2026-11-23T14:48:08Z"
     }
    }
   },
@@ -48829,18 +48829,18 @@
      "n": 2,
      "sample": 2
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-06-12",
-    "days": 157,
+    "days": 163,
     "status": "quiet",
     "latest": {
      "name": "taide/embeddinggemma-GTAIDE-300m-2605",
      "url": "https://huggingface.co/taide/embeddinggemma-GTAIDE-300m-2605",
      "date": "2026-06-12",
      "kind": "model",
-     "days": 157
+     "days": 163
     },
     "recent_repos_90d": 0,
     "latest_repo": {
@@ -48993,11 +48993,11 @@
      "n": 7,
      "sample": 7
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-05-27",
-    "days": 173,
+    "days": 179,
     "status": "quiet",
     "latest": null,
     "recent_repos_90d": 0,
@@ -49141,7 +49141,7 @@
       },
       {
        "name": "Not stated",
-       "count": 2,
+       "count": 3,
        "cls": "unstated"
       },
       {
@@ -49155,8 +49155,8 @@
        "cls": "restricted"
       }
      ],
-     "n": 23,
-     "sample": 23
+     "n": 24,
+     "sample": 24
     },
     "data": {
      "status": "unstated",
@@ -49190,18 +49190,18 @@
      "n": 38,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-09-03",
-    "days": 75,
+    "days": 81,
     "status": "active",
     "latest": {
      "name": "TalTechNLP/Voxtral-Mini-4B-Realtime-estonian-2609",
      "url": "https://huggingface.co/TalTechNLP/Voxtral-Mini-4B-Realtime-estonian-2609",
      "date": "2026-09-03",
      "kind": "model",
-     "days": 75
+     "days": 81
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -49382,7 +49382,7 @@
      "chips": [
       {
        "name": "CC BY 4.0",
-       "count": 7,
+       "count": 6,
        "cls": "permissive"
       },
       {
@@ -49392,13 +49392,8 @@
       },
       {
        "name": "Llama 2",
-       "count": 3,
+       "count": 4,
        "cls": "restricted"
-      },
-      {
-       "name": "CC BY-SA 4.0",
-       "count": 3,
-       "cls": "copyleft"
       },
       {
        "name": "Not stated",
@@ -49409,6 +49404,11 @@
        "name": "Custom licence",
        "count": 2,
        "cls": "restricted"
+      },
+      {
+       "name": "MIT",
+       "count": 2,
+       "cls": "permissive"
       }
      ],
      "n": 83,
@@ -49483,10 +49483,10 @@
      "n": 38,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -49494,13 +49494,13 @@
      "url": "https://huggingface.co/tartuNLP/fastpitch-est-multistyle",
      "date": "2026-11-16",
      "kind": "model",
-     "days": 0
+     "days": 7
     },
-    "recent_repos_90d": 4,
+    "recent_repos_90d": 5,
     "latest_repo": {
-     "name": "text-to-speech-api",
-     "url": "https://github.com/TartuNLP/text-to-speech-api",
-     "pushed": "2026-11-16T12:44:50Z"
+     "name": "translation-worker",
+     "url": "https://github.com/TartuNLP/translation-worker",
+     "pushed": "2026-11-23T14:41:52Z"
     }
    }
   },
@@ -49652,11 +49652,11 @@
      "n": 15,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-08-29",
-    "days": 80,
+    "days": 86,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 1,
@@ -49928,10 +49928,10 @@
      "n": 15,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -49939,13 +49939,13 @@
      "url": "https://huggingface.co/datasets/tiiuae/OpenLVD-200m",
      "date": "2026-10-21",
      "kind": "dataset",
-     "days": 27
+     "days": 33
     },
-    "recent_repos_90d": 19,
+    "recent_repos_90d": 20,
     "latest_repo": {
      "name": "ci-test-automation",
      "url": "https://github.com/tiiuae/ci-test-automation",
-     "pushed": "2026-11-17T11:09:21Z"
+     "pushed": "2026-11-23T14:48:04Z"
     }
    }
   },
@@ -50119,7 +50119,7 @@
      "chips": [
       {
        "name": "MIT",
-       "count": 9,
+       "count": 8,
        "cls": "permissive"
       },
       {
@@ -50136,9 +50136,14 @@
        "name": "Custom licence",
        "count": 1,
        "cls": "restricted"
+      },
+      {
+       "name": "Apache-2.0",
+       "count": 1,
+       "cls": "permissive"
       }
      ],
-     "n": 93,
+     "n": 94,
      "sample": 15
     },
     "data": {
@@ -50153,10 +50158,10 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -50164,13 +50169,13 @@
      "url": "https://huggingface.co/alan-turing-institute/t0-s1.1-32B",
      "date": "2025-06-19",
      "kind": "model",
-     "days": 516
+     "days": 522
     },
-    "recent_repos_90d": 49,
+    "recent_repos_90d": 55,
     "latest_repo": {
-     "name": "AIrsenal",
-     "url": "https://github.com/alan-turing-institute/AIrsenal",
-     "pushed": "2026-11-17T09:15:53Z"
+     "name": "cryocast",
+     "url": "https://github.com/alan-turing-institute/cryocast",
+     "pushed": "2026-11-23T14:44:59Z"
     }
    }
   },
@@ -50402,24 +50407,24 @@
      "n": 1,
      "sample": 1
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-20",
+    "days": 3,
     "status": "active",
     "latest": {
      "name": "TildeAI/TildeOpen-MT-Euro-mix",
      "url": "https://huggingface.co/datasets/TildeAI/TildeOpen-MT-Euro-mix",
      "date": "2026-09-03",
      "kind": "dataset",
-     "days": 74
+     "days": 81
     },
-    "recent_repos_90d": 3,
+    "recent_repos_90d": 4,
     "latest_repo": {
      "name": "harbor-setup",
      "url": "https://github.com/tilde-nlp/harbor-setup",
-     "pushed": "2026-11-17T09:33:09Z"
+     "pushed": "2026-11-20T13:48:23Z"
     }
    }
   },
@@ -50582,18 +50587,18 @@
      "n": 8,
      "sample": 8
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-09-07",
-    "days": 70,
+    "days": 77,
     "status": "active",
     "latest": {
      "name": "tngtech/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-GGUF",
      "url": "https://huggingface.co/tngtech/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4-GGUF",
      "date": "2026-09-04",
      "kind": "model",
-     "days": 74
+     "days": 80
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -50833,7 +50838,7 @@
        "cls": "restricted"
       }
      ],
-     "n": 44,
+     "n": 45,
      "sample": 15
     },
     "data": {
@@ -50863,10 +50868,10 @@
      "n": 16,
      "sample": 16
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -50874,13 +50879,13 @@
      "url": "https://huggingface.co/togethercomputer/HybridAgent-14B-Agentic",
      "date": "2026-10-09",
      "kind": "model",
-     "days": 38
+     "days": 44
     },
-    "recent_repos_90d": 25,
+    "recent_repos_90d": 26,
     "latest_repo": {
-     "name": "together-typescript",
-     "url": "https://github.com/togethercomputer/together-typescript",
-     "pushed": "2026-11-16T22:20:26Z"
+     "name": "together-py",
+     "url": "https://github.com/togethercomputer/together-py",
+     "pushed": "2026-11-23T14:08:44Z"
     }
    }
   },
@@ -51091,7 +51096,7 @@
        "cls": "restricted"
       }
      ],
-     "n": 15,
+     "n": 16,
      "sample": 15
     },
     "data": {
@@ -51100,6 +51105,11 @@
       {
        "name": "MIT",
        "count": 11,
+       "cls": "permissive"
+      },
+      {
+       "name": "ODC-By",
+       "count": 2,
        "cls": "permissive"
       },
       {
@@ -51113,27 +51123,27 @@
        "cls": "restricted"
       }
      ],
-     "n": 14,
-     "sample": 14
+     "n": 16,
+     "sample": 16
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-16",
-    "days": 0,
+    "last_activity": "2026-11-22",
+    "days": 1,
     "status": "active",
     "latest": {
-     "name": "Transluce/Observer-Qwen3.6-27B",
-     "url": "https://huggingface.co/Transluce/Observer-Qwen3.6-27B",
-     "date": "2026-11-16",
-     "kind": "model",
-     "days": 1
+     "name": "Transluce/PosteriorBench-paper-data",
+     "url": "https://huggingface.co/datasets/Transluce/PosteriorBench-paper-data",
+     "date": "2026-11-19",
+     "kind": "dataset",
+     "days": 4
     },
-    "recent_repos_90d": 8,
+    "recent_repos_90d": 9,
     "latest_repo": {
-     "name": "introspective-oversight",
-     "url": "https://github.com/TransluceAI/introspective-oversight",
-     "pushed": "2026-11-16T18:47:05Z"
+     "name": "PosteriorBench",
+     "url": "https://github.com/TransluceAI/PosteriorBench",
+     "pushed": "2026-11-22T10:20:07Z"
     }
    }
   },
@@ -51367,10 +51377,10 @@
      "n": 12,
      "sample": 12
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-22",
     "days": 0,
     "status": "active",
     "latest": {
@@ -51378,13 +51388,13 @@
      "url": "https://huggingface.co/trillionlabs/Zoro-1-MLX-8bit",
      "date": "2026-11-17",
      "kind": "model",
-     "days": 0
+     "days": 6
     },
-    "recent_repos_90d": 8,
+    "recent_repos_90d": 11,
     "latest_repo": {
      "name": "trida-stack",
      "url": "https://github.com/trillion-labs/trida-stack",
-     "pushed": "2026-11-17T02:11:30Z"
+     "pushed": "2026-11-22T22:20:48Z"
     }
    }
   },
@@ -51599,7 +51609,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 18,
+     "n": 19,
      "sample": 15
     },
     "data": {
@@ -51639,24 +51649,24 @@
      "n": 17,
      "sample": 17
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-08-01",
-    "days": 108,
-    "status": "quiet",
+    "last_activity": "2026-10-26",
+    "days": 28,
+    "status": "active",
     "latest": {
      "name": "turing-motors/Japan-Open-Driving-Dataset-Sample",
      "url": "https://huggingface.co/datasets/turing-motors/Japan-Open-Driving-Dataset-Sample",
      "date": "2026-03-19",
      "kind": "dataset",
-     "days": 243
+     "days": 249
     },
-    "recent_repos_90d": 0,
+    "recent_repos_90d": 1,
     "latest_repo": {
-     "name": "momiji_generator",
-     "url": "https://github.com/turingmotors/momiji_generator",
-     "pushed": "2026-08-01T03:55:12Z"
+     "name": "slurmkube",
+     "url": "https://github.com/turingmotors/slurmkube",
+     "pushed": "2026-10-26T06:25:26Z"
     }
    }
   },
@@ -51853,18 +51863,13 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 19,
+       "count": 20,
        "cls": "permissive"
       },
       {
        "name": "Not stated",
        "count": 5,
        "cls": "unstated"
-      },
-      {
-       "name": "bigscience-bloom-rail-1.0",
-       "count": 1,
-       "cls": "restricted"
       }
      ],
      "n": 91,
@@ -51934,10 +51939,10 @@
      "n": 32,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -51945,13 +51950,13 @@
      "url": "https://huggingface.co/datasets/TurkuNLP/webmeta-demo-fi-sv",
      "date": "2026-10-29",
      "kind": "dataset",
-     "days": 18
+     "days": 24
     },
-    "recent_repos_90d": 16,
+    "recent_repos_90d": 14,
     "latest_repo": {
-     "name": "hplt-sampler",
-     "url": "https://github.com/TurkuNLP/hplt-sampler",
-     "pushed": "2026-11-17T09:44:49Z"
+     "name": "htr-hiski-alignment",
+     "url": "https://github.com/TurkuNLP/htr-hiski-alignment",
+     "pushed": "2026-11-23T12:26:11Z"
     }
    }
   },
@@ -52143,14 +52148,14 @@
        "cls": "copyleft"
       },
       {
-       "name": "GPL-2.0",
-       "count": 1,
-       "cls": "copyleft"
-      },
-      {
        "name": "MIT",
        "count": 1,
        "cls": "permissive"
+      },
+      {
+       "name": "GPL-2.0",
+       "count": 1,
+       "cls": "copyleft"
       }
      ],
      "n": 20,
@@ -52215,10 +52220,10 @@
      "n": 24,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -52226,13 +52231,13 @@
      "url": "https://huggingface.co/UKPLab/zoom-in-final",
      "date": "2026-09-04",
      "kind": "model",
-     "days": 74
+     "days": 80
     },
-    "recent_repos_90d": 22,
+    "recent_repos_90d": 23,
     "latest_repo": {
      "name": "CARE",
      "url": "https://github.com/UKPLab/CARE",
-     "pushed": "2026-11-17T05:31:08Z"
+     "pushed": "2026-11-23T14:46:16Z"
     }
    }
   },
@@ -52400,10 +52405,10 @@
      "n": 6,
      "sample": 6
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -52411,13 +52416,13 @@
      "url": "https://huggingface.co/Ultralytics/YOLO26",
      "date": "2026-01-26",
      "kind": "model",
-     "days": 294
+     "days": 300
     },
-    "recent_repos_90d": 46,
+    "recent_repos_90d": 38,
     "latest_repo": {
-     "name": "ultralytics",
-     "url": "https://github.com/ultralytics/ultralytics",
-     "pushed": "2026-11-17T11:40:12Z"
+     "name": "inference",
+     "url": "https://github.com/ultralytics/inference",
+     "pushed": "2026-11-23T12:45:21Z"
     }
    }
   },
@@ -52649,24 +52654,24 @@
      "n": 15,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "unsloth/MiniMax-H3-Image-GGUF",
-     "url": "https://huggingface.co/unsloth/MiniMax-H3-Image-GGUF",
-     "date": "2026-11-12",
+     "name": "unsloth/Inkling-2-Mini-GGUF",
+     "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
+     "date": "2026-11-20",
      "kind": "model",
-     "days": 4
+     "days": 3
     },
     "recent_repos_90d": 2,
     "latest_repo": {
      "name": "unsloth",
      "url": "https://github.com/unslothai/unsloth",
-     "pushed": "2026-11-17T11:41:38Z"
+     "pushed": "2026-11-23T14:49:18Z"
     }
    }
   },
@@ -52851,7 +52856,7 @@
        "cls": "permissive"
       }
      ],
-     "n": 26,
+     "n": 27,
      "sample": 25
     },
     "code": {
@@ -52893,24 +52898,24 @@
      "n": 6,
      "sample": 6
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
-     "name": "upstage/solar-pro4-tokenizer",
-     "url": "https://huggingface.co/upstage/solar-pro4-tokenizer",
-     "date": "2026-09-21",
+     "name": "upstage/solar-mini-4-5-tokenizer",
+     "url": "https://huggingface.co/upstage/solar-mini-4-5-tokenizer",
+     "date": "2026-11-20",
      "kind": "model",
-     "days": 57
+     "days": 3
     },
-    "recent_repos_90d": 6,
+    "recent_repos_90d": 10,
     "latest_repo": {
      "name": "korean-tax-calc-mcp",
      "url": "https://github.com/UpstageAI/korean-tax-calc-mcp",
-     "pushed": "2026-11-17T10:46:02Z"
+     "pushed": "2026-11-23T08:13:14Z"
     }
    }
   },
@@ -53053,18 +53058,18 @@
      "n": 88,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": null,
-    "recent_repos_90d": 31,
+    "recent_repos_90d": 43,
     "latest_repo": {
-     "name": "drac-outage-calendar",
-     "url": "https://github.com/VectorInstitute/drac-outage-calendar",
-     "pushed": "2026-11-17T10:43:58Z"
+     "name": "AIXEval",
+     "url": "https://github.com/VectorInstitute/AIXEval",
+     "pushed": "2026-11-23T14:46:05Z"
     }
    }
   },
@@ -53218,7 +53223,7 @@
      "chips": [
       {
        "name": "Not stated",
-       "count": 17,
+       "count": 16,
        "cls": "unstated"
       },
       {
@@ -53232,17 +53237,17 @@
        "cls": "restricted"
       },
       {
+       "name": "Llama 3",
+       "count": 2,
+       "cls": "restricted"
+      },
+      {
        "name": "CC BY-SA 4.0",
        "count": 1,
        "cls": "copyleft"
       },
       {
        "name": "MIT",
-       "count": 1,
-       "cls": "permissive"
-      },
-      {
-       "name": "Apache-2.0",
        "count": 1,
        "cls": "permissive"
       }
@@ -53314,18 +53319,18 @@
      "n": 19,
      "sample": 19
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-11-02",
-    "days": 15,
+    "days": 21,
     "status": "active",
     "latest": {
      "name": "airesearch/ReTool-SFT-Rewrite",
      "url": "https://huggingface.co/datasets/airesearch/ReTool-SFT-Rewrite",
      "date": "2026-10-23",
      "kind": "dataset",
-     "days": 24
+     "days": 31
     },
     "recent_repos_90d": 1,
     "latest_repo": {
@@ -53505,18 +53510,18 @@
      "n": 18,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-13",
-    "days": 4,
+    "last_activity": "2026-11-17",
+    "days": 5,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 1,
     "latest_repo": {
      "name": "practicals",
      "url": "https://github.com/ox-vgg/practicals",
-     "pushed": "2026-11-13T00:51:42Z"
+     "pushed": "2026-11-17T19:05:30Z"
     }
    }
   },
@@ -53688,18 +53693,18 @@
      "n": 87,
      "sample": 15
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-13",
-    "days": 3,
+    "last_activity": "2026-11-22",
+    "days": 0,
     "status": "active",
     "latest": null,
     "recent_repos_90d": 15,
     "latest_repo": {
-     "name": "OpenRestor",
-     "url": "https://github.com/vita-epfl/OpenRestor",
-     "pushed": "2026-11-13T14:41:15Z"
+     "name": "Proprio",
+     "url": "https://github.com/vita-epfl/Proprio",
+     "pushed": "2026-11-22T20:20:35Z"
     }
    }
   },
@@ -53903,10 +53908,10 @@
      "n": 261,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -53914,13 +53919,13 @@
      "url": "https://huggingface.co/datasets/Voxel51/sharpa-assemble-gears-410ep",
      "date": "2026-10-07",
      "kind": "dataset",
-     "days": 40
+     "days": 46
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 8,
     "latest_repo": {
-     "name": "design-system",
-     "url": "https://github.com/voxel51/design-system",
-     "pushed": "2026-11-17T00:51:29Z"
+     "name": "fiftyone-plugins",
+     "url": "https://github.com/voxel51/fiftyone-plugins",
+     "pushed": "2026-11-23T14:40:09Z"
     }
    }
   },
@@ -54059,14 +54064,14 @@
        "cls": "permissive"
       },
       {
-       "name": "Not stated",
-       "count": 4,
-       "cls": "unstated"
-      },
-      {
        "name": "Gemma terms",
        "count": 4,
        "cls": "restricted"
+      },
+      {
+       "name": "Not stated",
+       "count": 4,
+       "cls": "unstated"
       },
       {
        "name": "Llama 3",
@@ -54114,18 +54119,18 @@
      "n": 13,
      "sample": 13
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
     "last_activity": "2026-09-15",
-    "days": 62,
+    "days": 68,
     "status": "active",
     "latest": {
      "name": "ytu-ce-cosmos/english-flow-drafter-prompts",
      "url": "https://huggingface.co/datasets/ytu-ce-cosmos/english-flow-drafter-prompts",
      "date": "2026-09-14",
      "kind": "dataset",
-     "days": 63
+     "days": 69
     },
     "recent_repos_90d": null,
     "latest_repo": null
@@ -54376,10 +54381,10 @@
      "n": 32,
      "sample": 20
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -54387,13 +54392,13 @@
      "url": "https://huggingface.co/zai-org/GLM-5.3-Flash-BF16",
      "date": "2026-08-25",
      "kind": "model",
-     "days": 84
+     "days": 90
     },
-    "recent_repos_90d": 7,
+    "recent_repos_90d": 5,
     "latest_repo": {
      "name": "zcode-plugins",
      "url": "https://github.com/zai-org/zcode-plugins",
-     "pushed": "2026-11-17T03:33:26Z"
+     "pushed": "2026-11-23T13:24:31Z"
     }
    }
   },
@@ -54602,8 +54607,13 @@
      "sample": 15
     },
     "data": {
-     "status": "mixed",
+     "status": "restricted",
      "chips": [
+      {
+       "name": "Custom licence",
+       "count": 2,
+       "cls": "restricted"
+      },
       {
        "name": "Not stated",
        "count": 2,
@@ -54615,37 +54625,32 @@
        "cls": "permissive"
       },
       {
-       "name": "Custom licence",
-       "count": 1,
-       "cls": "restricted"
-      },
-      {
        "name": "CC",
        "count": 1,
        "cls": "restricted"
       }
      ],
-     "n": 6,
-     "sample": 6
+     "n": 7,
+     "sample": 7
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
-    "days": 0,
+    "last_activity": "2026-11-21",
+    "days": 2,
     "status": "active",
     "latest": {
      "name": "Zyphra/ZONOS3-Mini-transformers",
      "url": "https://huggingface.co/Zyphra/ZONOS3-Mini-transformers",
      "date": "2026-11-16",
      "kind": "model",
-     "days": 1
+     "days": 7
     },
-    "recent_repos_90d": 11,
+    "recent_repos_90d": 12,
     "latest_repo": {
-     "name": "zyphra-textnorm",
-     "url": "https://github.com/Zyphra/zyphra-textnorm",
-     "pushed": "2026-11-17T08:05:41Z"
+     "name": "ZTTS2-Eval",
+     "url": "https://github.com/Zyphra/ZTTS2-Eval",
+     "pushed": "2026-11-21T08:57:49Z"
     }
    }
   },
@@ -54814,17 +54819,12 @@
      "chips": [
       {
        "name": "Apache-2.0",
-       "count": 10,
+       "count": 12,
        "cls": "permissive"
       },
       {
        "name": "CC BY-NC-SA 4.0",
        "count": 7,
-       "cls": "restricted"
-      },
-      {
-       "name": "Llama 2",
-       "count": 3,
        "cls": "restricted"
       },
       {
@@ -54838,9 +54838,9 @@
        "cls": "permissive"
       },
       {
-       "name": "Not stated",
-       "count": 1,
-       "cls": "unstated"
+       "name": "Llama 2",
+       "count": 2,
+       "cls": "restricted"
       }
      ],
      "n": 40,
@@ -54920,10 +54920,10 @@
      "n": 10,
      "sample": 10
     },
-    "as_of": "2026-11-17"
+    "as_of": "2026-11-23"
    },
    "fresh": {
-    "last_activity": "2026-11-17",
+    "last_activity": "2026-11-23",
     "days": 0,
     "status": "active",
     "latest": {
@@ -54931,13 +54931,13 @@
      "url": "https://huggingface.co/ufal/corpipe26-onestage-corefud1.4-xl-260702",
      "date": "2026-07-03",
      "kind": "model",
-     "days": 136
+     "days": 143
     },
-    "recent_repos_90d": 46,
+    "recent_repos_90d": 53,
     "latest_repo": {
-     "name": "linpipe",
-     "url": "https://github.com/ufal/linpipe",
-     "pushed": "2026-11-17T11:23:03Z"
+     "name": "udpipe",
+     "url": "https://github.com/ufal/udpipe",
+     "pushed": "2026-11-23T14:35:13Z"
     }
    }
   }
